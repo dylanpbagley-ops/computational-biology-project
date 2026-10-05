@@ -1,0 +1,24 @@
+issue_id	issue	inherited_status	current_requirement	execution_state	evidence
+W01	Historical table provenance	repaired	Use amendment history in future reporting	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W02	Monotone versus arbitrary responses	repaired	Independent mathematical review desirable	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W03	AUC claimed to define frontier	repaired	Student understanding	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W04	Separate tissue bounds claimed jointly attainable	repaired	Review any later application using simultaneous constraints	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W05	Empirical score claimed derived from theorem	repaired	No clinical harm calibration established	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W06	Clinical endpoint definitions overlap	open	Qualified independent endpoint review	open_dependency	passes 2-5/current status; forms do not close adjudication
+W07	Species modality and mechanism errors	partly_resolved	Complete source adjudication and amended label version	open_dependency	passes 2-5/current status; forms do not close adjudication
+W08	Excluded targets overlooked	partly_resolved	Review exclusions with same endpoint rules	open_dependency	passes 2-5/current status; forms do not close adjudication
+W09	Blood-lineage confounding	partly_resolved	Repeat after endpoint review and independent evaluation	open_dependency	passes 2-5/current status; forms do not close adjudication
+W10	Modality and regimen confounding	partly_resolved	Agent-study outcome table and target-clustered validation	open_dependency	passes 2-5/current status; forms do not close adjudication
+W11	Independent validation overclaim	repaired_interpretation	New independent eligible outcomes remain absent	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W12	Prospective validation and versioning	open	Verify registration timestamp rule version and future outcome dates	open_dependency	passes 2-5/current status; forms do not close adjudication
+W13	Novelty overclaim	repaired_interpretation	Direct fair comparison on adjudicated outcomes	open_dependency	passes 2-5/current status; forms do not close adjudication
+W14	Discovery selection and multiple analyses	open	Independent evaluation cannot be manufactured retrospectively	open_dependency	passes 2-5/current status; forms do not close adjudication
+W15	RNA protein isoform and reference resolution	open	Matched measurements or justified sensitivity analysis	open_dependency	passes 2-5/current status; forms do not close adjudication
+W16	Cell abundance exposure and harm weights	open	Independent measurements needed for mechanistic clinical interpretation	open_dependency	passes 2-5/current status; forms do not close adjudication
+W17	Cell-level versus subject-level independence	repaired_interpretation	Cluster by target in future agent-level analysis	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W18	Negative and inconclusive controls	repaired_interpretation	Report all prespecified outcomes	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W19	Documentation drift	partly_resolved	Historical archive still contains superseded claims	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W20	Software verification scope	partly_resolved	Passing tests cannot adjudicate scientific claims	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication
+W21	Dataset expansion feasibility	partly_resolved	Eligibility review required before counting new independent targets	open_dependency	passes 2-5/current status; forms do not close adjudication
+W22	Student ownership and fair documentation	open	Student authored disclosure writing and sponsor paperwork	open_dependency	passes 2-5/current status; forms do not close adjudication
+W23	Award and publication forecasts	repaired_interpretation	No outcome guarantee or calibrated probability available	preserve_existing_repair; no new closure	passes 2-5/current status; forms do not close adjudication

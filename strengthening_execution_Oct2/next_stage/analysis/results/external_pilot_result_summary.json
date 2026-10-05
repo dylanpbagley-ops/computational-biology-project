@@ -1,0 +1,105 @@
+{
+  "protocol_sha256": "aa7b16216786b308bd8fb49f375fb481793fc3169bd3e4719bc9966892a7029b",
+  "prior_protocol_v1_sha256": "799a246abb8fe939e4937fd5bd9f97eaf04e6a6222b8aee56d720b3544c8478c",
+  "earlier_reported_lock_sha256": "5f5c961d…f793cd2 (not yet located as a preserved file)",
+  "workbook_sha256": "2fc3f9e19ab82097f6a50689de7bf4083aeb81aba442f263ea81afe8b150b94d",
+  "locked_pilot_manifest_sha256": "43f17abd39a15136aeaaecb183887752c6a76d38d96e1626014abd60953508cb",
+  "download_manifest_sha256": "04f24edf9473468838bd377477ea08590399c9cf1820272d5eaddca44fea5864",
+  "selected_GSM_tables": 86,
+  "selected_batch_ids": 86,
+  "selected_annotation_cell_ids": 12063,
+  "exact_joined_unique_cells": 12063,
+  "exact_joined_primary_healthy_and_MM_cells_excluding_preexposed_code": 10065,
+  "exact_joined_cells_in_preexposed_code_excluded_from_primary": 994,
+  "primary_healthy_codes_selected": 8,
+  "primary_healthy_codes_nonempty_exact_join": 8,
+  "primary_mm_codes_selected": 15,
+  "primary_mm_codes_nonempty_exact_join_excluding_preexposed": 15,
+  "primary_healthy_codes_meeting_50_cell_sensitivity": 8,
+  "primary_mm_codes_meeting_50_cell_sensitivity": 12,
+  "primary_four_fold_comparison_available": true,
+  "primary_four_fold_comparison_note": "four-fold code-level comparison completed",
+  "50_cell_sensitivity_four_fold_comparison_available": true,
+  "50_cell_sensitivity_four_fold_comparison_note": "four-fold code-level comparison completed",
+  "preexposed_codes_excluded_from_primary_metrics": [
+    "tlv53"
+  ],
+  "counts_by_source_group": {
+    "healthy_ambiguous_malignant_label": 439,
+    "healthy_normal_pc": 3308,
+    "mm_malignant": 7655,
+    "mm_normal_pc_prior_art_reference": 661
+  },
+  "matrix_total_definition": "sum of all nonnegative integer gene-row molecule counts per cell",
+  "normalization": "10,000 * marker mRNA molecule count / all-gene-row molecule sum per cell",
+  "cv_fold_assignments": {
+    "all_nonempty_primary": {
+      "healthy": {
+        "hip6": 0,
+        "hip5": 1,
+        "hip11": 2,
+        "hipb18": 3,
+        "hip16": 0,
+        "hip15": 1,
+        "hip10": 2,
+        "hip12": 3
+      },
+      "mm": {
+        "028-0602-006": 0,
+        "hmc17": 1,
+        "cart_p21": 2,
+        "hmc21": 3,
+        "028-0602-007": 0,
+        "tlv48": 1,
+        "bel03": 2,
+        "01-004": 3,
+        "tlv69": 0,
+        "kydarndmm04": 1,
+        "10-005": 2,
+        "cart_p22": 3,
+        "10-006": 0,
+        "04-005": 1,
+        "01-009": 2
+      }
+    },
+    "min50_cells_sensitivity": {
+      "healthy": {
+        "hip6": 0,
+        "hip5": 1,
+        "hip11": 2,
+        "hipb18": 3,
+        "hip16": 0,
+        "hip15": 1,
+        "hip10": 2,
+        "hip12": 3
+      },
+      "mm": {
+        "cart_p22": 0,
+        "hmc17": 1,
+        "10-005": 2,
+        "01-004": 3,
+        "tlv48": 0,
+        "04-005": 1,
+        "hmc21": 2,
+        "kydarndmm04": 3,
+        "bel03": 0,
+        "cart_p21": 1,
+        "10-006": 2,
+        "01-009": 3
+      }
+    }
+  },
+  "allowed_interpretation": "small, within-GSE305971 code-held-out threshold-policy pilot only; no clinical or population-level claim",
+  "data_gate_note": "Four folds require at least four nonempty putative codes per group; this is an analysis-availability condition, not evidence of precision. Every nonempty code remains in primary descriptive results; the 50-cell screen is sensitivity only.",
+  "outputs": [
+    "external_pilot_selected_cells.tsv",
+    "external_pilot_file_join_audit.tsv",
+    "external_pilot_code_flow.tsv",
+    "external_pilot_code_metrics.tsv",
+    "external_pilot_paired_contrasts.tsv",
+    "external_pilot_cv_thresholds.tsv",
+    "external_pilot_cv_by_code.tsv",
+    "external_pilot_cv_summary.tsv",
+    "external_pilot_uncertain_label_sensitivity.tsv"
+  ]
+}

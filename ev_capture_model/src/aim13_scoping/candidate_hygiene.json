@@ -1,0 +1,1936 @@
+{
+ "n_candidates": 214,
+ "n_hard_excluded": 80,
+ "n_pass_and_not_already_pursued": 128,
+ "n_pass": 134,
+ "by_reason": {
+  "ig_or_tcr": 6,
+  "no_membrane_support": 80
+ },
+ "tier_counts_among_pass": {
+  "A": 132,
+  "B": 2
+ },
+ "positive_control": {
+  "recovered": [
+   "LILRB4",
+   "TNFRSF13C",
+   "TNFRSF13B",
+   "CD79A",
+   "CSF3R",
+   "CLEC12A",
+   "CD37",
+   "SIGLEC6",
+   "CD27",
+   "GYPA"
+  ],
+  "fail_hygiene": {},
+  "tier_B": []
+ },
+ "false_exclusion_check": {
+  "n_known": 111,
+  "n_annotated": 107,
+  "n_fail": 6,
+  "false_exclusion_rate_upper_bound": 0.056074766355140186,
+  "fails": {
+   "B3GALT5": [
+    "no_membrane_support"
+   ],
+   "CFC1B": [
+    "no_membrane_support"
+   ],
+   "CTAG1B": [
+    "no_membrane_support"
+   ],
+   "FAP": [
+    "no_membrane_support"
+   ],
+   "FN1": [
+    "no_membrane_support"
+   ],
+   "KLK2": [
+    "no_membrane_support"
+   ]
+  }
+ },
+ "annotations": {
+  "IGKV3D-15": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "ig_or_tcr",
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "VPREB1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD1B": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD1E": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "IGKV3OR2-268": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "ig_or_tcr",
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "LILRB4": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD3D": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "IGKV3D-11": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "ig_or_tcr",
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "GYPA": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL1R2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "IGKV3-20": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "ig_or_tcr",
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD247": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IGKV3D-20": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "ig_or_tcr",
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "RHAG": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL1RL1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "TNFRSF13C": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "VCAM1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD3E": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SAMSN1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD27": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SIRPB1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "IGKV3-11": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "ig_or_tcr",
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "TNFRSF13B": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CSF3R": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD8B": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "SELL": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "FCGR2A": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "LY9": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD79A": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PLXNC1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL2RB": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "FCGR1A": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "KCNJ15": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "EVI2B": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CSF2RB": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD28": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "FGR": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CLEC12A": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "FCGR2B": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "LCP1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "DOK3": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "LAX1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ARHGAP15": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CXCR5": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "BASP1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CCR2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SLAMF6": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TLR10": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ADAM8": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "LST1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "APOBR": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CCR1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SLAMF1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD53": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SELPLG": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "FCMR": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "APBB1IP": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD4": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TNFRSF1B": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD69": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PTAFR": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CYTH4": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "P2RX5": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "GPR183": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SPN": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PTPRCAP": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "ARHGAP9": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SLC40A1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "HCLS1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD86": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "FYB1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CLEC7A": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "WAS": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TYROBP": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TNFSF8": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SIRPA": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SASH3": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SLC2A3": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD96": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL21R": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PAG1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "MYO1G": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD36": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "OLR1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD37": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ICAM3": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PTX3": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": true,
+   "secretome_annotated": true
+  },
+  "ITGB2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL10RA": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "BTK": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL2RG": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "HCST": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "ITGAL": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "GNG2": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD83": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CSF2RA": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "RASSF3": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ITGB7": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TNFSF13B": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD300A": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "PTK2B": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "KLHL6": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "LAT2": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "DOCK8": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ITGA4": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "RASAL3": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL4R": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CD48": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "THBD": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SKAP1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CLIC2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "GYPC": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SYK": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PPP1R16B": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "C1orf54": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "BLNK": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL6R": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "HSH2D": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SEMA4D": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CCDC69": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD72": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "HERPUD1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "KCNE3": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TRIB1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IL12RB1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "GAS7": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ARL4C": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SLC7A5": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TXNDC11": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ARHGEF6": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TGFBR1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "SWAP70": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "DAGLB": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "AKAP10": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "DCT": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ERVFRD-1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "GPR50": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PSG1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "ITGB3": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "SLCO1B3": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ASGR2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SCEL": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PI3": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "RAET1L": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "LIPI": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "GAGE12J": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "S100A9": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "GABRA5": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ITGA2B": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TEX13C": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SPINK13": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "S100A14": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "GAGE2A": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ASB5": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ISLR": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "GAGE2E": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CHRNA3": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "KLK7": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "ANPEP": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "HAPLN3": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "GAGE12H": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CCDC136": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TM4SF4": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CAVIN2": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ITGA7": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CST6": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "TEKTIP1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ADORA2A": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "LOXHD1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PPL": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "IGLL1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "PODXL": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CD248": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CHRNA1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CLDN2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "OCA2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "AQP5": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TMEM40": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "IRAG2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ALPP": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "SIGLEC6": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "CCR7": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TGM1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "GAGE13": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CA14": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "KLRK1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "GGT1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": true
+  },
+  "SCHIP1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CPA4": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "MCAM": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CALML5": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TM4SF5": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "RASGRP2": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "APOD": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "GFI1B": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "DOK2": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "ADAM12": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "ICAM2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "MISP": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "SSTR3": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TM4SF18": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "RHOXF2B": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "GPR143": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "COL17A1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": true
+  },
+  "IL2RA": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CHRNA2": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "TMPRSS15": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "CHRND": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PLPP1": {
+   "annotated": true,
+   "hard_exclude": false,
+   "reasons": [],
+   "tier": "A",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "PPP1R27": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "MYL4": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "MPP1": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  },
+  "LGALS4": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": true,
+   "secretome_annotated": false
+  },
+  "ANXA13": {
+   "annotated": true,
+   "hard_exclude": true,
+   "reasons": [
+    "no_membrane_support"
+   ],
+   "tier": "B",
+   "if_uncertain": false,
+   "secretome_annotated": false
+  }
+ }
+}

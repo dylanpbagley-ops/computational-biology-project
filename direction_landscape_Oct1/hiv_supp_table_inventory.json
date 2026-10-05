@@ -1,0 +1,46 @@
+[
+  {
+    "table": 0,
+    "rows": 21,
+    "max_columns": 7,
+    "first_rows": [
+      [
+        "",
+        "Best % Coverage (IC80)",
+        "Best % Coverage (IC50)"
+      ],
+      [
+        "# of bnAbs in combination",
+        "2 or more bnAbs active",
+        "3 or morebnAbs active ",
+        "4 or morebnAbs active",
+        "2 or more bnAbs active",
+        "3 or morebnAbs active",
+        "4 or morebnAbs active"
+      ],
+      [
+        "",
+        "IC80 < 1 \u03bcg/ml",
+        "IC50 < 1\u03bcg/ml"
+      ],
+      [
+        "2",
+        "44",
+        "",
+        "",
+        "64.5",
+        "",
+        ""
+      ],
+      [
+        "3",
+        "67.5",
+        "19.5",
+        "",
+        "87",
+        "44.5",
+        ""
+      ]
+    ]
+  }
+]

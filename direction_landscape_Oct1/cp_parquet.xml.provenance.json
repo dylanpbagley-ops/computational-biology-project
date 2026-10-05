@@ -1,0 +1,9 @@
+{
+  "url": "https://cellpainting-gallery.s3.amazonaws.com/?list-type=2&prefix=cpg0016-jump/source_4/workspace/backend/&max-keys=8",
+  "resolved_url": "https://cellpainting-gallery.s3.amazonaws.com/?list-type=2&prefix=cpg0016-jump/source_4/workspace/backend/&max-keys=8",
+  "status": 200,
+  "content_type": "application/xml",
+  "bytes": 2733,
+  "sha256": "53cd0ed7ca24d33ebc2c416bf67b9f518d727245aa9fe72108adfd7b1d447298",
+  "retrieved_utc": "2026-10-02T07:13:24.912844+00:00"
+}

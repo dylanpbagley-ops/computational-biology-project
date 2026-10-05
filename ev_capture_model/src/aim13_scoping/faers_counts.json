@@ -1,0 +1,147 @@
+{
+ "source": "openFDA drug/event (FAERS), api.fda.gov, meta.last_updated 2026-07-30, fetched 2026-09-29",
+ "query": "search=patient.reaction.reactionmeddrapt.exact:(PTs OR-ed) [AND seriousnessdeath:1]; count = meta.results.total",
+ "systems": {
+  "liver": {
+   "reports": 94244,
+   "deaths": 26518,
+   "severe": 35188
+  },
+  "biliary": {
+   "reports": 26646,
+   "deaths": 2840,
+   "severe": 4215
+  },
+  "kidney_tubule": {
+   "reports": 349345,
+   "deaths": 60989,
+   "severe": 95097
+  },
+  "kidney_glomerulus": {
+   "reports": 26389,
+   "deaths": 1934,
+   "severe": 3318
+  },
+  "heart_muscle": {
+   "reports": 115163,
+   "deaths": 33238,
+   "severe": 44340
+  },
+  "lung": {
+   "reports": 171161,
+   "deaths": 65334,
+   "severe": 86864
+  },
+  "brain": {
+   "reports": 48537,
+   "deaths": 7791,
+   "severe": 13933
+  },
+  "peripheral_nerve": {
+   "reports": 109046,
+   "deaths": 5251,
+   "severe": 15048
+  },
+  "colon_gut": {
+   "reports": 57420,
+   "deaths": 8418,
+   "severe": 12510
+  },
+  "upper_gi": {
+   "reports": 111719,
+   "deaths": 9954,
+   "severe": 18283
+  },
+  "pancreas_exocrine": {
+   "reports": 73826,
+   "deaths": 5521,
+   "severe": 10198
+  },
+  "skin": {
+   "reports": 62637,
+   "deaths": 8540,
+   "severe": 18483
+  },
+  "melanocyte": {
+   "reports": 2275,
+   "deaths": 55,
+   "severe": 185
+  },
+  "neutrophil": {
+   "reports": 208519,
+   "deaths": 27381,
+   "severe": 47774
+  },
+  "red_cell": {
+   "reports": 191242,
+   "deaths": 23815,
+   "severe": 37877
+  },
+  "platelet": {
+   "reports": 114175,
+   "deaths": 20172,
+   "severe": 31243
+  },
+  "marrow_stem": {
+   "reports": 110248,
+   "deaths": 18461,
+   "severe": 29869
+  },
+  "lymphoid": {
+   "reports": 36932,
+   "deaths": 3865,
+   "severe": 6361
+  },
+  "thyroid": {
+   "reports": 33956,
+   "deaths": 2389,
+   "severe": 5289
+  },
+  "adrenal": {
+   "reports": 13581,
+   "deaths": 1042,
+   "severe": 2548
+  },
+  "islet": {
+   "reports": 28679,
+   "deaths": 1680,
+   "severe": 5682
+  },
+  "pituitary": {
+   "reports": 3614,
+   "deaths": 301,
+   "severe": 671
+  },
+  "eye_surface": {
+   "reports": 54795,
+   "deaths": 575,
+   "severe": 3300
+  },
+  "retina_nerve": {
+   "reports": 169345,
+   "deaths": 3904,
+   "severe": 20345
+  },
+  "reproductive": {
+   "reports": 3200,
+   "deaths": 55,
+   "severe": 430
+  },
+  "salivary": {
+   "reports": 81203,
+   "deaths": 4014,
+   "severe": 8355
+  },
+  "vascular": {
+   "reports": 23046,
+   "deaths": 3222,
+   "severe": 5747
+  },
+  "skeletal_muscle": {
+   "reports": 56518,
+   "deaths": 5816,
+   "severe": 15765
+  }
+ },
+ "severe_definition": "reports with seriousnessdeath OR seriousnesslifethreatening OR seriousnessdisabling = 1 (added after death-based weights were seen; see faers_precommitment_addendum.md)"
+}

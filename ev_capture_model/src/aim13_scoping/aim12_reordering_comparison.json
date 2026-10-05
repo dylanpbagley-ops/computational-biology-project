@@ -1,0 +1,29 @@
+{
+ "ungated": {
+  "n": 41,
+  "reordered": 13,
+  "grid": 27,
+  "frac": 0.48148148148148145,
+  "max_spread": 0.5314511820154524,
+  "crossing_pairs": 241,
+  "total_pairs": 820
+ },
+ "Bgated": {
+  "n": 41,
+  "reordered": 14,
+  "grid": 27,
+  "frac": 0.5185185185185185,
+  "max_spread": 0.42292717725344997,
+  "crossing_pairs": 196,
+  "total_pairs": 820
+ },
+ "clone": {
+  "n": 19,
+  "reordered": 11,
+  "grid": 27,
+  "frac": 0.4074074074074074,
+  "max_spread": 0.15000611596921182,
+  "crossing_pairs": 18,
+  "total_pairs": 171
+ }
+}

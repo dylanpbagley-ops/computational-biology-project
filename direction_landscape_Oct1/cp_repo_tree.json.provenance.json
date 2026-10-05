@@ -1,0 +1,9 @@
+{
+  "url": "https://api.github.com/repos/jump-cellpainting/2024_Chandrasekaran_NatureMethods_CPJUMP1/git/trees/main?recursive=1",
+  "resolved_url": "https://api.github.com/repos/jump-cellpainting/2024_Chandrasekaran_NatureMethods_CPJUMP1/git/trees/main?recursive=1",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 698279,
+  "sha256": "554e3a3be7b74c7479eaeb1edde78665bd0e624f77cfa97a7ff42d9bb8669e3b",
+  "retrieved_utc": "2026-10-02T07:14:53.463703+00:00"
+}

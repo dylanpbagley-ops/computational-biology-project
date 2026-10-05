@@ -1,0 +1,29 @@
+{
+  "selection_is_marker_blind": true,
+  "selection_rule": "Biopsy.Sequence=1; Tissue=BM; Method=MARS; Healthy+Normal_PC controls; NDMM/RRMM+Malignant cases; NDMM/RRMM+Normal_PC cells retained only for same-study paired-expression comparator; Healthy+Malignant cells retained only for uncertain-label sensitivity; putative participant grouping by Hospital.Code.",
+  "anomalous_label_rule": "Healthy+Malignant annotations are separately inventoried for a prespecified secondary sensitivity only; primary controls use Healthy+Normal_PC. The ambiguous cells are not called true malignant or normal cells.",
+  "putative_codes_by_group": {
+    "healthy_ambiguous_malignant_label": 15,
+    "healthy_normal_pc": 17,
+    "mm_malignant": 106,
+    "mm_normal_pc_prior_art_reference": 86
+  },
+  "annotated_candidate_cells_by_group_before_count_table_join": {
+    "healthy_ambiguous_malignant_label": 659,
+    "healthy_normal_pc": 5614,
+    "mm_malignant": 55224,
+    "mm_normal_pc_prior_art_reference": 4011
+  },
+  "selected_GSM_file_count": 456,
+  "manifest_rows": 717,
+  "manifest_rows_by_group": {
+    "healthy_ambiguous_malignant_label": 39,
+    "healthy_normal_pc": 60,
+    "mm_malignant": 392,
+    "mm_normal_pc_prior_art_reference": 226
+  },
+  "eligible_batches_without_exactly_one_MARS_GEO_file": {},
+  "selected_manifest": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\strengthening_execution_Oct2\\next_stage\\analysis\\results\\external_pilot_manifest.tsv",
+  "selected_manifest_sha256": "e3e21adee57ab689b6a69086b4e288d0e7176c7e733d3c01d55e718db29dcbe1",
+  "important_limit": "Hospital.Code is used conservatively to keep possible repeat specimens together; the source does not validate it as a unique person identifier. Workbook annotation counts are candidates only until exact cell-ID joins to count matrices are measured."
+}

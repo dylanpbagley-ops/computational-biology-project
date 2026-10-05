@@ -1,0 +1,15 @@
+{
+  "original_auc_reproduced": 0.9138755980861244,
+  "historical_files_unchanged": 19,
+  "prior_pass_files_unchanged": 17,
+  "all_assignments_exhaustively_evaluated": 1024,
+  "specification_sha256": "1cdf08274150e3474ba5ad4433aca6774a845d3671a0c4619d2fabb36c16edb3",
+  "source_hashes": {
+    "target_labels.py": "639b481ae01d44f2bbd44de532b9ff7bb2586ad02ff3295b857e4080c811bd2d",
+    "wholebody_v2.json": "25488d4817e7012e8716fe457891aa829559721a029607e77dc92f9d908713ad",
+    "flag_cleanup.json": "85f1164c780c0efcb34f488f948e8a0a3560860a635ab818ac9354b2482b8c4c"
+  },
+  "unit_tests_passed": 5,
+  "report_headline_numbers_checked": true,
+  "constrained_assignments": 256
+}

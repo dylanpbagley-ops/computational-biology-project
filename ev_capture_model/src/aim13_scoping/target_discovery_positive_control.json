@@ -1,0 +1,40 @@
+{
+ "known": {
+  "LILRB4": "AML/myeloma CAR-T and antibody (IO-202), active trials",
+  "TNFRSF13C": "BAFF-R CAR-T, B-cell malignancy trials",
+  "TNFRSF13B": "TACI, myeloma bispecific/CAR target",
+  "CD79A": "partner of CD79B; polatuzumab targets CD79B",
+  "CSF3R": "G-CSF receptor, AML target under investigation",
+  "CLEC12A": "CLL-1, AML CAR-T and bispecific trials",
+  "FLT3": "AML CAR-T and bispecific trials",
+  "KIT": "CD117, AML/mastocytosis target",
+  "CD37": "naratuximab, B-cell lymphoma",
+  "CD5": "T-cell malignancy CAR-T trials",
+  "CD7": "T-ALL CAR-T trials",
+  "HAVCR2": "TIM-3, AML antibody trials",
+  "ADGRE2": "EMR2, AML CAR-T",
+  "SIGLEC6": "AML CAR-T",
+  "CD27": "varlilumab",
+  "GYPA": "glycophorin A, erythroleukemia"
+ },
+ "ranks": {
+  "LILRB4": 6,
+  "TNFRSF13C": 16,
+  "TNFRSF13B": 23,
+  "CD79A": 29,
+  "CSF3R": 24,
+  "CLEC12A": 38,
+  "FLT3": null,
+  "KIT": null,
+  "CD37": 85,
+  "CD5": null,
+  "CD7": null,
+  "HAVCR2": null,
+  "ADGRE2": null,
+  "SIGLEC6": 181,
+  "CD27": 20,
+  "GYPA": 9
+ },
+ "n_candidates": 214,
+ "recovered": 10
+}

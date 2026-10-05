@@ -1,0 +1,16 @@
+{
+  "new_target_source_records": 25,
+  "original_targets_with_representative_source_coverage": 30,
+  "original_targets_total": 30,
+  "original_targets_with_human_report_located": 29,
+  "preclinical_only_source_used_for_original_target": [
+    "FAP"
+  ],
+  "complete_clinical_adjudications": 0,
+  "new_performance_estimates": 0,
+  "review_form_rows": 30,
+  "all_review_judgments_blank": true,
+  "protected_historical_files_unchanged": 19,
+  "prior_pass_manifest_files_unchanged": 9,
+  "scope": "File/schema/coverage checks; coverage is not comprehensive review or clinical validation."
+}

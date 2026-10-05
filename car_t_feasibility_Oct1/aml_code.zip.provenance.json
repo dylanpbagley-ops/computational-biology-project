@@ -1,0 +1,33 @@
+{
+  "requested_url": "https://zenodo.org/api/records/12823159/files/CAR%20T%20cell%20performance.zip/content",
+  "resolved_url": "https://zenodo.org/api/records/12823159/files/CAR%20T%20cell%20performance.zip/content",
+  "status": 200,
+  "headers": {
+    "server": "nginx",
+    "date": "Fri, 02 Oct 2026 06:03:16 GMT",
+    "content-type": "application/octet-stream",
+    "content-length": "750916",
+    "content-disposition": "attachment; filename=\"CAR T cell performance.zip\"",
+    "oc-checksum": "MD5:1b3256e93359c4d02ce52672cb8a9669",
+    "accept-ranges": "bytes",
+    "content-security-policy": "default-src 'self' fonts.googleapis.com *.gstatic.com data: 'unsafe-inline' 'unsafe-eval' blob: zenodo-broker.web.cern.ch zenodo-broker-qa.web.cern.ch maxcdn.bootstrapcdn.com cdnjs.cloudflare.com ajax.googleapis.com webanalytics.web.cern.ch",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-permitted-cross-domain-policies": "none",
+    "x-frame-options": "sameorigin",
+    "x-xss-protection": "1; mode=block",
+    "x-ratelimit-limit": "133",
+    "x-ratelimit-remaining": "131",
+    "x-ratelimit-reset": "1790921000",
+    "retry-after": "3",
+    "strict-transport-security": "max-age=31556926; includeSubDomains",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Content-Type, ETag, Link, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset",
+    "x-source": "files-primary",
+    "connection": "close"
+  },
+  "bytes": 750916,
+  "sha256": "5761d36539adc93db02400916d1e17e6f31d5c91756c3d14c0d6174996d6ca17",
+  "retrieved_utc": "2026-10-02T06:03:19.155035+00:00"
+}

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033}.axis{stroke:#475569;stroke-width:1}.grid{stroke:#dbe3ec;stroke-width:1}</style>
+<text x="480" y="22" text-anchor="middle" font-size="16" font-weight="bold">Donor depth and frozen-threshold tail fraction</text>
+<text x="202.0" y="33" text-anchor="middle" font-size="14" font-weight="bold">TNFRSF17</text>
+<line class="axis" x1="72" y1="292" x2="332" y2="292"/>
+<line class="axis" x1="72" y1="42" x2="72" y2="292"/>
+<line class="grid" x1="72" y1="292.00" x2="332" y2="292.00"/>
+<text x="65" y="295.00" text-anchor="end" font-size="9">0%</text>
+<line class="axis" x1="72.00" y1="292" x2="72.00" y2="296"/>
+<text x="72.00" y="307" text-anchor="middle" font-size="8">3178</text>
+<line class="grid" x1="72" y1="229.50" x2="332" y2="229.50"/>
+<text x="65" y="232.50" text-anchor="end" font-size="9">12%</text>
+<line class="axis" x1="137.00" y1="292" x2="137.00" y2="296"/>
+<text x="137.00" y="307" text-anchor="middle" font-size="8">8312</text>
+<line class="grid" x1="72" y1="167.00" x2="332" y2="167.00"/>
+<text x="65" y="170.00" text-anchor="end" font-size="9">25%</text>
+<line class="axis" x1="202.00" y1="292" x2="202.00" y2="296"/>
+<text x="202.00" y="307" text-anchor="middle" font-size="8">13445</text>
+<line class="grid" x1="72" y1="104.50" x2="332" y2="104.50"/>
+<text x="65" y="107.50" text-anchor="end" font-size="9">37%</text>
+<line class="axis" x1="267.00" y1="292" x2="267.00" y2="296"/>
+<text x="267.00" y="307" text-anchor="middle" font-size="8">18578</text>
+<line class="grid" x1="72" y1="42.00" x2="332" y2="42.00"/>
+<text x="65" y="45.00" text-anchor="end" font-size="9">49%</text>
+<line class="axis" x1="332.00" y1="292" x2="332.00" y2="296"/>
+<text x="332.00" y="307" text-anchor="middle" font-size="8">23712</text>
+<text x="202.0" y="323" text-anchor="middle" font-size="11">Median cell UMI depth</text>
+<text x="16" y="167.0" text-anchor="middle" font-size="10" transform="rotate(-90 16 167.0)">Fraction above pooled 10% threshold</text>
+<circle cx="145.98" cy="166.56" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-1: depth=9020.5, tail=0.2461</title></circle>
+<circle cx="111.28" cy="203.96" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-10: depth=6280.0, tail=0.1727</title></circle>
+<circle cx="148.69" cy="229.49" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-11: depth=9235.0, tail=0.1226</title></circle>
+<circle cx="204.41" cy="284.27" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-2: depth=13635.0, tail=0.0152</title></circle>
+<circle cx="183.44" cy="282.00" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-3: depth=11979.0, tail=0.0196</title></circle>
+<circle cx="211.60" cy="253.76" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-4: depth=14203.0, tail=0.0750</title></circle>
+<circle cx="169.89" cy="284.49" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-6: depth=10909.0, tail=0.0147</title></circle>
+<circle cx="177.90" cy="256.91" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-7: depth=11542.0, tail=0.0688</title></circle>
+<circle cx="184.37" cy="278.46" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-8: depth=12053.0, tail=0.0266</title></circle>
+<circle cx="76.75" cy="68.79" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-1: depth=3553.0, tail=0.4378</title></circle>
+<circle cx="122.52" cy="136.54" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-2: depth=7168.0, tail=0.3049</title></circle>
+<circle cx="332.00" cy="282.28" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-3: depth=23712.0, tail=0.0191</title></circle>
+<circle cx="311.42" cy="175.29" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-4: depth=22087.0, tail=0.2289</title></circle>
+<circle cx="138.31" cy="232.76" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-5: depth=8415.0, tail=0.1162</title></circle>
+<circle cx="238.67" cy="291.38" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-6: depth=16341.0, tail=0.0012</title></circle>
+<circle cx="162.01" cy="261.41" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-7: depth=10287.0, tail=0.0600</title></circle>
+<circle cx="72.00" cy="247.75" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-8: depth=3178.0, tail=0.0868</title></circle>
+<text x="494.0" y="33" text-anchor="middle" font-size="14" font-weight="bold">GPRC5D</text>
+<line class="axis" x1="364" y1="292" x2="624" y2="292"/>
+<line class="axis" x1="364" y1="42" x2="364" y2="292"/>
+<line class="grid" x1="364" y1="292.00" x2="624" y2="292.00"/>
+<text x="357" y="295.00" text-anchor="end" font-size="9">0%</text>
+<line class="axis" x1="364.00" y1="292" x2="364.00" y2="296"/>
+<text x="364.00" y="307" text-anchor="middle" font-size="8">3178</text>
+<line class="grid" x1="364" y1="229.50" x2="624" y2="229.50"/>
+<text x="357" y="232.50" text-anchor="end" font-size="9">14%</text>
+<line class="axis" x1="429.00" y1="292" x2="429.00" y2="296"/>
+<text x="429.00" y="307" text-anchor="middle" font-size="8">8312</text>
+<line class="grid" x1="364" y1="167.00" x2="624" y2="167.00"/>
+<text x="357" y="170.00" text-anchor="end" font-size="9">27%</text>
+<line class="axis" x1="494.00" y1="292" x2="494.00" y2="296"/>
+<text x="494.00" y="307" text-anchor="middle" font-size="8">13445</text>
+<line class="grid" x1="364" y1="104.50" x2="624" y2="104.50"/>
+<text x="357" y="107.50" text-anchor="end" font-size="9">41%</text>
+<line class="axis" x1="559.00" y1="292" x2="559.00" y2="296"/>
+<text x="559.00" y="307" text-anchor="middle" font-size="8">18578</text>
+<line class="grid" x1="364" y1="42.00" x2="624" y2="42.00"/>
+<text x="357" y="45.00" text-anchor="end" font-size="9">55%</text>
+<line class="axis" x1="624.00" y1="292" x2="624.00" y2="296"/>
+<text x="624.00" y="307" text-anchor="middle" font-size="8">23712</text>
+<text x="494.0" y="323" text-anchor="middle" font-size="11">Median cell UMI depth</text>
+<text x="308" y="167.0" text-anchor="middle" font-size="10" transform="rotate(-90 308 167.0)">Fraction above pooled 10% threshold</text>
+<circle cx="437.98" cy="268.57" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-1: depth=9020.5, tail=0.0513</title></circle>
+<circle cx="403.28" cy="281.31" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-10: depth=6280.0, tail=0.0234</title></circle>
+<circle cx="440.69" cy="272.43" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-11: depth=9235.0, tail=0.0429</title></circle>
+<circle cx="496.41" cy="213.14" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-2: depth=13635.0, tail=0.1727</title></circle>
+<circle cx="475.44" cy="256.18" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-3: depth=11979.0, tail=0.0784</title></circle>
+<circle cx="503.60" cy="257.75" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-4: depth=14203.0, tail=0.0750</title></circle>
+<circle cx="461.89" cy="259.72" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-6: depth=10909.0, tail=0.0707</title></circle>
+<circle cx="469.90" cy="271.34" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-7: depth=11542.0, tail=0.0453</title></circle>
+<circle cx="476.37" cy="264.20" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-8: depth=12053.0, tail=0.0609</title></circle>
+<circle cx="368.75" cy="224.93" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-1: depth=3553.0, tail=0.1469</title></circle>
+<circle cx="414.52" cy="248.80" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-2: depth=7168.0, tail=0.0946</title></circle>
+<circle cx="624.00" cy="247.98" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-3: depth=23712.0, tail=0.0964</title></circle>
+<circle cx="603.42" cy="68.79" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-4: depth=22087.0, tail=0.4888</title></circle>
+<circle cx="430.31" cy="242.68" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-5: depth=8415.0, tail=0.1080</title></circle>
+<circle cx="530.67" cy="226.05" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-6: depth=16341.0, tail=0.1444</title></circle>
+<circle cx="454.01" cy="132.17" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-7: depth=10287.0, tail=0.3500</title></circle>
+<circle cx="364.00" cy="277.14" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-8: depth=3178.0, tail=0.0325</title></circle>
+<text x="786.0" y="33" text-anchor="middle" font-size="14" font-weight="bold">SLAMF7</text>
+<line class="axis" x1="656" y1="292" x2="916" y2="292"/>
+<line class="axis" x1="656" y1="42" x2="656" y2="292"/>
+<line class="grid" x1="656" y1="292.00" x2="916" y2="292.00"/>
+<text x="649" y="295.00" text-anchor="end" font-size="9">0%</text>
+<line class="axis" x1="656.00" y1="292" x2="656.00" y2="296"/>
+<text x="656.00" y="307" text-anchor="middle" font-size="8">3178</text>
+<line class="grid" x1="656" y1="229.50" x2="916" y2="229.50"/>
+<text x="649" y="232.50" text-anchor="end" font-size="9">13%</text>
+<line class="axis" x1="721.00" y1="292" x2="721.00" y2="296"/>
+<text x="721.00" y="307" text-anchor="middle" font-size="8">8312</text>
+<line class="grid" x1="656" y1="167.00" x2="916" y2="167.00"/>
+<text x="649" y="170.00" text-anchor="end" font-size="9">26%</text>
+<line class="axis" x1="786.00" y1="292" x2="786.00" y2="296"/>
+<text x="786.00" y="307" text-anchor="middle" font-size="8">13445</text>
+<line class="grid" x1="656" y1="104.50" x2="916" y2="104.50"/>
+<text x="649" y="107.50" text-anchor="end" font-size="9">39%</text>
+<line class="axis" x1="851.00" y1="292" x2="851.00" y2="296"/>
+<text x="851.00" y="307" text-anchor="middle" font-size="8">18578</text>
+<line class="grid" x1="656" y1="42.00" x2="916" y2="42.00"/>
+<text x="649" y="45.00" text-anchor="end" font-size="9">52%</text>
+<line class="axis" x1="916.00" y1="292" x2="916.00" y2="296"/>
+<text x="916.00" y="307" text-anchor="middle" font-size="8">23712</text>
+<text x="786.0" y="323" text-anchor="middle" font-size="11">Median cell UMI depth</text>
+<text x="600" y="167.0" text-anchor="middle" font-size="10" transform="rotate(-90 600 167.0)">Fraction above pooled 10% threshold</text>
+<circle cx="729.98" cy="269.82" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-1: depth=9020.5, tail=0.0461</title></circle>
+<circle cx="695.28" cy="220.85" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-10: depth=6280.0, tail=0.1477</title></circle>
+<circle cx="732.69" cy="236.38" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-11: depth=9235.0, tail=0.1155</title></circle>
+<circle cx="788.41" cy="233.55" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-2: depth=13635.0, tail=0.1214</title></circle>
+<circle cx="767.44" cy="263.67" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-3: depth=11979.0, tail=0.0588</title></circle>
+<circle cx="795.60" cy="267.92" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-4: depth=14203.0, tail=0.0500</title></circle>
+<circle cx="753.89" cy="262.92" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-6: depth=10909.0, tail=0.0604</title></circle>
+<circle cx="761.90" cy="244.11" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-7: depth=11542.0, tail=0.0994</title></circle>
+<circle cx="768.37" cy="264.55" r="4.5" fill="#155e75" fill-opacity="0.8"><title>NBM NBM-8: depth=12053.0, tail=0.0570</title></circle>
+<circle cx="660.75" cy="68.79" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-1: depth=3553.0, tail=0.4635</title></circle>
+<circle cx="706.52" cy="271.26" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-2: depth=7168.0, tail=0.0431</title></circle>
+<circle cx="916.00" cy="283.84" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-3: depth=23712.0, tail=0.0169</title></circle>
+<circle cx="895.42" cy="249.72" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-4: depth=22087.0, tail=0.0878</title></circle>
+<circle cx="722.31" cy="198.51" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-5: depth=8415.0, tail=0.1941</title></circle>
+<circle cx="822.67" cy="233.64" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-6: depth=16341.0, tail=0.1212</title></circle>
+<circle cx="746.01" cy="75.27" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-7: depth=10287.0, tail=0.4500</title></circle>
+<circle cx="656.00" cy="217.97" r="4.5" fill="#b45309" fill-opacity="0.8"><title>MM MM-8: depth=3178.0, tail=0.1537</title></circle>
+<circle cx="746" cy="335" r="5" fill="#155e75"/><text x="757" y="339" font-size="11">NBM</text>
+<circle cx="811" cy="335" r="5" fill="#b45309"/><text x="822" y="339" font-size="11">MM</text>
+<text x="480" y="355" text-anchor="middle" font-size="10">Descriptive sample-level association only; no causal adjustment or population inference.</text>
+</svg>

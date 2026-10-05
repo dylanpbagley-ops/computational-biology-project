@@ -1,0 +1,11 @@
+{
+  "ASSISTANCE_RECORD.md": "e97c249a55cbebc45be38e8d49bbe31fce62134dc6a1cf62302672aa5eb0c118",
+  "build_tables.py": "345c51b552db15ab64bbbd93e796a553805f062e6224bf2982d45c4f2dab09d3",
+  "clinical_evidence.tsv": "25a105976f91b29b2a0904c6721231b4995b1d3ee9bea901de5747218f3d7489",
+  "coding_guide.md": "94120c4f7816e4083cf1ffff720bf39f24536d7eeb1e6f22847b9a7ceac72468",
+  "coverage_and_checks.json": "112dc1de58f6cecba33d5a8fd465a844f3ca94fc0bcb6aac88ce4db2e323b4e4",
+  "curated_evidence.json": "573db9a165429d95b382a54101cf54e58b767d3552d5bef573367c61abf41566",
+  "README.md": "19c5beebc7e2e331ec98f2756c0cd87c9181428981663f7a7737714b8e751258",
+  "source_queue.tsv": "59ff2ec4fbae049422c385dd16a93ac1751153ca116d06ce77d28aae37495ad2",
+  "study_source_form.tsv": "80f9e95dee9f8430b5370209630aeed5bc2943186277fdc1a8293d169a40eba8"
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-05T01:15:50Z",
+  "stage_directory": "opportunity_search_Oct4/cycle1",
+  "self_excluded": true,
+  "explicit_cache_exclusions": [
+    ".cache",
+    "__pycache__",
+    "cache"
+  ],
+  "file_count": 9,
+  "files": [
+    {
+      "path": "candidates.tsv",
+      "bytes": 18961,
+      "sha256": "c6faf9dcdeca3a8bcdae84e1d3321ea3903bc615bde430e2a47d6e05a5de2370"
+    },
+    {
+      "path": "data_cards.tsv",
+      "bytes": 15920,
+      "sha256": "5cd600c9674a39629417fbc2e20df6012fce2d72f1bff2c05da3fbecfdcd75cb"
+    },
+    {
+      "path": "data_manifest.json",
+      "bytes": 450,
+      "sha256": "5fa9684fc374487cc06802886f7ad720ad6949431f7fa412a88a58990f839bf2"
+    },
+    {
+      "path": "opportunity_map.md",
+      "bytes": 10226,
+      "sha256": "f0a6d73d5181203775c4e4eec9ce388ca05ebff34d8b482ef11f9e8cef0e7741"
+    },
+    {
+      "path": "papers.tsv",
+      "bytes": 25487,
+      "sha256": "3579935e507f25d026719e6e96d330f89cc441a5859ac8ea09e89a5b6e94469a"
+    },
+    {
+      "path": "preservation_before.json",
+      "bytes": 1806,
+      "sha256": "05c1180f0125f76ef4b431a15d7a690fb42fc82b69836cd8027a5c42ecf1bbb3"
+    },
+    {
+      "path": "search_log.tsv",
+      "bytes": 4510,
+      "sha256": "b9c52f89b72b7d8f5bce5be89f6433405cc1691ffaa66d4686ebedda0182251a"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 3859,
+      "sha256": "dfacced3709ed4e70bcb1b2570263e0a6efc944d89b16c5acf3886a93c697b9f"
+    },
+    {
+      "path": "validate_artifacts.py",
+      "bytes": 10944,
+      "sha256": "f978092b0ac5b913e718cdb4400424c8851c77d8bbfb7d894756443616083f8f"
+    }
+  ]
+}

@@ -1,0 +1,1863 @@
+{
+ "n_shared": 185,
+ "rho_top_share": 0.1665072241894089,
+ "p_top_share": 0.023498585465808654,
+ "rho_n_types": 0.1707677107373317,
+ "p_n_types": 0.020123002027678777,
+ "n_blood_cell_types_protein": 30,
+ "n_blood_lineages_rna": 18,
+ "protein": {
+  "ENTPD1": {
+   "top_share": 0.15708810241772997,
+   "n_types": 13,
+   "home": "Plasmablast"
+  },
+  "LAMP1": {
+   "top_share": 0.14127526728773615,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "SELP": {
+   "top_share": 0.29931898900105086,
+   "n_types": 7,
+   "home": "Platelet"
+  },
+  "TNFRSF8": {
+   "top_share": 0.07594051140414246,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "PECAM1": {
+   "top_share": 0.15660120415647064,
+   "n_types": 17,
+   "home": "Platelet"
+  },
+  "CD34": {
+   "top_share": 0.3895540078010982,
+   "n_types": 3,
+   "home": "HSPC"
+  },
+  "CR1": {
+   "top_share": 0.15538997097905508,
+   "n_types": 12,
+   "home": "CD14 Mono"
+  },
+  "CD36": {
+   "top_share": 0.19678866652775806,
+   "n_types": 8,
+   "home": "Platelet"
+  },
+  "LAG3": {
+   "top_share": 0.053350623224753674,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "TIGIT": {
+   "top_share": 0.06856903278396845,
+   "n_types": 30,
+   "home": "dnT"
+  },
+  "CD226": {
+   "top_share": 0.25742801254173076,
+   "n_types": 9,
+   "home": "Platelet"
+  },
+  "FASLG": {
+   "top_share": 0.047510171945798055,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "SLAMF7": {
+   "top_share": 0.07427826339056133,
+   "n_types": 30,
+   "home": "Plasmablast"
+  },
+  "L1CAM": {
+   "top_share": 0.09910887959905221,
+   "n_types": 30,
+   "home": "B memory"
+  },
+  "SIGLEC8": {
+   "top_share": 0.055742458586179974,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "ERBB2": {
+   "top_share": 0.049747552145749385,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "FLT4": {
+   "top_share": 0.04547322090860562,
+   "n_types": 30,
+   "home": "CD4 TEM"
+  },
+  "ITGB1": {
+   "top_share": 0.19552555987355813,
+   "n_types": 18,
+   "home": "Platelet"
+  },
+  "SELE": {
+   "top_share": 0.04774889130314923,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CD4": {
+   "top_share": 0.11673980954200247,
+   "n_types": 18,
+   "home": "CD4 Proliferating"
+  },
+  "CD22": {
+   "top_share": 0.2521958364099497,
+   "n_types": 5,
+   "home": "B naive"
+  },
+  "CD3E": {
+   "top_share": 0.10152734671772097,
+   "n_types": 23,
+   "home": "gdT"
+  },
+  "MS4A1": {
+   "top_share": 0.279242883601512,
+   "n_types": 3,
+   "home": "B intermediate"
+  },
+  "CD27": {
+   "top_share": 0.12401581907896392,
+   "n_types": 17,
+   "home": "Plasmablast"
+  },
+  "IL2RA": {
+   "top_share": 0.23695978500123774,
+   "n_types": 9,
+   "home": "ILC"
+  },
+  "CD24": {
+   "top_share": 0.09684780541117986,
+   "n_types": 30,
+   "home": "B intermediate"
+  },
+  "MCAM": {
+   "top_share": 0.14759935445717468,
+   "n_types": 30,
+   "home": "Plasmablast"
+  },
+  "LGALS9": {
+   "top_share": 0.04913782208760356,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "F3": {
+   "top_share": 0.04949642235344716,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "THBD": {
+   "top_share": 0.4593230132003523,
+   "n_types": 3,
+   "home": "cDC1"
+  },
+  "PTGDR2": {
+   "top_share": 0.05130124749087272,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CX3CR1": {
+   "top_share": 0.1092716930719788,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "NCAM1": {
+   "top_share": 0.16191912346685672,
+   "n_types": 26,
+   "home": "NK_CD56bright"
+  },
+  "CLEC4C": {
+   "top_share": 0.2473728453504216,
+   "n_types": 8,
+   "home": "pDC"
+  },
+  "IL6ST": {
+   "top_share": 0.18721405431871993,
+   "n_types": 22,
+   "home": "Platelet"
+  },
+  "TNFSF10": {
+   "top_share": 0.051986659528267226,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "TNFRSF18": {
+   "top_share": 0.048136476037757746,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "ITGAM": {
+   "top_share": 0.16827448800372274,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "TREM1": {
+   "top_share": 0.1455447652664691,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "CLEC12A": {
+   "top_share": 0.20986404472769887,
+   "n_types": 8,
+   "home": "CD14 Mono"
+  },
+  "CD38": {
+   "top_share": 0.23448958955003155,
+   "n_types": 14,
+   "home": "Plasmablast"
+  },
+  "CD209": {
+   "top_share": 0.062115486000892776,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CTLA4": {
+   "top_share": 0.05534134927444994,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CD40LG": {
+   "top_share": 0.05695663769720971,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "PVR": {
+   "top_share": 0.21139481440656074,
+   "n_types": 10,
+   "home": "CD14 Mono"
+  },
+  "PROCR": {
+   "top_share": 0.06878089290159185,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "MSR1": {
+   "top_share": 0.08134083890441811,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "LY75": {
+   "top_share": 0.10829565910350715,
+   "n_types": 30,
+   "home": "cDC1"
+  },
+  "MRC1": {
+   "top_share": 0.046558463121303885,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "CD207": {
+   "top_share": 0.04559619037137887,
+   "n_types": 30,
+   "home": "Eryth"
+  },
+  "CD1D": {
+   "top_share": 0.09105391266344454,
+   "n_types": 30,
+   "home": "cDC2"
+  },
+  "TLR4": {
+   "top_share": 0.052777313788967765,
+   "n_types": 30,
+   "home": "Eryth"
+  },
+  "CD1C": {
+   "top_share": 0.18210916216304454,
+   "n_types": 14,
+   "home": "cDC2"
+  },
+  "PDPN": {
+   "top_share": 0.055173883125438763,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "CD1A": {
+   "top_share": 0.04568968118503077,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "HAVCR2": {
+   "top_share": 0.126747426097606,
+   "n_types": 30,
+   "home": "cDC1"
+  },
+  "IGHD": {
+   "top_share": 0.5032466183447049,
+   "n_types": 2,
+   "home": "B naive"
+  },
+  "IGHM": {
+   "top_share": 0.29768471710135014,
+   "n_types": 4,
+   "home": "B intermediate"
+  },
+  "ITGA4": {
+   "top_share": 0.08768008705170025,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "OLR1": {
+   "top_share": 0.05057992250347579,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "SLC3A2": {
+   "top_share": 0.09193551156922798,
+   "n_types": 30,
+   "home": "pDC"
+  },
+  "CLEC9A": {
+   "top_share": 0.17242269288762557,
+   "n_types": 30,
+   "home": "cDC1"
+  },
+  "ITGA1": {
+   "top_share": 0.13922506988892772,
+   "n_types": 28,
+   "home": "CD8 TCM"
+  },
+  "CD44": {
+   "top_share": 0.06832165292006025,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "IL4R": {
+   "top_share": 0.0533925341298977,
+   "n_types": 30,
+   "home": "B naive"
+  },
+  "IL7R": {
+   "top_share": 0.09213961777977545,
+   "n_types": 30,
+   "home": "CD4 TEM"
+  },
+  "IL6R": {
+   "top_share": 0.08360938759602743,
+   "n_types": 30,
+   "home": "cDC1"
+  },
+  "PDCD1": {
+   "top_share": 0.12308626442761034,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "ICOS": {
+   "top_share": 0.4497591783273501,
+   "n_types": 2,
+   "home": "CD4 Proliferating"
+  },
+  "IL3RA": {
+   "top_share": 0.391490329665725,
+   "n_types": 3,
+   "home": "pDC"
+  },
+  "IL2RB": {
+   "top_share": 0.08240608609786974,
+   "n_types": 30,
+   "home": "NK Proliferating"
+  },
+  "CD96": {
+   "top_share": 0.0677123031889631,
+   "n_types": 30,
+   "home": "CD8 TCM"
+  },
+  "CD274": {
+   "top_share": 0.12099056970586497,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "FAS": {
+   "top_share": 0.07601787603280373,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "NGFR": {
+   "top_share": 0.47773988135972195,
+   "n_types": 2,
+   "home": "ASDC"
+  },
+  "TNFRSF14": {
+   "top_share": 0.05306413219702584,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "THY1": {
+   "top_share": 0.05584919300832533,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "BTLA": {
+   "top_share": 0.11296604038121313,
+   "n_types": 30,
+   "home": "B naive"
+  },
+  "FCGR3A": {
+   "top_share": 0.2361833110510427,
+   "n_types": 4,
+   "home": "CD16 Mono"
+  },
+  "CD14": {
+   "top_share": 0.167442084898848,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "FUT4": {
+   "top_share": 0.08325554757726818,
+   "n_types": 30,
+   "home": "ILC"
+  },
+  "ANPEP": {
+   "top_share": 0.18782627009138728,
+   "n_types": 11,
+   "home": "cDC1"
+  },
+  "TNFRSF13B": {
+   "top_share": 0.08122861738932387,
+   "n_types": 30,
+   "home": "B intermediate"
+  },
+  "CD200": {
+   "top_share": 0.09574800928978566,
+   "n_types": 30,
+   "home": "B naive"
+  },
+  "DPP4": {
+   "top_share": 0.136068840389951,
+   "n_types": 21,
+   "home": "Eryth"
+  },
+  "ITGB2": {
+   "top_share": 0.09094929545448559,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "CD19": {
+   "top_share": 0.2656248781881336,
+   "n_types": 4,
+   "home": "B intermediate"
+  },
+  "CCR4": {
+   "top_share": 0.08411384114977315,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "CD70": {
+   "top_share": 0.04890130952859766,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "TFRC": {
+   "top_share": 0.7438919742702219,
+   "n_types": 1,
+   "home": "Eryth"
+  },
+  "CD72": {
+   "top_share": 0.37732978475250795,
+   "n_types": 5,
+   "home": "B naive"
+  },
+  "NT5E": {
+   "top_share": 0.21456356060320655,
+   "n_types": 9,
+   "home": "B memory"
+  },
+  "CD177": {
+   "top_share": 0.058828673222025785,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "CLEC10A": {
+   "top_share": 0.0694475585186414,
+   "n_types": 30,
+   "home": "cDC2"
+  },
+  "PDGFRA": {
+   "top_share": 0.04594364690715555,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "PDGFRB": {
+   "top_share": 0.051918014272917284,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "LAIR1": {
+   "top_share": 0.10597255007661599,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "NRP1": {
+   "top_share": 0.4714742663858001,
+   "n_types": 2,
+   "home": "pDC"
+  },
+  "CD2": {
+   "top_share": 0.07375070705426179,
+   "n_types": 25,
+   "home": "CD4 Proliferating"
+  },
+  "KDR": {
+   "top_share": 0.045750613071846226,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "LILRB4": {
+   "top_share": 0.16478895432982926,
+   "n_types": 30,
+   "home": "pDC"
+  },
+  "MPL": {
+   "top_share": 0.38544376507295275,
+   "n_types": 5,
+   "home": "Platelet"
+  },
+  "CD9": {
+   "top_share": 0.32144438650176,
+   "n_types": 6,
+   "home": "Platelet"
+  },
+  "HLA-DRA": {
+   "top_share": 0.0942804072536848,
+   "n_types": 27,
+   "home": "cDC2"
+  },
+  "TNFRSF9": {
+   "top_share": 0.05230714874324909,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "TNFRSF4": {
+   "top_share": 0.0481728801410266,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "FLT3": {
+   "top_share": 0.07014615594347227,
+   "n_types": 30,
+   "home": "cDC1"
+  },
+  "ITGB3": {
+   "top_share": 0.24795329449975878,
+   "n_types": 8,
+   "home": "Platelet"
+  },
+  "CCR2": {
+   "top_share": 0.0862375653314776,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "TNFRSF13C": {
+   "top_share": 0.24588652255194476,
+   "n_types": 4,
+   "home": "B naive"
+  },
+  "TNFRSF17": {
+   "top_share": 0.04776396561757696,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "CD81": {
+   "top_share": 0.060890013934900074,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CD80": {
+   "top_share": 0.04868648625021561,
+   "n_types": 30,
+   "home": "Plasmablast"
+  },
+  "CD83": {
+   "top_share": 0.05108091327714681,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CRLF2": {
+   "top_share": 0.33185954440007676,
+   "n_types": 6,
+   "home": "Eryth"
+  },
+  "CD86": {
+   "top_share": 0.19581565518810534,
+   "n_types": 14,
+   "home": "CD16 Mono"
+  },
+  "CCR10": {
+   "top_share": 0.04907675600622048,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "NOTCH1": {
+   "top_share": 0.09698647571197097,
+   "n_types": 30,
+   "home": "ASDC"
+  },
+  "NOTCH2": {
+   "top_share": 0.04669462178483311,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "NCR3": {
+   "top_share": 0.14526280004180497,
+   "n_types": 30,
+   "home": "NK Proliferating"
+  },
+  "CD79B": {
+   "top_share": 0.1013251011321438,
+   "n_types": 30,
+   "home": "B intermediate"
+  },
+  "ICOSLG": {
+   "top_share": 0.12059204992651285,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CD79A": {
+   "top_share": 0.04524544202138252,
+   "n_types": 30,
+   "home": "B naive"
+  },
+  "ITGA2": {
+   "top_share": 0.40982029622546157,
+   "n_types": 4,
+   "home": "Platelet"
+  },
+  "FCGR1A": {
+   "top_share": 0.27691753889358406,
+   "n_types": 5,
+   "home": "CD14 Mono"
+  },
+  "CD63": {
+   "top_share": 0.2661608438946782,
+   "n_types": 8,
+   "home": "Platelet"
+  },
+  "PTPRC": {
+   "top_share": 0.0630090686046291,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "PROM1": {
+   "top_share": 0.13078731869450086,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "CD69": {
+   "top_share": 0.29055452983778735,
+   "n_types": 8,
+   "home": "Platelet"
+  },
+  "CD68": {
+   "top_share": 0.05495801130256873,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "KLRK1": {
+   "top_share": 0.08315638091337116,
+   "n_types": 30,
+   "home": "NK Proliferating"
+  },
+  "CXCR5": {
+   "top_share": 0.05975413718831261,
+   "n_types": 30,
+   "home": "B naive"
+  },
+  "CXCR4": {
+   "top_share": 0.04528698756316893,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "ITGAE": {
+   "top_share": 0.2809599272742086,
+   "n_types": 5,
+   "home": "CD8 TCM"
+  },
+  "ICAM2": {
+   "top_share": 0.19639324984582257,
+   "n_types": 22,
+   "home": "Platelet"
+  },
+  "VCAM1": {
+   "top_share": 0.06228826185553173,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "ENG": {
+   "top_share": 0.050100701778230804,
+   "n_types": 30,
+   "home": "Eryth"
+  },
+  "CEACAM8": {
+   "top_share": 0.08316407872667003,
+   "n_types": 30,
+   "home": "Plasmablast"
+  },
+  "TNFSF4": {
+   "top_share": 0.05040765928571218,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CD109": {
+   "top_share": 0.08920756847858856,
+   "n_types": 30,
+   "home": "CD4 TEM"
+  },
+  "ITGB7": {
+   "top_share": 0.08997747378963741,
+   "n_types": 28,
+   "home": "cDC2"
+  },
+  "CD8A": {
+   "top_share": 0.17805786649073144,
+   "n_types": 8,
+   "home": "CD8 Proliferating"
+  },
+  "ENPP3": {
+   "top_share": 0.04760269305602139,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CD52": {
+   "top_share": 0.0663592559716102,
+   "n_types": 30,
+   "home": "B intermediate"
+  },
+  "CCR5": {
+   "top_share": 0.12362799318808418,
+   "n_types": 30,
+   "home": "MAIT"
+  },
+  "CCR6": {
+   "top_share": 0.1268976026664643,
+   "n_types": 30,
+   "home": "B intermediate"
+  },
+  "B3GAT1": {
+   "top_share": 0.058196406033270455,
+   "n_types": 30,
+   "home": "CD8 TEM"
+  },
+  "ICAM1": {
+   "top_share": 0.16128094337433344,
+   "n_types": 22,
+   "home": "cDC1"
+  },
+  "CD55": {
+   "top_share": 0.11518475441777623,
+   "n_types": 27,
+   "home": "CD14 Mono"
+  },
+  "CD99": {
+   "top_share": 0.05211480239251568,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "CD59": {
+   "top_share": 0.0829747994716491,
+   "n_types": 30,
+   "home": "Eryth"
+  },
+  "CD93": {
+   "top_share": 0.13085132531101182,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "CD244": {
+   "top_share": 0.09253820344182236,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "PDCD1LG2": {
+   "top_share": 0.05840610778653833,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "ABCB1": {
+   "top_share": 0.05438379886467284,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CDH1": {
+   "top_share": 0.051320437794693224,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "FCRL5": {
+   "top_share": 0.09276204400444263,
+   "n_types": 30,
+   "home": "CD4 TEM"
+  },
+  "SIRPA": {
+   "top_share": 0.17884233779131475,
+   "n_types": 17,
+   "home": "CD16 Mono"
+  },
+  "GP1BA": {
+   "top_share": 0.37274448885284556,
+   "n_types": 5,
+   "home": "Platelet"
+  },
+  "CSF1R": {
+   "top_share": 0.0664843070201666,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "KIT": {
+   "top_share": 0.4403170809990347,
+   "n_types": 4,
+   "home": "ILC"
+  },
+  "XCR1": {
+   "top_share": 0.06446427888313419,
+   "n_types": 30,
+   "home": "CD8 TEM"
+  },
+  "NECTIN2": {
+   "top_share": 0.15791121580255177,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "MERTK": {
+   "top_share": 0.07934103188902407,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "VTCN1": {
+   "top_share": 0.04548298468179559,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "CR2": {
+   "top_share": 0.31430863162806444,
+   "n_types": 3,
+   "home": "B naive"
+  },
+  "CD48": {
+   "top_share": 0.06362642555395673,
+   "n_types": 30,
+   "home": "Plasmablast"
+  },
+  "CD47": {
+   "top_share": 0.09979557449920413,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "CD46": {
+   "top_share": 0.05713714529496459,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "ITGA2B": {
+   "top_share": 0.35334801524757026,
+   "n_types": 6,
+   "home": "Platelet"
+  },
+  "CD40": {
+   "top_share": 0.10801551344297787,
+   "n_types": 30,
+   "home": "B naive"
+  },
+  "SPN": {
+   "top_share": 0.05951798988598519,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "ABCG2": {
+   "top_share": 0.050439148444645886,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "GYPA": {
+   "top_share": 0.2269516170131007,
+   "n_types": 16,
+   "home": "Eryth"
+  },
+  "NCR1": {
+   "top_share": 0.21585844594532796,
+   "n_types": 8,
+   "home": "NK_CD56bright"
+  },
+  "IFNGR1": {
+   "top_share": 0.10031683036074249,
+   "n_types": 30,
+   "home": "CD16 Mono"
+  },
+  "SIGLEC1": {
+   "top_share": 0.20393510203035276,
+   "n_types": 12,
+   "home": "ASDC"
+  },
+  "CD28": {
+   "top_share": 0.16882370160099744,
+   "n_types": 21,
+   "home": "CD4 Proliferating"
+  },
+  "KLRB1": {
+   "top_share": 0.2173900929122762,
+   "n_types": 9,
+   "home": "MAIT"
+  },
+  "CD163": {
+   "top_share": 0.07875899970805886,
+   "n_types": 30,
+   "home": "CD14 Mono"
+  },
+  "SDC1": {
+   "top_share": 0.05700939569918481,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "CD164": {
+   "top_share": 0.1012329053069231,
+   "n_types": 30,
+   "home": "Platelet"
+  },
+  "CDH5": {
+   "top_share": 0.05652207831720499,
+   "n_types": 30,
+   "home": "CD4 Proliferating"
+  },
+  "TEK": {
+   "top_share": 0.048438287647985724,
+   "n_types": 30,
+   "home": "HSPC"
+  },
+  "ITGAX": {
+   "top_share": 0.15305474620314685,
+   "n_types": 29,
+   "home": "CD16 Mono"
+  }
+ },
+ "rna_blood": {
+  "CD99": {
+   "top_share": 0.27948500173725055,
+   "n_types": 11,
+   "home": "hofbauer cells"
+  },
+  "CD38": {
+   "top_share": 0.37736304400289605,
+   "n_types": 5,
+   "home": "plasma cells"
+  },
+  "ITGA2B": {
+   "top_share": 0.8559841740850644,
+   "n_types": 1,
+   "home": "megakaryocytes"
+  },
+  "PROM1": {
+   "top_share": 0.506726457399103,
+   "n_types": 3,
+   "home": "thymocytes"
+  },
+  "CD79B": {
+   "top_share": 0.7560975609756097,
+   "n_types": 2,
+   "home": "b-cells"
+  },
+  "SELE": {
+   "top_share": 0.2063492063492064,
+   "n_types": 10,
+   "home": "cdc"
+  },
+  "CD9": {
+   "top_share": 0.33703047814334985,
+   "n_types": 5,
+   "home": "megakaryocytes"
+  },
+  "CD4": {
+   "top_share": 0.31722414674314275,
+   "n_types": 7,
+   "home": "kupffer cells"
+  },
+  "CD22": {
+   "top_share": 0.5525805199844781,
+   "n_types": 2,
+   "home": "b-cells"
+  },
+  "FAS": {
+   "top_share": 0.2989614243323442,
+   "n_types": 9,
+   "home": "neutrophils"
+  },
+  "CD44": {
+   "top_share": 0.20522402894286967,
+   "n_types": 12,
+   "home": "monocytes"
+  },
+  "SLAMF7": {
+   "top_share": 0.4262913835867573,
+   "n_types": 5,
+   "home": "plasma cells"
+  },
+  "IFNGR1": {
+   "top_share": 0.244639266104797,
+   "n_types": 11,
+   "home": "neutrophils"
+  },
+  "FLT4": {
+   "top_share": 0.34210526315789475,
+   "n_types": 8,
+   "home": "t-cells"
+  },
+  "MSR1": {
+   "top_share": 0.45177454600256195,
+   "n_types": 5,
+   "home": "kupffer cells"
+  },
+  "CDH1": {
+   "top_share": 0.21372031662269128,
+   "n_types": 10,
+   "home": "erythrocyte progenitors"
+  },
+  "TNFRSF17": {
+   "top_share": 0.9322033898305084,
+   "n_types": 1,
+   "home": "plasma cells"
+  },
+  "TNFRSF9": {
+   "top_share": 0.430355427473583,
+   "n_types": 5,
+   "home": "mast cells"
+  },
+  "LY75": {
+   "top_share": 0.8361244019138757,
+   "n_types": 1,
+   "home": "microglia"
+  },
+  "NGFR": {
+   "top_share": 0.47791164658634544,
+   "n_types": 5,
+   "home": "thymocytes"
+  },
+  "TFRC": {
+   "top_share": 0.3934795378891718,
+   "n_types": 7,
+   "home": "erythrocyte progenitors"
+  },
+  "PVR": {
+   "top_share": 0.1869158878504673,
+   "n_types": 11,
+   "home": "neutrophil progenitors"
+  },
+  "MCAM": {
+   "top_share": 0.24190800681431004,
+   "n_types": 11,
+   "home": "t-cells"
+  },
+  "IL4R": {
+   "top_share": 0.3540128935812389,
+   "n_types": 7,
+   "home": "neutrophils"
+  },
+  "PTPRC": {
+   "top_share": 0.3726300784034212,
+   "n_types": 7,
+   "home": "neutrophils"
+  },
+  "ITGAE": {
+   "top_share": 0.1421362489486964,
+   "n_types": 17,
+   "home": "nk-cells"
+  },
+  "CD59": {
+   "top_share": 0.21265822784810126,
+   "n_types": 14,
+   "home": "microglia"
+  },
+  "ABCB1": {
+   "top_share": 0.36142165860170195,
+   "n_types": 4,
+   "home": "nk-cells"
+  },
+  "SIGLEC1": {
+   "top_share": 0.43297763484870627,
+   "n_types": 3,
+   "home": "kupffer cells"
+  },
+  "LAG3": {
+   "top_share": 0.44934640522875813,
+   "n_types": 5,
+   "home": "t-cells"
+  },
+  "ICAM1": {
+   "top_share": 0.39931694723820793,
+   "n_types": 7,
+   "home": "neutrophils"
+  },
+  "CD209": {
+   "top_share": 0.5,
+   "n_types": 4,
+   "home": "macrophages"
+  },
+  "CD200": {
+   "top_share": 0.361376673040153,
+   "n_types": 5,
+   "home": "b-cells"
+  },
+  "NRP1": {
+   "top_share": 0.2908859206116959,
+   "n_types": 6,
+   "home": "hofbauer cells"
+  },
+  "IL2RB": {
+   "top_share": 0.7222361494108798,
+   "n_types": 2,
+   "home": "nk-cells"
+  },
+  "PROCR": {
+   "top_share": 0.28180354267310787,
+   "n_types": 10,
+   "home": "mast cells"
+  },
+  "CD40": {
+   "top_share": 0.21519782290140252,
+   "n_types": 10,
+   "home": "cdc"
+  },
+  "CD40LG": {
+   "top_share": 0.855944055944056,
+   "n_types": 1,
+   "home": "t-cells"
+  },
+  "SIGLEC8": {
+   "top_share": 0.40738112136266863,
+   "n_types": 4,
+   "home": "microglia"
+  },
+  "CD79A": {
+   "top_share": 0.4729990356798457,
+   "n_types": 2,
+   "home": "plasma cells"
+  },
+  "ENG": {
+   "top_share": 0.20506428758855944,
+   "n_types": 12,
+   "home": "hofbauer cells"
+  },
+  "ICAM2": {
+   "top_share": 0.19976515485102012,
+   "n_types": 14,
+   "home": "plasma cells"
+  },
+  "B3GAT1": {
+   "top_share": 0.5791666666666667,
+   "n_types": 3,
+   "home": "nk-cells"
+  },
+  "CD81": {
+   "top_share": 0.14874066481183193,
+   "n_types": 14,
+   "home": "macrophages"
+  },
+  "CD69": {
+   "top_share": 0.4061927627345181,
+   "n_types": 4,
+   "home": "mast cells"
+  },
+  "KLRB1": {
+   "top_share": 0.5661545790163153,
+   "n_types": 2,
+   "home": "nk-cells"
+  },
+  "CD83": {
+   "top_share": 0.23315332510881956,
+   "n_types": 9,
+   "home": "cdc"
+  },
+  "CCR6": {
+   "top_share": 0.6236559139784946,
+   "n_types": 2,
+   "home": "b-cells"
+  },
+  "PDGFRB": {
+   "top_share": 0.3390804597701149,
+   "n_types": 8,
+   "home": "nk-cells"
+  },
+  "CD86": {
+   "top_share": 0.21644413211524943,
+   "n_types": 7,
+   "home": "cdc"
+  },
+  "ITGA4": {
+   "top_share": 0.19071503209434243,
+   "n_types": 13,
+   "home": "erythrocyte progenitors"
+  },
+  "SDC1": {
+   "top_share": 0.8738548273431994,
+   "n_types": 1,
+   "home": "plasma cells"
+  },
+  "CD207": {
+   "top_share": 0.6835443037974683,
+   "n_types": 2,
+   "home": "macrophages"
+  },
+  "CD2": {
+   "top_share": 0.6600477566922207,
+   "n_types": 2,
+   "home": "t-cells"
+  },
+  "CD48": {
+   "top_share": 0.13102135408045024,
+   "n_types": 13,
+   "home": "monocytes"
+  },
+  "CR2": {
+   "top_share": 0.6670588235294118,
+   "n_types": 3,
+   "home": "b-cells"
+  },
+  "CD46": {
+   "top_share": 0.2450634553785022,
+   "n_types": 16,
+   "home": "neutrophils"
+  },
+  "MPL": {
+   "top_share": 0.679120879120879,
+   "n_types": 2,
+   "home": "megakaryocytes"
+  },
+  "F3": {
+   "top_share": 0.487770789657582,
+   "n_types": 3,
+   "home": "monocytes"
+  },
+  "FASLG": {
+   "top_share": 0.6482164821648218,
+   "n_types": 2,
+   "home": "nk-cells"
+  },
+  "TNFSF4": {
+   "top_share": 0.5294117647058825,
+   "n_types": 2,
+   "home": "thymocytes"
+  },
+  "ABCG2": {
+   "top_share": 0.7775754422476586,
+   "n_types": 1,
+   "home": "hofbauer cells"
+  },
+  "TEK": {
+   "top_share": 0.2151898734177215,
+   "n_types": 13,
+   "home": "kupffer cells"
+  },
+  "CD274": {
+   "top_share": 0.24807770133549167,
+   "n_types": 11,
+   "home": "mast cells"
+  },
+  "TNFRSF8": {
+   "top_share": 0.22824858757062141,
+   "n_types": 8,
+   "home": "neutrophils"
+  },
+  "CD80": {
+   "top_share": 0.24502784407319017,
+   "n_types": 7,
+   "home": "cdc"
+  },
+  "CCR2": {
+   "top_share": 0.33257713248638837,
+   "n_types": 6,
+   "home": "pdcs"
+  },
+  "TNFSF10": {
+   "top_share": 0.35502058349740473,
+   "n_types": 10,
+   "home": "neutrophils"
+  },
+  "CXCR4": {
+   "top_share": 0.19270921848066228,
+   "n_types": 12,
+   "home": "t-cells"
+  },
+  "FLT3": {
+   "top_share": 0.37395879000438403,
+   "n_types": 6,
+   "home": "thymocytes"
+  },
+  "CD244": {
+   "top_share": 0.32109704641350206,
+   "n_types": 8,
+   "home": "nk-cells"
+  },
+  "CEACAM8": {
+   "top_share": 0.924830888500418,
+   "n_types": 1,
+   "home": "neutrophil progenitors"
+  },
+  "TREM1": {
+   "top_share": 0.8026274137385249,
+   "n_types": 2,
+   "home": "neutrophils"
+  },
+  "CD70": {
+   "top_share": 0.4288135593220339,
+   "n_types": 4,
+   "home": "b-cells"
+  },
+  "CD93": {
+   "top_share": 0.2659260014269697,
+   "n_types": 7,
+   "home": "monocytes"
+  },
+  "KDR": {
+   "top_share": 0.3628318584070796,
+   "n_types": 8,
+   "home": "kupffer cells"
+  },
+  "CD68": {
+   "top_share": 0.349601593625498,
+   "n_types": 6,
+   "home": "kupffer cells"
+  },
+  "NECTIN2": {
+   "top_share": 0.20943952802359883,
+   "n_types": 9,
+   "home": "cdc"
+  },
+  "CLEC10A": {
+   "top_share": 0.7476867524260888,
+   "n_types": 3,
+   "home": "cdc"
+  },
+  "NOTCH2": {
+   "top_share": 0.303159300530028,
+   "n_types": 10,
+   "home": "neutrophils"
+  },
+  "VTCN1": {
+   "top_share": 0.1875,
+   "n_types": 10,
+   "home": "nk-cells"
+  },
+  "IL6ST": {
+   "top_share": 0.28206176372217473,
+   "n_types": 13,
+   "home": "microglia"
+  },
+  "IL2RA": {
+   "top_share": 0.2231380629967618,
+   "n_types": 7,
+   "home": "t-cells"
+  },
+  "PDGFRA": {
+   "top_share": 0.1614906832298137,
+   "n_types": 12,
+   "home": "macrophages"
+  },
+  "HAVCR2": {
+   "top_share": 0.1507719633829758,
+   "n_types": 10,
+   "home": "microglia"
+  },
+  "CD36": {
+   "top_share": 0.5432472730126343,
+   "n_types": 2,
+   "home": "hofbauer cells"
+  },
+  "NT5E": {
+   "top_share": 0.527806925498426,
+   "n_types": 4,
+   "home": "b-cells"
+  },
+  "CD63": {
+   "top_share": 0.30518005755619504,
+   "n_types": 10,
+   "home": "hofbauer cells"
+  },
+  "CD164": {
+   "top_share": 0.12689599773189056,
+   "n_types": 17,
+   "home": "kupffer cells"
+  },
+  "TLR4": {
+   "top_share": 0.5238095238095238,
+   "n_types": 5,
+   "home": "neutrophils"
+  },
+  "CD72": {
+   "top_share": 0.20960904380593498,
+   "n_types": 9,
+   "home": "b-cells"
+  },
+  "ENTPD1": {
+   "top_share": 0.25731009365244534,
+   "n_types": 9,
+   "home": "neutrophil progenitors"
+  },
+  "CD27": {
+   "top_share": 0.7087466185752931,
+   "n_types": 3,
+   "home": "plasma cells"
+  },
+  "ITGB7": {
+   "top_share": 0.2754254056193114,
+   "n_types": 9,
+   "home": "plasma cells"
+  },
+  "ITGAX": {
+   "top_share": 0.4682197296519989,
+   "n_types": 6,
+   "home": "neutrophils"
+  },
+  "ERBB2": {
+   "top_share": 0.20568561872909705,
+   "n_types": 13,
+   "home": "nk-cells"
+  },
+  "FCRL5": {
+   "top_share": 0.7147815434871377,
+   "n_types": 2,
+   "home": "plasma cells"
+  },
+  "NOTCH1": {
+   "top_share": 0.3554778554778555,
+   "n_types": 10,
+   "home": "neutrophils"
+  },
+  "NCAM1": {
+   "top_share": 0.6757868383404864,
+   "n_types": 2,
+   "home": "nk-cells"
+  },
+  "ITGB1": {
+   "top_share": 0.13013545531762707,
+   "n_types": 17,
+   "home": "monocytes"
+  },
+  "FCGR1A": {
+   "top_share": 0.5253677574302011,
+   "n_types": 5,
+   "home": "hofbauer cells"
+  },
+  "CD226": {
+   "top_share": 0.22217524574569283,
+   "n_types": 9,
+   "home": "megakaryocytes"
+  },
+  "MERTK": {
+   "top_share": 0.36481306317518797,
+   "n_types": 5,
+   "home": "kupffer cells"
+  },
+  "CD96": {
+   "top_share": 0.3531864204883859,
+   "n_types": 4,
+   "home": "t-cells"
+  },
+  "CD8A": {
+   "top_share": 0.7817896389324961,
+   "n_types": 2,
+   "home": "t-cells"
+  },
+  "THY1": {
+   "top_share": 0.3375796178343949,
+   "n_types": 8,
+   "home": "microglia"
+  },
+  "ENPP3": {
+   "top_share": 0.9121872103799816,
+   "n_types": 1,
+   "home": "mast cells"
+  },
+  "CD109": {
+   "top_share": 0.22282679103510822,
+   "n_types": 8,
+   "home": "hofbauer cells"
+  },
+  "MS4A1": {
+   "top_share": 0.9549919050188882,
+   "n_types": 1,
+   "home": "b-cells"
+  },
+  "KIT": {
+   "top_share": 0.924886071971086,
+   "n_types": 1,
+   "home": "mast cells"
+  },
+  "TNFRSF14": {
+   "top_share": 0.2043478260869565,
+   "n_types": 13,
+   "home": "microglia"
+  },
+  "CD1D": {
+   "top_share": 0.24277978339350179,
+   "n_types": 8,
+   "home": "monocytes"
+  },
+  "CD1A": {
+   "top_share": 0.7912087912087913,
+   "n_types": 2,
+   "home": "cdc"
+  },
+  "CD1C": {
+   "top_share": 0.8614706692371249,
+   "n_types": 1,
+   "home": "cdc"
+  },
+  "TNFRSF13C": {
+   "top_share": 0.6926417986714358,
+   "n_types": 3,
+   "home": "b-cells"
+  },
+  "ICOSLG": {
+   "top_share": 0.21052631578947367,
+   "n_types": 9,
+   "home": "pdcs"
+  },
+  "ITGB2": {
+   "top_share": 0.18852884665316508,
+   "n_types": 10,
+   "home": "neutrophils"
+  },
+  "CXCR5": {
+   "top_share": 0.8638535031847133,
+   "n_types": 1,
+   "home": "b-cells"
+  },
+  "IL6R": {
+   "top_share": 0.3647258658110787,
+   "n_types": 8,
+   "home": "neutrophils"
+  },
+  "CCR5": {
+   "top_share": 0.225130890052356,
+   "n_types": 7,
+   "home": "cdc"
+  },
+  "PDPN": {
+   "top_share": 0.5778210116731518,
+   "n_types": 2,
+   "home": "microglia"
+  },
+  "VCAM1": {
+   "top_share": 0.9107812341675956,
+   "n_types": 1,
+   "home": "kupffer cells"
+  },
+  "CTLA4": {
+   "top_share": 0.76,
+   "n_types": 1,
+   "home": "t-cells"
+  },
+  "ICOS": {
+   "top_share": 0.7764827764827764,
+   "n_types": 2,
+   "home": "t-cells"
+  },
+  "ITGA2": {
+   "top_share": 0.19682539682539682,
+   "n_types": 13,
+   "home": "megakaryocytes"
+  },
+  "ANPEP": {
+   "top_share": 0.39128562817532075,
+   "n_types": 5,
+   "home": "neutrophils"
+  },
+  "LAIR1": {
+   "top_share": 0.5111782477341389,
+   "n_types": 6,
+   "home": "microglia"
+  },
+  "SLC3A2": {
+   "top_share": 0.162328294549332,
+   "n_types": 16,
+   "home": "hofbauer cells"
+  },
+  "CX3CR1": {
+   "top_share": 0.8064044073340793,
+   "n_types": 2,
+   "home": "microglia"
+  },
+  "IL7R": {
+   "top_share": 0.5706766343733314,
+   "n_types": 4,
+   "home": "t-cells"
+  },
+  "LGALS9": {
+   "top_share": 0.23123433121958414,
+   "n_types": 8,
+   "home": "kupffer cells"
+  },
+  "CD52": {
+   "top_share": 0.2502311171076631,
+   "n_types": 9,
+   "home": "b-cells"
+  },
+  "ITGAM": {
+   "top_share": 0.28338762214983715,
+   "n_types": 11,
+   "home": "neutrophils"
+  },
+  "GYPA": {
+   "top_share": 0.6780051888152205,
+   "n_types": 2,
+   "home": "erythrocyte progenitors"
+  },
+  "CD14": {
+   "top_share": 0.7294452347083926,
+   "n_types": 3,
+   "home": "hofbauer cells"
+  },
+  "CLEC12A": {
+   "top_share": 0.4134871794871795,
+   "n_types": 5,
+   "home": "neutrophil progenitors"
+  },
+  "OLR1": {
+   "top_share": 0.33059404877000753,
+   "n_types": 6,
+   "home": "monocytes"
+  },
+  "XCR1": {
+   "top_share": 0.4154057771664374,
+   "n_types": 5,
+   "home": "cdc"
+  },
+  "CD34": {
+   "top_share": 0.39959016393442626,
+   "n_types": 6,
+   "home": "thymocytes"
+  },
+  "SELP": {
+   "top_share": 0.8317914213624894,
+   "n_types": 1,
+   "home": "megakaryocytes"
+  },
+  "CD19": {
+   "top_share": 0.7009189640768589,
+   "n_types": 2,
+   "home": "b-cells"
+  },
+  "CD163": {
+   "top_share": 0.4307900067521945,
+   "n_types": 5,
+   "home": "kupffer cells"
+  },
+  "CD28": {
+   "top_share": 0.4195664575014261,
+   "n_types": 4,
+   "home": "t-cells"
+  },
+  "THBD": {
+   "top_share": 0.4673054294839469,
+   "n_types": 5,
+   "home": "monocytes"
+  },
+  "CDH5": {
+   "top_share": 0.8990256864481841,
+   "n_types": 1,
+   "home": "kupffer cells"
+  },
+  "TIGIT": {
+   "top_share": 0.524617067833698,
+   "n_types": 3,
+   "home": "t-cells"
+  },
+  "CSF1R": {
+   "top_share": 0.2882964301852689,
+   "n_types": 6,
+   "home": "microglia"
+  },
+  "PTGDR2": {
+   "top_share": 0.3766233766233766,
+   "n_types": 4,
+   "home": "cdc"
+  },
+  "CCR4": {
+   "top_share": 0.8421052631578947,
+   "n_types": 1,
+   "home": "t-cells"
+  },
+  "CCR10": {
+   "top_share": 0.8412322274881515,
+   "n_types": 1,
+   "home": "plasma cells"
+  },
+  "GP1BA": {
+   "top_share": 0.9611197511664076,
+   "n_types": 1,
+   "home": "megakaryocytes"
+  },
+  "IL3RA": {
+   "top_share": 0.6283219438116932,
+   "n_types": 2,
+   "home": "pdcs"
+  },
+  "LAMP1": {
+   "top_share": 0.15637953810413155,
+   "n_types": 16,
+   "home": "kupffer cells"
+  },
+  "BTLA": {
+   "top_share": 0.4794140934283451,
+   "n_types": 5,
+   "home": "b-cells"
+  },
+  "LILRB4": {
+   "top_share": 0.7601092896174864,
+   "n_types": 1,
+   "home": "microglia"
+  },
+  "TNFRSF4": {
+   "top_share": 0.27913015254787404,
+   "n_types": 8,
+   "home": "plasma cells"
+  },
+  "TNFRSF18": {
+   "top_share": 0.3167905553126366,
+   "n_types": 6,
+   "home": "plasma cells"
+  },
+  "PDCD1": {
+   "top_share": 0.9090909090909091,
+   "n_types": 1,
+   "home": "t-cells"
+  },
+  "NCR1": {
+   "top_share": 0.916030534351145,
+   "n_types": 1,
+   "home": "nk-cells"
+  },
+  "CD55": {
+   "top_share": 0.5227021416602786,
+   "n_types": 3,
+   "home": "neutrophils"
+  },
+  "FUT4": {
+   "top_share": 0.5,
+   "n_types": 2,
+   "home": "microglia"
+  },
+  "CD47": {
+   "top_share": 0.13799345761742943,
+   "n_types": 17,
+   "home": "thymocytes"
+  },
+  "SPN": {
+   "top_share": 0.2555066079295154,
+   "n_types": 10,
+   "home": "erythrocyte progenitors"
+  },
+  "DPP4": {
+   "top_share": 0.3198671831765357,
+   "n_types": 9,
+   "home": "t-cells"
+  },
+  "PDCD1LG2": {
+   "top_share": 0.25225767609873573,
+   "n_types": 9,
+   "home": "mast cells"
+  },
+  "CLEC9A": {
+   "top_share": 0.46091861402095086,
+   "n_types": 3,
+   "home": "microglia"
+  },
+  "SIRPA": {
+   "top_share": 0.45827609890109894,
+   "n_types": 7,
+   "home": "neutrophils"
+  },
+  "CLEC4C": {
+   "top_share": 0.9539711191335739,
+   "n_types": 1,
+   "home": "pdcs"
+  },
+  "CD3E": {
+   "top_share": 0.6187354312354313,
+   "n_types": 3,
+   "home": "t-cells"
+  },
+  "L1CAM": {
+   "top_share": 0.7364864864864865,
+   "n_types": 2,
+   "home": "mast cells"
+  },
+  "CR1": {
+   "top_share": 0.6422271774220387,
+   "n_types": 2,
+   "home": "neutrophils"
+  },
+  "FCGR3A": {
+   "top_share": 0.5719241443108233,
+   "n_types": 5,
+   "home": "kupffer cells"
+  },
+  "HLA-DRA": {
+   "top_share": 0.5469346897918328,
+   "n_types": 6,
+   "home": "cdc"
+  },
+  "NCR3": {
+   "top_share": 0.6225895316804408,
+   "n_types": 3,
+   "home": "nk-cells"
+  },
+  "CD177": {
+   "top_share": 0.6316187594553708,
+   "n_types": 2,
+   "home": "neutrophils"
+  },
+  "CRLF2": {
+   "top_share": 0.6175853018372705,
+   "n_types": 4,
+   "home": "mast cells"
+  },
+  "IGHD": {
+   "top_share": 0.9468880176427346,
+   "n_types": 1,
+   "home": "plasma cells"
+  },
+  "IGHM": {
+   "top_share": 0.4579562594268477,
+   "n_types": 3,
+   "home": "plasma cells"
+  },
+  "KLRK1": {
+   "top_share": 0.625,
+   "n_types": 2,
+   "home": "nk-cells"
+  },
+  "ITGA1": {
+   "top_share": 0.4400942007653813,
+   "n_types": 4,
+   "home": "t-cells"
+  },
+  "TNFRSF13B": {
+   "top_share": 0.5451185709886048,
+   "n_types": 2,
+   "home": "plasma cells"
+  },
+  "ITGB3": {
+   "top_share": 0.7499999999999999,
+   "n_types": 2,
+   "home": "erythrocytes"
+  },
+  "MRC1": {
+   "top_share": 0.29168301294625343,
+   "n_types": 5,
+   "home": "macrophages"
+  },
+  "PECAM1": {
+   "top_share": 0.24014468202005404,
+   "n_types": 11,
+   "home": "neutrophils"
+  },
+  "CD24": {
+   "top_share": 0.7694749694749693,
+   "n_types": 2,
+   "home": "neutrophil progenitors"
+  }
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "cldn182": {
+  "spearman_r": 0.9636363636363636,
+  "spearman_p": 0.0004749073720765298,
+  "k_intra_fit": 2.9906084150784886e-05,
+  "n_half_fit": 23177.4637249442,
+  "rmse": 0.2374586701782395
+ },
+ "msln": {
+  "k_intra_fit": 1.306623682477564e-05,
+  "n_half_fit": 53048.72319822256,
+  "paper_reported_spearman_r": 0.623,
+  "paper_reported_spearman_p": 0.035
+ },
+ "cptac": {
+  "n": 135,
+  "deaths": 76,
+  "median_split": 24.3145,
+  "logrank_chi2": 0.8729055691116168,
+  "logrank_p": 0.3501521782607675
+ },
+ "ranking": [
+  [
+   "CLDN18",
+   "claudin-18.2",
+   0.3593466972587852,
+   8,
+   "foveolar cells"
+  ],
+  [
+   "CEACAM5",
+   "CEA",
+   0.28260202516109234,
+   7,
+   "colonocytes"
+  ],
+  [
+   "PSCA",
+   "PSCA",
+   0.2703510443684615,
+   8,
+   "parietal cells"
+  ],
+  [
+   "TACSTD2",
+   "TROP2",
+   0.2581519495074618,
+   7,
+   "esophageal apical cells"
+  ],
+  [
+   "MSLN",
+   "mesothelin",
+   0.2389617852696102,
+   11,
+   "conjunctival goblet cells"
+  ],
+  [
+   "CEACAM6",
+   "CEACAM6",
+   0.2355376141767302,
+   9,
+   "esophageal apical cells"
+  ],
+  [
+   "CDH17",
+   "CDH17",
+   0.2298132583314256,
+   9,
+   "colonocytes"
+  ],
+  [
+   "MUC16",
+   "CA125/MUC16",
+   0.17262555844018926,
+   13,
+   "epicardial cells"
+  ],
+  [
+   "CD276",
+   "B7-H3",
+   0.12422576649117371,
+   15,
+   "extravillous trophoblasts"
+  ],
+  [
+   "ITGB6",
+   "integrin b6",
+   0.09812306460786585,
+   23,
+   "papillary tip epithelial cells"
+  ],
+  [
+   "MUC1",
+   "MUC1",
+   0.09335942864991073,
+   25,
+   "foveolar cells"
+  ],
+  [
+   "GPC1",
+   "glypican-1",
+   0.07781294335916185,
+   44,
+   "extravillous trophoblasts"
+  ],
+  [
+   "EGFR",
+   "EGFR",
+   0.051078234012629946,
+   60,
+   "syncytiotrophoblasts"
+  ],
+  [
+   "ERBB2",
+   "HER2",
+   0.04133123222911171,
+   72,
+   "esophageal apical cells"
+  ]
+ ]
+}

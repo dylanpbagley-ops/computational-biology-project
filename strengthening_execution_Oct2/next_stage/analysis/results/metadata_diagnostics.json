@@ -1,0 +1,200 @@
+{
+  "input_preservation_verified": true,
+  "protected_input_count": 63,
+  "protocol_v2_sha256": "ecec1c737a130f246932f781c7e0efa470a3393df241573541d8a7a983799fb5",
+  "seed": 20261003,
+  "monte_carlo_draws": 100,
+  "eligibility": {
+    "NBM_samples": [
+      "NBM-1",
+      "NBM-10",
+      "NBM-11",
+      "NBM-2",
+      "NBM-3",
+      "NBM-4",
+      "NBM-6",
+      "NBM-7",
+      "NBM-8"
+    ],
+    "NBM_cells": 9329,
+    "MM_samples": [
+      "MM-1",
+      "MM-2",
+      "MM-3",
+      "MM-4",
+      "MM-5",
+      "MM-6",
+      "MM-7",
+      "MM-8"
+    ],
+    "MM_neoplastic_cells": 10759,
+    "MM_stage_normal_labeled_cells_excluded": 31
+  },
+  "diagnostic_scope": "descriptive sample-level associations; no causal attribution or clinical endpoint",
+  "metadata_covariates_not_in_cell_file": [
+    "age",
+    "sex",
+    "preparation",
+    "batch",
+    "immunoglobulin composition"
+  ],
+  "count_matrix_verification": {
+    "status": "completed",
+    "reason": "All UMI and matrix-total checks passed; all 17 donors retained cells.",
+    "common_depth_m": 5189,
+    "m_rule": "floor of linear-interpolated Q10 of 17 donor median n_counts",
+    "seed": 20261003,
+    "monte_carlo_draws": 100,
+    "same_retained_cells_pre_post": true,
+    "marker_draws_are_marginal": true,
+    "retained_cell_counts": [
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-1",
+        "eligible_cells": 760,
+        "retained_cells": 606,
+        "retained_fraction": 0.7973684210526316,
+        "common_depth": 5189
+      },
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-10",
+        "eligible_cells": 2606,
+        "retained_cells": 1694,
+        "retained_fraction": 0.6500383729854182,
+        "common_depth": 5189
+      },
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-11",
+        "eligible_cells": 840,
+        "retained_cells": 666,
+        "retained_fraction": 0.7928571428571428,
+        "common_depth": 5189
+      },
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-2",
+        "eligible_cells": 857,
+        "retained_cells": 785,
+        "retained_fraction": 0.9159859976662778,
+        "common_depth": 5189
+      },
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-3",
+        "eligible_cells": 51,
+        "retained_cells": 44,
+        "retained_fraction": 0.8627450980392157,
+        "common_depth": 5189
+      },
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-4",
+        "eligible_cells": 160,
+        "retained_cells": 140,
+        "retained_fraction": 0.875,
+        "common_depth": 5189
+      },
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-6",
+        "eligible_cells": 679,
+        "retained_cells": 578,
+        "retained_fraction": 0.8512518409425626,
+        "common_depth": 5189
+      },
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-7",
+        "eligible_cells": 1569,
+        "retained_cells": 1456,
+        "retained_fraction": 0.9279796048438496,
+        "common_depth": 5189
+      },
+      {
+        "stage": "NBM",
+        "sample_id": "NBM-8",
+        "eligible_cells": 1807,
+        "retained_cells": 1593,
+        "retained_fraction": 0.8815716657443277,
+        "common_depth": 5189
+      },
+      {
+        "stage": "MM",
+        "sample_id": "MM-1",
+        "eligible_cells": 2887,
+        "retained_cells": 599,
+        "retained_fraction": 0.20748181503290614,
+        "common_depth": 5189
+      },
+      {
+        "stage": "MM",
+        "sample_id": "MM-2",
+        "eligible_cells": 3414,
+        "retained_cells": 2463,
+        "retained_fraction": 0.7214411247803163,
+        "common_depth": 5189
+      },
+      {
+        "stage": "MM",
+        "sample_id": "MM-3",
+        "eligible_cells": 944,
+        "retained_cells": 925,
+        "retained_fraction": 0.9798728813559322,
+        "common_depth": 5189
+      },
+      {
+        "stage": "MM",
+        "sample_id": "MM-4",
+        "eligible_cells": 581,
+        "retained_cells": 579,
+        "retained_fraction": 0.9965576592082617,
+        "common_depth": 5189
+      },
+      {
+        "stage": "MM",
+        "sample_id": "MM-5",
+        "eligible_cells": 1463,
+        "retained_cells": 1096,
+        "retained_fraction": 0.7491455912508544,
+        "common_depth": 5189
+      },
+      {
+        "stage": "MM",
+        "sample_id": "MM-6",
+        "eligible_cells": 817,
+        "retained_cells": 802,
+        "retained_fraction": 0.981640146878825,
+        "common_depth": 5189
+      },
+      {
+        "stage": "MM",
+        "sample_id": "MM-7",
+        "eligible_cells": 100,
+        "retained_cells": 70,
+        "retained_fraction": 0.7,
+        "common_depth": 5189
+      },
+      {
+        "stage": "MM",
+        "sample_id": "MM-8",
+        "eligible_cells": 553,
+        "retained_cells": 145,
+        "retained_fraction": 0.26220614828209765,
+        "common_depth": 5189
+      }
+    ]
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "outputs": [
+    "results/metadata_donors.tsv",
+    "results/metadata_associations.tsv",
+    "results/metadata_depth_retention.tsv if thinning completed",
+    "results/metadata_thinning_paired.tsv if thinning completed",
+    "delivery/figures/metadata_depth_tail.svg"
+  ]
+}

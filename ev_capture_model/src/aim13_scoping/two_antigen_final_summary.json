@@ -1,0 +1,9 @@
+{
+ "best_1receptor": 0.6176666666666666,
+ "best_2receptor": 0.6458333333333331,
+ "median_engineering_gain": 0.13293380559204346,
+ "median_statistical_gain": 0.0029993119409520985,
+ "not_frac": 0.8618618618618619,
+ "n_patients": 41,
+ "theorem_violations": 0
+}

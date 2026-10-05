@@ -1,0 +1,3238 @@
+{
+ "frozen": {
+  "sep": 0.9138755980861244,
+  "p_normal_approx": 2.7861527111901924e-05,
+  "p_montecarlo": 0.00014999250037498125
+ },
+ "approx_validation": {
+  "max_ratio_p_normal_vs_mc": 500.6501199760048,
+  "n": 30,
+  "note": "MC has floor ~1/5001; ratios near the floor are not informative"
+ },
+ "F1": {
+  "1": {
+   "n_sets": 30,
+   "sep_min": 0.8333333333333334,
+   "sep_median": 0.8798148148148148,
+   "sep_max": 0.95,
+   "frac_p_lt_0.05": 1.0,
+   "frac_p_lt_0.001": 1.0,
+   "worst_p": 0.0008134278725299005,
+   "worst_sep": 0.8333333333333334,
+   "worst_set": [
+    "MS4A1"
+   ]
+  },
+  "2": {
+   "n_sets": 435,
+   "sep_min": 0.7647058823529411,
+   "sep_median": 0.8552036199095022,
+   "sep_max": 0.9788359788359788,
+   "frac_p_lt_0.05": 1.0,
+   "frac_p_lt_0.001": 0.671264367816092,
+   "worst_p": 0.006777922651038724,
+   "worst_sep": 0.7647058823529411,
+   "worst_set": [
+    "MS4A1",
+    "TNFRSF17"
+   ]
+  },
+  "3": {
+   "n_sets": 4060,
+   "sep_min": 0.7037037037037037,
+   "sep_median": 0.8240740740740741,
+   "sep_max": 0.995,
+   "frac_p_lt_0.05": 1.0,
+   "frac_p_lt_0.001": 0.45935960591133007,
+   "worst_p": 0.032469086451568895,
+   "worst_sep": 0.7037037037037037,
+   "worst_set": [
+    "CD47",
+    "MS4A1",
+    "TNFRSF17"
+   ]
+  },
+  "4": {
+   "n_sets": 27405,
+   "sep_min": 0.6425339366515838,
+   "sep_median": 0.7963800904977375,
+   "sep_max": 1.0,
+   "frac_p_lt_0.05": 0.9872650976099252,
+   "frac_p_lt_0.001": 0.27797847108191936,
+   "worst_p": 0.10007016638201045,
+   "worst_sep": 0.645933014354067,
+   "worst_set": [
+    "CD47",
+    "ERBB2",
+    "MS4A1",
+    "TNFRSF17"
+   ]
+  },
+  "5": {
+   "n_sets": 142506,
+   "sep_min": 0.5833333333333334,
+   "sep_median": 0.7685185185185185,
+   "sep_max": 1.0,
+   "frac_p_lt_0.05": 0.9205226446605757,
+   "frac_p_lt_0.001": 0.1711717401372574,
+   "worst_p": 0.23238451335350255,
+   "worst_sep": 0.5833333333333334,
+   "worst_set": [
+    "CD47",
+    "CD79B",
+    "ERBB2",
+    "MS4A1",
+    "TNFRSF17"
+   ]
+  },
+  "6": {
+   "n_sets": 593775,
+   "sep_min": 0.5263157894736842,
+   "sep_median": 0.7416267942583732,
+   "sep_max": 1.0,
+   "frac_p_lt_0.05": 0.8047644309713275,
+   "frac_p_lt_0.001": 0.09632604942949771,
+   "worst_p": 0.41619794498355217,
+   "worst_sep": 0.5263157894736842,
+   "worst_set": [
+    "CD47",
+    "CD79B",
+    "EGFR",
+    "ERBB2",
+    "MS4A1",
+    "TNFRSF17"
+   ]
+  }
+ },
+ "k4_sets_losing_significance": {
+  "n": 349,
+  "blood_safe_targets": [
+   "CD19",
+   "CD22",
+   "CD33",
+   "CD38",
+   "CD79B",
+   "MS4A1",
+   "SLAMF7",
+   "TNFRSF17"
+  ],
+  "n_containing_a_blood_safe_target": 349
+ },
+ "fragility_index": 4,
+ "F2_all_subsets": [
+  {
+   "flipped": [],
+   "n_flipped": 0,
+   "sep": 0.9138755980861244,
+   "p": 2.7861527111901924e-05,
+   "n_safe": 19
+  },
+  {
+   "flipped": [
+    "EGFR"
+   ],
+   "n_flipped": 1,
+   "sep": 0.87,
+   "p": 0.00030783808894753424,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EPCAM"
+   ],
+   "n_flipped": 1,
+   "sep": 0.895,
+   "p": 0.0001025794129242405,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8518518518518519,
+   "p": 0.0008658607759057534,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "NCAM1"
+   ],
+   "n_flipped": 1,
+   "sep": 0.88,
+   "p": 0.0002018304866880579,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8359788359788359,
+   "p": 0.001497223416263896,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8624338624338624,
+   "p": 0.0005869792376539003,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8181818181818182,
+   "p": 0.003608793893651465,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "FAP"
+   ],
+   "n_flipped": 1,
+   "sep": 0.9,
+   "p": 8.087864159828178e-05,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8571428571428571,
+   "p": 0.0007146077310994852,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8835978835978836,
+   "p": 0.00025302034297536546,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8409090909090909,
+   "p": 0.0018136231029784254,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8677248677248677,
+   "p": 0.0004795504345729233,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8238636363636364,
+   "p": 0.0030577873456434177,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8522727272727273,
+   "p": 0.0012503150134334541,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8074534161490683,
+   "p": 0.006846448570586501,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "CD47"
+   ],
+   "n_flipped": 1,
+   "sep": 0.86,
+   "p": 0.000459976471970475,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CD47"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8148148148148148,
+   "p": 0.002930353005315524,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CD47"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8412698412698413,
+   "p": 0.001253079753829379,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CD47"
+   ],
+   "n_flipped": 3,
+   "sep": 0.7954545454545454,
+   "p": 0.0067245009973645655,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CD47"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8253968253968254,
+   "p": 0.002111321961396924,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CD47"
+   ],
+   "n_flipped": 3,
+   "sep": 0.7784090909090909,
+   "p": 0.010322189332684086,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CD47"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8068181818181818,
+   "p": 0.004964013719635909,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CD47"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7577639751552795,
+   "p": 0.021242754691030555,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CD47"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8465608465608465,
+   "p": 0.0010438836525793048,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CD47"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8011363636363636,
+   "p": 0.005787533583635532,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CD47"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8295454545454546,
+   "p": 0.00258093175634405,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CD47"
+   ],
+   "n_flipped": 4,
+   "sep": 0.782608695652174,
+   "p": 0.012421161214264663,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CD47"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8125,
+   "p": 0.004240273025880223,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CD47"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7639751552795031,
+   "p": 0.01867226643088712,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7950310559006211,
+   "p": 0.009294626191177916,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7430555555555556,
+   "p": 0.03655930276619932,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "ERBB2"
+   ],
+   "n_flipped": 1,
+   "sep": 0.865,
+   "p": 0.0003771341102675436,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "ERBB2"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8201058201058201,
+   "p": 0.00249225037830735,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "ERBB2"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8465608465608465,
+   "p": 0.0010438836525793048,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8011363636363636,
+   "p": 0.005787533583635532,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "ERBB2"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8306878306878307,
+   "p": 0.00178169656430526,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.7840909090909091,
+   "p": 0.008979271048236566,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8125,
+   "p": 0.004240273025880223,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7639751552795031,
+   "p": 0.01867226643088712,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "FAP",
+    "ERBB2"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8518518518518519,
+   "p": 0.0008658607759057534,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8068181818181818,
+   "p": 0.004964013719635909,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8352272727272727,
+   "p": 0.0021679758411392593,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7888198757763976,
+   "p": 0.010765792317516456,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8181818181818182,
+   "p": 0.003608793893651465,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7701863354037267,
+   "p": 0.016356714804990666,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8012422360248447,
+   "p": 0.007993909028391788,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "ERBB2"
+   ],
+   "n_flipped": 5,
+   "sep": 0.75,
+   "p": 0.032340533030188204,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8095238095238095,
+   "p": 0.003433178515637286,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.7613636363636364,
+   "p": 0.015385298803589659,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.7897727272727273,
+   "p": 0.007783287843257858,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7391304347826086,
+   "p": 0.03068670792808724,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.7727272727272727,
+   "p": 0.011829128170957257,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7204968944099379,
+   "p": 0.04314127124471952,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7515527950310559,
+   "p": 0.024089792710482366,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 5,
+   "sep": 0.6944444444444444,
+   "p": 0.07888678371436993,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 3,
+   "sep": 0.7954545454545454,
+   "p": 0.0067245009973645655,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7453416149068323,
+   "p": 0.027230081540426367,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7763975155279503,
+   "p": 0.014279889969545143,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7222222222222222,
+   "p": 0.05179402972506421,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7577639751552795,
+   "p": 0.021242754691030555,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7013888888888888,
+   "p": 0.07131826028377752,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7361111111111112,
+   "p": 0.04119910740600396,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2"
+   ],
+   "n_flipped": 6,
+   "sep": 0.672,
+   "p": 0.12562979804359115,
+   "n_safe": 25
+  },
+  {
+   "flipped": [
+    "CEACAM5"
+   ],
+   "n_flipped": 1,
+   "sep": 0.95,
+   "p": 4.626391432988135e-06,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CEACAM5"
+   ],
+   "n_flipped": 2,
+   "sep": 0.91005291005291,
+   "p": 7.632547362682295e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CEACAM5"
+   ],
+   "n_flipped": 2,
+   "sep": 0.9365079365079365,
+   "p": 1.8522207427754653e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8977272727272727,
+   "p": 0.0002243322783052918,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CEACAM5"
+   ],
+   "n_flipped": 2,
+   "sep": 0.9206349206349206,
+   "p": 4.466298319371783e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8806818181818182,
+   "p": 0.0004483228471234468,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.9090909090909091,
+   "p": 0.00013582952113686745,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8695652173913043,
+   "p": 0.0011184792219274978,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CEACAM5"
+   ],
+   "n_flipped": 2,
+   "sep": 0.9417989417989417,
+   "p": 1.3419863494826013e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.9034090909090909,
+   "p": 0.00017512611215759642,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.9318181818181818,
+   "p": 4.408052384064378e-05,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8944099378881988,
+   "p": 0.00045633166322821495,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.9147727272727273,
+   "p": 0.00010405053883314753,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8757763975155279,
+   "p": 0.000904312800864525,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.906832298136646,
+   "p": 0.0002770409666961391,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8680555555555556,
+   "p": 0.0020731758662793144,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8994708994708994,
+   "p": 0.00012602090563110054,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8579545454545454,
+   "p": 0.0010299123942302353,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8863636363636364,
+   "p": 0.0003586241067500438,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.84472049689441,
+   "p": 0.002459475390509873,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8693181818181818,
+   "p": 0.0006876903428627567,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8260869565217391,
+   "p": 0.00419245505452402,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8571428571428571,
+   "p": 0.0016784556439728854,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8125,
+   "p": 0.009003410382720728,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8920454545454546,
+   "p": 0.00028447314804136393,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8509316770186336,
+   "p": 0.002038019451812555,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8819875776397516,
+   "p": 0.0007255133117202082,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8402777777777778,
+   "p": 0.0045286514252031495,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8633540372670807,
+   "p": 0.0013748894783377542,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8194444444444444,
+   "p": 0.007644309713275231,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8541666666666666,
+   "p": 0.0031055534503810368,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "CEACAM5"
+   ],
+   "n_flipped": 6,
+   "sep": 0.808,
+   "p": 0.015613377682343199,
+   "n_safe": 25
+  },
+  {
+   "flipped": [
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 2,
+   "sep": 0.9047619047619048,
+   "p": 9.855212254012853e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8636363636363636,
+   "p": 0.0008443641427149673,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8920454545454546,
+   "p": 0.00028447314804136393,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8509316770186336,
+   "p": 0.002038019451812555,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.875,
+   "p": 0.0005573281735200776,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8322981366459627,
+   "p": 0.0035268690441104234,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8633540372670807,
+   "p": 0.0013748894783377542,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8194444444444444,
+   "p": 0.007644309713275231,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "FAP",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8977272727272727,
+   "p": 0.0002243322783052918,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8571428571428571,
+   "p": 0.0016784556439728854,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8881987577639752,
+   "p": 0.0005781510953924747,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8472222222222222,
+   "p": 0.003764052039914109,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8695652173913043,
+   "p": 0.0011184792219274978,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8263888888888888,
+   "p": 0.006453623005347143,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8611111111111112,
+   "p": 0.00254810323775841,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 6,
+   "sep": 0.816,
+   "p": 0.013276633966289138,
+   "n_safe": 25
+  },
+  {
+   "flipped": [
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 3,
+   "sep": 0.8522727272727273,
+   "p": 0.0012503150134334541,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8074534161490683,
+   "p": 0.006846448570586501,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8385093167701864,
+   "p": 0.0029531388152077807,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7916666666666666,
+   "p": 0.014318555008210181,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8198757763975155,
+   "p": 0.004958738579428234,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7708333333333334,
+   "p": 0.021893814997263273,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8055555555555556,
+   "p": 0.010559555387141595,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 6,
+   "sep": 0.752,
+   "p": 0.04231400783124921,
+   "n_safe": 25
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 4,
+   "sep": 0.84472049689441,
+   "p": 0.002459475390509873,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7986111111111112,
+   "p": 0.012319481284998527,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8333333333333334,
+   "p": 0.005424613700475769,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 6,
+   "sep": 0.784,
+   "p": 0.024602472878334947,
+   "n_safe": 25
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8125,
+   "p": 0.009003410382720728,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 6,
+   "sep": 0.76,
+   "p": 0.03719141650176133,
+   "n_safe": 25
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8,
+   "p": 0.018258880327845846,
+   "n_safe": 25
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5"
+   ],
+   "n_flipped": 7,
+   "sep": 0.7403846153846154,
+   "p": 0.0695858419996351,
+   "n_safe": 26
+  },
+  {
+   "flipped": [
+    "NECTIN4"
+   ],
+   "n_flipped": 1,
+   "sep": 0.9259259259259259,
+   "p": 1.041700086914322e-05,
+   "n_safe": 18
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NECTIN4"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8803827751196173,
+   "p": 0.00014624555853941161,
+   "n_safe": 19
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NECTIN4"
+   ],
+   "n_flipped": 2,
+   "sep": 0.9043062200956937,
+   "p": 4.624061595575839e-05,
+   "n_safe": 19
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.86,
+   "p": 0.000459976471970475,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "NECTIN4"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8899521531100478,
+   "p": 9.392739527672061e-05,
+   "n_safe": 19
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.845,
+   "p": 0.0008109498364370928,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.87,
+   "p": 0.00030783808894753424,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8253968253968254,
+   "p": 0.002111321961396924,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "FAP",
+    "NECTIN4"
+   ],
+   "n_flipped": 2,
+   "sep": 0.9090909090909091,
+   "p": 3.6007637207037504e-05,
+   "n_safe": 19
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.865,
+   "p": 0.0003771341102675436,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.89,
+   "p": 0.00012937254316564662,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8465608465608465,
+   "p": 0.0010438836525793048,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.875,
+   "p": 0.0002498584207729635,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8306878306878307,
+   "p": 0.00178169656430526,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8571428571428571,
+   "p": 0.0007146077310994852,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8125,
+   "p": 0.004240273025880223,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8708133971291866,
+   "p": 0.00022287391102983307,
+   "n_safe": 19
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.825,
+   "p": 0.0016292220190271165,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.85,
+   "p": 0.000674354797293328,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8042328042328042,
+   "p": 0.0040073669458976805,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.835,
+   "p": 0.0011585615783516834,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7883597883597884,
+   "p": 0.006244639917803336,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8148148148148148,
+   "p": 0.002930353005315524,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7670454545454546,
+   "p": 0.01351050970241375,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.855,
+   "p": 0.0005580959104197485,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8095238095238095,
+   "p": 0.003433178515637286,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8359788359788359,
+   "p": 0.001497223416263896,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7897727272727273,
+   "p": 0.007783287843257858,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8201058201058201,
+   "p": 0.00249225037830735,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7727272727272727,
+   "p": 0.011829128170957257,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8011363636363636,
+   "p": 0.005787533583635532,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.7515527950310559,
+   "p": 0.024089792710482366,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 2,
+   "sep": 0.8755980861244019,
+   "p": 0.0001810267027658332,
+   "n_safe": 19
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.83,
+   "p": 0.0013766676435342103,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.855,
+   "p": 0.0005580959104197485,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8095238095238095,
+   "p": 0.003433178515637286,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.84,
+   "p": 0.0009714090673610913,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7936507936507936,
+   "p": 0.005404151071317488,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8201058201058201,
+   "p": 0.00249225037830735,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7727272727272727,
+   "p": 0.011829128170957257,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "FAP",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.86,
+   "p": 0.000459976471970475,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8148148148148148,
+   "p": 0.002930353005315524,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8412698412698413,
+   "p": 0.001253079753829379,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7954545454545454,
+   "p": 0.0067245009973645655,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8253968253968254,
+   "p": 0.002111321961396924,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7784090909090909,
+   "p": 0.010322189332684086,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8068181818181818,
+   "p": 0.004964013719635909,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.7577639751552795,
+   "p": 0.021242754691030555,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.82,
+   "p": 0.001921416913920662,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.7724867724867724,
+   "p": 0.009453524985758868,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.798941798941799,
+   "p": 0.004661655186392818,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.75,
+   "p": 0.019769260668810892,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.783068783068783,
+   "p": 0.007192347882003055,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7329545454545454,
+   "p": 0.028181464823143983,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7613636363636364,
+   "p": 0.015385298803589659,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.7080745341614907,
+   "p": 0.05338343648688476,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8042328042328042,
+   "p": 0.0040073669458976805,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7556818181818182,
+   "p": 0.017464771887560494,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7840909090909091,
+   "p": 0.008979271048236566,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.7329192546583851,
+   "p": 0.034476372924648786,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.7670454545454546,
+   "p": 0.01351050970241375,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.7142857142857143,
+   "p": 0.04805629236663719,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.7453416149068323,
+   "p": 0.027230081540426367,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "NECTIN4"
+   ],
+   "n_flipped": 7,
+   "sep": 0.6875,
+   "p": 0.08699928424066355,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 2,
+   "sep": 0.9569377990430622,
+   "p": 1.7756689420857337e-06,
+   "n_safe": 19
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.915,
+   "p": 3.784321625401086e-05,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.94,
+   "p": 8.953232341538189e-06,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8994708994708994,
+   "p": 0.00012602090563110054,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.925,
+   "p": 2.190047167558412e-05,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8835978835978836,
+   "p": 0.00025302034297536546,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.91005291005291,
+   "p": 7.632547362682295e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8693181818181818,
+   "p": 0.0006876903428627567,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.945,
+   "p": 6.4569779712208494e-06,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.9047619047619048,
+   "p": 9.855212254012853e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.9312169312169312,
+   "p": 2.509234893042989e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8920454545454546,
+   "p": 0.00028447314804136393,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.9153439153439153,
+   "p": 5.871190278986381e-05,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.875,
+   "p": 0.0005573281735200776,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.9034090909090909,
+   "p": 0.00017512611215759642,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8633540372670807,
+   "p": 0.0013748894783377542,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.905,
+   "p": 6.323844404803924e-05,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8624338624338624,
+   "p": 0.0005869792376539003,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8888888888888888,
+   "p": 0.00020192700852371016,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8465909090909091,
+   "p": 0.00150915994993956,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.873015873015873,
+   "p": 0.0003898050974512744,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8295454545454546,
+   "p": 0.00258093175634405,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8579545454545454,
+   "p": 0.0010299123942302353,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8136645962732919,
+   "p": 0.005839964633068081,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8941798941798942,
+   "p": 0.00016012972534711666,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8522727272727273,
+   "p": 0.0012503150134334541,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8806818181818182,
+   "p": 0.0004483228471234468,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8385093167701864,
+   "p": 0.0029531388152077807,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8636363636363636,
+   "p": 0.0008443641427149673,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8198757763975155,
+   "p": 0.004958738579428234,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8509316770186336,
+   "p": 0.002038019451812555,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 7,
+   "sep": 0.8055555555555556,
+   "p": 0.010559555387141595,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 3,
+   "sep": 0.91,
+   "p": 4.915956939944946e-05,
+   "n_safe": 20
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8677248677248677,
+   "p": 0.0004795504345729233,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8941798941798942,
+   "p": 0.00016012972534711666,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8522727272727273,
+   "p": 0.0012503150134334541,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8783068783068783,
+   "p": 0.0003148775262718291,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8352272727272727,
+   "p": 0.0021679758411392593,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8636363636363636,
+   "p": 0.0008443641427149673,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8198757763975155,
+   "p": 0.004958738579428234,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "FAP",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8994708994708994,
+   "p": 0.00012602090563110054,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8579545454545454,
+   "p": 0.0010299123942302353,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8863636363636364,
+   "p": 0.0003586241067500438,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.84472049689441,
+   "p": 0.002459475390509873,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8693181818181818,
+   "p": 0.0006876903428627567,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8260869565217391,
+   "p": 0.00419245505452402,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8571428571428571,
+   "p": 0.0016784556439728854,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 7,
+   "sep": 0.8125,
+   "p": 0.009003410382720728,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 4,
+   "sep": 0.8571428571428571,
+   "p": 0.0007146077310994852,
+   "n_safe": 21
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8125,
+   "p": 0.004240273025880223,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8409090909090909,
+   "p": 0.0018136231029784254,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.7950310559006211,
+   "p": 0.009294626191177916,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8238636363636364,
+   "p": 0.0030577873456434177,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.7763975155279503,
+   "p": 0.014279889969545143,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8074534161490683,
+   "p": 0.006846448570586501,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 7,
+   "sep": 0.7569444444444444,
+   "p": 0.028497326428360913,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 5,
+   "sep": 0.8465909090909091,
+   "p": 0.00150915994993956,
+   "n_safe": 22
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8012422360248447,
+   "p": 0.007993909028391788,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8322981366459627,
+   "p": 0.0035268690441104234,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 7,
+   "sep": 0.7847222222222222,
+   "p": 0.016560144836006905,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 6,
+   "sep": 0.8136645962732919,
+   "p": 0.005839964633068081,
+   "n_safe": 23
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 7,
+   "sep": 0.7638888888888888,
+   "p": 0.025029682960717444,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 7,
+   "sep": 0.7986111111111112,
+   "p": 0.012319481284998527,
+   "n_safe": 24
+  },
+  {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 8,
+   "sep": 0.744,
+   "p": 0.047955875542082436,
+   "n_safe": 25
+  }
+ ],
+ "F2_summary": {
+  "sep_min": 0.672,
+  "sep_max": 0.9569377990430622,
+  "frac_p_lt_0.05": 0.97265625,
+  "all_eight": {
+   "flipped": [
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "FAP",
+    "CD47",
+    "ERBB2",
+    "CEACAM5",
+    "NECTIN4"
+   ],
+   "n_flipped": 8,
+   "sep": 0.744,
+   "p": 0.047955875542082436,
+   "n_safe": 25
+  },
+  "by_n_flipped_min_sep": {
+   "0": 0.9138755980861244,
+   "1": 0.86,
+   "2": 0.8095238095238095,
+   "3": 0.7613636363636364,
+   "4": 0.7204968944099379,
+   "5": 0.6944444444444444,
+   "6": 0.672,
+   "7": 0.6875,
+   "8": 0.744
+  },
+  "by_n_flipped_max_p": {
+   "0": 2.7861527111901924e-05,
+   "1": 0.000459976471970475,
+   "2": 0.003433178515637286,
+   "3": 0.015385298803589659,
+   "4": 0.04314127124471952,
+   "5": 0.07888678371436993,
+   "6": 0.12562979804359115,
+   "7": 0.08699928424066355,
+   "8": 0.047955875542082436
+  }
+ }
+}

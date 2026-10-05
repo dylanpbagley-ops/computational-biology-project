@@ -1,0 +1,54 @@
+{
+  "selection_is_marker_blind": true,
+  "random_seed": 20261003,
+  "selection_algorithm": "Python random.Random(seed).sample(sorted eligible Hospital.Code values, n), after metadata-only eligibility filters; all corresponding MARS/BM/first-biopsy batches are retained.",
+  "healthy_normal_pc_eligible_codes": 17,
+  "mm_malignant_eligible_codes": 106,
+  "selected_healthy_codes": [
+    "hip10",
+    "hip11",
+    "hip12",
+    "hip15",
+    "hip16",
+    "hip5",
+    "hip6",
+    "hipb18"
+  ],
+  "selected_mm_codes": [
+    "01-004",
+    "01-009",
+    "028-0602-006",
+    "028-0602-007",
+    "04-005",
+    "10-005",
+    "10-006",
+    "bel03",
+    "cart_p21",
+    "cart_p22",
+    "hmc17",
+    "hmc21",
+    "kydarndmm04",
+    "tlv48",
+    "tlv53",
+    "tlv69"
+  ],
+  "selected_source_row_count": 141,
+  "selected_GSM_files": 86,
+  "annotation_cells_by_group_before_count_table_join": {
+    "healthy_ambiguous_malignant_label": 439,
+    "healthy_normal_pc": 3308,
+    "mm_malignant": 7655,
+    "mm_normal_pc_prior_art_reference": 661
+  },
+  "putative_codes_by_group": {
+    "healthy_ambiguous_malignant_label": 8,
+    "healthy_normal_pc": 8,
+    "mm_malignant": 16,
+    "mm_normal_pc_prior_art_reference": 10
+  },
+  "pilot_manifest": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\strengthening_execution_Oct2\\next_stage\\analysis\\results\\external_pilot_manifest_locked.tsv",
+  "pilot_manifest_sha256": "43f17abd39a15136aeaaecb183887752c6a76d38d96e1626014abd60953508cb",
+  "full_metadata_candidate_manifest": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\strengthening_execution_Oct2\\next_stage\\analysis\\results\\external_pilot_manifest.tsv",
+  "full_metadata_candidate_manifest_sha256": "e3e21adee57ab689b6a69086b4e288d0e7176c7e733d3c01d55e718db29dcbe1",
+  "scope": "Small feasibility pilot only; not an atlas-wide estimate. Hospital.Code remains an unverified putative-person grouping key."
+}

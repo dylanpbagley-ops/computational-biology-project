@@ -1,0 +1,2578 @@
+{
+ "PROTEIN, mass spectrometry, 60 samples across 20 tissues (PRIMARY)": {
+  "solid": {
+   "sep": 0.4444444444444444,
+   "p": 0.6555444555444555,
+   "n_safe": 6,
+   "n_toxic": 9
+  },
+  "one_factor": 0.6428571428571429,
+  "p_one": 0.12745436272818636,
+  "two_factor": 0.6428571428571429,
+  "p_two": 0.12745436272818636,
+  "n_groups": 14,
+  "n_haem_homes": 0,
+  "columns": {
+   "gene": "Gene name",
+   "group": "Tissue",
+   "value": "Intensity"
+  },
+  "per_gene": {
+   "CD38": {
+    "top_share": 0.17410190843981216,
+    "n_types": 11,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.17410190843981216
+     ],
+     [
+      "cerebral cortex",
+      0.17054427147133058
+     ],
+     [
+      "spleen",
+      0.14877020334024038
+     ]
+    ]
+   },
+   "CD79B": {
+    "top_share": 0.8912956916362206,
+    "n_types": 1,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.8912956916362206
+     ],
+     [
+      "spleen",
+      0.05566844656585224
+     ],
+     [
+      "jejunum",
+      0.05303586179792709
+     ]
+    ]
+   },
+   "CD22": {
+    "top_share": 0.7160574912978412,
+    "n_types": 2,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.7160574912978412
+     ],
+     [
+      "spleen",
+      0.23516616443501248
+     ],
+     [
+      "jejunum",
+      0.0389845239528816
+     ]
+    ]
+   },
+   "CD74": {
+    "top_share": 0.3050571113704246,
+    "n_types": 9,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.3050571113704246
+     ],
+     [
+      "lung",
+      0.16335561523133565
+     ],
+     [
+      "bone marrow",
+      0.10614224616166727
+     ]
+    ]
+   },
+   "CD44": {
+    "top_share": 0.24081999779021895,
+    "n_types": 11,
+    "home": "salivary gland",
+    "top3": [
+     [
+      "salivary gland",
+      0.24081999779021895
+     ],
+     [
+      "skin",
+      0.12665020652236983
+     ],
+     [
+      "lung",
+      0.09886356676693694
+     ]
+    ]
+   },
+   "SLAMF7": {
+    "top_share": 1.0,
+    "n_types": 1,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      1.0
+     ]
+    ]
+   },
+   "TNFRSF17": {
+    "top_share": 1.0,
+    "n_types": 1,
+    "home": "jejunum",
+    "top3": [
+     [
+      "jejunum",
+      1.0
+     ]
+    ]
+   },
+   "CLDN18": {
+    "top_share": 0.8400418611136711,
+    "n_types": 2,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.8400418611136711
+     ],
+     [
+      "stomach",
+      0.1599581388863289
+     ]
+    ]
+   },
+   "FAP": {
+    "top_share": 0.757675326721891,
+    "n_types": 2,
+    "home": "skin",
+    "top3": [
+     [
+      "skin",
+      0.757675326721891
+     ],
+     [
+      "blood vessel",
+      0.24232467327810894
+     ]
+    ]
+   },
+   "PTPRC": {
+    "top_share": 0.3693669348112316,
+    "n_types": 5,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.3693669348112316
+     ],
+     [
+      "spleen",
+      0.356454115181057
+     ],
+     [
+      "bone marrow",
+      0.058853093800676284
+     ]
+    ]
+   },
+   "FOLH1": {
+    "top_share": 0.3672762307745715,
+    "n_types": 8,
+    "home": "salivary gland",
+    "top3": [
+     [
+      "salivary gland",
+      0.3672762307745715
+     ],
+     [
+      "jejunum",
+      0.18751538515758798
+     ],
+     [
+      "ileum",
+      0.08072398323096215
+     ]
+    ]
+   },
+   "CD40": {
+    "top_share": 1.0,
+    "n_types": 1,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      1.0
+     ]
+    ]
+   },
+   "MSLN": {
+    "top_share": 0.2223662395311143,
+    "n_types": 11,
+    "home": "pancreas",
+    "top3": [
+     [
+      "pancreas",
+      0.2223662395311143
+     ],
+     [
+      "blood vessel",
+      0.20447152728583035
+     ],
+     [
+      "fallopian tube",
+      0.16528270254765823
+     ]
+    ]
+   },
+   "FCER2": {
+    "top_share": 0.7801977011835779,
+    "n_types": 2,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.7801977011835779
+     ],
+     [
+      "spleen",
+      0.2198022988164222
+     ]
+    ]
+   },
+   "CD33": {
+    "top_share": 0.9123779150703945,
+    "n_types": 1,
+    "home": "pancreas",
+    "top3": [
+     [
+      "pancreas",
+      0.9123779150703945
+     ],
+     [
+      "bone marrow",
+      0.06318312452285849
+     ],
+     [
+      "lymph node",
+      0.019024632060357344
+     ]
+    ]
+   },
+   "CEACAM5": {
+    "top_share": 0.354470594522063,
+    "n_types": 8,
+    "home": "colon",
+    "top3": [
+     [
+      "colon",
+      0.354470594522063
+     ],
+     [
+      "skin",
+      0.19557011067600896
+     ],
+     [
+      "bone marrow",
+      0.07205489497827697
+     ]
+    ]
+   },
+   "MET": {
+    "top_share": 0.39596063360520445,
+    "n_types": 3,
+    "home": "liver",
+    "top3": [
+     [
+      "liver",
+      0.39596063360520445
+     ],
+     [
+      "colon",
+      0.38339284219634334
+     ],
+     [
+      "jejunum",
+      0.19942967232280345
+     ]
+    ]
+   },
+   "CA9": {
+    "top_share": 0.9880952272044619,
+    "n_types": 1,
+    "home": "stomach",
+    "top3": [
+     [
+      "stomach",
+      0.9880952272044619
+     ],
+     [
+      "jejunum",
+      0.008509493757527924
+     ],
+     [
+      "duodenum",
+      0.003229555721443966
+     ]
+    ]
+   },
+   "FOLR1": {
+    "top_share": 0.42300253208726873,
+    "n_types": 4,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.42300253208726873
+     ],
+     [
+      "fallopian tube",
+      0.3326409316720634
+     ],
+     [
+      "kidney",
+      0.18975252598783046
+     ]
+    ]
+   },
+   "SDC1": {
+    "top_share": 0.36228857335710957,
+    "n_types": 4,
+    "home": "kidney",
+    "top3": [
+     [
+      "kidney",
+      0.36228857335710957
+     ],
+     [
+      "skin",
+      0.25182966614174784
+     ],
+     [
+      "liver",
+      0.22358241102815476
+     ]
+    ]
+   },
+   "EPCAM": {
+    "top_share": 0.36122289762711307,
+    "n_types": 8,
+    "home": "jejunum",
+    "top3": [
+     [
+      "jejunum",
+      0.36122289762711307
+     ],
+     [
+      "pancreas",
+      0.1338314924511337
+     ],
+     [
+      "ileum",
+      0.12139581316044763
+     ]
+    ]
+   },
+   "ERBB2": {
+    "top_share": 0.37127804218995547,
+    "n_types": 10,
+    "home": "spleen",
+    "top3": [
+     [
+      "spleen",
+      0.37127804218995547
+     ],
+     [
+      "kidney",
+      0.0841061836213206
+     ],
+     [
+      "duodenum",
+      0.06936592052260372
+     ]
+    ]
+   },
+   "NECTIN4": {
+    "top_share": 0.37072610141269124,
+    "n_types": 4,
+    "home": "blood vessel",
+    "top3": [
+     [
+      "blood vessel",
+      0.37072610141269124
+     ],
+     [
+      "skin",
+      0.29628459071670254
+     ],
+     [
+      "salivary gland",
+      0.19187406410606725
+     ]
+    ]
+   },
+   "EGFR": {
+    "top_share": 0.10759635461692993,
+    "n_types": 18,
+    "home": "liver",
+    "top3": [
+     [
+      "liver",
+      0.10759635461692993
+     ],
+     [
+      "skin",
+      0.09989454417380636
+     ],
+     [
+      "heart muscle",
+      0.0925648535606688
+     ]
+    ]
+   },
+   "NCAM1": {
+    "top_share": 0.7070989898674764,
+    "n_types": 1,
+    "home": "cerebral cortex",
+    "top3": [
+     [
+      "cerebral cortex",
+      0.7070989898674764
+     ],
+     [
+      "heart muscle",
+      0.06792011025455387
+     ],
+     [
+      "ovary",
+      0.04700543062328164
+     ]
+    ]
+   },
+   "MS4A1": {
+    "top_share": 0.4874923113133487,
+    "n_types": 3,
+    "home": "spleen",
+    "top3": [
+     [
+      "spleen",
+      0.4874923113133487
+     ],
+     [
+      "lymph node",
+      0.39717251558216876
+     ],
+     [
+      "blood vessel",
+      0.08681670313798674
+     ]
+    ]
+   },
+   "SLC34A2": {
+    "top_share": 0.9093906825284198,
+    "n_types": 1,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.9093906825284198
+     ],
+     [
+      "fallopian tube",
+      0.08593644633338818
+     ],
+     [
+      "salivary gland",
+      0.0046728711381918845
+     ]
+    ]
+   },
+   "CD19": {
+    "top_share": 0.5974833455842408,
+    "n_types": 2,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.5974833455842408
+     ],
+     [
+      "spleen",
+      0.4025166544157592
+     ]
+    ]
+   },
+   "MUC16": {
+    "top_share": 0.970738444921775,
+    "n_types": 1,
+    "home": "cerebral cortex",
+    "top3": [
+     [
+      "cerebral cortex",
+      0.970738444921775
+     ],
+     [
+      "salivary gland",
+      0.017319947955336725
+     ],
+     [
+      "fallopian tube",
+      0.005265352092363372
+     ]
+    ]
+   },
+   "TACSTD2": {
+    "top_share": 0.2899465017870297,
+    "n_types": 8,
+    "home": "salivary gland",
+    "top3": [
+     [
+      "salivary gland",
+      0.2899465017870297
+     ],
+     [
+      "lung",
+      0.28724047119559326
+     ],
+     [
+      "pancreas",
+      0.10909153993648593
+     ]
+    ]
+   },
+   "IL3RA": {
+    "top_share": 0.5986369323305254,
+    "n_types": 2,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.5986369323305254
+     ],
+     [
+      "lymph node",
+      0.4013630676694746
+     ]
+    ]
+   },
+   "MUC1": {
+    "top_share": 0.31412095398196993,
+    "n_types": 7,
+    "home": "pancreas",
+    "top3": [
+     [
+      "pancreas",
+      0.31412095398196993
+     ],
+     [
+      "kidney",
+      0.1276039555792593
+     ],
+     [
+      "lung",
+      0.1256278720697405
+     ]
+    ]
+   },
+   "CD47": {
+    "top_share": 0.28084638151169067,
+    "n_types": 13,
+    "home": "cerebral cortex",
+    "top3": [
+     [
+      "cerebral cortex",
+      0.28084638151169067
+     ],
+     [
+      "spleen",
+      0.1072683250148943
+     ],
+     [
+      "blood vessel",
+      0.07920876019516729
+     ]
+    ]
+   },
+   "HLA-DRA": {
+    "top_share": 0.22496650056123704,
+    "n_types": 9,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.22496650056123704
+     ],
+     [
+      "lymph node",
+      0.16393392197135057
+     ],
+     [
+      "jejunum",
+      0.15225846692650352
+     ]
+    ]
+   }
+  }
+ },
+ "PROTEIN, mass spectrometry, summarised to 20 tissues": {
+  "solid": {
+   "sep": 0.5,
+   "p": 0.5226773226773227,
+   "n_safe": 6,
+   "n_toxic": 9
+  },
+  "one_factor": 0.65,
+  "p_one": 0.1148044259778701,
+  "two_factor": 0.65,
+  "p_two": 0.1148044259778701,
+  "n_groups": 13,
+  "n_haem_homes": 0,
+  "columns": {
+   "gene": "Gene name",
+   "group": "Tissue",
+   "value": "Intensity"
+  },
+  "per_gene": {
+   "CD38": {
+    "top_share": 0.18536830387061587,
+    "n_types": 10,
+    "home": "cerebral cortex",
+    "top3": [
+     [
+      "cerebral cortex",
+      0.18536830387061587
+     ],
+     [
+      "lymph node",
+      0.1816759589728452
+     ],
+     [
+      "spleen",
+      0.15586149136193791
+     ]
+    ]
+   },
+   "CD79B": {
+    "top_share": 0.9026397275085344,
+    "n_types": 1,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.9026397275085344
+     ],
+     [
+      "spleen",
+      0.05567693536905331
+     ],
+     [
+      "jejunum",
+      0.04168333712241232
+     ]
+    ]
+   },
+   "CD22": {
+    "top_share": 0.705057485892173,
+    "n_types": 2,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.705057485892173
+     ],
+     [
+      "spleen",
+      0.24518159315989543
+     ],
+     [
+      "jejunum",
+      0.03960016612916018
+     ]
+    ]
+   },
+   "CD74": {
+    "top_share": 0.31788809770243676,
+    "n_types": 8,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.31788809770243676
+     ],
+     [
+      "lung",
+      0.1591367369466442
+     ],
+     [
+      "bone marrow",
+      0.10489177070134352
+     ]
+    ]
+   },
+   "CD44": {
+    "top_share": 0.24374079251691205,
+    "n_types": 11,
+    "home": "salivary gland",
+    "top3": [
+     [
+      "salivary gland",
+      0.24374079251691205
+     ],
+     [
+      "skin",
+      0.11235035120522736
+     ],
+     [
+      "lung",
+      0.09976126465923961
+     ]
+    ]
+   },
+   "SLAMF7": {
+    "top_share": 1.0,
+    "n_types": 1,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      1.0
+     ]
+    ]
+   },
+   "TNFRSF17": {
+    "top_share": 1.0,
+    "n_types": 1,
+    "home": "jejunum",
+    "top3": [
+     [
+      "jejunum",
+      1.0
+     ]
+    ]
+   },
+   "CLDN18": {
+    "top_share": 0.9222074806120067,
+    "n_types": 1,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.9222074806120067
+     ],
+     [
+      "stomach",
+      0.07779251938799328
+     ]
+    ]
+   },
+   "FAP": {
+    "top_share": 0.7419677812455199,
+    "n_types": 2,
+    "home": "skin",
+    "top3": [
+     [
+      "skin",
+      0.7419677812455199
+     ],
+     [
+      "blood vessel",
+      0.2580322187544802
+     ]
+    ]
+   },
+   "PTPRC": {
+    "top_share": 0.3744198565457923,
+    "n_types": 5,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.3744198565457923
+     ],
+     [
+      "spleen",
+      0.3570341902005998
+     ],
+     [
+      "bone marrow",
+      0.05900025755485136
+     ]
+    ]
+   },
+   "FOLH1": {
+    "top_share": 0.3882195328455228,
+    "n_types": 8,
+    "home": "salivary gland",
+    "top3": [
+     [
+      "salivary gland",
+      0.3882195328455228
+     ],
+     [
+      "jejunum",
+      0.19281443604580015
+     ],
+     [
+      "ileum",
+      0.06891659644352494
+     ]
+    ]
+   },
+   "CD40": {
+    "top_share": 1.0,
+    "n_types": 1,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      1.0
+     ]
+    ]
+   },
+   "MSLN": {
+    "top_share": 0.302808874111635,
+    "n_types": 12,
+    "home": "fallopian tube",
+    "top3": [
+     [
+      "fallopian tube",
+      0.302808874111635
+     ],
+     [
+      "blood vessel",
+      0.1728331358351676
+     ],
+     [
+      "lung",
+      0.06864991078911263
+     ]
+    ]
+   },
+   "FCER2": {
+    "top_share": 0.8950893920345749,
+    "n_types": 2,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.8950893920345749
+     ],
+     [
+      "spleen",
+      0.10491060796542498
+     ]
+    ]
+   },
+   "CD33": {
+    "top_share": 0.5909789651706229,
+    "n_types": 3,
+    "home": "pancreas",
+    "top3": [
+     [
+      "pancreas",
+      0.5909789651706229
+     ],
+     [
+      "bone marrow",
+      0.2843858385691468
+     ],
+     [
+      "lymph node",
+      0.10692848139681367
+     ]
+    ]
+   },
+   "CEACAM5": {
+    "top_share": 0.39015436148973315,
+    "n_types": 7,
+    "home": "colon",
+    "top3": [
+     [
+      "colon",
+      0.39015436148973315
+     ],
+     [
+      "skin",
+      0.17998965508813985
+     ],
+     [
+      "blood vessel",
+      0.07114041214905166
+     ]
+    ]
+   },
+   "MET": {
+    "top_share": 0.5010696486188484,
+    "n_types": 2,
+    "home": "liver",
+    "top3": [
+     [
+      "liver",
+      0.5010696486188484
+     ],
+     [
+      "colon",
+      0.47276753180725917
+     ],
+     [
+      "salivary gland",
+      0.026162819573892444
+     ]
+    ]
+   },
+   "CA9": {
+    "top_share": 0.9883197459359658,
+    "n_types": 1,
+    "home": "stomach",
+    "top3": [
+     [
+      "stomach",
+      0.9883197459359658
+     ],
+     [
+      "jejunum",
+      0.008477792848284696
+     ],
+     [
+      "duodenum",
+      0.003070642270908849
+     ]
+    ]
+   },
+   "FOLR1": {
+    "top_share": 0.4305847145172084,
+    "n_types": 4,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.4305847145172084
+     ],
+     [
+      "fallopian tube",
+      0.3180248900499002
+     ],
+     [
+      "kidney",
+      0.19256349702802592
+     ]
+    ]
+   },
+   "SDC1": {
+    "top_share": 0.3509652301595101,
+    "n_types": 4,
+    "home": "kidney",
+    "top3": [
+     [
+      "kidney",
+      0.3509652301595101
+     ],
+     [
+      "skin",
+      0.2679272167442467
+     ],
+     [
+      "liver",
+      0.2135865791792427
+     ]
+    ]
+   },
+   "EPCAM": {
+    "top_share": 0.35889050089256247,
+    "n_types": 8,
+    "home": "jejunum",
+    "top3": [
+     [
+      "jejunum",
+      0.35889050089256247
+     ],
+     [
+      "pancreas",
+      0.15062595416739774
+     ],
+     [
+      "ileum",
+      0.11532292742197846
+     ]
+    ]
+   },
+   "ERBB2": {
+    "top_share": 0.40580471267561724,
+    "n_types": 10,
+    "home": "spleen",
+    "top3": [
+     [
+      "spleen",
+      0.40580471267561724
+     ],
+     [
+      "kidney",
+      0.07301343191152732
+     ],
+     [
+      "duodenum",
+      0.06524781168275444
+     ]
+    ]
+   },
+   "NECTIN4": {
+    "top_share": 0.6221350899923864,
+    "n_types": 2,
+    "home": "skin",
+    "top3": [
+     [
+      "skin",
+      0.6221350899923864
+     ],
+     [
+      "salivary gland",
+      0.36790584561757034
+     ],
+     [
+      "kidney",
+      0.00995906439004326
+     ]
+    ]
+   },
+   "EGFR": {
+    "top_share": 0.11336617586670635,
+    "n_types": 17,
+    "home": "liver",
+    "top3": [
+     [
+      "liver",
+      0.11336617586670635
+     ],
+     [
+      "skin",
+      0.10617759402297614
+     ],
+     [
+      "blood vessel",
+      0.10142387881898518
+     ]
+    ]
+   },
+   "NCAM1": {
+    "top_share": 0.7052862654606794,
+    "n_types": 2,
+    "home": "cerebral cortex",
+    "top3": [
+     [
+      "cerebral cortex",
+      0.7052862654606794
+     ],
+     [
+      "heart muscle",
+      0.07097793594915162
+     ],
+     [
+      "ovary",
+      0.04693917228705348
+     ]
+    ]
+   },
+   "MS4A1": {
+    "top_share": 0.49382216408117663,
+    "n_types": 3,
+    "home": "spleen",
+    "top3": [
+     [
+      "spleen",
+      0.49382216408117663
+     ],
+     [
+      "lymph node",
+      0.39254883253096606
+     ],
+     [
+      "blood vessel",
+      0.08581088115293564
+     ]
+    ]
+   },
+   "SLC34A2": {
+    "top_share": 0.9070239830990803,
+    "n_types": 1,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.9070239830990803
+     ],
+     [
+      "fallopian tube",
+      0.08763578708434772
+     ],
+     [
+      "salivary gland",
+      0.0053402298165720055
+     ]
+    ]
+   },
+   "CD19": {
+    "top_share": 0.5613700273849499,
+    "n_types": 2,
+    "home": "lymph node",
+    "top3": [
+     [
+      "lymph node",
+      0.5613700273849499
+     ],
+     [
+      "spleen",
+      0.43862997261505016
+     ]
+    ]
+   },
+   "MUC16": {
+    "top_share": 0.774283659033689,
+    "n_types": 2,
+    "home": "salivary gland",
+    "top3": [
+     [
+      "salivary gland",
+      0.774283659033689
+     ],
+     [
+      "fallopian tube",
+      0.225716340966311
+     ]
+    ]
+   },
+   "TACSTD2": {
+    "top_share": 0.33031421987537823,
+    "n_types": 7,
+    "home": "salivary gland",
+    "top3": [
+     [
+      "salivary gland",
+      0.33031421987537823
+     ],
+     [
+      "lung",
+      0.30484307617875944
+     ],
+     [
+      "pancreas",
+      0.11761593644444243
+     ]
+    ]
+   },
+   "IL3RA": {
+    "top_share": 0.6213008858493488,
+    "n_types": 2,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.6213008858493488
+     ],
+     [
+      "lymph node",
+      0.3786991141506513
+     ]
+    ]
+   },
+   "MUC1": {
+    "top_share": 0.30001517917711046,
+    "n_types": 7,
+    "home": "pancreas",
+    "top3": [
+     [
+      "pancreas",
+      0.30001517917711046
+     ],
+     [
+      "kidney",
+      0.1360264521136047
+     ],
+     [
+      "lung",
+      0.12375018287569683
+     ]
+    ]
+   },
+   "CD47": {
+    "top_share": 0.2544207650319079,
+    "n_types": 14,
+    "home": "cerebral cortex",
+    "top3": [
+     [
+      "cerebral cortex",
+      0.2544207650319079
+     ],
+     [
+      "spleen",
+      0.09364546268715658
+     ],
+     [
+      "blood vessel",
+      0.07845875991512441
+     ]
+    ]
+   },
+   "HLA-DRA": {
+    "top_share": 0.22401257852024495,
+    "n_types": 9,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.22401257852024495
+     ],
+     [
+      "lymph node",
+      0.16781163154025142
+     ],
+     [
+      "jejunum",
+      0.15161162816059032
+     ]
+    ]
+   }
+  }
+ },
+ "PROTEIN, immunohistochemistry, tissue x cell type (SECONDARY, ordinal)": {
+  "solid": {
+   "sep": 0.7291666666666666,
+   "p": 0.09057609057609058,
+   "n_safe": 6,
+   "n_toxic": 8
+  },
+  "one_factor": 0.7851851851851852,
+  "p_one": 0.010439947800260998,
+  "two_factor": 0.7851851851851852,
+  "p_two": 0.010439947800260998,
+  "n_groups": 76,
+  "n_haem_homes": 0,
+  "columns": {
+   "gene": "Gene name",
+   "group": "Tissue | Cell type",
+   "value": "Level"
+  },
+  "per_gene": {
+   "CD38": {
+    "top_share": 0.13636363636363635,
+    "n_types": 9,
+    "home": "Lymph node | non-germinal center cells",
+    "top3": [
+     [
+      "Prostate | glandular cells",
+      0.13636363636363635
+     ],
+     [
+      "Seminal vesicle | glandular cells",
+      0.13636363636363635
+     ],
+     [
+      "Lymph node | non-germinal center cells",
+      0.13636363636363635
+     ]
+    ]
+   },
+   "CD79B": {
+    "top_share": 0.14285714285714285,
+    "n_types": 9,
+    "home": "Appendix | non-germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.14285714285714285
+     ],
+     [
+      "Lymph node | germinal center cells",
+      0.14285714285714285
+     ],
+     [
+      "Tonsil | non-germinal center cells",
+      0.14285714285714285
+     ]
+    ]
+   },
+   "CD22": {
+    "top_share": 0.17647058823529413,
+    "n_types": 8,
+    "home": "Spleen | cells in white pulp",
+    "top3": [
+     [
+      "Tonsil | germinal center cells",
+      0.17647058823529413
+     ],
+     [
+      "Spleen | cells in white pulp",
+      0.17647058823529413
+     ],
+     [
+      "Appendix | lymphoid tissue",
+      0.11764705882352941
+     ]
+    ]
+   },
+   "CD74": {
+    "top_share": 0.030612244897959183,
+    "n_types": 53,
+    "home": "Appendix | germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.030612244897959183
+     ],
+     [
+      "Appendix | germinal center cells",
+      0.030612244897959183
+     ],
+     [
+      "Cerebellum | molecular layer cells - cytoplasm/membrane",
+      0.030612244897959183
+     ]
+    ]
+   },
+   "CD44": {
+    "top_share": 0.0189873417721519,
+    "n_types": 68,
+    "home": "Appendix | endocrine cells",
+    "top3": [
+     [
+      "Appendix | enterocytes",
+      0.0189873417721519
+     ],
+     [
+      "Appendix | endocrine cells",
+      0.0189873417721519
+     ],
+     [
+      "Appendix | goblet cells",
+      0.0189873417721519
+     ]
+    ]
+   },
+   "SLAMF7": {
+    "top_share": 0.1111111111111111,
+    "n_types": 13,
+    "home": "Colon | mucosal lymphoid cells",
+    "top3": [
+     [
+      "Colon | mucosal lymphoid cells",
+      0.1111111111111111
+     ],
+     [
+      "Rectum | mucosal lymphoid cells",
+      0.1111111111111111
+     ],
+     [
+      "Bone marrow | hematopoietic cells",
+      0.07407407407407407
+     ]
+    ]
+   },
+   "CLDN18": {
+    "top_share": 0.42857142857142855,
+    "n_types": 4,
+    "home": "Stomach | glandular cells",
+    "top3": [
+     [
+      "Stomach | glandular cells",
+      0.42857142857142855
+     ],
+     [
+      "Lung | alveolar cells type II",
+      0.2857142857142857
+     ],
+     [
+      "Lung | alveolar cells type I",
+      0.14285714285714285
+     ]
+    ]
+   },
+   "FAP": {
+    "top_share": 0.045112781954887216,
+    "n_types": 41,
+    "home": "Appendix | glandular cells",
+    "top3": [
+     [
+      "Appendix | glandular cells",
+      0.045112781954887216
+     ],
+     [
+      "Gallbladder | glandular cells",
+      0.045112781954887216
+     ],
+     [
+      "Smooth muscle | smooth muscle cells",
+      0.045112781954887216
+     ]
+    ]
+   },
+   "PTPRC": {
+    "top_share": 0.07228915662650602,
+    "n_types": 14,
+    "home": "Appendix | germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.07228915662650602
+     ],
+     [
+      "Appendix | germinal center cells",
+      0.07228915662650602
+     ],
+     [
+      "Bone marrow | hematopoietic cells",
+      0.07228915662650602
+     ]
+    ]
+   },
+   "FOLH1": {
+    "top_share": 0.10714285714285714,
+    "n_types": 15,
+    "home": "Duodenum | enterocytes",
+    "top3": [
+     [
+      "Kidney | proximal tubules (microvilli)",
+      0.10714285714285714
+     ],
+     [
+      "Duodenum | enterocytes",
+      0.10714285714285714
+     ],
+     [
+      "Small intestine | enterocytes",
+      0.10714285714285714
+     ]
+    ]
+   },
+   "CD40": {
+    "top_share": 0.11538461538461539,
+    "n_types": 12,
+    "home": "Lymph node | germinal center cells",
+    "top3": [
+     [
+      "Lymph node | germinal center cells",
+      0.11538461538461539
+     ],
+     [
+      "Spleen | cells in white pulp",
+      0.11538461538461539
+     ],
+     [
+      "Tonsil | germinal center cells",
+      0.11538461538461539
+     ]
+    ]
+   },
+   "MSLN": {
+    "top_share": 0.09375,
+    "n_types": 16,
+    "home": "Bronchus | ciliated cells (cilia axoneme)",
+    "top3": [
+     [
+      "Bronchus | ciliated cells (cilia axoneme)",
+      0.09375
+     ],
+     [
+      "Bronchus | ciliated cells (tip of cilia)",
+      0.09375
+     ],
+     [
+      "Fallopian tube | ciliated cells (tip of cilia)",
+      0.09375
+     ]
+    ]
+   },
+   "FCER2": {
+    "top_share": 0.17647058823529413,
+    "n_types": 8,
+    "home": "Lymph node | germinal center cells",
+    "top3": [
+     [
+      "Lymph node | germinal center cells",
+      0.17647058823529413
+     ],
+     [
+      "Tonsil | germinal center cells",
+      0.17647058823529413
+     ],
+     [
+      "Lymph node | non-germinal center cells",
+      0.11764705882352941
+     ]
+    ]
+   },
+   "CD33": {
+    "top_share": 0.10344827586206896,
+    "n_types": 14,
+    "home": "Testis | preleptotene spermatocytes",
+    "top3": [
+     [
+      "Testis | preleptotene spermatocytes",
+      0.10344827586206896
+     ],
+     [
+      "Testis | spermatogonia cells",
+      0.10344827586206896
+     ],
+     [
+      "Testis | round or early spermatids",
+      0.10344827586206896
+     ]
+    ]
+   },
+   "CEACAM5": {
+    "top_share": 0.05263157894736842,
+    "n_types": 28,
+    "home": "Appendix | endocrine cells",
+    "top3": [
+     [
+      "Appendix | enterocytes",
+      0.05263157894736842
+     ],
+     [
+      "Appendix | endocrine cells",
+      0.05263157894736842
+     ],
+     [
+      "Appendix | goblet cells",
+      0.05263157894736842
+     ]
+    ]
+   },
+   "MET": {
+    "top_share": 0.02531645569620253,
+    "n_types": 72,
+    "home": "Cerebral cortex | neuronal cells",
+    "top3": [
+     [
+      "Gallbladder | glandular cells",
+      0.02531645569620253
+     ],
+     [
+      "Duodenum | glandular cells",
+      0.02531645569620253
+     ],
+     [
+      "Cervix | glandular cells",
+      0.02531645569620253
+     ]
+    ]
+   },
+   "CA9": {
+    "top_share": 0.3,
+    "n_types": 4,
+    "home": "Gallbladder | glandular cells",
+    "top3": [
+     [
+      "Gallbladder | glandular cells",
+      0.3
+     ],
+     [
+      "Stomach | glandular cells",
+      0.3
+     ],
+     [
+      "Small intestine | glandular cells",
+      0.2
+     ]
+    ]
+   },
+   "GPRC5D": {
+    "top_share": 0.031914893617021274,
+    "n_types": 57,
+    "home": "Appendix | lymphoid tissue",
+    "top3": [
+     [
+      "Appendix | lymphoid tissue",
+      0.031914893617021274
+     ],
+     [
+      "Cerebellum | Purkinje cells",
+      0.031914893617021274
+     ],
+     [
+      "Epididymis | glandular cells",
+      0.031914893617021274
+     ]
+    ]
+   },
+   "SDC1": {
+    "top_share": 0.04195804195804196,
+    "n_types": 33,
+    "home": "Appendix | glandular cells",
+    "top3": [
+     [
+      "Appendix | glandular cells",
+      0.04195804195804196
+     ],
+     [
+      "Duodenum | glandular cells",
+      0.04195804195804196
+     ],
+     [
+      "Colon | glandular cells",
+      0.04195804195804196
+     ]
+    ]
+   },
+   "EPCAM": {
+    "top_share": 0.03296703296703297,
+    "n_types": 39,
+    "home": "Appendix | endocrine cells",
+    "top3": [
+     [
+      "Appendix | enterocytes",
+      0.03296703296703297
+     ],
+     [
+      "Appendix | endocrine cells",
+      0.03296703296703297
+     ],
+     [
+      "Appendix | goblet cells",
+      0.03296703296703297
+     ]
+    ]
+   },
+   "TNFRSF8": {
+    "top_share": 0.1875,
+    "n_types": 9,
+    "home": "Fallopian tube | ciliated cells (cell body)",
+    "top3": [
+     [
+      "Fallopian tube | ciliated cells (cell body)",
+      0.1875
+     ],
+     [
+      "Testis | round or early spermatids",
+      0.1875
+     ],
+     [
+      "Fallopian tube | ciliated cells (tip of cilia)",
+      0.125
+     ]
+    ]
+   },
+   "CD80": {
+    "top_share": 0.2,
+    "n_types": 5,
+    "home": "Bone marrow | hematopoietic cells",
+    "top3": [
+     [
+      "Bone marrow | hematopoietic cells",
+      0.2
+     ],
+     [
+      "Lymph node | germinal center cells",
+      0.2
+     ],
+     [
+      "Lymph node | non-germinal center cells",
+      0.2
+     ]
+    ]
+   },
+   "ERBB2": {
+    "top_share": 0.037037037037037035,
+    "n_types": 39,
+    "home": "Appendix | glandular cells",
+    "top3": [
+     [
+      "Appendix | glandular cells",
+      0.037037037037037035
+     ],
+     [
+      "Breast | myoepithelial cells",
+      0.037037037037037035
+     ],
+     [
+      "Breast | glandular cells",
+      0.037037037037037035
+     ]
+    ]
+   },
+   "NECTIN4": {
+    "top_share": 0.06451612903225806,
+    "n_types": 23,
+    "home": "Breast | glandular cells",
+    "top3": [
+     [
+      "Breast | glandular cells",
+      0.06451612903225806
+     ],
+     [
+      "Breast | myoepithelial cells",
+      0.06451612903225806
+     ],
+     [
+      "Esophagus | squamous epithelial cells",
+      0.06451612903225806
+     ]
+    ]
+   },
+   "EGFR": {
+    "top_share": 0.027522935779816515,
+    "n_types": 65,
+    "home": "Bronchus | basal cells",
+    "top3": [
+     [
+      "Bronchus | basal cells",
+      0.027522935779816515
+     ],
+     [
+      "Nasopharynx | goblet cells",
+      0.027522935779816515
+     ],
+     [
+      "Nasopharynx | basal cells",
+      0.027522935779816515
+     ]
+    ]
+   },
+   "NCAM1": {
+    "top_share": 0.08333333333333333,
+    "n_types": 16,
+    "home": "Appendix | enterocytes - Microvilli",
+    "top3": [
+     [
+      "Appendix | enterocytes - Microvilli",
+      0.08333333333333333
+     ],
+     [
+      "Cerebellum | molecular layer - neuropil",
+      0.08333333333333333
+     ],
+     [
+      "Colon | peripheral nerve/ganglion",
+      0.08333333333333333
+     ]
+    ]
+   },
+   "MS4A1": {
+    "top_share": 0.09375,
+    "n_types": 14,
+    "home": "Appendix | germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.09375
+     ],
+     [
+      "Appendix | germinal center cells",
+      0.09375
+     ],
+     [
+      "Lymph node | germinal center cells",
+      0.09375
+     ]
+    ]
+   },
+   "SLC34A2": {
+    "top_share": 0.10714285714285714,
+    "n_types": 11,
+    "home": "Bronchus | ciliated cells (ciliary rootlets)",
+    "top3": [
+     [
+      "Bronchus | ciliated cells (ciliary rootlets)",
+      0.10714285714285714
+     ],
+     [
+      "Endometrium | ciliated epithelial cells",
+      0.10714285714285714
+     ],
+     [
+      "Fallopian tube | ciliated cells (tip of cilia)",
+      0.10714285714285714
+     ]
+    ]
+   },
+   "CD19": {
+    "top_share": 0.1,
+    "n_types": 12,
+    "home": "Appendix | non-germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.1
+     ],
+     [
+      "Lymph node | non-germinal center cells",
+      0.1
+     ],
+     [
+      "Lymph node | germinal center cells",
+      0.1
+     ]
+    ]
+   },
+   "MUC16": {
+    "top_share": 0.16666666666666666,
+    "n_types": 9,
+    "home": "Bronchus | goblet cells",
+    "top3": [
+     [
+      "Bronchus | goblet cells",
+      0.16666666666666666
+     ],
+     [
+      "Cervix | glandular cells",
+      0.16666666666666666
+     ],
+     [
+      "Endometrium | glandular cells",
+      0.16666666666666666
+     ]
+    ]
+   },
+   "TACSTD2": {
+    "top_share": 0.07792207792207792,
+    "n_types": 24,
+    "home": "Skin | cells in granular layer",
+    "top3": [
+     [
+      "Skin | cells in granular layer",
+      0.07792207792207792
+     ],
+     [
+      "Skin | endothelial cells",
+      0.07792207792207792
+     ],
+     [
+      "Skin | hair follicles",
+      0.07792207792207792
+     ]
+    ]
+   },
+   "IL3RA": {
+    "top_share": 0.02643171806167401,
+    "n_types": 66,
+    "home": "Cerebral cortex | neuronal cells",
+    "top3": [
+     [
+      "Fallopian tube | glandular cells",
+      0.02643171806167401
+     ],
+     [
+      "Cerebral cortex | neuronal cells",
+      0.02643171806167401
+     ],
+     [
+      "Adipose tissue | adipocytes",
+      0.01762114537444934
+     ]
+    ]
+   },
+   "MUC1": {
+    "top_share": 0.030612244897959183,
+    "n_types": 48,
+    "home": "Bronchus | respiratory epithelial cells",
+    "top3": [
+     [
+      "Bronchus | respiratory epithelial cells",
+      0.030612244897959183
+     ],
+     [
+      "Colon | goblet cells",
+      0.030612244897959183
+     ],
+     [
+      "Cervix | glandular cells",
+      0.030612244897959183
+     ]
+    ]
+   },
+   "CD47": {
+    "top_share": 0.04,
+    "n_types": 48,
+    "home": "Cerebellum | cells in granular layer",
+    "top3": [
+     [
+      "Cerebral cortex | neuropil",
+      0.04
+     ],
+     [
+      "Cerebellum | cells in granular layer",
+      0.04
+     ],
+     [
+      "Fallopian tube | ciliated cells (cilia axoneme)",
+      0.04
+     ]
+    ]
+   },
+   "HLA-DRA": {
+    "top_share": 0.03550295857988166,
+    "n_types": 43,
+    "home": "Appendix | lymphoid tissue",
+    "top3": [
+     [
+      "Appendix | lymphoid tissue",
+      0.03550295857988166
+     ],
+     [
+      "Breast | myoepithelial cells",
+      0.03550295857988166
+     ],
+     [
+      "Cerebellum | granular cells - cytoplasm/membrane",
+      0.03550295857988166
+     ]
+    ]
+   }
+  }
+ },
+ "PROTEIN, immunohistochemistry, uncertain antibodies dropped (sensitivity)": {
+  "solid": {
+   "sep": 0.7142857142857143,
+   "p": 0.11713286713286714,
+   "n_safe": 6,
+   "n_toxic": 7
+  },
+  "one_factor": 0.775,
+  "p_one": 0.015799921000394998,
+  "two_factor": 0.775,
+  "p_two": 0.015799921000394998,
+  "n_groups": 76,
+  "n_haem_homes": 0,
+  "columns": {
+   "gene": "Gene name",
+   "group": "Tissue | Cell type",
+   "value": "Level"
+  },
+  "per_gene": {
+   "CD38": {
+    "top_share": 0.13636363636363635,
+    "n_types": 9,
+    "home": "Lymph node | non-germinal center cells",
+    "top3": [
+     [
+      "Prostate | glandular cells",
+      0.13636363636363635
+     ],
+     [
+      "Seminal vesicle | glandular cells",
+      0.13636363636363635
+     ],
+     [
+      "Lymph node | non-germinal center cells",
+      0.13636363636363635
+     ]
+    ]
+   },
+   "CD79B": {
+    "top_share": 0.14285714285714285,
+    "n_types": 9,
+    "home": "Appendix | non-germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.14285714285714285
+     ],
+     [
+      "Lymph node | germinal center cells",
+      0.14285714285714285
+     ],
+     [
+      "Tonsil | non-germinal center cells",
+      0.14285714285714285
+     ]
+    ]
+   },
+   "CD22": {
+    "top_share": 0.17647058823529413,
+    "n_types": 8,
+    "home": "Spleen | cells in white pulp",
+    "top3": [
+     [
+      "Tonsil | germinal center cells",
+      0.17647058823529413
+     ],
+     [
+      "Spleen | cells in white pulp",
+      0.17647058823529413
+     ],
+     [
+      "Appendix | lymphoid tissue",
+      0.11764705882352941
+     ]
+    ]
+   },
+   "CD74": {
+    "top_share": 0.030612244897959183,
+    "n_types": 53,
+    "home": "Appendix | germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.030612244897959183
+     ],
+     [
+      "Appendix | germinal center cells",
+      0.030612244897959183
+     ],
+     [
+      "Cerebellum | molecular layer cells - cytoplasm/membrane",
+      0.030612244897959183
+     ]
+    ]
+   },
+   "CD44": {
+    "top_share": 0.0189873417721519,
+    "n_types": 68,
+    "home": "Appendix | endocrine cells",
+    "top3": [
+     [
+      "Appendix | enterocytes",
+      0.0189873417721519
+     ],
+     [
+      "Appendix | endocrine cells",
+      0.0189873417721519
+     ],
+     [
+      "Appendix | goblet cells",
+      0.0189873417721519
+     ]
+    ]
+   },
+   "SLAMF7": {
+    "top_share": 0.1111111111111111,
+    "n_types": 13,
+    "home": "Colon | mucosal lymphoid cells",
+    "top3": [
+     [
+      "Colon | mucosal lymphoid cells",
+      0.1111111111111111
+     ],
+     [
+      "Rectum | mucosal lymphoid cells",
+      0.1111111111111111
+     ],
+     [
+      "Bone marrow | hematopoietic cells",
+      0.07407407407407407
+     ]
+    ]
+   },
+   "CLDN18": {
+    "top_share": 0.42857142857142855,
+    "n_types": 4,
+    "home": "Stomach | glandular cells",
+    "top3": [
+     [
+      "Stomach | glandular cells",
+      0.42857142857142855
+     ],
+     [
+      "Lung | alveolar cells type II",
+      0.2857142857142857
+     ],
+     [
+      "Lung | alveolar cells type I",
+      0.14285714285714285
+     ]
+    ]
+   },
+   "PTPRC": {
+    "top_share": 0.07228915662650602,
+    "n_types": 14,
+    "home": "Appendix | germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.07228915662650602
+     ],
+     [
+      "Appendix | germinal center cells",
+      0.07228915662650602
+     ],
+     [
+      "Bone marrow | hematopoietic cells",
+      0.07228915662650602
+     ]
+    ]
+   },
+   "FOLH1": {
+    "top_share": 0.10714285714285714,
+    "n_types": 15,
+    "home": "Duodenum | enterocytes",
+    "top3": [
+     [
+      "Kidney | proximal tubules (microvilli)",
+      0.10714285714285714
+     ],
+     [
+      "Duodenum | enterocytes",
+      0.10714285714285714
+     ],
+     [
+      "Small intestine | enterocytes",
+      0.10714285714285714
+     ]
+    ]
+   },
+   "CD40": {
+    "top_share": 0.11538461538461539,
+    "n_types": 12,
+    "home": "Lymph node | germinal center cells",
+    "top3": [
+     [
+      "Lymph node | germinal center cells",
+      0.11538461538461539
+     ],
+     [
+      "Spleen | cells in white pulp",
+      0.11538461538461539
+     ],
+     [
+      "Tonsil | germinal center cells",
+      0.11538461538461539
+     ]
+    ]
+   },
+   "MSLN": {
+    "top_share": 0.09375,
+    "n_types": 16,
+    "home": "Bronchus | ciliated cells (cilia axoneme)",
+    "top3": [
+     [
+      "Bronchus | ciliated cells (cilia axoneme)",
+      0.09375
+     ],
+     [
+      "Bronchus | ciliated cells (tip of cilia)",
+      0.09375
+     ],
+     [
+      "Fallopian tube | ciliated cells (tip of cilia)",
+      0.09375
+     ]
+    ]
+   },
+   "FCER2": {
+    "top_share": 0.17647058823529413,
+    "n_types": 8,
+    "home": "Lymph node | germinal center cells",
+    "top3": [
+     [
+      "Lymph node | germinal center cells",
+      0.17647058823529413
+     ],
+     [
+      "Tonsil | germinal center cells",
+      0.17647058823529413
+     ],
+     [
+      "Lymph node | non-germinal center cells",
+      0.11764705882352941
+     ]
+    ]
+   },
+   "CD33": {
+    "top_share": 0.10344827586206896,
+    "n_types": 14,
+    "home": "Testis | preleptotene spermatocytes",
+    "top3": [
+     [
+      "Testis | preleptotene spermatocytes",
+      0.10344827586206896
+     ],
+     [
+      "Testis | spermatogonia cells",
+      0.10344827586206896
+     ],
+     [
+      "Testis | round or early spermatids",
+      0.10344827586206896
+     ]
+    ]
+   },
+   "CEACAM5": {
+    "top_share": 0.05263157894736842,
+    "n_types": 28,
+    "home": "Appendix | endocrine cells",
+    "top3": [
+     [
+      "Appendix | enterocytes",
+      0.05263157894736842
+     ],
+     [
+      "Appendix | endocrine cells",
+      0.05263157894736842
+     ],
+     [
+      "Appendix | goblet cells",
+      0.05263157894736842
+     ]
+    ]
+   },
+   "MET": {
+    "top_share": 0.02531645569620253,
+    "n_types": 72,
+    "home": "Cerebral cortex | neuronal cells",
+    "top3": [
+     [
+      "Gallbladder | glandular cells",
+      0.02531645569620253
+     ],
+     [
+      "Duodenum | glandular cells",
+      0.02531645569620253
+     ],
+     [
+      "Cervix | glandular cells",
+      0.02531645569620253
+     ]
+    ]
+   },
+   "CA9": {
+    "top_share": 0.3,
+    "n_types": 4,
+    "home": "Gallbladder | glandular cells",
+    "top3": [
+     [
+      "Gallbladder | glandular cells",
+      0.3
+     ],
+     [
+      "Stomach | glandular cells",
+      0.3
+     ],
+     [
+      "Small intestine | glandular cells",
+      0.2
+     ]
+    ]
+   },
+   "GPRC5D": {
+    "top_share": 0.031914893617021274,
+    "n_types": 57,
+    "home": "Appendix | lymphoid tissue",
+    "top3": [
+     [
+      "Appendix | lymphoid tissue",
+      0.031914893617021274
+     ],
+     [
+      "Cerebellum | Purkinje cells",
+      0.031914893617021274
+     ],
+     [
+      "Epididymis | glandular cells",
+      0.031914893617021274
+     ]
+    ]
+   },
+   "SDC1": {
+    "top_share": 0.04195804195804196,
+    "n_types": 33,
+    "home": "Appendix | glandular cells",
+    "top3": [
+     [
+      "Appendix | glandular cells",
+      0.04195804195804196
+     ],
+     [
+      "Duodenum | glandular cells",
+      0.04195804195804196
+     ],
+     [
+      "Colon | glandular cells",
+      0.04195804195804196
+     ]
+    ]
+   },
+   "EPCAM": {
+    "top_share": 0.03296703296703297,
+    "n_types": 39,
+    "home": "Appendix | endocrine cells",
+    "top3": [
+     [
+      "Appendix | enterocytes",
+      0.03296703296703297
+     ],
+     [
+      "Appendix | endocrine cells",
+      0.03296703296703297
+     ],
+     [
+      "Appendix | goblet cells",
+      0.03296703296703297
+     ]
+    ]
+   },
+   "TNFRSF8": {
+    "top_share": 0.1875,
+    "n_types": 9,
+    "home": "Fallopian tube | ciliated cells (cell body)",
+    "top3": [
+     [
+      "Fallopian tube | ciliated cells (cell body)",
+      0.1875
+     ],
+     [
+      "Testis | round or early spermatids",
+      0.1875
+     ],
+     [
+      "Fallopian tube | ciliated cells (tip of cilia)",
+      0.125
+     ]
+    ]
+   },
+   "CD80": {
+    "top_share": 0.2,
+    "n_types": 5,
+    "home": "Bone marrow | hematopoietic cells",
+    "top3": [
+     [
+      "Bone marrow | hematopoietic cells",
+      0.2
+     ],
+     [
+      "Lymph node | germinal center cells",
+      0.2
+     ],
+     [
+      "Lymph node | non-germinal center cells",
+      0.2
+     ]
+    ]
+   },
+   "ERBB2": {
+    "top_share": 0.037037037037037035,
+    "n_types": 39,
+    "home": "Appendix | glandular cells",
+    "top3": [
+     [
+      "Appendix | glandular cells",
+      0.037037037037037035
+     ],
+     [
+      "Breast | myoepithelial cells",
+      0.037037037037037035
+     ],
+     [
+      "Breast | glandular cells",
+      0.037037037037037035
+     ]
+    ]
+   },
+   "NECTIN4": {
+    "top_share": 0.06451612903225806,
+    "n_types": 23,
+    "home": "Breast | glandular cells",
+    "top3": [
+     [
+      "Breast | glandular cells",
+      0.06451612903225806
+     ],
+     [
+      "Breast | myoepithelial cells",
+      0.06451612903225806
+     ],
+     [
+      "Esophagus | squamous epithelial cells",
+      0.06451612903225806
+     ]
+    ]
+   },
+   "EGFR": {
+    "top_share": 0.027522935779816515,
+    "n_types": 65,
+    "home": "Bronchus | basal cells",
+    "top3": [
+     [
+      "Bronchus | basal cells",
+      0.027522935779816515
+     ],
+     [
+      "Nasopharynx | goblet cells",
+      0.027522935779816515
+     ],
+     [
+      "Nasopharynx | basal cells",
+      0.027522935779816515
+     ]
+    ]
+   },
+   "NCAM1": {
+    "top_share": 0.08333333333333333,
+    "n_types": 16,
+    "home": "Appendix | enterocytes - Microvilli",
+    "top3": [
+     [
+      "Appendix | enterocytes - Microvilli",
+      0.08333333333333333
+     ],
+     [
+      "Cerebellum | molecular layer - neuropil",
+      0.08333333333333333
+     ],
+     [
+      "Colon | peripheral nerve/ganglion",
+      0.08333333333333333
+     ]
+    ]
+   },
+   "MS4A1": {
+    "top_share": 0.09375,
+    "n_types": 14,
+    "home": "Appendix | germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.09375
+     ],
+     [
+      "Appendix | germinal center cells",
+      0.09375
+     ],
+     [
+      "Lymph node | germinal center cells",
+      0.09375
+     ]
+    ]
+   },
+   "SLC34A2": {
+    "top_share": 0.10714285714285714,
+    "n_types": 11,
+    "home": "Bronchus | ciliated cells (ciliary rootlets)",
+    "top3": [
+     [
+      "Bronchus | ciliated cells (ciliary rootlets)",
+      0.10714285714285714
+     ],
+     [
+      "Endometrium | ciliated epithelial cells",
+      0.10714285714285714
+     ],
+     [
+      "Fallopian tube | ciliated cells (tip of cilia)",
+      0.10714285714285714
+     ]
+    ]
+   },
+   "CD19": {
+    "top_share": 0.1,
+    "n_types": 12,
+    "home": "Appendix | non-germinal center cells",
+    "top3": [
+     [
+      "Appendix | non-germinal center cells",
+      0.1
+     ],
+     [
+      "Lymph node | non-germinal center cells",
+      0.1
+     ],
+     [
+      "Lymph node | germinal center cells",
+      0.1
+     ]
+    ]
+   },
+   "MUC16": {
+    "top_share": 0.16666666666666666,
+    "n_types": 9,
+    "home": "Bronchus | goblet cells",
+    "top3": [
+     [
+      "Bronchus | goblet cells",
+      0.16666666666666666
+     ],
+     [
+      "Cervix | glandular cells",
+      0.16666666666666666
+     ],
+     [
+      "Endometrium | glandular cells",
+      0.16666666666666666
+     ]
+    ]
+   },
+   "TACSTD2": {
+    "top_share": 0.07792207792207792,
+    "n_types": 24,
+    "home": "Skin | cells in granular layer",
+    "top3": [
+     [
+      "Skin | cells in granular layer",
+      0.07792207792207792
+     ],
+     [
+      "Skin | endothelial cells",
+      0.07792207792207792
+     ],
+     [
+      "Skin | hair follicles",
+      0.07792207792207792
+     ]
+    ]
+   },
+   "MUC1": {
+    "top_share": 0.030612244897959183,
+    "n_types": 48,
+    "home": "Bronchus | respiratory epithelial cells",
+    "top3": [
+     [
+      "Bronchus | respiratory epithelial cells",
+      0.030612244897959183
+     ],
+     [
+      "Colon | goblet cells",
+      0.030612244897959183
+     ],
+     [
+      "Cervix | glandular cells",
+      0.030612244897959183
+     ]
+    ]
+   },
+   "CD47": {
+    "top_share": 0.04,
+    "n_types": 48,
+    "home": "Cerebellum | cells in granular layer",
+    "top3": [
+     [
+      "Cerebral cortex | neuropil",
+      0.04
+     ],
+     [
+      "Cerebellum | cells in granular layer",
+      0.04
+     ],
+     [
+      "Fallopian tube | ciliated cells (cilia axoneme)",
+      0.04
+     ]
+    ]
+   },
+   "HLA-DRA": {
+    "top_share": 0.03550295857988166,
+    "n_types": 43,
+    "home": "Appendix | lymphoid tissue",
+    "top3": [
+     [
+      "Appendix | lymphoid tissue",
+      0.03550295857988166
+     ],
+     [
+      "Breast | myoepithelial cells",
+      0.03550295857988166
+     ],
+     [
+      "Cerebellum | granular cells - cytoplasm/membrane",
+      0.03550295857988166
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+  "rows": 120,
+  "columns": [
+    "effector",
+    "target",
+    "ratio",
+    "time",
+    "CD3",
+    "CD33"
+  ],
+  "unique_values": {
+    "effector": [
+      "CART",
+      "uT"
+    ],
+    "target": [
+      "KO",
+      "WT"
+    ],
+    "ratio": [
+      "1:16",
+      "1:24",
+      "1:30",
+      "1:40",
+      "1:50",
+      "1:60"
+    ],
+    "time": [
+      "1",
+      "10",
+      "16",
+      "3",
+      "6"
+    ]
+  },
+  "independent_replicate_column": false,
+  "antigen_density_column": false,
+  "sha256": "8faaafd4d89fdc98749177fd08db3afece59dc563d37914fcb47afe5f0374eba",
+  "origin": "Member LT6.csv in Zenodo 12823159 data.zip; CRC checked by Python zipfile; extracted from HTTP byte range documented in aml_data_zip_tail.bin.provenance.json. Full archive checksum not verified because full 2.4GB archive was not downloaded."
+}

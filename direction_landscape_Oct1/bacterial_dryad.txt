@@ -1,0 +1,766 @@
+
+
+
+  Dryad | Data: Observation of persister cell histories reveals diverse modes of survival in antibiotic persistence
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+  
+  
+
+  Skip to main content
+  
+    
+      
+  
+  
+  
+    
+Explore
+    
+
+      Submit
+    
+      
+Advanced search
+      
+
+        
+          
+          Search Dryad data
+          
+          
+            
+          
+        
+      
+    
+
+      More 
+    
+  
+
+  
+
+    
+
+      About
+      
+        
+Who we are
+        
+What we do
+      
+    
+
+    
+
+      Partner with us
+    
+    
+
+      Support us
+    
+
+    
+Get help
+
+    
+  Login
+
+  
+
+
+
+
+  
+
+
+
+    
+    
+
+	
+		
+  	    
+Data from: Observation of persister cell histories reveals diverse modes of survival in antibiotic persistence
+
+  	
+
+  Umetani, Miki1; Fujisawa, Miho1; Okura, Reiko1; Nozoe, Takashi1; Suenaga, Shoichi1; Nakaoka, Hidenori2; Kussell, Edo3; Wakamoto, Yuichi1
+	
+  
+  	
+Author information
+  	
+	  		
+Affiliations
+		  	
+		  		
+The University of Tokyo
+		  		
+Tokushima University
+		  		
+New York University
+		  	
+  	
+  
+  
+
+  
+  Published Mar 25, 2025
+  on Dryad.
+    
+      https://doi.org/10.5061/dryad.s1rn8pkb1
+    
+
+
+
+
+
+
+
+  
+Data files
+  
+    
+      
+        
+          Mar 25, 2025 version files
+          1.13 MB
+        
+        
+        
+            
+
+              
+                DataForDryad_Uploaded.zip
+                
+                    
+                      
+                    
+                
+              
+              
+                1.10 MB
+                      
+              
+            
+            
+
+              
+                README.md
+                
+                
+              
+              
+                28.70 KB
+                      
+              
+            
+        
+      
+    
+    
+    
+  
+      
+      
+Click names to download individual files
+      
+        
+        Download full dataset
+      
+     
+  
+
+
+  
+
+
+
+
+  
+Abstract
+  
+    
+Bacterial persistence is a phenomenon in which a small fraction of isogenic bacterial cells survives a lethal dose of antibiotics. Although the refractoriness of persistent cell populations has classically been attributed to the presence of growth-inactive cells generated prior to drug exposure, evidence is accumulating that actively growing cell fractions can also produce persister cells, depending on bacterial species, antibiotics, and culture conditions. However, the direct elucidation of survival modes, drug response diversity, and growth history dependence by single-cell observation is limited due to the extremely low frequencies of persisters. Here, we visualize the responses of more than 106 individual cells of wildtype Escherichia coli to lethal doses of antibiotics, sampling cells from different growth phases and culture media into a microfluidic device. We show that when cells sampled from exponentially growing cell populations in batch cultures were treated with ampicillin or ciprofloxacin, all persisters for which we identified their single-cell histories were growing prior to antibiotic treatment. We detected pre-existing growth-arrested non-growing persisters to ampicillin for an E. coli strain expressing a defective general stress response regulator, but these constituted minor fractions of persister cells. Growing persisters exhibit heterogeneous survival dynamics in response to drug exposure, including continuous growth and fission with L-form-like morphologies, responsive growth arrest, or post-exposure filamentation. Incubating cells under stationary phase conditions increases both the frequency and the probability of survival of non-growing persisters to ampicillin. However, no non-growing persisters were identified for ciprofloxacin treatment, even in post-stationary phase cell populations. These results demonstrate diverse persistence dynamics at the single-cell level depending on antibiotic types and the pre-exposure cultivation history.
+  
+
+
+
+
+
+
+    
+      
+README: Data from: Observation of persister cell histories reveals diverse modes of survival in antibiotic persistence
+    
+      
+
+https://doi.org/10.5061/dryad.s1rn8pkb1
+
+Description of the data and file structure
+
+DataForDryad_Uploaded.zip
+
+The XLSX files in this folder with the names of the corresponding figures include the raw data and calculated numerical values for the plots. 
+
+The folder "Tracking_MF1_x100" includes the code "Tracking_MF1_x100.c" and the data files for generating the plots of Figures 2C, 2D, 2G, and 2H. The subfolder "Data_MF1_LBexp_Amp200_x100" contains the following files:
+
+
+
+
+190704_Results0103.xls and 190711_Results4001.xls : 
+
+Each filename consists of a six-digit date (YYMMDD) before the underscore, indicating the observation date, and a four-digit microcolony location code after “Results.” Column A lists the index number of each registered cell. Column B includes a character string generated during processing, which is not used in the analysis. Column C shows the cell area in the unit of pixel2, which will be converted to µm2 when read by the code. Column D shows the average gray value of cellular region of interest (ROI). Columns E and F show the brightness-weighted average of the x and y coordinates of all pixels in the ROI. Column G shows the slice number containing the cell. Column H indicates whether the cell is the last cell in a lineage (1 = last, 0 = not last). Column I shows the index of the ancestor cell. Column J shows the background brightness measured in the same slice.
+
+
+
+
+AcquisitionSetting.txt : 
+
+This file contains data for the time-lapse experiment, including the date of the experiment, the frame numbers marking the start and end of drug treatment, the time interval between frames, and the camera scaling factor.
+
+
+
+The folder "Tracking_x40" includes the code "Tracking_x40.c" and the data files for generating the plots of Figures 4B, 4D, 4 -figure supplement 1, 4 -figure supplement 2A, 5B, 5D, 5 -figure supplement 1, 8B, 8D, and 8 -figure supplement 1. There are four subfolders: "Data_MF1_LBexp_Amp200", "Data_MG1655_LBexp_Amp200", "Data_MG1655_M9exp_Amp200", and "Data_MG1655_M9exp_CPFX1". Each subfolders contain the data files described below:
+
+
+
+
+Results files (file names: (YYMMDD)_Results(4 digits).xls) : 
+
+Each filename consists of a six-digit date (YYMMDD) before the underscore, indicating the observation date, and a four-digit number following “Results,” which specifies the location of the analyzed microcolony. Column A lists the index number of each registered cell. Column B contains a character string generated during the analysis process, which is not used in the program. Column C indicates the cell area in the unit of pixel2, which will be converted to µm2 when read by the code. Column D shows the average gray value of cellular region of interest (ROI). Columns E and F show the brightness-weighted average of the x and y coordinates of all pixels in the cellular ROI. Column G represents the circularity of the ROI. Column H indicates the slice number containing the cell. Column I shows the aspect ratio of the cellular ROI. Column J indicates the roundness of the cellular ROI. Column K gives the solidity of the cellular ROI. Column L indicates whether the cell is the last cell in a lineage (1 = last, 0 = not last). Column M provides the index of the ancestor cell. Column N shows the background brightness measured in the same slice.
+
+
+
+
+AcquisitionSetting.txt : 
+
+This file contains data for the time-lapse experiment, including the date of the experiment, the frame numbers marking the start and end of drug treatment, the time interval between frames, and the camera scaling factor.
+
+
+
+
+(6-digit)_(4-digit)_Arrows.txt : 
+
+This file contains the time points corresponding to the enlarged micrographs shown in the main figures. The six-digit number before the underscore represents the observation date (YYMMDD), and the four-digit number after the underscore indicates the location of the analyzed microcolony.
+
+
+
+Tracking_MF1_x100.c
+
+This C code is for generating plots of Figures 2C, 2D, 2G, and 2H. We compiled this code using GCC 12.0.5 on Mac OS Sequoia 15.3.1 with Apple M1.
+
+Tracking_x40.c
+
+This C code is for generating plots of Figures 4B, 4D, 4 -figure supplement 1, 4 -figure supplement 2A, 5B, 5D, 5 -figure supplement 1, 8B, 8D, and 8 -figure supplement 1. We compiled this code using GCC 12.0.5 on Mac OS Sequoia 15.3.1 with Apple M1.
+
+Files and variables
+File: DataForDryad_Uploaded.zip
+
+Description: 
+
+The following XLSX files are included in this zip file:
+
+
+
+
+Fig1S1.xlsx : 
+
+This file contains the data used to generate Figure 1 - figure supplement 1.
+
+The “Fig1S1A” tab contains data for Figure 1 - figure supplement 1A.  
+
+Columns A (Time (h)) and B (OD600 (a.u.)) show the growth curve of MF1 cultured in LB (top panel). Columns D (Time (h)) and E (RpoS-mCherry level (a.u.)) show the RpoS-mCherry fluorescence levels over time (bottom panel). Each row in columns D and E  represents data from a single cell sampled at the corresponding time point in column D.
+
+The “Fig1S1B” tab contains data for Figure 1 - figure supplement 1B.  
+
+Columns A (Time (h)) and B (OD600 (a.u.)) show the growth curve of MF1 cultured in M9 (top panel). Columns D (Time (h)) and E (RpoS-mCherry level (a.u.)) show the RpoS-mCherry fluorescence levels over time (bottom panel). Each row in columns D and E  represents data from a single cell sampled at the corresponding time point in column D.
+
+The “Fig1S1C” tab contains data for Figure 1 - figure supplement 1C. 
+
+Rows 1-4 correspond to MG1655, rows 6-9 to MG1655∆rpoS, and rows 11-14 to MF1. The experiment measuring the fraction of surviving cells against 20 mM H2O2 stress was performed three times for each strain. Column B shows the cell density after treatment with distilled water (DW), and column C shows the cell density when after treatment with 20 mM H2O2. The fraction of survival cells in each replicate can be calculated by dividing the value in column C by that in column B.
+
+
+
+
+Fig1S2.xlsx :
+
+This file contains the data used to generate Figure 1 - figure supplement 2.
+
+The “Fig1S2A” tab contains data for Figure 1 - figure supplement 2A. 
+
+The experiment was conducted three times for each strain, MG1655 and MF1, to determine the minimum inhibitory concentration (MIC) of ampicillin (Amp). Cells cultured in LB were inoculated at an equal, well-diluted density into fresh LB media containing Amp at pre-determined concentration (12 concentration conditions in 2-fold serial dilutions, 0 and 2(-2)-28 µg/mL). After 23 hours of incubation at 37ºC, the optical density at 595 nm (OD595) was measured. Column A shows the exponents when the drug concentration is expressed as a power of 2. Column B shows the actual Amp concentration in µg/mL. Columns C-E show OD595 values for three replicates of MG1655. Column F shows the geometric mean of these three replicates. Columns G-I show OD595 values for three replicates of MF1. Column J shows the geometric mean for MF1. OD595 values below 0.001 were recorded as 0.001, as they were indistinguishable from background signal fluctuations. 
+
+The “Fig1S2B” tab contains data for Figure 1 - figure supplement 2B.  
+
+The experiment was conducted three times for each strain, MG1655 and MF1, to determine the MIC of ciprofloxacin (CPFX). Cells cultured in M9 were inoculated at an equal, well-diluted density into fresh M9 media containing CPFX at pre-determined concentration (12 concentration conditions in 2-fold serial dilutions, 0 and 2(-10)-20 µg/mL). After 23 hours of incubation at 37ºC, OD595 was measured. Column A shows the exponents when the drug concentration is expressed as a power of 2. Column B shows the actual CPFX concentration in µg/mL. Columns C-E show OD595 values for three replicates of MG1655. Column F shows the geometric mean of these three replicates. Columns G-I show OD595 values for three replicates of MF1. Column J shows the geometric mean for MF1. OD595 values below 0.001 were recorded as 0.001, as they were indistinguishable from background signal fluctuations. 
+
+
+
+
+Fig1S3.xlsx : 
+
+This file contains the data used to generate Figure 1 - figure supplement 3.
+
+The “Fig1S3A” tab contains data for Figure 1 - figure supplement 3A. MG1655 and MF1 cells were grown in LB medium and sampled from the exponential phase. Each culture was diluted into fresh LB medium and further incubated for 2 h. After incubation, the cultures were treated with 200 μg/mL Amp. At pre-determined time points, cell suspensions were collected, and viable cell density was estimated using the limiting dilution method. The killing assay was repeated six times for MG1655 (rows 1-16) and three times for MF1 (rows 18-30). Each row represents a sampling time point. Columns B-G (MG1655) and B-D (MF1) show viable cell densities from each replicate. Columns H-M / E-G show relative viable cell densities. Columns N-S / H-J show natural logarithm of relative values. Columns T / K show mean of the log-transformed data. Columns U / L show standard error of the mean. Columns V-X / M-O show values reverted to the normal scale with lower and upper bounds of the standard error.
+
+The “Fig1S3B” tab contains data for Figure 1 - figure supplement 3B. MG1655 and MF1 cells were grown in M9 medium and sampled from the exponential phase. Each culture was diluted into fresh M9 medium and further incubated for 4 h. After incubation, the cultures were treated with 1 μg/mL CPFX. Viable cell density was measured at selected time points using the limiting dilution method. MG1655 and MF1 data are shown in rows 1-16 and 18-33, respectively. Each experiment was repeated three times. Column definitions follow the same structure as in Fig1S3A.
+
+The “Fig1S3C” tab contains data for Figure 1 - figure supplement 3C. Post-exponential phase cultures of MG1655 and MF1 in M9 medium were treated with 200 µg/mL Amp, and viable cell densities were measured over time. MG1655 and MF1 data are shown in rows 1-16 and 18-33, respectively. Each experiment was repeated three times. Column definitions follow the same structure as in Fig1S3A.
+
+The “Fig1S3D” tab contains data for Figure 1 - figure supplement 3D. MG1655 cells were tested under two conditions: in LB medium (rows 1-16), treated with 200 µg/mL Amp after 2 h incubation, 6 replicates, and in M9 medium (rows 18-33), treated similarly after 4 h incubation, 3 replicates. Sampling, treatment, and data processing followed the same protocol as in Fig1S3A.
+
+The “Fig1S3E” tab contains data for Figure 1 - figure supplement 3E. MF1 cells were tested under two conditions: in LB medium (rows 1-13), treated with 200 µg/mL Amp after 2 h incubation, 3 replicates, and in M9 medium (rows 15-30), treated similarly after 4 h incubation, 3 replicates. Sampling, treatment, and data processing followed the same protocol as in Fig1S3A.
+
+
+
+
+Fig1S4.xlsx : 
+
+This file contains the data used to generate Figure 1 - figure supplement 4. 
+
+The “Fig1S4A” tab contains data for Figure 1 - figure supplement 4A. The sheet shows growth dynamics of MG1655 and MF1 in LB medium at 37ºC with shaking. Cells were sampled every hour, and the OD600 was measured. The assay was repeated four times for MG1655 (rows 1-17) and five times for MF1 (rows 19-35). Each row represents a sampling time point. Columns B-E (MG1655) and B-F (MF1) show OD600 measurements from each replicate. Columns F-I / G-K show natural logarithm of OD600. Columns J / L show mean of the log-transformed values. Columns K / M show standard error of log-transformed values. Columns L / N show back-transformed mean OD600. Golumns M-N / O-P show lower and upper bounds of the standard error on the normal scale.
+
+The “Fig1S4B” tab contains data for Figure 1 - figure supplement 4B. The sheet shows growth dynamics of MG1655 and MF1 in M9 medium at 37ºC with shaking. Cells were sampled every hour, and the OD600 was measured. The assay was repeated three times for MG1655 (rows 1-18) and five times for MF1 (rows 20-37). Column definitions follow the same structure as in Fig1S4A.
+
+
+
+
+Fig3.xlsx : 
+
+This file contains the data used to generate Figure 3. 
+
+The “Fig3” tab contains data for Figure 3. We investigated the low-frequency persister cells at the single-cell level using our custom microfluidic device (MCMA). MG1655 cells were sampled from defined growth phases in batch culture and introduced into the MCMA device for single-cell observation. Each row represents one experimental condition. Column A shows culture medium used in each condition. Column B shows growth phase at the time of sampling, prior to loading into the MCMA device. Column C shows antibiotic and its concentration used for treatment. Column D shows estimated total number of drug-exposed cells. Column E shows number of non-growing persister cells (i.e., cells that did not grow or divide during the pre-exposure phase). Column F shows number of growing persister cells (i.e., cells that showed growth or division during the pre-exposure phase). Column G shows number of persister cells whose growth status could not be clearly determined. Column H shows total number of persister cells (sum of columns E-G). The frequencies of each persister cell type and their associated statistical uncertainties are shown in the following columns. Column I shows frequency of non-growing persisters (column E / column D). Column J shows binomial standard error of the non-growing persister frequency. Column K shows frequency of growing persisters (column F / column D). Column L shows binomial standard error of the growing persister frequency. Column M shows frequency of persisters with undetermined growth status (column G / column D). Column N shows binomial standard error of the corresponding frequency.
+
+
+
+
+Fig3S1.xlsx : 
+
+This file contains the data used to generate Figure 3 - figure supplement 1. 
+
+The “Fig3S1” tab contains data for Figure 3 - figure supplement 1. We investigated the low-frequency persister cells at the single-cell level using our custom microfluidic device (MCMA). MF1 cells were sampled from defined growth phases in batch culture and introduced into the MCMA device for single-cell observation. Column definitions follow the same structure as in Fig3.
+
+
+
+
+Fig4.xlsx : 
+
+This file contains the data used to generate Figure 4.
+
+The “Fig4E” tab contains data for Figure 4E. This sheet includes data on the number of cell divisions observed in growing persisters and non-persisters of MG1655 during the pre-exposure phase. The cells were exposed to 200 µg/mL Amp for 6 hours in LB post-exponential phase. Each row represents on analyzed cell. Column A shows dates of single-cell observation. Column B shows position number of analyzed cells. Column C shows well chamber ID of analyzed cells. Column D shows cell classification (growing persister or non-persister). Column E shows duration of pre-exposure phase analyzed. Column F shows number of cell divisions during the analyzed period. Column G shows division rates, calculated as (Column F) / ((Column E) / 60). Cell J2 shows mean division rate among growing persisters. Cell J3 shows standard error of the mean for growing persisters. Cell K2 shows mean division rate among non-persisters. Cell K3 shows standard error of the mean of non-persisters.
+
+
+
+
+Fig4S2.xlsx : 
+
+This file contains the data used to generate Figure 4 - figure supplement 2.
+
+The “Fig14S2B” tab contains data for Figure 4 - figure supplement 2B. This sheet includes data on the number of cell divisions observed in growing persisters and non-persisters of MF1 during the pre-exposure phase. The cells were exposed to 200 µg/mL Amp for 3.5 hours in LB post-exponential phase. Column definitions follow the same structure as in Fig4E.
+
+
+
+
+Fig5.xlsx : 
+
+This file contains the data used to generate Figure 5.
+
+The “Fig5E” tab contains data for Figure 5E. This sheet includes data on the number of cell divisions observed in growing persisters and non-persisters of MG1655 during the pre-exposure phase. The cells were exposed to 200 µg/mL Amp for 6 hours in M9 post-exponential phase. Column definitions follow the same structure as in Fig4E.
+
+
+
+
+Fig6.xlsx : 
+
+This file contains the data used to generate Figure 6.
+
+The “Fig6B” tab contains data for Figure 6B. This sheet contains data on the killing curves of E. coli MG1655 sampled at different growth phases and exposed to 200 µg/mL Amp in LB medium. In each condition, cells were sampled at a pre-determined growth phase (exponential, early stationary, and late stationary), diluted in fresh medium, incubated for 2 hours, and then treated with Amp. Viable cell density was measured at predefined time points using limiting dilution method. The killing assay was repeated six times for post-exponential phase (rows 1-16) and three times for post-early stationary phase (rows 18-33) and post-late stationary phase (rows 35-48). Each row represents a sampling time point. Columns B-G (post-exponential phase), B-D (post-early stationary and post-late stationary) show viable cell densities from each replicate. Columns H-M / E-G show the corresponding natural logarithms. Columns N / H show the mean of the log-transformed values. Columns P / J show the back-transformed mean. Columns Q-R / K-L show the lower and upper bounds of the standard error on the normal scale.
+
+
+
+
+Fig6S1.xlsx :
+
+This file contains the data used to generate Figure 6 - figure supplement 1.
+
+The “Fig6S1A” tab contains data for Figure 6 - figure supplement 1A. MG1655 and MF1 cells were grown in LB medium and sampled from the early stationary phase. Each culture was diluted into fresh LB medium and further incubated for 2 h. After incubation, the cultures were treated with 200 μg/mL Amp. At pre-determined time points, cell suspensions were collected, and viable cell density was estimated using the limiting dilution method. The killing assay was repeated three times for MG1655 (rows 1-16) and MF1 (rows 18-30). Each row represents a sampling time point. Column definitions follow the same structure as in Fig6B.
+
+The “Fig6S1B” tab contains data for Figure 6 - figure supplement 1B. MG1655 and MF1 cells were grown in LB medium and sampled from the late stationary phase. Each culture was diluted into fresh LB medium and further incubated for 2 h. After incubation, the cultures were treated with 200 μg/mL Amp. At pre-determined time points, cell suspensions were collected, and viable cell density was estimated using the limiting dilution method. The killing assay was repeated three times for MG1655 (rows 1-16) and MF1 (rows 18-30). Each row represents a sampling time point. Column definitions follow the same structure as in Fig6B.
+
+The “Fig6S1C” tab contains data for Figure 6 - figure supplement 1C. This sheet contains data on the killing curves of E. coli MF1 sampled at different growth phases and exposed to 200 µg/mL Amp in LB medium. The experiments were conducted in the same manner as described for Fig6B. Column definitions follow the same structure as in Fig6B.
+
+
+
+
+Fig7.xlsx :
+
+This file contains the data used to generate Figure 7.
+
+The “Fig7B” tab contains data for Figure 7B. This sheet summarizes the survival rate of E. coli MG1655 after 6-hour exposure to 200 µg/mL Amp in LB medium and non-growing cell fraction. Data are shown for three growth phases: post-exponential, post-early stationary, and post-late stationary. Cell range A1-E23 contains data for calculating survival frequencies. In each block (A1-E7, A9-E15, A17-E23), cells were sampled from the respective growth phase. Columns A-D show the sampling time, mean viable cell density, its natural logarithm, and associated error. Column E includes propagated error calculations for survival rates. Survival rates and error bounds are calculated based on differences in cell densities between initial and 6-hour time points. Cell range G1-M4 summarizes the non-growing cell fraction and viable cell frequencies. Column H shows the mean non-growing fraction, with columns I and J indicating the lower and upper binomial error bounds. Column K presents the mean frequency of viable cells calculated, and columns L and M show the corresponding error bounds calculated in cell range A1-E23. Cells I7-I9 show the binomial errors for non-growing fractions in each growth phase. Cell H12 shows the probability of survival among non-growing cells for the post-late stationary phase. Cells H14, H16, H18 show error, upper bound, and lower bound for the probability.
+
+The “Fig7C” tab contains data for Figure 7C. This sheet contains the same type of data and structure as Fig7B, but for E. coli MF1 exposed to 200 µg/mL Amp for 4 hours. 
+
+
+
+
+Fig8.xlsx :
+
+This file contains the data used to generate Figure 8. 
+
+The “Fig8E” tab contains data for Figure 8E. This sheet includes data on the number of cell divisions observed in growing persisters and non-persisters of MG1655 during the pre-exposure phase. The cells were exposed to 1 µg/mL CPFX for 6 hours in M9 post-exponential phase. Column definitions follow the same structure as in Fig4E.
+
+
+
+
+Fig8S2.xlsx :
+
+This file contains the data used to generate Figure 8 - figure supplement 2.
+
+The “Fig8S2” tab contains data for Figure 8 - figure supplement 2. This sheet contains data on the killing curves of E. coli MG1655 in M9 medium after treatment with 1 µg/mL CPFX, sampled at different growth phases. Rows 1-16 include data for cells sampled in the post-exponential phase. MG1655 cells were harvested from the exponential phase in M9, diluted into fresh medium, cultured for 4 hours, and then treated with 1 µg/mL CPFX. Cell suspensions were collected at pre-defined time points, and viable cell density was estimated using the limiting dilution method. The experiment was performed in triplicate. Rows 18–33 show data for cells sampled in the post-late stationary phase. MG1655 cells were harvested from the late stationary phase in M9 and treated under the same conditions as above. This experiment was also performed in triplicate. In both datasets, column A indicates the sampling time point. Columns B-D show estimated viable cell densities from each replicate; column E-G show relative viable cell densities; columns H-J contain the natural logarithm of the relative values. Column K shows the mean of the log-transformed values, column L the standard error, and column M the back-transformed mean. Columns N and O represent the lower and upper bounds of the standard errors on the normal scale.
+
+
+
+In addition, the following two folders are included in this zip file :
+
+
+
+
+Tracking_MF1_x100 : 
+
+
+
+
+This folder contains the program code (Tracking_MF1_x100.c) and the data files for generating Figures 2C, 2D, 2G, 2H in the article by Umetani et al.
+
+The “Data_MF1_LBexp_Amp200_x100”  folder contains XLS files for the raw data from the single-cell analysis of MF1 (MG1655 rpoS-mcherry/pUA66-PrpsL-gfp) observed with an x100 objective.
+
+The cells were sampled from the exponential phase in LB, loaded into the microfluidic device, cultured with fresh LB media a few hours, exposed to 200 µg/mL ampicillin for 3.5 hours, and then cultured with fresh LB media again.
+
+The data contain the information of cell size (area), and cell lineage connections for a growing persister (190704_Results0103.xls) and a non-growing persister (190711_Results4001.xls).
+
+The program code (Tracking_MF1_x100.c) must be placed in the same directory as the “Data_MF1_LBexp_Amp200_x100”  folder, and reads the XLS files placed directly under the folder.
+
+
+
+
+The "Data_MF1_LBexp_Amp200_x100" folder contains :
+
+
+
+
+190704_Results0103.xls and 190711_Results4001.xls : 
+
+Each filename consists of a six-digit date (YYMMDD) before the underscore, indicating the observation date, and a four-digit microcolony location code after “Results.” Column A lists the index number of each registered cell. Column B includes a character string generated during processing, which is not used in the analysis. Column C shows the cell area. Column D shows the average gray value of cellular region of interest (ROI). Columns E and F show the brightness-weighted average of the x and y coordinates of all pixels in the ROI. Column G shows the slice number containing the cell. Column H indicates whether the cell is the last cell in a lineage (1 = last, 0 = not last). Column I shows the index of the ancestor cell. Column J shows the background brightness measured in the same slice.
+
+
+
+
+AcquisitionSetting.txt : 
+
+This file contains data for the time-lapse experiment, including the date of the experiment, the frame numbers marking the start and end of drug treatment, the time interval between frames, and the camera scaling factor.
+
+
+
+
+
+
+
+
+Tracking_x40 : 
+
+
+
+
+This folder contains the program code (Tracking_x40.c) and the data files for generating Figures 4B, 4D, 4 -figure supplement 1, 4 -figure supplement 2A, 5B, 5D, 5 -figure supplement 1, 8B, 8D, 8 -figure supplement 1 in the article by Umetani et al.
+
+The “Data_suffix”  folders contain XLS files for the raw data from the single-cell analysis of E. coli cells observed with an x40 objective.
+
+Each suffix indicates the condition including strain name, culture media, sampling phase, and antibiotic.
+
+Each data contains the information of cell size (area), and circularity for each persister cell.
+
+The program code (Tracking_x40.c) must be placed in the same directory as the “Data_suffix”  folder and reads the XLS files placed directly under the folder.
+
+
+
+
+The "Data_suffix" folder contains :
+
+
+
+
+Results files : 
+
+Each filename consists of a six-digit date (YYMMDD) before the underscore, indicating the observation date, and a four-digit number following “Results,” which specifies the location of the analyzed microcolony. Column A lists the index number of each registered cell. Column B contains a character string generated during the analysis process, which is not used in the program. Column C indicates the cell area. Column D shows the average gray value of cellular region of interest (ROI). Columns E and F show the brightness-weighted average of the x and y coordinates of all pixels in the cellular ROI. Column G represents the circularity of the ROI. Column H indicates the slice number containing the cell. Column I shows the aspect ratio of the cellular ROI. Column J indicates the roundness of the cellular ROI. Column K gives the solidity of the cellular ROI. Column L indicates whether the cell is the last cell in a lineage (1 = last, 0 = not last). Column M provides the index of the ancestor cell. Column N shows the background brightness measured in the same slice.
+
+
+
+
+AcquisitionSetting.txt : 
+
+This file contains data for the time-lapse experiment, including the date of the experiment, the frame numbers marking the start and end of drug treatment, the time interval between frames, and the camera scaling factor.
+
+
+
+
+(6-digit)_(4-digit)_Arrows.txt : 
+
+This file contains the time points corresponding to the enlarged micrographs shown in the main figures. The six-digit number before the underscore represents the observation date (YYMMDD), and the four-digit number after the underscore indicates the location of the analyzed microcolony.
+
+
+
+
+
+
+File: Tracking_MF1_x100.c
+
+Description: 
+The Program code for generating Figures 2C, 2D, 2G, and 2H in the article by Umetani et al.
+
+The executable file created by compiling this program code (Tracking_MF1_x100.c) must be placed in the same directory as the “Data_MF1_LBexp_Amp200_x100” folder. The program reads the XLS files “AcquisitionSetting.txt” for generating plots.
+File: Tracking_x40.c
+
+Description: 
+The program code for generating Figures 4B, 4D, 4 -figure supplement 1, 4 -figure supplement 2A, 5B, 5D, 5 -figure supplement 1, 8B, 8D, 8 -figure supplement 1 in the article by Umetani et al.
+
+The executable file created by compiling the program code (Tracking_x40.c) must be placed in the same directory as the “Data_(condition name)”  folder. The program reads the XLS files, “(Experiment date)_(Results file No.)_Arrows.txt”, and “AcquisitionSetting.txt” for generating plots. 
+
+Access information
+
+Other publicly accessible locations of the data: None
+
+    
+  
+
+
+
+
+
+
+
+
+  
+Works referencing this dataset
+  
+    
+  
+      
+
+          Umetani, Miki; Fujisawa, Miho; Okura, Reiko et al. (2025). Data from: Observation of persister cell histories reveals diverse modes of survival in antibiotic persistence. Zenodo. https://doi.org/10.5281/zenodo.15043294
+      
+      
+
+          Umetani, Miki; Fujisawa, Miho; Okura, Reiko et al. (2025). Data from: Observation of persister cell histories reveals diverse modes of survival in antibiotic persistence. Zenodo. https://doi.org/10.5281/zenodo.15043295
+      
+      
+
+          Umetani, Miki; Fujisawa, Miho; Okura, Reiko et al. (2021). Observation of non-dormant persister cells reveals diverse modes of survival in antibiotic persistence [Preprint]. Cold Spring Harbor Laboratory. https://doi.org/10.1101/2021.10.28.466227
+      
+      
+
+          Umetani, Miki; Fujisawa, Miho; Okura, Reiko et al. (2025). Observation of persister cell histories reveals diverse modes of survival in antibiotic persistence. eLife. https://doi.org/10.7554/elife.79517
+      
+  
+
+  
+
+
+
+		
+	
+	
+	  
+  
+  
+Citation
+Copy
+
+Umetani, Miki; Fujisawa, Miho; Okura, Reiko et al. (2025). Data from: Observation of persister cell histories reveals diverse modes of survival in antibiotic persistence [Dataset]. Dryad. https://doi.org/10.5061/dryad.s1rn8pkb1
+
+
+
+  
+
+  
+    
+  
+  
+    
+      
+  
+Share:
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+ Link copied
+
+
+
+    
+
+    
+      
+    
+
+
+
+  
+    
+Subject keywords
+    
+      
+    
+  
+    
+  	
+Funding
+    
+    	  
+
+          Japan Science and Technology Agency: JPMJCR1927
+        
+    	  
+
+          Japan Science and Technology Agency: JPMJER1902
+        
+    	  
+
+          National Institute of General Medical Sciences: R01-GM097356
+        
+    	  
+
+          Japan Society for the Promotion of Science: 17H06389
+        
+    	  
+
+          Japan Society for the Promotion of Science: 19H03216
+        
+    	  
+
+          Japan Society for the Promotion of Science: 24H00552
+        
+    
+  
+
+
+
+
+  
+Related works
+  
+    
+
+  
+
+
+	
+
+
+
+    
+  
+  
+    
+      Privacy
+      Accessibility
+      Terms of service
+      Partner terms
+      Site map
+    
+    
+      Enquiries
+      Latest news
+      Subscribe
+      Jobs & opportunities
+    
+  
+  
+    © 2026 Dryad. Content on this site is licensed for reuse.
+  
+
+
+  
+  
+  
+    
+    
+    
+     
+    
+      Yes
+      No
+    
+  
+
+
+
+  
+  
+    
+      
+        
+      
+    
+    
+     
+  
+
+
+
+
+  
+
+
+

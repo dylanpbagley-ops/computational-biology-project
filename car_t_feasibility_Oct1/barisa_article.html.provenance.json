@@ -1,0 +1,33 @@
+{
+  "requested_url": "https://www.nature.com/articles/s41467-025-61427-4",
+  "resolved_url": "https://www.nature.com/articles/s41467-025-61427-4?error=cookies_not_supported&code=969b9a39-8934-4daf-8e2a-98d49a15b686",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "x-vcap-request-id": "132d03ff-e0c2-43af-5301-af40a1ae74ed",
+    "x-robots-tag": "nocache",
+    "traceparent": "00-132d03ffe0c243af5301af40a1ae74ed-89c3e6c4eaf6a303-01",
+    "server": "Oscar Platform 0.2464.0",
+    "set-cookie": "CONTENT_USAGE_SESSIONID=\"b3ebc8e9-9ccd-4ef3-8cda-6111d831d2ce\"; Domain=.nature.com; Path=/; secure; HttpOnly",
+    "tracestate": "gorouter=139a1d1d5b7a800a",
+    "accept-ranges": "bytes",
+    "cache-control": "private, must-revalidate",
+    "age": "0",
+    "x-frame-options": "DENY",
+    "via": "1.1 google, 1.1 varnish",
+    "content-type": "text/html; charset=utf-8",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000;preload",
+    "Date": "Fri, 02 Oct 2026 06:02:26 GMT",
+    "X-Served-By": "cache-22665b98-internal, cache-phx1710024-PHX, cache-phx1710053-PHX",
+    "X-Cache": "MISS, MISS, MISS",
+    "X-Cache-Hits": "0, 0",
+    "X-Timer": "S1790920946.584821,VS0,VE526",
+    "Vary": "X-Oscar-Cache-Mode,x-frame-options, Accept-Encoding",
+    "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 565432,
+  "sha256": "7a4201199fa7db045cec615e6e510e89fcaa788e3013effd14ee4b5e98428387",
+  "retrieved_utc": "2026-10-02T06:02:27.305478+00:00"
+}

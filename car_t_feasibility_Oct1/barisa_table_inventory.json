@@ -1,0 +1,374 @@
+{
+  "1c.txt": {
+    "rows": 24,
+    "max_columns": 77
+  },
+  "1d.txt": {
+    "rows": 24,
+    "max_columns": 6
+  },
+  "1f.txt": {
+    "rows": 10,
+    "max_columns": 36
+  },
+  "1g.txt": {
+    "rows": 21,
+    "max_columns": 6
+  },
+  "1h.txt": {
+    "rows": 2,
+    "max_columns": 25
+  },
+  "1j.txt": {
+    "rows": 88,
+    "max_columns": 15
+  },
+  "1k.txt": {
+    "rows": 88,
+    "max_columns": 14
+  },
+  "2a.txt": {
+    "rows": 4,
+    "max_columns": 13
+  },
+  "2d.txt": {
+    "rows": 5,
+    "max_columns": 4
+  },
+  "2g.txt": {
+    "rows": 5,
+    "max_columns": 7
+  },
+  "2h.txt": {
+    "rows": 4,
+    "max_columns": 4
+  },
+  "2kl_LAN1.txt": {
+    "rows": 752,
+    "max_columns": 17
+  },
+  "2kl_Med8A.txt": {
+    "rows": 752,
+    "max_columns": 17
+  },
+  "2kl_SupT1B7H3.txt": {
+    "rows": 753,
+    "max_columns": 17
+  },
+  "2kl_SupT1WT.txt": {
+    "rows": 753,
+    "max_columns": 17
+  },
+  "2m.txt": {
+    "rows": 5,
+    "max_columns": 18
+  },
+  "3a.txt": {
+    "rows": 2,
+    "max_columns": 5
+  },
+  "3b_Kelly.txt": {
+    "rows": 5,
+    "max_columns": 13
+  },
+  "3b_LAN1.txt": {
+    "rows": 5,
+    "max_columns": 13
+  },
+  "3c_LAN1.txt": {
+    "rows": 4,
+    "max_columns": 13
+  },
+  "3c_SKNSH.txt": {
+    "rows": 4,
+    "max_columns": 13
+  },
+  "3d_B.txt": {
+    "rows": 5,
+    "max_columns": 13
+  },
+  "3d_T.txt": {
+    "rows": 5,
+    "max_columns": 13
+  },
+  "3f_B.txt": {
+    "rows": 5,
+    "max_columns": 29
+  },
+  "3f_T.txt": {
+    "rows": 5,
+    "max_columns": 29
+  },
+  "3j_1.txt": {
+    "rows": 4,
+    "max_columns": 11
+  },
+  "3j_3.txt": {
+    "rows": 4,
+    "max_columns": 11
+  },
+  "4a_Kelly.txt": {
+    "rows": 4,
+    "max_columns": 17
+  },
+  "4a_LAN1.txt": {
+    "rows": 4,
+    "max_columns": 17
+  },
+  "4b_Kelly.txt": {
+    "rows": 4,
+    "max_columns": 17
+  },
+  "4b_LAN1.txt": {
+    "rows": 4,
+    "max_columns": 17
+  },
+  "4c_Kelly.txt": {
+    "rows": 4,
+    "max_columns": 17
+  },
+  "4c_LAN1.txt": {
+    "rows": 4,
+    "max_columns": 17
+  },
+  "4d_LAN1.txt": {
+    "rows": 4,
+    "max_columns": 13
+  },
+  "4d_SKNSH.txt": {
+    "rows": 4,
+    "max_columns": 13
+  },
+  "5a.txt": {
+    "rows": 2,
+    "max_columns": 8
+  },
+  "5b_341.txt": {
+    "rows": 3,
+    "max_columns": 25
+  },
+  "5b_425.txt": {
+    "rows": 3,
+    "max_columns": 25
+  },
+  "5b_8a.txt": {
+    "rows": 3,
+    "max_columns": 25
+  },
+  "5c.txt": {
+    "rows": 4,
+    "max_columns": 6
+  },
+  "5d_8a.txt": {
+    "rows": 5,
+    "max_columns": 3
+  },
+  "5d_LAN1.txt": {
+    "rows": 5,
+    "max_columns": 3
+  },
+  "6d.txt": {
+    "rows": 5,
+    "max_columns": 28
+  },
+  "6e.txt": {
+    "rows": 5,
+    "max_columns": 37
+  },
+  "6f.txt": {
+    "rows": 3,
+    "max_columns": 37
+  },
+  "6g_B.txt": {
+    "rows": 401,
+    "max_columns": 7
+  },
+  "6g_IFN.txt": {
+    "rows": 3,
+    "max_columns": 72
+  },
+  "6g_IL2.txt": {
+    "rows": 3,
+    "max_columns": 72
+  },
+  "6i.txt": {
+    "rows": 4,
+    "max_columns": 37
+  },
+  "6l.txt": {
+    "rows": 2,
+    "max_columns": 24
+  },
+  "6m.txt": {
+    "rows": 2,
+    "max_columns": 24
+  },
+  "6n.txt": {
+    "rows": 46,
+    "max_columns": 5
+  },
+  "6o.txt": {
+    "rows": 46,
+    "max_columns": 5
+  },
+  "6p.txt": {
+    "rows": 46,
+    "max_columns": 5
+  },
+  "6q.txt": {
+    "rows": 34,
+    "max_columns": 5
+  },
+  "7d_B.txt": {
+    "rows": 270,
+    "max_columns": 4
+  },
+  "7d_T.txt": {
+    "rows": 255,
+    "max_columns": 4
+  },
+  "7e_B.txt": {
+    "rows": 2,
+    "max_columns": 13
+  },
+  "7e_T.txt": {
+    "rows": 2,
+    "max_columns": 13
+  },
+  "7f_B.txt": {
+    "rows": 4,
+    "max_columns": 95
+  },
+  "7f_T.txt": {
+    "rows": 4,
+    "max_columns": 95
+  },
+  "7h_B.txt": {
+    "rows": 2761,
+    "max_columns": 6
+  },
+  "7h_T.txt": {
+    "rows": 2762,
+    "max_columns": 6
+  },
+  "7i_B.txt": {
+    "rows": 2762,
+    "max_columns": 6
+  },
+  "7i_T.txt": {
+    "rows": 2762,
+    "max_columns": 6
+  },
+  "7k_B.txt": {
+    "rows": 8,
+    "max_columns": 7
+  },
+  "7k_T.txt": {
+    "rows": 8,
+    "max_columns": 7
+  },
+  "7l.txt": {
+    "rows": 402,
+    "max_columns": 13
+  },
+  "Suppl_Fig_1.txt": {
+    "rows": 4,
+    "max_columns": 13
+  },
+  "Suppl_Fig_10b_huCD3+.txt": {
+    "rows": 2,
+    "max_columns": 24
+  },
+  "Suppl_Fig_10b_huCD3+RQR8+.txt": {
+    "rows": 2,
+    "max_columns": 24
+  },
+  "Suppl_Fig_10c.txt": {
+    "rows": 5,
+    "max_columns": 25
+  },
+  "Suppl_Fig_12a_691B.txt": {
+    "rows": 48,
+    "max_columns": 6
+  },
+  "Suppl_Fig_12a_691T.txt": {
+    "rows": 48,
+    "max_columns": 6
+  },
+  "Suppl_Fig_12c_691B.txt": {
+    "rows": 48,
+    "max_columns": 6
+  },
+  "Suppl_Fig_12c_691T.txt": {
+    "rows": 48,
+    "max_columns": 6
+  },
+  "Suppl_Fig_3a.txt": {
+    "rows": 10,
+    "max_columns": 7
+  },
+  "Suppl_Fig_3b.txt": {
+    "rows": 23,
+    "max_columns": 11
+  },
+  "Suppl_Fig_4a.txt": {
+    "rows": 10,
+    "max_columns": 12
+  },
+  "Suppl_Fig_4c.txt": {
+    "rows": 88,
+    "max_columns": 12
+  },
+  "Suppl_Fig_5b.txt": {
+    "rows": 5,
+    "max_columns": 13
+  },
+  "Suppl_Fig_5c.txt": {
+    "rows": 5,
+    "max_columns": 4
+  },
+  "Suppl_Fig_5d.txt": {
+    "rows": 5,
+    "max_columns": 4
+  },
+  "Suppl_Fig_5e.txt": {
+    "rows": 5,
+    "max_columns": 4
+  },
+  "Suppl_Fig_5g.txt": {
+    "rows": 3,
+    "max_columns": 16
+  },
+  "Suppl_Fig_6a.txt": {
+    "rows": 2,
+    "max_columns": 9
+  },
+  "Suppl_Fig_8_D341.txt": {
+    "rows": 5,
+    "max_columns": 25
+  },
+  "Suppl_Fig_8_D425.txt": {
+    "rows": 5,
+    "max_columns": 25
+  },
+  "Suppl_Fig_8_Med8A.txt": {
+    "rows": 5,
+    "max_columns": 25
+  },
+  "Suppl_Fig_9a.txt": {
+    "rows": 7,
+    "max_columns": 28
+  },
+  "Suppl_Fig_9b.txt": {
+    "rows": 6,
+    "max_columns": 37
+  },
+  "Suppl_Fig_9c.txt": {
+    "rows": 2,
+    "max_columns": 9
+  },
+  "Suppl_Fig_9d.txt": {
+    "rows": 2,
+    "max_columns": 12
+  }
+}

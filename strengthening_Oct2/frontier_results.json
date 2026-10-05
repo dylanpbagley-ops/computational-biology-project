@@ -1,0 +1,26 @@
+{
+  "nonmonotone_example": {
+    "budget": 0.2,
+    "arbitrary": 0.9,
+    "monotone": 0.5111111111111111
+  },
+  "multiple_compartments": {
+    "p": [
+      0.5,
+      0.5
+    ],
+    "normal_1": [
+      1,
+      0
+    ],
+    "normal_2": [
+      0,
+      1
+    ],
+    "each_budget": 0.5,
+    "min_of_individual_ceilings": 0.75,
+    "joint_optimum": 0.5,
+    "joint_reason": "Both constraints require f[0] <= 0.5 and f[1] <= 0.5; f=(0.5,0.5) attains 0.5."
+  },
+  "scope": "Abstract response geometry; no therapeutic construction or clinical validation."
+}

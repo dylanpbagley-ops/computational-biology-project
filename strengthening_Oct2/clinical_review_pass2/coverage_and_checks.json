@@ -1,0 +1,29 @@
+{
+  "evidence_units": 15,
+  "publications": 12,
+  "target_genes": 9,
+  "prior_pool_rows_partially_matched": 11,
+  "prior_pool_rows_total": 166,
+  "target_overlap": {
+    "already_in_original_table": [
+      "CA9",
+      "CD44",
+      "EGFR",
+      "EPCAM",
+      "ERBB2"
+    ],
+    "already_in_validation_table": [],
+    "already_in_locked_predictions": [
+      "CDH6",
+      "CLDN6",
+      "PTK7",
+      "ROR1"
+    ]
+  },
+  "historical_files_hash_preserved": 19,
+  "final_endpoint_judgments": 0,
+  "new_model_scores_or_performance_estimates": 0,
+  "source_only_form_rows": 12,
+  "reviewer_fields_blank": true,
+  "limits": "Schema, linkage and hash checks only; not independent verification of clinical truth. No pooled patient counts."
+}

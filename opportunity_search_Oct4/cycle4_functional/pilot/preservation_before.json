@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "pilot_start_utc": "2026-10-05T05:14:36Z",
+  "reviewed_plan": {
+    "path": "docs/superpowers/plans/2026-10-04-functional-transport-discriminating-pilot.md",
+    "bytes": 10327,
+    "sha256": "f091b36cb45b3761e9c93efbddedd7a46e304dfd9a40bd61f49d9f264fc1234f"
+  },
+  "protocol": {
+    "path": "opportunity_search_Oct4/cycle4_functional/pilot/protocol.json",
+    "sha256": "45103a84c6d99f9bea919f8ae5b3511f0fbf515b1e52b5d4f976cdea6b2167a5"
+  },
+  "data_inputs": [
+    {
+      "path": "data/GSE149933_mTKO_readCounts_4May20.txt.gz",
+      "bytes": 18430780,
+      "sha256": "ff2ab7917c4adf3409ed68a4ee00484c67fd5847e3dad380a1b131810026637a",
+      "role": "Official processed guide-count matrix; raw selected read counts"
+    },
+    {
+      "path": "data/GSE149933_mTKO_library.txt.gz",
+      "bytes": 2197566,
+      "sha256": "9fe28537b7ec71f8314a289bf55872511f5a23c1777cd2ee1225b48e9943533b",
+      "role": "Official guide-to-gene annotation"
+    },
+    {
+      "path": "data/GSE149933_family.soft.gz",
+      "bytes": 15133,
+      "sha256": "1c451899ac1feb252a30d5b911f5ab8d0bbe954a57379cb71e5fd0a7921f855b",
+      "role": "Official GEO sample metadata"
+    },
+    {
+      "path": "data/Ramos_SupplementaryData1.xlsx",
+      "bytes": 93990,
+      "sha256": "dbc52dd3d71fec9e0f0b854401ca231e04d248e54c238e2759a614088bd8d8f2",
+      "role": "Official publisher supplementary selected validation panel"
+    }
+  ],
+  "frozen_prior_art": [
+    {
+      "path": "prior_art/STATUS.md",
+      "bytes": 995,
+      "sha256": "0e7e03d3e94a9d76649d7665d5e85d7bce996da157ab3dd43099a0325b573bb3"
+    },
+    {
+      "path": "prior_art/search_log.tsv",
+      "bytes": 1354,
+      "sha256": "ec8e5675d59d0f17433845d7bac3111a4c837d8843a7e199dafd8996eafe9a71"
+    },
+    {
+      "path": "prior_art/sources.tsv",
+      "bytes": 5202,
+      "sha256": "b4d28ebb06848a2e97b9734cd2c9f84d1ab7b84bc7d5c0127cc185fb877b6ae1"
+    },
+    {
+      "path": "prior_art/review.md",
+      "bytes": 7073,
+      "sha256": "52f90a2d79ec5d3b56f006ae4ecaabaa93b04ecfb3833fa9b352a84b27d67830"
+    }
+  ]
+}

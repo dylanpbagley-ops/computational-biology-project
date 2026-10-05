@@ -1,0 +1,13 @@
+{"lock_date":"2026-09-08","search_date":"2026-09-29","precommit":"locked_predictions_check_precommitment.md",
+"method":"4 literature agents (PubMed abstracts, openFDA label for F3/ST8SIA1); spot-verified PMIDs 42008777, 40762544, 32694157, 33820780, 38583184 against PubMed abstracts",
+"scored":[
+{"gene":"CD70","call":"TOLERATED","verdict":"SAFE","source":"CTX130 Cancer Discov 2024-07 PMID 38583184 (16 pts, no DLT); ALLO-316 JCO 2026-07 (DLTs tied to lymphodepletion)","cls":"B","hit":true},
+{"gene":"LRRC15","call":"TOLERATED","verdict":"SAFE (weak: stromal target)","source":"ABBV-085 Clin Cancer Res 2021-04 PMID 33820780","cls":"B","hit":true},
+{"gene":"ITGB6","call":"TOXIC","verdict":"SAFE (weak)","source":"sigvotatug vedotin JCO 2026-04 PMID 42008777, G3+ 48%, no organ attributed","cls":"B","hit":false},
+{"gene":"ROR1","call":"TOXIC","verdict":"SAFE (weak, poor test: 1 responder, ROR1 IHC in 3/17)","source":"zilovertamab vedotin Cancer Res Commun 2025-09 PMID 40762544","cls":"B","hit":false},
+{"gene":"LY6E","call":"TOXIC","verdict":"SAFE (weak)","source":"DLYE5953A Clin Cancer Res 2020-07 PMID 32694157, no DLT 0.2-2.4 mg/kg","cls":"B","hit":false}],
+"counts":{"called":32,"tolerated_called":14,"toxic_called":18,"scored":5,"hits":2,"misses":3,"class_A":0,"class_B_scored":5,
+"hedged_called":13,"unresolved_called":14},
+"hedged_called_list":["KIT","AXL","EFNA4","SLC34A2","SEZ6","SLC39A6","PTK7","ERBB3","CDH3","F3","ALCAM","CD46","ADAM9"],
+"no_call_informational":{"STEAP1":"SAFE moderate","MUC16":"SAFE moderate","CLDN6":"SAFE","FGFR2":"TOXIC moderate (corneal, inferred)","ST8SIA1":"TOXIC only via GD2 mapping (dinutuximab boxed warning)","GUCY2C":"HEDGED","others":"unresolved or hedged"},
+"class_A_note":"No called target has forward evidence. CD276 tambotatug pelitecan NEJM 2026-09-12 is post-lock but CD276 is a no-call and it reports tolerability of a payload-limited ADC."}

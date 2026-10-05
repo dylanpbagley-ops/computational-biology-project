@@ -1,0 +1,212 @@
+{
+  "raw_hpa": {
+    "resolved_genes": 44,
+    "cell_type_counts": [
+      154
+    ],
+    "max_top_share_difference": 0.0,
+    "flag_discrepancies": []
+  },
+  "operational_counts": {
+    "efficacy_fail": 12,
+    "excluded_ambiguous": 1,
+    "excluded_control": 1,
+    "safe": 19,
+    "toxic": 11
+  },
+  "main": {
+    "auc": 0.9138755980861244,
+    "ci95": [
+      0.7894736842105263,
+      0.9952153110047847
+    ],
+    "paired_difference": 0.03349282296650713,
+    "paired_difference_ci95": [
+      0.0,
+      0.10526315789473684
+    ],
+    "exact_p": 2.7861527111901927e-05
+  },
+  "confinement": {
+    "auc": 0.8803827751196173,
+    "ci95": [
+      0.7272727272727273,
+      0.9904306220095693
+    ],
+    "exact_p": 0.00014624555853941161
+  },
+  "pairs": {
+    "concordant": 191,
+    "discordant": 18,
+    "tied": 0
+  },
+  "frozen_tsv": {
+    "counts": {
+      "efficacy_fail": 9,
+      "excluded_ambiguous": 1,
+      "excluded_control": 1,
+      "safe": 19,
+      "toxic": 10
+    },
+    "missing_operational_genes": [
+      "AXL",
+      "ERBB3",
+      "F3",
+      "GPNMB"
+    ],
+    "disagreeing_labels": []
+  },
+  "raw_autopsy_comparator": {
+    "genes_recomputed": 72,
+    "max_difference_from_stored": 0.0
+  },
+  "head_to_head": {
+    "auc": 0.7777777777777778,
+    "ci95": [
+      0.5185185185185185,
+      0.9629629629629629
+    ],
+    "paired_difference": 0.2222222222222222,
+    "paired_difference_ci95": [
+      -0.0864197530864198,
+      0.5185185185185186
+    ],
+    "n_safe": 9,
+    "n_toxic": 9,
+    "genes": [
+      "CA9",
+      "CD38",
+      "CD44",
+      "CEACAM5",
+      "CLDN18",
+      "DLL3",
+      "EGFR",
+      "ERBB2",
+      "F3",
+      "FAP",
+      "FOLH1",
+      "FOLR1",
+      "MET",
+      "MSLN",
+      "NCAM1",
+      "NECTIN4",
+      "TACSTD2",
+      "TNFRSF8"
+    ],
+    "comparator_auc": 0.5555555555555556
+  },
+  "hashes": [
+    {
+      "file": "label_fragility_precommitment.md",
+      "matches": true
+    },
+    {
+      "file": "flag_cleanup.json",
+      "matches": true
+    },
+    {
+      "file": "target_labels_frozen.tsv",
+      "matches": true
+    },
+    {
+      "file": "flag_cleanup.py",
+      "matches": true
+    },
+    {
+      "file": "wholebody_v2.json",
+      "matches": true
+    },
+    {
+      "file": "locked_predictions_check_precommitment.md",
+      "matches": true
+    },
+    {
+      "file": "prospective_predictions.json",
+      "matches": true
+    },
+    {
+      "file": "target_labels_validation.py",
+      "matches": true
+    }
+  ],
+  "mathematics": {
+    "arbitrary_vs_monotone": {
+      "pT": [
+        0.45,
+        0.1,
+        0.45
+      ],
+      "pN": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "antigen_threshold_hull": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.45
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "arbitrary_rule": [
+        1,
+        0,
+        1
+      ],
+      "arbitrary_point": [
+        0.2,
+        0.9
+      ],
+      "monotone_hull_ceiling_at_normal_kill_0.2": 0.5111111111111111,
+      "best_arbitrary_T_minus_H": 0.7,
+      "best_monotone_T_minus_H": 0.35
+    },
+    "same_auc_different_ceiling": {
+      "auc_A": 0.5,
+      "auc_B": 0.5,
+      "hull_A": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "hull_B": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.25,
+          0.45
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "normal_kill_0.25_tumor_kill_A": 0.25,
+      "normal_kill_0.25_tumor_kill_B": 0.45
+    },
+    "existing_weighted_verifier": {
+      "worst_excess": 0.0,
+      "worst_np_gap": 0.0,
+      "checks": 16400
+    }
+  },
+  "notes": [
+    "Bootstrap uncertainty conditional on fixed labels and panel; it does not include selection or label uncertainty.",
+    "Head-to-head compares existing predictors on existing labels; no independent safety replication.",
+    "No original labels, predictions, rules or outputs changed."
+  ]
+}

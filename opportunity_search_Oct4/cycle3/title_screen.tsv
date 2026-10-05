@@ -1,0 +1,41 @@
+screen_id	query_id	query_page_rank	pmid	title	doi	pmcid	screen_level	candidate_source_id
+T001	Q11	1	39755122	Adoptive T cell therapy targeting an inducible and broadly shared product of aberrant mRNA translation.	10.1016/j.immuni.2024.12.004	none	title_only	none
+T002	Q11	2	33328638	Anti-tumour immunity induces aberrant peptide presentation in melanoma.	10.1038/s41586-020-03054-1	none	title_only	none
+T003	Q11	3	39824805	Interferon-α promotes HLA-B-restricted presentation of conventional and alternative antigens in human pancreatic β-cells.	10.1038/s41467-025-55908-9	PMC11748642	title_only	P05
+T004	Q11	4	40896833	Proteogenomic Discovery of Novel Open Reading Frames With HLA Immune Presentation on Human β-Cells.	10.2337/db24-0527	PMC12645175	title_only	P06
+T005	Q11	5	40413207	Palbociclib and dsRNA sensor co-operate to enhance anti-cancer effects through ER stress and modulation of immune evasion.	10.1038/s41467-025-60133-5	PMC12103499	title_only	none
+T006	Q11	6	33968037	IFNγ Modulates the Immunopeptidome of Triple Negative Breast Cancer Cells by Enhancing and Diversifying Antigen Processing and Presentation.	10.3389/fimmu.2021.645770	PMC8100505	title_only	none
+T007	Q11	7	36531690	Cellular senescence enhances adaptive anticancer immunosurveillance.	10.1080/2162402X.2022.2154115	PMC9757484	title_only	none
+T008	Q11	8	42366791	Immunomodulatory endothelial cells contribute to T-cell recruitment and activation via antigen presentation on MHC II.	10.1093/cvr/cvag137	none	title_only	none
+T009	Q11	9	37991387	Multifactorial Remodeling of the Cancer Immunopeptidome by IFNγ.	10.1158/2767-9764.CRC-23-0121	PMC10655636	title_only	none
+T010	Q11	10	31735170	Immunopeptidomics of colorectal cancer organoids reveals a sparse HLA class I neoantigen landscape and no increase in neoantigens with interferon or MEK-inhibitor treatment.	10.1186/s40425-019-0769-8	PMC6859637	title_only	none
+T011	Q11	11	42185884	SUMOylation in cancer: molecular mechanisms and therapeutic implications.	10.1186/s12943-026-02696-5	PMC13386914	title_only	none
+T012	Q11	12	42275211	STING dampens the unfolded protein response to enable the presentation of self-antigens on MHC-I during inflammation.	10.1016/j.celrep.2026.117497	none	title_only	none
+T013	Q11	13	35017147	Bedside formulation of a personalized multi-neoantigen vaccine against mammary carcinoma.	10.1136/jitc-2021-002927	PMC8753436	title_only	none
+T014	Q11	14	35982220	STUB1 is an intracellular checkpoint for interferon gamma sensing.	10.1038/s41598-022-18404-4	PMC9388626	title_only	none
+T015	Q11	15	37745505	Interferon-α promotes neo-antigen formation and preferential HLA-B-restricted antigen presentation in pancreatic β-cells.	10.1101/2023.09.15.557918	PMC10516036	title_only	none
+T016	Q11	16	33936100	An Integrated Genomic, Proteomic, and Immunopeptidomic Approach to Discover Treatment-Induced Neoantigens.	10.3389/fimmu.2021.662443	PMC8082494	title_only	none
+T017	Q11	17	37171962	Human papillomavirus E5 suppresses immunity via inhibition of the immunoproteasome and STING pathway.	10.1016/j.celrep.2023.112508	PMC10789500	title_only	none
+T018	Q11	18	38213329	Antigen presentation deficiency, mesenchymal differentiation, and resistance to immunotherapy in the murine syngeneic CT2A tumor model.	10.3389/fimmu.2023.1297932	PMC10782385	title_only	none
+T019	Q11	19	35314027	A novel immunopeptidomic-based pipeline for the generation of personalized oncolytic cancer vaccines.	10.7554/eLife.71156	PMC8989416	title_only	none
+T020	Q11	20	42819770	mRNA processing in cancer immunotherapy: emerging targets, resistance mechanisms, and therapeutic opportunities.	10.3389/fimmu.2026.1889279	PMC13624746	title_only	none
+T021	Q11	21	42627072	Post‑translational modification‑governed immune states in cancer immunity: Biomarker implications for checkpoint competence, tumor visibility and immunotherapy resistance (Review).	10.3892/ijo.2026.5932	PMC13553192	title_only	none
+T022	Q11	22	34732890	Cross-HLA targeting of intracellular oncoproteins with peptide-centric CARs.	10.1038/s41586-021-04061-6	PMC8599005	title_only	none
+T023	Q11	23	39516457	A platform for mapping reactive cysteines within the immunopeptidome.	10.1038/s41467-024-54139-8	PMC11549463	title_only	none
+T024	Q11	24	35561310	Unmasking the suppressed immunopeptidome of EZH2-mutated diffuse large B-cell lymphomas through combination drug treatment.	10.1182/bloodadvances.2021006069	PMC9327544	title_only	none
+T025	Q11	25	36185575	Immunopeptidome of hepatocytes isolated from patients with HBV infection and hepatocellular carcinoma.	10.1016/j.jhepr.2022.100576	PMC9523389	title_only	none
+T026	Q11	26	40568088	Large-scale HLA immunopeptidome and interactome profiling in microglia.	10.1101/2025.04.23.650327	PMC12190351	title_only	none
+T027	Q11	27	36089194	Ionizing Radiation Drives Key Regulators of Antigen Presentation and a Global Expansion of the Immunopeptidome.	10.1016/j.mcpro.2022.100410	PMC9579046	title_only	none
+T028	Q11	28	37709257	Integrated Immunopeptidomics and Proteomics Study of SARS-CoV-2-Infected Calu-3 Cells Reveals Dynamic Changes in Allele-specific HLA Abundance and Antigen Presentation.	10.1016/j.mcpro.2023.100645	PMC10580047	title_only	none
+T029	Q11	29	39073021	HLA-DR-Expressing Fibroblast-Like Synoviocytes Are Inducible Antigen Presenting Cells That Present Autoantigens in Lyme Arthritis.	10.1002/acr2.11710	PMC11471949	title_only	none
+T030	Q11	30	33592498	CIITA-Transduced Glioblastoma Cells Uncover a Rich Repertoire of Clinically Relevant Tumor-Associated HLA-II Antigens.	10.1074/mcp.RA120.002201	PMC8724627	title_only	none
+T031	Q11	31	32488085	Multiplexed relative and absolute quantitative immunopeptidomics reveals MHC I repertoire alterations induced by CDK4/6 inhibition.	10.1038/s41467-020-16588-9	PMC7265461	title_only	none
+T032	Q11	32	42304380	Human iPSC-derived neurons stimulated with IFNγ present HLA class I-restricted antigens to cytotoxic CD8+ T cells.	10.1186/s12974-026-03915-y	PMC13508380	title_only	none
+T033	Q11	33	22872234	Constitutive and inflammatory immunopeptidome of pancreatic β-cells.	10.2337/db11-1333	PMC3478525	title_only	P04
+T034	Q11	34	38045407	Human leukocyte antigen HLA-DR-expressing fibroblast-like synoviocytes are inducible antigen presenting cells that present autoantigens in Lyme arthritis.	10.1101/2023.11.21.568066	PMC10690166	title_only	none
+T035	Q11	35	36389776	Tapasin-mediated editing of the MHC I immunopeptidome is epitope specific and dependent on peptide off-rate, abundance, and level of tapasin expression.	10.3389/fimmu.2022.956603	PMC9659924	title_only	none
+T036	Q12	1	38834853	PARP14 and PARP9/DTX3L regulate interferon-induced ADP-ribosylation.	10.1038/s44318-024-00126-0	PMC11251020	title_only	none
+T037	Q12	2	39415009	Spatial proteomics identifies JAKi as treatment for a lethal skin disease.	10.1038/s41586-024-08061-0	PMC11602713	title_only	none
+T038	Q12	3	34782790	Dexamethasone modulates immature neutrophils and interferon programming in severe COVID-19.	10.1038/s41591-021-01576-3	PMC8799469	title_only	none
+T039	Q12	4	30510222	G3BP1 promotes DNA binding and activation of cGAS.	10.1038/s41590-018-0262-4	PMC8276115	title_only	none
+T040	Q12	5	38776917	Single-cell proteomics and transcriptomics capture eosinophil development and identify the role of IL-5 in their lineage transit amplification.	10.1016/j.immuni.2024.04.027	none	title_only	none

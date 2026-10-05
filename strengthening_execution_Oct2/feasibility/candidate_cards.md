@@ -1,0 +1,11 @@
+# Candidate cards — development hypotheses
+
+## A: clinical applicability of a gene-only ranking
+Question: can comparable agent/cohort injury observations show when a constant gene score fails, and do pre-outcome context variables improve evaluation on excluded targets?
+Retain: fixed score, clinical source pool, endpoint repair. Data: deterministic multi-agent pilot, verified publication/cohort identities required. Units: targets for generalization, cohorts for observations, overlapping reports linked. Closest work: SCAN-ACT, BayesTS, Thomas et al., Madan et al.; inspect exact endpoints before comparison.
+Minimal demonstration: comparability matrix, event-level observations, overlap accounting and a descriptive diagnostic. No predictive model until adequate endpoint diversity and target count support a precision plan. Same-target agent contrast is not unseen-target validation. Main failure: regulatory summaries and mismatched outcomes cannot supply comparable negatives. Stop as primary if endpoint/context/independence gaps prevent evaluation or prior art already exhausts the contribution.
+
+## B: donor-dependent measurement sufficiency in myeloma antigen selection
+Question: does a pooled RNA selectivity frontier hide donor variation enough to change a named antigen comparison within malignant versus healthy plasma cells?
+Retain: distribution mathematics, Boiarsky cell-level extraction and donor metadata. Measurements: RNA UMI, normalized within cells using metadata library size; zero is detection, not absence. Proposed single uncertainty: finite donor sampling. Units: donor/sample, not cells. Compare TNFRSF17/GPRC5D/SLAMF7, pending source verification; no clinical harm interpretation.
+Minimal demonstration: equal-donor versus pooled point estimates and donor-sensitive frontier/selection evaluated on held-out donors, with finite benchmark examples. Distinguish an oracle optimum from one shared response; classical ROC is a tool, not claimed invention. Closest work: source study, prior myeloma antigen selection, single-cell target-selection approaches and donor statistical literature. Stop if metadata/normalization invalid, already completed sensitivity is merely redrawn, or no new biological finding beyond known normal-plasma-cell expression is supported. Novelty and empirical premise remain untested.

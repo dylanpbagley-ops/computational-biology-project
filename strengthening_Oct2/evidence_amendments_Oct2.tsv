@@ -1,0 +1,45 @@
+gene	historical_agent	historical_outcome	amended_agent_or_evidence_identity	source_correction	verified_source_link	adjudicated_outcome	status
+CD19	tisagenlecleucel / axi-cel	safe	tisagenlecleucel / axi-cel	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+MS4A1	rituximab	safe	rituximab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD22	inotuzumab ozogamicin	safe	inotuzumab ozogamicin	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD79B	polatuzumab vedotin	safe	polatuzumab vedotin	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+TNFRSF17	ide-cel / cilta-cel	safe	ide-cel / cilta-cel	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+SLAMF7	elotuzumab	safe	elotuzumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD38	daratumumab	safe	daratumumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+TNFRSF8	brentuximab vedotin	safe	brentuximab vedotin	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD33	gemtuzumab ozogamicin	safe	gemtuzumab ozogamicin	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+GPRC5D	talquetamab	safe	talquetamab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+FOLH1	177Lu-PSMA-617	safe	177Lu-PSMA-617	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+TACSTD2	sacituzumab govitecan	safe	sacituzumab govitecan	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+NECTIN4	enfortumab vedotin	safe	enfortumab vedotin	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CLDN18	zolbetuximab	safe	zolbetuximab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+DLL3	tarlatamab	safe	tarlatamab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+MET	telisotuzumab vedotin	safe	telisotuzumab vedotin	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+MSLN	anti-MSLN CAR-T / anetumab	safe	anti-MSLN CAR-T / anetumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+GPC3	GPC3 CAR-T	safe	GPC3 CAR-T	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD52	alemtuzumab	safe	alemtuzumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+ERBB2	HER2 CAR-T (Morgan 2010)	toxic	HER2 CAR-T (Morgan 2010)	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+EGFR	anti-EGFR CAR-T / cetuximab	toxic	anti-EGFR CAR-T / cetuximab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CEACAM5	CEA CAR-T (Parkhurst 2011)	toxic	CEA-directed TCR-T (Parkhurst 2011)	Agent modality corrected; outcome still subject to consistent endpoint review	https://pubmed.ncbi.nlm.nih.gov/21157437/	PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CA9	CAIX CAR-T (Lamers 2006)	toxic	CAIX CAR-T (Lamers 2006)	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD47	magrolimab	toxic	magrolimab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD44	CD44v6 CAR-T / bivatuzumab	toxic	CD44v6 CAR-T / bivatuzumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+NCAM1	lorvotuzumab mertansine	toxic	lorvotuzumab mertansine	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+EPCAM	catumaxomab / adecatumumab	toxic	catumaxomab / adecatumumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+FOLR1	mirvetuximab soravtansine	toxic	mirvetuximab soravtansine	Recorded corneal on-target attribution contradicted; amended outcome unresolved	https://pubmed.ncbi.nlm.nih.gov/30413525/	PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+FAP	FAP CAR-T	toxic	FAP-directed intervention; historical marrow/cachexia source is preclinical	Cited evidence cannot establish a human clinical-toxic outcome	https://pubmed.ncbi.nlm.nih.gov/23712432/	PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+F3	tisotumab vedotin (Tivdak)	toxic	tisotumab vedotin (Tivdak)	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+FCER2	lumiliximab	efficacy_fail	lumiliximab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+GPNMB	glembatumumab vedotin (CDX-011)	efficacy_fail	glembatumumab vedotin (CDX-011)	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD40	dacetuzumab	efficacy_fail	dacetuzumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD80	galiximab	efficacy_fail	galiximab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+HLA-DRA	apolizumab	efficacy_fail	apolizumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+SDC1	indatuximab ravtansine	efficacy_fail	indatuximab ravtansine	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+MUC1	several	efficacy_fail	several	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+MUC16	oregovomab	efficacy_fail	oregovomab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+SLC34A2	lifastuzumab vedotin	efficacy_fail	lifastuzumab vedotin	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+CD74	milatuzumab	efficacy_fail	milatuzumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+ERBB3	patritumab deruxtecan	efficacy_fail	patritumab deruxtecan	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+AXL	enapotamab vedotin	efficacy_fail	enapotamab vedotin	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+PTPRC	(none)	excluded_control	Anti-CD45 radioconjugate 131I-apamistamab exists in human trials	Historical no-human-agent exclusion reason contradicted; transplant-conditioning eligibility unresolved	https://pubmed.ncbi.nlm.nih.gov/39298738/	PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table
+IL3RA	tagraxofusp vs talacotuzumab	excluded_ambiguous	tagraxofusp vs talacotuzumab	No final source adjudication in this pass		PENDING_REVIEW	Evidence amendment only; not a replacement scoring-label table

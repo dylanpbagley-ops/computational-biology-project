@@ -1,0 +1,709 @@
+{
+  "schema_version": 1,
+  "pilot_start_utc": "2026-10-05T05:14:36Z",
+  "computed_at_utc": "2026-10-05T05:36:48Z",
+  "protocol_sha256": "45103a84c6d99f9bea919f8ae5b3511f0fbf515b1e52b5d4f976cdea6b2167a5",
+  "reviewed_plan_sha256": "f091b36cb45b3761e9c93efbddedd7a46e304dfd9a40bd61f49d9f264fc1234f",
+  "scientific_reproduction_checks": {
+    "protocol_hash_verified": true,
+    "reviewed_plan_hash_verified": true,
+    "protected_raw_input_hashes_verified": true,
+    "protected_prior_art_hashes_verified": true,
+    "raw_input_hashes": {
+      "data/GSE149933_mTKO_readCounts_4May20.txt.gz": "ff2ab7917c4adf3409ed68a4ee00484c67fd5847e3dad380a1b131810026637a",
+      "data/GSE149933_mTKO_library.txt.gz": "9fe28537b7ec71f8314a289bf55872511f5a23c1777cd2ee1225b48e9943533b",
+      "data/GSE149933_family.soft.gz": "1c451899ac1feb252a30d5b911f5ab8d0bbe954a57379cb71e5fd0a7921f855b",
+      "data/Ramos_SupplementaryData1.xlsx": "dbc52dd3d71fec9e0f0b854401ca231e04d248e54c238e2759a614088bd8d8f2"
+    },
+    "prior_art_hashes": {
+      "prior_art/STATUS.md": "0e7e03d3e94a9d76649d7665d5e85d7bce996da157ab3dd43099a0325b573bb3",
+      "prior_art/search_log.tsv": "ec8e5675d59d0f17433845d7bac3111a4c837d8843a7e199dafd8996eafe9a71",
+      "prior_art/sources.tsv": "b4d28ebb06848a2e97b9734cd2c9f84d1ab7b84bc7d5c0127cc185fb877b6ae1",
+      "prior_art/review.md": "52f90a2d79ec5d3b56f006ae4ecaabaa93b04ecfb3833fa9b352a84b27d67830"
+    },
+    "count_matrix_sha256": "ff2ab7917c4adf3409ed68a4ee00484c67fd5847e3dad380a1b131810026637a",
+    "library_sha256": "9fe28537b7ec71f8314a289bf55872511f5a23c1777cd2ee1225b48e9943533b",
+    "ramos_workbook_sha256": "dbc52dd3d71fec9e0f0b854401ca231e04d248e54c238e2759a614088bd8d8f2"
+  },
+  "input_counts": {
+    "count_matrix_guide_rows": 94528,
+    "count_matrix_sample_columns": 115,
+    "library_annotation_rows": 94528,
+    "sample_mapping_rows": 97,
+    "mapped_count_columns_used": 78,
+    "ramos_selected_panel_rows": 1021,
+    "unique_nonempty_panel_symbols": 1021,
+    "unique_panel_symbols_exactly_matched_to_count_matrix": 847
+  },
+  "mapping": {
+    "contexts": [
+      {
+        "model": "EMT6",
+        "source": "EMT6 cell line + haemagglutinin antigen",
+        "control_treatment": "Control",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T10",
+          "control_timepoint": "T11"
+        },
+        "late": {
+          "treated_timepoint": "T15",
+          "control_timepoint": "T19"
+        },
+        "t0_column": "MUS_60",
+        "early_treated_columns": [
+          "MUS_67",
+          "MUS_68",
+          "MUS_69"
+        ],
+        "early_control_columns": [
+          "MUS_61",
+          "MUS_62",
+          "MUS_63"
+        ],
+        "late_treated_columns": [
+          "MUS_70",
+          "MUS_71",
+          "MUS_72"
+        ],
+        "late_control_columns": [
+          "MUS_64",
+          "MUS_65",
+          "MUS_66"
+        ]
+      },
+      {
+        "model": "CT26",
+        "source": "CT26 cell line + haemagglutinin antigen",
+        "control_treatment": "Control",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T12",
+          "control_timepoint": "T11"
+        },
+        "late": {
+          "treated_timepoint": "T16",
+          "control_timepoint": "T17"
+        },
+        "t0_column": "MUS_47",
+        "early_treated_columns": [
+          "MUS_54",
+          "MUS_55",
+          "MUS_56"
+        ],
+        "early_control_columns": [
+          "MUS_48",
+          "MUS_49",
+          "MUS_50"
+        ],
+        "late_treated_columns": [
+          "MUS_57",
+          "MUS_58",
+          "MUS_59"
+        ],
+        "late_control_columns": [
+          "MUS_51",
+          "MUS_52",
+          "MUS_53"
+        ]
+      },
+      {
+        "model": "4T1",
+        "source": "4T1 cell line + haemagglutinin antigen",
+        "control_treatment": "Control",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T13",
+          "control_timepoint": "T14"
+        },
+        "late": {
+          "treated_timepoint": "T25",
+          "control_timepoint": "T25"
+        },
+        "t0_column": "MUS_34",
+        "early_treated_columns": [
+          "MUS_41",
+          "MUS_42",
+          "MUS_43"
+        ],
+        "early_control_columns": [
+          "MUS_35",
+          "MUS_36",
+          "MUS_37"
+        ],
+        "late_treated_columns": [
+          "MUS_44",
+          "MUS_45",
+          "MUS_46"
+        ],
+        "late_control_columns": [
+          "MUS_38",
+          "MUS_39",
+          "MUS_40"
+        ]
+      },
+      {
+        "model": "B16-Ova",
+        "source": "B16 cell line + ovalbumin antigen",
+        "control_treatment": "Control (WT-CD8 per source paper)",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T13",
+          "control_timepoint": "T13"
+        },
+        "late": {
+          "treated_timepoint": "T17",
+          "control_timepoint": "T17"
+        },
+        "t0_column": "MUS_99",
+        "early_treated_columns": [
+          "MUS_109",
+          "MUS_110",
+          "MUS_111"
+        ],
+        "early_control_columns": [
+          "MUS_100",
+          "MUS_101",
+          "MUS_102"
+        ],
+        "late_treated_columns": [
+          "MUS_112",
+          "MUS_113",
+          "MUS_114"
+        ],
+        "late_control_columns": [
+          "MUS_103",
+          "MUS_104",
+          "MUS_105"
+        ]
+      },
+      {
+        "model": "MC38-Ova",
+        "source": "MC38 cell line + ovalbumin antigen",
+        "control_treatment": "Control (WT-CD8 per source paper)",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T12",
+          "control_timepoint": "T12"
+        },
+        "late": {
+          "treated_timepoint": "T15",
+          "control_timepoint": "T15"
+        },
+        "t0_column": "MUS_73",
+        "early_treated_columns": [
+          "MUS_80",
+          "MUS_81",
+          "MUS_82"
+        ],
+        "early_control_columns": [
+          "MUS_74",
+          "MUS_75",
+          "MUS_76"
+        ],
+        "late_treated_columns": [
+          "MUS_143",
+          "MUS_144",
+          "MUS_145"
+        ],
+        "late_control_columns": [
+          "MUS_140",
+          "MUS_141",
+          "MUS_142"
+        ]
+      },
+      {
+        "model": "Renca-HA",
+        "source": "Renca cell line + haemagglutinin antigen",
+        "control_treatment": "Control",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T16",
+          "control_timepoint": "T15"
+        },
+        "late": {
+          "treated_timepoint": "T22",
+          "control_timepoint": "T24"
+        },
+        "t0_column": "MUS_15",
+        "early_treated_columns": [
+          "MUS_28",
+          "MUS_29",
+          "MUS_153"
+        ],
+        "early_control_columns": [
+          "MUS_25",
+          "MUS_26",
+          "MUS_27"
+        ],
+        "late_treated_columns": [
+          "MUS_16",
+          "MUS_17",
+          "MUS_18"
+        ],
+        "late_control_columns": [
+          "MUS_19",
+          "MUS_20",
+          "MUS_21"
+        ]
+      }
+    ],
+    "antigen_free_renca_cytokine_sample_rows_excluded": 12
+  },
+  "quality": {
+    "missing_count_matrix_gene_symbols": 0,
+    "duplicate_guide_id_rows": 0,
+    "library_gene_symbol_mismatch_rows": 135,
+    "guide_filter_reason_counts": {
+      "eligible": 20181,
+      "control_rep_2_below_20": 3178,
+      "control_rep_1_below_20": 3204,
+      "control_rep_3_below_20": 3139,
+      "T0_below_20": 227
+    },
+    "eligible_gene_model_timepoint_rows": 8444,
+    "early_latest_stable_direction_flips": [
+      {
+        "gene": "Smg9",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Ciao1",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "T",
+        "model": "4T1",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "1700019N19Rik",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Rhof",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Dhrs7c",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Pnpla2",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Bid",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Casp8",
+        "model": "4T1",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Adgrg2",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Nostrin",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      },
+      {
+        "gene": "Zfp36l2",
+        "model": "Renca-HA",
+        "early": "sign_stable_sensitizing",
+        "latest": "sign_stable_resistant"
+      },
+      {
+        "gene": "Plagl2",
+        "model": "MC38-Ova",
+        "early": "sign_stable_resistant",
+        "latest": "sign_stable_sensitizing"
+      }
+    ]
+  },
+  "primary_test": {
+    "primary_flag_count": 5,
+    "primary_flag_genes": [
+      "Med16",
+      "Nprl3",
+      "Cbfa2t3",
+      "Etv5",
+      "Irf1"
+    ],
+    "symmetric_descriptive_flag_count": 0,
+    "symmetric_descriptive_flag_genes": [],
+    "rule": ">=3/6 latest CTL contexts sign-stable sensitizing AND positive Ramos LFC/FDR<=0.05 in both in-vitro conditions"
+  },
+  "predefined_anchor_results": [
+    {
+      "gene": "Ptpn2",
+      "late_sensitizing_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "late_resistant_models": [],
+      "late_mixed_models": [],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": -0.92961,
+      "ramos_1to2_fdr": 0.068317,
+      "ramos_1to10_lfc": -1.4719,
+      "ramos_1to10_fdr": 0.001238,
+      "ramos_supported_resistance_both": false,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Atg12",
+      "late_sensitizing_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "late_resistant_models": [],
+      "late_mixed_models": [
+        "B16-Ova"
+      ],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": -0.61734,
+      "ramos_1to2_fdr": 0.006931,
+      "ramos_1to10_lfc": -0.43069,
+      "ramos_1to10_fdr": 0.001238,
+      "ramos_supported_resistance_both": false,
+      "ramos_supported_sensitization_both": true
+    },
+    {
+      "gene": "B2m",
+      "late_sensitizing_models": [],
+      "late_resistant_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "Renca-HA"
+      ],
+      "late_mixed_models": [
+        "MC38-Ova"
+      ],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": -0.42326,
+      "ramos_1to2_fdr": 0.068317,
+      "ramos_1to10_lfc": -0.092047,
+      "ramos_1to10_fdr": 1.0,
+      "ramos_supported_resistance_both": false,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Socs1",
+      "late_sensitizing_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "late_resistant_models": [],
+      "late_mixed_models": [],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": -0.28264,
+      "ramos_1to2_fdr": 1.0,
+      "ramos_1to10_lfc": -0.38121,
+      "ramos_1to10_fdr": 1.0,
+      "ramos_supported_resistance_both": false,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Fitm2",
+      "late_sensitizing_models": [
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "late_resistant_models": [],
+      "late_mixed_models": [
+        "EMT6"
+      ],
+      "early_late_same_stable_models": [
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": -0.19363,
+      "ramos_1to2_fdr": 1.0,
+      "ramos_1to10_lfc": -0.18863,
+      "ramos_1to10_fdr": 1.0,
+      "ramos_supported_resistance_both": false,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Casp8",
+      "late_sensitizing_models": [
+        "4T1",
+        "B16-Ova"
+      ],
+      "late_resistant_models": [
+        "EMT6"
+      ],
+      "late_mixed_models": [
+        "CT26",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "early_late_same_stable_models": [
+        "EMT6"
+      ],
+      "early_late_stable_sign_flip_models": [
+        "4T1"
+      ],
+      "ramos_1to2_lfc": 0.048529,
+      "ramos_1to2_fdr": 1.0,
+      "ramos_1to10_lfc": -0.0025899,
+      "ramos_1to10_fdr": 1.0,
+      "ramos_supported_resistance_both": false,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Fadd",
+      "late_sensitizing_models": [
+        "4T1"
+      ],
+      "late_resistant_models": [
+        "EMT6",
+        "MC38-Ova"
+      ],
+      "late_mixed_models": [
+        "CT26",
+        "B16-Ova"
+      ],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "4T1",
+        "MC38-Ova"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": 0.1583,
+      "ramos_1to2_fdr": 1.0,
+      "ramos_1to10_lfc": -0.18144,
+      "ramos_1to10_fdr": 1.0,
+      "ramos_supported_resistance_both": false,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Irf1",
+      "late_sensitizing_models": [
+        "EMT6",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "late_resistant_models": [
+        "CT26",
+        "4T1"
+      ],
+      "late_mixed_models": [],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": 1.8692,
+      "ramos_1to2_fdr": 0.000495,
+      "ramos_1to10_lfc": 0.95053,
+      "ramos_1to10_fdr": 0.00045,
+      "ramos_supported_resistance_both": true,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Stat1",
+      "late_sensitizing_models": [],
+      "late_resistant_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "Renca-HA"
+      ],
+      "late_mixed_models": [
+        "MC38-Ova"
+      ],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": 2.4418,
+      "ramos_1to2_fdr": 0.000495,
+      "ramos_1to10_lfc": 1.2043,
+      "ramos_1to10_fdr": 0.00045,
+      "ramos_supported_resistance_both": true,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Ifngr1",
+      "late_sensitizing_models": [],
+      "late_resistant_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "late_mixed_models": [],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": 2.5352,
+      "ramos_1to2_fdr": 0.000495,
+      "ramos_1to10_lfc": 1.1144,
+      "ramos_1to10_fdr": 0.00045,
+      "ramos_supported_resistance_both": true,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Jak1",
+      "late_sensitizing_models": [],
+      "late_resistant_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "Renca-HA"
+      ],
+      "late_mixed_models": [
+        "MC38-Ova"
+      ],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": 2.5507,
+      "ramos_1to2_fdr": 0.000495,
+      "ramos_1to10_lfc": 1.3148,
+      "ramos_1to10_fdr": 0.00045,
+      "ramos_supported_resistance_both": true,
+      "ramos_supported_sensitization_both": false
+    },
+    {
+      "gene": "Jak2",
+      "late_sensitizing_models": [],
+      "late_resistant_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "late_mixed_models": [],
+      "early_late_same_stable_models": [
+        "EMT6",
+        "CT26",
+        "4T1",
+        "B16-Ova",
+        "MC38-Ova",
+        "Renca-HA"
+      ],
+      "early_late_stable_sign_flip_models": [],
+      "ramos_1to2_lfc": 3.0429,
+      "ramos_1to2_fdr": 0.000495,
+      "ramos_1to10_lfc": 1.454,
+      "ramos_1to10_fdr": 0.00045,
+      "ramos_supported_resistance_both": true,
+      "ramos_supported_sensitization_both": false
+    }
+  ],
+  "interpretive_limits": [
+    "culture-pair envelopes are observed descriptive minima/maxima, not confidence intervals",
+    "six cell lines and one CAR-T leukemia model are the cross-study units; guides/genes/cultures are not independent tumors",
+    "source-defined control harvest days sometimes differ from CTL days (for example EMT6 T15/T19 and Renca-HA T22/T24), so growth/timing confounding remains",
+    "Renca-HA CTL rows never pool with antigen-free Renca cytokine rows",
+    "selection frequency is not direct percent killing and normalization differs from published drugZ/MAGeCK",
+    "selected panel, single B-ALL model, one study contrast and mouse-only data preclude clinical inference",
+    "cross-study differences cannot identify whether modality, tumor background, antigen, timing, or another study factor caused a pattern"
+  ],
+  "decision": "Pilot only; parent must determine whether any exact pattern is distinct and biologically substantial. No automatic project selection."
+}

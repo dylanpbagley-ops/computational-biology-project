@@ -1,0 +1,21 @@
+,Best % Coverage (IC80),Best % Coverage (IC50)
+# of bnAbs in combination,2 or more bnAbs active,3 or morebnAbs active ,4 or morebnAbs active,2 or more bnAbs active,3 or morebnAbs active,4 or morebnAbs active
+,IC80 < 1 μg/ml,IC50 < 1μg/ml
+2,44,,,64.5,,
+3,67.5,19.5,,87,44.5,
+4,73.5,26.5,2.5,95,68.5,27.5
+,,,,,,
+,IC80 < 5 μg/ml,IC50 < 5 μg/ml
+2,57,,,91.5,,
+3,80.5,36.5,,97,65.5,
+4,89.5,62.5,17.5,99.5,87,40
+,,,,,,
+,IC80 < 10 μg/ml,IC50 < 10 μg/ml
+2,80,,,92.5,,
+3,91,49.5,,97.5,66.5,
+4,95.5,77,26,100,89,40.5
+,,,,,,
+,IC80 < 50 μg/ml,IC50 < 50 μg/ml
+2,93,,,93,,
+3,97.5,68,,98,68.5,
+4,100,90.5,41.5,100,91,44

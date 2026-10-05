@@ -1,0 +1,231 @@
+{
+  "captured_utc": "2026-10-04T07:07:06.845471+00:00",
+  "purpose": "Hashes of the plan, old decision/status references, candidate data/source inventories and directly inspected source files before final stage artifacts; read-only references only.",
+  "files": [
+    {
+      "path": "docs/superpowers/plans/2026-10-03-functional-outcome-extension.md",
+      "bytes": 22443,
+      "sha256": "db7a9e1b9a0cc7bd3885c1c687bfc84245153b2ca52ba229c52f4fa89ce38cf2"
+    },
+    {
+      "path": "longitudinal_extension_Oct3/STATUS.md",
+      "bytes": 4626,
+      "sha256": "82b909f2b448a84dac974630c8ba95daa32374efdd221939f4b33fe8d9f3cd1d"
+    },
+    {
+      "path": "longitudinal_extension_Oct3/delivery/path_decision.md",
+      "bytes": 6630,
+      "sha256": "71f8ed28fb9bbd5313ce4d797654a016d43866ac46841cebf577666f5d420c4e"
+    },
+    {
+      "path": "direction_landscape_Oct1/search_protocol.md",
+      "bytes": 1627,
+      "sha256": "ca62b5380db2856479f50b805f2285c14982f2371dfc2aba44c8682429a4c7dd"
+    },
+    {
+      "path": "direction_landscape_Oct1/Stronger_Project_Options_Oct1.md",
+      "bytes": 15983,
+      "sha256": "16068b8f5f81ea3205591172a7af60d8a60ee82a1981ae41af304997a9cb15c5"
+    },
+    {
+      "path": "EV-Capture-CURRENT.md",
+      "bytes": 36921,
+      "sha256": "0ea493e812e4d6c52d2d0f5f5b5c3ea66df45c8be9917823b57d631244dc58e1"
+    },
+    {
+      "path": "longitudinal_extension_Oct3/preservation/verify_preservation.py",
+      "bytes": 2717,
+      "sha256": "8b985a2ed2820df6027231d95bd5c1ee72bb6553bb1b16ba845d43278c88ec6c"
+    },
+    {
+      "path": "longitudinal_extension_Oct3/preservation/input_hashes.json",
+      "bytes": 112276,
+      "sha256": "f7771a4ad1a24015f4d812416d517a548774329a6bf9aae5c5af56b8ff43f8b9"
+    },
+    {
+      "path": "strengthening_execution_Oct2/next_stage/delivery/output_hashes.json",
+      "bytes": 29926,
+      "sha256": "b63865ce9249efbaf19e3f275b5e5d773f2ffdb9c51730c8f376b51b7d8c4305"
+    },
+    {
+      "path": "longitudinal_extension_Oct3/delivery/output_hashes.json",
+      "bytes": 36844,
+      "sha256": "0a5a069983a6f32d6f3ab09e50c94a20738f310ea3c6a2a5fbcabe4723a6dcb7"
+    },
+    {
+      "path": "direction_landscape_Oct1/antibiotic_aging_article.txt",
+      "bytes": 55537,
+      "sha256": "182bdef13ce3c81076c6128588b4d380a5e99ae74f1d2e86e35d23e4b8b3961d"
+    },
+    {
+      "path": "direction_landscape_Oct1/antibiotic_aging_article.html",
+      "bytes": 397664,
+      "sha256": "cdcff476b105667361bbb0b4b0f6a4de0963b9cb2a1795f9304561502be73cf6"
+    },
+    {
+      "path": "direction_landscape_Oct1/antibiotic_aging_article.html.provenance.json",
+      "bytes": 432,
+      "sha256": "0b69517745afeda050df0d40537463adf666363df1b62b67e863d1941e2446d8"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_metadata.json",
+      "bytes": 3788,
+      "sha256": "e6967a27a6a5afd4bee723bc092c7dd41456efba9d251c639761da1429f95a1e"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_metadata.json.provenance.json",
+      "bytes": 328,
+      "sha256": "2c5f6036bfb2225fe5f824850b6e9168572e701ddfa3467860270e502394a63c"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_source_fig1.xlsx",
+      "bytes": 23650,
+      "sha256": "eb639f299a479229f22c679540f792c5e6aa502460a92f9378681aa7c49507c8"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_source_fig1.xlsx.provenance.json",
+      "bytes": 543,
+      "sha256": "b9906b4d3c7b08be5ed8244d4b8e6055294b35b5427cbf498ed0b68ffebd594e"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_source_fig2.xlsx",
+      "bytes": 89314,
+      "sha256": "2cf0e4f89a5720c274135d9c14116707e25677326cf4d34b828e0489c268e88d"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_source_fig2.xlsx.provenance.json",
+      "bytes": 543,
+      "sha256": "7e340e819f7ea89ef83381d742725ef56222026e1a31516afb90bf06f41d35e7"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_source_fig3.xlsx",
+      "bytes": 712312,
+      "sha256": "6cf8da4472d25ad0ae6760f3adb1f1d26b5157f210261206f7e90e30efbf608c"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_source_fig3.xlsx.provenance.json",
+      "bytes": 544,
+      "sha256": "9c578cbf2da770b9e7dc48e13d92fd4d0be4e87bd0080ff29616ad217b62bd02"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_source_fig4.xlsx",
+      "bytes": 160530,
+      "sha256": "b9ebf3bca4b653665479cbaa2d61138a4689b62b379e1fc4fd30965c7410cb36"
+    },
+    {
+      "path": "direction_landscape_Oct1/aging_source_fig4.xlsx.provenance.json",
+      "bytes": 544,
+      "sha256": "72a8d247c97a767caa71a2584a07c0f1b747963a09242a318a4c2a3035ebc728"
+    },
+    {
+      "path": "direction_landscape_Oct1/numeric_inventory.json",
+      "bytes": 51854,
+      "sha256": "07566050cf57f55f08075b8b6a96af980cdabe89e0b0769b41bdee287b6b8174"
+    },
+    {
+      "path": "direction_landscape_Oct1/bacterial_dryad.txt",
+      "bytes": 35581,
+      "sha256": "19ac34bcb070b4b47a9e80b68628e260c5807a1311eeaad88cf9c1e306d21f47"
+    },
+    {
+      "path": "direction_landscape_Oct1/bacterial_dryad.html",
+      "bytes": 72276,
+      "sha256": "d83fb26e892e263a0cf93cffd7d47de0759b008bf0fd773a29873e64ec008cd9"
+    },
+    {
+      "path": "direction_landscape_Oct1/bacterial_dryad.html.provenance.json",
+      "bytes": 375,
+      "sha256": "184d6478fabe5a4be92c751beb32ab0f6618c296dd09d040045658f4a3a51f69"
+    },
+    {
+      "path": "direction_landscape_Oct1/bacterial_file_metadata.json",
+      "bytes": 637,
+      "sha256": "3f6e06475e8fce0bfaf865489ff2dd17650a4c422240b56f81a431c74cfaf63c"
+    },
+    {
+      "path": "direction_landscape_Oct1/bacterial_file_metadata.json.provenance.json",
+      "bytes": 350,
+      "sha256": "e3e4c082f3a8914f4d366f0b5a40419d7fd89daf6038884bdb3f757560b2a419"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_combinations_article.txt",
+      "bytes": 122400,
+      "sha256": "97f1079f5ff27a777c5b529ac910c0eb173c53a0af9b2641ae9e913cacbdd735"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_combinations_article.html",
+      "bytes": 342158,
+      "sha256": "e67c8f5d70928a03f83e9831ae8dd5c87ce8c6212c24848fa90df53397da6330"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_combinations_article.html.provenance.json",
+      "bytes": 419,
+      "sha256": "77da83d7aa10e3cfe951ec3e93a13885d580ad0d641929471008607e0bf545ac"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_combinations_supplement.docx",
+      "bytes": 6827922,
+      "sha256": "b661e109f8a34e365bd622390bb3a6c37f8164bcecdc353e9e4208955a91a04c"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_combinations_supplement.docx.provenance.json",
+      "bytes": 1267,
+      "sha256": "343436f326cd28fa38eab356a7ed799177e8fb150d5b51c409b139e251e62971"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_supplement_text.txt",
+      "bytes": 49222,
+      "sha256": "fb4933e7d5f1b70587df722c9e6324022fc145fab3289e0f8b9a953e4e851a63"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_supp_table_inventory.json",
+      "bytes": 796,
+      "sha256": "cb749c62f1368bb9b500b22a84b5acb948721db657b974d9885a9bd95bf36017"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_supp_table_0.csv",
+      "bytes": 633,
+      "sha256": "0a4f818ff67f1f85b94979e1e1b047d8c10cc49a3a9b47e587d8b7bf4bb53f03"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_prediction_repo.json",
+      "bytes": 7175,
+      "sha256": "ae66b82d10e8a12f30d3e4b1fda6581b4d5c0afb81ec949116e5b5537f10107b"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_prediction_repo.json.provenance.json",
+      "bytes": 445,
+      "sha256": "7296afcee329345458b7fdf09b372948b86a93f8332fd13a37f1611e6dfab7ee"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_tree.json",
+      "bytes": 64211,
+      "sha256": "7687d6753e4e4f2e21ed9d6af33e23d7592f6b93edb7b76e2834aae7a3aa6f51"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_tree.json.provenance.json",
+      "bytes": 452,
+      "sha256": "732ae26304f99faa976b7286522c83b711f7b98b21ce4e66b2889d741442a3b5"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_escape_sample.csv",
+      "bytes": 347742,
+      "sha256": "7f37db11471d63a7861802d22a484549b5adfd1815ea3fbe24d8b291cbff113d"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_escape_sample.csv.provenance.json",
+      "bytes": 549,
+      "sha256": "02265337fbad0765918cc3313035a411b6a6021959936d2dc7910e613f34ff4d"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_trial_combo.h5",
+      "bytes": 267024,
+      "sha256": "d0737b436f37c6095368ee1b01d9c1d187be3b9035027b20ec9e41dc8e99d514"
+    },
+    {
+      "path": "direction_landscape_Oct1/hiv_trial_combo.h5.provenance.json",
+      "bytes": 474,
+      "sha256": "e64e8da2c415e750f96cf4594b777b6010bb2b97127e3af5e59136e162501438"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+ "worst_excess": 0.0,
+ "worst_np_gap": 0.0,
+ "checks": 16400,
+ "special_cases": {
+  "single_compartment_matches": true,
+  "worst_compartment_recovered": true,
+  "confinement_expendability_identity": true
+ }
+}

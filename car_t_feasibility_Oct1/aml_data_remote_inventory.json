@@ -1,0 +1,26 @@
+[
+  {
+    "name": "2023-09-19_cat_named_chains.jld2",
+    "bytes": 4865536217,
+    "compressed_bytes": 2437679048,
+    "header_offset": 0,
+    "compression": 8,
+    "crc": 1413343194
+  },
+  {
+    "name": "2023-09-19_kept_chains.jld2",
+    "bytes": 49412,
+    "compressed_bytes": 3069,
+    "header_offset": 2437679158,
+    "compression": 8,
+    "crc": 4159978835
+  },
+  {
+    "name": "LT6.csv",
+    "bytes": 3504,
+    "compressed_bytes": 1244,
+    "header_offset": 2437682312,
+    "compression": 8,
+    "crc": 3687387395
+  }
+]

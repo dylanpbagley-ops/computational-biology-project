@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="567.785977pt" height="469.975703pt" viewBox="0 0 567.785977 469.975703" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-18T00:42:14.281548</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 469.975703 
+L 567.785977 469.975703 
+L 567.785977 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 46.73 383.672 
+L 543.889091 383.672 
+L 543.889091 72 
+L 46.73 72 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 69.32814 383.672 
+L 144.655275 383.672 
+L 144.655275 343.033963 
+L 69.32814 343.033963 
+z
+" clip-path="url(#p8ca7f5c217)" style="fill: #8a93a6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 194.873365 383.672 
+L 270.2005 383.672 
+L 270.2005 357.583384 
+L 194.873365 357.583384 
+z
+" clip-path="url(#p8ca7f5c217)" style="fill: #8a93a6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 320.41859 383.672 
+L 395.745725 383.672 
+L 395.745725 157.570661 
+L 320.41859 157.570661 
+z
+" clip-path="url(#p8ca7f5c217)" style="fill: #2e5eaa"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 445.963815 383.672 
+L 521.29095 383.672 
+L 521.29095 140.17825 
+L 445.963815 140.17825 
+z
+" clip-path="url(#p8ca7f5c217)" style="fill: #2e5eaa"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m20bf39c629" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m20bf39c629" x="106.991708" y="383.672" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(92.541708 398.270437)">Aim 9</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(78.382333 409.46825)">EV markers</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(68.344052 420.666062)">(reconstructed)</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m20bf39c629" x="232.536933" y="383.672" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(214.905683 398.270437)">Aim 11</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(198.552558 409.46825)">CAR-T targets</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(193.889277 420.666062)">(reconstructed)</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m20bf39c629" x="358.082158" y="383.672" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(340.450908 398.270437)">Aim 12</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(302.27747 409.46825)">41 patients, all events</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(317.90872 420.666062)">(real single-cell)</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m20bf39c629" x="483.627383" y="383.672" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(465.996133 398.270437)">Aim 12</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(406.668789 409.46825)">41 patients, sorted tumor cells</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(443.453945 420.666062)">(real single-cell)</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m2c33128ef1" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m2c33128ef1" x="46.73" y="383.672" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="39.73" y="387.471219" transform="rotate(-0 39.73 387.471219)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m2c33128ef1" x="46.73" y="336.712491" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="39.73" y="340.51171" transform="rotate(-0 39.73 340.51171)">10</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m2c33128ef1" x="46.73" y="289.752982" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="39.73" y="293.552201" transform="rotate(-0 39.73 293.552201)">20</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m2c33128ef1" x="46.73" y="242.793473" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="39.73" y="246.592692" transform="rotate(-0 39.73 246.592692)">30</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m2c33128ef1" x="46.73" y="195.833964" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="39.73" y="199.633183" transform="rotate(-0 39.73 199.633183)">40</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m2c33128ef1" x="46.73" y="148.874455" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="39.73" y="152.673674" transform="rotate(-0 39.73 152.673674)">50</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m2c33128ef1" x="46.73" y="101.914946" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="39.73" y="105.714165" transform="rotate(-0 39.73 105.714165)">60</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="20.717344" y="227.836" transform="rotate(-90 20.717344 227.836)">Grid points with meaningful reordering (%)</text>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 46.73 383.672 
+L 46.73 72 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 46.73 383.672 
+L 543.889091 383.672 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(94.289364 322.712537)">8.7%</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(88.68077 333.91035)">(9/104)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(219.834589 337.261958)">5.6%</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(217.407245 348.45977)">(2/36)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(342.198564 137.249234)">48.1%</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(339.77122 148.447047)">(13/27)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(467.743789 119.856824)">51.9%</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif" transform="translate(465.316445 131.054636)">(14/27)</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 399.602502 127.765878 
+Q 437.657044 133.387393 472.946509 138.600444 
+" style="fill: none; stroke: #2e5eaa; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 469.281724 136.037368 
+L 472.946509 138.600444 
+L 468.697178 139.994426 
+z
+" style="fill: #2e5eaa; stroke: #2e5eaa; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <g id="patch_10">
+     <path d="M 295.448111 135.180647 
+L 394.602798 135.180647 
+Q 399.602798 135.180647 399.602798 130.180647 
+L 399.602798 109.14846 
+Q 399.602798 104.14846 394.602798 104.14846 
+L 295.448111 104.14846 
+Q 290.448111 104.14846 290.448111 109.14846 
+L 290.448111 130.180647 
+Q 290.448111 135.180647 295.448111 135.180647 
+z
+" style="fill: #2e5eaa"/>
+    </g>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(295.448111 116.825022)">largest measured</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(328.538736 128.10096)">effect</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="295.309545" y="60" transform="rotate(-0 295.309545 60)">Meaningful target reordering across evidence tiers</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_11">
+     <path d="M 54.83 92.913469 
+L 72.83 92.913469 
+L 72.83 86.613469 
+L 54.83 86.613469 
+z
+" style="fill: #8a93a6"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif" transform="translate(80.03 86.938594)">Reconstructed from published</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif" transform="translate(80.03 97.016625)">summary statistics</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 54.83 116.201812 
+L 72.83 116.201812 
+L 72.83 109.901812 
+L 54.83 109.901812 
+z
+" style="fill: #2e5eaa"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif" transform="translate(80.03 110.226937)">Individually-measured</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif" transform="translate(80.03 120.304969)">per-cell/per-vesicle data</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_21">
+   <g id="patch_13">
+    <path d="M 7.2 20.669219 
+L 164.367109 20.669219 
+Q 168.642109 20.669219 168.642109 16.394219 
+L 168.642109 7.2 
+Q 168.642109 2.925 164.367109 2.925 
+L 7.2 2.925 
+Q 2.925 2.925 2.925 7.2 
+L 2.925 16.394219 
+Q 2.925 20.669219 7.2 20.669219 
+z
+" style="fill: #1c2530"/>
+   </g>
+   <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="7.2" y="14.418516" transform="rotate(-0 7.2 14.418516)">FIG 8   ·   PROJECT OVERVIEW</text>
+  </g>
+  <g id="text_22">
+   <text style="font-style: italic; font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif" transform="translate(61.408828 428.886234)">The 6.87M-cell CyTOF cohort (Aim 12) shows a larger effect than any reconstructed-distribution</text>
+   <text style="font-style: italic; font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif" transform="translate(58.183281 439.524156)">check. A grid point counts when some reordered PAIR of patients differs by at least 2 percentage</text>
+   <text style="font-style: italic; font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif" transform="translate(69.368789 450.162078)">points in escape fraction; largest such pair spread 53.1 points. The effect survives sorting to</text>
+   <text style="font-style: italic; font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif" transform="translate(135.776016 460.8)">tumor cells (51.9%) and light-chain-purified tumor cells (40.7%).</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8ca7f5c217">
+   <rect x="46.73" y="72" width="497.159091" height="311.672"/>
+  </clipPath>
+ </defs>
+</svg>

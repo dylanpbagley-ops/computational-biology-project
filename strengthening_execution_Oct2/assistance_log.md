@@ -1,0 +1,5 @@
+# Factual assistance log
+
+October 2, 2026: assistant read execution plan/current references, specified a post-discovery observational endpoint, designed deterministic feasibility sampling and prepared non-destructive inventories. Assistant knows historical scores and labels; no blinded or independent adjudication. Dylan supplied late-January school and mid-March state deadlines and no fixed weekly availability. Sources and interpretations require student verification. No contact, publication, registration, lab action or submitted prose produced.
+
+Execution continuation: assistant extracted selected primary safety sections, built evidence/cohort/overlap tables, conducted bounded A/B feasibility and selected a narrow B RNA donor-measurement evaluation, implemented/tested it and generated four figures, reports and proposed outline. Results are development/descriptive; no independent clinical/biological validation or substantive novelty established. User confirms no reviewer identified. Fourteen checks and 63 preserved hashes verified. Student source verification and student-written submitted prose remain pending.

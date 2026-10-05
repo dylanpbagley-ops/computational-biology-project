@@ -1,0 +1,73 @@
+# Local environments, installed dependencies, and caches
+**/packages/
+**/dependencies/
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.cache/
+*.py[cod]
+
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+token.json
+.DS_Store
+Thumbs.db
+desktop.ini
+repository_setup/
+
+# Personal forms, source-publication copies, bundled third-party code
+/ISEF Forms/
+/data_sources/
+/car_t_feasibility_Oct1/aml_code/
+/ev_capture_data/**
+!/ev_capture_data/README.md
+/GSE234261_BCMA_CAR-T_data/
+
+# Downloaded datasets and archives; derived result tables remain included
+**/data/**
+*.gz
+*.zip
+*.7z
+*.tar
+*.h5
+*.h5ad
+*.hdf5
+*.mat
+*.pkl
+*.pickle
+*.jld2
+*.rds
+*.RData
+*.fcs
+*.fastq
+*.fq
+*.bam
+*.cram
+*.bin
+*.pdf
+*.docx
+*.pptx
+*.log
+
+# Keep the small, verified processed input set for the latest functional pilot
+!/opportunity_search_Oct4/cycle4_functional/data/
+!/opportunity_search_Oct4/cycle4_functional/data/GSE149933_mTKO_readCounts_4May20.txt.gz
+!/opportunity_search_Oct4/cycle4_functional/data/GSE149933_mTKO_library.txt.gz
+!/opportunity_search_Oct4/cycle4_functional/data/GSE149933_family.soft.gz
+!/opportunity_search_Oct4/cycle4_functional/data/Ramos_SupplementaryData1.xlsx
+!/opportunity_search_Oct4/cycle4_functional/data/sample_mapping.tsv
+
+# Large source table downloaded outside a data directory
+/direction_landscape_Oct1/cp_BR00117011.csv
+
+# Do not activate workflows copied from third-party materials
+**/.github/workflows/

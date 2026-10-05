@@ -1,0 +1,20 @@
+gene	working_status	basis	unresolved_requirement	provenance
+CD19	depletion_observed	On-target B-cell aplasia with replacement care	Grade and attribution of clinical consequences; agent/cohort separation	source_notes.tsv; fresh primary review
+MS4A1	indeterminate	Abstract tolerability cannot establish injury absence	Full normal-cell depletion, immune recovery and infection evidence	source_notes.tsv; fresh abstract review
+CD22	indeterminate	Severe liver injury reported; target-mediated mechanism unresolved	Transplant context and mechanism; endpoint-specific monitoring	pass 3 extraction; not freshly re-reviewed
+CD79B	indeterminate	Combination cytopenias do not isolate target mechanism	Separate combination effects and observation window	pass 3 extraction; not freshly re-reviewed
+TNFRSF17	depletion_supporting_other_cohort	Separate anti-BCMA responder cohort documents prolonged plasma-cell loss	Named ide-cel/cilta-cel records and severe consequence attribution	source_notes.tsv; fresh primary review; no cross-agent substitution
+SLAMF7	indeterminate	Combination tolerability is not a negative observation	Normal-tissue mechanism and full safety tables	pass 3 extraction; not freshly re-reviewed
+CD38	indeterminate	Broad favorable summary with escalation DLT questions	Event identities; depletion consequences and attribution	pass 3 extraction; not freshly re-reviewed
+TNFRSF8	indeterminate	Neuropathy observed; target versus payload unresolved	Event-specific mechanism and severity	pass 3 extraction; not freshly re-reviewed
+CD33	indeterminate	Final ALFA report documents thrombocytopenia-related cessation and severe hemorrhage	Normal-tissue target-recognition mechanism; separate cessation and hemorrhage patients	source_notes.tsv; fresh full primary report; overlaps initial ALFA cohort
+GPRC5D	severe_event_attribution_uncertain	Grade 3 rash DLT conflicts with old rationale	Event-specific causal evidence	passes 3 and 4; not freshly re-reviewed
+FOLH1	explicit_nonobservation_narrow	Zero grade >=3 dry mouth in VISION table	Other relevant organ outcomes and causal attribution	source_notes.tsv; fresh primary review
+TACSTD2	indeterminate	Severe neutropenia/diarrhea reported; payload-only assertion insufficient	Separate target and payload contributions	pass 3 extraction; not freshly re-reviewed
+NECTIN4	event_supported_provisional	Severe skin injury and author-probable on-target attribution	Independent adjudication of severe-event mechanism	passes 3 and 4; not freshly re-reviewed
+CLDN18	indeterminate	Severe symptoms; isoform and mechanism questions	CLDN18.2 identity and injury attribution	pass 3 extraction; not freshly re-reviewed
+DLL3	indeterminate	Low discontinuation percentage is not explicit injury absence	Event identities and normal-tissue ascertainment	pass 3 extraction; not freshly re-reviewed
+MET	indeterminate	Severe neuropathy reported; mechanism unresolved	Target versus payload and overlapping publication cohorts	pass 3 extraction; not freshly re-reviewed
+MSLN	explicit_nonobservation_contextual	Authors explicitly report no on-target/off-tumor injury	Complete window/missingness and agent/route-specific scope	source_notes.tsv; fresh primary review
+GPC3	indeterminate	Fatal CRS does not resolve normal-tissue recognition	Split two trials and extract specific injury ascertainment	pass 3 extraction; not freshly re-reviewed
+CD52	indeterminate	Managed lymphodepletion is not absence of harm	Immune consequences, severity, monitoring and attribution	pass 3 extraction; not freshly re-reviewed

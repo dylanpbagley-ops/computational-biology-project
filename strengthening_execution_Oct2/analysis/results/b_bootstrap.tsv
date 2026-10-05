@@ -1,0 +1,4 @@
+gene	draws	seed	tumor_mean_ci_low	tumor_mean_ci_high	normal_worst_percentile_low	normal_worst_percentile_high	tumor_worst_percentile_low	tumor_worst_percentile_high	scope
+TNFRSF17	2000	20261002	0.06409643649432818	0.3627300733868017	0.16875	0.36319078947368405	0.0012239902080783353	0.11764512711864375	donor bootstrap retunes equal-donor threshold; percentile sampling diagnostics, not guaranteed bounds on donor extremes
+GPRC5D	2000	20261002	0.09229962406907175	0.29064218453074464	0.075	0.17269544924154026	0.0325497287522604	0.09639830508474577	donor bootstrap retunes equal-donor threshold; percentile sampling diagnostics, not guaranteed bounds on donor extremes
+SLAMF7	2000	20261002	0.10164467887067112	0.3382556530979384	0.1295215869311552	0.18879508825786645	0.01694915254237288	0.14974182444061962	donor bootstrap retunes equal-donor threshold; percentile sampling diagnostics, not guaranteed bounds on donor extremes

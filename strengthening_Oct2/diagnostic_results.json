@@ -1,0 +1,156 @@
+{
+  "baseline": {
+    "frozen_rule": {
+      "auc": 0.9138755980861244,
+      "exact_one_sided_p": 2.7861527111901924e-05
+    },
+    "confinement": {
+      "auc": 0.8803827751196173,
+      "exact_one_sided_p": 0.00014624555853941161
+    },
+    "blood_flag": {
+      "auc": 0.7105263157894737,
+      "exact_one_sided_p": 0.012913543228385806
+    },
+    "tau": {
+      "auc": 0.8803827751196173,
+      "exact_one_sided_p": 0.00014624555853941161
+    },
+    "tau_plus_blood": {
+      "auc": 0.9138755980861244,
+      "exact_one_sided_p": 2.7861527111901924e-05
+    }
+  },
+  "paired_comparisons": {
+    "confinement": {
+      "difference": 0.03349282296650713,
+      "ci95": [
+        0.0,
+        0.1004784688995215
+      ],
+      "draws": 20000,
+      "seed": 20261002
+    },
+    "blood_flag": {
+      "difference": 0.20334928229665072,
+      "ci95": [
+        0.07894736842105265,
+        0.3301435406698565
+      ],
+      "draws": 20000,
+      "seed": 20261002
+    },
+    "tau": {
+      "difference": 0.03349282296650713,
+      "ci95": [
+        0.0,
+        0.1004784688995215
+      ],
+      "draws": 20000,
+      "seed": 20261002
+    },
+    "tau_plus_blood": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "draws": 20000,
+      "seed": 20261002
+    }
+  },
+  "modality_strata": {
+    "CAR-T": {
+      "safe": 3,
+      "toxic": 3,
+      "pairs": 9,
+      "auc": 0.8888888888888888
+    },
+    "antibody": {
+      "safe": 5,
+      "toxic": 1,
+      "pairs": 5,
+      "auc": 1.0
+    },
+    "ADC": {
+      "safe": 7,
+      "toxic": 4,
+      "pairs": 28,
+      "auc": 0.9285714285714286
+    },
+    "bispecific": {
+      "safe": 2,
+      "toxic": 0,
+      "pairs": 0,
+      "auc": null
+    },
+    "radioligand": {
+      "safe": 1,
+      "toxic": 0,
+      "pairs": 0,
+      "auc": null
+    },
+    "TCR-T": {
+      "safe": 0,
+      "toxic": 1,
+      "pairs": 0,
+      "auc": null
+    },
+    "mixed": {
+      "safe": 1,
+      "toxic": 2,
+      "pairs": 2,
+      "auc": 1.0
+    }
+  },
+  "within_modality_pooled_concordance": 0.9285714285714286,
+  "within_modality_pairs": 42,
+  "deletion_diagnostics": {
+    "exclude_FAP_FOLR1": {
+      "safe": 19,
+      "toxic": 9,
+      "auc": 0.9122807017543859,
+      "exact_one_sided_p": 9.25161794727012e-05,
+      "excluded": [
+        "FAP",
+        "FOLR1"
+      ]
+    },
+    "exclude_seven_source_uncertainties": {
+      "safe": 19,
+      "toxic": 4,
+      "auc": 0.8157894736842105,
+      "exact_one_sided_p": 0.027216261998870693,
+      "excluded": [
+        "FAP",
+        "FOLR1",
+        "EGFR",
+        "EPCAM",
+        "NCAM1",
+        "CD47",
+        "F3"
+      ]
+    }
+  },
+  "disputed_assignments": {
+    "n": 128,
+    "min": {
+      "assigned_safe": [
+        "FAP",
+        "FOLR1",
+        "EGFR",
+        "EPCAM",
+        "NCAM1",
+        "CD47",
+        "F3"
+      ],
+      "auc": 0.7019230769230769
+    },
+    "max": {
+      "assigned_safe": [],
+      "auc": 0.9138755980861244
+    },
+    "interpretation": "Fixed-membership uncertainty envelope; no probability on assignments and no label adjudication."
+  },
+  "status": "Post-discovery diagnostics conditional on the original selected labels; no independently validated outcome prediction."
+}

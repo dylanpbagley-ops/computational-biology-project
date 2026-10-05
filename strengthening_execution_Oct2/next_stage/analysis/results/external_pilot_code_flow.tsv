@@ -1,0 +1,97 @@
+Hospital.Code	analysis_group	workbook_eligible_cells	exact_joined_cells	meets_50_cell_sensitivity	preexposed_code	exclusion_or_limit
+01-004	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+01-004	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+01-004	mm_malignant	829	829	True	False	none
+01-004	mm_normal_pc_prior_art_reference	1	1	False	False	below 50-cell sensitivity screen; retained in primary
+01-009	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+01-009	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+01-009	mm_malignant	786	786	True	False	none
+01-009	mm_normal_pc_prior_art_reference	2	2	False	False	below 50-cell sensitivity screen; retained in primary
+028-0602-006	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+028-0602-006	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+028-0602-006	mm_malignant	19	19	False	False	below 50-cell sensitivity screen; retained in primary
+028-0602-006	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+028-0602-007	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+028-0602-007	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+028-0602-007	mm_malignant	4	4	False	False	below 50-cell sensitivity screen; retained in primary
+028-0602-007	mm_normal_pc_prior_art_reference	2	2	False	False	below 50-cell sensitivity screen; retained in primary
+04-005	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+04-005	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+04-005	mm_malignant	325	325	True	False	none
+04-005	mm_normal_pc_prior_art_reference	93	93	True	False	none
+10-005	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+10-005	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+10-005	mm_malignant	252	252	True	False	none
+10-005	mm_normal_pc_prior_art_reference	32	32	False	False	below 50-cell sensitivity screen; retained in primary
+10-006	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+10-006	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+10-006	mm_malignant	1044	1044	True	False	none
+10-006	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+bel03	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+bel03	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+bel03	mm_malignant	354	354	True	False	none
+bel03	mm_normal_pc_prior_art_reference	74	74	True	False	none
+cart_p21	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+cart_p21	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+cart_p21	mm_malignant	415	415	True	False	none
+cart_p21	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+cart_p22	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+cart_p22	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+cart_p22	mm_malignant	98	98	True	False	none
+cart_p22	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hip10	healthy_normal_pc	272	272	True	False	none
+hip10	healthy_ambiguous_malignant_label	37	37	False	False	below 50-cell sensitivity screen; retained in primary
+hip10	mm_malignant	0	0	False	False	no exact-joined cells in this group
+hip10	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hip11	healthy_normal_pc	332	332	True	False	none
+hip11	healthy_ambiguous_malignant_label	61	61	True	False	none
+hip11	mm_malignant	0	0	False	False	no exact-joined cells in this group
+hip11	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hip12	healthy_normal_pc	300	300	True	False	none
+hip12	healthy_ambiguous_malignant_label	27	27	False	False	below 50-cell sensitivity screen; retained in primary
+hip12	mm_malignant	0	0	False	False	no exact-joined cells in this group
+hip12	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hip15	healthy_normal_pc	639	639	True	False	none
+hip15	healthy_ambiguous_malignant_label	110	110	True	False	none
+hip15	mm_malignant	0	0	False	False	no exact-joined cells in this group
+hip15	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hip16	healthy_normal_pc	120	120	True	False	none
+hip16	healthy_ambiguous_malignant_label	83	83	True	False	none
+hip16	mm_malignant	0	0	False	False	no exact-joined cells in this group
+hip16	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hip5	healthy_normal_pc	844	844	True	False	none
+hip5	healthy_ambiguous_malignant_label	37	37	False	False	below 50-cell sensitivity screen; retained in primary
+hip5	mm_malignant	0	0	False	False	no exact-joined cells in this group
+hip5	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hip6	healthy_normal_pc	376	376	True	False	none
+hip6	healthy_ambiguous_malignant_label	20	20	False	False	below 50-cell sensitivity screen; retained in primary
+hip6	mm_malignant	0	0	False	False	no exact-joined cells in this group
+hip6	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hipb18	healthy_normal_pc	425	425	True	False	none
+hipb18	healthy_ambiguous_malignant_label	64	64	True	False	none
+hipb18	mm_malignant	0	0	False	False	no exact-joined cells in this group
+hipb18	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+hmc17	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+hmc17	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+hmc17	mm_malignant	240	240	True	False	none
+hmc17	mm_normal_pc_prior_art_reference	197	197	True	False	none
+hmc21	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+hmc21	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+hmc21	mm_malignant	825	825	True	False	none
+hmc21	mm_normal_pc_prior_art_reference	163	163	True	False	none
+kydarndmm04	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+kydarndmm04	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+kydarndmm04	mm_malignant	1456	1456	True	False	none
+kydarndmm04	mm_normal_pc_prior_art_reference	1	1	False	False	below 50-cell sensitivity screen; retained in primary
+tlv48	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+tlv48	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+tlv48	mm_malignant	104	104	True	False	none
+tlv48	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group
+tlv53	healthy_normal_pc	0	0	False	True	prior marker exposure; excluded from primary metrics
+tlv53	healthy_ambiguous_malignant_label	0	0	False	True	prior marker exposure; excluded from primary metrics
+tlv53	mm_malignant	898	898	True	True	prior marker exposure; excluded from primary metrics
+tlv53	mm_normal_pc_prior_art_reference	96	96	True	True	prior marker exposure; excluded from primary metrics
+tlv69	healthy_normal_pc	0	0	False	False	no exact-joined cells in this group
+tlv69	healthy_ambiguous_malignant_label	0	0	False	False	no exact-joined cells in this group
+tlv69	mm_malignant	6	6	False	False	below 50-cell sensitivity screen; retained in primary
+tlv69	mm_normal_pc_prior_art_reference	0	0	False	False	no exact-joined cells in this group

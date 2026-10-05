@@ -1,0 +1,18 @@
+{
+  "favorable_cases_covered": 19,
+  "fresh_source_notes": 6,
+  "review_template_targets": 30,
+  "review_judgments_all_blank": true,
+  "triage_counts": {
+    "depletion_observed": 1,
+    "indeterminate": 13,
+    "depletion_supporting_other_cohort": 1,
+    "severe_event_attribution_uncertain": 1,
+    "explicit_nonobservation_narrow": 1,
+    "event_supported_provisional": 1,
+    "explicit_nonobservation_contextual": 1
+  },
+  "protected_historical_files_unchanged": 19,
+  "previous_manifest_files_unchanged": 39,
+  "limits": "Schema/coverage/integrity checks only; no independent clinical adjudication or new AUC."
+}

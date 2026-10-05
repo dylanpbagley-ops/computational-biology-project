@@ -1,0 +1,49 @@
+# Selected external-data pilot protocol
+
+Frozen October 3, 2026 before parsing marker-expression rows from the retrieved pilot count tables. This is a small feasibility and policy-comparison pilot, not an atlas-wide estimate or a clinical validation.
+
+## Question and prior-art boundary
+
+In a metadata-selected subset of the public GSE305971 MARS bone-marrow single-cell atlas, can a healthy-reference expression threshold fitted to a 10% normal-cell-positive budget produce a usable held-out-code comparison of malignant-cell coverage, and how do pooled, equal-code, and worst-training-code thresholds compare? This asks about an explicit cross-code threshold policy. It does not claim new selectivity for TNFRSF17, GPRC5D, or SLAMF7 and does not recreate the published patient-level z-score target ranking.
+
+The closest published work already performs within-patient normal-versus-abnormal or normal-versus-malignant plasma-cell comparisons, including the GSE193531 paper's within-patient differential-expression analysis and the GSE305971 paper's per-patient malignant-versus-normal z-score target ranking. The external pilot's transparent paired mean contrast is only descriptive context; it is not an implementation or head-to-head replication of either source pipeline. Numeric thresholds are refit within the MARS count assay and are never transferred from GSE193531.
+
+## Samples and units
+
+- Source: GSE305971 cells annotation workbook and MARS processed count tables from GSE305967/968. Only the first biopsy sequence (`Biopsy.Sequence=1`), bone marrow (`Tissue=BM`), and `Method=MARS` are eligible.
+- Metadata eligibility before expression inspection: 17 putative `Hospital.Code` values with `Disease=Healthy, Populations=Normal_PC`; 106 with `Disease=NDMM/RRMM, Populations=Malignant`. A deterministic `random.Random(20261003).sample` of the sorted code lists selected 8 healthy and 16 myeloma codes. Exact selected IDs and every linked batch/GSM are in `results/external_pilot_manifest_locked.tsv` (SHA-256 `43f17abd39a15136aeaaecb183887752c6a76d38d96e1626014abd60953508cb`). All corresponding MARS/BM/first-biopsy batches for those codes were retained. The pilot selection was made from annotation availability only, before inspecting the new marker rows.
+- A previous feasibility read had inspected marker summaries from GSM9189168/AB14564, which maps to putative code `tlv53`. That code remains in the locked retrieval manifest and is reported in the flow table, but all its cells are excluded from the primary policy metrics. An all-16-code sensitivity may include it and is explicitly labelled exposed/exploratory.
+- Cells labelled `Disease=Healthy, Populations=Malignant` remain an unresolved source-label category. They are not called normal or cancer cells. They are separately counted and included only in a prespecified secondary sensitivity that adds them to the healthy-reference pool; their own threshold-positive fraction is reported separately. The source-wide workbook has 668 such cells; 659 fall in first-biopsy MARS/BM scope, and 439 fall in the selected code subset.
+- For comparison to same-study patient-specific analysis, `Disease=NDMM/RRMM, Populations=Normal_PC` cells for the selected myeloma codes were retrieved where available. They are not pooled with healthy controls and do not train the primary thresholds.
+- `Hospital.Code` is used conservatively to keep any repeated biopsy/sample from one putative participant together. The source does not document it as a globally validated person key. The single first-biopsy key carrying both NDMM and RRMM annotations remains grouped as myeloma; stage is not compared.
+- The main biological/policy unit is the putative code, never the cell or GSM. The 8-healthy/16-myeloma subset is a workload pilot; its precision and representativeness are unknown. No population-general or clinical claim follows from it.
+
+## Inputs and count-table checks
+
+The workbook hash is `2fc3f9e19ab82097f6a50689de7bf4083aeb81aba442f263ea81afe8b150b94d`. The metadata-only sample index hash is `2b92d049656bb4c8960c2e4811ea46347687f8b7fab8f24c076ef8a9d031e8ec`. The locked 86-GSM checksum manifest is `results/external_pilot_download_manifest.tsv`, SHA-256 `04f24edf9473468838bd377477ea08590399c9cf1820272d5eaddca44fea5864`; it contains exact URLs, byte counts, and SHA-256 hashes. The 86 selected compressed tables total 56,609,414 bytes; all files in `data/` total 87,041,094 bytes against the authorized 524,288,000-byte cumulative ceiling. One selected table was already present from the earlier feasibility read; the other 85 were retrieved after metadata selection.
+
+For every selected GSM, require unique cell IDs, integer and nonnegative matrix entries, unique target gene rows, exact cell-ID joins to the annotation workbook, and a positive all-gene molecule sum for every analyzed cell. Record unmatched columns and retain the unmatched counts in the flow report. Use only exact-joined cells with the frozen labels above. Do not infer missing annotation as normal. Preserve all selected codes and report code-level exact-join counts. A group with fewer than 50 exact-joined cells is retained in the flow table but is unevaluable for a 10% tail metric; it is not removed based on marker values. The 50-cell minimum is a predeclared stability screen for a small cell tail, not an established universal cutoff. Estimate the held-out policy comparison only if at least 6 Healthy/Normal_PC codes and 10 MM/Malignant codes meet this count screen after exact joins; otherwise record a pilot feasibility failure and do not interpret threshold metrics.
+
+Use raw gene-count molecules as reported by GEO and derive per-cell `10,000 * marker molecules / sum of all gene-row molecules`. Validate count files before calculating any policy metrics. Source annotations and population labels remain provisional and are not independently adjudicated.
+
+## Policy evaluation
+
+The three fixed markers are TNFRSF17, GPRC5D, and SLAMF7. The primary positive budget is 10% of source-labelled Healthy/Normal_PC cells. Budgets 5%, 20%, and 50% are secondary sensitivity analyses.
+
+Among evaluable, exact-joined healthy codes (after the pre-exposure exclusion), assign four deterministic code-level folds using `numpy.random.default_rng(20261003)` and sorted code IDs. Assign myeloma codes to four folds independently with the same generator after the healthy assignment. Every code is held out in exactly one fold; every GSM, batch, and cell from one code stays in that code's fold. For each fold and budget, fit each threshold only on healthy training codes from the other folds:
+
+1. **Pooled:** the lowest observed normalized expression value whose pooled training-cell positive fraction (`value >= threshold`) is at most the budget.
+2. **Equal-code:** the lowest observed value whose mean training-code positive fraction is at most the budget, giving each code equal weight.
+3. **Donor envelope:** compute each training code's lowest threshold meeting the budget and take the largest of those thresholds.
+
+If ties prevent any finite observed value from meeting a budget, use a threshold above the maximum (zero positives); represent that result explicitly. Apply each locked fold threshold once to held-out Healthy/Normal_PC cells and held-out MM/Malignant cells. Report code-level fractions and cell-weighted and equal-code summaries, with numbers of cells/codes for every denominator. Also report a simple equal-code mean-normalized-expression contrast between held-out MM malignant and Healthy normal-PC cells. Do not treat the folds as independent replicates, report p-values, bootstrap cells, or claim equivalence.
+
+For the selected myeloma codes with at least 50 exact-joined malignant and within-code Normal_PC cells, report paired code-level mean expression differences (malignant minus Normal_PC) for the three markers. This is a transparent descriptive comparator to the published within-patient strategy, not a faithful reproduction of published z-scores, DE, or target-prioritization scores. Report undefined differences explicitly if either group has no nonzero/finite mean; never replace undefined standardized scores with zero.
+
+For the uncertain-label sensitivity, refit the same healthy-reference policies after adding only selected Healthy/Malignant-labelled cells from training codes, while keeping the cell class named `uncertain`. Report threshold changes, held-out Healthy/Normal_PC false-positive fractions, held-out MM/Malignant coverage, and uncertain-cell positive fractions. This sensitivity cannot establish whether those cells are normal, malignant, or misannotated and cannot revise the primary label rule.
+
+## Gate and interpretation
+
+This pilot can pass data-format and analysis feasibility. It cannot by itself pass the substantive-contribution gate if the exact-joined healthy-code denominator is too small, patient-key semantics remain unclear, or the results merely reproduce an already-known patient-specific malignant/normal contrast. Only if the pilot yields a stable, useful, and disconfirmable held-out cross-code budget tradeoff beyond the cited patient-level prior work should the full metadata-selected 17-healthy/106-MM first-biopsy MARS subset be considered under the same frozen policy. Any such larger run would require a separate pre-analysis protocol amendment/hash and a repeated contribution decision. If the result is only supportive, the final decision must say that no strong extension was demonstrated.
+
+Do not infer therapeutic selectivity, protein abundance, patient harm, normal-tissue safety, clinical utility, or population transportability. Cohort non-overlap with GSE193531 is unverified because public participant identifiers cannot be crosswalked. This analysis uses held-out codes within GSE305971 and is not an independently collected replication.

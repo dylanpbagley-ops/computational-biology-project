@@ -1,0 +1,200 @@
+{
+  "trail_source.zip": [
+    {
+      "name": "Codes for Figures/.DS_Store",
+      "bytes": 8196
+    },
+    {
+      "name": "Codes for Figures/Figure 6/common_parameters.mat",
+      "bytes": 255
+    },
+    {
+      "name": "Codes for Figures/Figure 6/FRET_R_50ng.mat",
+      "bytes": 3457
+    },
+    {
+      "name": "Codes for Figures/Figure 6/Figure_6.m",
+      "bytes": 8121
+    },
+    {
+      "name": "Codes for Figures/Figure 6/R_50ng_ind_par.mat",
+      "bytes": 341
+    },
+    {
+      "name": "Codes for Figures/Figure 4/Figure_4.m",
+      "bytes": 12954
+    },
+    {
+      "name": "Codes for Figures/Figure 4/sampling.mat",
+      "bytes": 37526
+    },
+    {
+      "name": "Codes for Figures/Figure 3/pC80_values_S_100ng.mat",
+      "bytes": 3649
+    },
+    {
+      "name": "Codes for Figures/Figure 3/pC80_values_R_50ng.mat",
+      "bytes": 1075
+    },
+    {
+      "name": "Codes for Figures/Figure 3/pC80_values_S_50ng.mat",
+      "bytes": 2211
+    },
+    {
+      "name": "Codes for Figures/Figure 3/FLIP0_values_R_25ng.mat",
+      "bytes": 1376
+    },
+    {
+      "name": "Codes for Figures/Figure 3/FLIP0_values_S_25ng.mat",
+      "bytes": 1560
+    },
+    {
+      "name": "Codes for Figures/Figure 3/plasma.m",
+      "bytes": 9052
+    },
+    {
+      "name": "Codes for Figures/Figure 3/Figure_3.m",
+      "bytes": 6403
+    },
+    {
+      "name": "Codes for Figures/Figure 3/pC80_values_R_100ng.mat",
+      "bytes": 632
+    },
+    {
+      "name": "Codes for Figures/Figure 3/FLIP0_values_S_100ng.mat",
+      "bytes": 4122
+    },
+    {
+      "name": "Codes for Figures/Figure 3/FLIP0_values_R_100ng.mat",
+      "bytes": 734
+    },
+    {
+      "name": "Codes for Figures/Figure 3/pC80_values_S_25ng.mat",
+      "bytes": 1435
+    },
+    {
+      "name": "Codes for Figures/Figure 3/pC80_values_R_25ng.mat",
+      "bytes": 1097
+    },
+    {
+      "name": "Codes for Figures/Figure 3/FLIP0_values_S_50ng.mat",
+      "bytes": 2504
+    },
+    {
+      "name": "Codes for Figures/Figure 3/FLIP0_values_R_50ng.mat",
+      "bytes": 1110
+    },
+    {
+      "name": "Codes for Figures/Figure 2/R_25ng_ind_par.mat",
+      "bytes": 349
+    },
+    {
+      "name": "Codes for Figures/Figure 2/Tend_S_25ng.mat",
+      "bytes": 204
+    },
+    {
+      "name": "Codes for Figures/Figure 2/Tend_R_25ng.mat",
+      "bytes": 187
+    },
+    {
+      "name": "Codes for Figures/Figure 2/common_parameters.mat",
+      "bytes": 255
+    },
+    {
+      "name": "Codes for Figures/Figure 2/plasma.m",
+      "bytes": 9052
+    },
+    {
+      "name": "Codes for Figures/Figure 2/FRET_S_50ng.mat",
+      "bytes": 1259
+    },
+    {
+      "name": "Codes for Figures/Figure 2/S_25ng_ind_par.mat",
+      "bytes": 345
+    },
+    {
+      "name": "Codes for Figures/Figure 2/FRET_R_50ng.mat",
+      "bytes": 3457
+    },
+    {
+      "name": "Codes for Figures/Figure 2/Tend_R_100ng.mat",
+      "bytes": 188
+    },
+    {
+      "name": "Codes for Figures/Figure 2/FRET_R_100ng.mat",
+      "bytes": 3410
+    },
+    {
+      "name": "Codes for Figures/Figure 2/S_50ng_ind_par.mat",
+      "bytes": 348
+    },
+    {
+      "name": "Codes for Figures/Figure 2/Figure_2.m",
+      "bytes": 18210
+    },
+    {
+      "name": "Codes for Figures/Figure 2/S_100ng_ind_par.mat",
+      "bytes": 348
+    },
+    {
+      "name": "Codes for Figures/Figure 2/FRET_R_25ng.mat",
+      "bytes": 3414
+    },
+    {
+      "name": "Codes for Figures/Figure 2/FRET_S_25ng.mat",
+      "bytes": 1542
+    },
+    {
+      "name": "Codes for Figures/Figure 2/Tend_S_100ng.mat",
+      "bytes": 188
+    },
+    {
+      "name": "Codes for Figures/Figure 2/FRET_S_100ng.mat",
+      "bytes": 1107
+    },
+    {
+      "name": "Codes for Figures/Figure 2/R_50ng_ind_par.mat",
+      "bytes": 341
+    },
+    {
+      "name": "Codes for Figures/Figure 2/R_100ng_ind_par.mat",
+      "bytes": 338
+    },
+    {
+      "name": "Codes for Figures/Figure 2/Tend_R_50ng.mat",
+      "bytes": 187
+    },
+    {
+      "name": "Codes for Figures/Figure 2/Tend_S_50ng.mat",
+      "bytes": 191
+    },
+    {
+      "name": "Codes for Figures/Figure 5/mcfit3.m",
+      "bytes": 230
+    },
+    {
+      "name": "Codes for Figures/Figure 5/sampling.mat",
+      "bytes": 37526
+    },
+    {
+      "name": "Codes for Figures/Figure 5/data_classification_50ng.mat",
+      "bytes": 47100
+    },
+    {
+      "name": "Codes for Figures/Figure 5/supportingfile.m",
+      "bytes": 9585
+    },
+    {
+      "name": "Codes for Figures/Figure 5/Figure_5.m",
+      "bytes": 30050
+    },
+    {
+      "name": "Codes for Figures/Figure 5/data_classification_100ng.mat",
+      "bytes": 47555
+    },
+    {
+      "name": "Codes for Figures/Figure 5/data_classification_25ng.mat",
+      "bytes": 46394
+    }
+  ]
+}

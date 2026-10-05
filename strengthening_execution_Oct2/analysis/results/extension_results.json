@@ -1,0 +1,171 @@
+{
+  "protocol_sha256": "10e5a8098af0228b067e45ca14d1a653196c29c8daee4e599a33c90262694400",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "seed": 20261002,
+  "protected_files_unchanged": 63,
+  "bootstrap": [
+    {
+      "gene": "TNFRSF17",
+      "draws": 2000,
+      "seed": 20261002,
+      "tumor_mean_ci_low": 0.06409643649432818,
+      "tumor_mean_ci_high": 0.3627300733868017,
+      "normal_worst_percentile_low": 0.16875,
+      "normal_worst_percentile_high": 0.36319078947368405,
+      "tumor_worst_percentile_low": 0.0012239902080783353,
+      "tumor_worst_percentile_high": 0.11764512711864375,
+      "scope": "donor bootstrap retunes equal-donor threshold; percentile sampling diagnostics, not guaranteed bounds on donor extremes"
+    },
+    {
+      "gene": "GPRC5D",
+      "draws": 2000,
+      "seed": 20261002,
+      "tumor_mean_ci_low": 0.09229962406907175,
+      "tumor_mean_ci_high": 0.29064218453074464,
+      "normal_worst_percentile_low": 0.075,
+      "normal_worst_percentile_high": 0.17269544924154026,
+      "tumor_worst_percentile_low": 0.0325497287522604,
+      "tumor_worst_percentile_high": 0.09639830508474577,
+      "scope": "donor bootstrap retunes equal-donor threshold; percentile sampling diagnostics, not guaranteed bounds on donor extremes"
+    },
+    {
+      "gene": "SLAMF7",
+      "draws": 2000,
+      "seed": 20261002,
+      "tumor_mean_ci_low": 0.10164467887067112,
+      "tumor_mean_ci_high": 0.3382556530979384,
+      "normal_worst_percentile_low": 0.1295215869311552,
+      "normal_worst_percentile_high": 0.18879508825786645,
+      "tumor_worst_percentile_low": 0.01694915254237288,
+      "tumor_worst_percentile_high": 0.14974182444061962,
+      "scope": "donor bootstrap retunes equal-donor threshold; percentile sampling diagnostics, not guaranteed bounds on donor extremes"
+    }
+  ],
+  "historical_metrics": {
+    "frozen_rule": 0.9138755980861244,
+    "top_share": 0.8803827751196172,
+    "blood_flag": 0.7105263157894737,
+    "tau": 0.8803827751196172
+  },
+  "raw_primary": [
+    {
+      "gene": "TNFRSF17",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "pooled",
+      "threshold": 8.0,
+      "normal_mean": 0.09295972336159093,
+      "normal_worst": 0.1868421052631579,
+      "tumor_mean": 0.16782554243888428,
+      "tumor_worst": 0.0108499095840868,
+      "normal_pooled": 0.08789795262085968,
+      "tumor_pooled": 0.12965889023143415
+    },
+    {
+      "gene": "TNFRSF17",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "equal_donor",
+      "threshold": 8.0,
+      "normal_mean": 0.09295972336159093,
+      "normal_worst": 0.1868421052631579,
+      "tumor_mean": 0.16782554243888428,
+      "tumor_worst": 0.0108499095840868,
+      "normal_pooled": 0.08789795262085968,
+      "tumor_pooled": 0.12965889023143415
+    },
+    {
+      "gene": "TNFRSF17",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "donor_envelope",
+      "threshold": 11.0,
+      "normal_mean": 0.03547650611701375,
+      "normal_worst": 0.08947368421052632,
+      "tumor_mean": 0.09189292573862701,
+      "tumor_worst": 0.0018083182640144665,
+      "normal_pooled": 0.0328009432951013,
+      "tumor_pooled": 0.06004275490287202
+    },
+    {
+      "gene": "GPRC5D",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "pooled",
+      "threshold": 1.0,
+      "normal_mean": 0.06894728886221503,
+      "normal_worst": 0.17269544924154026,
+      "tumor_mean": 0.18270802780166184,
+      "tumor_worst": 0.0325497287522604,
+      "normal_pooled": 0.056704898702969235,
+      "tumor_pooled": 0.13486383492889673
+    },
+    {
+      "gene": "GPRC5D",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "equal_donor",
+      "threshold": 1.0,
+      "normal_mean": 0.06894728886221503,
+      "normal_worst": 0.17269544924154026,
+      "tumor_mean": 0.18270802780166184,
+      "tumor_worst": 0.0325497287522604,
+      "normal_pooled": 0.056704898702969235,
+      "tumor_pooled": 0.13486383492889673
+    },
+    {
+      "gene": "GPRC5D",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "donor_envelope",
+      "threshold": 2.0,
+      "normal_mean": 0.0067501932916099764,
+      "normal_worst": 0.03150525087514586,
+      "tumor_mean": 0.0512330645578406,
+      "tumor_worst": 0.0018083182640144665,
+      "normal_pooled": 0.006753135384285561,
+      "tumor_pooled": 0.02509526907705177
+    },
+    {
+      "gene": "SLAMF7",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "pooled",
+      "threshold": 3.0,
+      "normal_mean": 0.08945088277274887,
+      "normal_worst": 0.2147024504084014,
+      "tumor_mean": 0.1926605652999783,
+      "tumor_worst": 0.006151142355008787,
+      "normal_pooled": 0.08521813699217494,
+      "tumor_pooled": 0.11581001951854261
+    },
+    {
+      "gene": "SLAMF7",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "equal_donor",
+      "threshold": 3.0,
+      "normal_mean": 0.08945088277274887,
+      "normal_worst": 0.2147024504084014,
+      "tumor_mean": 0.1926605652999783,
+      "tumor_worst": 0.006151142355008787,
+      "normal_pooled": 0.08521813699217494,
+      "tumor_pooled": 0.11581001951854261
+    },
+    {
+      "gene": "SLAMF7",
+      "scale": "raw_UMI",
+      "budget": 0.1,
+      "policy": "donor_envelope",
+      "threshold": 5.0,
+      "normal_mean": 0.013901845150761705,
+      "normal_worst": 0.05484247374562427,
+      "tumor_mean": 0.05630828905172612,
+      "tumor_worst": 0.0,
+      "normal_pooled": 0.013935041269160682,
+      "tumor_pooled": 0.025188214518077887
+    }
+  ],
+  "external_replication": "Not feasible from inspected local ADT source; mismatch explicitly retained"
+}

@@ -1,0 +1,10 @@
+participant	marker_A	marker_B	raw_post_minus_pre_double_undetected	mean_100_joint_depth_sensitivity_replicates	replicate_count	D	interpretation
+PM01	TNFRSF17	GPRC5D	0.03400483632883494	0.04985483323355377	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty
+PM07	TNFRSF17	GPRC5D	-0.004756832595230159	0.010907379304314055	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty
+PM10	TNFRSF17	GPRC5D	0.5561650294010345	0.14485356927186538	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty
+PM01	TNFRSF17	SLAMF7	0.011087162734505995	0.04920584504445477	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty
+PM07	TNFRSF17	SLAMF7	-0.015009026940784514	0.0018994160468946942	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty
+PM10	TNFRSF17	SLAMF7	0.5562539866061954	0.18009304664344153	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty
+PM01	GPRC5D	SLAMF7	0.008537112421767246	0.004505039540775622	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty
+PM07	GPRC5D	SLAMF7	-0.03738677015834113	-0.012248391017223787	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty
+PM10	GPRC5D	SLAMF7	0.4081550388913926	0.06441199682323374	100	1318	within-specimen thinning sensitivity mean; not participant uncertainty

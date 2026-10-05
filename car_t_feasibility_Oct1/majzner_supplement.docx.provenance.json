@@ -1,0 +1,27 @@
+{
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7939454/bin/NIHMS1578835-supplement-1.docx",
+  "resolved_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7939454/bin/NIHMS1578835-supplement-1.docx",
+  "status": 200,
+  "headers": {
+    "Date": "Fri, 02 Oct 2026 06:11:48 GMT",
+    "Server": "istio-envoy",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "content-type": "text/html; charset=utf-8",
+    "Content-Length": "1817",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "same-origin",
+    "cross-origin-opener-policy": "same-origin",
+    "x-envoy-upstream-service-time": "5",
+    "set-cookie": "ncbi_sid=E73C7DE3ABF46BF3_13839SID; Domain=.nih.gov; expires=Sat, 02 Oct 2027 06:11:48 GMT; Max-Age=31536000; Path=/",
+    "Vary": "Accept-Encoding",
+    "X-UA-Compatible": "IE=Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "Via": "1.1 google",
+    "Alt-Svc": "clear",
+    "Connection": "close"
+  },
+  "bytes": 1817,
+  "sha256": "927bc0339b3fa45bdf4f23fbca26a72c4ed25236733b8d3211b12a8442d8151d",
+  "retrieved_utc": "2026-10-02T06:11:49.579833+00:00"
+}

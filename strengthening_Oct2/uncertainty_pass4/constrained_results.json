@@ -1,0 +1,130 @@
+{
+  "status": "Post hoc source-constrained sensitivity, not adjudication",
+  "forced_unfavorable": [
+    "CD47",
+    "NECTIN4"
+  ],
+  "assignments": 256,
+  "envelopes": {
+    "frozen_rule": {
+      "min": {
+        "assignment_id": "1008",
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2",
+        "favorable": "22",
+        "unfavorable": "7",
+        "frozen_rule": 0.6428571428571429,
+        "confinement": 0.564935064935065,
+        "blood_flag": 0.6818181818181818,
+        "rule_minus_confinement": 0.07792207792207795,
+        "rule_minus_blood": -0.03896103896103886
+      },
+      "max": {
+        "assignment_id": "5",
+        "uncertain_assigned_favorable": "GPRC5D;CLDN18",
+        "favorable": "18",
+        "unfavorable": "11",
+        "frozen_rule": 0.9242424242424242,
+        "confinement": 0.8888888888888888,
+        "blood_flag": 0.7222222222222222,
+        "rule_minus_confinement": 0.03535353535353536,
+        "rule_minus_blood": 0.202020202020202
+      }
+    },
+    "confinement": {
+      "min": {
+        "assignment_id": "1008",
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2",
+        "favorable": "22",
+        "unfavorable": "7",
+        "frozen_rule": 0.6428571428571429,
+        "confinement": 0.564935064935065,
+        "blood_flag": 0.6818181818181818,
+        "rule_minus_confinement": 0.07792207792207795,
+        "rule_minus_blood": -0.03896103896103886
+      },
+      "max": {
+        "assignment_id": "5",
+        "uncertain_assigned_favorable": "GPRC5D;CLDN18",
+        "favorable": "18",
+        "unfavorable": "11",
+        "frozen_rule": 0.9242424242424242,
+        "confinement": 0.8888888888888888,
+        "blood_flag": 0.7222222222222222,
+        "rule_minus_confinement": 0.03535353535353536,
+        "rule_minus_blood": 0.202020202020202
+      }
+    },
+    "blood_flag": {
+      "min": {
+        "assignment_id": "1013",
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2;GPRC5D;CLDN18",
+        "favorable": "24",
+        "unfavorable": "5",
+        "frozen_rule": 0.7333333333333333,
+        "confinement": 0.6833333333333333,
+        "blood_flag": 0.6666666666666666,
+        "rule_minus_confinement": 0.04999999999999993,
+        "rule_minus_blood": 0.06666666666666665
+      },
+      "max": {
+        "assignment_id": "0",
+        "uncertain_assigned_favorable": "",
+        "favorable": "16",
+        "unfavorable": "13",
+        "frozen_rule": 0.875,
+        "confinement": 0.8125,
+        "blood_flag": 0.75,
+        "rule_minus_confinement": 0.0625,
+        "rule_minus_blood": 0.125
+      }
+    },
+    "rule_minus_confinement": {
+      "min": {
+        "assignment_id": "517",
+        "uncertain_assigned_favorable": "FOLR1;GPRC5D;CLDN18",
+        "favorable": "19",
+        "unfavorable": "10",
+        "frozen_rule": 0.9157894736842105,
+        "confinement": 0.8842105263157894,
+        "blood_flag": 0.7105263157894737,
+        "rule_minus_confinement": 0.03157894736842104,
+        "rule_minus_blood": 0.20526315789473681
+      },
+      "max": {
+        "assignment_id": "1008",
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2",
+        "favorable": "22",
+        "unfavorable": "7",
+        "frozen_rule": 0.6428571428571429,
+        "confinement": 0.564935064935065,
+        "blood_flag": 0.6818181818181818,
+        "rule_minus_confinement": 0.07792207792207795,
+        "rule_minus_blood": -0.03896103896103886
+      }
+    },
+    "rule_minus_blood": {
+      "min": {
+        "assignment_id": "1008",
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2",
+        "favorable": "22",
+        "unfavorable": "7",
+        "frozen_rule": 0.6428571428571429,
+        "confinement": 0.564935064935065,
+        "blood_flag": 0.6818181818181818,
+        "rule_minus_confinement": 0.07792207792207795,
+        "rule_minus_blood": -0.03896103896103886
+      },
+      "max": {
+        "assignment_id": "517",
+        "uncertain_assigned_favorable": "FOLR1;GPRC5D;CLDN18",
+        "favorable": "19",
+        "unfavorable": "10",
+        "frozen_rule": 0.9157894736842105,
+        "confinement": 0.8842105263157894,
+        "blood_flag": 0.7105263157894737,
+        "rule_minus_confinement": 0.03157894736842104,
+        "rule_minus_blood": 0.20526315789473681
+      }
+    }
+  }
+}

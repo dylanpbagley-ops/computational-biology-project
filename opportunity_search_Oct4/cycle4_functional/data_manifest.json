@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "stage": "opportunity_search_Oct4/cycle4_functional",
+  "created_at_utc": "2026-10-05T05:10:48Z",
+  "resource_count": 2,
+  "download_count": 4,
+  "downloaded_bytes_total": 20737469,
+  "limits": {
+    "max_file_bytes": 26214400,
+    "max_downloaded_bytes_total": 78643200
+  },
+  "resources": [
+    {
+      "id": "GSE149933",
+      "source_id": "S2",
+      "kind": "public GEO processed screen files",
+      "files": [
+        "data/GSE149933_mTKO_readCounts_4May20.txt.gz",
+        "data/GSE149933_mTKO_library.txt.gz",
+        "data/GSE149933_family.soft.gz",
+        "data/sample_mapping.tsv"
+      ]
+    },
+    {
+      "id": "LEUKEMIA2023",
+      "source_id": "S3",
+      "kind": "official publisher supplementary validation workbook",
+      "files": [
+        "data/Ramos_SupplementaryData1.xlsx"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "data/GSE149933_mTKO_readCounts_4May20.txt.gz",
+      "source_id": "GSE149933",
+      "official_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149933/suppl/GSE149933_mTKO_readCounts_4May20.txt.gz",
+      "retrieved_at_utc": "not_captured",
+      "downloaded": true,
+      "role": "Official processed guide-count matrix; raw selected read counts",
+      "bytes": 18430780,
+      "sha256": "ff2ab7917c4adf3409ed68a4ee00484c67fd5847e3dad380a1b131810026637a"
+    },
+    {
+      "path": "data/GSE149933_mTKO_library.txt.gz",
+      "source_id": "GSE149933",
+      "official_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149933/suppl/GSE149933_mTKO_library.txt.gz",
+      "retrieved_at_utc": "not_captured",
+      "downloaded": true,
+      "role": "Official guide-to-gene annotation",
+      "bytes": 2197566,
+      "sha256": "9fe28537b7ec71f8314a289bf55872511f5a23c1777cd2ee1225b48e9943533b"
+    },
+    {
+      "path": "data/GSE149933_family.soft.gz",
+      "source_id": "GSE149933",
+      "official_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149933/soft/GSE149933_family.soft.gz",
+      "retrieved_at_utc": "not_captured",
+      "downloaded": true,
+      "role": "Official GEO sample metadata",
+      "bytes": 15133,
+      "sha256": "1c451899ac1feb252a30d5b911f5ab8d0bbe954a57379cb71e5fd0a7921f855b"
+    },
+    {
+      "path": "data/Ramos_SupplementaryData1.xlsx",
+      "source_id": "LEUKEMIA2023",
+      "official_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-43790-2/MediaObjects/41467_2023_43790_MOESM4_ESM.xlsx",
+      "retrieved_at_utc": "not_captured",
+      "downloaded": true,
+      "role": "Official publisher supplementary selected validation panel",
+      "bytes": 93990,
+      "sha256": "dbc52dd3d71fec9e0f0b854401ca231e04d248e54c238e2759a614088bd8d8f2"
+    },
+    {
+      "path": "data/sample_mapping.tsv",
+      "source_id": "GSE149933",
+      "official_url": null,
+      "retrieved_at_utc": "not_captured",
+      "downloaded": false,
+      "role": "Derived join of MUS count columns to GSM sample titles in GSE149933 family SOFT",
+      "bytes": 9953,
+      "sha256": "5864930b1a6a8a87fdad02fe2d3943b3d3f6578e49f89e40010aabb4e0613e21"
+    }
+  ]
+}

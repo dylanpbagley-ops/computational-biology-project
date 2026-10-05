@@ -1,0 +1,356 @@
+{
+ "calls": {
+  "CytB2_DLB_P5904": {
+   "call": "kappa-restricted",
+   "ratio": 3.4982318271119843,
+   "n_clone": 8903,
+   "n_internal": 2545,
+   "sig_pos_frac": 0.5958775765146783,
+   "n_B": 19212
+  },
+  "CytB2_DLB_P6216": {
+   "call": "not restricted",
+   "ratio": 1.7688413948256467,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.39384,
+   "n_B": 25000
+  },
+  "CytB2_DLB_P6389": {
+   "call": "lambda-restricted",
+   "ratio": 0.010452126384427291,
+   "n_clone": 20857,
+   "n_internal": 218,
+   "sig_pos_frac": 0.843,
+   "n_B": 25000
+  },
+  "CytB2_DLB_P7113": {
+   "call": "kappa-restricted",
+   "ratio": 3.1888701517706575,
+   "n_clone": 1891,
+   "n_internal": 593,
+   "sig_pos_frac": 0.09936,
+   "n_B": 25000
+  },
+  "CytB2_DLB_P7468": {
+   "call": "not restricted",
+   "ratio": 2.3650432407828856,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.29572,
+   "n_B": 25000
+  },
+  "CytB2_DLB_P7676": {
+   "call": "kappa-restricted",
+   "ratio": 8.767195767195767,
+   "n_clone": 4971,
+   "n_internal": 567,
+   "sig_pos_frac": 0.22152,
+   "n_B": 25000
+  },
+  "CytB2_DLB_P7683": {
+   "call": "not restricted",
+   "ratio": 0.6435185185185185,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.1704,
+   "n_B": 25000
+  },
+  "CytB2_DLB_P7901": {
+   "call": "not restricted",
+   "ratio": 1.6989061600460564,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.37504,
+   "n_B": 25000
+  },
+  "CytB2_DLB_P8099": {
+   "call": "kappa-restricted",
+   "ratio": 7.823261117445838,
+   "n_clone": 6861,
+   "n_internal": 877,
+   "sig_pos_frac": 0.30952,
+   "n_B": 25000
+  },
+  "CytB3_DLB_P4934": {
+   "call": "lambda-restricted",
+   "ratio": 0.03341523341523341,
+   "n_clone": 8140,
+   "n_internal": 272,
+   "sig_pos_frac": 0.33648,
+   "n_B": 25000
+  },
+  "CytB3_DLB_P5332": {
+   "call": "not restricted",
+   "ratio": 1.038274056688933,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.4516,
+   "n_B": 25000
+  },
+  "CytB3_DLB_Q4644": {
+   "call": "not restricted",
+   "ratio": 0.8241106719367589,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.07384,
+   "n_B": 25000
+  },
+  "CytB3_DLB_Q5719": {
+   "call": "kappa-restricted",
+   "ratio": 3.158179012345679,
+   "n_clone": 4093,
+   "n_internal": 1296,
+   "sig_pos_frac": 0.21556,
+   "n_B": 25000
+  },
+  "CytB3_DLB_Q5762": {
+   "call": "kappa-restricted",
+   "ratio": 15.77304964539007,
+   "n_clone": 8896,
+   "n_internal": 564,
+   "sig_pos_frac": 0.3784,
+   "n_B": 25000
+  },
+  "CytB3_DLB_Q5971": {
+   "call": "sIg-negative",
+   "ratio": 1.0,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.0036,
+   "n_B": 25000
+  },
+  "CytB3_DLB_Q6670": {
+   "call": "kappa-restricted",
+   "ratio": 3.0884855360181507,
+   "n_clone": 5445,
+   "n_internal": 1763,
+   "sig_pos_frac": 0.28832,
+   "n_B": 25000
+  },
+  "CytB3_DLB_Q7915": {
+   "call": "kappa-restricted",
+   "ratio": 13.553452115812918,
+   "n_clone": 12171,
+   "n_internal": 898,
+   "sig_pos_frac": 0.52276,
+   "n_B": 25000
+  },
+  "CytB3_DLB_Q7998": {
+   "call": "lambda-restricted",
+   "ratio": 0.015645520470507622,
+   "n_clone": 17513,
+   "n_internal": 274,
+   "sig_pos_frac": 0.71148,
+   "n_B": 25000
+  },
+  "CytB4_DLB_O5296": {
+   "call": "kappa-restricted",
+   "ratio": 4.976662777129522,
+   "n_clone": 4265,
+   "n_internal": 857,
+   "sig_pos_frac": 0.20488,
+   "n_B": 25000
+  },
+  "CytB4_DLB_O5313": {
+   "call": "sIg-negative",
+   "ratio": 1.1978221415607986,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.04844,
+   "n_B": 25000
+  },
+  "CytB4_DLB_Q5779": {
+   "call": "not restricted",
+   "ratio": 0.7806879141685075,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.4787477729702214,
+   "n_B": 11787
+  },
+  "CytB4_DLB_R5097": {
+   "call": "lambda-restricted",
+   "ratio": 0.16179906542056074,
+   "n_clone": 10272,
+   "n_internal": 1662,
+   "sig_pos_frac": 0.47736,
+   "n_B": 25000
+  },
+  "CytB4_DLB_R6589": {
+   "call": "kappa-restricted",
+   "ratio": 11.475409836065573,
+   "n_clone": 4200,
+   "n_internal": 366,
+   "sig_pos_frac": 0.18264,
+   "n_B": 25000
+  },
+  "CytB4_DLB_R6590": {
+   "call": "not restricted",
+   "ratio": 1.679245283018868,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.23288,
+   "n_B": 25000
+  },
+  "CytB4_DLB_R7031": {
+   "call": "kappa-restricted",
+   "ratio": 6.73542600896861,
+   "n_clone": 3004,
+   "n_internal": 446,
+   "sig_pos_frac": 0.138,
+   "n_B": 25000
+  },
+  "CytB4_DLB_R7381": {
+   "call": "not restricted",
+   "ratio": 1.868573264781491,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.35708,
+   "n_B": 25000
+  },
+  "CytB4_DLB_R8032": {
+   "call": "not restricted",
+   "ratio": 2.216893342877595,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.17976,
+   "n_B": 25000
+  },
+  "CytB5_DLB_N5985": {
+   "call": "not restricted",
+   "ratio": 1.6899521531100479,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.5491306895878101,
+   "n_B": 10238
+  },
+  "CytB5_DLB_N6158": {
+   "call": "sIg-negative",
+   "ratio": 0.8518518518518519,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.038,
+   "n_B": 25000
+  },
+  "CytB5_DLB_O5472": {
+   "call": "not restricted",
+   "ratio": 2.9271604938271607,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.12724,
+   "n_B": 25000
+  },
+  "CytB5_DLB_O5559": {
+   "call": "not restricted",
+   "ratio": 1.764018691588785,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.24982841455044613,
+   "n_B": 18941
+  },
+  "CytB5_DLB_O5841": {
+   "call": "not restricted",
+   "ratio": 1.1496940856560163,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.63244,
+   "n_B": 25000
+  },
+  "CytB5_DLB_O6357": {
+   "call": "kappa-restricted",
+   "ratio": 20.978947368421053,
+   "n_clone": 1993,
+   "n_internal": 95,
+   "sig_pos_frac": 0.1316353549363258,
+   "n_B": 15862
+  },
+  "CytB5_DLB_O6478": {
+   "call": "not restricted",
+   "ratio": 1.139673332315677,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.56068,
+   "n_B": 25000
+  },
+  "CytB5_DLB_O6794": {
+   "call": "not restricted",
+   "ratio": 2.5136861313868613,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.3613587313502862,
+   "n_B": 10657
+  },
+  "CytB5_DLB_O8151": {
+   "call": "kappa-restricted",
+   "ratio": 14.747222222222222,
+   "n_clone": 10618,
+   "n_internal": 720,
+   "sig_pos_frac": 0.45352,
+   "n_B": 25000
+  },
+  "CytB5_DLB_O8155": {
+   "call": "sIg-negative",
+   "ratio": 2.1534391534391535,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.02384,
+   "n_B": 25000
+  },
+  "CytB5_DLB_Q5437": {
+   "call": "kappa-restricted",
+   "ratio": 29.56568778979907,
+   "n_clone": 19129,
+   "n_internal": 647,
+   "sig_pos_frac": 0.79104,
+   "n_B": 25000
+  },
+  "CytB5_DLB_Q5501": {
+   "call": "kappa-restricted",
+   "ratio": 6.313976377952756,
+   "n_clone": 6415,
+   "n_internal": 1016,
+   "sig_pos_frac": 0.4549684687442601,
+   "n_B": 16333
+  },
+  "CytB6_DLB_R5642": {
+   "call": "not restricted",
+   "ratio": 1.2066508313539193,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.29728,
+   "n_B": 25000
+  },
+  "CytB6_DLB_R7755": {
+   "call": "not restricted",
+   "ratio": 2.135222150676111,
+   "n_clone": 0,
+   "n_internal": 0,
+   "sig_pos_frac": 0.58428,
+   "n_B": 25000
+  }
+ },
+ "usable": [
+  "CytB2_DLB_P5904",
+  "CytB2_DLB_P6389",
+  "CytB2_DLB_P7113",
+  "CytB2_DLB_P7676",
+  "CytB2_DLB_P8099",
+  "CytB3_DLB_P4934",
+  "CytB3_DLB_Q5719",
+  "CytB3_DLB_Q5762",
+  "CytB3_DLB_Q6670",
+  "CytB3_DLB_Q7915",
+  "CytB3_DLB_Q7998",
+  "CytB4_DLB_O5296",
+  "CytB4_DLB_R5097",
+  "CytB4_DLB_R6589",
+  "CytB4_DLB_R7031",
+  "CytB5_DLB_O8151",
+  "CytB5_DLB_Q5437",
+  "CytB5_DLB_Q5501"
+ ],
+ "polyclonal_interval": [
+  1.027282632501095,
+  2.8154303998166963
+ ]
+}

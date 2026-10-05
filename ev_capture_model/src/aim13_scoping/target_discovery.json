@@ -1,0 +1,2154 @@
+{
+ "funnel": {
+  "start": 19475,
+  "annotated": 19475,
+  "surface_observed": 1889,
+  "confined_expendable": 821,
+  "elevated_in_cancer_CELL_LINES": 482,
+  "above_expression_floor": 242,
+  "NEW": 214,
+  "already_pursued": 28
+ },
+ "candidates": [
+  {
+   "gene": "IGKV3D-15",
+   "score": 1.9583,
+   "confinement": 0.9583,
+   "n_cell_types": 1,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 3660.7",
+   "description": "Immunoglobulin kappa variable 3D-15"
+  },
+  {
+   "gene": "VPREB1",
+   "score": 1.9242,
+   "confinement": 0.9242,
+   "n_cell_types": 1,
+   "home": "thymocytes",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 204.5",
+   "description": "V-set pre-B cell surrogate light chain 1"
+  },
+  {
+   "gene": "CD1B",
+   "score": 1.896,
+   "confinement": 0.896,
+   "n_cell_types": 1,
+   "home": "cdc",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 48.7",
+   "description": "CD1b molecule"
+  },
+  {
+   "gene": "CD1E",
+   "score": 1.8592,
+   "confinement": 0.8592,
+   "n_cell_types": 2,
+   "home": "cdc",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 66.8",
+   "description": "CD1e molecule"
+  },
+  {
+   "gene": "IGKV3OR2-268",
+   "score": 1.8,
+   "confinement": 0.8,
+   "n_cell_types": 2,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 35.4;Myeloma: 40.1",
+   "description": "Immunoglobulin kappa variable 3/OR2-268 (non-f"
+  },
+  {
+   "gene": "LILRB4",
+   "score": 1.7241,
+   "confinement": 0.7241,
+   "n_cell_types": 1,
+   "home": "microglia",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 28.0",
+   "description": "Leukocyte immunoglobulin like receptor B4"
+  },
+  {
+   "gene": "CD3D",
+   "score": 1.6673,
+   "confinement": 0.6673,
+   "n_cell_types": 1,
+   "home": "t-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 223.2",
+   "description": "CD3 delta subunit of T-cell receptor complex"
+  },
+  {
+   "gene": "IGKV3D-11",
+   "score": 1.6667,
+   "confinement": 0.6667,
+   "n_cell_types": 2,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 396.6",
+   "description": "Immunoglobulin kappa variable 3D-11"
+  },
+  {
+   "gene": "GYPA",
+   "score": 1.6432,
+   "confinement": 0.6432,
+   "n_cell_types": 2,
+   "home": "erythrocyte progenitors",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 32.6",
+   "description": "Glycophorin A (MNS blood group)"
+  },
+  {
+   "gene": "IL1R2",
+   "score": 1.639,
+   "confinement": 0.639,
+   "n_cell_types": 2,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 66.7",
+   "description": "Interleukin 1 receptor type 2"
+  },
+  {
+   "gene": "IGKV3-20",
+   "score": 1.6141,
+   "confinement": 0.6141,
+   "n_cell_types": 3,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 353.5;Myeloma: 1322.2",
+   "description": "Immunoglobulin kappa variable 3-20"
+  },
+  {
+   "gene": "CD247",
+   "score": 1.5901999999999998,
+   "confinement": 0.5902,
+   "n_cell_types": 2,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 23.4;lymphoma: 21.4;Myeloma: 16.1",
+   "description": "CD247 molecule"
+  },
+  {
+   "gene": "IGKV3D-20",
+   "score": 1.5659999999999998,
+   "confinement": 0.566,
+   "n_cell_types": 4,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 2737.4",
+   "description": "Immunoglobulin kappa variable 3D-20"
+  },
+  {
+   "gene": "RHAG",
+   "score": 1.5518,
+   "confinement": 0.5518,
+   "n_cell_types": 4,
+   "home": "erythrocyte progenitors",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 107.7",
+   "description": "Rh associated glycoprotein"
+  },
+  {
+   "gene": "IL1RL1",
+   "score": 1.5487,
+   "confinement": 0.5487,
+   "n_cell_types": 3,
+   "home": "mast cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Esophageal cancer: 24.0;pancreatic cancer: 13.6",
+   "description": "Interleukin 1 receptor like 1"
+  },
+  {
+   "gene": "TNFRSF13C",
+   "score": 1.544,
+   "confinement": 0.544,
+   "n_cell_types": 3,
+   "home": "b-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 10.0;lymphoma: 25.8",
+   "description": "TNF receptor superfamily member 13C"
+  },
+  {
+   "gene": "VCAM1",
+   "score": 1.5158,
+   "confinement": 0.5158,
+   "n_cell_types": 2,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Bladder cancer: 34.3;Kidney cancer: 63.3;thyroid cancer: 43.",
+   "description": "Vascular cell adhesion molecule 1"
+  },
+  {
+   "gene": "CD3E",
+   "score": 1.5118,
+   "confinement": 0.5118,
+   "n_cell_types": 4,
+   "home": "t-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 125.7",
+   "description": "CD3 epsilon subunit of T-cell receptor complex"
+  },
+  {
+   "gene": "SAMSN1",
+   "score": 1.5095,
+   "confinement": 0.5095,
+   "n_cell_types": 4,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 69.1;lymphoma: 33.7",
+   "description": "SAM domain, SH3 domain and nuclear localizatio"
+  },
+  {
+   "gene": "CD27",
+   "score": 1.5029,
+   "confinement": 0.5029,
+   "n_cell_types": 5,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 88.8",
+   "description": "CD27 molecule"
+  },
+  {
+   "gene": "SIRPB1",
+   "score": 1.487,
+   "confinement": 0.487,
+   "n_cell_types": 4,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 18.6;thyroid cancer: 23.3",
+   "description": "Signal regulatory protein beta 1"
+  },
+  {
+   "gene": "IGKV3-11",
+   "score": 1.4724,
+   "confinement": 0.4724,
+   "n_cell_types": 5,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 5519.7",
+   "description": "Immunoglobulin kappa variable 3-11"
+  },
+  {
+   "gene": "TNFRSF13B",
+   "score": 1.4694,
+   "confinement": 0.4694,
+   "n_cell_types": 2,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 69.1;Myeloma: 110.9",
+   "description": "TNF receptor superfamily member 13B"
+  },
+  {
+   "gene": "CSF3R",
+   "score": 1.4632,
+   "confinement": 0.4632,
+   "n_cell_types": 4,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 32.2",
+   "description": "Colony stimulating factor 3 receptor"
+  },
+  {
+   "gene": "CD8B",
+   "score": 1.4622,
+   "confinement": 0.4622,
+   "n_cell_types": 2,
+   "home": "t-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 8.7;Myeloma: 33.2",
+   "description": "CD8b molecule"
+  },
+  {
+   "gene": "SELL",
+   "score": 1.4388,
+   "confinement": 0.4388,
+   "n_cell_types": 7,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 34.0;lymphoma: 29.2;Myeloma: 15.1",
+   "description": "Selectin L"
+  },
+  {
+   "gene": "FCGR2A",
+   "score": 1.4297,
+   "confinement": 0.4297,
+   "n_cell_types": 7,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 40.8",
+   "description": "Fc gamma receptor IIa"
+  },
+  {
+   "gene": "LY9",
+   "score": 1.4116,
+   "confinement": 0.4116,
+   "n_cell_types": 6,
+   "home": "b-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 15.9;Myeloma: 38.0",
+   "description": "Lymphocyte antigen 9"
+  },
+  {
+   "gene": "CD79A",
+   "score": 1.4081000000000001,
+   "confinement": 0.4081,
+   "n_cell_types": 2,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 867.0",
+   "description": "CD79a molecule"
+  },
+  {
+   "gene": "PLXNC1",
+   "score": 1.4001000000000001,
+   "confinement": 0.4001,
+   "n_cell_types": 3,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 34.9;skin cancer: 21.8",
+   "description": "Plexin C1"
+  },
+  {
+   "gene": "IL2RB",
+   "score": 1.384,
+   "confinement": 0.384,
+   "n_cell_types": 4,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 69.8",
+   "description": "Interleukin 2 receptor subunit beta"
+  },
+  {
+   "gene": "FCGR1A",
+   "score": 1.3822999999999999,
+   "confinement": 0.3823,
+   "n_cell_types": 7,
+   "home": "hofbauer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 25.7",
+   "description": "Fc gamma receptor Ia"
+  },
+  {
+   "gene": "KCNJ15",
+   "score": 1.3679000000000001,
+   "confinement": 0.3679,
+   "n_cell_types": 3,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Bladder cancer: 22.2;head and neck cancer: 20.7",
+   "description": "Potassium inwardly rectifying channel subfamil"
+  },
+  {
+   "gene": "EVI2B",
+   "score": 1.3628,
+   "confinement": 0.3628,
+   "n_cell_types": 8,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Adrenocortical cancer: 21.0;Leukemia: 50.5;lymphoma: 45.6;My",
+   "description": "Ecotropic viral integration site 2B"
+  },
+  {
+   "gene": "CSF2RB",
+   "score": 1.3601,
+   "confinement": 0.3601,
+   "n_cell_types": 8,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 43.7;lymphoma: 16.5;Myeloma: 15.2",
+   "description": "Colony stimulating factor 2 receptor subunit b"
+  },
+  {
+   "gene": "CD28",
+   "score": 1.3562,
+   "confinement": 0.3562,
+   "n_cell_types": 4,
+   "home": "t-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 98.6",
+   "description": "CD28 molecule"
+  },
+  {
+   "gene": "FGR",
+   "score": 1.355,
+   "confinement": 0.355,
+   "n_cell_types": 7,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 21.4;lymphoma: 33.4;Myeloma: 17.9",
+   "description": "FGR proto-oncogene, Src family tyrosine kinase"
+  },
+  {
+   "gene": "CLEC12A",
+   "score": 1.3538999999999999,
+   "confinement": 0.3539,
+   "n_cell_types": 6,
+   "home": "neutrophil progenitors",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 21.6",
+   "description": "C-type lectin domain family 12 member A"
+  },
+  {
+   "gene": "FCGR2B",
+   "score": 1.3524,
+   "confinement": 0.3524,
+   "n_cell_types": 6,
+   "home": "cdc",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 10.4;lymphoma: 25.1",
+   "description": "Fc gamma receptor IIb"
+  },
+  {
+   "gene": "LCP1",
+   "score": 1.3498999999999999,
+   "confinement": 0.3499,
+   "n_cell_types": 5,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 582.6;lymphoma: 986.4",
+   "description": "Lymphocyte cytosolic protein 1"
+  },
+  {
+   "gene": "DOK3",
+   "score": 1.3453,
+   "confinement": 0.3453,
+   "n_cell_types": 7,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 72.6;lymphoma: 95.9;Myeloma: 24.7",
+   "description": "Docking protein 3"
+  },
+  {
+   "gene": "LAX1",
+   "score": 1.3316,
+   "confinement": 0.3316,
+   "n_cell_types": 4,
+   "home": "mast cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 40.5",
+   "description": "Lymphocyte transmembrane adaptor 1"
+  },
+  {
+   "gene": "ARHGAP15",
+   "score": 1.2971,
+   "confinement": 0.2971,
+   "n_cell_types": 8,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 69.1;lymphoma: 63.6",
+   "description": "Rho GTPase activating protein 15"
+  },
+  {
+   "gene": "CXCR5",
+   "score": 1.2925,
+   "confinement": 0.2925,
+   "n_cell_types": 4,
+   "home": "b-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 36.0",
+   "description": "C-X-C motif chemokine receptor 5"
+  },
+  {
+   "gene": "BASP1",
+   "score": 1.2839,
+   "confinement": 0.2839,
+   "n_cell_types": 7,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Adrenocortical cancer: 573.1",
+   "description": "Brain abundant membrane attached signal protei"
+  },
+  {
+   "gene": "CCR2",
+   "score": 1.274,
+   "confinement": 0.274,
+   "n_cell_types": 6,
+   "home": "monocyte progenitors",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 29.9",
+   "description": "C-C motif chemokine receptor 2"
+  },
+  {
+   "gene": "SLAMF6",
+   "score": 1.2671999999999999,
+   "confinement": 0.2672,
+   "n_cell_types": 6,
+   "home": "t-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 10.0;lymphoma: 35.7",
+   "description": "SLAM family member 6"
+  },
+  {
+   "gene": "TLR10",
+   "score": 1.2659,
+   "confinement": 0.2659,
+   "n_cell_types": 7,
+   "home": "microglia",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 27.2",
+   "description": "Toll like receptor 10"
+  },
+  {
+   "gene": "ADAM8",
+   "score": 1.2652,
+   "confinement": 0.2652,
+   "n_cell_types": 9,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "pancreatic cancer: 53.8",
+   "description": "ADAM metallopeptidase domain 8"
+  },
+  {
+   "gene": "LST1",
+   "score": 1.2596,
+   "confinement": 0.2596,
+   "n_cell_types": 11,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 45.7",
+   "description": "Leukocyte specific transcript 1"
+  },
+  {
+   "gene": "APOBR",
+   "score": 1.2536,
+   "confinement": 0.2536,
+   "n_cell_types": 12,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 27.3",
+   "description": "Apolipoprotein B receptor"
+  },
+  {
+   "gene": "CCR1",
+   "score": 1.2535,
+   "confinement": 0.2535,
+   "n_cell_types": 9,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 57.7",
+   "description": "C-C motif chemokine receptor 1"
+  },
+  {
+   "gene": "SLAMF1",
+   "score": 1.2530000000000001,
+   "confinement": 0.253,
+   "n_cell_types": 9,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 14.5;lymphoma: 35.8",
+   "description": "Signaling lymphocytic activation molecule fami"
+  },
+  {
+   "gene": "CD53",
+   "score": 1.2499,
+   "confinement": 0.2499,
+   "n_cell_types": 16,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 176.0;lymphoma: 278.2;Myeloma: 139.8",
+   "description": "CD53 molecule"
+  },
+  {
+   "gene": "SELPLG",
+   "score": 1.2497,
+   "confinement": 0.2497,
+   "n_cell_types": 13,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 73.4;Myeloma: 231.6",
+   "description": "Selectin P ligand"
+  },
+  {
+   "gene": "FCMR",
+   "score": 1.2469999999999999,
+   "confinement": 0.247,
+   "n_cell_types": 6,
+   "home": "b-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 23.9;lymphoma: 55.8;Myeloma: 45.1",
+   "description": "Fc mu receptor"
+  },
+  {
+   "gene": "APBB1IP",
+   "score": 1.2449,
+   "confinement": 0.2449,
+   "n_cell_types": 11,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Kidney cancer: 43.1;Leukemia: 69.3;lymphoma: 96.1;Myeloma: 2",
+   "description": "Amyloid beta precursor protein binding family "
+  },
+  {
+   "gene": "CD4",
+   "score": 1.2393,
+   "confinement": 0.2393,
+   "n_cell_types": 8,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 40.6;lymphoma: 27.6;Myeloma: 23.9",
+   "description": "CD4 molecule"
+  },
+  {
+   "gene": "TNFRSF1B",
+   "score": 1.237,
+   "confinement": 0.237,
+   "n_cell_types": 9,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 29.3",
+   "description": "TNF receptor superfamily member 1B"
+  },
+  {
+   "gene": "CD69",
+   "score": 1.2334,
+   "confinement": 0.2334,
+   "n_cell_types": 8,
+   "home": "mast cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 45.9;lymphoma: 25.6",
+   "description": "CD69 molecule"
+  },
+  {
+   "gene": "PTAFR",
+   "score": 1.2218,
+   "confinement": 0.2218,
+   "n_cell_types": 12,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Gallbladder cancer: 22.4",
+   "description": "Platelet activating factor receptor"
+  },
+  {
+   "gene": "CYTH4",
+   "score": 1.2194,
+   "confinement": 0.2194,
+   "n_cell_types": 13,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 24.3;lymphoma: 25.1;Myeloma: 12.2",
+   "description": "Cytohesin 4"
+  },
+  {
+   "gene": "P2RX5",
+   "score": 1.2179,
+   "confinement": 0.2179,
+   "n_cell_types": 8,
+   "home": "b-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 68.0",
+   "description": "Purinergic receptor P2X 5"
+  },
+  {
+   "gene": "GPR183",
+   "score": 1.2155,
+   "confinement": 0.2155,
+   "n_cell_types": 8,
+   "home": "cdc",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 14.9;lymphoma: 23.7;thyroid cancer: 22.6",
+   "description": "G protein-coupled receptor 183"
+  },
+  {
+   "gene": "SPN",
+   "score": 1.214,
+   "confinement": 0.214,
+   "n_cell_types": 12,
+   "home": "megakaryocyte progenitors",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 185.3;Myeloma: 49.9",
+   "description": "Sialophorin"
+  },
+  {
+   "gene": "PTPRCAP",
+   "score": 1.2138,
+   "confinement": 0.2138,
+   "n_cell_types": 10,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 246.1;lymphoma: 323.7;Myeloma: 81.4",
+   "description": "Protein tyrosine phosphatase receptor type C a"
+  },
+  {
+   "gene": "ARHGAP9",
+   "score": 1.2126000000000001,
+   "confinement": 0.2126,
+   "n_cell_types": 14,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 36.2;lymphoma: 18.0;Myeloma: 13.8",
+   "description": "Rho GTPase activating protein 9"
+  },
+  {
+   "gene": "SLC40A1",
+   "score": 1.2049,
+   "confinement": 0.2049,
+   "n_cell_types": 7,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 75.6;liver cancer: 50.9",
+   "description": "Solute carrier family 40 member 1"
+  },
+  {
+   "gene": "HCLS1",
+   "score": 1.2029,
+   "confinement": 0.2029,
+   "n_cell_types": 13,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 188.6;lymphoma: 241.0;Myeloma: 214.2",
+   "description": "Hematopoietic cell-specific Lyn substrate 1"
+  },
+  {
+   "gene": "CD86",
+   "score": 1.2025000000000001,
+   "confinement": 0.2025,
+   "n_cell_types": 7,
+   "home": "cdc",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 54.5",
+   "description": "CD86 molecule"
+  },
+  {
+   "gene": "FYB1",
+   "score": 1.2017,
+   "confinement": 0.2017,
+   "n_cell_types": 13,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "head and neck cancer: 20.1;Leukemia: 33.9",
+   "description": "FYN binding protein 1"
+  },
+  {
+   "gene": "CLEC7A",
+   "score": 1.2005,
+   "confinement": 0.2005,
+   "n_cell_types": 8,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 62.2",
+   "description": "C-type lectin domain containing 7A"
+  },
+  {
+   "gene": "WAS",
+   "score": 1.2003,
+   "confinement": 0.2003,
+   "n_cell_types": 16,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 78.3;lymphoma: 85.9;Myeloma: 51.7",
+   "description": "WASP actin nucleation promoting factor"
+  },
+  {
+   "gene": "TYROBP",
+   "score": 1.1995,
+   "confinement": 0.1995,
+   "n_cell_types": 10,
+   "home": "hofbauer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 111.0",
+   "description": "Transmembrane immune signaling adaptor TYROBP"
+  },
+  {
+   "gene": "TNFSF8",
+   "score": 1.1962,
+   "confinement": 0.1962,
+   "n_cell_types": 14,
+   "home": "t-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 12.5;testis cancer: 21.5",
+   "description": "TNF superfamily member 8"
+  },
+  {
+   "gene": "SIRPA",
+   "score": 1.1893,
+   "confinement": 0.1893,
+   "n_cell_types": 12,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Kidney cancer: 121.9",
+   "description": "Signal regulatory protein alpha"
+  },
+  {
+   "gene": "SASH3",
+   "score": 1.185,
+   "confinement": 0.185,
+   "n_cell_types": 16,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 109.7;lymphoma: 119.2",
+   "description": "SAM and SH3 domain containing 3"
+  },
+  {
+   "gene": "SLC2A3",
+   "score": 1.1836,
+   "confinement": 0.1836,
+   "n_cell_types": 16,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "testis cancer: 1031.5",
+   "description": "Solute carrier family 2 member 3"
+  },
+  {
+   "gene": "CD96",
+   "score": 1.1789,
+   "confinement": 0.1789,
+   "n_cell_types": 11,
+   "home": "t-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 31.3;skin cancer: 14.7",
+   "description": "CD96 molecule"
+  },
+  {
+   "gene": "IL21R",
+   "score": 1.1751,
+   "confinement": 0.1751,
+   "n_cell_types": 13,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 53.9;Myeloma: 24.7",
+   "description": "Interleukin 21 receptor"
+  },
+  {
+   "gene": "PAG1",
+   "score": 1.1743000000000001,
+   "confinement": 0.1743,
+   "n_cell_types": 10,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 25.9",
+   "description": "Phosphoprotein membrane anchor with glycosphin"
+  },
+  {
+   "gene": "MYO1G",
+   "score": 1.1741,
+   "confinement": 0.1741,
+   "n_cell_types": 17,
+   "home": "monocytes",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 88.2;lymphoma: 96.1",
+   "description": "Myosin IG"
+  },
+  {
+   "gene": "CD36",
+   "score": 1.1724,
+   "confinement": 0.1724,
+   "n_cell_types": 12,
+   "home": "hofbauer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "thyroid cancer: 57.4",
+   "description": "CD36 molecule"
+  },
+  {
+   "gene": "OLR1",
+   "score": 1.1717,
+   "confinement": 0.1717,
+   "n_cell_types": 9,
+   "home": "monocytes",
+   "expendable_home": true,
+   "cancer_elevated_in": "cervical cancer: 116.7;head and neck cancer: 80.2",
+   "description": "Oxidized low density lipoprotein receptor 1"
+  },
+  {
+   "gene": "CD37",
+   "score": 1.1703000000000001,
+   "confinement": 0.1703,
+   "n_cell_types": 16,
+   "home": "b-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 77.0;lymphoma: 248.0",
+   "description": "CD37 molecule"
+  },
+  {
+   "gene": "ICAM3",
+   "score": 1.1701,
+   "confinement": 0.1701,
+   "n_cell_types": 15,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 103.0;Myeloma: 120.8",
+   "description": "Intercellular adhesion molecule 3"
+  },
+  {
+   "gene": "PTX3",
+   "score": 1.1672,
+   "confinement": 0.1672,
+   "n_cell_types": 12,
+   "home": "neutrophil progenitors",
+   "expendable_home": true,
+   "cancer_elevated_in": "Sarcoma: 203.9",
+   "description": "Pentraxin 3"
+  },
+  {
+   "gene": "ITGB2",
+   "score": 1.1602000000000001,
+   "confinement": 0.1602,
+   "n_cell_types": 11,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Bone cancer: 64.2;Leukemia: 194.5;lymphoma: 74.0",
+   "description": "Integrin subunit beta 2"
+  },
+  {
+   "gene": "IL10RA",
+   "score": 1.1554,
+   "confinement": 0.1554,
+   "n_cell_types": 15,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 28.7;Myeloma: 13.1",
+   "description": "Interleukin 10 receptor subunit alpha"
+  },
+  {
+   "gene": "BTK",
+   "score": 1.1544,
+   "confinement": 0.1544,
+   "n_cell_types": 17,
+   "home": "megakaryocytes",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 79.9;lymphoma: 84.3;Myeloma: 21.2",
+   "description": "Bruton tyrosine kinase"
+  },
+  {
+   "gene": "IL2RG",
+   "score": 1.1542,
+   "confinement": 0.1542,
+   "n_cell_types": 16,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 207.1;lymphoma: 145.1;Myeloma: 354.9",
+   "description": "Interleukin 2 receptor subunit gamma"
+  },
+  {
+   "gene": "HCST",
+   "score": 1.154,
+   "confinement": 0.154,
+   "n_cell_types": 15,
+   "home": "hofbauer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 92.4;lymphoma: 51.9;Myeloma: 35.3",
+   "description": "Hematopoietic cell signal transducer"
+  },
+  {
+   "gene": "ITGAL",
+   "score": 1.1536,
+   "confinement": 0.1536,
+   "n_cell_types": 16,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 76.8;lymphoma: 43.9;Myeloma: 52.9",
+   "description": "Integrin subunit alpha L"
+  },
+  {
+   "gene": "GNG2",
+   "score": 1.1529,
+   "confinement": 0.1529,
+   "n_cell_types": 14,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Neuroblastoma: 73.1;skin cancer: 53.0",
+   "description": "G protein subunit gamma 2"
+  },
+  {
+   "gene": "CD83",
+   "score": 1.1526,
+   "confinement": 0.1526,
+   "n_cell_types": 13,
+   "home": "cdc",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 133.1",
+   "description": "CD83 molecule"
+  },
+  {
+   "gene": "CSF2RA",
+   "score": 1.1524,
+   "confinement": 0.1524,
+   "n_cell_types": 13,
+   "home": "cdc",
+   "expendable_home": true,
+   "cancer_elevated_in": "Adrenocortical cancer: 111.7",
+   "description": "Colony stimulating factor 2 receptor subunit a"
+  },
+  {
+   "gene": "RASSF3",
+   "score": 1.1391,
+   "confinement": 0.1391,
+   "n_cell_types": 16,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "prostate cancer: 128.3",
+   "description": "Ras association domain family member 3"
+  },
+  {
+   "gene": "ITGB7",
+   "score": 1.139,
+   "confinement": 0.139,
+   "n_cell_types": 15,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 982.6",
+   "description": "Integrin subunit beta 7"
+  },
+  {
+   "gene": "TNFSF13B",
+   "score": 1.129,
+   "confinement": 0.129,
+   "n_cell_types": 15,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 21.6",
+   "description": "TNF superfamily member 13b"
+  },
+  {
+   "gene": "CD300A",
+   "score": 1.1286,
+   "confinement": 0.1286,
+   "n_cell_types": 15,
+   "home": "hofbauer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 40.9;Myeloma: 12.0",
+   "description": "CD300a molecule"
+  },
+  {
+   "gene": "PTK2B",
+   "score": 1.1280000000000001,
+   "confinement": 0.128,
+   "n_cell_types": 16,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 122.9;lymphoma: 76.7;Myeloma: 126.4;prostate cance",
+   "description": "Protein tyrosine kinase 2 beta"
+  },
+  {
+   "gene": "KLHL6",
+   "score": 1.1255,
+   "confinement": 0.1255,
+   "n_cell_types": 24,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 13.6;lymphoma: 35.9;Myeloma: 27.1",
+   "description": "Kelch like family member 6"
+  },
+  {
+   "gene": "LAT2",
+   "score": 1.124,
+   "confinement": 0.124,
+   "n_cell_types": 17,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 200.3;lymphoma: 102.9",
+   "description": "Linker for activation of T cells family member"
+  },
+  {
+   "gene": "DOCK8",
+   "score": 1.1224,
+   "confinement": 0.1224,
+   "n_cell_types": 22,
+   "home": "microglia",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 46.2;lymphoma: 39.0;Myeloma: 19.4",
+   "description": "Dedicator of cytokinesis 8"
+  },
+  {
+   "gene": "ITGA4",
+   "score": 1.1177,
+   "confinement": 0.1177,
+   "n_cell_types": 19,
+   "home": "megakaryocyte-erythroid progenitors",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 112.7;Myeloma: 80.8",
+   "description": "Integrin subunit alpha 4"
+  },
+  {
+   "gene": "RASAL3",
+   "score": 1.115,
+   "confinement": 0.115,
+   "n_cell_types": 20,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 25.6;lymphoma: 20.9;Myeloma: 29.9",
+   "description": "RAS protein activator like 3"
+  },
+  {
+   "gene": "IL4R",
+   "score": 1.1144,
+   "confinement": 0.1144,
+   "n_cell_types": 25,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Gallbladder cancer: 139.2",
+   "description": "Interleukin 4 receptor"
+  },
+  {
+   "gene": "CD48",
+   "score": 1.1143,
+   "confinement": 0.1143,
+   "n_cell_types": 15,
+   "home": "monocytes",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 243.2;Myeloma: 458.6",
+   "description": "CD48 molecule"
+  },
+  {
+   "gene": "THBD",
+   "score": 1.1128,
+   "confinement": 0.1128,
+   "n_cell_types": 21,
+   "home": "monocytes",
+   "expendable_home": true,
+   "cancer_elevated_in": "Gallbladder cancer: 97.2",
+   "description": "Thrombomodulin"
+  },
+  {
+   "gene": "SKAP1",
+   "score": 1.1124,
+   "confinement": 0.1124,
+   "n_cell_types": 23,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 20.8;Rhabdoid: 28.6",
+   "description": "Src kinase associated phosphoprotein 1"
+  },
+  {
+   "gene": "CLIC2",
+   "score": 1.1112,
+   "confinement": 0.1112,
+   "n_cell_types": 19,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 33.4",
+   "description": "Chloride intracellular channel 2"
+  },
+  {
+   "gene": "GYPC",
+   "score": 1.1111,
+   "confinement": 0.1111,
+   "n_cell_types": 24,
+   "home": "hofbauer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 222.8;skin cancer: 319.3",
+   "description": "Glycophorin C (Gerbich blood group)"
+  },
+  {
+   "gene": "SYK",
+   "score": 1.1094,
+   "confinement": 0.1094,
+   "n_cell_types": 20,
+   "home": "neutrophil progenitors",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 87.6",
+   "description": "Spleen associated tyrosine kinase"
+  },
+  {
+   "gene": "PPP1R16B",
+   "score": 1.1074,
+   "confinement": 0.1074,
+   "n_cell_types": 16,
+   "home": "t-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 18.2;lymphoma: 46.7;Myeloma: 27.4;Neuroblastoma: 1",
+   "description": "Protein phosphatase 1 regulatory subunit 16B"
+  },
+  {
+   "gene": "C1orf54",
+   "score": 1.1056,
+   "confinement": 0.1056,
+   "n_cell_types": 25,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Rhabdoid: 36.3",
+   "description": "Chromosome 1 open reading frame 54"
+  },
+  {
+   "gene": "BLNK",
+   "score": 1.1023,
+   "confinement": 0.1023,
+   "n_cell_types": 28,
+   "home": "microglia",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 18.6;lymphoma: 53.4",
+   "description": "B cell linker"
+  },
+  {
+   "gene": "IL6R",
+   "score": 1.1015,
+   "confinement": 0.1015,
+   "n_cell_types": 32,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 83.8",
+   "description": "Interleukin 6 receptor"
+  },
+  {
+   "gene": "HSH2D",
+   "score": 1.0925,
+   "confinement": 0.0925,
+   "n_cell_types": 22,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 50.4;lymphoma: 32.0;Myeloma: 29.7",
+   "description": "Hematopoietic SH2 domain containing"
+  },
+  {
+   "gene": "SEMA4D",
+   "score": 1.0899,
+   "confinement": 0.0899,
+   "n_cell_types": 31,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 47.6",
+   "description": "Semaphorin 4D"
+  },
+  {
+   "gene": "CCDC69",
+   "score": 1.0853,
+   "confinement": 0.0853,
+   "n_cell_types": 38,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 41.0;lymphoma: 129.6;Myeloma: 60.0",
+   "description": "Coiled-coil domain containing 69"
+  },
+  {
+   "gene": "CD72",
+   "score": 1.0848,
+   "confinement": 0.0848,
+   "n_cell_types": 29,
+   "home": "b-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 20.9;lymphoma: 39.1",
+   "description": "CD72 molecule"
+  },
+  {
+   "gene": "HERPUD1",
+   "score": 1.083,
+   "confinement": 0.083,
+   "n_cell_types": 32,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 300.3",
+   "description": "Homocysteine inducible ER protein with ubiquit"
+  },
+  {
+   "gene": "KCNE3",
+   "score": 1.0813,
+   "confinement": 0.0813,
+   "n_cell_types": 26,
+   "home": "kupffer cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Bone cancer: 68.1;cervical cancer: 61.1",
+   "description": "Potassium voltage-gated channel subfamily E re"
+  },
+  {
+   "gene": "TRIB1",
+   "score": 1.0804,
+   "confinement": 0.0804,
+   "n_cell_types": 40,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "Myeloma: 114.7",
+   "description": "Tribbles pseudokinase 1"
+  },
+  {
+   "gene": "IL12RB1",
+   "score": 1.0778,
+   "confinement": 0.0778,
+   "n_cell_types": 27,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 9.4;lymphoma: 19.8;Myeloma: 26.5",
+   "description": "Interleukin 12 receptor subunit beta 1"
+  },
+  {
+   "gene": "GAS7",
+   "score": 1.0701,
+   "confinement": 0.0701,
+   "n_cell_types": 38,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "skin cancer: 129.9",
+   "description": "Growth arrest specific 7"
+  },
+  {
+   "gene": "ARL4C",
+   "score": 1.064,
+   "confinement": 0.064,
+   "n_cell_types": 43,
+   "home": "nk-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Kidney cancer: 169.9",
+   "description": "ADP ribosylation factor like GTPase 4C"
+  },
+  {
+   "gene": "SLC7A5",
+   "score": 1.0634,
+   "confinement": 0.0634,
+   "n_cell_types": 45,
+   "home": "pdcs",
+   "expendable_home": true,
+   "cancer_elevated_in": "Adrenocortical cancer: 1339.5",
+   "description": "Solute carrier family 7 member 5"
+  },
+  {
+   "gene": "TXNDC11",
+   "score": 1.0608,
+   "confinement": 0.0608,
+   "n_cell_types": 61,
+   "home": "plasma cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "Gallbladder cancer: 119.2;Myeloma: 175.3",
+   "description": "Thioredoxin domain containing 11"
+  },
+  {
+   "gene": "ARHGEF6",
+   "score": 1.0583,
+   "confinement": 0.0583,
+   "n_cell_types": 44,
+   "home": "microglia",
+   "expendable_home": true,
+   "cancer_elevated_in": "Leukemia: 97.4;lymphoma: 38.7",
+   "description": "Rac/Cdc42 guanine nucleotide exchange factor 6"
+  },
+  {
+   "gene": "TGFBR1",
+   "score": 1.0549,
+   "confinement": 0.0549,
+   "n_cell_types": 59,
+   "home": "microglia",
+   "expendable_home": true,
+   "cancer_elevated_in": "Adrenocortical cancer: 123.2",
+   "description": "Transforming growth factor beta receptor 1"
+  },
+  {
+   "gene": "SWAP70",
+   "score": 1.0416,
+   "confinement": 0.0416,
+   "n_cell_types": 83,
+   "home": "b-cells",
+   "expendable_home": true,
+   "cancer_elevated_in": "lymphoma: 134.6",
+   "description": "Switching B cell complex subunit SWAP70"
+  },
+  {
+   "gene": "DAGLB",
+   "score": 1.0376,
+   "confinement": 0.0376,
+   "n_cell_types": 106,
+   "home": "microglia",
+   "expendable_home": true,
+   "cancer_elevated_in": "Adrenocortical cancer: 88.5",
+   "description": "Diacylglycerol lipase beta"
+  },
+  {
+   "gene": "AKAP10",
+   "score": 1.0263,
+   "confinement": 0.0263,
+   "n_cell_types": 137,
+   "home": "neutrophils",
+   "expendable_home": true,
+   "cancer_elevated_in": "testis cancer: 78.1",
+   "description": "A-kinase anchoring protein 10"
+  },
+  {
+   "gene": "DCT",
+   "score": 0.9475,
+   "confinement": 0.9475,
+   "n_cell_types": 1,
+   "home": "melanocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "skin cancer: 361.4",
+   "description": "Dopachrome tautomerase"
+  },
+  {
+   "gene": "ERVFRD-1",
+   "score": 0.9011,
+   "confinement": 0.9011,
+   "n_cell_types": 1,
+   "home": "syncytiotrophoblasts",
+   "expendable_home": false,
+   "cancer_elevated_in": "testis cancer: 35.7",
+   "description": "Endogenous retrovirus group FRD member 1, enve"
+  },
+  {
+   "gene": "GPR50",
+   "score": 0.86,
+   "confinement": 0.86,
+   "n_cell_types": 1,
+   "home": "lactotrophs",
+   "expendable_home": false,
+   "cancer_elevated_in": "Neuroblastoma: 23.7",
+   "description": "G protein-coupled receptor 50"
+  },
+  {
+   "gene": "PSG1",
+   "score": 0.8448,
+   "confinement": 0.8448,
+   "n_cell_types": 1,
+   "home": "syncytiotrophoblasts",
+   "expendable_home": false,
+   "cancer_elevated_in": "thyroid cancer: 173.3",
+   "description": "Pregnancy specific beta-1-glycoprotein 1"
+  },
+  {
+   "gene": "ITGB3",
+   "score": 0.7975,
+   "confinement": 0.7975,
+   "n_cell_types": 2,
+   "home": "platelets",
+   "expendable_home": false,
+   "cancer_elevated_in": "Kidney cancer: 99.0;skin cancer: 125.1",
+   "description": "Integrin subunit beta 3"
+  },
+  {
+   "gene": "SLCO1B3",
+   "score": 0.7326,
+   "confinement": 0.7326,
+   "n_cell_types": 2,
+   "home": "hepatocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bile duct cancer: 53.7",
+   "description": "Solute carrier organic anion transporter famil"
+  },
+  {
+   "gene": "ASGR2",
+   "score": 0.7021,
+   "confinement": 0.7021,
+   "n_cell_types": 2,
+   "home": "hepatocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "liver cancer: 99.3",
+   "description": "Asialoglycoprotein receptor 2"
+  },
+  {
+   "gene": "SCEL",
+   "score": 0.6999,
+   "confinement": 0.6999,
+   "n_cell_types": 3,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Gallbladder cancer: 54.0;pancreatic cancer: 51.0",
+   "description": "Sciellin"
+  },
+  {
+   "gene": "PI3",
+   "score": 0.6816,
+   "confinement": 0.6816,
+   "n_cell_types": 3,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "head and neck cancer: 544.0;prostate cancer: 235.4",
+   "description": "Peptidase inhibitor 3"
+  },
+  {
+   "gene": "RAET1L",
+   "score": 0.66,
+   "confinement": 0.66,
+   "n_cell_types": 4,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "cervical cancer: 14.0;Gallbladder cancer: 20.6",
+   "description": "Retinoic acid early transcript 1L"
+  },
+  {
+   "gene": "LIPI",
+   "score": 0.6493,
+   "confinement": 0.6493,
+   "n_cell_types": 2,
+   "home": "epididymal principal cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bone cancer: 22.4",
+   "description": "Lipase I"
+  },
+  {
+   "gene": "GAGE12J",
+   "score": 0.6471,
+   "confinement": 0.6471,
+   "n_cell_types": 2,
+   "home": "differentiating spermatogonia",
+   "expendable_home": false,
+   "cancer_elevated_in": "liver cancer: 59.7;Myeloma: 87.5",
+   "description": "G antigen 12J"
+  },
+  {
+   "gene": "S100A9",
+   "score": 0.6405,
+   "confinement": 0.6405,
+   "n_cell_types": 2,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "breast cancer: 536.0;head and neck cancer: 1157.4",
+   "description": "S100 calcium binding protein A9"
+  },
+  {
+   "gene": "GABRA5",
+   "score": 0.6207,
+   "confinement": 0.6207,
+   "n_cell_types": 3,
+   "home": "retinal bipolar cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Rhabdoid: 22.0",
+   "description": "Gamma-aminobutyric acid type A receptor subuni"
+  },
+  {
+   "gene": "ITGA2B",
+   "score": 0.6076,
+   "confinement": 0.6076,
+   "n_cell_types": 3,
+   "home": "platelets",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 83.1",
+   "description": "Integrin subunit alpha 2b"
+  },
+  {
+   "gene": "TEX13C",
+   "score": 0.5932,
+   "confinement": 0.5932,
+   "n_cell_types": 3,
+   "home": "early primary spermatocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "Gallbladder cancer: 20.5",
+   "description": "TEX13 family member C"
+  },
+  {
+   "gene": "SPINK13",
+   "score": 0.5865,
+   "confinement": 0.5865,
+   "n_cell_types": 3,
+   "home": "epididymal principal cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "cervical cancer: 97.7",
+   "description": "Serine peptidase inhibitor Kazal type 13"
+  },
+  {
+   "gene": "S100A14",
+   "score": 0.58,
+   "confinement": 0.58,
+   "n_cell_types": 2,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Gallbladder cancer: 1004.1",
+   "description": "S100 calcium binding protein A14"
+  },
+  {
+   "gene": "GAGE2A",
+   "score": 0.5726,
+   "confinement": 0.5726,
+   "n_cell_types": 3,
+   "home": "differentiating spermatogonia",
+   "expendable_home": false,
+   "cancer_elevated_in": "Gallbladder cancer: 786.9;liver cancer: 216.0",
+   "description": "G antigen 2A"
+  },
+  {
+   "gene": "ASB5",
+   "score": 0.5704,
+   "confinement": 0.5704,
+   "n_cell_types": 3,
+   "home": "myonuclei",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bile duct cancer: 16.0;Sarcoma: 23.3",
+   "description": "Ankyrin repeat and SOCS box containing 5"
+  },
+  {
+   "gene": "ISLR",
+   "score": 0.5635,
+   "confinement": 0.5635,
+   "n_cell_types": 2,
+   "home": "fibroblasts",
+   "expendable_home": false,
+   "cancer_elevated_in": "Neuroblastoma: 30.9",
+   "description": "Immunoglobulin superfamily containing leucine "
+  },
+  {
+   "gene": "GAGE2E",
+   "score": 0.55,
+   "confinement": 0.55,
+   "n_cell_types": 3,
+   "home": "differentiating spermatogonia",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bone cancer: 135.1;skin cancer: 179.6",
+   "description": "G antigen 2E"
+  },
+  {
+   "gene": "CHRNA3",
+   "score": 0.55,
+   "confinement": 0.55,
+   "n_cell_types": 3,
+   "home": "retinal pigment epithelial cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Neuroblastoma: 170.3",
+   "description": "Cholinergic receptor nicotinic alpha 3 subunit"
+  },
+  {
+   "gene": "KLK7",
+   "score": 0.5395,
+   "confinement": 0.5395,
+   "n_cell_types": 3,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bile duct cancer: 63.9;colorectal cancer: 23.3;Gastric cance",
+   "description": "Kallikrein related peptidase 7"
+  },
+  {
+   "gene": "ANPEP",
+   "score": 0.5386,
+   "confinement": 0.5386,
+   "n_cell_types": 2,
+   "home": "enterocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "Adrenocortical cancer: 455.0",
+   "description": "Alanyl aminopeptidase, membrane"
+  },
+  {
+   "gene": "HAPLN3",
+   "score": 0.5336,
+   "confinement": 0.5336,
+   "n_cell_types": 2,
+   "home": "extravillous trophoblasts",
+   "expendable_home": false,
+   "cancer_elevated_in": "Uterine cancer: 52.1",
+   "description": "Hyaluronan and proteoglycan link protein 3"
+  },
+  {
+   "gene": "GAGE12H",
+   "score": 0.5278,
+   "confinement": 0.5278,
+   "n_cell_types": 3,
+   "home": "differentiating spermatogonia",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bone cancer: 31.0;liver cancer: 72.7;Myeloma: 98.7",
+   "description": "G antigen 12H"
+  },
+  {
+   "gene": "CCDC136",
+   "score": 0.4869,
+   "confinement": 0.4869,
+   "n_cell_types": 3,
+   "home": "late spermatids",
+   "expendable_home": false,
+   "cancer_elevated_in": "Neuroblastoma: 25.2",
+   "description": "Coiled-coil domain containing 136"
+  },
+  {
+   "gene": "TM4SF4",
+   "score": 0.4836,
+   "confinement": 0.4836,
+   "n_cell_types": 4,
+   "home": "cholangiocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bile duct cancer: 68.8;colorectal cancer: 35.5;Gastric cance",
+   "description": "Transmembrane 4 L six family member 4"
+  },
+  {
+   "gene": "CAVIN2",
+   "score": 0.4759,
+   "confinement": 0.4759,
+   "n_cell_types": 3,
+   "home": "platelets",
+   "expendable_home": false,
+   "cancer_elevated_in": "cervical cancer: 65.0",
+   "description": "Caveolae associated protein 2"
+  },
+  {
+   "gene": "ITGA7",
+   "score": 0.4637,
+   "confinement": 0.4637,
+   "n_cell_types": 3,
+   "home": "cardiomyocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "skin cancer: 22.5",
+   "description": "Integrin subunit alpha 7"
+  },
+  {
+   "gene": "CST6",
+   "score": 0.4556,
+   "confinement": 0.4556,
+   "n_cell_types": 5,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bile duct cancer: 203.3;Bladder cancer: 187.9;pancreatic can",
+   "description": "Cystatin E/M"
+  },
+  {
+   "gene": "TEKTIP1",
+   "score": 0.4533,
+   "confinement": 0.4533,
+   "n_cell_types": 3,
+   "home": "early spermatids",
+   "expendable_home": false,
+   "cancer_elevated_in": "skin cancer: 150.5",
+   "description": "Tektin bundle interacting protein 1"
+  },
+  {
+   "gene": "ADORA2A",
+   "score": 0.4529,
+   "confinement": 0.4529,
+   "n_cell_types": 5,
+   "home": "brain inhibitory neurons",
+   "expendable_home": false,
+   "cancer_elevated_in": "lymphoma: 45.6;Myeloma: 39.1",
+   "description": "Adenosine A2a receptor"
+  },
+  {
+   "gene": "LOXHD1",
+   "score": 0.4506,
+   "confinement": 0.4506,
+   "n_cell_types": 4,
+   "home": "late spermatids",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bone cancer: 49.3",
+   "description": "Lipoxygenase homology PLAT domains 1"
+  },
+  {
+   "gene": "PPL",
+   "score": 0.4444,
+   "confinement": 0.4444,
+   "n_cell_types": 2,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Gallbladder cancer: 108.1",
+   "description": "Periplakin"
+  },
+  {
+   "gene": "IGLL1",
+   "score": 0.4411,
+   "confinement": 0.4411,
+   "n_cell_types": 4,
+   "home": "late spermatids",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 379.0;lymphoma: 146.4",
+   "description": "Immunoglobulin lambda like polypeptide 1"
+  },
+  {
+   "gene": "PODXL",
+   "score": 0.43,
+   "confinement": 0.43,
+   "n_cell_types": 4,
+   "home": "podocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "testis cancer: 590.4",
+   "description": "Podocalyxin like"
+  },
+  {
+   "gene": "CD248",
+   "score": 0.4253,
+   "confinement": 0.4253,
+   "n_cell_types": 5,
+   "home": "decidual stromal cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bone cancer: 137.0;Neuroblastoma: 39.8;Sarcoma: 67.1",
+   "description": "CD248 molecule"
+  },
+  {
+   "gene": "CHRNA1",
+   "score": 0.4145,
+   "confinement": 0.4145,
+   "n_cell_types": 3,
+   "home": "myosatellite cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Sarcoma: 107.0",
+   "description": "Cholinergic receptor nicotinic alpha 1 subunit"
+  },
+  {
+   "gene": "CLDN2",
+   "score": 0.4125,
+   "confinement": 0.4125,
+   "n_cell_types": 6,
+   "home": "epididymal efferent duct absorptive cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bile duct cancer: 127.7;Kidney cancer: 98.9",
+   "description": "Claudin 2"
+  },
+  {
+   "gene": "OCA2",
+   "score": 0.4122,
+   "confinement": 0.4122,
+   "n_cell_types": 4,
+   "home": "choroid plexus epithelial cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "skin cancer: 24.6",
+   "description": "OCA2 melanosomal transmembrane protein"
+  },
+  {
+   "gene": "AQP5",
+   "score": 0.4076,
+   "confinement": 0.4076,
+   "n_cell_types": 7,
+   "home": "late spermatids",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bile duct cancer: 57.1;Gastric cancer: 24.2",
+   "description": "Aquaporin 5"
+  },
+  {
+   "gene": "TMEM40",
+   "score": 0.4035,
+   "confinement": 0.4035,
+   "n_cell_types": 4,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Gallbladder cancer: 63.9;head and neck cancer: 46.8",
+   "description": "Transmembrane protein 40"
+  },
+  {
+   "gene": "IRAG2",
+   "score": 0.3987,
+   "confinement": 0.3987,
+   "n_cell_types": 3,
+   "home": "tuft cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 162.1;lymphoma: 324.9;Myeloma: 123.7",
+   "description": "Inositol 1,4,5-triphosphate receptor associate"
+  },
+  {
+   "gene": "ALPP",
+   "score": 0.3873,
+   "confinement": 0.3873,
+   "n_cell_types": 5,
+   "home": "endometrial secretory cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Esophageal cancer: 48.0;Gastric cancer: 52.3",
+   "description": "Alkaline phosphatase, placental"
+  },
+  {
+   "gene": "SIGLEC6",
+   "score": 0.3868,
+   "confinement": 0.3868,
+   "n_cell_types": 4,
+   "home": "syncytiotrophoblasts",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bladder cancer: 7.8;colorectal cancer: 11.8;Leukemia: 25.0",
+   "description": "Sialic acid binding Ig like lectin 6"
+  },
+  {
+   "gene": "CCR7",
+   "score": 0.3787,
+   "confinement": 0.3787,
+   "n_cell_types": 5,
+   "home": "syncytiotrophoblasts",
+   "expendable_home": false,
+   "cancer_elevated_in": "lymphoma: 140.8",
+   "description": "C-C motif chemokine receptor 7"
+  },
+  {
+   "gene": "TGM1",
+   "score": 0.3691,
+   "confinement": 0.3691,
+   "n_cell_types": 5,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "cervical cancer: 41.9",
+   "description": "Transglutaminase 1"
+  },
+  {
+   "gene": "GAGE13",
+   "score": 0.3571,
+   "confinement": 0.3571,
+   "n_cell_types": 4,
+   "home": "early primary spermatocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "Gallbladder cancer: 159.8;liver cancer: 224.7;skin cancer: 1",
+   "description": "G antigen 13"
+  },
+  {
+   "gene": "CA14",
+   "score": 0.3501,
+   "confinement": 0.3501,
+   "n_cell_types": 4,
+   "home": "retinal pigment epithelial cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Rhabdoid: 29.1;skin cancer: 20.9;testis cancer: 13.5",
+   "description": "Carbonic anhydrase 14"
+  },
+  {
+   "gene": "KLRK1",
+   "score": 0.342,
+   "confinement": 0.342,
+   "n_cell_types": 4,
+   "home": "oligodendrocyte progenitor cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 9.9;lymphoma: 31.2",
+   "description": "Killer cell lectin like receptor K1"
+  },
+  {
+   "gene": "GGT1",
+   "score": 0.3381,
+   "confinement": 0.3381,
+   "n_cell_types": 6,
+   "home": "proximal tubule cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Kidney cancer: 119.6",
+   "description": "Gamma-glutamyltransferase 1"
+  },
+  {
+   "gene": "SCHIP1",
+   "score": 0.3303,
+   "confinement": 0.3303,
+   "n_cell_types": 9,
+   "home": "oligodendrocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "Neuroblastoma: 53.4",
+   "description": "Schwannomin interacting protein 1"
+  },
+  {
+   "gene": "CPA4",
+   "score": 0.325,
+   "confinement": 0.325,
+   "n_cell_types": 5,
+   "home": "salivary duct cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Bone cancer: 157.9",
+   "description": "Carboxypeptidase A4"
+  },
+  {
+   "gene": "MCAM",
+   "score": 0.3244,
+   "confinement": 0.3244,
+   "n_cell_types": 6,
+   "home": "vascular smooth muscle cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "skin cancer: 283.7",
+   "description": "Melanoma cell adhesion molecule"
+  },
+  {
+   "gene": "CALML5",
+   "score": 0.3214,
+   "confinement": 0.3214,
+   "n_cell_types": 7,
+   "home": "esophageal apical cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "breast cancer: 184.2;Esophageal cancer: 54.5",
+   "description": "Calmodulin like 5"
+  },
+  {
+   "gene": "TM4SF5",
+   "score": 0.3162,
+   "confinement": 0.3162,
+   "n_cell_types": 7,
+   "home": "enterocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "colorectal cancer: 16.0;Gastric cancer: 17.2;liver cancer: 3",
+   "description": "Transmembrane 4 L six family member 5"
+  },
+  {
+   "gene": "RASGRP2",
+   "score": 0.312,
+   "confinement": 0.312,
+   "n_cell_types": 4,
+   "home": "platelets",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 109.2;lymphoma: 43.8",
+   "description": "RAS guanyl releasing protein 2"
+  },
+  {
+   "gene": "APOD",
+   "score": 0.3117,
+   "confinement": 0.3117,
+   "n_cell_types": 5,
+   "home": "decidual stromal cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "breast cancer: 117.8;prostate cancer: 92.2;skin cancer: 170.",
+   "description": "Apolipoprotein D"
+  },
+  {
+   "gene": "GFI1B",
+   "score": 0.3046,
+   "confinement": 0.3046,
+   "n_cell_types": 7,
+   "home": "platelets",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 46.9",
+   "description": "Growth factor independent 1B transcriptional r"
+  },
+  {
+   "gene": "DOK2",
+   "score": 0.2931,
+   "confinement": 0.2931,
+   "n_cell_types": 9,
+   "home": "platelets",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 36.3;lymphoma: 9.8;Myeloma: 11.1",
+   "description": "Docking protein 2"
+  },
+  {
+   "gene": "ADAM12",
+   "score": 0.2916,
+   "confinement": 0.2916,
+   "n_cell_types": 5,
+   "home": "extravillous trophoblasts",
+   "expendable_home": false,
+   "cancer_elevated_in": "Brain cancer: 41.1;Kidney cancer: 31.8",
+   "description": "ADAM metallopeptidase domain 12"
+  },
+  {
+   "gene": "ICAM2",
+   "score": 0.289,
+   "confinement": 0.289,
+   "n_cell_types": 7,
+   "home": "platelets",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 72.4;lymphoma: 56.2;Myeloma: 73.0",
+   "description": "Intercellular adhesion molecule 2"
+  },
+  {
+   "gene": "MISP",
+   "score": 0.2869,
+   "confinement": 0.2869,
+   "n_cell_types": 7,
+   "home": "enterocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "colorectal cancer: 104.4",
+   "description": "Mitotic spindle positioning"
+  },
+  {
+   "gene": "SSTR3",
+   "score": 0.2865,
+   "confinement": 0.2865,
+   "n_cell_types": 8,
+   "home": "pancreatic islet cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Myeloma: 23.4",
+   "description": "Somatostatin receptor 3"
+  },
+  {
+   "gene": "TM4SF18",
+   "score": 0.2846,
+   "confinement": 0.2846,
+   "n_cell_types": 7,
+   "home": "lymphatic endothelial cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Kidney cancer: 89.0",
+   "description": "Transmembrane 4 L six family member 18"
+  },
+  {
+   "gene": "RHOXF2B",
+   "score": 0.28,
+   "confinement": 0.28,
+   "n_cell_types": 9,
+   "home": "differentiating spermatogonia",
+   "expendable_home": false,
+   "cancer_elevated_in": "Gastric cancer: 17.4;Leukemia: 33.6;Myeloma: 37.2",
+   "description": "Rhox homeobox family member 2B"
+  },
+  {
+   "gene": "GPR143",
+   "score": 0.2775,
+   "confinement": 0.2775,
+   "n_cell_types": 4,
+   "home": "melanocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "skin cancer: 74.2",
+   "description": "G protein-coupled receptor 143"
+  },
+  {
+   "gene": "COL17A1",
+   "score": 0.2696,
+   "confinement": 0.2696,
+   "n_cell_types": 11,
+   "home": "basal keratinocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "cervical cancer: 200.6;head and neck cancer: 440.5",
+   "description": "Collagen type XVII alpha 1 chain"
+  },
+  {
+   "gene": "IL2RA",
+   "score": 0.2666,
+   "confinement": 0.2666,
+   "n_cell_types": 8,
+   "home": "innate lymphoid cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "lymphoma: 158.1",
+   "description": "Interleukin 2 receptor subunit alpha"
+  },
+  {
+   "gene": "CHRNA2",
+   "score": 0.2661,
+   "confinement": 0.2661,
+   "n_cell_types": 6,
+   "home": "retinal amacrine cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "prostate cancer: 26.6",
+   "description": "Cholinergic receptor nicotinic alpha 2 subunit"
+  },
+  {
+   "gene": "TMPRSS15",
+   "score": 0.2643,
+   "confinement": 0.2643,
+   "n_cell_types": 7,
+   "home": "enterocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "Rhabdoid: 56.9",
+   "description": "Transmembrane serine protease 15"
+  },
+  {
+   "gene": "CHRND",
+   "score": 0.2636,
+   "confinement": 0.2636,
+   "n_cell_types": 6,
+   "home": "thymic myoid cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Sarcoma: 23.7",
+   "description": "Cholinergic receptor nicotinic delta subunit"
+  },
+  {
+   "gene": "PLPP1",
+   "score": 0.2595,
+   "confinement": 0.2595,
+   "n_cell_types": 5,
+   "home": "prostatic glandular cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "prostate cancer: 117.5",
+   "description": "Phospholipid phosphatase 1"
+  },
+  {
+   "gene": "PPP1R27",
+   "score": 0.2589,
+   "confinement": 0.2589,
+   "n_cell_types": 6,
+   "home": "thymic myoid cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 66.4",
+   "description": "Protein phosphatase 1 regulatory subunit 27"
+  },
+  {
+   "gene": "MYL4",
+   "score": 0.2578,
+   "confinement": 0.2578,
+   "n_cell_types": 8,
+   "home": "cone photoreceptor cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 71.4;Sarcoma: 44.7;testis cancer: 22.4",
+   "description": "Myosin light chain 4"
+  },
+  {
+   "gene": "MPP1",
+   "score": 0.2572,
+   "confinement": 0.2572,
+   "n_cell_types": 9,
+   "home": "platelets",
+   "expendable_home": false,
+   "cancer_elevated_in": "Leukemia: 109.3",
+   "description": "MAGUK p55 scaffold protein 1"
+  },
+  {
+   "gene": "LGALS4",
+   "score": 0.2548,
+   "confinement": 0.2548,
+   "n_cell_types": 7,
+   "home": "colonocytes",
+   "expendable_home": false,
+   "cancer_elevated_in": "colorectal cancer: 304.6;Gastric cancer: 203.9",
+   "description": "Galectin 4"
+  },
+  {
+   "gene": "ANXA13",
+   "score": 0.2526,
+   "confinement": 0.2526,
+   "n_cell_types": 10,
+   "home": "tuft cells",
+   "expendable_home": false,
+   "cancer_elevated_in": "colorectal cancer: 18.8;Gastric cancer: 33.6;Kidney cancer: ",
+   "description": "Annexin A13"
+  }
+ ]
+}

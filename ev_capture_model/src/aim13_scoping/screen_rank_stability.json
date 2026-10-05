@@ -1,0 +1,522 @@
+{
+ "method": {
+  "delta": 0.25,
+  "n_draws": 2000,
+  "seed": 20260928,
+  "gate": 0.25
+ },
+ "top40_baseline": [
+  {
+   "gene": "ERVFRD-1",
+   "baseline_rank": 1,
+   "median_rank": 1.0,
+   "p5_rank": 1.0,
+   "p95_rank": 2.0,
+   "frac_top10": 1.0,
+   "frac_top25": 1.0,
+   "already_pursued": false
+  },
+  {
+   "gene": "PSG1",
+   "baseline_rank": 2,
+   "median_rank": 3.0,
+   "p5_rank": 2.0,
+   "p95_rank": 4.0,
+   "frac_top10": 1.0,
+   "frac_top25": 1.0,
+   "already_pursued": false
+  },
+  {
+   "gene": "DCT",
+   "baseline_rank": 3,
+   "median_rank": 2.0,
+   "p5_rank": 1.0,
+   "p95_rank": 5.0,
+   "frac_top10": 1.0,
+   "frac_top25": 1.0,
+   "already_pursued": false
+  },
+  {
+   "gene": "TNFRSF13C",
+   "baseline_rank": 4,
+   "median_rank": 6.0,
+   "p5_rank": 4.0,
+   "p95_rank": 18.0,
+   "frac_top10": 0.7675,
+   "frac_top25": 1.0,
+   "already_pursued": true
+  },
+  {
+   "gene": "HAPLN3",
+   "baseline_rank": 5,
+   "median_rank": 7.0,
+   "p5_rank": 4.0,
+   "p95_rank": 20.0,
+   "frac_top10": 0.7245,
+   "frac_top25": 0.9985,
+   "already_pursued": false
+  },
+  {
+   "gene": "CD1B",
+   "baseline_rank": 6,
+   "median_rank": 6.0,
+   "p5_rank": 3.0,
+   "p95_rank": 22.0,
+   "frac_top10": 0.662,
+   "frac_top25": 0.9885,
+   "already_pursued": false
+  },
+  {
+   "gene": "GPR50",
+   "baseline_rank": 7,
+   "median_rank": 8.0,
+   "p5_rank": 3.0,
+   "p95_rank": 26.0,
+   "frac_top10": 0.5825,
+   "frac_top25": 0.9425,
+   "already_pursued": false
+  },
+  {
+   "gene": "CD1E",
+   "baseline_rank": 8,
+   "median_rank": 9.0,
+   "p5_rank": 4.0,
+   "p95_rank": 26.0,
+   "frac_top10": 0.555,
+   "frac_top25": 0.9365,
+   "already_pursued": false
+  },
+  {
+   "gene": "CD27",
+   "baseline_rank": 9,
+   "median_rank": 9.0,
+   "p5_rank": 5.0,
+   "p95_rank": 25.0,
+   "frac_top10": 0.593,
+   "frac_top25": 0.9605,
+   "already_pursued": true
+  },
+  {
+   "gene": "TNFRSF13B",
+   "baseline_rank": 10,
+   "median_rank": 11.0,
+   "p5_rank": 7.0,
+   "p95_rank": 28.0,
+   "frac_top10": 0.433,
+   "frac_top25": 0.8915,
+   "already_pursued": true
+  },
+  {
+   "gene": "LY9",
+   "baseline_rank": 11,
+   "median_rank": 14.0,
+   "p5_rank": 9.0,
+   "p95_rank": 29.0,
+   "frac_top10": 0.148,
+   "frac_top25": 0.8705,
+   "already_pursued": false
+  },
+  {
+   "gene": "CCDC136",
+   "baseline_rank": 12,
+   "median_rank": 13.0,
+   "p5_rank": 6.0,
+   "p95_rank": 30.0,
+   "frac_top10": 0.423,
+   "frac_top25": 0.838,
+   "already_pursued": false
+  },
+  {
+   "gene": "SIGLEC6",
+   "baseline_rank": 13,
+   "median_rank": 17.0,
+   "p5_rank": 10.0,
+   "p95_rank": 31.0,
+   "frac_top10": 0.0585,
+   "frac_top25": 0.8165,
+   "already_pursued": false
+  },
+  {
+   "gene": "FCGR1A",
+   "baseline_rank": 14,
+   "median_rank": 17.0,
+   "p5_rank": 11.0,
+   "p95_rank": 32.0,
+   "frac_top10": 0.0315,
+   "frac_top25": 0.7995,
+   "already_pursued": false
+  },
+  {
+   "gene": "CCR7",
+   "baseline_rank": 15,
+   "median_rank": 18.0,
+   "p5_rank": 12.0,
+   "p95_rank": 32.0,
+   "frac_top10": 0.01,
+   "frac_top25": 0.772,
+   "already_pursued": false
+  },
+  {
+   "gene": "CD248",
+   "baseline_rank": 16,
+   "median_rank": 14.0,
+   "p5_rank": 8.0,
+   "p95_rank": 33.0,
+   "frac_top10": 0.233,
+   "frac_top25": 0.7785,
+   "already_pursued": false
+  },
+  {
+   "gene": "CD79A",
+   "baseline_rank": 17,
+   "median_rank": 17.0,
+   "p5_rank": 10.0,
+   "p95_rank": 33.0,
+   "frac_top10": 0.0555,
+   "frac_top25": 0.749,
+   "already_pursued": true
+  },
+  {
+   "gene": "ITGB3",
+   "baseline_rank": 18,
+   "median_rank": 17.0,
+   "p5_rank": 4.0,
+   "p95_rank": 34.0,
+   "frac_top10": 0.3335,
+   "frac_top25": 0.7145,
+   "already_pursued": false
+  },
+  {
+   "gene": "IGLL1",
+   "baseline_rank": 19,
+   "median_rank": 17.0,
+   "p5_rank": 8.0,
+   "p95_rank": 34.0,
+   "frac_top10": 0.2025,
+   "frac_top25": 0.7205,
+   "already_pursued": false
+  },
+  {
+   "gene": "VPREB1",
+   "baseline_rank": 20,
+   "median_rank": 19.0,
+   "p5_rank": 5.0,
+   "p95_rank": 36.0,
+   "frac_top10": 0.301,
+   "frac_top25": 0.6665,
+   "already_pursued": false
+  },
+  {
+   "gene": "CLDN2",
+   "baseline_rank": 21,
+   "median_rank": 19.0,
+   "p5_rank": 9.0,
+   "p95_rank": 36.0,
+   "frac_top10": 0.132,
+   "frac_top25": 0.6625,
+   "already_pursued": false
+  },
+  {
+   "gene": "RAET1L",
+   "baseline_rank": 22,
+   "median_rank": 20.0,
+   "p5_rank": 6.0,
+   "p95_rank": 36.0,
+   "frac_top10": 0.2515,
+   "frac_top25": 0.6275,
+   "already_pursued": false
+  },
+  {
+   "gene": "AQP5",
+   "baseline_rank": 23,
+   "median_rank": 21.0,
+   "p5_rank": 11.0,
+   "p95_rank": 37.0,
+   "frac_top10": 0.023,
+   "frac_top25": 0.617,
+   "already_pursued": false
+  },
+  {
+   "gene": "CXCR5",
+   "baseline_rank": 24,
+   "median_rank": 24.0,
+   "p5_rank": 17.0,
+   "p95_rank": 38.0,
+   "frac_top10": 0.0,
+   "frac_top25": 0.5695,
+   "already_pursued": false
+  },
+  {
+   "gene": "ADAM12",
+   "baseline_rank": 25,
+   "median_rank": 25.0,
+   "p5_rank": 18.0,
+   "p95_rank": 38.0,
+   "frac_top10": 0.0,
+   "frac_top25": 0.547,
+   "already_pursued": false
+  },
+  {
+   "gene": "IL1RL1",
+   "baseline_rank": 26,
+   "median_rank": 24.0,
+   "p5_rank": 8.0,
+   "p95_rank": 40.0,
+   "frac_top10": 0.144,
+   "frac_top25": 0.5375,
+   "already_pursued": false
+  },
+  {
+   "gene": "GYPA",
+   "baseline_rank": 27,
+   "median_rank": 24.0,
+   "p5_rank": 8.0,
+   "p95_rank": 40.0,
+   "frac_top10": 0.138,
+   "frac_top25": 0.524,
+   "already_pursued": false
+  },
+  {
+   "gene": "SLCO1B3",
+   "baseline_rank": 28,
+   "median_rank": 25.0,
+   "p5_rank": 8.0,
+   "p95_rank": 41.0,
+   "frac_top10": 0.1105,
+   "frac_top25": 0.503,
+   "already_pursued": false
+  },
+  {
+   "gene": "SLAMF1",
+   "baseline_rank": 29,
+   "median_rank": 29.0,
+   "p5_rank": 22.0,
+   "p95_rank": 44.0,
+   "frac_top10": 0.0,
+   "frac_top25": 0.23,
+   "already_pursued": false
+  },
+  {
+   "gene": "ASGR2",
+   "baseline_rank": 30,
+   "median_rank": 29.0,
+   "p5_rank": 11.0,
+   "p95_rank": 45.0,
+   "frac_top10": 0.04,
+   "frac_top25": 0.4145,
+   "already_pursued": false
+  },
+  {
+   "gene": "CD247",
+   "baseline_rank": 31,
+   "median_rank": 30.0,
+   "p5_rank": 11.0,
+   "p95_rank": 45.0,
+   "frac_top10": 0.036,
+   "frac_top25": 0.388,
+   "already_pursued": false
+  },
+  {
+   "gene": "PLPP1",
+   "baseline_rank": 32,
+   "median_rank": 31.0,
+   "p5_rank": 21.0,
+   "p95_rank": 48.0,
+   "frac_top10": 0.0,
+   "frac_top25": 0.25,
+   "already_pursued": false
+  },
+  {
+   "gene": "ITGA2B",
+   "baseline_rank": 33,
+   "median_rank": 32.0,
+   "p5_rank": 15.0,
+   "p95_rank": 48.0,
+   "frac_top10": 0.0045,
+   "frac_top25": 0.308,
+   "already_pursued": false
+  },
+  {
+   "gene": "RHAG",
+   "baseline_rank": 34,
+   "median_rank": 32.0,
+   "p5_rank": 15.0,
+   "p95_rank": 49.0,
+   "frac_top10": 0.0045,
+   "frac_top25": 0.3235,
+   "already_pursued": false
+  },
+  {
+   "gene": "GPR143",
+   "baseline_rank": 35,
+   "median_rank": 34.0,
+   "p5_rank": 20.0,
+   "p95_rank": 51.0,
+   "frac_top10": 0.0,
+   "frac_top25": 0.219,
+   "already_pursued": false
+  },
+  {
+   "gene": "VCAM1",
+   "baseline_rank": 36,
+   "median_rank": 35.0,
+   "p5_rank": 18.0,
+   "p95_rank": 52.0,
+   "frac_top10": 0.001,
+   "frac_top25": 0.243,
+   "already_pursued": false
+  },
+  {
+   "gene": "IRAG2",
+   "baseline_rank": 37,
+   "median_rank": 36.0,
+   "p5_rank": 19.0,
+   "p95_rank": 54.049999999999955,
+   "frac_top10": 0.001,
+   "frac_top25": 0.221,
+   "already_pursued": false
+  },
+  {
+   "gene": "TMEM40",
+   "baseline_rank": 38,
+   "median_rank": 39.0,
+   "p5_rank": 23.0,
+   "p95_rank": 58.0,
+   "frac_top10": 0.0,
+   "frac_top25": 0.0925,
+   "already_pursued": false
+  },
+  {
+   "gene": "IL1R2",
+   "baseline_rank": 39,
+   "median_rank": 39.0,
+   "p5_rank": 23.0,
+   "p95_rank": 52.0,
+   "frac_top10": 0.0,
+   "frac_top25": 0.0965,
+   "already_pursued": false
+  },
+  {
+   "gene": "ANPEP",
+   "baseline_rank": 40,
+   "median_rank": 40.0,
+   "p5_rank": 23.0,
+   "p95_rank": 58.0,
+   "frac_top10": 0.0,
+   "frac_top25": 0.0825,
+   "already_pursued": false
+  }
+ ],
+ "n_top25_in_>=90pct_of_draws": 9,
+ "stable_and_not_already_pursued": [
+  "ERVFRD-1",
+  "PSG1",
+  "DCT",
+  "HAPLN3",
+  "CD1B",
+  "GPR50",
+  "CD1E"
+ ],
+ "n_ranked_after_hygiene": 134,
+ "gate_sweep": {
+  "0.0": {
+   "artefact_ranks": {
+    "AKAP10": 203,
+    "TGFBR1": 213,
+    "SIRPA": 173,
+    "CD3D": 89
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 49,
+   "top100_overlap": 84
+  },
+  "0.05": {
+   "artefact_ranks": {
+    "AKAP10": 214,
+    "TGFBR1": 211,
+    "SIRPA": 172,
+    "CD3D": 88
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 49,
+   "top100_overlap": 85
+  },
+  "0.1": {
+   "artefact_ranks": {
+    "AKAP10": 214,
+    "TGFBR1": 211,
+    "SIRPA": 164,
+    "CD3D": 84
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 49,
+   "top100_overlap": 88
+  },
+  "0.15": {
+   "artefact_ranks": {
+    "AKAP10": 214,
+    "TGFBR1": 211,
+    "SIRPA": 153,
+    "CD3D": 80
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 49,
+   "top100_overlap": 92
+  },
+  "0.2": {
+   "artefact_ranks": {
+    "AKAP10": 214,
+    "TGFBR1": 211,
+    "SIRPA": 156,
+    "CD3D": 76
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 49,
+   "top100_overlap": 94
+  },
+  "0.25": {
+   "artefact_ranks": {
+    "AKAP10": 214,
+    "TGFBR1": 211,
+    "SIRPA": 156,
+    "CD3D": 74
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 50,
+   "top100_overlap": 100
+  },
+  "0.3": {
+   "artefact_ranks": {
+    "AKAP10": 214,
+    "TGFBR1": 211,
+    "SIRPA": 156,
+    "CD3D": 68
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 47,
+   "top100_overlap": 84
+  },
+  "0.35": {
+   "artefact_ranks": {
+    "AKAP10": 214,
+    "TGFBR1": 211,
+    "SIRPA": 156,
+    "CD3D": 65
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 46,
+   "top100_overlap": 81
+  },
+  "0.4": {
+   "artefact_ranks": {
+    "AKAP10": 214,
+    "TGFBR1": 211,
+    "SIRPA": 156,
+    "CD3D": 57
+   },
+   "top25_overlap": 25,
+   "top50_overlap": 42,
+   "top100_overlap": 81
+  }
+ }
+}

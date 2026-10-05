@@ -1,0 +1,15 @@
+{
+  "protocol_sha256": "62eb79d20342c5fa220b75375c3b847108873830486664583ee2ed4fe31a4461",
+  "full_selection_lock_sha256": "c67c4e8e2fccf1ca0b3a36e61a5064b49cc446b6e0a411b191fe3f845ddb07c0",
+  "locked_manifest_sha256": "e3e21adee57ab689b6a69086b4e288d0e7176c7e733d3c01d55e718db29dcbe1",
+  "locked_download_manifest_sha256": "c2e8e14beecd2b7aca89caa9e94adfb814c455f92951a4e42ac4a5742fad40ad",
+  "unique_processed_tables_verified": 456,
+  "new_processed_tables_downloaded": 370,
+  "preexisting_tables_verified": 86,
+  "selected_table_bytes_verified": 306858728,
+  "actual_next_stage_data_bytes": 337290408,
+  "cap_bytes": 524288000,
+  "cap_pass": true,
+  "actual_table_manifest_sha256": "9275d41c22cc9359aa2c21b1b1b72e3fb2bad080534f229f4c5b146ae214f15f",
+  "output_manifest": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\strengthening_execution_Oct2\\next_stage\\analysis\\results\\external_full_actual_download_manifest.tsv"
+}

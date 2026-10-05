@@ -1,0 +1,80 @@
+gene	evidence_rows	previous_use	source_links
+AXL	1	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/41166388/
+B4GALNT1	5	previously_extracted_not_in_those_tables	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Danyelza%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Unituxin%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/24711551/ | https://pubmed.ncbi.nlm.nih.gov/38754916/ | https://pubmed.ncbi.nlm.nih.gov/39537919/
+CA9	2	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/16648493/ | https://pubmed.ncbi.nlm.nih.gov/23423337/
+CCR4	1	validation_or_hedged_or_excluded	https://api.fda.gov/drug/label.json?search=openfda.generic_name:mogamulizumab&limit=1
+CD19	7	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Aucatzyl%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Blincyto%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Breyanzi%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Kymriah%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Tecartus%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Zynlonta%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22axicabtagene+ciloleucel%22&limit=1
+CD22	5	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=moxetumomab&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Besponsa%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/22355053/ | https://pubmed.ncbi.nlm.nih.gov/28983018/ | https://pubmed.ncbi.nlm.nih.gov/33627164/
+CD276	4	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/39775044/ | https://pubmed.ncbi.nlm.nih.gov/40794737/ | https://pubmed.ncbi.nlm.nih.gov/41086386/ | https://pubmed.ncbi.nlm.nih.gov/42487497/
+CD33	3	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Mylotarg%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/25174587/ | https://pubmed.ncbi.nlm.nih.gov/29196412/
+CD37	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/24381226/
+CD38	1	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=dosage_and_administration:%2216+mg/kg%22+AND+dosage_and_administration:daratumumab&limit=1
+CD44	3	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/17062682/ | https://pubmed.ncbi.nlm.nih.gov/18203652/
+CD47	1	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/30811285/
+CD5	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/41633358/
+CD52	2	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Campath%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Lemtrada%22&limit=1
+CD7	3	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/39561281/ | https://pubmed.ncbi.nlm.nih.gov/40712157/ | https://pubmed.ncbi.nlm.nih.gov/42399624/
+CD70	3	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/34726773/ | https://pubmed.ncbi.nlm.nih.gov/39617017/ | https://pubmed.ncbi.nlm.nih.gov/42447427/
+CD79B	1	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Polivy%22&limit=1
+CDH17	2	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/41987415/
+CDH6	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/34515215/
+CEACAM5	4	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/21157437/ | https://pubmed.ncbi.nlm.nih.gov/28366766/ | https://pubmed.ncbi.nlm.nih.gov/35026412/ | https://pubmed.ncbi.nlm.nih.gov/38750034/
+CLDN18	2	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Vyloy%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/35534566/
+CLDN6	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/37872225/
+CLEC12A	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/35799191/
+CTAG1B	2	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/21282551/ | https://pubmed.ncbi.nlm.nih.gov/25538264/
+DLL3	3	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=tarlatamab&limit=1 | https://pubmed.ncbi.nlm.nih.gov/27932068/ | https://pubmed.ncbi.nlm.nih.gov/36689692/
+EGFR	9	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=necitumumab&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Erbitux%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Vectibix%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/29075855/ | https://pubmed.ncbi.nlm.nih.gov/29138340/ | https://pubmed.ncbi.nlm.nih.gov/29533458/ | https://pubmed.ncbi.nlm.nih.gov/30882547/ | https://pubmed.ncbi.nlm.nih.gov/32527643/ | https://pubmed.ncbi.nlm.nih.gov/34032893/
+EGFR/MET	1	previously_extracted_not_in_those_tables	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Rybrevant%22&limit=1
+ENPP3	2	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/29848572/
+EPCAM	3	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/16930989/ | https://pubmed.ncbi.nlm.nih.gov/19633042/ | https://pubmed.ncbi.nlm.nih.gov/20473913/
+EPHA2	1	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/22370972/
+ERBB2	8	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name.exact:%22Herceptin%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Enhertu%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Kadcyla%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Margenza%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Perjeta%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Ziihera%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/20179677/ | https://pubmed.ncbi.nlm.nih.gov/25800760/
+ERBB2/ERBB3	1	previously_extracted_not_in_those_tables	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Bizengri%22&limit=1
+ERBB3	1	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/34548309/
+F3	1	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Tivdak%22&limit=1
+FAP	1	discovery_or_original_exclusion	
+FGFR2	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/32167861/
+FOLH1	2	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Pluvicto%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/33172323/
+FOLR1	1	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Elahere%22&limit=1
+GPA33	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/16000579/
+GPC3	2	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/32371538/ | https://pubmed.ncbi.nlm.nih.gov/39604730/
+GPNMB	1	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/25267741/
+GPRC5D	1	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Talvey%22&limit=1
+GUCY2C	3	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/39298141/ | https://pubmed.ncbi.nlm.nih.gov/42241671/ | https://pubmed.ncbi.nlm.nih.gov/42696650/
+HAVCR1	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/32472319/
+IL13RA2	2	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/35100373/ | https://pubmed.ncbi.nlm.nih.gov/38480922/
+IL2RA	1	validation_or_hedged_or_excluded	https://api.fda.gov/drug/label.json?search=openfda.generic_name:denileukin&limit=1
+IL3RA	5	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Elzonris%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/24859366/ | https://pubmed.ncbi.nlm.nih.gov/32929488/ | https://pubmed.ncbi.nlm.nih.gov/38423051/ | https://pubmed.ncbi.nlm.nih.gov/42681647/
+KLK2	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/40450573/
+LRRC15	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/33820780/
+LY6E	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/32694157/
+MAGEA12	2	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/23377668/ | https://pubmed.ncbi.nlm.nih.gov/23770775/
+MAGEA4	1	validation_or_hedged_or_excluded	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Tecelra%22&limit=1
+MET	1	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Emrelis%22&limit=1
+MLANA	1	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/19451549/
+MS4A1	4	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name.exact:%22Rituxan%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Columvi%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Epkinly%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Lunsumio%22&limit=1
+MSLN	7	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/17785569/ | https://pubmed.ncbi.nlm.nih.gov/19671873/ | https://pubmed.ncbi.nlm.nih.gov/25231400/ | https://pubmed.ncbi.nlm.nih.gov/31420241/ | https://pubmed.ncbi.nlm.nih.gov/32213105/ | https://pubmed.ncbi.nlm.nih.gov/34266984/ | https://pubmed.ncbi.nlm.nih.gov/35358455/
+MUC1	1	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/26961900/
+MUC16	1	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/27793850/
+NCAM1	2	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/26961907/ | https://pubmed.ncbi.nlm.nih.gov/28341109/
+NECTIN4	1	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22enfortumab+vedotin%22&limit=1
+PDGFRA	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/27291997/
+PMEL	1	validation_or_hedged_or_excluded	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Kimmtrak%22&limit=1
+PSCA	1	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/38867077/
+PTK7	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/34083232/
+PTPRC	1	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/19786617/
+ROR1	2	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/29859176/ | https://pubmed.ncbi.nlm.nih.gov/39466024/
+SDC1	1	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/34529955/
+SEZ6	2	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/39287821/ | https://pubmed.ncbi.nlm.nih.gov/42225988/
+SLAMF7	1	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Empliciti%22&limit=1
+SLC34A2	2	discovery_or_original_exclusion	https://pubmed.ncbi.nlm.nih.gov/29401246/ | https://pubmed.ncbi.nlm.nih.gov/31540980/
+SLC44A4	2	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/26994014/ | https://pubmed.ncbi.nlm.nih.gov/30725389/
+SSTR2	1	validation_or_hedged_or_excluded	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Lutathera%22&limit=1
+STEAP1	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/37861461/
+TACSTD2	2	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Datroway%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Trodelvy%22&limit=1
+TFRC	1	validation_or_hedged_or_excluded	https://pubmed.ncbi.nlm.nih.gov/34083236/
+TNFRSF17	8	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=idecabtagene&limit=1 | https://api.fda.gov/drug/label.json?search=linvoseltamab&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Blenrep%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Carvykti%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Elrexfio%22&limit=1 | https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Tecvayli%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/30442502/ | https://pubmed.ncbi.nlm.nih.gov/34314018/
+TNFRSF8	3	discovery_or_original_exclusion	https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Adcetris%22&limit=1 | https://pubmed.ncbi.nlm.nih.gov/37939262/ | https://pubmed.ncbi.nlm.nih.gov/38555923/
+TRBC1	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/39528665/
+WT1	1	previously_extracted_not_in_those_tables	https://pubmed.ncbi.nlm.nih.gov/28860210/

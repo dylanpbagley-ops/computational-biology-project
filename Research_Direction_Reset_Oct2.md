@@ -1,0 +1,27 @@
+# Superseded direction decision
+
+Dylan subsequently chose to retain and strengthen the existing biology project, including relevant expansion. The external-field pivot described below is not the active plan. Read `PROJECT_STATUS_Oct2.md`.
+
+# Research direction reset — October 2, 2026
+
+Advisory planning note following the user's request to stop spending time on options without convincing prospects. Supersedes the recommendation to automatically expand the option-2 imaging benchmark in Feasibility_Findings_Oct2.md. No additional pilot outcomes were generated for this decision.
+
+The selection standard is now evidence of a plausible substantive contribution, not merely accessible data and measurable error. Option 1's tested candidate failed its gate. Option 2 has technical feasibility but no demonstrated method advantage or sufficiently specific novelty opening; pause it rather than expand it by default. Missing-joint-distribution mathematics remains a reusable component, not a selected standalone project. EV capture-bias work remains conditional on access to independent before/after measurements; do not resume data searches without evidence that access is possible.
+
+The current research is not worthless. Preserve the corrected retrospective association, code, distributional reasoning, and documented negative findings. Do not force a new project to retain the clinical-safety outcome, label panel, exact score, or biological application. A new application may reuse only a fraction of the code while benefiting substantially from the reasoning already developed. A stronger project needs a specific contribution and independent evaluation; heterogeneity itself is an established principle, not sufficient novelty.
+
+## Additional directions screened this turn
+
+1. Solar-power prediction under heterogeneous illumination. Strong connection to nonlinear aggregation and measurable physical outcomes, but generic shading-aware prediction, sensing, and averaging-error corrections have substantial prior work. Not selected for development. Sources: [sampling and averaging study](https://www.krichlab.ca/wp-content/uploads/2023/02/Mikofski-et-al_2023_Effects-of-Solar-Resource-Sampling-Rate-and-Averaging-Interval-on-Hourly-copy.pdf), [sensor placement study](https://doi.org/10.1016/j.solener.2025.114056).
+
+2. Matching reused battery cells under heterogeneity. Real measured performance data exist, but the obvious robust-grouping proposal is already closely occupied. Not selected; no physical battery work proposed. Sources: [2026 robust assembly preprint](https://arxiv.org/abs/2607.12951), [experimental sorting dataset](https://zenodo.org/records/14859405).
+
+3. Reliable sediment-concentration estimates from inexpensive optical measurements. A possible experimental lead, not an approved or established novel project. Optical response depends on the distribution of particle properties; the reference quantity, suspended sediment mass per volume, can in principle be measured independently. The proposed question would be whether a small set of optical readings can flag unreliable calibration transfer or bound concentration error on mixtures not used for calibration. The contribution must improve on existing multi-angle and size/shape-based calibration methods at a stated equipment/measurement budget. Generic size dependence and multi-angle sensing are already known. Sources: [low-cost sensor study](https://www.nature.com/articles/s41598-022-14228-4), [USGS sensor sensitivity study](https://www.usgs.gov/publications/effects-suspended-sediment-concentration-and-grain-size-three-optical-turbidity), [2024 sensor intercomparison](https://www.sciencedirect.com/science/article/pii/S0341816224005046), [2026 calibration study](https://www.sciencedirect.com/science/article/pii/S0301479726001684).
+
+Sediment sensing is worth a short novelty-and-equipment screen if school/home experimental access is available; it is not yet evidence of a better competition project. Calibration flags alone are inadequate if they decline most samples, and independence requires holding out whole material mixtures/batches rather than random repeated readings. Error reduction, useful interval coverage at reasonable width, or reduced reference-measurement burden could provide measurable outcomes. These are possible evaluation criteria, not claimed results.
+
+## Selection rule for further work
+
+Before another large download or model implementation, identify (1) one concrete contribution beyond the nearest published method, (2) an accessible independently measured endpoint, (3) a fair baseline and held-out evaluation, and (4) a small decisive pilot whose result can determine whether to continue. The user confirmed access to a school lab with limited, not yet inventoried equipment. ASU access is possible only through future outreach and is not guaranteed. Design initial work around basic school resources; treat university access as an optional extension. Budget is unconfirmed. Do not infer specific equipment availability or purchase equipment. No outreach was authorized or sent.
+
+There is no evidence-based reason to conclude that all projects using distributional principles are uncompetitive. There is also no validated replacement yet. The recommendation is to change the application and validation strategy as necessary, retaining prior work as background rather than imposing it as a constraint. Competition qualification, awards, and publication are different thresholds; no numerical odds or guarantees are supported.

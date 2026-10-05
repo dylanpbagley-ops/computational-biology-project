@@ -1,0 +1,9 @@
+{
+  "url": "https://cellpainting-gallery.s3.amazonaws.com/?list-type=2&prefix=cpg0000-jump-pilot/source_4/workspace/backend/&max-keys=20",
+  "resolved_url": "https://cellpainting-gallery.s3.amazonaws.com/?list-type=2&prefix=cpg0000-jump-pilot/source_4/workspace/backend/&max-keys=20",
+  "status": 200,
+  "content_type": "application/xml",
+  "bytes": 6665,
+  "sha256": "ae0a7258096ba959da2c45bbbc7e832b9e0578a9fef2230ae72a33887f894983",
+  "retrieved_utc": "2026-10-02T07:10:03.895563+00:00"
+}

@@ -1,0 +1,7 @@
+gsm	participant	visit	specimen_key	n_cells	minimum	p25	median	p75	maximum	mean	feature_scope	barcode_scope
+GSM5971019	PM01	pre	P1393	6207	501	4732.5	12293.0	19581.5	61235	13097.703399387789	all 33,538 Gene Expression features	all filtered matrix barcodes
+GSM5971023	PM01	post	P1555	5028	504	6509.0	13135.5	17819.25	68923	13113.312450278441	all 33,538 Gene Expression features	all filtered matrix barcodes
+GSM5971021	PM07	pre	P1389	5787	500	4053.0	5761.0	7741.0	36849	6199.122343182997	all 33,538 Gene Expression features	all filtered matrix barcodes
+GSM5971025	PM07	post	P1479	4462	501	4223.75	5553.0	7524.25	42327	6378.270058269834	all 33,538 Gene Expression features	all filtered matrix barcodes
+GSM5971020	PM10	pre	P1217	9792	500	4956.0	8591.5	11349.0	50109	8583.86376633987	all 33,538 Gene Expression features	all filtered matrix barcodes
+GSM5971024	PM10	post	P1438	13705	500	1033.0	1318.0	1906.0	54754	1776.6681503101058	all 33,538 Gene Expression features	all filtered matrix barcodes

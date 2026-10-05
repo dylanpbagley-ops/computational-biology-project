@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "scope": "Two candidate eligibility gates only; no pilot or new empirical download.",
+  "generated_utc": "2026-10-04T07:19:44Z",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "h5py": "3.16.0 (existing read-only dependency tree)"
+  },
+  "downloads": {
+    "new_data_files": 0,
+    "new_dependencies": 0,
+    "bytes_downloaded": 0,
+    "caches_written_to_old_directories": false
+  },
+  "candidate_A_antibiotic": {
+    "gate": "Novelty fail; data gate not advanced.",
+    "chosen_contrast": "Pre-exposure fraction of cells neither growing nor dividing versus later ampicillin survivor frequency.",
+    "closest_source": {
+      "title": "Observation of persister cell histories reveals diverse modes of survival in antibiotic persistence",
+      "doi": "10.7554/eLife.79517",
+      "figure": "Fig. 7B-C",
+      "equation": "Eq. 1, f=sP_n; s estimated from late-stationary condition."
+    },
+    "data_access": "Primary article and Dryad metadata inspected. Dryad DOI 10.5061/dryad.s1rn8pkb1 lists source data, but archive not downloaded after exact contrast already failed novelty.",
+    "local_files_inspected": [
+      "direction_landscape_Oct1/antibiotic_aging_article.txt and .html (Kaplan et al. 2021)",
+      "direction_landscape_Oct1/aging_metadata.json",
+      "direction_landscape_Oct1/aging_source_fig1.xlsx through aging_source_fig4.xlsx",
+      "direction_landscape_Oct1/numeric_inventory.json",
+      "direction_landscape_Oct1/bacterial_dryad.txt",
+      "direction_landscape_Oct1/bacterial_file_metadata.json"
+    ],
+    "independent_units": "Not audited after novelty gate failure; plotted figure points are not recast as independent runs."
+  },
+  "candidate_B_hiv": {
+    "gate": "Novelty/comparator unresolved and insufficiently differentiated for this stage; data gate partial, not passed.",
+    "fixed_question": "Does finite baseline single-bnAb susceptibility sampling alter the chosen pair, and does the choice retain measured combo IC80 coverage on viruses excluded from selection?",
+    "wagh_2016": {
+      "doi": "10.1371/journal.ppat.1005520",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1005520",
+      "single_antibody_panel": "200 acute/early pseudoviruses and 15 bnAbs.",
+      "measured_combinations": "10 experimentally tested combinations on a selected 20-virus subset; Methods/Results and Fig. 2. The 20 viruses were chosen for sensitivity to almost all bnAbs and to maximize IC80 range.",
+      "broader_panel_distinction": "The 1,622 combination scores across the 200-virus panel are Bliss-Hill predictions, not empirical combination assays.",
+      "availability": "Paper states data are available in article/supporting information. The observed paired subset is public, but isolate-level numeric rows and donor/lineage grouping were not reconstructed in this stage.",
+      "local_supplement_schema": "Inspected local S1 DOCX and extracted CSV table: one summary coverage table, 21 rows, maximum 7 columns; fields summarize best % coverage by combination size and IC80/IC50 concentration thresholds, not per-isolate neutralization records.",
+      "title": "Optimal Combinations of Broadly Neutralizing Antibodies for Prevention and Treatment of HIV-1 Clade C Infection"
+    },
+    "williamson_2024": {
+      "doi": "10.1371/journal.pone.0310042",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39240995/",
+      "observed": "Individual CATNAP bnAb IC50/IC80 values.",
+      "calculated": "Fig. 4 caption states combination IC50/IC80 values are calculated from observed singles using additive/Bliss-Hill assumptions; not measured combination-assay outcomes.",
+      "method_scope": "Held-out pseudovirus prediction plus synthetic sample-size simulations (2,500 simulated datasets; n=100 through 1,000) do not supply empirical combo neutralization or a finite-panel treatment-choice validation.",
+      "access": "Article, data-availability section, author-repository README and script inspected. One attempted raw data-folder access was blocked by browser access controls; no raw records downloaded. Public CATNAP single-bnAb source is identified and is not described as unavailable."
+    },
+    "laMont_2022": {
+      "doi": "10.7554/eLife.76004",
+      "url": "https://doi.org/10.7554/eLife.76004",
+      "evidence": "Closest clinical decision-model comparison: genetic susceptibility used to model clinical rebound and rank antibody cocktails; these ranks are model-derived, not measured combo-neutralization outcomes.",
+      "title": "Design of an optimal combination therapy with broadly neutralizing antibodies to suppress HIV-1"
+    },
+    "local_files_and_schema": {
+      "hiv_supp_table_0.csv": {
+        "rows": 21,
+        "max_columns": 7,
+        "meaning": "aggregate combination-coverage percentages; no isolate-level outcome rows."
+      },
+      "hiv_escape_sample.csv": {
+        "columns": [
+          "site",
+          "wildtype",
+          "mutation",
+          "mutfracsurvive"
+        ],
+        "meaning": "DMS mutation-level survival fraction, not per-isolate single/combo neutralization."
+      },
+      "hiv_trial_combo.h5": {
+        "bytes": 267024,
+        "sha256": "d0737b436f37c6095368ee1b01d9c1d187be3b9035027b20ec9e41dc8e99d514",
+        "top_level_groups": [
+          "genetic",
+          "viraemic"
+        ],
+        "genetic_inputs": {
+          "patient_records": 7,
+          "days": "Each keyed patient record has day0 and available follow-up days; e.g., patient 91C22 has day0, day98, day112. Day/site records include genetic counts/fields."
+        },
+        "viraemic_trace_inputs": {
+          "patient_records": 7,
+          "patient_ids_match_genetic_group": [
+            "91C22",
+            "91C33",
+            "91C34",
+            "91C35",
+            "9341",
+            "9342",
+            "9343"
+          ],
+          "trace_pairs_per_patient": [
+            14,
+            14,
+            14,
+            10,
+            19,
+            19,
+            19
+          ],
+          "schema": "Each numbered trace point stores child fields 1 (integer time index) and 2 (float trace value); one first point is -4 and 1430.0. HDF5 itself does not label those child fields with units."
+        },
+        "fitted_or_derived_values": {
+          "per_patient_scalars": [
+            "k",
+            "x"
+          ],
+          "top_level_scalars": [
+            "growth",
+            "decay"
+          ],
+          "source_code": "file_access.jl lines 124-136 calculates rebound time as -log(x)/growth; lines 69-85 extracts early genetic theta values for simulations."
+        },
+        "interpretation": "Empirical clinical/genetic trace inputs coexist with fitted scalars and modeled rebound/simulation outputs. This is not measured combination-neutralization data and is not an independent holdout for the finite-panel assay question."
+      }
+    },
+    "units_and_limits": "Wagh has 20 measured virus-level combo outcomes, but their donor/lineage links, replicate structure and exact row joins were not reconstructed. The deliberately selected panel cannot establish representative resistance-tail coverage. The HIVTreatmentOptimization H5 separately preserves seven patient genetic records and seven matching trace records with 10-19 points per person, alongside fitted x/k/growth/decay; repository code derives rebound times and simulates/ranks therapies from these inputs. It is not the selected assay endpoint or an independent neutralization cohort. Do not count concentrations, model predictions or simulations as independent outcomes."
+  },
+  "orientation_limitation": "00_START_HERE_ChatGPT.md and 00_MANIFEST.md were not found by the plan-specified root/filename check; operative status/source references were used.",
+  "preserved_outputs": "All pre-existing labels, predictions, project files, source files and status files were read-only."
+}

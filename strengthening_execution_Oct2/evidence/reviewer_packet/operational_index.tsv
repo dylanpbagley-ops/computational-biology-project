@@ -1,0 +1,45 @@
+record_id	gene	agent_identity	source_urls	initial_eligibility	initial_event	initial_grade	initial_attribution	initial_negative_adequacy	initial_judgment	reviewer	review_date	source_location
+OP01	CD19	tisagenlecleucel / axi-cel	https://pubmed.ncbi.nlm.nih.gov/29385370/									
+OP02	MS4A1	rituximab	https://pubmed.ncbi.nlm.nih.gov/9704735/									
+OP03	CD22	inotuzumab ozogamicin	https://pubmed.ncbi.nlm.nih.gov/27292104/									
+OP04	CD79B	polatuzumab vedotin	https://pubmed.ncbi.nlm.nih.gov/31693429/									
+OP05	TNFRSF17	ide-cel / cilta-cel	https://pubmed.ncbi.nlm.nih.gov/33626253/									
+OP06	SLAMF7	elotuzumab	https://mdanderson.elsevierpure.com/en/publications/elotuzumab-therapy-for-relapsed-or-refractory-multiple-myeloma/									
+OP07	CD38	daratumumab	https://www.nejm.org/doi/full/10.1056/NEJMoa1506348									
+OP08	TNFRSF8	brentuximab vedotin	https://pmc.ncbi.nlm.nih.gov/articles/PMC3646316/									
+OP09	CD33	gemtuzumab ozogamicin	https://pubmed.ncbi.nlm.nih.gov/22482940/									
+OP10	GPRC5D	talquetamab	https://pubmed.ncbi.nlm.nih.gov/36507686/									
+OP11	FOLH1	177Lu-PSMA-617	https://pmc.ncbi.nlm.nih.gov/articles/PMC8446332/									
+OP12	TACSTD2	sacituzumab govitecan	https://pubmed.ncbi.nlm.nih.gov/33882206/									
+OP13	NECTIN4	enfortumab vedotin	https://pmc.ncbi.nlm.nih.gov/articles/PMC7106979/									
+OP14	CLDN18	zolbetuximab	https://pubmed.ncbi.nlm.nih.gov/37068504/									
+OP15	DLL3	tarlatamab	https://pubmed.ncbi.nlm.nih.gov/37861218/									
+OP16	MET	telisotuzumab vedotin	https://pubmed.ncbi.nlm.nih.gov/42368479/									
+OP17	MSLN	anti-MSLN CAR-T / anetumab	https://pmc.ncbi.nlm.nih.gov/articles/PMC8563385/									
+OP18	GPC3	GPC3 CAR-T	https://pubmed.ncbi.nlm.nih.gov/32371538/									
+OP19	CD52	alemtuzumab	https://pubmed.ncbi.nlm.nih.gov/17984186/									
+OP20	ERBB2	HER2 CAR-T (Morgan 2010)	https://pubmed.ncbi.nlm.nih.gov/20179677/; https://scholars.houstonmethodist.org/en/publications/human-epidermal-growth-factor-receptor-2-her2-specific-chimeric-a/									
+OP21	EGFR	anti-EGFR CAR-T / cetuximab	https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-17-0432/274703/p/Phase-I-Study-of-Chimeric-Antigen-Receptor									
+OP22	CEACAM5	CEA CAR-T (Parkhurst 2011)	https://pmc.ncbi.nlm.nih.gov/articles/PMC3048186/									
+OP23	CA9	CAIX CAR-T (Lamers 2006)	https://pubmed.ncbi.nlm.nih.gov/23423337/									
+OP24	CD47	magrolimab	https://pmc.ncbi.nlm.nih.gov/articles/PMC7186585/									
+OP25	CD44	CD44v6 CAR-T / bivatuzumab	https://aacrjournals.org/clincancerres/article/12/20/6064/191658/A-Phase-I-Dose-Escalation-Study-with-Anti-CD44v6; https://pubmed.ncbi.nlm.nih.gov/17351401/									
+OP26	NCAM1	lorvotuzumab mertansine	https://pubmed.ncbi.nlm.nih.gov/26961907/									
+OP27	EPCAM	catumaxomab / adecatumumab	https://pubmed.ncbi.nlm.nih.gov/20473913/									
+OP28	FOLR1	mirvetuximab soravtansine	https://pubmed.ncbi.nlm.nih.gov/30413525/									
+OP29	FAP	FAP CAR-T	https://pubmed.ncbi.nlm.nih.gov/23712432/									
+OP30	F3	tisotumab vedotin (Tivdak)	https://www.sciencedirect.com/science/article/pii/S0090825822001202									
+OP31	FCER2	lumiliximab										
+OP32	GPNMB	glembatumumab vedotin (CDX-011)										
+OP33	CD40	dacetuzumab										
+OP34	CD80	galiximab										
+OP35	HLA-DRA	apolizumab										
+OP36	SDC1	indatuximab ravtansine										
+OP37	MUC1	several										
+OP38	MUC16	oregovomab										
+OP39	SLC34A2	lifastuzumab vedotin										
+OP40	CD74	milatuzumab										
+OP41	ERBB3	patritumab deruxtecan										
+OP42	AXL	enapotamab vedotin										
+OP43	PTPRC	(none)										
+OP44	IL3RA	tagraxofusp vs talacotuzumab										

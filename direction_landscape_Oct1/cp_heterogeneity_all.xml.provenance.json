@@ -1,0 +1,9 @@
+{
+  "url": "https://cellpainting-gallery.s3.amazonaws.com/?list-type=2&prefix=cpg0015-heterogeneity/&max-keys=1000",
+  "resolved_url": "https://cellpainting-gallery.s3.amazonaws.com/?list-type=2&prefix=cpg0015-heterogeneity/&max-keys=1000",
+  "status": 200,
+  "content_type": "application/xml",
+  "bytes": 207904,
+  "sha256": "cce1dcb3aab9acfda32dccd1d6c43946e9a2e3d3d7070303a57d68cd9ed4a3d6",
+  "retrieved_utc": "2026-10-02T07:11:35.900407+00:00"
+}

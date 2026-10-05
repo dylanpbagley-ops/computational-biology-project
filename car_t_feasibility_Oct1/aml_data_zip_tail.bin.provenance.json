@@ -1,0 +1,33 @@
+{
+  "requested_url": "https://zenodo.org/api/records/12823159/files/data.zip/content",
+  "resolved_url": "https://zenodo.org/api/records/12823159/files/data.zip/content",
+  "status": 206,
+  "headers": {
+    "server": "nginx",
+    "date": "Fri, 02 Oct 2026 06:04:36 GMT",
+    "content-type": "application/octet-stream",
+    "content-length": "284007",
+    "content-disposition": "attachment; filename=data.zip",
+    "content-range": "bytes 2437400000-2437684006/2437684007",
+    "accept-ranges": "bytes",
+    "content-security-policy": "default-src 'self' fonts.googleapis.com *.gstatic.com data: 'unsafe-inline' 'unsafe-eval' blob: zenodo-broker.web.cern.ch zenodo-broker-qa.web.cern.ch maxcdn.bootstrapcdn.com cdnjs.cloudflare.com ajax.googleapis.com webanalytics.web.cern.ch",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-permitted-cross-domain-policies": "none",
+    "x-frame-options": "sameorigin",
+    "x-xss-protection": "1; mode=block",
+    "x-ratelimit-limit": "133",
+    "x-ratelimit-remaining": "132",
+    "x-ratelimit-reset": "1790921137",
+    "retry-after": "60",
+    "strict-transport-security": "max-age=31556926; includeSubDomains",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Content-Type, ETag, Link, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset",
+    "x-source": "files-primary",
+    "connection": "close"
+  },
+  "bytes": 284007,
+  "sha256": "819d635723c4e4d58c69cbaa9e5944c8e3b33c10f749eb9d9d0fdb18350f848f",
+  "retrieved_utc": "2026-10-02T06:04:38.715406+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://cellpainting-gallery.s3.amazonaws.com/?list-type=2&prefix=cpg0010-caie-drugresponse/&max-keys=20",
+  "resolved_url": "https://cellpainting-gallery.s3.amazonaws.com/?list-type=2&prefix=cpg0010-caie-drugresponse/&max-keys=20",
+  "status": 200,
+  "content_type": "application/xml",
+  "bytes": 6571,
+  "sha256": "6bd39c9ccdc90b44b166f0f26656dbed0c5b963d57c9e159df9f9fd1b9f3e79d",
+  "retrieved_utc": "2026-10-02T07:12:20.459347+00:00"
+}

@@ -1,0 +1,2573 @@
+
+
+
+    
+
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+        
+  
+
+
+  
+
+
+
+  
+  
+    
+
+  
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+
+        
+            Tuning the Antigen Density Requirement for CAR T Cell Activity - PMC
+        
+
+        
+        
+  
+  
+
+
+
+
+
+
+  
+    
+
+    
+        
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+        
+    
+      Skip to main content
+    
+
+
+        
+            
+
+
+
+    
+        
+            
+                
+                    
+                
+
+                
+                    
+
+                        An official website of the United States government
+                    
+                    Here's how you know
+                
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                    Here's how you know
+                
+
+        
+    
+        
+            
+        
+
+
+            
+        
+
+        
+            
+                
+                    
+                    
+                        
+
+                            Official websites use .gov
+                            
+                            A
+                            .gov website belongs to an official
+                            government organization in the United States.
+                        
+                    
+                
+
+                
+                    
+
+                    
+                        
+
+                            Secure .gov websites use HTTPS
+                            
+                            A lock (
+                            
+                                
+                                    Lock
+                                    
+                                    Locked padlock icon
+                                    
+                                    
+                                
+) or https:// means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            
+                        
+                    
+                
+            
+        
+    
+
+        
+
+        
+    
+    
+    
+
+
+
+
+
+
+
+    
+        
+            
+                
+            
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                
+                    
+                
+            
+
+        
+    
+        
+            
+        
+
+
+
+            
+                
+                
+                    
+                        
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                            
+
+
+
+    
+
+
+                            Search
+                        
+
+        
+    
+        
+            
+        
+
+
+                    
+
+                    
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                                
+
+
+
+    
+
+
+
+                                Log in
+
+                                
+                                
+
+
+
+    
+
+
+
+                                
+                                
+
+
+
+    
+
+
+                            
+
+        
+    
+        
+            
+        
+
+
+
+                            
+                            
+                                
+                                    
+
+                                        
+                                        
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Dashboard
+        
+
+        
+    
+
+
+                                    
+                                
+                                    
+
+                                        
+                                        
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Publications
+        
+
+        
+    
+
+
+                                    
+                                
+                                    
+
+                                        
+                                        
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Account settings
+        
+
+        
+    
+
+
+                                    
+                                
+                                
+
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        Log out
+
+        
+    
+        
+            
+        
+
+
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+
+    
+    
+        
+            
+                
+                    
+                        Search…
+                    
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                        
+                            Search NCBI
+                        
+                    
+
+        
+    
+        
+            
+        
+
+
+                
+
+                
+            
+        
+    
+
+    
+        
+
+            Primary site navigation
+        
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+            
+        
+
+        
+    
+        
+            
+        
+
+
+
+        
+            
+            
+                
+                    Search
+                
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                    
+                    
+                
+
+        
+    
+        
+            
+        
+
+
+            
+
+            
+        
+
+        
+        
+        
+
+        
+            
+                
+
+                    Logged in as:
+                    
+                
+                
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Dashboard
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Publications
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Account settings
+        
+
+        
+    
+
+
+                        
+                    
+                
+            
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        Log in
+
+        
+    
+        
+            
+        
+
+
+    
+
+
+    
+    
+        
+
+
+
+    
+        
+           
+               
+           
+            
+                
+                
+            
+        
+        
+            
+
+
+
+Search PMC Full-Text Archive
+
+
+
+
+Search in PMC
+
+
+
+            
+                
+                    
+
+                        
+                            
+                                Journal List
+                            
+                        
+                    
+                    
+
+                        
+                            
+                                User Guide
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+    
+
+
+        
+        
+
+       
+  
+
+    
+
+   
+
+
+
+
+    
+        
+             
+                
+                    
+
+                        
+                            
+                        
+                    
+                    
+                    
+
+                        
+                                
+                        
+                    
+                    
+                    
+                        
+
+                             
+
+                                 
+                            
+                        
+                    
+                    
+
+                        
+                            
+                            
+                        
+                    
+                    
+                    
+
+                        
+                            
+                        
+                    
+                    
+                    
+
+                         
+                            
+                        
+                        
+
+
+    
+          
+PERMALINK
+          
+              
+              
+                  
+                  Copy
+              
+          
+    
+
+                    
+                
+            
+            
+                
+            
+        
+    
+
+    
+      
+        
+            
+                
+                    
+                        
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.
+    Learn more:
+    PMC Disclaimer
+    |
+    
+        PMC Copyright Notice
+    
+
+                    
+                
+                
+                    
+                    
+
+                      
+                        
+
+
+
+Cancer Discov. Author manuscript; available in PMC: 2021 Mar 8.
+
+Published in final edited form as: Cancer Discov. 2020 Mar 19;10(5):702–723. doi: 10.1158/2159-8290.CD-19-0945
+
+
+
+Search in PMC
+
+Search in PubMed
+
+View in NLM Catalog
+
+Add to search
+
+
+
+Tuning the Antigen Density Requirement for CAR T Cell Activity
+Robbie G Majzner
+
+Robbie G Majzner
+
+1Department of Pediatrics, Stanford University School of Medicine, Stanford, CA
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Robbie G Majzner
+
+
+1,2, Skyler P Rietberg
+
+Skyler P Rietberg
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Skyler P Rietberg
+
+
+2, Elena Sotillo
+
+Elena Sotillo
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Elena Sotillo
+
+
+2, Rui Dong
+
+Rui Dong
+
+3Department of Cellular and Molecular Pharmacology, University of California, San Francisco
+Find articles by Rui Dong
+
+
+3, Vipul T Vachharajani
+
+Vipul T Vachharajani
+
+4Biophysics Program, Stanford University, Stanford, CA
+Find articles by Vipul T Vachharajani
+
+
+4, Louai Labanieh
+
+Louai Labanieh
+
+5Department of Bioengineering, Stanford University School of Medicine, Stanford, CA
+Find articles by Louai Labanieh
+
+
+5, June H Myklebust
+
+June H Myklebust
+
+6Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway
+
+7KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway
+Find articles by June H Myklebust
+
+
+6,7, Meena Kadapakkam
+
+Meena Kadapakkam
+
+1Department of Pediatrics, Stanford University School of Medicine, Stanford, CA
+Find articles by Meena Kadapakkam
+
+
+1, Evan W Weber
+
+Evan W Weber
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Evan W Weber
+
+
+2, Aidan M Tousley
+
+Aidan M Tousley
+
+1Department of Pediatrics, Stanford University School of Medicine, Stanford, CA
+Find articles by Aidan M Tousley
+
+
+1, Rebecca M Richards
+
+Rebecca M Richards
+
+1Department of Pediatrics, Stanford University School of Medicine, Stanford, CA
+Find articles by Rebecca M Richards
+
+
+1, Sabine Heitzeneder
+
+Sabine Heitzeneder
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Sabine Heitzeneder
+
+
+2, Sang M Nguyen
+
+Sang M Nguyen
+
+1Department of Pediatrics, Stanford University School of Medicine, Stanford, CA
+Find articles by Sang M Nguyen
+
+
+1, Volker Wiebking
+
+Volker Wiebking
+
+1Department of Pediatrics, Stanford University School of Medicine, Stanford, CA
+Find articles by Volker Wiebking
+
+
+1, Johanna Theruvath
+
+Johanna Theruvath
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Johanna Theruvath
+
+
+2, Rachel C Lynn
+
+Rachel C Lynn
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Rachel C Lynn
+
+
+2, Peng Xu
+
+Peng Xu
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Peng Xu
+
+
+2, Alexander R Dunn
+
+Alexander R Dunn
+
+8Department of Chemical Engineering, Stanford University, Stanford, CA
+
+9Cardiovascular Institute, Stanford University School of Medicine, Stanford, CA
+Find articles by Alexander R Dunn
+
+
+8,9, Ronald D Vale
+
+Ronald D Vale
+
+3Department of Cellular and Molecular Pharmacology, University of California, San Francisco
+
+10The Howard Hughes Medical Institute, University of California, San Francisco, San Francisco, CA
+Find articles by Ronald D Vale
+
+
+3,10, Crystal L Mackall
+
+Crystal L Mackall
+
+1Department of Pediatrics, Stanford University School of Medicine, Stanford, CA
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+
+11Department of Medicine, Stanford University School of Medicine, Stanford, CA
+Find articles by Crystal L Mackall
+
+
+1,2,11,*
+
+
+
+Author information
+
+Article notes
+
+Copyright and License information
+
+
+
+
+1Department of Pediatrics, Stanford University School of Medicine, Stanford, CA
+
+2Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA
+
+3Department of Cellular and Molecular Pharmacology, University of California, San Francisco
+
+4Biophysics Program, Stanford University, Stanford, CA
+
+5Department of Bioengineering, Stanford University School of Medicine, Stanford, CA
+
+6Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway
+
+7KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway
+
+8Department of Chemical Engineering, Stanford University, Stanford, CA
+
+9Cardiovascular Institute, Stanford University School of Medicine, Stanford, CA
+
+10The Howard Hughes Medical Institute, University of California, San Francisco, San Francisco, CA
+
+11Department of Medicine, Stanford University School of Medicine, Stanford, CA
+
+
+Author Contributions: RGM, ES, JHM, EWW, ARD, RDV, and CLM designed the research; RGM, SPR, ES, RD, VTV, LL, JHM, MK, EWW, AMT, RMR, SH, SMN, VW, JT, RCL, and PX conducted experiments; RGM, SPR, ES, RD, VTV, JHM, RMR, EWW, and CLM analyzed data; RGM and CLM wrote the manuscript.
+
+*
+To whom correspondence should be addressed: Crystal L. Mackall, MD, 265 Campus Dr G3141A, MC5456, Stanford, California 94305, (650) 725-2553, cmackall@stanford.edu
+
+
+
+
+
+Issue date 2020 May.
+PMC Copyright notice
+
+PMCID: PMC7939454  NIHMSID: NIHMS1578835  PMID: 32193224
+
+The publisher's version of this article is available at Cancer Discov
+
+
+
+
+
+Abstract
+
+Insufficient reactivity against cells with low antigen density has emerged as an important cause of CAR resistance. Little is known about factors that modulate the threshold for antigen recognition. We demonstrate that CD19 CAR activity is dependent upon antigen density and the CAR construct in axicabtagene-ciloleucel (CD19-CD28ζ) outperforms that in tisagenlecleucel (CD19–4-1BBζ) against antigen low tumors. Enhancing signal strength by including additional ITAMs in the CAR enables recognition of low antigen density cells, while ITAM deletions blunt signal and increase the antigen density threshold. Further, replacement of the CD8 hinge-transmembrane (H/T) region of a 4–1BBζ CAR with a CD28-H/T lowers the threshold for CAR reactivity despite identical signaling molecules. CARs incorporating a CD28-H/T demonstrate a more stable and efficient immunological synapse. Precise design of CARs can tune the threshold for antigen recognition and endow 4–1BBζ-CARs with enhanced capacity to recognize antigen low targets while retaining a superior capacity for persistence.
+
+Introduction
+
+CD19 CAR T cell therapy has dramatically altered the landscape for patients with relapsed and refractory B cell malignancies, with two FDA approved agents (tisagenlecleucel and axicabtagene ciloleucel) for treatment of diffuse large B cell lymphoma (DLBCL) and B cell acute lymphoblastic leukemia (B-ALL)(1,2). Remarkable responses following one dose of CD19-CAR T cells in patients with relapsed and refractory disease surpassed all expectations(3–11). However, emerging follow-up data demonstrates that only 30–50% of patients experience long-term disease control following CD19-CAR therapy(5,7,12). Furthermore, reproducible clinical activity in other malignancies such as myeloid leukemias and solid tumors has not yet been observed. In order to diminish relapse rate in B-ALL, improve response rate in DLBCL, and translate the success of CAR T cells to diseases outside of B cell malignancies, a deeper understanding of factors associated with primary and acquired resistance to this class of therapeutics is required(13–15).
+
+Antigen density has emerged as a major factor influencing the activity of CAR T cells(12,14,16–22). Across antigens and studies, CAR T cell potency is highly dependent on target antigen expression, and CARs often fail to exert meaningful anti-tumor activity when antigen expression falls below a certain threshold, an attribute that differentiates CARs from native T cell receptors (TCR)(23,24). When antigens are shared between tumors and vital tissues, such as those expressed by solid tumors, the requirement for high antigen density may open a therapeutic window that allows for targeting of normal tissue antigens(17,19,20,25–29). However, escape with antigen low variants also provides a pathway for resistance to therapy, as evidenced in a recent clinical trial of CD22 CAR T cells for patients with relapsed and refractory B-ALL, where high complete response rates were tempered by frequent relapses driven by selection of variants that expressed CD22 at levels below the threshold required for CAR T cell efficacy(21).
+
+CD19 expression is high in a majority of B-ALL cases, but here we present data demonstrating high inter- and intrapatient heterogeneity of CD19 and other surface protein expression in B cell lymphomas. We further demonstrate that efficacy of CAR T cells targeting CD19 or Her2 is proportional to target antigen density, but that CD28 endodomain-containing CARs outperform 4–1BB endodomain-containing CARs in response to targets with low antigen density. Recent work has focused on reducing CAR signal strength and cytokine production to reduce toxicity(30–32) and enhance CAR T cell persistence(33), but we demonstrate that such alterations result in a greater likelihood of resistance due to selection of antigen low variants, since strength of signal is a major factor driving the antigen density threshold needed for CAR T cell activity. We further demonstrate that seemingly minor structural changes in CAR design can tune the threshold of antigen density required for optimal CAR T cell activity. These insights provide new opportunities for more precise engineering of CAR T cell receptors designed for optimal recognition of target antigens on cancer while avoiding reactivity towards the same antigens expressed at lower levels on non-malignant tissues.
+
+Results
+
+
+B cell malignancies exhibit a wide range of expression levels of pan-B cell antigens, including CD19, and low CD19 expression limits CD19 CAR reactivity
+
+With few exceptions, CD19 expression is high on newly diagnosed B-ALL(34), but CD19 expression in other B cell malignances is not as well characterized. Using flow cytometry, we measured CD19 expression levels on a panel of diagnostic samples obtained from patients with DLBCL, mantle cell lymphoma (MCL), follicular lymphoma (FL), and chronic lymphocytic leukemia (CLL). While CLL samples consistently demonstrated CD19 expression levels that approximated those seen on normal B cells, DLBCL, MCL and FL samples demonstrated significantly lower median CD19 levels, with the greatest interpatient variability observed for DLBCL (Figure 1a). Further, lymphoma cells from individual DLBCL patients at the time of initial diagnosis displayed significant heterogeneity in CD19 expression, with some cases even containing lymphoma cells with undetectable levels (Figure 1b). We also found significant inter- and intrapatient heterogeneity in expression of other pan-B cell targets for which CAR T cells have been developed, including CD22(21,35), CD20(18,36,37), CD79b(38), Ig-κ(39,40), and Ig-λ(41) (Supplementary Figure 1a–b). We also semiquantitatively measured the number of CD19, CD22, CD20, CD79b, and Ig-κ molecules on a panel of B cells from healthy donors (Supplementary Figure 1c). Together, these results raise the prospect that limiting antigen density could be an important mechanism of primary and/or acquired resistance to CAR therapeutics for B cell lymphomas.
+
+Figure 1: CD19 antigen density influences CD19 CAR activity.
+
+
+Open in a new tab
+
+(a) Primary diagnostic samples of diffuse large B cell lymphoma (DLBCL), mantle cell lymphoma (MCL), follicular lymphoma (FL), and chronic lymphocytic leukemia (CLL) were analyzed by flow cytometry for expression of CD19 compared to normal B cells from healthy donors. Shown is CD19 protein expression, relative to healthy donor PBMC B cells on a Log2 scale. DLBCL: n=8, FL: n=27, CLL: n=13, MCL: n=35. Statistical differences between groups were analyzed by one-way ANOVA non-parametric test with Dunns post-test correction. (b) Representative contour plots illustrating expression levels of CD19 and CD20 in three DLBCL cases as compared to PBMC B cells from healthy donors. (c) Flow cytometric analysis of the expression levels of truncated CD19 on the surface of a library of NALM6 clones. Number of molecules of CD19 for each clone were semiquantitatively determined by the BD Quantibrite kit. (d) NALM6 clones expressing indicated densities of surface CD19 molecules were cocultured at a 1:1 ratio with CD19–4-1BBζ CAR T cells and tumor cell killing was measured in an Incucyte assay. Representative of six experiments with different T cell donors. Statistical analysis performed with repeated measures ANOVA. (e) CD19–4-1BBζ CAR T cells were labeled with cell trace violet (CTV) and then cocultured at a 1:2 ratio with NALM6 clones expressing either 963 or 45,851 molecules of surface CD19. T cell proliferation was measured by flow cytometry four days later. Representative of three experiments with different T cell donors. (f) CD19–4-1BBζ CAR T cells were cocultured with NALM6 clones expressing various amounts of CD19 for 24 hours and secreted IL-2 was measured by ELISA. Shown is the concentration of cytokine measured as compared to log of the CD19 molecule number for that specific clone and curve fitting was done using a four-parameter variable slope dose-response curve. Representative of six experiments with different T cell donors. For all experiments, error bars represent SD. p < 0.05 was considered statistically significant, and p values are denoted with asterisks as follows: p > 0.05, not significant, NS; * p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001.
+To explore how CD19 antigen density influences CD19 CAR efficacy, we used CRISPR-Cas9 to knockout CD19 from the well described NALM6 B cell leukemia model(16), transduced those cells to express a truncated CD19 protein, and used FACS sorting and single cell cloning to establish a library of NALM6 lines expressing different amounts of surface CD19 (Figure 1c). To exclude any contribution of CD19 signaling in these assays, only the transmembrane and extracellular portions of CD19 were expressed. CD19 signaling is not required for CAR mediated in vivo activity in B-ALL since similar antitumor effects were observed in mice inoculated with a NALM6 clone expressing a comparable amount of truncated CD19 to the wildtype parental cell line (NALM6-CD1945,851) (Supplementary Figure 2a–b). We tested the CD19–4-1BBζ CAR construct contained in tisagenlecleucel in an array of in vitro assays against NALM6 clones expressing different amounts of CD19 on their surface. CD19–4-1BBζ CAR T cells demonstrated reduced killing capacity (Figure 1d), reduced proliferation (Figure 1e) and reduced cytokine production (Figure 1f) in response to lines expressing low levels of CD19 compared to those expressing high levels.
+
+CARs with CD28 costimulatory domains demonstrate enhanced activity against low antigen density targets
+
+To test whether the potency of the CD19–28ζ-CAR T cell construct employed in axicabtagene ciloleucel is limited at lower antigen densities as is the construct in tisagenlecleucel, we compared their function in an array of in vitro assays (Figure 2a, Supplementary Figure 3a–c). Both constructs killed and proliferated in response to the high antigen density clone (NALM6-CD1945,851) equally well, but only the CD19–28ζ construct was able to kill (Figure 2b) and robustly proliferate (Figure 2c) in response to tumor cells expressing low levels of CD19 (NALM6-CD19963). At all antigen densities tested, CD19–28ζ CAR T cells produced more IL-2 in response to antigen encounter than CD19–4-1BBζ CAR T cells, and at low antigen densities, only CD19-CD28ζ produced measurable amounts of IL-2 (Figure 2d). Importantly, cytokine production was reduced even by CD19-CD28ζ CAR T cells when antigen density was low.
+
+Figure 2: CD19-CD28ζ CAR T cells display superior activity compared to CD19–4-1BBζ CAR T cells against low antigen density target cells.
+
+
+Open in a new tab
+
+(a) Schema of CARs employed in these experiments. The CD19–4-1BBζ CAR molecule is identical to the CAR construct contained in tisagenlecleucel while the CD19-CD28ζ CAR molecule is identical to the CAR construct contained in axicabtagene ciloleucel. (b) NALM6 clones expressing either 963 or 45,851 molecules of surface CD19 were cocultured at a 1:1 ratio with either CD19-CD28ζ or CD19–4-1BBζ CAR T cells and tumor cell killing was measured in an Incucyte assay. Representative of six experiments with different T cell donors. Statistical analysis performed with repeated measures ANOVA. (c) CD19-CD28ζ and CD19–4-1BBζ CAR T cells were labeled with cell trace violet (CTV) and then cocultured with NALM6 clones expressing either 963 or 45,851 molecules of surface CD19. T cell proliferation was measured by flow cytometry four days later. Representative of three experiments with different T cell donors. (d) CD19-CD28ζ and CD19–4-1BBζ CAR T cells were cocultured with NALM6 clones expressing various amounts of CD19 for 24 hours and secreted IL-2 was measured in the supernatant by ELISA. Shown is the concentration of cytokine measured as compared to log of the CD19 molecule number for that specific clone and curve fitting was done using a four-parameter variable slope dose-response curve. Representative of six experiments with different T cell donors. (e) One million NALM6-CD192,053 cells were engrafted into NSG mice by tail vein injection. Four days later, mice were injected with 3 million CD19-CD28ζ CAR T cells, CD19–4-1BBζ CAR T cells, or untransduced control T cells (MOCK). Tumor progression was measured by bioluminescence photometry and flux values (photons per second) were calculated using Living Image software. Representative images are shown. (f) Quantified tumor flux values for individual mice treated as in (e). The MOCK group on day +15 were either found dead prior to imaging or sick with limited perfusion such that imaging results were unreliable and were thus excluded. Statistical analysis performed with repeated measures ANOVA. (g) Survival curves shown for mice treated as in (e). Statistical analysis performed with the log-rank test. (e-g) are representative of six experiments with different T cell donors (n=5 mice per group). (h, i) Leukemia cells from the bone marrow of treated mice (n=5) were phenotyped by flow cytometry for expression of CD19 and CD81. The CD19 knockout cell line from cell culture was used as reference control. Shown are representative flow plots (h) and quantified mean flouresence intensity (MFI) data (i). Representative of three different experiments with different T cell donors. Statistical comparisons performed by Mann Whitney between the indicated groups. For in vitro experiments, error bars represent SD and for in vivo experiments, error bars represent SEM. p < 0.05 was considered statistically significant, and p values are denoted with asterisks as follows: p > 0.05, not significant, NS; * p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001.
+To test whether the improved in vitro activity of the CD19-CD28ζ CAR against low antigen density tumors translates in vivo, we treated mice with CD19-CD28ζ, CD19–4-1BBζ, or untransduced MOCK CAR T cells four days after inoculation of CD19 low leukemia (NALM6-CD192,053). In line with our in vitro findings, CD19–4-1BBζ CAR T cells demonstrated minimal anti-tumor activity against CD19-low leukemia and did not increase survival compared to MOCK CAR T cells. Conversely, CD19-CD28ζ CAR T cells demonstrated robust anti-tumor activity and significantly extended survival compared to CD19–4-1BBζ CAR T cells (Figure 2e–g). Ultimately, mice treated with CD19–28ζ CAR T cells developed recurrent leukemia which had significantly downregulated CD19 expression. Conversely, leukemia recovered from mice treated with CD19–4-1BBζ CAR T cells expressed CD19 at levels similar to mice treated with control T cells, consistent with a lack of immune pressure from the CD19–4-1BBζ CAR. CD81, an accessory molecule known to traffic with CD19, was not reduced (Figure 2h–i).
+
+To probe whether the differential antigen density requirement observed between CD19–28ζ and CD19–4-1BBζ CAR T cells was generalizable to other targets, we generated comparable Her2 targeting CARs containing 4–1BB or CD28 costimulatory domains (Supplementary Figure 4a, Supplementary Figure 3a–c) and NALM6 clones expressing differing amounts of surface Her2 (Supplementary Figure 4b). Similar to CD19 CAR constructs, IL-2 production by Her2 targeting CAR T cells was proportional to Her2 antigen density on target cells and Her2–28ζ CARs outperformed Her2–4-1BBζ CARs at low antigen density (Supplementary Figure 4c). Further, in an in vivo xenograft model of Her2-low 143b osteosarcoma (Supplementary Figure 4b), mice treated with Her2–4-1BBζ CAR T cells demonstrated tumor growth kinetics similar to mice treated with untransduced MOCK T cells, while mice treated with Her2-CD28ζ CAR T cells demonstrated clear anti-tumor efficacy, as evidenced by significantly delayed tumor growth and prolonged survival (Supplementary Figure 4d–e), mirroring our findings with CD19 CARs.
+
+To test whether recognition of high antigen density target cells contained within a heterogeneous tumor could spur increased reactivity against low antigen density cells in vivo, we inoculated mice with both CD19 low leukemia (NALM6-CD192,053) expressing luciferase and CD19 high NALM6-wildtype that does not express luciferase. The bioluminescence captured from these mice came only from the CD19 low clones. After treatment with CD19–4-1BBζ CAR T cells, there was no difference in bioluminescence or survival between mice inoculated with both CD19 low and CD19 high leukemia vs those with CD19 low leukemia only (Supplementary Figure 5a–b), indicating that CD19–4-1BBζ CAR T cell reactivity against low antigen density did not benefit from activation by high antigen density cells.
+
+Modulating CAR Signaling Strength Tunes the Antigen Density Threshold for CAR T cells
+
+Based on previous work demonstrating higher signal strength in CD28ζ vs. 4–1BBζ CAR T cells(42), we hypothesized that differential signaling strength could explain the greater capacity for CD28ζ CARs to recognize targets with low antigen density. We conducted single cell analysis of calcium influx in CD19 CAR T cells following CAR crosslinking which demonstrated that CD19-CD28ζ CAR T cells manifest more rapid and robust calcium influx compared to CD19–4-1BBζ CAR T cells (Figure 3a). Next, we analyzed phosphorylation of proximal (pCD3ζ-CAR) and distal (pERK) signaling proteins in CAR T cells stimulated with varying concentrations of soluble idiotype and crosslinking antibodies as a proxy for variable antigen density. We observed higher levels of CD3ζ-CAR and ERK phosphorylation at all idiotype concentrations in CD19-CD28ζ CAR T cells compared to CD19–4-1BBζ CAR T cells. There were even greater distinctions at low idiotype concentrations, wherein only the CD19-CD28ζ CAR T cells demonstrated a response (Figure 3b). Thus, increased signal strength in T cells expressing CD28ζ CARs compared to 4–1BBζ CARs provides a plausible mechanism to explain the enhanced activity of CD28ζ CAR T cells in response to targets expressed at low antigen densities.
+
+Figure 3: Enhancing CAR signal strength lowers the antigen density threshold for CAR T cells.
+
+
+Open in a new tab
+
+(a) CD19-CD28ζ and CD19–4-1BBζ CAR T cells were loaded with Indo-1 ratiometric dye and then stimulated with 5 μg/mL of anti-idiotype antibody and 5 μg/mL goat anti-mouse crosslinking antibody. Calcium flux was measured in real time for the two cell populations by flow cytometry. Representative of three experiments with different T cell donors. (b) CD19-CD28ζ and CD19–4-1BBζ CAR T cells were stimulated for five minutes with increasing concentrations of idiotype and crosslinking antibodies. pERK, total ERK, pCD3ζ-CAR, and total CD3ζ-CAR were measured by western blot. Numbers under the gels represent the ratio of the intensity of the signal obtained with phospho-specific antibodies relative to the total. Relative values were normalized to one of the untreated controls. Representative of three experiments with different T cell donors. (c) Schema of a CD19–4-1BBζζ-CAR, with a 4–1BB costimulatory domain and a duplicated CD3ζ domain. (d) CD19–4-1BBζ and CD19–4-1BBζζ CAR T cells were stimulated for five minutes with increasing concentrations of idiotype and crosslinking antibodies. pERK, total ERK, pCD3ζ-CAR, and total CD3ζ-CAR were measured by western blot. Representative of two experiments with different T cell donors. (e) NALM6 clones expressing 963 molecules of surface CD19 were cocultured at a 1:1 ratio with CD19-CD28ζ, CD19–4-1BBζ, or CD19–4-1BBζζ CAR T cells and tumor cell killing was measured in an Incucyte assay. Representative of six experiments with different T cell donors. Statistical analysis performed with repeated measures ANOVA. (f) CD19-CD28ζ, CD19–4-1BBζ, and CD19–4-1BBζζ CAR T cells were stained with cell trace violet (CTV) and then cocultured with NALM6 clones expressing 963 molecules of surface CD19. T cell proliferation was measured by flow cytometry four days later. Representative of three experiments with different T cell donors. (g) CD19–4-1BBζ and CD19–4-1BBζζ CAR T cells were cocultured with NALM6 clones expressing various amounts of CD19 for 24 hours and IL-2 was measured in the supernatant by ELISA. Shown is the amount of cytokine measured as compared to log of the CD19 molecule number for that specific clone and curve fitting was done using a four-parameter variable slope dose-response curve. Representative of three experiments with different T cell donors. (h) One million NALM6-CD192,053 cells were engrafted into NSG mice by tail vein injection. Four days later, mice were injected with 3 million CD19-CD28ζ, CD19–4-1BBζ, CD19–4-1BBζζ CAR T or untransduced control T cells (MOCK). Tumor progression was measured by bioluminescence photometry and flux values (photons per second) were calculated using Living Image software. Quantified tumor flux values for individual mice are shown. Statistical analysis performed with repeated measures ANOVA. (i) Mouse survival curves for mice treated as in (h). Statistical analysis performed with the log-rank test. (h-i) are representative of three experiments with different T cell donors (n=5 mice per group). (j, k) Leukemia cells from the bone marrow of treated mice (n=5 per group) were phenotyped by flow cytometry for expression of CD19. Shown are representative flow plots (j) and quantified mean fluorescence intensity (MFI) (k). Representative of two different experiments with different T cell donors. Statistical comparisons performed by Mann Whitney between the indicated groups. (l) The spleens of treated mice (n=5 per group) were obtained at experimental endpoint. CAR T cell numbers were assessed by flow cytometry. Statistical comparisons performed by Mann Whitney between the indicated groups. For in vitro experiments, error bars represent SD and for in vivo experiments, error bars represent SEM. p < 0.05 was considered statistically significant, and p values are denoted with asterisks as follows: p > 0.05, not significant, NS; * p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001.
+To test the hypothesis that the antigen density threshold for CAR T cell reactivity could be lowered by enhancing proximal signaling, we engineered a CD19–4-1BB CAR that incorporated two copies of the zeta chain (CD19–4-1BBζζ, “double zeta”, Figure 3c). This CAR expressed similarly on the surface of T cells to the CD19–4-1BBζ “single zeta” CAR, and despite the addition of three additional ITAMs, there was no increase in the baseline expression of canonical exhaustion markers PD1, TIM-3, or LAG3 or production of baseline interferon gamma in the absence of antigen (Supplementary Figures 3a–c). Following stimulation with idiotype antibody, phosphorylated ERK and CD3ζ-CAR were higher in “double zeta” compared to “single zeta” CAR T cells, indicating that the increased signal generated in “double zeta” CARs is propagated distally (Figure 3d).
+
+We next tested the in vitro and in vivo functionality of “double zeta” vs. “single zeta” CAR T cells. Both killing and proliferation in response to target cells with low CD19 density were increased in “double zeta” CARs, with functionality of CD19–4-1BBζζ CAR T cells closely approximating a CD19–28ζ CAR (Figure 3e–f). More IL-2 was generated in response to lower antigen densities in “double zeta” vs. “single zeta” CARs (Figure 3g), although IL-2 production was still less than CD28ζ CARs (Figure 2d). In our in vivo model of CD19 low leukemia, “double zeta” CAR T cells demonstrated greater anti-tumor activity than “single zeta” CAR T cells (Figure 3h), resulting in significantly prolonged survival (Figure 3i) and immune pressure resulting in CD19 downregulation (Figure 3j–k). While in vivo control by CD19–4-1BBζζ-CAR T cells remained slightly inferior to CD28ζ CARs, CD19–4-1BBζζ CAR T cells exhibited significantly increased persistence in animals compared to CD19-CD28ζ CAR T cells (Figure 3l).
+
+Previous work has demonstrated that decreasing the number of functional ITAMs in a CAR molecule reduces T cell signal strength and diminishes downstream effector functions(33,43,44). A recent study demonstrated increased persistence and decreased T cell exhaustion of CD19-CD28ζ CAR T cells that were engineered through either truncation or mutation to contain only one of three active CD3ζ ITAMs(33). Given our findings demonstrating the importance of signal strength in CAR T eradication of low antigen density target cells, we hypothesized that decreased signal in single ITAM CARs would reduce functionality against low antigen density targets. Consistent with this, CD19-CD28ζ** and CD19–4-1BBζ** CAR T cells, which each express only one (the most membrane proximal) CD3ζ ITAM (Figure 4a–b and Supplementary Figure 6a–b, f), demonstrated no difference from their WT counterparts in their ability to control tumors with high CD19 antigen density. However, they demonstrated reduced killing of CD19 low NALM6 clones (Figure 4c–d) and reduced ability to produce IL-2 in response to tumor cells expressing low levels of CD19 (Figure 4e–f) compared to identical CARs with intact ITAMs. Similarly, a recent publication described a CD19-CD28ζ CAR containing the hinge-transmembrane (H/T) region from CD8 (CD19-CD8H/T-CD28ζ, Figure 4g, Supplementary Figure 6c,g) demonstrated decreased signaling and cytokine production while maintaining activity against the wildtype NALM6 CD19 high cell line(30). Similar to results with ITAM deleted CARs, CD19-CD8H/T-CD28ζ CARs demonstrated similar cytolytic capacity against CD19 high cell lines as CD19-CD28ζ, but diminished activity against CD19 low lines (Figure 4h–i).
+
+Figure 4: Engineering CARs to reduce downstream signaling strength sacrifices CAR efficacy against low antigen density tumors.
+
+
+Open in a new tab
+
+(a) Schema of a CD19-CD28ζ CAR with only a single ITAM (CD19-CD28ζ**). (b) Schema of a CD19–4-1BBζ CAR with only a single ITAM (CD19–4-1BBζ**). (c) NALM6 clones expressing either 963 or 45,851 molecules of surface CD19 were cocultured at a 1:1 ratio with either CD19-CD28ζ or CD19-CD28ζ** CAR T cells and tumor cell killing was measured in an Incucyte assay. Representative of three experiments with different T cell donors. Statistical analysis performed with repeated measures ANOVA. (d) NALM6 clones expressing either 2,053 or 45,851 molecules of surface CD19 were cocultured at a 1:1 ratio with either CD19–4-1BBζ or CD19–4-1BBζ** CAR T cells and tumor cell killing was measured in an Incucyte assay. Representative of three experiments with different T cell donors. Statistical analysis performed with repeated measures ANOVA. (e) CD19-CD28ζ and CD19-CD28ζ** CAR T cells were cocultured with NALM6 clones expressing various amounts of CD19 for 24 hours and secreted IL-2 was measured in the supernatant by ELISA. Representative of three experiments with different T cell donors. Statistical comparisons performed by the student’s t-test (two sided). (f) CD19–4-1BBζ and CD19–4-1BBζ** CAR T cells were cocultured with NALM6 clones expressing various amounts of CD19 for 24 hours and secreted IL-2 was measured in the supernatant by ELISA. Representative of three experiments with different T cell donors. Statistical comparisons performed by the student’s t-test (two sided). (g) Schema of a CD19 CAR containing the CD8 hinge-transmembrane region and the CD28 and CD3ζ endodomains (CD19-CD8H/T-CD28ζ). (h) NALM6 clones expressing either 963 or 45,851 molecules of surface CD19 were cocultured at a 1:1 ratio with either CD19-CD28ζ or CD19-CD8H/T-CD28ζ CAR T cells and tumor cell killing was measured in an Incucyte assay. Representative of three experiments with different T cell donors. Statistical analysis performed with repeated measures ANOVA. (i) CD19-CD28ζ and CD19-CD8H/T-CD28ζ CAR T cells were cocultured with NALM6 clones expressing various amounts of CD19 for 24 hours and secreted IL-2 was measured in the supernatant by ELISA. Representative of three experiments with different T cell donors. Statistical comparisons performed by the student’s t-test (two sided). For all experiments, error bars represent SD. p < 0.05 was considered statistically significant, and p values are denoted with asterisks as follows: p > 0.05, not significant, NS; * p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001.
+Together, these results are consistent with a model wherein modulating CAR signaling strength can tune the antigen density threshold for CAR T cell reactivity. Modifications that enhance signaling strength result in a lower antigen density threshold for CAR reactivity, whereas alterations that diminish the signaling strength increase the antigen density threshold for CAR T cell reactivity. These results further demonstrate that augmentation of signal strength in 4–1BB containing CARs endows them with a near equivalent capacity to recognize antigen low targets compared to CD28 containing CARs, while retaining the hallmark property of increased persistence compared to CD28 CARs(3–7,45).
+
+The CD28 hinge transmembrane domain confers enhanced reactivity against low antigen density targets
+
+The CD19 CAR constructs contained in axicabtagene ciloleucel and tisagenlecleucel differ in their costimulatory domains, but they also differ in the hinge and transmembrane regions that link the extracellular scFv to the intracellular signaling endodomains. The CAR construct in axicabtagene ciloleucel contains a H/T from CD28, which is continuous with the costimulatory molecule, while tisagenlecleucel contains a CD8 H/T. These regions are nearly identical in size (70 amino acids for CD8 and 67 amino acids for CD28). Given our finding that substitution of a CD8 H/T region for the CD28 H/T reduces CD19-CD28ζ CAR T cell activity at low antigen density, we hypothesized that incorporation of a CD28 H/T would enhance the efficacy of a CD19–4-1BBζ CAR (Figure 5a, Supplementary Figure 3a–c). Indeed, CD19–4-1BBζ CARs that incorporated a CD28H/T (CD19-CD28H/T-4–1BBζ CAR) demonstrated superior killing of CD19-low leukemia cells compared to those incorporating a CD8H/T (Figure 5b), and cytokine production of CD28H/T containing CD19–4-1BBζ CARs approached that seen with CD19-CD28ζ CARs (Figure 5c), especially at low CD19 antigen densities. This increased activity translated in vivo, with the CD19-CD28H/T-4–1BBζ CAR outperforming the CD19–4-1BBζ CAR against CD19 low leukemia, performing similarly to the CD19-CD28ζ CAR (Figure 5d–e). Further, while the CD19–4-1BBζ CAR failed to control tumor in a NALM6 CD19 wildtype stress test model(46), the CD19-CD28H/T-4–1BBζ CAR demonstrated clear anti-tumor activity, similar to the CD19-CD28ζ CAR (Figure 5f–g). Importantly, the CD19-CD28H/T-4–1BBζ CAR also demonstrated superior in vivo persistence in both the spleen and bone marrow compared to CD19-CD28ζ CARs and similar in vivo persistence to CD19–4-1BBζ CARs (Figure 5h–i, Supplementary Figure 7a–d) in a standard Nalm6 model at curative doses. No major differences in CAR T cell exhaustion marker expression were observed between any of the constructs when cells were obtained from in vivo experiments (Supplementary Figure 7e–f).
+
+Figure 5: Altering the hinge-transmembrane region dramatically affects CD19 CAR activity against low antigen density tumors.
+
+
+Open in a new tab
+
+(a) Schema of a CD19 CAR containing the CD28 hinge-transmembrane region and the 4–1BB and CD3ζ endodomains (CD19-CD28H/T-4–1BBζ). (b) NALM6 clones expressing 963 molecules of surface CD19 were cocultured at a 1:1 ratio with either CD19-CD28ζ, CD19–4-1BBζ, or CD19-CD28H/T-4–1BBζ CAR T cells and tumor cell killing was measured in an Incucyte assay. Representative of three experiments with different T cell donors. Statistical analysis performed with repeated measures ANOVA. (c) CD19-CD28ζ, CD19–4-1BBζ, and CD19-CD28H/T-4–1BBζ CAR T cells were cocultured with NALM6 clones expressing various amounts of CD19 for 24 hours and IL-2 was measured in the supernatant by ELISA. Representative of three experiments with different T cell donors. Statistical comparisons performed by the student’s t-test (two sided) between CD19–4-1BBζ and CD19-CD28H/T-4–1BBζ CAR T cells. (d) One million NALM6-CD192,053 cells were engrafted into NSG mice by tail vein injection. Four days later, mice were injected with 3 million CD19-CD28ζ, CD19–4-1BBζ, or CD19-CD28H/T-4–1BBζ CAR T cells. Tumor progression was measured by bioluminescence photometry and flux values (photons per second) were calculated using Living Image software. Quantified tumor flux values for individual mice are shown. Statistical analysis performed with repeated measures ANOVA. (e) Mouse survival curves for mice as treated in (d). Statistical analysis performed with the log-rank test. (d-e) are representative of three experiments with different T cell donors (n=5 mice per group). (f) One million NALM6-wildtype cells were engrafted into NSG mice by tail vein injection. Three days later, mice were injected with 2.5e5 CD19-CD28ζ, CD19–4-1BBζ, or CD19-CD28H/T-4–1BBζ CAR T cells. Tumor progression was measured by bioluminescence photometry and flux values (photons per second) were calculated using Living Image software. Quantified tumor flux values for individual mice are shown. Statistical analysis performed with repeated measures ANOVA. (g) Mouse survival curves for mice as treated in (f). Statistical analysis performed with the log-rank test. (f-g) are representative of two experiments with different T cell donors (n=5 mice per group). (h,i) One million NALM6-wildtype cells were engrafted into NSG mice by tail vein injection. Three days later, mice were injected with 5 million CD19-CD28ζ, CD19–4-1BBζ, or CD19-CD28H/T-4–1BBζ CAR T cells. The spleens (h) and bone marrow (i) of treated mice were obtained at Day +16 (n=5 per group) as well as Day +9 and Day +29 (Supplementary Figure 7) post CAR T cell treatment. Presence of CAR positive T cells was assessed by flow cytometry. Performed one time (n=5 per CAR construct per timepoint). Statistical comparisons performed by Mann Whitney between the indicated groups. For in vitro experiments, error bars represent SD and for in vivo experiments, error bars represent SEM. p < 0.05 was considered statistically significant, and p values are denoted with asterisks as follows: p > 0.05, not significant, NS; * p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001.
+Given the profound increase in efficacy gained by modifying the H/T region while maintaining the 4–1BB costimulatory molecule, we wondered whether the CD28H/T could rescue CAR function even in the absence of a costimulatory domain. Previous studies of first-generation CAR T cells containing only a CD3ζ domain primarily used a CD8 H/T(47) or hybrids of an IgG hinge or spacer with a CD4 or CD3 transmembrane domain(36,37,48–50). Previously published comparisons between first- and second-generation CARs were often confounded by different hinge and/or transmembrane domains employed in the constructs(51–54). We compared a first-generation CAR with either a CD28 or CD8 H/T domain (Figure 6a, Supplementary Figure 6d,h) and found that the CD28 H/T conferred reactivity against low antigen density and higher levels of cytokine production in response to all antigen densities (Figure 6b–c). In fact, the first-generation CD19-CD28H/T-ζ CAR compared favorably to second-generation constructs, generating as much IL-2 as a traditional CD19–4-1BBζ construct against CD19 high lines (Figure 6c).
+
+Figure 6: The CD28 hinge-transmembrane region enhances activity in a variety of tumor models and CAR architectures.
+
+
+Open in a new tab
+
+(a) Schema of first generation CD19 CARs with either a CD8 or CD28 hinge-transmembrane region (CD19-CD8H/T-ζ and CD19-CD28H/T-ζ). (b) NALM6 clones expressing either 963 or 45,851 molecules of surface CD19 were cocultured at a 1:1 ratio with either CD19-CD28ζ, CD19–4-1BBζ, CD19-CD28H/T-ζ or CD19-CD8H/T-ζ CAR T cells and tumor cell killing was measured in an Incucyte assay. Representative of three experiments with different T cell donors. Statistical analysis performed with repeated measures ANOVA between CD19-CD28H/T-ζ and CD19-CD8H/T-ζ. (c) CD19-CD28ζ, CD19–4-1BBζ, CD19-CD28H/T-ζ, and CD19-CD8H/T-ζ CAR T cells were cocultured with NALM6 clones expressing various amounts of CD19 for 24 hours and secreted IL-2 was measured in the supernatant by ELISA. Representative of three experiments with different T cell donors. Statistical comparisons performed with the student’s t-test (two sided) between CD19-CD28H/T-ζ and CD19-CD8H/T-ζ. (d) Schema of a Her2 CAR containing a CD28 hinge-transmembrane region and 4–1BB costimulatory domain (Her2-CD28H/T-4–1BBζ). (e) One million 143b osteosarcoma cells were orthotopically implanted in the hind leg of NSG mice. After seven days, mice were treated with 10 million Her2–4-1BBζ CAR T cells, Her2-CD28H/T-4–1BBζ CAR T cells, or untransduced control T cells (MOCK). Leg measurements were obtained twice weekly with digital calibers. Measurements for individual mice are shown. Statistical analysis performed with repeated measures ANOVA. (f) Survival curves for mice treated as in (e). Statistical analysis performed with the log-rank test. (e-f) are representative of two experiments with different T cell donors (n=5 mice per group). (g) Schema of a B7-H3 CAR containing a CD28 hinge-transmembrane region and 4–1BB costimulatory domain (B7-H3-CD28H/T-4–1BBζ). (h) One million CHLA255 neuroblastoma cells were engrafted into NSG mice by tail vein injection in a metastatic neuroblastoma model. Six days later, mice were injected with 10 million B7-H3–4-1BBζ CAR T cells, B7-H3-CD28H/T-4–1BBζ CAR T cells, or untransduced control T cells (MOCK). Tumor progression was measured by bioluminescence photometry and flux values (photons per second) were calculated using Living Image software. Representative bioluminescent images are shown. (i) Quantified tumor flux values for individual mice treated as in (h). Statistical analysis performed with repeated measures ANOVA. (j) Survival curves for mice treated as in (h). Statistical analysis performed with the log-rank test. (h-j) are representative of two experiments with different T cell donors. For in vitro experiments, error bars represent SD and for in vivo experiments, error bars represent SEM. p < 0.05 was considered statistically significant, and p values are denoted with asterisks as follows: p > 0.05, not significant, NS; * p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001.
+
+Incorporation of a CD28H/T region rescues function of solid tumor CARs in in vivo models of low antigen density
+
+To assess the generalizability of the results observed with CD19-CD28H/T-ζ CAR T cells, we tested CARs targeting other cell surface proteins in solid tumor models in which antigen density was limiting. Mice bearing Her2 low orthotopic 143b osteosarcoma xenografts (Supplementary Figure 4b) received Her2-CD28H/T-4–1BBζ (Figure 6d, Supplementary Figure 3a–c) or Her2–4-1BBζ CAR T cells. Similar to the results described above, 4–1BBζ CARs incorporating a CD28 H/T domain outperformed those with a CD8 H/T, demonstrating improved tumor control and significantly extending survival (Figure 6e–f). Additionally, we recently published results using a B7-H3 targeting CAR with activity in several models of pediatric solid tumors(17). While this CAR demonstrated clear efficacy in xenograft models where B7-H3 expression was high, we found that it was less effective when target antigen density was low. Expression of B7-H3 on neuroblastoma cell lines is lower than many of the tumor types we have previously studied (Supplementary Figure 8a). We found that the published B7H3–4-1BBζ CAR demonstrated intermediate killing of neuroblastoma cell lines, whereas activity of the B7H3-CD28H/T-4–1BBζ CAR (Figure 6g, Supplementary Figure 6e,i) against this low antigen density tumor was enhanced both in vitro (Supplementary Figure 8b) and in vivo (Figure 6h–j). Thus, a CD28 H/T region imparts superior function as compared to a CD8 H/T in second generation 4–1BB containing CARs against a variety of targets in a range of in vivo models, establishing a strong rationale for adopting this structure to increase the clinical efficacy of CAR T cells in settings where induction of responses toward antigen low targets would not induce unacceptable toxicity.
+
+The CD28 hinge transmembrane domain results in faster tumor cell killing and a more efficient immune synapse
+
+Given the enhancement we observed in CAR T cell activity using a CD28 H/T region, we hypothesized that pERK may be higher for the CD19-CD28H/T-4–1BBζ CAR than the traditional CD19–4-1BBζ CAR after stimulation. However, after a five-minute stimulation, we found decreased levels of pERK in CD19-CD28H/T-4–1BBζ compared to CD19–4-1BBζ (Supplementary Figure 9a). Additionally, despite clearly improved function in both low CD19 density and stress test models (Figure 5d–g), the CD19-CD28H/T-4–1BBζ CAR did not mediate rapid calcium influx as was seen for the CD19-CD28ζ CAR (Supplementary Figure 9b); neither did the Her2 CAR with similar architecture (Supplementary Figure 9c). To better understand the kinetics of T cell activation, we performed a longer time course which demonstrated that stimulation of CD19-CD28H/T-4–1BBζ CAR results in slower activation kinetics than either traditional CAR construct, with phosphorylation of ERK evident only after 30 minutes, continuing to rise at 45 minutes (Supplementary Figure 9d). Phosphorylation of CAR CD3ζ-CAR was also more moderate, requiring longer film exposures for visualization (Supplementary Figure 9d). Additionally, we observed phosphorylation of endogenous CD3ζ only in the CD19-CD28H/T-4–1BBζ CAR, raising the prospect that coopting of the endogenous cellular machinery could contribute to superior function of CAR constructs as previously reported(55). To test whether endogenous TCR/CD3ζ contributes to CAR efficacy, we used CRISPR-Cas9 to disrupt the TRAC locus in CD19-CD28H/T-4–1BBζ CAR T cells (Supplementary Figure 9e). Despite near complete knockdown of the TCR, we observed no differences in the ability of this CAR to kill or generate cytokine in response to either CD19 low or CD19 high target cells (Supplementary Figure 9f–g). Therefore, we conclude that endogenous CD3ζ phosphorylation is not required for the superior function seen with CD19-CD28H/T-4–1BBζ CAR T cells.
+
+To further explore the basis for the increased functionality of the CD28H/T region, we performed live cell imaging of single CAR T cell and tumor cell interactions in microwells (Figure 7a, Supplementary Figure 10a). A similar study recently found that CD19-CD28ζ CAR T cells kill targets faster following initial engagement than CD19–4-1BBζ CAR T cells(56). We demonstrate that this difference in dwell time is not due to the CD28 costimulatory domain, but rather the CD28 hinge-transmembrane domain, which imparts faster killing post-engagement onto both the CD19-CD28ζ and the CD19-CD28H/T-4–1BBζ CAR constructs (Figure 7b). Additionally, we found a trend towards more frequent killing post-engagement by both constructs containing the CD28 H/T domain compared to the CD19–4-1BBζ CAR that contains an CD8 H/T domain (Supplementary Figure 10b). Interestingly, the fraction of non-lytic T cell/tumor conjugates that resulted in death of the CAR T cell was significantly higher for the CD19-CD28ζ CAR compared to the CD19-CD28H/T-4–1BBζ CAR (Supplementary Figure 10c).
+
+Figure 7: The CD28 Hinge-Transmembrane domain results in more efficient receptor clustering, T cell activation, and tumor cell killing.
+
+
+Open in a new tab
+
+(a,b) CAR T cells and NALM6 cells were seeded at low density on a microwell plate and scanned for wells containing one tumor cell and one CAR T cell. Experiment was performed 6 times across two different T cell donors. (a) A representative well from the single-cell microwell killing experiment is shown. CAR T cells and NALM6 leukemia cells were distinguished by CellTrace Far Red (false-colored magenta) and GFP (false-colored cyan) labels, respectively. Cell death was determined by influx of cell-impermeable propidium iodide dye (PI, false-colored yellow). Lytic conjugates were defined as events where one T cell and one NALM6 cell remained within a threshold distance, and the NALM6 cell died (took up PI). Nonlytic conjugates represent conjugates where the T cell and tumor cell interact but the NALM6 cell did not die (did not take up PI). DIC: Differential interference contrast and Epi: epifluorescence. (b) Time from T cell/tumor cell interaction to PI influx was measured in wells containing one tumor cell and one T cell per CAR construct. Pooled data from all 6 experiments (400–600 wells) is shown. Error bars represent SD. Statistical analysis performed with the student’s t-test (two sided). (c) Diagram of the imaging-based CAR T cell activation assay. To stimulate CD19-CD28H/T-4–1BBζ and CD19–4-1BBζ CAR T cells, CAR T cells were exposed to a planar supported lipid bilayer (SLB) functionalized with a freely diffusing CD19 proteins coupled by a biotin-streptavidin-biotin bridge. Ligand-receptor engagement leads to the reorganization of ligand-bound receptors into microclusters that recruit the tyrosine kinase ZAP70 (fused to GFP, not shown in this diagram) from the cytosol to the plasma membrane, and drive the centripetal translocation of the microclusters from the periphery to the cell center. These events are visualized by TIRF microscopy (fluorescence: CAR-mCherry, ZAP70-GFP, Streptavidin-Alexa647). Ligand density in the planar supported lipid bilayer is controlled through the concentration of Biotin-PE containing small unilamellar vesicles (SUVs). To assess the level of recruitment/degree of clustering across cells that display a range of expression levels, index of dispersion (i.e. normalized variance, which equals the standard deviation divided by the mean of the fluorescence intensity of each cell, see methods for details) was used. (d) Representative images of single CD19-CD28H/T-4–1BBζ-mCherry (left) and CD19-CD8H/T-4–1BBζ-mCherry (right) CAR T cells transduced with ZAP70-GFP activated on planar supported lipid bilayer containing high (~6.0 molecule/μm2; top panel) and low (~0.6 molecule/μm2; bottom panel) concentrations of CD19. (e) Degree of clustering (index of dispersion) for ZAP70-GFP recruited to the immune synapse for each CAR construct at four different CD19 densities. (f) Pooled ZAP70 degree of clustering (index of dispersion) data from (e) plotted as a dose response curve for ligand density. (g) Percentage of cells activated (ZAP70 recruitment above a threshold) plotted as a dose response curve for ligand density. (h) Degree of clustering (index of dispersion) for ligand-receptor complexes recruited to the immune synapse for each CAR construct at four different CD19 densities. (i) Pooled ligand-receptor complex degree of clustering (index of dispersion) data from (h) plotted as a dose response curve for ligand density. (j) Percentage of cells recruiting ligand-receptor complexes (above a threshold) plotted as a dose response curve for ligand density. (d-j) Data (shown as mean ± SD) are representative from one experiment of two performed with different T cell donors. n > 100 per condition. Statistical analysis performed with the two-tailed t-test. p < 0.05 was considered statistically significant, and p values are denoted with asterisks as follows: p > 0.05, not significant, NS; * p < 0.05, ** p < 0.01, *** p < 0.001, and **** p < 0.0001.
+Because the H/T domain appeared to affect the interaction of the CAR T cell and tumor, we next imaged the CAR synapse, to test the hypothesis that differences in the H/T region impact receptor clustering and recruitment of ZAP70, which propagates CAR signaling(57). To do this, we generated CD19–4-1BBζ and CD19-CD28H/T-4–1BBζ mCherry fusion constructs which expressed similarly in primary human T cells (Supplementary Figure 10d). We imaged these two constructs using confocal microscopy and saw no differences in their distribution on the T cell membrane or localization to the intracellular vesicular compartments (Supplementary Figure 10e). Additionally, to examine the distribution of the CAR in the plane of the plasma membrane, we exposed the T cells to supported lipid bilayers containing only ICAM-1 to increase adhesion, and no differences were observed in the CAR distribution by Total Internal Reflection Fluorescence (TIRF) microscopy (Supplementary Figure 10e).
+
+To compare both synapse formation and T cell activation at the immune synapse, we transduced T cells with a ZAP70-GFP fusion construct and either the CD19–4-1BBζ-mCherry or CD19-CD28H/T-4–1BBζ-mCherry constructs. ZAP70-GFP expression was identical between the two CAR constructs (Supplementary Figure 10d). We then seeded the supported lipid bilayer with increasing amounts of CD19 in order to simulate interaction with cells of different antigen densities for use in TIRF microscopy (Figure 7c). We found significantly increased recruitment of ZAP70 by the CD28H/T CAR T cell compared to the CD8H/T CAR, a difference which was especially pronounced at low CD19 density (Figure 7d–g). CD28H/T CARs also demonstrated an increase in the formation first of microclusters and then later into a supramolecular activation cluster (cSMAC) at the center of the cell. These data indicate that the CD28H/T imparts the CAR with greater ability to organize into clusters that have been associated with T cell activation (Figure 7d,h-j). Importantly, there were no differences between the two constructs in the number of CAR molecules observed at the synapse between the T cell and the supported lipid bilayer (Supplementary Figure 10f). This demonstrates that the differences observed between the two constructs, for any given CD19 density, are not due to differences in CAR density, but rather differences in functionality in spatial organization. Overall, these data reveal that CARs containing a CD28H/T can, at low antigen density, stimulate enhanced receptor clustering and recruitment of proximal signaling molecules.
+
+Discussion
+
+CD19 CAR T cells are revolutionizing the treatment of relapsed and refractory B cell malignancies, with complete response rates ranging from 70–90% in B-ALL and 40–50% in NHL(1,3–11). Thus far, mechanisms of resistance have fallen into two categories, either loss of T cells (due to CAR T cell dysfunction and lack of persistence(58,59)) or antigen remodeling on tumor cells(12). In a trial of CD22 CAR T cells, we found that antigen remodeling can be driven by target antigen downregulation below a threshold required for CAR T cell activity(21), and the same has been seen in clinical trials of BCMA CAR T cells(22). As CARs are translated to solid tumors, it is expected that tumor heterogeneity, resulting in selection of both antigen negative as well as antigen low cells will emerge as a major issue impacting the efficacy of CAR T cells.
+
+Consistent with this, we demonstrate that primary NHL samples display a remarkable amount of heterogeneity in CD19 expression, which could account for the lower reported response rates in this disease compared to B-ALL(1,5,7,9,60,61). Using the well described NALM6 preclinical model, we demonstrate the limited activity of CD19 CARs against low antigen density tumor cells, in line with previously reported data for various CARs(16–20,56). While some studies have shown that some tumor cell killing can be maintained by CAR T cells even when antigen density is very low(18,62,63), our data demonstrate that evidence of cytotoxicity in vitro is not sufficient for in vivo activity and that antigen density must be above thresholds required for cytokine production and proliferation in order for CARs to be effective in murine models(16,17,21). This data also clearly differentiates CARs from native TCRs, which are known to target much lower levels of antigen, as low as one to ten molecules of peptide as presented in the major histocompatibility complex (MHC)(23,24).
+
+We found that the CD19–28ζ CAR construct employed in axicabtagene ciloleucel is more active against CD19 low tumor cells than the CD19–4-1BBζ CAR construct employed in tisagenlecleucel. Of note, neither of the constructs employed here completely matches the manufacturing processes for the FDA approved clinical products; tisagenlecleucel uses a lentivirus, while our methods employ retrovirus and manufacturing of both products is different than that employed in our laboratory. Additionally, the regulation of CD19 in response to CAR pressure seen in our model does not reflect natural physiology and human clinical experience as the CD19 protein is artificially expressed under the control of a lentiviral promoter. Nevertheless, our findings are consistent with a recent study that found that CD19-CD28ζ CAR T cells are less susceptible to trogocytosis mediated antigen downregulation than CD19–4-1BBζ CAR T cells(56) and other studies demonstrating enhanced signal strength for CD28 CAR T cells(42). We confirmed the generalizability of this finding by using a CAR targeting Her2 in a xenograft model of Her2 low osteosarcoma. We posit that insufficient CAR signaling by 4–1BBζ CARs is responsible for their attenuated response to low antigen density tumors, which is in agreement with findings in which CARs with 4–1BBζ domains were shown to have lower signal strength(42,64,65). While this difference would not account for the rate of CD19 negative relapse in B-ALL, which is often associated with complete loss of the surface epitope recognized by the CAR(66,67) and is more frequently observed with CD19–4-1BBζ CARs due to sustained immune pressure(12), it could explain differences in response rates in NHL, where CD19 antigen density could potentially be limiting CAR T cell responses in some cases(9,60). Prospective studies of the role of CD19 antigen density, as studied by flow cytometry on patient samples, in driving responses in NHL are required to explore this question.
+
+We have identified a fundamental principle relating to strength of signal and CAR efficacy against tumors with low antigen density. Whereas CD19–4-1BBζ CAR T cells are generally preferred for their persistence in patients with B-ALL(5,6), engineering a long-term persistent CAR T cell that can recognize antigen low targets would be a significant advance. We hypothesized that signaling could be augmented in CAR T cells by adding additional ITAMs to the zeta chain in the CAR. We generated a CD19–4-1BBζζ CAR and found increased signaling in response to antigen that translated to improved in vivo activity. Importantly, despite the enhanced signal strength, these CAR T cells maintained the persistence that has been the hallmark of CARs containing 4–1BB costimulatory domains(4,6). Therefore, enhancing the strength of cell signaling can result in enhancement of CAR activity against low antigen density tumors, extending their clinical reach. This approach would not, however, overcome mechanisms of resistance such as antigen splice variants(66) or complete silencing of genes encoding the target antigen. Additionally, increased signal strength could potentially contribute to overactivation and T cell exhaustion, especially when T cells encounter high antigen density target cells. Therefore, mechanisms to decrease T cell exhaustion while enhancing CAR activity against low antigen density cells are particularly important(68).
+
+Several recent papers have suggested that altering CAR design to reduce signal strength could be advantageous to either increase T cell persistence or to reduce cytokine mediated toxicity(30–33). However, our results demonstrate that reducing signal intensity through any of these methods may decrease CAR T cell efficacy when antigen density is low. Thus, while limiting CAR T cell signal strength could successfully reduce toxicity or improve persistence, it may also result in a liability against low antigen density expressing tumor cells, presenting an additional opportunity for tumor immune escape.
+
+In addition to differences in the costimulatory domain, the CAR constructs contained in tisagenlecleucel and axicabtagene ciloleucel also differ in their hinge-transmembrane domains. Previous work has implicated the hinge domain in CAR T cell efficacy but has focused largely on hinge length(69,70), whereas the two hinges compared here were of comparable sizes. We generated a new CAR that contains the CD28 H/T region with 4–1BB and CD3ζ endodomains (CD19-CD28H/T-4–1BBζ). Compared to a CD19–4-1BBζ CAR containing a CD8 H/T, this CAR regained function against low antigen density tumors and performed similarly to CD19–28ζ CAR T cells in an in vivo model of CD19 low expressing leukemia. This new CAR also demonstrated improved activity in a NALM6 wildtype stress test, while maintaining increased T cell persistence associated with 4–1BB, indicating that it may represent a superior backbone for further clinical development. Intriguingly, this CD28 H/T domain enhanced the cytolytic capacity and cytokine production of even first-generation CAR T cells that contain no costimulatory domain. This finding calls into question some of the assumptions that have been made around CAR design and brings into focus the need for carefully controlling all constructs when comparing different CARs in preclinical studies.
+
+To understand the mechanism of enhanced antigen low recognition by CARs containing a CD28 H/T region, we used live cell imaging and TIRF microscopy. We demonstrate that similar to CD19-CD28ζ CAR T cells(56), CD19-CD28H/T-4–1BBζ CAR T cells kill their target cells more quickly post-engagement than CD19–4-1BBζ CAR T cells. Additionally, compared to CD19-CD28ζ CAR T cells, CD19-CD28H/T-4–1BBζ CAR T cells are less likely to die themselves during interaction with a tumor cell. Imaging the immune synapse for 4–1BBζ CAR T cells with either a CD28 or a CD8 H/T, we have found that the CD28H/T results in a more organized and stable synapse that is able to recruit both more CAR-ligand complexes and downstream ZAP70, resulting in superior anti-tumor activity.
+
+We employed the CD28H/T-4–1BBζ CAR architecture using scFV’s targeting two additional tumor antigens, B7-H3 and Her2, and found that it rescued the function of these CARs in clinically relevant models of solid tumors expressing low levels of target antigen. Clinical application of constructs with enhanced reactivity against targets with low antigen density would need to be weighed against the possibility of normal tissue toxicity to essential organs that express the targets at low levels.
+
+Next generation CARs will require precise engineering to “thread the therapeutic window” between differential antigen expression on tumor versus normal tissues. We have found that changes in the signaling domains or the hinge-transmembrane region can alter activity against low vs. high antigen tumors, deepening our understanding of how CAR architecture can be manipulated to tune CAR function. With targets such as CD19, where normal tissue expression does not represent a major concern for toxicity, CARs can be designed to recognize very low levels of antigen density to increase their efficacy and decrease antigen escape. However, when designing CARs to target shared self-antigens that are expressed at lower levels on normal tissues, one could alter CAR structure to open a therapeutic window that could prevent possible on-target, off-tumor toxicity. This work has implications for CAR design as investigators begin to harmonize the competing interests of enhancing CAR T cell efficacy and minimizing toxicity.
+
+Methods:
+
+
+Generation of NALM6 clones:
+
+The NALM6 cell line expressing GFP and luciferase was obtained from S. Grupp (University of Pennsylvania)(71). A NALM6 CD19 knockout clone was generated as previously described(16). A lentiviral vector expressing the transmembrane and extracellular portions of CD19 (truncated-CD19) under control of an EF1α promoter was obtained from M. Jensen (University of Washington). Lentiviral supernatant was produced and transduction was performed as previously described(16). NALM6-CD19 knockout cells were transduced with truncated-CD19 and then FACS sorted to different antigen densities. Cells went through one to two rounds of single cell cloning to obtain clones expressing variable and distinct amounts of CD19. CD19 antigen density was estimated using the BD Quantibrite kit as per manufacturer’s protocol. NALM6 cells were also transduced with a lentiviral construct encoding full length Her2 (Origene) and then FACS sorted to different antigen densities. Cells went through one to two rounds of single cell cloning to obtain clones expressing variable and distinct amounts of Her2.
+
+Generation of CAR constructs:
+
+All CAR constructs were generated using codon optimization (GeneArt, Invitrogen) for the amino acid sequences listed in Supplementary Table 1. Retroviral vectors for CD19-CD28ζ and CD19–4-1BBζ CARs were previously described(45). To generate CAR constructs with multiple CD3ζ domains, DNA fragments were codon optimized to differ in DNA sequence from the domains already contained in the CAR constructs. CARs with only one CD3 ITAM were generated by truncating the construct just after the first ITAM (33). New CAR constructs were directly ordered from GeneArt (Invitrogen) and cloned into existing CAR vectors or cloned using In-Fusion techniques.
+
+Production of retroviral supernatant, CAR T cell transduction, and in vitro assays:
+
+Retroviral supernatant was produced as previously described(45). For CAR T cell transduction, we followed previously published protocols(45) with the exception of using isolated T cells rather than bulk PBMCs. CAR T cell cytotoxicity assays were performed by coculturing 50,000 GFP-positive tumor cell targets with CAR+ T cells at the indicated ratios in RPMI-1640 in a 96 well plate and acquiring images every 2–3 hours using an Incucyte (Sartorius). The cytotoxicity index was calculated by dividing the Total Green Fluorescence Intensity at every time point by the same measurement at the first time point. For CHLA-255 killing experiments, cells were lentivirally transduced with IncuCyte NucLight Red (Essen BioScience) and flow sorted to a purely transduced population. Killing experiments were performed as above measuring Total Red Flourescence. Cytokine release was assayed by co-incubating 100,000 CAR+ T cells with 100,000 tumor cell targets in complete RPMI-1640. At 24 hours, culture media was collected and cytokines were measured by ELISA (Biolegend). All CAR T cell cytotoxicity and cytokine in vitro assays were performed on day 10 after activation. T cell proliferation was measured with Cell Trace Violet (Thermo Fisher Scientific) as per manufacturer’s recommendations after a coculture period of four days with indicated tumor cells at a 1:2 ratio performed on day 14 after T cell activation.
+
+CAR T cell stimulation experiments:
+
+On day ten post T cell activation, CAR T cells were resuspended at a concentration of 2.5 million CAR+ T cells per mL in complete RPMI-1640. T cell transduction efficiencies were assessed by flow cytometry to ensure that they were comparable in all groups. T cells were stimulated by adding CD19 idiotype antibody (kindly provided by L. Cooper)(72) as well as a goat anti-mouse crosslinking antibody (Jackson ImmunoResearch) to the indicated concentrations and incubated at 37°C for the indicated time periods. At the end of the period of stimulation, cells were quenched with cold PBS and cell pellets were collected and flash frozen.
+
+Immunoblotting:
+
+Whole-cell protein lysates were obtained in non-denaturing buffer (150 mmol/L NaCl, 50 mmol/L Tris-pH8, 1% NP-10, 0.25% sodium deoxycholate). Protein concentrations were estimated by using with DC Protein colorimetric assay (BioRad, 5000116). Per sample, 20 μg of protein were mixed with 5X reducing loading buffer (Pierce, 39000), boiled at 95°C for 5 min and loaded onto 11% PAGE gels. After electrophoresis, proteins were transferred to PVF membranes. Signals were detected by enhanced chemiluminescence (Pierce) or with the Odyssey imaging system. Representative blots are shown. The following primary antibodies used were purchased from Cell Signaling: total ERK1/2 (no. 9102) and Phospho-ERK1/2 (no. 9101). The CD3ζ (4A12-F6) and phospho-CD3ζ (EP265(2)Y) antibodies were purchased from Abcam. Densitometric analysis of the phosphorylation-specific antibodies was performed using the ImageJ v1.51j (NIH, USA). Phosphorylation levels were determined calculating the ratio of the intensity of the signal obtained with phospho-specific antibodies relative to the total. Relative values were normalized to one of the untreated controls in every gel.
+
+Calcium flux:
+
+T cells were first barcoded with FITC, PE-Cy7, or PerCP Cy5.5-conjugated anti-CD45 (Biolegend) in PBS no Ca2+/Mg2+ with 2% FBS for 30 minutes at 4°C. Cells were then pooled together and loaded with 5uM Indo-1 ratiometric dye (Thermofisher) for 45 min at 37°C. Cells were washed twice, resuspended in RPMI Ca2+/Mg2+ without phenol red, and incubated for an additional 15 minutes at 37°C. Ca2+ measurements were acquired on a BD Fortessa flow cytometer. CD19 CAR cross-linking was induced via 5μg/mL anti-idiotype antibody plus 5μg/mL goat anti-mouse Fab’2 (Jackson ImmunoResearch). As a positive control, T cells were treated with 1uM ionomycin (Thermofisher) at the conclusion of the assay.
+
+CRISPR-Cas9 Editing of TRAC Locus:
+
+Activated T cells were electroporated after removal of activation beads. Electroporation and gene targeting were performed as previously described(73). HPLC-purified sgRNA targeting the sequence GAGAATCAAAATCGGTGAAT in the TRAC gene with chemical modifications at the three terminal nucleotides on both ends(74) (Synthego) was complexed with high-fidelity spCas9 protein(75) (IDT) at a molar ratio of 2.5:1 (sgRNA : protein) to form ribonucleoprotein (RNP). The complex was electroporated into activated T cells using a 4D-Nucleofector (Lonza) in buffer P3 (Lonza) using program EO-115. 1 million cells were treated per reaction per cuvette in 16-cuvette strips. The cells were resuspended in media (X-Vivo 15 (Lonza) supplemented with 5% human serum (Sigma-Aldrich) and 100 IU/ml IL-2 (PeproTech)) after electroporation and diluted to the target density.
+
+Single-cell Microwell Killing Assay:
+
+This assay was adopted from previously published experiments(56). CAR T cells were labeled with CellTrace Far Red (ThermoFisher) 12–24 hours before experiments and resuspended in Phenol Red-free RPMI media. Thin-walled 50um square PDMS micro-grid arrays (MicroSurfaces, Victoria, Australia) were adhered to 24-well glass-bottomed imaging dishes (CellVis). NALM6-GFP and CAR T cells were seeded at low density (32,000 cells per large well). Propidium Iodide (PI) 1x stock solution (eBioscience) was added to each well to a final dilution of 1:10000 from stock. Each experimental run contained one well of each CAR construct, enabling paired comparison to account for experiment-to-experiment variation. Six experimental replicates were performed across two distinct T cell donors.
+
+Microwells were imaged for 10–12 hours every ten minutes using a Nikon TI-E inverted microscope at 10x magnification at 37°C and 5% CO2. Images were acquired using Differential Interference Contrast (DIC), and Epifluorescence with 488nm (GFP), 555 (Propidium Iodide), and 647 (Far Red) excitation wavelengths. Acquisition was controlled using Micro-Manager software(76).
+
+T cell and NALM6 images were analyzed using a custom Python script using the TrackPy library (https://doi.org/10.5281/zenodo.3492186). Briefly, T cell:NALM6 conjugates were defined as instances in which the centroids of a T cell and NALM6 cell were located within a threshold distance (approximately 1.5 cell radii) for at least 6 consecutive frames. The PI fluorescence was tracked for each cell in the conjugate and used to classify conjugates as lytic (NALM6 PI spikes first), abortive (cells dissociate without a PI fluorescence spike for either cell), or T-cell death (T-cell PI spikes first). For lytic and T-cell death conjugates, the time to PI influx was measured by fitting a sigmoid to the plot of PI fluorescence over time and taking the time to half-maximal PI fluorescence.
+
+Time to PI influx was pooled across experiments and compared using an unpaired 2-sample t-test. The fraction of conjugates per experiment that were lytic, and the fraction of nonlytic conjugates per experiment that resulted in T-cell death were compared using a paired Wilcoxon signed-rank test, because these values were constrained to the range [0,1] and thus cannot be approximated as normally-distributed.
+
+Supported Lipid Bilayer (SLB) Experiments:
+
+
+Preparation of Lipid Bilayer:
+
+All the following lipids were purchased from Avanti Polar Lipids: 16:0–18:1 POPC 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC; Cat #850457), 18:0 PEG5000 PE 1,2-distearoyl-sn-glycero-3-phosphoethanolamine-N-[methoxy(polyethylene glycol)-5000] (ammonium salt) (PEG5000-PE; Cat #880220), 18:1 DGS-NTA (Ni+2) 1,2-dioleoyl-sn-glycero-3-[(N-(5-amino-1-carboxypentyl)iminodiacetic acid)succinyl] (nickel salt) (Ni2+-NTA-DOGS; Cat#790404), 1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine-N-(cap biotinyl) (sodium salt) (Biotin-Cap-PE; Cat #870277). Two types of lipid mixtures were prepared (1) “DGS-NGA-Ni”, which contains 97.5% POPC, 0.5% PEG5000-PE, 2.0% Ni2+-NTA-DOGS; (2) “Biotin-PE”, which contains 97.5% POPC, 0.5% PEG5000-PE, 2% Biotin-Cap-PE. Lipids were dissolved in chloroform in glass tubes, and dried under a stream of argon gas followed by further drying in the vacuum for 2 hr. The dried lipid films were then hydrated with PBS pH 7.4 (Invitrogen). The small unilamellar vesicles (SUVs) were produced by twenty freeze-thaw cycles (−80°C and 37°C) and collected as the supernatant after centrifuge at 53,000x g for 45 min at 4°C. SUVs were stored at 4°C and used within 2 weeks. Glass coverslips (Ibidi Cat#10812) were RCA-cleaned followed by extensive washing with pure water, and dried with nitrogen. PDMS (Dow Corning) wells were made by preparing PDMS substrate mixtures according to the manufacturer’s instructions and casting the PDMS mixtures into laser-cut acrylic mold. To build supported lipid bilayer, PDMS wells and glass coverslips were cleaned with plasma in a Harrick Plasma cleaner before assembling them into glass-bottomed PDMS chambers. SUV suspensions were mixed with varying volumetric ratio of the “biotin-PE” SUVs to “DGS-NGA-Ni” SUVs (“biotin-PE” concentration of 0.8%, 0.2%, 0.05%, 0.0125%), and then deposited in each chamber and allowed to form for 1 hour. After 1 hour, wells were washed extensively with PBS to remove excessive SUVs. SLBs were then functionalized by incubation for 10 minutes with streptavidin-Alexa647 followed by incubation for 20 minutes with biotin-CD19. Before imaging, wells were washed with the imaging buffer containing 20mM HEPES pH7.4, 1mM CaCl2, 135mM NaCl, 0.5mM MgCl2, 4mM KCl, and 10mM glucose.
+
+Imaging:
+
+Imaging was performed on an inverted microscope (Nikon TiE,Tokyo, Japan) equipped with a Yokogawa spinning disk confocal and TIRF combined system (Spectral Diskovery, Ontario, Canada), a Nikon 100× Plan Apo 1.49 NA oil immersion objective, and four laser lines (405, 488, 561, and 640 nm), a Hamamatsu Flash 4.0, and μManager software to run the microscope and capture the images. Confocal images were captured using an Andor iXon electron-multiplying charge-coupled device camera. For TIRF imaging, a polarizing filter was placed in the excitation laser path to polarize the light perpendicular to the plane of incidence. The angle of illumination was controlled with either a standard Nikon TIRF motorized positioner or a mirror moved by a motorized actuator (CMA-25CCCL; Newport). Data collection was performed at 37°C. Before imaging, cells were pelleted, washed, and resuspended with the imaging buffer. The experiments were performed two times with different T cell donors. Each experiment consisted of each SLB condition with each CAR construct in triplicate.
+
+Image Analysis:
+
+Images were analyzed using Fiji. To quantify the recruitment/clustering levels, a uniform cell-sized circular region of interest (ROI) that is of 10 μm in diameter was manually placed over the region of cell fluorescence. The average and the standard deviation of fluorescence intensity inside the ROI was measured respectively, and the index of dispersion/normalized variance, i.e. the ratio of the standard deviation fluorescence intensity to the average fluorescence intensity, was used to indicate the dispersive distribution of fluorescence intensity for each cell. The threshold for ZAP70-GFP recruitment was set at the index-of-dispersion = 0.7, above which the ZAP70 fluorescence at the plasma membrane reached an intensity level higher than that of the cytosolic ZAP70 fluorescence, and formed clusters that could be appreciated from the TIRF images. The threshold for the ligand-receptor complexes was set at the index-of-dispersion = 0.15, above which the fluorescent-conjugated ligand formed clusters that could be identified on the otherwise evenly diffuse planar lipid bilayer.
+
+Flow cytometry:
+
+Other than for human primary tumor and PBMC samples (see below), flow cytometry was performed using a FACS Fortessa (BD Biosciences) and analyzed with FlowJo software (Tree Star). CD19 expression was measured using either PE or APC conjugated antibody (clone SJ25C1, BD Biosciences). For CD19 CAR detection, CD19 CAR idiotype antibody(72) was directly conjugated to DyLight 650 with an Antibody Labeling Kit (Thermo Fisher Scientific). For Her2 CAR detection, recombinant human ErbB2/Her2 Fc chimera protein (R&D) was directly conjugated to DyLight 650 with an Antibody Labeling Kit (Thermo Fisher Scientific). For B7-H3 CAR detection, recombinant human B7-H3 Fc chimera protein (R&D) was directly conjugated to DyLight 650 with an Antibody Labeling Kit (Thermo Fisher Scientific). In cell trace violet experiments, CAR T cells were distinguished from tumor cells by staining for CD45 (eBioscience, clone HI30, PerCP-Cy5.5) and anti-CD19 CAR idiotype antibody-DyLight 650. For the T cell exhaustion panel, T cells were stained with anti-human LAG-3 (eBioscience, clone 3DS223H, PE), PD-1 (eBioscience, clone J105, PE-Cy7), and TIM3 (BioLegend, clone F38–2E2, BV510). In mouse experiments, leukemia cells obtained from mouse bone marrow were identified by high GFP expression and stained for CD19 (clone SJ25C1, BD Biosciences, PE) and, in some experiments, CD81 (BioLegend, clone 5A6, PE/Cy7). CAR T cells (bone marrow and spleen) were identified by staining for CD45 (eBioscience, clone HI30, PerCP-Cy5.5), CD4 (BD Biosciences, clone SK3, BUV395), CD8 (BD Biosciences, clone SK1, BUV805), and CD19 CAR (DyLight-650 conjugated CD19 idiotype). TCR expression on CRISPR-Cas9 edited cells was detected with anti-CD3 (BioLegend, clone UCHT1, PE). B7-H3 expression on tumor lines was assessed with PE conjugated mouse anti-human B7-H3 antibody (R&D, clone MAB1027) and Her2 with PE or APC conjugated anti-human CD340 antibody (Biolegend, clone 24D2). Viability dye was used in all coculture and in vivo experiments (eBioscience Fixable Viability Dye) to gate out dead cells.
+
+Immunophenotyping of human samples by flow cytometry:
+
+All specimens were obtained with written informed consent in accordance with the Declaration of Helsinki from either Stanford University Medical Center or from the Norwegian Radium Hospital, Oslo, Norway, with approval from Stanford University’s Administrative Panels on Human Subjects in Medical Research and the regional ethical committee in Norway (2.2007.2949). The patient cohorts have been previously described(77). Samples were pretreatment specimens from diffuse large B-cell lymphoma (DLBCL, n=18), follicular lymphoma (FL, n=27), chronic lymphocytic leukemia (CLL, n=13), and mantle cell lymphoma (n=42). Mononuclear cells from peripheral blood (PBMC) were from healthy volunteers at Stanford Hospital. The lymphoma samples and samples from healthy donors were thawed as described, and stained with antibodies to CD3, CD19, CD20, CD22, CD79B (BD Biosciences, clones UCHT1, SJ25C1, L27, S-HCL-1, 3A1–2E7 respectively), Ig-λ (ThermoFischer, polyclonal), and Ig-κ (ThermoFischer, Clone HP6062), and acquired on a LSR II flow cytometer. Data was analyzed using Cytobank Software (www.Cytobank.org). Lymphoma cells were identified as CD3 negative cells and healthy donor B cells as CD3-CD20+ cells. Relative protein expression was calculated using log2 transformed median fluorescence intensity data and normalized to healthy donor PBMC B cells run in the same experiment. Antigen densities in B cells from 3 healthy donor PBMCs were estimated by staining with PE-conjugated antibodies (clones as above) and using the BD Quantibrite kit as per manufacturer’s protocol.
+
+
+In vivo experiments:
+
+Immunodeficient NSG mice (NOD.Cg-PrkdcscidIl2rgtm1Wjl/SzJl) were purchased from The Jackson Laboratory or bred in house. Mice used for in vivo experiments were between 6 and 10 weeks old, and the ratio of male to female mice was matched in experimental and control groups. All animal studies were carried out according to Stanford University Animal Care and Use Committee-approved protocols.
+
+NALM6 in vivo models:
+
+In the CD19-low model, NSG mice were injected with 1 million NALM6-CD192,053 cells and then treated with 3 million CAR+ T cells or an equivalent number of untransduced MOCK control CAR T cells four days later. NALM6-CD192,053 was used in all CD19-low in vivo models as it best illustrated differences in disease control between CARs of different structures. To test the effects of activation of CAR T cells by CD19-high tumor cells on their activity against CD19-low tumor cells, two groups of five mice were injected with 1 million NALM6-CD192,053 (expressing GFP-luciferase) and then one day later one group was injected with 0.5 million Nalm6-wildtype (CD19-high and no GFP-luciferase). Both groups of mice were then treated with 3 million CAR+ T cells four days after inoculation of the CD19 low tumor cells. In the NALM6 stress test model, mice were injected with 1 million NALM6-wildtype cells and then treated with 2.5e5 CAR+ T cells or an equivalent number of total untransduced MOCK control T cells three days later. In the NALM6-CD1945,851 experiments, mice were injected with 1 million NALM6- CD1945,851 cells and then treated with 3 million CAR+ T cells or an equivalent number of untransduced MOCK control T cells three days later. Mice were sacrificed when they began displaying signs of clinical leukemia. In the T cell persistence experiments, mice were injected with the parental NALM6-GFP-luciferase line and then treated with 5 million CAR+ T cells or an equivalent number of untransduced MOCK control T cells three days later. Mice were then sacrificed at indicated timepoints in order to harvest spleens and bone marrow for cell counting and phenotyping. In all experiments, leukemia burden was evaluated using the Xenogen IVIS Lumina (Caliper Life Science). Mice were injected intraperitoneally with 3 mg D-luciferin (PerkinElmer, Waltham, MA, USA) and then imaged 4 minutes later with an exposure time of 30 seconds. Saturated images were then re-imaged with auto exposure. Luminescence images were analyzed using Living Image software (PerkinElmer, Waltham, MA, USA).
+
+143b Osteosarcoma in vivo model:
+
+1 million 143b cells were injected periosteal to the tibia in NSG mice. Three days later, mice were treated with 10 million of the indicated CAR+ T cells or an equivalent number of total untransduced MOCK control T cells. Tumor growth was measured with digital calipers once to twice weekly, and the tumor area was calculated by multiplying the lengths of the major and minor axes. Mice were euthanized when the tumor exceeded a size set by institutional protocol.
+
+CHLA255 in vivo metastatic experiment:
+
+CHLA255 was kindly provided by R. Seeger (CHLA). CHLA255 cells were transduced with GFP-luciferase and flow sorted to a pure population. On day 0, NSG mice were intravenously injected with 1 million CHLA255 cells. On day 7, mice were intravenously treated with 10 million of the indicated CAR+ T cells or an equivalent number of total untransduced MOCK control T cells. Disease burden was evaluated using the Xenogen IVIS Lumina (Caliper Life Science) as described above.
+
+Statistical Analysis:
+
+Data were visualized and analyzed using GraphPad Prism software. Graphs represent either individual values or group mean values ± SEM for in vivo experiments and group mean values ± SD for in vitro experiments. The p values were calculated with the statistical test described in the relevant figure legend. p < 0.05 was considered statistically significant, and p values are denoted with asterisks as follows: p > 0.05, not significant, NS; *p < 0.05, **p < 0.01, ***p < 0.001, and ****p < 0.0001.
+
+Supplementary Material
+
+1
+
+NIHMS1578835-supplement-1.docx (27.9MB, docx) 
+
+
+
+Statement of significance:
+
+Optimal CAR T cell activity is dependent on antigen density, which is variable in many cancers, including lymphoma and solid tumors. CD28ζ outperform 4–1BBζ-CARs when antigen density is low. However, 4–1BBζ CARs can be reengineered to enhance activity against low antigen density tumors while maintaining their unique capacity for persistence.
+
+Acknowledgements:
+
+The authors thanks Dr. Ronald Levy (Stanford University School of Medicine) for his generous donation of tumor samples and Dr. Michael Jensen (University of Washington) for providing the truncated-CD19 lentiviral vector. The authors thank Jing Huang for her technical assistance. This work was supported by NIH grants U54-CA232568–01, P01CA217959–01, and 5P30CA124435. R.G.M. is the Taube Distinguished Scholar for Pediatric Immunotherapy at Stanford University School of Medicine. R.G.M. is supported by a Hyundai Hope on Wheels Young Investigator Award. This work was also supported in part by a St. Baldrick’s-Stand Up to Cancer Dream Team Translational Research Grant (SU2C-AACR-DT-27–17). Stand Up to Cancer is a division of the Entertainment Industry Foundation. Research Grants are administered by the American Association for Cancer Research, the Scientific Partner of SU2C. This work was also supported by the Virginia and D.K. Ludwig Fund for Cancer Research. C.L.M. is a member of the Parker Institute for Cancer Immunotherapy, which supports the Stanford University Cancer Immunotherapy Program. J.T. is supported by German Cancer Aid (Deutsche Krebshilfe) grant P-91650709. A.R.D. is supported by an NIH R35 (1R35GM130332) and the Howard Hughes Medical Institute Faculty Scholar Program. S.M.N. was supported by a American Society of Hematology Honors award. V.T.V. is supported by NIH T32GM007365. R.D. is supported by a Jane Coffin Childs Postdoctoral Fellowship. R.V. is a Howard Hughes Medical Institute (HHMI) investigator.
+
+Footnotes
+
+Conflicts of Interests: RGM, CLM, SPR, LL, ES, RCL, EWW, and SH hold several relevant pending patent applications in the area CAR T cell immunotherapy. CLM is a founder of, holds equity in, and receives consulting fees from Lyell Immunopharma. SPR and RCL are employees of Lyell Immunopharma. RGM, ES, LL, and EWW are consultants for Lyell Immunopharma. RGM is a consultant for Xyphos, Inc and GammaDelta Therapeutics. CLM is a consultant for NeoImmuneTech, Nektar, Apricity and Roche.
+
+References
+
+
+
+
+1.Majzner RG, Mackall CL. Clinical lessons learned from the first leg of the CAR T cell journey. Nat Med
+2019;25(9):1341–55 doi 10.1038/s41591-019-0564-6. [DOI] [PubMed] [Google Scholar]
+
+
+2.June CH, Sadelain M. Chimeric Antigen Receptor Therapy. N Engl J Med
+2018;379(1):64–73 doi 10.1056/NEJMra1706169. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+3.Lee DW, Kochenderfer JN, Stetler-Stevenson M, Cui YK, Delbrook C, Feldman SA, et al. 
+T cells expressing CD19 chimeric antigen receptors for acute lymphoblastic leukaemia in children and young adults: a phase 1 dose-escalation trial. Lancet
+2015;385(9967):517–28 doi 10.1016/S0140-6736(14)61403-3. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+4.Maude SL, Frey N, Shaw PA, Aplenc R, Barrett DM, Bunin NJ, et al. 
+Chimeric antigen receptor T cells for sustained remissions in leukemia. N Engl J Med
+2014;371(16):1507–17 doi 10.1056/NEJMoa1407222. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+5.Maude SL, Laetsch TW, Buechner J, Rives S, Boyer M, Bittencourt H, et al. 
+Tisagenlecleucel in Children and Young Adults with B-Cell Lymphoblastic Leukemia. N Engl J Med
+2018;378(5):439–48 doi 10.1056/NEJMoa1709866. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+6.Gardner RA, Finney O, Annesley C, Brakke H, Summers C, Leger K, et al. 
+Intent-to-treat leukemia remission by CD19 CAR T cells of defined formulation and dose in children and young adults. Blood
+2017;129(25):3322–31 doi 10.1182/blood-2017-02-769208. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+7.Park JH, Riviere I, Gonen M, Wang X, Senechal B, Curran KJ, et al. 
+Long-Term Follow-up of CD19 CAR Therapy in Acute Lymphoblastic Leukemia. N Engl J Med
+2018;378(5):449–59 doi 10.1056/NEJMoa1709919. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+8.Schuster SJ, Svoboda J, Chong EA, Nasta SD, Mato AR, Anak O, et al. 
+Chimeric Antigen Receptor T Cells in Refractory B-Cell Lymphomas. N Engl J Med
+2017;377(26):2545–54 doi 10.1056/NEJMoa1708566. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+9.Neelapu SS, Locke FL, Bartlett NL, Lekakis LJ, Miklos DB, Jacobson CA, et al. 
+Axicabtagene Ciloleucel CAR T-Cell Therapy in Refractory Large B-Cell Lymphoma. N Engl J Med
+2017;377(26):2531–44 doi 10.1056/NEJMoa1707447. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+10.Hay KA, Hanafi LA, Li D, Gust J, Liles WC, Wurfel MM, et al. 
+Kinetics and biomarkers of severe cytokine release syndrome after CD19 chimeric antigen receptor-modified T-cell therapy. Blood
+2017;130(21):2295–306 doi 10.1182/blood-2017-06-793141. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+11.Turtle CJ, Hanafi LA, Berger C, Gooley TA, Cherian S, Hudecek M, et al. 
+CD19 CAR-T cells of defined CD4+:CD8+ composition in adult B cell ALL patients. J Clin Invest
+2016;126(6):2123–38 doi 10.1172/JCI85309. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+12.Majzner RG, Mackall CL. Tumor Antigen Escape from CAR T-cell Therapy. Cancer Discov
+2018;8(10):1219–26 doi 10.1158/2159-8290.CD-18-0442. [DOI] [PubMed] [Google Scholar]
+
+
+13.Mata M, Gottschalk S. Engineering for Success: Approaches to Improve Chimeric Antigen Receptor T Cell Therapy for Solid Tumors. Drugs
+2019;79(4):401–15 doi 10.1007/s40265-019-01071-7. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+14.Shah NN, Fry TJ. Mechanisms of resistance to CAR T cell therapy. Nat Rev Clin Oncol
+2019;16(6):372–85 doi 10.1038/s41571-019-0184-6. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+15.Brown CE, Mackall CL. CAR T cell therapy: inroads to response and resistance. Nat Rev Immunol
+2019;19(2):73–4 doi 10.1038/s41577-018-0119-y. [DOI] [PubMed] [Google Scholar]
+
+
+16.Walker AJ, Majzner RG, Zhang L, Wanhainen K, Long AH, Nguyen SM, et al. 
+Tumor Antigen and Receptor Densities Regulate Efficacy of a Chimeric Antigen Receptor Targeting Anaplastic Lymphoma Kinase. Mol Ther
+2017;25(9):2189–201 doi 10.1016/j.ymthe.2017.06.008. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+17.Majzner RG, Theruvath JL, Nellan A, Heitzeneder S, Cui Y, Mount CW, et al. 
+CAR T Cells Targeting B7-H3, a Pan-Cancer Antigen, Demonstrate Potent Preclinical Activity Against Pediatric Solid Tumors and Brain Tumors. Clin Cancer Res
+2019;25(8):2560–74 doi 10.1158/1078-0432.CCR-18-0432. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+18.Watanabe K, Terakura S, Martens AC, van Meerten T, Uchiyama S, Imai M, et al. 
+Target antigen density governs the efficacy of anti-CD20-CD28-CD3 zeta chimeric antigen receptor-modified effector CD8+ T cells. J Immunol
+2015;194(3):911–20 doi 10.4049/jimmunol.1402346. [DOI] [PubMed] [Google Scholar]
+
+
+19.Caruso HG, Hurton LV, Najjar A, Rushworth D, Ang S, Olivares S, et al. 
+Tuning Sensitivity of CAR to EGFR Density Limits Recognition of Normal Tissue While Maintaining Potent Antitumor Activity. Cancer Res
+2015;75(17):3505–18 doi 10.1158/0008-5472.CAN-15-0139. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+20.Liu X, Jiang S, Fang C, Yang S, Olalere D, Pequignot EC, et al. 
+Affinity-Tuned ErbB2 or EGFR Chimeric Antigen Receptor T Cells Exhibit an Increased Therapeutic Index against Tumors in Mice. Cancer Res
+2015;75(17):3596–607 doi 10.1158/0008-5472.CAN-15-0159. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+21.Fry TJ, Shah NN, Orentas RJ, Stetler-Stevenson M, Yuan CM, Ramakrishna S, et al. 
+CD22-targeted CAR T cells induce remission in B-ALL that is naive or resistant to CD19-targeted CAR immunotherapy. Nat Med
+2018;24(1):20–8 doi 10.1038/nm.4441. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+22.Cohen AD, Garfall AL, Stadtmauer EA, Melenhorst JJ, Lacey SF, Lancaster E, et al. 
+B cell maturation antigen-specific CAR T cells are clinically active in multiple myeloma. J Clin Invest
+2019;129(6):2210–21 doi 10.1172/JCI126397. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+23.Sykulev Y, Joo M, Vturina I, Tsomides TJ, Eisen HN. Evidence that a single peptide-MHC complex on a target cell can elicit a cytolytic T cell response. Immunity
+1996;4(6):565–71. [DOI] [PubMed] [Google Scholar]
+
+
+24.Harris DT, Hager MV, Smith SN, Cai Q, Stone JD, Kruger P, et al. 
+Comparison of T Cell Activities Mediated by Human TCRs and CARs That Use the Same Recognition Domains. J Immunol
+2018;200(3):1088–100 doi 10.4049/jimmunol.1700236. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+25.Mount CW, Majzner RG, Sundaresh S, Arnold EP, Kadapakkam M, Haile S, et al. 
+Potent antitumor efficacy of anti-GD2 CAR T cells in H3-K27M(+) diffuse midline gliomas. Nat Med
+2018;24(5):572–9 doi 10.1038/s41591-018-0006-x. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+26.Du H, Hirabayashi K, Ahn S, Kren NP, Montgomery SA, Wang X, et al. 
+Antitumor Responses in the Absence of Toxicity in Solid Tumors by Targeting B7-H3 via Chimeric Antigen Receptor T Cells. Cancer Cell
+2019;35(2):221–37 e8 doi 10.1016/j.ccell.2019.01.002. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+27.Hegde M, DeRenzo CC, Zhang H, Mata M, Gerken C, Shree A, et al. 
+Expansion of HER2-CAR T cells after lymphodepletion and clinical responses in patients with advanced sarcoma. Journal of Clinical Oncology
+2017;35(15_suppl):10508- doi 10.1200/JCO.2017.35.15_suppl.10508. [DOI] [Google Scholar]
+
+
+28.Ahmed N, Brawley VS, Hegde M, Robertson C, Ghazi A, Gerken C, et al. 
+Human Epidermal Growth Factor Receptor 2 (HER2) -Specific Chimeric Antigen Receptor-Modified T Cells for the Immunotherapy of HER2-Positive Sarcoma. J Clin Oncol
+2015;33(15):1688–96 doi 10.1200/JCO.2014.58.0225. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+29.Ahmed N, Brawley V, Hegde M, Bielamowicz K, Kalra M, Landi D, et al. 
+HER2-Specific Chimeric Antigen Receptor-Modified Virus-Specific T Cells for Progressive Glioblastoma: A Phase 1 Dose-Escalation Trial. JAMA Oncol
+2017;3(8):1094–101 doi 10.1001/jamaoncol.2017.0184. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+30.Alabanza L, Pegues M, Geldres C, Shi V, Wiltzius JJW, Sievers SA, et al. 
+Function of Novel Anti-CD19 Chimeric Antigen Receptors with Human Variable Regions Is Affected by Hinge and Transmembrane Domains. Mol Ther
+2017;25(11):2452–65 doi 10.1016/j.ymthe.2017.07.013. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+31.Brudno JN, Lam N, Vanasse D, Shen YW, Rose JJ, Rossi J, et al. 
+Safety and feasibility of anti-CD19 CAR T cells with fully human binding domains in patients with B-cell lymphoma. Nat Med
+2020;26(2):270–80 doi 10.1038/s41591-019-0737-3. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+32.Ying Z, Huang XF, Xiang X, Liu Y, Kang X, Song Y, et al. 
+A safe and potent anti-CD19 CAR T cell therapy. Nat Med
+2019;25(6):947–53 doi 10.1038/s41591-019-0421-7. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+33.Feucht J, Sun J, Eyquem J, Ho YJ, Zhao Z, Leibold J, et al. 
+Calibration of CAR activation potential directs alternative T cell fates and therapeutic potency. Nat Med
+2019;25(1):82–8 doi 10.1038/s41591-018-0290-5. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+34.Rosenthal J, Naqvi AS, Luo M, Wertheim G, Paessler M, Thomas-Tikhonenko A, et al. 
+Heterogeneity of surface CD19 and CD22 expression in B lymphoblastic leukemia. Am J Hematol
+2018;93(11):E352–E5 doi 10.1002/ajh.25235. [DOI] [PubMed] [Google Scholar]
+
+
+35.Haso W, Lee DW, Shah NN, Stetler-Stevenson M, Yuan CM, Pastan IH, et al. 
+Anti-CD22-chimeric antigen receptors targeting B-cell precursor acute lymphoblastic leukemia. Blood
+2013;121(7):1165–74 doi 10.1182/blood-2012-06-438002. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+36.Jensen MC, Popplewell L, Cooper LJ, DiGiusto D, Kalos M, Ostberg JR, et al. 
+Antitransgene rejection responses contribute to attenuated persistence of adoptively transferred CD20/CD19-specific chimeric antigen receptor redirected T cells in humans. Biol Blood Marrow Transplant
+2010;16(9):1245–56 doi 10.1016/j.bbmt.2010.03.014. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+37.Till BG, Jensen MC, Wang J, Chen EY, Wood BL, Greisman HA, et al. 
+Adoptive immunotherapy for indolent non-Hodgkin lymphoma and mantle cell lymphoma using genetically modified autologous CD20-specific T cells. Blood
+2008;112(6):2261–71 doi 10.1182/blood-2007-12-128843. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+38.Ormhoj M, Scarfo I, Cabral ML, Bailey SR, Lorrey SJ, Bouffard AA, et al. 
+Chimeric Antigen Receptor T Cells Targeting CD79b Show Efficacy in Lymphoma with or without Cotargeting CD19. Clin Cancer Res
+2019;25(23):7046–57 doi 10.1158/1078-0432.CCR-19-1337. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+39.Vera J, Savoldo B, Vigouroux S, Biagi E, Pule M, Rossig C, et al. 
+T lymphocytes redirected against the kappa light chain of human immunoglobulin efficiently kill mature B lymphocyte-derived malignant cells. Blood
+2006;108(12):3890–7 doi 10.1182/blood-2006-04-017061. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+40.Ramos CA, Savoldo B, Torrano V, Ballard B, Zhang H, Dakhova O, et al. 
+Clinical responses with T lymphocytes targeting malignancy-associated kappa light chains. J Clin Invest
+2016;126(7):2588–96 doi 10.1172/JCI86000. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+41.Ranganathan R
+Chimeric antigen receptor T cells targeting the lambda light chain of human immunoglobulin as a viable target for B cell non-Hodgkin lymphoma. Journal of Clinical Oncology
+2018;36(15_suppl):12079- doi 10.1200/JCO.2018.36.15_suppl.12079. [DOI] [Google Scholar]
+
+
+42.Salter AI, Ivey RG, Kennedy JJ, Voillet V, Rajan A, Alderman EJ, et al. 
+Phosphoproteomic analysis of chimeric antigen receptor signaling reveals kinetic and quantitative differences that affect cell function. Sci Signal
+2018;11(544) doi 10.1126/scisignal.aat6753. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+43.Kochenderfer JN, Yu Z, Frasheri D, Restifo NP, Rosenberg SA. Adoptive transfer of syngeneic T cells transduced with a chimeric antigen receptor that recognizes murine CD19 can eradicate lymphoma and normal B cells. Blood
+2010;116(19):3875–86 doi 10.1182/blood-2010-01-265041. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+44.Zhao Y, Wang QJ, Yang S, Kochenderfer JN, Zheng Z, Zhong X, et al. 
+A herceptin-based chimeric antigen receptor with modified signaling domains leads to enhanced survival of transduced T lymphocytes and antitumor activity. J Immunol
+2009;183(9):5563–74 doi 10.4049/jimmunol.0900447. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+45.Long AH, Haso WM, Shern JF, Wanhainen KM, Murgai M, Ingaramo M, et al. 
+4–1BB costimulation ameliorates T cell exhaustion induced by tonic signaling of chimeric antigen receptors. Nat Med
+2015;21(6):581–90 doi 10.1038/nm.3838. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+46.Zhao Z, Condomines M, van der Stegen SJC, Perna F, Kloss CC, Gunset G, et al. 
+Structural Design of Engineered Costimulation Determines Tumor Rejection Kinetics and Persistence of CAR T Cells. Cancer Cell
+2015;28(4):415–28 doi 10.1016/j.ccell.2015.09.004. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+47.Brentjens RJ, Latouche JB, Santos E, Marti F, Gong MC, Lyddane C, et al. 
+Eradication of systemic B-cell tumors by genetically targeted human T lymphocytes co-stimulated by CD80 and interleukin-15. Nat Med
+2003;9(3):279–86 doi 10.1038/nm827. [DOI] [PubMed] [Google Scholar]
+
+
+48.Rossig C, Bollard CM, Nuchtern JG, Merchant DA, Brenner MK. Targeting of G(D2)-positive tumor cells by human T lymphocytes engineered to express chimeric T-cell receptor genes. Int J Cancer
+2001;94(2):228–36. [DOI] [PubMed] [Google Scholar]
+
+
+49.Pule MA, Savoldo B, Myers GD, Rossig C, Russell HV, Dotti G, et al. 
+Virus-specific T cells engineered to coexpress tumor-specific receptors: persistence and antitumor activity in individuals with neuroblastoma. Nat Med
+2008;14(11):1264–70 doi 10.1038/nm.1882. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+50.Cooper LJ, Topp MS, Serrano LM, Gonzalez S, Chang WC, Naranjo A, et al. 
+T-cell clones can be rendered specific for CD19: toward the selective augmentation of the graft-versus-B-lineage leukemia effect. Blood
+2003;101(4):1637–44 doi 10.1182/blood-2002-07-1989. [DOI] [PubMed] [Google Scholar]
+
+
+51.Finney HM, Lawson AD, Bebbington CR, Weir AN. Chimeric receptors providing both primary and costimulatory signaling in T cells from a single gene product. J Immunol
+1998;161(6):2791–7. [PubMed] [Google Scholar]
+
+
+52.Maher J, Brentjens RJ, Gunset G, Riviere I, Sadelain M. Human T-lymphocyte cytotoxicity and proliferation directed by a single chimeric TCRzeta /CD28 receptor. Nat Biotechnol
+2002;20(1):70–5 doi 10.1038/nbt0102-70. [DOI] [PubMed] [Google Scholar]
+
+
+53.Brentjens RJ, Santos E, Nikhamin Y, Yeh R, Matsushita M, La Perle K, et al. 
+Genetically targeted T cells eradicate systemic acute lymphoblastic leukemia xenografts. Clin Cancer Res
+2007;13(18 Pt 1):5426–35 doi 10.1158/1078-0432.CCR-07-0674. [DOI] [PubMed] [Google Scholar]
+
+
+54.Kowolik CM, Topp MS, Gonzalez S, Pfeiffer T, Olivares S, Gonzalez N, et al. 
+CD28 costimulation provided through a CD19-specific chimeric antigen receptor enhances in vivo persistence and antitumor efficacy of adoptively transferred T cells. Cancer Res
+2006;66(22):10995–1004 doi 10.1158/0008-5472.CAN-06-0160. [DOI] [PubMed] [Google Scholar]
+
+
+55.Ramello MC, Benzaid I, Kuenzi BM, Lienlaf-Moreno M, Kandell WM, Santiago DN, et al. 
+An immunoproteomic approach to characterize the CAR interactome and signalosome. Sci Signal
+2019;12(568) doi 10.1126/scisignal.aap9777. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+56.Hamieh M, Dobrin A, Cabriolu A, van der Stegen SJC, Giavridis T, Mansilla-Soto J, et al. 
+CAR T cell trogocytosis and cooperative killing regulate tumour antigen escape. Nature
+2019;568(7750):112–6 doi 10.1038/s41586-019-1054-1. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+57.Gudipati V, Rydzek J, Perez ID, Scharf L, Königsberger S, Einsele H, et al. 
+Inefficient ZAP70-Signaling Blunts Antigen Detection by CAR-T-Cells. bioRxiv
+2019:720417 doi 10.1101/720417. [DOI] [Google Scholar]
+
+
+58.Fraietta JA, Lacey SF, Orlando EJ, Pruteanu-Malinici I, Gohil M, Lundh S, et al. 
+Determinants of response and resistance to CD19 chimeric antigen receptor (CAR) T cell therapy of chronic lymphocytic leukemia. Nat Med
+2018;24(5):563–71 doi 10.1038/s41591-018-0010-1. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+59.Finney OC, Brakke HM, Rawlings-Rhea S, Hicks R, Doolittle D, Lopez M, et al. 
+CD19 CAR T cell product and disease attributes predict leukemia remission durability. J Clin Invest
+2019;130 doi 10.1172/JCI125423. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+60.Schuster SJ, Bishop MR, Tam CS, Waller EK, Borchmann P, McGuirk JP, et al. 
+Tisagenlecleucel in Adult Relapsed or Refractory Diffuse Large B-Cell Lymphoma. N Engl J Med
+2019;380(1):45–56 doi 10.1056/NEJMoa1804980. [DOI] [PubMed] [Google Scholar]
+
+
+61.Turtle CJ, Hanafi LA, Berger C, Hudecek M, Pender B, Robinson E, et al. 
+Immunotherapy of non-Hodgkin’s lymphoma with a defined ratio of CD8+ and CD4+ CD19-specific chimeric antigen receptor-modified T cells. Sci Transl Med
+2016;8(355):355ra116 doi 10.1126/scitranslmed.aaf8621. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+62.Stone JD, Aggen DH, Schietinger A, Schreiber H, Kranz DM. A sensitivity scale for targeting T cells with chimeric antigen receptors (CARs) and bispecific T-cell Engagers (BiTEs). Oncoimmunology
+2012;1(6):863–73 doi 10.4161/onci.20592. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+63.Nerreter T, Letschert S, Gotz R, Doose S, Danhof S, Einsele H, et al. 
+Super-resolution microscopy reveals ultra-low CD19 expression on myeloma cells that triggers elimination by CD19 CAR-T. Nat Commun
+2019;10(1):3137 doi 10.1038/s41467-019-10948-w. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+64.Drent E, Poels R, Ruiter R, van de Donk N, Zweegman S, Yuan H, et al. 
+Combined CD28 and 4–1BB Costimulation Potentiates Affinity-tuned Chimeric Antigen Receptor-engineered T Cells. Clin Cancer Res
+2019.  doi 10.1158/1078-0432.CCR-18-2559. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+65.Priceman SJ, Gerdts EA, Tilakawardane D, Kennewick KT, Murad JP, Park AK, et al. 
+Co-stimulatory signaling determines tumor antigen sensitivity and persistence of CAR T cells targeting PSCA+ metastatic prostate cancer. Oncoimmunology
+2018;7(2):e1380764 doi 10.1080/2162402X.2017.1380764. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+66.Sotillo E, Barrett DM, Black KL, Bagashev A, Oldridge D, Wu G, et al. 
+Convergence of Acquired Mutations and Alternative Splicing of CD19 Enables Resistance to CART-19 Immunotherapy. Cancer Discov
+2015;5(12):1282–95 doi 10.1158/2159-8290.CD-15-1020. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+67.Orlando EJ, Han X, Tribouley C, Wood PA, Leary RJ, Riester M, et al. 
+Genetic mechanisms of target antigen loss in CAR19 therapy of acute lymphoblastic leukemia. Nat Med
+2018;24(10):1504–6 doi 10.1038/s41591-018-0146-z. [DOI] [PubMed] [Google Scholar]
+
+
+68.Lynn RC, Weber EW, Sotillo E, Gennert D, Xu P, Good Z, et al. 
+c-Jun overexpression in CAR T cells induces exhaustion resistance. Nature
+2019;576(7786):293–300 doi 10.1038/s41586-019-1805-z. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+69.Hudecek M, Sommermeyer D, Kosasih PL, Silva-Benedict A, Liu L, Rader C, et al. 
+The nonsignaling extracellular spacer domain of chimeric antigen receptors is decisive for in vivo antitumor activity. Cancer Immunol Res
+2015;3(2):125–35 doi 10.1158/2326-6066.CIR-14-0127. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+70.Kunkele A, Taraseviciute A, Finn LS, Johnson AJ, Berger C, Finney O, et al. 
+Preclinical Assessment of CD171-Directed CAR T-cell Adoptive Therapy for Childhood Neuroblastoma: CE7 Epitope Target Safety and Product Manufacturing Feasibility. Clin Cancer Res
+2017;23(2):466–77 doi 10.1158/1078-0432.CCR-16-0354. [DOI] [PubMed] [Google Scholar]
+
+
+71.Barrett DM, Seif AE, Carpenito C, Teachey DT, Fish JD, June CH, et al. 
+Noninvasive bioluminescent imaging of primary patient acute lymphoblastic leukemia: a strategy for preclinical modeling. Blood
+2011;118(15):e112–7 doi 10.1182/blood-2011-04-346528. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+72.Jena B, Maiti S, Huls H, Singh H, Lee DA, Champlin RE, et al. 
+Chimeric antigen receptor (CAR)-specific monoclonal antibody to detect CD19-specific T cells in clinical trials. PLoS One
+2013;8(3):e57838 doi 10.1371/journal.pone.0057838. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+73.Bak RO, Dever DP, Porteus MH. CRISPR/Cas9 genome editing in human hematopoietic stem cells. Nat Protoc
+2018;13(2):358–76 doi 10.1038/nprot.2017.143. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+74.Hendel A, Bak RO, Clark JT, Kennedy AB, Ryan DE, Roy S, et al. 
+Chemically modified guide RNAs enhance CRISPR-Cas genome editing in human primary cells. Nat Biotechnol
+2015;33(9):985–9 doi 10.1038/nbt.3290. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+75.Vakulskas CA, Dever DP, Rettig GR, Turk R, Jacobi AM, Collingwood MA, et al. 
+A high-fidelity Cas9 mutant delivered as a ribonucleoprotein complex enables efficient gene editing in human hematopoietic stem and progenitor cells. Nat Med
+2018;24(8):1216–24 doi 10.1038/s41591-018-0137-0. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+76.Edelstein AD, Tsuchida MA, Amodaj N, Pinkard H, Vale RD, Stuurman N. Advanced methods of microscope control using muManager software. J Biol Methods
+2014;1(2) doi 10.14440/jbm.2014.36. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+77.Myklebust JH, Brody J, Kohrt HE, Kolstad A, Czerwinski DK, Walchli S, et al. 
+Distinct patterns of B-cell receptor signaling in non-Hodgkin lymphomas identified by single-cell profiling. Blood
+2017;129(6):759–70 doi 10.1182/blood-2016-05-718494. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+Associated Data
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+
+Supplementary Materials
+
+1
+
+NIHMS1578835-supplement-1.docx (27.9MB, docx) 
+
+
+                      
+
+                    
+                
+            
+        
+
+        
+
+
+
+
+
+    
+
+        
+            
+        
+    
+       
+
+              
+ACTIONS
+           
+               
+               
+
+                     
+                         
+                         View on publisher site
+                     
+               
+               
+               
+               
+
+                    
+                         
+                        PDF (3.5 MB)
+                    
+               
+               
+                
+               
+
+                   
+                       
+                       Cite
+                    
+               
+                
+               
+
+
+                        
+                            
+                            
+                            Collections
+                       
+               
+               
+
+                    
+                        
+                        Permalink
+                    
+                   
+
+
+    
+          
+PERMALINK
+          
+              
+              
+                  
+                  Copy
+              
+          
+    
+
+               
+           
+       
+     
+
+        
+
+            
+RESOURCES
+            
+                
+                    
+
+                        
+                            Similar articles
+                        
+                    
+                    
+                        
+                    
+                    
+
+                        
+                             Cited by other articles
+                        
+                    
+                    
+                          
+                    
+                    
+                        
+
+                            
+                                 Links to NCBI Databases
+                            
+                        
+                        
+                        
+                    
+                    
+                
+            
+        
+
+
+        
+
+    
+
+
+        
+
+
+    
+        
+            
+Cite
+             
+                 
+             
+        
+
+        
+
+
+  
+  
+      
+
+        
+            
+            Copy
+        
+      
+      
+
+          
+                
+                Download .nbib
+                .nbib
+            
+      
+      
+
+          
+
+
+  Format:
+  
+    
+      
+        AMA
+      
+    
+      
+        APA
+      
+    
+      
+        MLA
+      
+    
+      
+        NLM
+      
+    
+  
+
+      
+  
+
+    
+
+
+        
+  
+   
+        
+Add to Collections
+    
+    
+      
+
+
+
+
+    
+
+    
+        
+            
+            Create a new collection
+        
+        
+            
+            Add to an existing collection
+        
+    
+
+    
+        
+           
+                Name your collection
+               *
+          
+          
+        
+        
+             
+                Choose a collection
+              
+              
+              
+              
+                Unable to load your collection due to an error
+                Please try again
+              
+        
+    
+
+    
+        
+          Add
+        
+        
+          Cancel
+        
+    
+
+    
+  
+
+
+        
+
+      
+    
+  
+
+
+
+        
+    
+    
+
+
+    
+        
+            
+                Follow NCBI
+            
+
+            
+                
+                    
+                        
+                            
+                            
+                        
+                        NCBI on X (formerly known as Twitter)
+                    
+                
+
+                
+                    
+                        
+                            
+                            
+                        
+                        NCBI on Facebook
+                    
+                
+
+                
+                    
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                        NCBI on LinkedIn
+                    
+                
+
+                
+                    
+                        
+                            
+                            
+                        
+                        NCBI on GitHub
+                    
+                
+
+                
+                    
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                        NCBI RSS feed
+                    
+                
+            
+        
+    
+
+    
+        
+            
+                
+                    
+                        
+
+                            Connect with NLM
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                
+                                NLM on X (formerly known as Twitter)
+                            
+                        
+
+                        
+                            
+                                
+                                    
+                                    
+                                
+                                NLM on Facebook
+                            
+                        
+
+                        
+                            
+                                
+                                    
+                                
+                                NLM on YouTube
+                            
+                        
+                    
+                
+            
+
+            
+                
+                    
+        
+
+            National Library of Medicine
+             8600 Rockville Pike Bethesda, MD 20894
+        
+    
+                
+            
+
+            
+                
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Web Policies
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            FOIA
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    
+
+
+                        
+                    
+                
+            
+
+            
+                
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Help
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Accessibility
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Careers
+        
+
+        
+    
+
+
+                        
+                    
+                
+            
+        
+
+        
+            
+                
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            NLM
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            NIH
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            HHS
+        
+
+        
+    
+
+
+                        
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            USA.gov
+        
+
+        
+    
+
+
+                        
+                    
+                
+            
+        
+    
+
+
+    
+
+
+        
+        
+    
+  
+
+
+    
+        
+
+
+    Back to Top
+    
+
+    
+
+
+        
+    
+    
+    
+    
+        
+    
+    
+
+    
+    
+    
+
+
+    
+     
+
+    
+
+
+
+    
+    
+
+    
+

@@ -1,0 +1,9 @@
+{
+  "url": "https://api.github.com/repos/StatPhysBio/HIVTreatmentOptimization/git/trees/main?recursive=1",
+  "resolved_url": "https://api.github.com/repos/StatPhysBio/HIVTreatmentOptimization/git/trees/main?recursive=1",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 64211,
+  "sha256": "7687d6753e4e4f2e21ed9d6af33e23d7592f6b93edb7b76e2834aae7a3aa6f51",
+  "retrieved_utc": "2026-10-02T06:26:10.607261+00:00"
+}

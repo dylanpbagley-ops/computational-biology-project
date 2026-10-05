@@ -1,0 +1,12 @@
+{
+ "n_tumour": 749,
+ "n_normal": 96,
+ "n_pairs": 2556,
+ "violations": 0,
+ "single_J": 0.3975000000000001,
+ "stat_median": 0.0,
+ "eng_median": 5.551115123125783e-17,
+ "null_single": -0.014333333333333309,
+ "null_stat": 0.006166666666666709,
+ "null_eng": 0.0050833333333333425
+}

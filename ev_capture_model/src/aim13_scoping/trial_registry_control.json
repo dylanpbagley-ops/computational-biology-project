@@ -1,0 +1,31 @@
+{
+ "n_targets": 24,
+ "sep_phase3": 0.44755244755244755,
+ "p_phase3": 0.6753866230668847,
+ "late_phase": {
+  "AXL": false,
+  "CA9": false,
+  "CD38": false,
+  "CD44": false,
+  "CEACAM5": false,
+  "CLDN18": false,
+  "DLL3": true,
+  "EGFR": true,
+  "ERBB2": true,
+  "ERBB3": true,
+  "F3": true,
+  "FAP": false,
+  "FOLH1": true,
+  "FOLR1": true,
+  "GPNMB": false,
+  "MET": true,
+  "MSLN": false,
+  "MUC1": false,
+  "MUC16": false,
+  "NCAM1": false,
+  "NECTIN4": true,
+  "SLC34A2": true,
+  "TACSTD2": true,
+  "TNFRSF8": false
+ }
+}

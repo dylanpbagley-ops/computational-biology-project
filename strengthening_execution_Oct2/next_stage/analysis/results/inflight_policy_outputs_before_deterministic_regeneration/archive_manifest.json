@@ -1,0 +1,16 @@
+{
+  "files": {
+    "external_full_cv_by_code.tsv": "6a3dca2b9118a7d394b4bb6ee8b2fd7bc094f9314e06acc4bc5fbc9b17290acd",
+    "external_full_cv_summary.tsv": "e3d64613da761b187ddb57a02cb73f783ca70315e4852bd137bf35203ecb7bda",
+    "external_full_cv_thresholds.tsv": "a6a642440a56104c18f6c387cdf3605d0677265db428c171c78683d254ecf8b9",
+    "external_full_cv_uncertain_sensitivity.tsv": "7af93dd78c0fcc4e3270baac3737c2635a365286934900ef9794fd3daa295d27",
+    "external_full_newcode_by_code.tsv": "44eea0e440e899b518467dc7435069ab5d23cfe23cad89c736df686d58a6d069",
+    "external_full_newcode_thresholds.tsv": "5399005f8ca748a2fd38ac452768081053107eea073c2bc761c066ee91b7a1bb",
+    "external_full_paired_contrasts.tsv": "2e5998d58bf6eef7989a6127478dd0783e0e3aee23ed953a6471109a9099a4ef",
+    "external_full_result_summary.json": "253043b72424a2e7f540ccb39bd5dc98ee772147aece1f6271cd5c24ff68829c",
+    "external_full_uncertain_label_by_code.tsv": "9a16f399be30fe8ac2c260036f2a3f52002f78b7e8900e2c216511efad3f583e",
+    "external_full_uncertain_label_sensitivity.tsv": "9004709df1bacb03283882177c63f579e349d020e879326ebfaea4ea0e3ffe99"
+  },
+  "reason": "fixed-training policy tables were initially produced before code-keyed reference dictionaries were sorted; preserve those outputs but regenerate all policy result tables deterministically from the verified cell extract",
+  "status": "provisional_inflight_outputs_superseded"
+}

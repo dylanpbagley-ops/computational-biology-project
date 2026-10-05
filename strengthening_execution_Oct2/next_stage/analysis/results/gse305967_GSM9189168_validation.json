@@ -1,0 +1,47 @@
+{
+  "count_file": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\strengthening_execution_Oct2\\next_stage\\data\\GSM9189168_AB14564.txt.gz",
+  "count_file_bytes": 521794,
+  "count_file_sha256": "b763287bb8b60f461142905628cc93f0dd4db37e42904df4f6397ef8b170d5c5",
+  "annotation_file": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\strengthening_execution_Oct2\\next_stage\\data\\GSE305971_cells_annotation_for_geo_ver_20250306.xlsx",
+  "annotation_file_sha256": "2fc3f9e19ab82097f6a50689de7bf4083aeb81aba442f263ea81afe8b150b94d",
+  "table_shape": {
+    "gene_rows": 57874,
+    "cell_columns": 384
+  },
+  "verified_raw_units": "nonnegative integer mRNA molecule counts per cell (GEO sample-level description)",
+  "annotation_join": {
+    "matched_cells": 105,
+    "unmatched_count_cells": 279,
+    "phenotype_population_tissue_counts": {
+      "NDMM|BM|B": 7,
+      "NDMM|BM|B_Pro": 4,
+      "NDMM|BM|DC": 3,
+      "NDMM|BM|Malignant": 2,
+      "NDMM|BM|Mo": 16,
+      "NDMM|BM|NK": 3,
+      "NDMM|BM|T_Effector": 33,
+      "NDMM|BM|T_Effector_GZMB": 7,
+      "NDMM|BM|T_Naive": 24,
+      "NDMM|BM|pDC": 6
+    }
+  },
+  "marker_slice": {
+    "TNFRSF17": {
+      "cells_in_count_file": 384,
+      "nonzero_cells": 0,
+      "molecule_sum": 0
+    },
+    "GPRC5D": {
+      "cells_in_count_file": 384,
+      "nonzero_cells": 0,
+      "molecule_sum": 0
+    },
+    "SLAMF7": {
+      "cells_in_count_file": 384,
+      "nonzero_cells": 14,
+      "molecule_sum": 17
+    }
+  },
+  "allowed_inference": "single processed sample feasibility slice only; not donor-policy validation",
+  "output_cells": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\strengthening_execution_Oct2\\next_stage\\analysis\\results\\gse305967_GSM9189168_cells.tsv"
+}

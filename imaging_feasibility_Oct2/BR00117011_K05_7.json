@@ -1,0 +1,11 @@
+{
+  "url": "https://cellpainting-gallery.s3.amazonaws.com/cpg0000-jump-pilot/source_4/workspace/analysis/2020_11_04_CPJUMP1/BR00117011/analysis/BR00117011-K05-7/Nuclei.csv",
+  "sha256_source": "2116c26ab8b51db37cd36d953b37210cdd35a95585bd24805002144bd36afffb",
+  "source_bytes": 1785402,
+  "plate": "BR00117011",
+  "well": "K05",
+  "site": 7,
+  "objects": 49,
+  "retrieved_utc": "2026-10-02T07:18:54.661517+00:00",
+  "sha256_extract": "08b312efc676b9329198b51eb0d81fa96b180d185dc424ad1f0c64208e8e38ee"
+}

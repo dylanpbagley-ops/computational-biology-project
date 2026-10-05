@@ -1,0 +1,20 @@
+{
+  "dlt_note": "Indexed primary Results text reports four dose-limiting toxicities in the relevant dose-escalation passage: one lipase increase and three grade 3 rash cases. This target-focused table normalizes the three rash cases in separate 135 \u00b5g/kg weekly, 800 \u00b5g/kg weekly, and 800 \u00b5g/kg every-other-week rows; dose-level denominators are NR. The lipase DLT is outside this normal-tissue event table.",
+  "labels_predictions_and_clinical_AUC_changed": false,
+  "normalization_input_sha256": "43bfba632e6ab93099e44b5170b8bd748ca64dda1767fc28bdc637bdc4da8f5a",
+  "normalization_protocol": "18-row fixed-source extraction followed by exact Table 2 enrichment",
+  "normalization_rule": "one event, cohort/schedule, and grade row; integer patient count or NR; source percentage in a separate field; denominator_unit is patients; no count inferred from a rounded percentage",
+  "normalized_event_grade_rows": 34,
+  "normalized_observations_sha256": "cae45c1edf398060bdcbff48f2a754d8546ed0dbb1f688ea895ad95a401b997a",
+  "review_status": "pending independent review",
+  "source_access_note": "Indexed primary NEJM Results and Table 2 text supplied the bounded extracted results; direct article page opens returned HTTP 403. Table 2 exact event counts were retained; supplementary tables were not retrieved. Review remains pending.",
+  "source_draft_rows": 7,
+  "source_mixed_draft_sha256": "4b2cb04357c0a0e5a499f6e3fcd1e056217af8f452c5e71976a6d297fd570a81",
+  "table2_enrichment": {
+    "causal_labels_changed": false,
+    "dysgeusia_grade_3_or_4": "NA retained as source NA; never converted to zero",
+    "exact_count_events": "skin, nail, rash, dysgeusia, dry mouth, and dysphagia, any grade and grade 3/4, by RP2D cohort",
+    "percentages": "only source-reported percentages retained; no percentage-to-count reconstruction",
+    "source": "NEJM Table 2, Safety, doi:10.1056/NEJMoa2204591"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "pilot_id": "functional_transport_discriminating_pilot",
+  "actual_pilot_start_utc": "2026-10-05T05:14:36Z",
+  "reviewed_plan": {
+    "path": "docs/superpowers/plans/2026-10-04-functional-transport-discriminating-pilot.md",
+    "bytes": 10327,
+    "sha256": "f091b36cb45b3761e9c93efbddedd7a46e304dfd9a40bd61f49d9f264fc1234f"
+  },
+  "question": "Within the separately selected Ramos validation gene panel, do perturbations with a consistently sensitizing CTL selection effect across at least three Lawson tumor models instead consistently promote resistance in both Ramos in-vitro CAR-T conditions?",
+  "claim_limits": [
+    "exploratory feasibility only",
+    "not blinded or independent prospective validation",
+    "no model fitting, AUC, optimization, clinical inference, or causal attribution of cross-study differences",
+    "the nine observed culture-pair values are descriptive envelopes, not confidence intervals or independent donor replication"
+  ],
+  "inputs": [
+    {
+      "path": "data/GSE149933_mTKO_readCounts_4May20.txt.gz",
+      "bytes": 18430780,
+      "sha256": "ff2ab7917c4adf3409ed68a4ee00484c67fd5847e3dad380a1b131810026637a",
+      "role": "Official processed guide-count matrix; raw selected read counts"
+    },
+    {
+      "path": "data/GSE149933_mTKO_library.txt.gz",
+      "bytes": 2197566,
+      "sha256": "9fe28537b7ec71f8314a289bf55872511f5a23c1777cd2ee1225b48e9943533b",
+      "role": "Official guide-to-gene annotation"
+    },
+    {
+      "path": "data/GSE149933_family.soft.gz",
+      "bytes": 15133,
+      "sha256": "1c451899ac1feb252a30d5b911f5ab8d0bbe954a57379cb71e5fd0a7921f855b",
+      "role": "Official GEO sample metadata"
+    },
+    {
+      "path": "data/Ramos_SupplementaryData1.xlsx",
+      "bytes": 93990,
+      "sha256": "dbc52dd3d71fec9e0f0b854401ca231e04d248e54c238e2759a614088bd8d8f2",
+      "role": "Official publisher supplementary selected validation panel"
+    }
+  ],
+  "frozen_prior_art": [
+    {
+      "path": "prior_art/STATUS.md",
+      "bytes": 995,
+      "sha256": "0e7e03d3e94a9d76649d7665d5e85d7bce996da157ab3dd43099a0325b573bb3"
+    },
+    {
+      "path": "prior_art/search_log.tsv",
+      "bytes": 1354,
+      "sha256": "ec8e5675d59d0f17433845d7bac3111a4c837d8843a7e199dafd8996eafe9a71"
+    },
+    {
+      "path": "prior_art/sources.tsv",
+      "bytes": 5202,
+      "sha256": "b4d28ebb06848a2e97b9734cd2c9f84d1ab7b84bc7d5c0127cc185fb877b6ae1"
+    },
+    {
+      "path": "prior_art/review.md",
+      "bytes": 7073,
+      "sha256": "52f90a2d79ec5d3b56f006ae4ecaabaa93b04ecfb3833fa9b352a84b27d67830"
+    }
+  ],
+  "gene_join": "Exact case-sensitive gene-symbol match from workbook Gene to count-matrix Gene.symbol; no aliases, case-folding, sequence-derived labels, or imputing missing as zero.",
+  "sample_mapping": {
+    "source_contexts": [
+      {
+        "model": "EMT6",
+        "source": "EMT6 cell line + haemagglutinin antigen",
+        "control_treatment": "Control",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T10",
+          "control_timepoint": "T11"
+        },
+        "late": {
+          "treated_timepoint": "T15",
+          "control_timepoint": "T19"
+        }
+      },
+      {
+        "model": "CT26",
+        "source": "CT26 cell line + haemagglutinin antigen",
+        "control_treatment": "Control",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T12",
+          "control_timepoint": "T11"
+        },
+        "late": {
+          "treated_timepoint": "T16",
+          "control_timepoint": "T17"
+        }
+      },
+      {
+        "model": "4T1",
+        "source": "4T1 cell line + haemagglutinin antigen",
+        "control_treatment": "Control",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T13",
+          "control_timepoint": "T14"
+        },
+        "late": {
+          "treated_timepoint": "T25",
+          "control_timepoint": "T25"
+        }
+      },
+      {
+        "model": "B16-Ova",
+        "source": "B16 cell line + ovalbumin antigen",
+        "control_treatment": "Control (WT-CD8 per source paper)",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T13",
+          "control_timepoint": "T13"
+        },
+        "late": {
+          "treated_timepoint": "T17",
+          "control_timepoint": "T17"
+        }
+      },
+      {
+        "model": "MC38-Ova",
+        "source": "MC38 cell line + ovalbumin antigen",
+        "control_treatment": "Control (WT-CD8 per source paper)",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T12",
+          "control_timepoint": "T12"
+        },
+        "late": {
+          "treated_timepoint": "T15",
+          "control_timepoint": "T15"
+        }
+      },
+      {
+        "model": "Renca-HA",
+        "source": "Renca cell line + haemagglutinin antigen",
+        "control_treatment": "Control",
+        "treated_treatment": "T cell (drop-out)",
+        "t0_timepoint": "T0",
+        "early": {
+          "treated_timepoint": "T16",
+          "control_timepoint": "T15"
+        },
+        "late": {
+          "treated_timepoint": "T22",
+          "control_timepoint": "T24"
+        }
+      }
+    ],
+    "matching_rule": "Use these outcome-blind source/timepoint pairs from sample_mapping.tsv. Primary is the numerically later CTL timepoint per model; earlier pair is the prespecified consistency check. Require three distinct A/B/C cultures for each arm. Keep Renca-HA source separate from antigen-free Renca IFN-gamma/TNF-alpha arms."
+  },
+  "normalization": {
+    "formula": "log2(1e6 * (count + 0.5) / (column_total + 0.5 * n_guides))",
+    "column_total": "sum across all 94,528 guide rows in each count column",
+    "interpretation": "exploratory library-normalized log frequency; not published drugZ, MAGeCK, a predictor, or direct percent killing"
+  },
+  "filter": {
+    "T0_raw_count_min_inclusive": 20,
+    "each_of_three_primary_control_raw_counts_min_inclusive": 20,
+    "minimum_retained_unique_guide_ids_per_gene_model": 3,
+    "duplicate_or_missing_keys": "excluded and recorded; no label rescue from guide sequence",
+    "same_retained_guides_for_earlier_check": true
+  },
+  "gene_effect": {
+    "per_guide": "normalized treated culture log-frequency minus normalized control culture log-frequency",
+    "per_gene_model_each_timepoint": "median across retained guides for each of all 3x3=9 treated-control culture pairs",
+    "summary": "median, minimum, maximum of the 9 observed pair values; sensitizing iff maximum<0; resistant iff minimum>0; otherwise mixed"
+  },
+  "baseline_fitness": "For each eligible gene/model, descriptive median across retained guides and the three primary control cultures of normalized log-frequency(control)-normalized log-frequency(single source-matched T0); report the single-T0 limitation; do not subtract baseline from the already paired CTL-vs-control effect.",
+  "ramos_columns": {
+    "primary_in_vitro": [
+      "cd19_1to2_v_egfr_1to2.mageck.lfc",
+      "cd19_1to2_v_egfr_1to2.mageck.fdr",
+      "cd19_1to10_v_egfr_1to10.mageck.lfc",
+      "cd19_1to10_v_egfr_1to10.mageck.fdr"
+    ],
+    "resistance_rule": "positive MAGeCK LFC (enrichment in anti-CD19 relative to control anti-hEGFRvIII) and reported FDR<=0.05 in BOTH E:T contrasts",
+    "in_vivo_columns": "excluded from primary because some workbook headers encode anti-CD19 10m versus control 15m dose mismatch"
+  },
+  "primary_flag": "Exact-panel gene is sign-stable sensitizing in at least 3 of 6 latest CTL model contexts AND passes the positive-LFC/FDR rule in both Ramos in-vitro contrasts.",
+  "symmetric_descriptive_flag": "Sign-stable resistant CTL effect in at least 3 of 6 latest contexts AND Ramos sensitizing (negative LFC, FDR<=0.05) in both in-vitro contrasts; report but do not switch primary.",
+  "anchors": [
+    "B2m",
+    "Ifngr1",
+    "Ifngr2",
+    "Jak1",
+    "Jak2",
+    "Stat1",
+    "Irf1",
+    "Ptpn2",
+    "Socs1",
+    "Fitm2",
+    "Fadd",
+    "Casp8",
+    "Atg3",
+    "Atg5",
+    "Atg7",
+    "Atg12",
+    "Becn1",
+    "Rb1cc1"
+  ],
+  "decision_stop_rules": [
+    "zero primary flags",
+    "known-pattern-only or generic concordance",
+    "insufficient eligible genes/guides",
+    "early/late sign instability",
+    "normalization/source mapping contradicts expected assay direction",
+    "questionable Ramos LFC direction"
+  ],
+  "protocol_sha256": "45103a84c6d99f9bea919f8ae5b3511f0fbf515b1e52b5d4f976cdea6b2167a5",
+  "protocol_hash_definition": "SHA256 of canonical UTF-8 JSON for all protocol fields except protocol_sha256, using sorted keys and compact separators"
+}

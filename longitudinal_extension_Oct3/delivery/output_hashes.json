@@ -1,0 +1,1016 @@
+{
+  "schema_version": 1,
+  "generated_at_local": "2026-10-03T23:14:26-07:00",
+  "stage_directory": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\longitudinal_extension_Oct3",
+  "self_excluded": true,
+  "file_count": 201,
+  "tsv_files_width_checked": 23,
+  "json_files_finite_checked": 10,
+  "files": [
+    {
+      "path": "analysis/__pycache__/load_paired_counts.cpython-312.pyc",
+      "bytes": 14642,
+      "sha256": "068313c13e3ba04fe58fc113e37c19e9272c8c8ebc3e99988d6fbbe3d4a040a6"
+    },
+    {
+      "path": "analysis/load_paired_counts.py",
+      "bytes": 8847,
+      "sha256": "4658bd9a57ef70d5533ffbc73628818c99a3708a3ee702349bc5bfdb63b3f939"
+    },
+    {
+      "path": "analysis/pilot_protocol.lock.json",
+      "bytes": 960,
+      "sha256": "169b5030957add785ffdfc6a51dfca3c60074805711d0ad66ca2ae04364154ff"
+    },
+    {
+      "path": "analysis/pilot_protocol.md",
+      "bytes": 5832,
+      "sha256": "f32b335d2bc88a1571f4045452033d422049304b501738c032c966bb8c45a9ac"
+    },
+    {
+      "path": "analysis/plot_pilot_figure.py",
+      "bytes": 7544,
+      "sha256": "816c06030cf78dd6c94c92014adb243cb3fc22776b9bc81baac2e62382028f8f"
+    },
+    {
+      "path": "analysis/results/depth_sensitivity_paired_deltas.tsv",
+      "bytes": 862323,
+      "sha256": "a0d2ef8d01e138f7ad3b82dbb35dec6ca056c5acc1de6af7f8e4e9f4bcdd704b"
+    },
+    {
+      "path": "analysis/results/depth_sensitivity_paired_summary.tsv",
+      "bytes": 23219,
+      "sha256": "00fea37d3c6250979d6f062a25a5848319c9e0d321538331a3d7d1b5c78d2bf8"
+    },
+    {
+      "path": "analysis/results/depth_sensitivity_replicates.tsv",
+      "bytes": 547862,
+      "sha256": "200b58be837ba135f2c2382e2d43515893e27fd06623aa2d93c587b6295041db"
+    },
+    {
+      "path": "analysis/results/depth_sensitivity_summary.tsv",
+      "bytes": 43948,
+      "sha256": "8bcff963bc3848ce00d56d36c4858f4fffd6a74df27be05c01c9b6fbbe2880b1"
+    },
+    {
+      "path": "analysis/results/depth_threshold_by_sample.tsv",
+      "bytes": 524,
+      "sha256": "fbb1301485f011baac00ed43f098b047e085792dcd1b24526eb50910a8bfbcdb"
+    },
+    {
+      "path": "analysis/results/figure_depth_sensitivity_values.tsv",
+      "bytes": 1417,
+      "sha256": "a5ce926bb6190119b41010d4092d2bd0f35959d2a38a5c373fc403f295d4cff1"
+    },
+    {
+      "path": "analysis/results/figure_joint_category_deltas.tsv",
+      "bytes": 2611,
+      "sha256": "954372ea78faa2cd6180fa83dde0398e32d233046658aed82a37d51788c0d9ec"
+    },
+    {
+      "path": "analysis/results/paired_double_undetected_raw_vs_depth_sensitivity.png",
+      "bytes": 177497,
+      "sha256": "06643f018ac8b8d4afaa0e135a6a26892df7977b853ce16bf1ce05bf758a073f"
+    },
+    {
+      "path": "analysis/results/paired_double_undetected_raw_vs_depth_sensitivity.svg",
+      "bytes": 82741,
+      "sha256": "a9777807755517a8ebcf1a410ae98235705b457e407d5f906e218bed035a4bb5"
+    },
+    {
+      "path": "analysis/results/paired_joint_category_change.png",
+      "bytes": 167555,
+      "sha256": "f75b1c5bb34d134e8dffbeed40ee7d556718d61bd0b698d15c15b85538f091d5"
+    },
+    {
+      "path": "analysis/results/paired_joint_category_change.svg",
+      "bytes": 82871,
+      "sha256": "478cfdc9ecb452b0a2bfbe1d4b1eb985b4bf57d5895f7903b86e8634ce66f889"
+    },
+    {
+      "path": "analysis/results/participant_paired_deltas.tsv",
+      "bytes": 20962,
+      "sha256": "e8ac6bd665ae1b3be066bdef948c8951eb5db9a1c724c8366b396f2cf8329a71"
+    },
+    {
+      "path": "analysis/results/per_barcode_source_counts.tsv",
+      "bytes": 7003429,
+      "sha256": "bee156e729455be9e82a11d52130d98d7da8fa070ae5d034917e26ceb44ffc55"
+    },
+    {
+      "path": "analysis/results/pilot_figure_captions.md",
+      "bytes": 1305,
+      "sha256": "cdb4d255c946fa17ec2b85180727995bfff8699698eef5213ea9f8514f6fccef"
+    },
+    {
+      "path": "analysis/results/pilot_run_manifest.json",
+      "bytes": 4506,
+      "sha256": "947fa7ad9b2ddf86985c63fd3e70336e71863ab0f8d30296359f32bde2132b72"
+    },
+    {
+      "path": "analysis/results/primary_joint_detection.tsv",
+      "bytes": 5478,
+      "sha256": "e707c53a46cdb90e2c3c6e02a65af67a2628fee00f72d28d2e093cc6730a6748"
+    },
+    {
+      "path": "analysis/results/sample_depth_summary.tsv",
+      "bytes": 991,
+      "sha256": "b10260d20517b334252497721ed92540240ae7a551063cbcbfbc31df36d7bf47"
+    },
+    {
+      "path": "analysis/run_pilot.py",
+      "bytes": 18778,
+      "sha256": "f5e70b18da8b3bf49b2128068f2bf5029e50bc8b64385475d2950b3e8dc9ae98"
+    },
+    {
+      "path": "analysis/tests/__pycache__/test_paired_analysis.cpython-312.pyc",
+      "bytes": 10265,
+      "sha256": "b4376611b1eca625266d198e724dac459941aaa7e93c6f0dc33e172cc574e3aa"
+    },
+    {
+      "path": "analysis/tests/test_paired_analysis.py",
+      "bytes": 4922,
+      "sha256": "823d22b04e562936b659a4a025a9d2ac669bf699ad83a4888f783ff61a3bd642"
+    },
+    {
+      "path": "analysis/validate_h5_structure.py",
+      "bytes": 6011,
+      "sha256": "65187e30143a4a248dfdf331a6acecc79b61e5a14befadc5a287b8d84fbe917c"
+    },
+    {
+      "path": "data/amend_pilot_protocol_prelock.py",
+      "bytes": 3192,
+      "sha256": "825089f30692e29a82fa73ca98114da2cca5a9f3f1d7c2e85fc488d22eb09e8d"
+    },
+    {
+      "path": "data/download_manifest.json",
+      "bytes": 4265,
+      "sha256": "222029a6dd9bc6f4e84ee997b89085622750fa6058131968a32b16bc4bc72291"
+    },
+    {
+      "path": "data/download_manifest.tsv",
+      "bytes": 2458,
+      "sha256": "826315aae2509c6ac06ac26dadbe2c0b0eeea6c5f47d8248bc5ea9d3c9642e51"
+    },
+    {
+      "path": "data/download_paired_h5.py",
+      "bytes": 4398,
+      "sha256": "2840671b4a01381d1f711aa38e9db25ef98a933a2b74eee4d256f0ce881dfb6e"
+    },
+    {
+      "path": "data/extract_geo_sample_metadata.py",
+      "bytes": 2509,
+      "sha256": "05d60df6169f7453dd8b983959bd1c70d22083b3f0004b35da5ac5b6e0dd9a6a"
+    },
+    {
+      "path": "data/fetch_gse199359_family_soft.py",
+      "bytes": 1770,
+      "sha256": "417d858730bc335ca93d25cdc0ee3eeeb72717fa5a011315c699e271d564d3c8"
+    },
+    {
+      "path": "data/input_structure_qc.tsv",
+      "bytes": 2031,
+      "sha256": "b76310ab9ccb96bfbaef055d9f64290b8bbe9c5d913fd59e29df6ee84b620a07"
+    },
+    {
+      "path": "data/normalize_log_dates.py",
+      "bytes": 1998,
+      "sha256": "3673a8c23d8034c4c445fe8391c131846dd32537406f94ec743076af101e30b5"
+    },
+    {
+      "path": "data/probe_gse199359_files.py",
+      "bytes": 2827,
+      "sha256": "2751f3c2f4a42fa2eaf4f4eb4c4daf46dfe4c7a96c3e5246b6d55082bef1dd66"
+    },
+    {
+      "path": "data/processed/GSM5971019_filtered_feature_bc_matrix.h5",
+      "bytes": 21249301,
+      "sha256": "f7fb8f7364a5cf4978b5530877c601bf9d8b285b6bc86f1188f9aacd10380fc2"
+    },
+    {
+      "path": "data/processed/GSM5971020_filtered_feature_bc_matrix.h5",
+      "bytes": 22301164,
+      "sha256": "2007c1dceb754a30ec01b9986c1ce6d7742b3afd808c25c04d12d99fba3b86fb"
+    },
+    {
+      "path": "data/processed/GSM5971021_filtered_feature_bc_matrix.h5",
+      "bytes": 14289928,
+      "sha256": "69f9229c44de75fcbb31945224ec542508c21539ed7d711ff3ab3945f971145a"
+    },
+    {
+      "path": "data/processed/GSM5971023_filtered_feature_bc_matrix.h5",
+      "bytes": 18389947,
+      "sha256": "1bc77bb2b35420b31da46907997692031538f28d20a6d9b5fa0ce9f3ac66cded"
+    },
+    {
+      "path": "data/processed/GSM5971024_filtered_feature_bc_matrix.h5",
+      "bytes": 11383958,
+      "sha256": "5ec6e83a0d510e02d3272e76aa416ce42559f7aab3afb9c6f3f75dbb6e4ff1a8"
+    },
+    {
+      "path": "data/processed/GSM5971025_filtered_feature_bc_matrix.h5",
+      "bytes": 12854187,
+      "sha256": "7474c9211907e95c61406af71751696dd3a5f5e659cdee727a77e8f798e70dc5"
+    },
+    {
+      "path": "data/record_gate_decisions.py",
+      "bytes": 5877,
+      "sha256": "5285b30c3c436b9046926050750993887ab30bff93684d924cf1e911fbc5b453"
+    },
+    {
+      "path": "data/refresh_status.py",
+      "bytes": 4359,
+      "sha256": "05ae52425dde74ead5048bfb91d5ba3598657e8033b54cfffc1d1da2e3333393"
+    },
+    {
+      "path": "data/repair_checkpoint_schema.py",
+      "bytes": 2283,
+      "sha256": "da11ca26a2516b925db19b089ec1e0889c06559e20701d0a226c7dba3be92325"
+    },
+    {
+      "path": "data/source_metadata/GSE199359_family.soft",
+      "bytes": 90702,
+      "sha256": "b8173e41fb0eb8d373bc28e758fc030609becda1672e02630638849f091191ff"
+    },
+    {
+      "path": "data/source_metadata/GSE199359_family.soft.gz",
+      "bytes": 5344,
+      "sha256": "34e0b3750dc82a5a3a746b6dd94d544c6a8538593696e628bda9f878f8344aaa"
+    },
+    {
+      "path": "data/source_metadata/GSE199359_family.soft.manifest.json",
+      "bytes": 562,
+      "sha256": "c2581ecaf5478a11a3c8a99d35d6a61b3d62b7a85b0ac680dd03a19b74545ced"
+    },
+    {
+      "path": "data/source_metadata/GSE199359_h5_file_probes.json",
+      "bytes": 2862,
+      "sha256": "cc99e3e03c56c8c661b7541444670d943c1e794d38b1e0b34293354838f519e3"
+    },
+    {
+      "path": "data/source_metadata/GSE199359_h5_file_probes.tsv",
+      "bytes": 1477,
+      "sha256": "4dbea249b61dbca14571cdbbabd43200e16ea6e823e4fb08d279944d58b3e85b"
+    },
+    {
+      "path": "data/source_metadata/GSE199359_pair_samples.tsv",
+      "bytes": 8772,
+      "sha256": "b7a5d9942ae731703def4d53a4b5cbd8ae21a9264b8a09d25f17a7729cd9d083"
+    },
+    {
+      "path": "data/update_pair_inventory.py",
+      "bytes": 2091,
+      "sha256": "8ddc22ed0767e47989d85e163a75f07ae70f15314dc41b85ae641b2c1bbf7e3b"
+    },
+    {
+      "path": "data/update_sample_inventory.py",
+      "bytes": 2247,
+      "sha256": "3bdf4e9f31ca5c731ee8c2eb8f32db692f06aff1901122ba81f232383838cd37"
+    },
+    {
+      "path": "delivery/adjacent_gap_data_cards.md",
+      "bytes": 4800,
+      "sha256": "feba6142129668e23d2f817ba6be8b38096b86aaf5a1f5c7878405ff63a1328a"
+    },
+    {
+      "path": "delivery/advisory_outline.md",
+      "bytes": 1546,
+      "sha256": "81396fa0ae008ee56e92217acebc217e55db10b970851ae70a48a78a891b1fa8"
+    },
+    {
+      "path": "delivery/claim_evidence_matrix.tsv",
+      "bytes": 4593,
+      "sha256": "8c3cc54ea19ee0b4b50ea565a7ab5753ccc9186ab6f46ebc411fdc03ecbada19"
+    },
+    {
+      "path": "delivery/path_decision.md",
+      "bytes": 6630,
+      "sha256": "71f8ed28fb9bbd5313ce4d797654a016d43866ac46841cebf577666f5d420c4e"
+    },
+    {
+      "path": "delivery/remaining_dependencies.md",
+      "bytes": 1952,
+      "sha256": "3af8a33a6f671d720fd0683f05dbd81f863a6ed97bc5d7c86297f1cb8c69e0ee"
+    },
+    {
+      "path": "delivery/reproduction.md",
+      "bytes": 3433,
+      "sha256": "2bb329ce8ccb1af5155fe9828d754a12b529251be8b42b9018dc44abad77577b"
+    },
+    {
+      "path": "delivery/research_contribution.md",
+      "bytes": 1268,
+      "sha256": "20e9c126c50f44d4f6881153d42521f5e4984ceadd79a4daab46e1f9a1635c44"
+    },
+    {
+      "path": "delivery/student_checks.md",
+      "bytes": 1382,
+      "sha256": "f9289a538a77a955d8f932186461cb0375fe85ff11f2a592b80ec2a9d2f2b3dd"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/direct_url.json",
+      "bytes": 337,
+      "sha256": "4742878f8a9653b45ac0e8e159f962e5f5a8cda08b8d76c83c4aabc8c8079717"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/licenses/LICENSE",
+      "bytes": 1550,
+      "sha256": "b773bc7cf038637a7fd8087648cc28e05f0f24d53770d1827147a40a1d268ab5"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/licenses/licenses/hdf5.txt",
+      "bytes": 3835,
+      "sha256": "d7c1924744336633bbaac5626107ab55c961715abc9f71744443e43a4db3f194"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/licenses/licenses/license.txt",
+      "bytes": 1773,
+      "sha256": "9a6333afbf5c391994fe3e9f5241accb8c22a23eb50b2e7e9b00ea57dccf29d0"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/licenses/licenses/pytables.txt",
+      "bytes": 1673,
+      "sha256": "635a613f100d7ee01946fa52413f612cfe402b01f5cc139c221898f25d04b057"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/licenses/licenses/python.txt",
+      "bytes": 2547,
+      "sha256": "f44efbbdac3232645854843bec8e8a206621aab6c5d5cc3e4c3e838a2aa6d0cb"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/licenses/licenses/stdint.txt",
+      "bytes": 1419,
+      "sha256": "30b76942adcfe2517aa56e7a81644b412a2a29d14ac5f0d299a567ec54a295e5"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/licenses/lzf/LICENSE.txt",
+      "bytes": 1589,
+      "sha256": "d7b37a2bda245d5199b84a04cf4d91b899b4ad687076c8e0a92d792b521fd464"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/METADATA",
+      "bytes": 3071,
+      "sha256": "28e9000a32bbaab84498f77d04dd7690ac061459e2fb17e01509d0020672e0bc"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/RECORD",
+      "bytes": 9155,
+      "sha256": "991af53b55d74dd3b33aa89a204a6b5c92fa6734723b0dd04d5801cc62298566"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/top_level.txt",
+      "bytes": 5,
+      "sha256": "7ceec1b1a6b4177371e9d8c4ac209b4b0e3e13bac114c5ab0554c62c433150c8"
+    },
+    {
+      "path": "dependencies/h5py-3.16.0.dist-info/WHEEL",
+      "bytes": 101,
+      "sha256": "f861e96b233ca3199543a9700593825018a1ca66607461abea9f7c453ef8e38e"
+    },
+    {
+      "path": "dependencies/h5py/__init__.py",
+      "bytes": 3820,
+      "sha256": "b4ae987d3683447b38924e9b3ecb5b9c7839503ad05bf5cf22c77ab752449466"
+    },
+    {
+      "path": "dependencies/h5py/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 4183,
+      "sha256": "bfa43195607963e84ec1f0c22d77271896fae1abf34f263672c533f0cfe4eabd"
+    },
+    {
+      "path": "dependencies/h5py/__pycache__/h5py_warnings.cpython-312.pyc",
+      "bytes": 711,
+      "sha256": "a3ca2220a5be86666c9ed7c7ba197f858e020fe726c1993314667b409cff53c1"
+    },
+    {
+      "path": "dependencies/h5py/__pycache__/version.cpython-312.pyc",
+      "bytes": 2035,
+      "sha256": "1f9d4e2c3bb011ce09aeececd75b804ccaace71cd0660a86d98fa15ad429cf66"
+    },
+    {
+      "path": "dependencies/h5py/_conv.cp312-win_amd64.pyd",
+      "bytes": 172544,
+      "sha256": "8b5a587581849ea4997350ce3528b083419a2a1efb40d267473c89dd1b672121"
+    },
+    {
+      "path": "dependencies/h5py/_errors.cp312-win_amd64.pyd",
+      "bytes": 49152,
+      "sha256": "18e5eb43c50dd91555fa836ad448368e65a077dac012d8f993b5e851f1a039f0"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__init__.py",
+      "bytes": 472,
+      "sha256": "31c5551a73145e630a03c1963c3f627b68ea7bdaac819d2b4982a640810dec2d"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 395,
+      "sha256": "e9240dacb346b0d78360ae38533d42b06e1abfeb32f8e1e80b18e40403405bc3"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/attrs.cpython-312.pyc",
+      "bytes": 11403,
+      "sha256": "37f962982db3a8ad161c69550eb35c9303445b0e228cdcea5058913ff15906d1"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/base.cpython-312.pyc",
+      "bytes": 23241,
+      "sha256": "b667ce84abe47d3d27efcfb2c6177f856001fb428c9a86434a196d82b818fbce"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/compat.cpython-312.pyc",
+      "bytes": 2040,
+      "sha256": "1c1088a61abb734fd01fb9dc0c740afeed6524a478db3287e32ed09a1b558ab9"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/dataset.cpython-312.pyc",
+      "bytes": 57671,
+      "sha256": "87d59dd021dab20f9208367f99dd7798e462762a515677d1f00c062ff82a9c7b"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/datatype.cpython-312.pyc",
+      "bytes": 2240,
+      "sha256": "b1b714f902be6042ead5acfec53af6c691c58e329b5acad776ae59a3fd98b9a6"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/files.cpython-312.pyc",
+      "bytes": 30671,
+      "sha256": "0eb37ab12c396f39c27f75b27280f8cc917fb2756e687bbb12601049dad2a44f"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/filters.cpython-312.pyc",
+      "bytes": 15738,
+      "sha256": "bfff537283d2ae996fcd78983384809eafbea74e01b0455b9bc2934be2cd9e51"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/group.cpython-312.pyc",
+      "bytes": 41886,
+      "sha256": "d29c7c5e458f4e3c78f928e07aacc345f233809a855a4204fe0c2b6978745720"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/selections.cpython-312.pyc",
+      "bytes": 20408,
+      "sha256": "d5dcae94684601af1b15d88833c51e404d9860b10740937575471813f50c5e87"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/selections2.cpython-312.pyc",
+      "bytes": 3638,
+      "sha256": "7e31ebb6ef6c236377525ea66b4546b603d00a2b69d1c755c077f8ad299aaf7c"
+    },
+    {
+      "path": "dependencies/h5py/_hl/__pycache__/vds.cpython-312.pyc",
+      "bytes": 11494,
+      "sha256": "d8c6267aa4318681a65086e023a0491d4f57d42c1de457bf2271b7cdce8d7d92"
+    },
+    {
+      "path": "dependencies/h5py/_hl/attrs.py",
+      "bytes": 10486,
+      "sha256": "6de1b69ed8ffaed52f1b469f562179a24d398d5e06aceba388a7adac6f22f29c"
+    },
+    {
+      "path": "dependencies/h5py/_hl/base.py",
+      "bytes": 16236,
+      "sha256": "6f0bf0ff3b2940da7cd5169544b020118c7cb3ac9bb343ca73b99003ad2a310a"
+    },
+    {
+      "path": "dependencies/h5py/_hl/compat.py",
+      "bytes": 1569,
+      "sha256": "c01ee13fc26078e41dd3aaa911c0b5b0ed6fede12ddb31af3c423f230ea89725"
+    },
+    {
+      "path": "dependencies/h5py/_hl/dataset.py",
+      "bytes": 46543,
+      "sha256": "317ba3dbc16745e16b10ff1fd7847b3633f29376fbb2477161e0cad11b2a3e1b"
+    },
+    {
+      "path": "dependencies/h5py/_hl/datatype.py",
+      "bytes": 1603,
+      "sha256": "08a585fc3997fc0f5a7ea7f76a75dcb346fec82da9f3f99c3c8a92dda9590795"
+    },
+    {
+      "path": "dependencies/h5py/_hl/dims.py",
+      "bytes": 5290,
+      "sha256": "681064e26b8869ca4b865eab6bdef0671d2ff54ef928c042f72aa39bc023ceae"
+    },
+    {
+      "path": "dependencies/h5py/_hl/files.py",
+      "bytes": 25806,
+      "sha256": "5d837c862d7bd623438e5c6a46dfe35efca054245c1ec06d8f2c6df14b59a288"
+    },
+    {
+      "path": "dependencies/h5py/_hl/filters.py",
+      "bytes": 15016,
+      "sha256": "f1f4b5cd247922e18d841fa8b8ee5417e098844f8f7487ff0c1c66d0e8aa5101"
+    },
+    {
+      "path": "dependencies/h5py/_hl/group.py",
+      "bytes": 35219,
+      "sha256": "5664e6ce13adc2e3f58de8012a58506ac1ead0c03e7c28dadffc8e98ddda99d6"
+    },
+    {
+      "path": "dependencies/h5py/_hl/selections.py",
+      "bytes": 15126,
+      "sha256": "0fa9606356a3430c0f7156c6fdb110825699fd5215d4bf0ad78a39b79b52d7de"
+    },
+    {
+      "path": "dependencies/h5py/_hl/selections2.py",
+      "bytes": 2826,
+      "sha256": "052b94c1ec7541fcb5c0dd966f77400f6be99dbf0a5c4a0946f2ca1b41a801a2"
+    },
+    {
+      "path": "dependencies/h5py/_hl/vds.py",
+      "bytes": 9718,
+      "sha256": "e9099ac95d156a58cb511d41b6e8d8752ab3d53159ea66a1aa6d38735c781dd9"
+    },
+    {
+      "path": "dependencies/h5py/_npystrings.cp312-win_amd64.pyd",
+      "bytes": 49664,
+      "sha256": "0a81221bf820457a8768aa82a75eebd3f77e15ca4f29488ef04ac5b0a9f82a79"
+    },
+    {
+      "path": "dependencies/h5py/_objects.cp312-win_amd64.pyd",
+      "bytes": 124416,
+      "sha256": "2a40115beb8c067d6d182cd1abde36bc82abc1ef3d110af3a0369b05a0972765"
+    },
+    {
+      "path": "dependencies/h5py/_proxy.cp312-win_amd64.pyd",
+      "bytes": 46080,
+      "sha256": "780b611f701b0def774c4b8c890d4dcad27744d607b1a48d07ab712fd0e55e1e"
+    },
+    {
+      "path": "dependencies/h5py/_selector.cp312-win_amd64.pyd",
+      "bytes": 130048,
+      "sha256": "af28f2af5631ec2ee47227950411f6700483a3fb95ba5aaaa07cf991883ca343"
+    },
+    {
+      "path": "dependencies/h5py/defs.cp312-win_amd64.pyd",
+      "bytes": 149504,
+      "sha256": "d1c86e435dfff887510e52a76e7aab5b9a05a191b1718901988549946864ecd0"
+    },
+    {
+      "path": "dependencies/h5py/h5.cp312-win_amd64.pyd",
+      "bytes": 82944,
+      "sha256": "178724f279ce784a0cf0cc8168f89c1521daecdc56cfcc8e3aa4711f2db0cb15"
+    },
+    {
+      "path": "dependencies/h5py/h5a.cp312-win_amd64.pyd",
+      "bytes": 113664,
+      "sha256": "767f04c2e56f3cae11c57b23b2ec7e76fa8bdc4edeafdc7240680e27e2533b3d"
+    },
+    {
+      "path": "dependencies/h5py/h5ac.cp312-win_amd64.pyd",
+      "bytes": 54784,
+      "sha256": "1e619d157e1981f3781b3d37e717a67c7b2d02ef3b3a6b6c2bd2da3dedbc5f83"
+    },
+    {
+      "path": "dependencies/h5py/h5d.cp312-win_amd64.pyd",
+      "bytes": 223744,
+      "sha256": "ae148d31c960463471fc344b9e5d8c023677912bab1b6c03d07b8a981ae4e8e0"
+    },
+    {
+      "path": "dependencies/h5py/h5ds.cp312-win_amd64.pyd",
+      "bytes": 72704,
+      "sha256": "450340ff10200d41437ac3c9c50edcab0243a2075941c71068247c2c680b7ea7"
+    },
+    {
+      "path": "dependencies/h5py/h5f.cp312-win_amd64.pyd",
+      "bytes": 123392,
+      "sha256": "e66ddfab336ce78af40ad6bbea05fc4d2a0af900e2ebf0fd4524f3c60996a327"
+    },
+    {
+      "path": "dependencies/h5py/h5fd.cp312-win_amd64.pyd",
+      "bytes": 135168,
+      "sha256": "385c76354b3f5e224bedaba3aa61d8e282fcf01cf0268d6a57fe6f0bd541133e"
+    },
+    {
+      "path": "dependencies/h5py/h5g.cp312-win_amd64.pyd",
+      "bytes": 134144,
+      "sha256": "908fe5bfb82be7cfaac5f5493661f1c579c94921364bad10994152574af3bbeb"
+    },
+    {
+      "path": "dependencies/h5py/h5i.cp312-win_amd64.pyd",
+      "bytes": 57856,
+      "sha256": "5e8574a6ae875ada35704f607631e5da5a3898be4b5ce406b745c6bddf332fa3"
+    },
+    {
+      "path": "dependencies/h5py/h5l.cp312-win_amd64.pyd",
+      "bytes": 93184,
+      "sha256": "bc921a3a254d3a875fbab3472e7e4cb4c9917f8a9937b78ac5341173424c557f"
+    },
+    {
+      "path": "dependencies/h5py/h5o.cp312-win_amd64.pyd",
+      "bytes": 113152,
+      "sha256": "e50d1752d1887868161cf322fd61d450b6dca9b5d8b022196a423c4c54f4cc4a"
+    },
+    {
+      "path": "dependencies/h5py/h5p.cp312-win_amd64.pyd",
+      "bytes": 309248,
+      "sha256": "f0f1602382517bb290a1485751b0d87a9208499a69e8304fb27953963d4ab086"
+    },
+    {
+      "path": "dependencies/h5py/h5pl.cp312-win_amd64.pyd",
+      "bytes": 45056,
+      "sha256": "f3ac5333288adea4ab32e5c037407a90139d1f871ba9e2adb5edefa967a484df"
+    },
+    {
+      "path": "dependencies/h5py/h5py_warnings.py",
+      "bytes": 544,
+      "sha256": "611d832ccba6cbfaa0721020e7f30b2678a5a13f740e2979fce1dfb45ecc983f"
+    },
+    {
+      "path": "dependencies/h5py/h5r.cp312-win_amd64.pyd",
+      "bytes": 64000,
+      "sha256": "d17c4d17d47c4472c6b2f39994ee6acb58d92877bd5ede0ca5eb80df17eb2d9d"
+    },
+    {
+      "path": "dependencies/h5py/h5s.cp312-win_amd64.pyd",
+      "bytes": 115712,
+      "sha256": "56b6aac4b3a695f467b61113e8befd45a70b4a5a1294c2a0856865872c239ae0"
+    },
+    {
+      "path": "dependencies/h5py/h5t.cp312-win_amd64.pyd",
+      "bytes": 335872,
+      "sha256": "51867e8734c4e74944fb0ebe48d0d4e571fde719eda5d70d2e8c860fe47a580f"
+    },
+    {
+      "path": "dependencies/h5py/h5z.cp312-win_amd64.pyd",
+      "bytes": 51712,
+      "sha256": "34b4ba74e2e61c7b3b8f67f81fd3b6d68e280f37a6d916b13e450aa34472c554"
+    },
+    {
+      "path": "dependencies/h5py/hdf5.dll",
+      "bytes": 4066816,
+      "sha256": "ef757c52597727566a0c03360bc0006df49760feaa08d807164eb418df59d468"
+    },
+    {
+      "path": "dependencies/h5py/hdf5_hl.dll",
+      "bytes": 127488,
+      "sha256": "a16b6e7766ff8cb2fc4cb65900e97164c846ced172c9772923d0c4414793b764"
+    },
+    {
+      "path": "dependencies/h5py/ipy_completer.py",
+      "bytes": 3889,
+      "sha256": "88e29b9ca8b3b2f4e56ec554e00ae46472d62ea25f6e3b2b28c7cb298810486a"
+    },
+    {
+      "path": "dependencies/h5py/tests/__init__.py",
+      "bytes": 634,
+      "sha256": "d4fd41d20922965f4911e37885e43a6194d69285362a03359145afe2275803e7"
+    },
+    {
+      "path": "dependencies/h5py/tests/common.py",
+      "bytes": 9555,
+      "sha256": "ea37a9f0d10659ee2cc26de92f9f83d207ce2dff82444d8d3c5297228eeecb96"
+    },
+    {
+      "path": "dependencies/h5py/tests/conftest.py",
+      "bytes": 567,
+      "sha256": "6c4390d237c5d0119d22bb27738d2b17e6921da68155c59eb97ac93ad9858b21"
+    },
+    {
+      "path": "dependencies/h5py/tests/data_files/__init__.py",
+      "bytes": 200,
+      "sha256": "9aa565bb2beb019e871191f44005fc0fcabe12bc491bf6f7ae80e4d54321fd15"
+    },
+    {
+      "path": "dependencies/h5py/tests/data_files/compound-dtype-complex.h5",
+      "bytes": 13792,
+      "sha256": "ebcd9658096064f16e46a2d74b9532c9e6a6ad5b67a827f2fb4f6379f6b05380"
+    },
+    {
+      "path": "dependencies/h5py/tests/data_files/vlen_string_dset.h5",
+      "bytes": 6304,
+      "sha256": "900f8baf19d3d8c4d1193ac1ac6019ee7774005e85c030af44e6757b38d29793"
+    },
+    {
+      "path": "dependencies/h5py/tests/data_files/vlen_string_dset_utc.h5",
+      "bytes": 169904,
+      "sha256": "85b728382b833c1da61627b9a334e22822d5c1cb359fe3ba6f25262af4532f63"
+    },
+    {
+      "path": "dependencies/h5py/tests/data_files/vlen_string_s390x.h5",
+      "bytes": 9008,
+      "sha256": "ea990c68e0371bafab4966f752fa1355b3b9f64360066f6d9daff8f1b7e74ca5"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_attribute_create.py",
+      "bytes": 3281,
+      "sha256": "8281df45429f25227cf4656384be0776c9ee9a633105b720b9bb13aa8ab93961"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_attrs.py",
+      "bytes": 9968,
+      "sha256": "831a3c5a58f143b00ad6f48bac496108f411b6a401aa316bc0cc03c4fee71674"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_attrs_data.py",
+      "bytes": 10474,
+      "sha256": "67f2a977867aa56dc605979aab0e7766f346244d33fe3204d8f2a88c87c88c29"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_base.py",
+      "bytes": 4121,
+      "sha256": "a71e036db7b2ca80e5de0aca767362e05712b7af03bb0888e6579a9092e23f75"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_big_endian_file.py",
+      "bytes": 1519,
+      "sha256": "b3e2a1832469ae44ecf39981f6b02ce7e76c4dcf79f43b7ac93f4fa9515d6733"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_completions.py",
+      "bytes": 1953,
+      "sha256": "03cb6208889a67f57bb06b6ea474f888ae35f74034a6b5f8e2c4cf7047ea0fd1"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_dataset.py",
+      "bytes": 91114,
+      "sha256": "bce6c405eeab27b03bcea01c78a7fc189f4a91f1437571fae16fc6cf20ce0db9"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_dataset_getitem.py",
+      "bytes": 21692,
+      "sha256": "aa09ed9423299292b82b38fb0da63b898223c3692fe2f732a8eaa48f9fb92cee"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_dataset_swmr.py",
+      "bytes": 4182,
+      "sha256": "8bf49790705abd53ca462c085f5ea3ceebc4db77b5ad4b5fcde2920fea4adc98"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_datatype.py",
+      "bytes": 1132,
+      "sha256": "86fce512b508a76800b6b6b6ce3cceefa8a7dbc175ddc7f15ed2e37ddeb58889"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_dimension_scales.py",
+      "bytes": 8650,
+      "sha256": "0e6692adc5f22eaae4c81d085d948cca3b3a3a537711704cba9f69b0d1f8b6a3"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_dims_dimensionproxy.py",
+      "bytes": 613,
+      "sha256": "67324baf1580d79c5548a5f33a9614f437d1e9325d07209e6069148418963965"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_dtype.py",
+      "bytes": 20680,
+      "sha256": "ae57c20695dcf5d8922fdeb72f32abdbebfbf8e289826c34ad14ad74768fdef6"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_errors.py",
+      "bytes": 2458,
+      "sha256": "566ef17d02149a1fd7d9b1cecbd4cae797b48614aab26e161d6818d93a6a240b"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_file.py",
+      "bytes": 36344,
+      "sha256": "d98c22bb6169afd9fce011fcd4853769c35dfe16b7d080ab30fce9c1872d3f8a"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_file2.py",
+      "bytes": 11497,
+      "sha256": "e7fd6fded0699f01844769d562b0d287471db67f0f7acd5aacabb9e60558d65f"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_file_alignment.py",
+      "bytes": 4594,
+      "sha256": "172819e2b6bc0e55bf421a5be193745aaaab9e6e272d56fe411a70e31f5855ff"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_file_image.py",
+      "bytes": 2063,
+      "sha256": "198e595d70f0a2084d6307f922b16ea1f3d18fc09300cd4a23a15faac25ea031"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_filters.py",
+      "bytes": 3316,
+      "sha256": "10dd6902a646aac16ac1c849f123232cc0d8a1ccf030d76ebd08b277504c3beb"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_group.py",
+      "bytes": 50233,
+      "sha256": "4c104d6bb33df47c47b46202e5b1c9334616d1c340b5b6a99bf00c115b5f5e26"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5.py",
+      "bytes": 1261,
+      "sha256": "b5456904e80a4951cb943a6edeead57266813ccb74bf102be3a9c81202f86a7e"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5d_direct_chunk.py",
+      "bytes": 7996,
+      "sha256": "d27336ea6315e1f0d3adb7fca79eb9fc58865100396f372b8e3475f6539d751a"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5f.py",
+      "bytes": 4037,
+      "sha256": "3c46e7624fa7e30744e048cdd68598415353222638edf008e63af74d056db912"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5o.py",
+      "bytes": 542,
+      "sha256": "7aa59f999c38dee781b5dc0fac3045061eeed80a64334b99126e9a2e50fede68"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5p.py",
+      "bytes": 8327,
+      "sha256": "81eeaa383676f06ac74fff64bad505b395b74ffa20564ebd55e6d7028680f18c"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5pl.py",
+      "bytes": 1915,
+      "sha256": "fa55b6829a24fba4bda0b5228084dc938340162c0507ee533fc4865a5b350c6f"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5s.py",
+      "bytes": 2215,
+      "sha256": "32fee8c684ff2afd7f89d64146bf0c82c408701381e268bfca3a8b935b185d50"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5t.py",
+      "bytes": 6783,
+      "sha256": "43da75afe076c84ac458cd7624fca425915076a342a5b9125f55f7fc3be6257b"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_h5z.py",
+      "bytes": 2058,
+      "sha256": "9e180c1d4857d5043e0742759c2c1df15cd40fa809a5064fa00385422d655bf8"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_native_complex.py",
+      "bytes": 5833,
+      "sha256": "293102e1625273537148df07b9552b4cc3799e81fb910419c6941ab827a177e1"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_npystrings.py",
+      "bytes": 6032,
+      "sha256": "36ad2c927bf0bfd815569b789fc3123bd49e91274ad9cf7c74b85b952dde40e5"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_objects.py",
+      "bytes": 3135,
+      "sha256": "1dfd2eb1368a4ab6d63244295468318b0e3b0083c652fb4dfabd09825cdb4fb0"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_ros3.py",
+      "bytes": 3490,
+      "sha256": "6e04baccf3a7eeb3e91930f24e9df2240f8767e5553ea7d0d62d0717717e9cf6"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_selections.py",
+      "bytes": 5033,
+      "sha256": "50e31c5312792451f3d2c57983f4b2f0e499241c8afd846492058c6af3dda1e0"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_slicing.py",
+      "bytes": 14579,
+      "sha256": "c56cc62872c0a44138304485192c110ecce80525647d8f9a6d8b0bb5eb68155e"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_vds/__init__.py",
+      "bytes": 107,
+      "sha256": "236b94a1c7f5bfc0f12b5a31d7cfaba786edd6b5a40855cb2f7d8aeabb4665c5"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_vds/test_highlevel_vds.py",
+      "bytes": 18334,
+      "sha256": "c9202db6c9ad1b3580169d10c6ae7b0ddd03ee5cd52529f75ab8d521883cf71c"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_vds/test_lowlevel_vds.py",
+      "bytes": 12232,
+      "sha256": "21f24188327dd37474f6eeda55da6e87707e1c1b70a1bb3f561c2c16c4d1efff"
+    },
+    {
+      "path": "dependencies/h5py/tests/test_vds/test_virtual_source.py",
+      "bytes": 6221,
+      "sha256": "3dd5a107f9520d726bd2df1ae95e2a3615ee05dd2e629e75b98064af632e591e"
+    },
+    {
+      "path": "dependencies/h5py/utils.cp312-win_amd64.pyd",
+      "bytes": 55296,
+      "sha256": "23090076ca87ea8de4a9f79eba123950c90c54f9bb3c6c38a7b76011471d5a2a"
+    },
+    {
+      "path": "dependencies/h5py/version.py",
+      "bytes": 1976,
+      "sha256": "946f3851a7c0e38a2e1a9fa2dd06451385b0a2c9db3b852eae629868d480e6d4"
+    },
+    {
+      "path": "dependencies/h5py/z.dll",
+      "bytes": 85504,
+      "sha256": "66fe9da060c1f8175570e279c85dc3feb3ff5887eb9836187270b3e7fb7e3411"
+    },
+    {
+      "path": "dependencies/h5py_import_check.json",
+      "bytes": 217,
+      "sha256": "3ddcc2b332ca5ebba10c6cf0d1a2d3d9d75168b606d6725842e9a8fb59e0cc93"
+    },
+    {
+      "path": "dependencies/h5py_wheel_verification.json",
+      "bytes": 808,
+      "sha256": "ef2a79ba2a3035e0a2a3e455855d83e5486e3b1a98766a1ff8d32632a9ffc0db"
+    },
+    {
+      "path": "dependencies/matplotlib-config/fontlist-v3.11.0.json",
+      "bytes": 145027,
+      "sha256": "6a878956ea4c79ab920fa8195ca3d0dddffd329c9572653e79c685eb1bf729f7"
+    },
+    {
+      "path": "dependencies/test_stage_h5py.py",
+      "bytes": 1317,
+      "sha256": "e97ca46621b822b9416efed44f1c351711251c1205ed797f0b681ccfbbaca86a"
+    },
+    {
+      "path": "dependencies/verify_h5py_wheel.py",
+      "bytes": 2039,
+      "sha256": "acb32043f79d44551876f24e7a07d6578e40bcef2576241983c0c1f5a3b595ed"
+    },
+    {
+      "path": "dependencies/wheelhouse/h5py-3.16.0-cp312-cp312-win_amd64.whl",
+      "bytes": 3182868,
+      "sha256": "96b422019a1c8975c2d5dadcf61d4ba6f01c31f92bbde6e4649607885fe502d6"
+    },
+    {
+      "path": "feasibility/access_log.tsv",
+      "bytes": 7563,
+      "sha256": "629f3f2431af62662979e75511dc2ffc094cf3b0f41d207ac4ab954d1a721556"
+    },
+    {
+      "path": "feasibility/data_gate.md",
+      "bytes": 3536,
+      "sha256": "b2d6ed4ec1f5b6d62c866f9a86371606e8485e2af3866ef4c399f073439c1575"
+    },
+    {
+      "path": "feasibility/datasets.tsv",
+      "bytes": 2434,
+      "sha256": "134700af0fa952d44b3cb3816501438ddea0461e827a1b1da0cc639e9da7086d"
+    },
+    {
+      "path": "feasibility/gap_gate.md",
+      "bytes": 2559,
+      "sha256": "d0db03a416708daf4d3554cf6e46a39749e8cdebb73d4236ae6f60e5aa20d10b"
+    },
+    {
+      "path": "feasibility/pair_inventory.tsv",
+      "bytes": 3332,
+      "sha256": "aa7227bbcf679c659493c299cf8a43b6d9f199ebff12564f976178ded64e65a7"
+    },
+    {
+      "path": "feasibility/prior_art.tsv",
+      "bytes": 5867,
+      "sha256": "c6f2bad35ca1d61a1a08f2386c352fb623bdeb9bba4168b6185fecfea596fe15"
+    },
+    {
+      "path": "feasibility/question.md",
+      "bytes": 3694,
+      "sha256": "2068a134e46411203a6c3c62d3dc9919bc25e88864025a22586c585af2163897"
+    },
+    {
+      "path": "feasibility/sample_inventory.tsv",
+      "bytes": 7140,
+      "sha256": "0a643730e4c7458ae51f8eb03c81593f3b21b29c83c6dccbec64a04daba6e15a"
+    },
+    {
+      "path": "logs/assistance_log.tsv",
+      "bytes": 2582,
+      "sha256": "1a6367212fd91b2f78805763f38f57e7d1e904185eb17c2e850128190c6b1d32"
+    },
+    {
+      "path": "logs/decision_log.tsv",
+      "bytes": 1291,
+      "sha256": "ca6116a3f958551e0220be1249387013b32f12ba36d241da081e1022e57c68e1"
+    },
+    {
+      "path": "preservation/capture_start_state.py",
+      "bytes": 8951,
+      "sha256": "d43245167015cf93e1d8fe78b3d8aa16397b1189835f27f3c3c0431cafd2ffd9"
+    },
+    {
+      "path": "preservation/input_hashes.json",
+      "bytes": 112276,
+      "sha256": "f7771a4ad1a24015f4d812416d517a548774329a6bf9aae5c5af56b8ff43f8b9"
+    },
+    {
+      "path": "preservation/verify_preservation.py",
+      "bytes": 2717,
+      "sha256": "8b985a2ed2820df6027231d95bd5c1ee72bb6553bb1b16ba845d43278c88ec6c"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 4626,
+      "sha256": "82b909f2b448a84dac974630c8ba95daa32374efdd221939f4b33fe8d9f3cd1d"
+    }
+  ]
+}

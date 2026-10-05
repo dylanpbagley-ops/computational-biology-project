@@ -1,0 +1,62 @@
+[
+  {
+    "well_position": "E02",
+    "broad_sample": "BRD-A48180038-003-24-3",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "D12",
+    "broad_sample": "BRD-K97181089-003-24-7",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "O17",
+    "broad_sample": "BRD-K01825660-322-01-9",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "J18",
+    "broad_sample": "BRD-K78692225-001-24-5",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "K22",
+    "broad_sample": "BRD-K87691185-001-01-2",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "J08",
+    "broad_sample": "BRD-A91822151-001-05-0",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "D14",
+    "broad_sample": "",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "K05",
+    "broad_sample": "",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "N08",
+    "broad_sample": "",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "H17",
+    "broad_sample": "",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "F03",
+    "broad_sample": "",
+    "solvent": "DMSO"
+  },
+  {
+    "well_position": "E17",
+    "broad_sample": "",
+    "solvent": "DMSO"
+  }
+]

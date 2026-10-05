@@ -1,0 +1,79 @@
+{
+ "autopsy_replication": {
+  "point": 0.7777777777777778,
+  "ci_lo": 0.5185185185185185,
+  "ci_hi": 0.963271604938267,
+  "n_a": 9,
+  "n_b": 9,
+  "n_degenerate_resamples": 0
+ },
+ "registry_control_phase3": {
+  "point": 0.44755244755244755,
+  "ci_lo": 0.2097902097902098,
+  "ci_hi": 0.6993006993006993,
+  "n_a": 11,
+  "n_b": 13,
+  "n_degenerate_resamples": 0
+ },
+ "power": {
+  "registry_control_phase3": {
+   "n_a": 11,
+   "n_b": 13,
+   "power_at_auc": {
+    "0.5": 0.049,
+    "0.6": 0.19325,
+    "0.65": 0.32675,
+    "0.75": 0.68875,
+    "0.88": 0.9835
+   },
+   "min_detectable_auc_80pct": 0.79
+  },
+  "autopsy_replication": {
+   "n_a": 9,
+   "n_b": 9,
+   "power_at_auc": {
+    "0.5": 0.04575,
+    "0.6": 0.17475,
+    "0.65": 0.2825,
+    "0.75": 0.58625,
+    "0.88": 0.94725
+   },
+   "min_detectable_auc_80pct": 0.83
+  }
+ },
+ "paired_two_factor_minus_one_factor": {
+  "point_difference": 0.03349282296650713,
+  "ci_lo": 0.0,
+  "ci_hi": 0.1004784688995215,
+  "p_boot_difference_le_0": 0.0978,
+  "p_boot_difference_lt_0": 0.0,
+  "frac_exactly_zero": 0.0978,
+  "n_safe": 19,
+  "n_toxic": 11
+ },
+ "expendability_direct_tests": {
+  "table_[[haem&safe, nonhaem&safe],[haem&toxic, nonhaem&toxic]]": [
+   [
+    8,
+    11
+   ],
+   [
+    0,
+    11
+   ]
+  ],
+  "fisher_exact_one_sided_p": 0.012913543228385806,
+  "observed_auc_increment": 0.03349282296650713,
+  "perm_p_increment_at_least_observed": 0.01075,
+  "flagged_safe_targets_that_confinement_alone_ranks_below_some_toxic_target": [
+   "CD22",
+   "CD33",
+   "CD38"
+  ]
+ },
+ "_meta": {
+  "n_sim": 4000,
+  "seed": 20260928,
+  "power_model": "binormal, one-sided exact Mann-Whitney, alpha=0.05"
+ }
+}

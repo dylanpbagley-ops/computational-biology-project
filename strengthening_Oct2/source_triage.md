@@ -1,0 +1,29 @@
+# Primary-source and endpoint triage
+
+October 2, 2026. This is an evidence triage, not completed clinical adjudication of all labels. Sources opened or retrieved in this pass are distinguished from inherited extraction. No clinical guidance or therapy design is intended.
+
+| Record | Finding and action | Evidence status/source |
+|---|---|---|
+| FOLR1 | The recorded on-target corneal explanation is unsupported by the cited study: it found no FR-alpha in human cornea and observations consistent with off-target effects. Mark that evidence statement contradicted; do not automatically label the entire clinical setting safe. | Primary abstract checked: [Matulonis](https://pubmed.ncbi.nlm.nih.gov/30413525/) |
+| FAP | The marrow/cachexia source is a mouse experiment and cannot establish a human clinical-toxic label. Keep as preclinical evidence; require separate human eligibility review. | Primary record checked: [Tran](https://pubmed.ncbi.nlm.nih.gov/23712432/) |
+| CEACAM5 | Correct Parkhurst agent identity to TCR-T in amended records. The original publication reports dose-limiting colitis. | Primary abstract retrieved: [Parkhurst](https://pubmed.ncbi.nlm.nih.gov/21157437/) |
+| CEACAM5 additional evidence | A later report describes severe colitis after CEA-directed CAR-T. Thus correcting Parkhurst's modality must not become a blanket assertion that CEA CAR-T colitis has never been reported. This is a different study, not permission to silently replace the original source. | Primary record checked: [2024 report](https://pubmed.ncbi.nlm.nih.gov/39734708/) |
+| NCAM1 | Neuropathy is among reported dose-limiting events, but the accessible abstract does not establish whether CD56 binding or the payload caused it. Preserve unresolved attribution. | Primary abstract checked: [Shah](https://pubmed.ncbi.nlm.nih.gov/26961907/); full text not independently re-reviewed here |
+| CD47 | The first-in-human report describes transient anemia and no reached maximum tolerated maintenance dose. A later program termination is not evidence that the earlier anemia was dose-limiting. Severity versus protocol-defined DLT must be distinguished. | Primary publication retrieved: [Sikic](https://ascopubs.org/doi/10.1200/JCO.18.02018), [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7186585/) |
+| F3 | Ocular events have a potentially target-related mechanism, but mechanism uncertainty remains. Do not apply FOLR1's off-target interpretation automatically to a different ADC. Check the event and source-level attribution, not only the warning. | Clinical-trial ocular analysis retrieved: [innovaTV report](https://www.sciencedirect.com/science/article/pii/S0090825822001202); mechanism described as potential |
+| NECTIN4 | The EV-101 report describes rash as an anticipated on-target event. Approval alone cannot settle whether this belongs opposite F3 under the same severity/management endpoint. | Primary publication retrieved: [EV-101](https://ascopubs.org/doi/pdfdirect/10.1200/JCO.19.02044) |
+| PTPRC/CD45 exclusion | **Additional source error:** the original exclusion says no cytotoxic agent reached patients. SIERRA is a randomized phase III study of an anti-CD45 radioconjugate. The stated reason is false. Transplant conditioning raises a separate scope/management question; do not automatically append it as a safe validation target. | Primary publication retrieved: [SIERRA](https://pubmed.ncbi.nlm.nih.gov/39298738/), [JCO](https://ascopubs.org/doi/10.1200/JCO.23.02018) |
+| EGFR, EPCAM, ERBB2, CD44, CA9 | Existing Round 7 sources identify important differences in agents, attribution, and severity. Those concerns remain in the queue; this pass has not certified a complete full-text re-review. CD44's event is tied to a particular isoform/ADC, not every intervention against total CD44. | Candidate URLs are in the score-free form; inherited source analysis: `ev_capture_model/docs/Round7_Data_Search_Findings_Sept29.md` |
+| Remaining tolerated examples | No blanket endorsement. Managed blood depletion, severe non-target toxicity, different study contexts, follow-up, and incomplete reporting require the same explicit review standard. | All 30 discovery examples included in the score-free form |
+
+The additional CD45 and CEA findings illustrate why both positive labels and exclusions require review. They do not yet supply new independent outcomes: both targets have already appeared in project records, and no fresh score/outcome test was performed for them.
+
+## Amendments without rewriting history
+
+The historical Python label table and 40-row frozen TSV remain unchanged. `operational_labels_44_Oct2.tsv` is a dated export of the actual operational table, including the historical errors. It is not a corrected truth table and not a retroactive precommitment. The independent form and this triage distinguish proposed corrections from the archived inputs. A later adjudicated version must identify each changed record, reason, source, reviewer, and date.
+
+## Novelty and comparison
+
+The original section 37 already recognizes exact rank equivalence to tau at fixed cell-type count. Do not claim a new specificity index. SCAN-ACT uses expression breadth and lymphoid tolerability considerations; BayesTS uses normal-reference specificity and quantitative proxy benchmarks; Thomas compares expression with clinical outcomes. Different endpoints can support a narrower contribution but do not prove no predecessor exists. Sources and verification limits are documented in `audit_followup_Oct2/Review_of_Audit_Critique_Oct2.md`.
+
+The viable extension is an independently reviewed agent/study evidence benchmark evaluating the unchanged rule against tau and the blood baseline, with grouped evaluation and explicit uncertainty. This could strengthen the same project without requiring a wet lab. Its feasibility depends on eligible independent outcomes, not the raw number of source rows.

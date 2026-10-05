@@ -1,0 +1,1142 @@
+{
+ "CD39": {
+  "restriction": 0.9018152777777778,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "Rat-IgG1-1": {
+  "restriction": 0.5979569305555555,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD107a": {
+  "restriction": 0.8131600277777777,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD62P": {
+  "restriction": 0.9084826527777777,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "TCR-2": {
+  "restriction": 0.8792041805555556,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD30": {
+  "restriction": 0.6100854027777778,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD31": {
+  "restriction": 0.9915799444444444,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD34": {
+  "restriction": 0.6226890498746169,
+  "home": "DC",
+  "breadth": 2
+ },
+ "CD35": {
+  "restriction": 0.9112939166666667,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD36": {
+  "restriction": 0.9625095555555555,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD223": {
+  "restriction": 0.5918794027777777,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "TIGIT": {
+  "restriction": 0.7112986666666666,
+  "home": "NK",
+  "breadth": 4
+ },
+ "TCR-V-9": {
+  "restriction": 0.6575101944444445,
+  "home": "other T",
+  "breadth": 5
+ },
+ "CD226": {
+  "restriction": 0.7297303611111111,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD178": {
+  "restriction": 0.5976354444444445,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD319": {
+  "restriction": 0.6118325416666667,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD171": {
+  "restriction": 0.6486589722222222,
+  "home": "B",
+  "breadth": 5
+ },
+ "Siglec-8": {
+  "restriction": 0.5973591805555556,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD340": {
+  "restriction": 0.5866768472222222,
+  "home": "NK",
+  "breadth": 4
+ },
+ "Rat-IgG2b": {
+  "restriction": 0.5851282916666667,
+  "home": "NK",
+  "breadth": 5
+ },
+ "VEGFR-3": {
+  "restriction": 0.5760458333333334,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD29": {
+  "restriction": 0.8978786805555555,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD62E": {
+  "restriction": 0.5945419305555556,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD4-2": {
+  "restriction": 0.9927863472222223,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD4-1": {
+  "restriction": 0.9969328055555555,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD22": {
+  "restriction": 0.9902670555555556,
+  "home": "B",
+  "breadth": 2
+ },
+ "CD3-1": {
+  "restriction": 0.8865535277777777,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD20": {
+  "restriction": 0.9863433333333333,
+  "home": "B",
+  "breadth": 4
+ },
+ "CD27": {
+  "restriction": 0.8485767638888889,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD45RB": {
+  "restriction": 0.7886864305555555,
+  "home": "CD8 T",
+  "breadth": 5
+ },
+ "CD25": {
+  "restriction": 0.6842248333333333,
+  "home": "CD4 T",
+  "breadth": 2
+ },
+ "CD24": {
+  "restriction": 0.8078186527777778,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD146": {
+  "restriction": 0.5981415972222223,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "Galectin-9": {
+  "restriction": 0.6208128888888889,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD142": {
+  "restriction": 0.5614988194444445,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD141": {
+  "restriction": 0.8183030833333333,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD294": {
+  "restriction": 0.5840969166666666,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "Rat-IgG1-2": {
+  "restriction": 0.5938194027777778,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD45RA": {
+  "restriction": 0.8398825416666666,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CX3CR1": {
+  "restriction": 0.7480428194444444,
+  "home": "NK",
+  "breadth": 2
+ },
+ "CD56-2": {
+  "restriction": 0.9749310972222223,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD56-1": {
+  "restriction": 0.9245293333333333,
+  "home": "NK",
+  "breadth": 3
+ },
+ "CD45RO": {
+  "restriction": 0.6555769861111111,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD303": {
+  "restriction": 0.6034670753227455,
+  "home": "DC",
+  "breadth": 5
+ },
+ "GP130": {
+  "restriction": 0.6463176388888889,
+  "home": "CD4 T",
+  "breadth": 2
+ },
+ "CD253": {
+  "restriction": 0.5853409305555556,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD357": {
+  "restriction": 0.5849109722222222,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD11b-1": {
+  "restriction": 0.9457658194444445,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD354": {
+  "restriction": 0.9059318611111111,
+  "home": "Mono",
+  "breadth": 1
+ },
+ "CD11b-2": {
+  "restriction": 0.9792696111111111,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CLEC12A": {
+  "restriction": 0.9880316944444445,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD38-2": {
+  "restriction": 0.8295835555555555,
+  "home": "NK",
+  "breadth": 3
+ },
+ "CD38-1": {
+  "restriction": 0.8347666111111111,
+  "home": "NK",
+  "breadth": 3
+ },
+ "Folate": {
+  "restriction": 0.8683852916666667,
+  "home": "Mono",
+  "breadth": 1
+ },
+ "Rag-IgG2c": {
+  "restriction": 0.5622303194444445,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD209": {
+  "restriction": 0.7817923472222222,
+  "home": "CD4 T",
+  "breadth": 2
+ },
+ "CD152": {
+  "restriction": 0.5931359722222223,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD154": {
+  "restriction": 0.5735794166666667,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD155": {
+  "restriction": 0.9825376111111112,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "Cadherin": {
+  "restriction": 0.5963409305555556,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD201": {
+  "restriction": 0.5826527361111111,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD204": {
+  "restriction": 0.5656912777777777,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD205": {
+  "restriction": 0.7925991687563853,
+  "home": "DC",
+  "breadth": 3
+ },
+ "CD206": {
+  "restriction": 0.6282930138888889,
+  "home": "CD4 T",
+  "breadth": 5
+ },
+ "CD207": {
+  "restriction": 0.5947833888888889,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD1d": {
+  "restriction": 0.7262466388888889,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD284": {
+  "restriction": 0.5766538194444445,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD1c": {
+  "restriction": 0.8640480694444445,
+  "home": "B",
+  "breadth": 2
+ },
+ "Podoplanin": {
+  "restriction": 0.5768608888888889,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD1a": {
+  "restriction": 0.601953,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD366": {
+  "restriction": 0.8165500555555556,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "IgD": {
+  "restriction": 0.8841405277777777,
+  "home": "B",
+  "breadth": 4
+ },
+ "IgM": {
+  "restriction": 0.8163083472222222,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD66a/c/e": {
+  "restriction": 0.5972179166666667,
+  "home": "B",
+  "breadth": 3
+ },
+ "CD49d": {
+  "restriction": 0.7869211943902665,
+  "home": "DC",
+  "breadth": 4
+ },
+ "LOX-1": {
+  "restriction": 0.6006660833333334,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "TIM-4": {
+  "restriction": 0.5929440972222222,
+  "home": "Mono",
+  "breadth": 4
+ },
+ "CD98": {
+  "restriction": 0.6139222856877496,
+  "home": "DC",
+  "breadth": 3
+ },
+ "CD370": {
+  "restriction": 0.5923813333333333,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD49a": {
+  "restriction": 0.7407772638888889,
+  "home": "Mono",
+  "breadth": 1
+ },
+ "CD44-2": {
+  "restriction": 0.644393875,
+  "home": "Mono",
+  "breadth": 4
+ },
+ "C5L2": {
+  "restriction": 0.5291847361111112,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD44-1": {
+  "restriction": 0.7506205277777778,
+  "home": "Mono",
+  "breadth": 4
+ },
+ "CD158e1": {
+  "restriction": 0.6526443055555555,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD124": {
+  "restriction": 0.6000628055555556,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD127": {
+  "restriction": 0.8821141388888889,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD126": {
+  "restriction": 0.7162658586421473,
+  "home": "DC",
+  "breadth": 3
+ },
+ "CD279": {
+  "restriction": 0.6906243472222222,
+  "home": "other T",
+  "breadth": 4
+ },
+ "CD278": {
+  "restriction": 0.8895653055555556,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD123": {
+  "restriction": 0.816822791864029,
+  "home": "DC",
+  "breadth": 3
+ },
+ "CD122": {
+  "restriction": 0.9481738055555555,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD96": {
+  "restriction": 0.7461743055555555,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD274": {
+  "restriction": 0.5219540833333334,
+  "home": "CD4 T",
+  "breadth": 2
+ },
+ "CD95": {
+  "restriction": 0.8359135972222222,
+  "home": "Mono",
+  "breadth": 1
+ },
+ "CD271": {
+  "restriction": 0.8126953654685614,
+  "home": "DC",
+  "breadth": 4
+ },
+ "CD270": {
+  "restriction": 0.7362776111111111,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD90": {
+  "restriction": 0.5987282777777778,
+  "home": "CD4 T",
+  "breadth": 5
+ },
+ "CD272": {
+  "restriction": 0.8716725694444445,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD16": {
+  "restriction": 0.9602873333333334,
+  "home": "NK",
+  "breadth": 3
+ },
+ "CD14": {
+  "restriction": 0.9657889583333333,
+  "home": "Mono",
+  "breadth": 1
+ },
+ "CD15": {
+  "restriction": 0.5639702777777778,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD13": {
+  "restriction": 0.9254348888888889,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD267": {
+  "restriction": 0.6486898055555556,
+  "home": "B",
+  "breadth": 6
+ },
+ "CD26-2": {
+  "restriction": 0.8419115694444445,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD200": {
+  "restriction": 0.8081800277777778,
+  "home": "B",
+  "breadth": 4
+ },
+ "CD26-1": {
+  "restriction": 0.7623391944444444,
+  "home": "NK",
+  "breadth": 5
+ },
+ "CD18": {
+  "restriction": 0.9262257083333333,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD19": {
+  "restriction": 0.9999228888888889,
+  "home": "B",
+  "breadth": 4
+ },
+ "CD194": {
+  "restriction": 0.5750712916666667,
+  "home": "CD4 T",
+  "breadth": 1
+ },
+ "TCR-1": {
+  "restriction": 0.6183712916666667,
+  "home": "other T",
+  "breadth": 4
+ },
+ "TCR-V-7.2": {
+  "restriction": 0.74545625,
+  "home": "other T",
+  "breadth": 5
+ },
+ "CD70": {
+  "restriction": 0.5462080555555555,
+  "home": "CD8 T",
+  "breadth": 5
+ },
+ "CD71": {
+  "restriction": 0.9144704188724807,
+  "home": "DC",
+  "breadth": 3
+ },
+ "CD72": {
+  "restriction": 0.9726123333333333,
+  "home": "B",
+  "breadth": 3
+ },
+ "CD73": {
+  "restriction": 0.8594505416666667,
+  "home": "B",
+  "breadth": 5
+ },
+ "TCR-V-2": {
+  "restriction": 0.6269217777777778,
+  "home": "other T",
+  "breadth": 4
+ },
+ "CD177": {
+  "restriction": 0.6149554861111111,
+  "home": "NK",
+  "breadth": 5
+ },
+ "CD301": {
+  "restriction": 0.6374933129005294,
+  "home": "DC",
+  "breadth": 5
+ },
+ "CD140a": {
+  "restriction": 0.5753343333333333,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD140b": {
+  "restriction": 0.5836198611111111,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD305": {
+  "restriction": 0.8938429583333334,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD304": {
+  "restriction": 0.7115628308721093,
+  "home": "DC",
+  "breadth": 3
+ },
+ "CD2": {
+  "restriction": 0.8257243472222222,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD309": {
+  "restriction": 0.5946015972222222,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD85g": {
+  "restriction": 0.5967592411999628,
+  "home": "DC",
+  "breadth": 4
+ },
+ "CD110": {
+  "restriction": 0.8559116944444445,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD8": {
+  "restriction": 0.9938141388888889,
+  "home": "CD8 T",
+  "breadth": 3
+ },
+ "CD9": {
+  "restriction": 0.9452763888888889,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "HLA-DR": {
+  "restriction": 0.9048060555555556,
+  "home": "B",
+  "breadth": 3
+ },
+ "CD137": {
+  "restriction": 0.5915038194444444,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD134": {
+  "restriction": 0.6286867777777778,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD135": {
+  "restriction": 0.5800676372248538,
+  "home": "DC",
+  "breadth": 5
+ },
+ "CD61": {
+  "restriction": 0.9369710833333333,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD192": {
+  "restriction": 0.7076746388888889,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD268": {
+  "restriction": 0.9899062222222222,
+  "home": "B",
+  "breadth": 3
+ },
+ "CD269": {
+  "restriction": 0.5798585416666666,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD81": {
+  "restriction": 0.7650679166666666,
+  "home": "other T",
+  "breadth": 5
+ },
+ "CD80": {
+  "restriction": 0.5824209166666666,
+  "home": "CD4 T",
+  "breadth": 5
+ },
+ "CD83": {
+  "restriction": 0.6429554861111111,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD193": {
+  "restriction": 0.5659257638888889,
+  "home": "NK",
+  "breadth": 4
+ },
+ "TSLPR": {
+  "restriction": 0.6780649722222222,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD86": {
+  "restriction": 0.9913525833333333,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CCR10": {
+  "restriction": 0.5725390138888888,
+  "home": "CD4 T",
+  "breadth": 2
+ },
+ "Notch-1": {
+  "restriction": 0.6197765694444445,
+  "home": "NK",
+  "breadth": 5
+ },
+ "Notch-2": {
+  "restriction": 0.5848154861111111,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD337": {
+  "restriction": 0.8853226944444444,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD79b": {
+  "restriction": 0.8860744027777778,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD275-2": {
+  "restriction": 0.9090333888888888,
+  "home": "B",
+  "breadth": 3
+ },
+ "CD275-1": {
+  "restriction": 0.593949625,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD79a": {
+  "restriction": 0.6290381388888889,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD49b": {
+  "restriction": 0.90464575,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD64": {
+  "restriction": 0.9850074722222222,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD63": {
+  "restriction": 0.9576806944444445,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD45-2": {
+  "restriction": 0.6301984444444444,
+  "home": "other T",
+  "breadth": 4
+ },
+ "CD45-1": {
+  "restriction": 0.5659385138888889,
+  "home": "other T",
+  "breadth": 4
+ },
+ "CD133-2": {
+  "restriction": 0.5633912361111111,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD133-1": {
+  "restriction": 0.5965141666666667,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD69": {
+  "restriction": 0.8545057916666666,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD68": {
+  "restriction": 0.556185875,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD314": {
+  "restriction": 0.9241380277777778,
+  "home": "CD8 T",
+  "breadth": 3
+ },
+ "CD11a/CD18": {
+  "restriction": 0.5106823333333333,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD186": {
+  "restriction": 0.6152360277777777,
+  "home": "other T",
+  "breadth": 3
+ },
+ "CD185": {
+  "restriction": 0.7719790138888889,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD184": {
+  "restriction": 0.5640098472222222,
+  "home": "NK",
+  "breadth": 5
+ },
+ "CD103": {
+  "restriction": 0.5594937222222223,
+  "home": "CD8 T",
+  "breadth": 5
+ },
+ "CD102": {
+  "restriction": 0.6939681527777778,
+  "home": "Mono",
+  "breadth": 4
+ },
+ "CD106": {
+  "restriction": 0.7372756944444444,
+  "home": "CD4 T",
+  "breadth": 2
+ },
+ "CD105": {
+  "restriction": 0.5735958472222222,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD66b": {
+  "restriction": 0.5536339305555555,
+  "home": "CD8 T",
+  "breadth": 3
+ },
+ "CD252": {
+  "restriction": 0.5626292638888889,
+  "home": "CD8 T",
+  "breadth": 4
+ },
+ "CD109": {
+  "restriction": 0.9816848888888889,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "TCR-V-24-J-18": {
+  "restriction": 0.5979566527777778,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "Integrin-7": {
+  "restriction": 0.807775935729544,
+  "home": "DC",
+  "breadth": 6
+ },
+ "CD158b": {
+  "restriction": 0.7710715833333334,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD158f": {
+  "restriction": 0.58098825,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD8a": {
+  "restriction": 0.9944484166666666,
+  "home": "CD8 T",
+  "breadth": 3
+ },
+ "CD203c": {
+  "restriction": 0.5819312222222223,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD52": {
+  "restriction": 0.7853902083333333,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD195": {
+  "restriction": 0.7801406527777778,
+  "home": "other T",
+  "breadth": 3
+ },
+ "CD196": {
+  "restriction": 0.9565120416666667,
+  "home": "B",
+  "breadth": 3
+ },
+ "CD57": {
+  "restriction": 0.7423395416666667,
+  "home": "NK",
+  "breadth": 3
+ },
+ "CD54": {
+  "restriction": 0.81247575,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD55": {
+  "restriction": 0.9400838194444444,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD99": {
+  "restriction": 0.7081243333333334,
+  "home": "other T",
+  "breadth": 4
+ },
+ "CD59": {
+  "restriction": 0.6548730138888889,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD199": {
+  "restriction": 0.5764415555555555,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD93": {
+  "restriction": 0.9510380833333333,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD244": {
+  "restriction": 0.9164245694444444,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD158": {
+  "restriction": 0.6436930694444445,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD235ab": {
+  "restriction": 0.5313501111111111,
+  "home": "NK",
+  "breadth": 5
+ },
+ "CD273": {
+  "restriction": 0.6082027083333333,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD243": {
+  "restriction": 0.5784476666666667,
+  "home": "CD4 T",
+  "breadth": 2
+ },
+ "CD325": {
+  "restriction": 0.6238377777777778,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD324": {
+  "restriction": 0.5978751527777778,
+  "home": "CD4 T",
+  "breadth": 5
+ },
+ "CD307e": {
+  "restriction": 0.70177725,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD172a": {
+  "restriction": 0.977955,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD307d": {
+  "restriction": 0.5771606805555556,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD42b": {
+  "restriction": 0.83254725,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD115": {
+  "restriction": 0.5798383472222223,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD117": {
+  "restriction": 0.6380525555555555,
+  "home": "other T",
+  "breadth": 5
+ },
+ "XCR1": {
+  "restriction": 0.5781774305555556,
+  "home": "CD8 T",
+  "breadth": 5
+ },
+ "CD112": {
+  "restriction": 0.6226690555555555,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "MERTK": {
+  "restriction": 0.5499263472222222,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "B7-H4": {
+  "restriction": 0.5796801527777777,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD21": {
+  "restriction": 0.98342625,
+  "home": "B",
+  "breadth": 5
+ },
+ "CD307c/FcRL3": {
+  "restriction": 0.7492360277777778,
+  "home": "B",
+  "breadth": 4
+ },
+ "CLEC2": {
+  "restriction": 0.8981254861111111,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD48": {
+  "restriction": 0.6829828888888889,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD47": {
+  "restriction": 0.6036090138888889,
+  "home": "B",
+  "breadth": 2
+ },
+ "CD46": {
+  "restriction": 0.5796926944444445,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD41": {
+  "restriction": 0.9484027777777778,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD40": {
+  "restriction": 0.8686083333333333,
+  "home": "B",
+  "breadth": 2
+ },
+ "CD43": {
+  "restriction": 0.9007903472222222,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD338": {
+  "restriction": 0.5718657083333333,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD235a": {
+  "restriction": 0.614962875,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD335": {
+  "restriction": 0.9620767777777778,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD3-2": {
+  "restriction": 0.896571125,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD119": {
+  "restriction": 0.9194124444444445,
+  "home": "Mono",
+  "breadth": 3
+ },
+ "CD169": {
+  "restriction": 0.6855766805555555,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD28": {
+  "restriction": 0.9251215138888889,
+  "home": "CD4 T",
+  "breadth": 3
+ },
+ "CD161": {
+  "restriction": 0.8170332638888889,
+  "home": "NK",
+  "breadth": 4
+ },
+ "CD163": {
+  "restriction": 0.6893867777777778,
+  "home": "Mono",
+  "breadth": 2
+ },
+ "CD138-1": {
+  "restriction": 0.5936653611111111,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD164": {
+  "restriction": 0.80304475,
+  "home": "B",
+  "breadth": 3
+ },
+ "CD138-2": {
+  "restriction": 0.5646314444444445,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD144": {
+  "restriction": 0.641942125,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD202b": {
+  "restriction": 0.6185416111111111,
+  "home": "CD4 T",
+  "breadth": 4
+ },
+ "CD11c": {
+  "restriction": 0.9877389444444444,
+  "home": "Mono",
+  "breadth": 2
+ }
+}

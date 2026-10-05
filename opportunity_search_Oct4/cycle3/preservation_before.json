@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "started_at_utc": "2026-10-05T02:22:23Z",
+  "files": [
+    {
+      "path": "docs/superpowers/plans/2026-10-04-state-conditioned-antigen-feasibility.md",
+      "bytes": 11645,
+      "sha256": "dcbbff323473697f10ef18317540f84da09a000b9ad7c388508f47ef1b8ad520"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle2/decision.md",
+      "bytes": 7657,
+      "sha256": "3abfbb761370d9611bd7bf5799789f80fddd259753a7e7137a99b7ed8d06620f"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle2/data_cards.tsv",
+      "bytes": 6724,
+      "sha256": "b86307e5ca83fbc311f73a560714d57055bd872335d7a34b0fadb0e5d9d74ca0"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle2/sources.tsv",
+      "bytes": 10823,
+      "sha256": "5f6e6f6a26e66a14bd433bebea5b9063eeb642b4035461533d2276b339210f21"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle2/output_hashes.json",
+      "bytes": 2954,
+      "sha256": "0de632c565b117dcfeb8f8a585bfca1509c1d7060977270d58048105da8889be"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-04-antigen-search-review-correction.md",
+      "bytes": 4271,
+      "sha256": "3eec1c9078e1baa3321efb995ad1f0e8f4a4f2b5199535aa242c8735ee86b609"
+    }
+  ]
+}

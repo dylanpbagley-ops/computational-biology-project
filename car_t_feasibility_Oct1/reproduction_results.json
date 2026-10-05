@@ -1,0 +1,358 @@
+{
+  "status": "Descriptive reproduction only. Three source donor labels; identity and replication discrepancy with paper require clarification. No hypothesis test or forecast score. No clipping normalized cytotoxicity.",
+  "summary": [
+    {
+      "measurement": "T_cell_count",
+      "construct": "376.96",
+      "day": 0.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 10000.0,
+      "label_means": [
+        10000.0,
+        10000.0,
+        10000.0
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "376.96",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 39725.33333333333,
+      "label_means": [
+        26021.333333333332,
+        42804.0,
+        50350.666666666664
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "376.96",
+      "day": 5.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 187086.6666666667,
+      "label_means": [
+        145073.33333333334,
+        172789.33333333334,
+        243397.33333333334
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "MGA.271",
+      "day": 0.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 10000.0,
+      "label_means": [
+        10000.0,
+        10000.0,
+        10000.0
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "MGA.271",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 38074.22222222222,
+      "label_means": [
+        36725.333333333336,
+        44258.666666666664,
+        33238.666666666664
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "MGA.271",
+      "day": 5.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 54768.444444444445,
+      "label_means": [
+        34574.666666666664,
+        60166.666666666664,
+        69564.0
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "Non-Transduced",
+      "day": 0.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 10000.0,
+      "label_means": [
+        10000.0,
+        10000.0,
+        10000.0
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "Non-Transduced",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 2032.0,
+      "label_means": [
+        2088.0,
+        2348.0,
+        1660.0
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "Non-Transduced",
+      "day": 5.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 545.7777777777778,
+      "label_means": [
+        334.6666666666667,
+        594.6666666666666,
+        708.0
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "TE9",
+      "day": 0.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 10000.0,
+      "label_means": [
+        10000.0,
+        10000.0,
+        10000.0
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "TE9",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 38987.11111111111,
+      "label_means": [
+        1621.3333333333333,
+        45216.0,
+        70124.0
+      ]
+    },
+    {
+      "measurement": "T_cell_count",
+      "construct": "TE9",
+      "day": 5.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 134944.0,
+      "label_means": [
+        41173.333333333336,
+        202165.33333333334,
+        161493.33333333334
+      ]
+    },
+    {
+      "measurement": "residual_tumor_antigen_gMFI",
+      "construct": "376.96",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 1696.2222222222222,
+      "label_means": [
+        1662.6666666666667,
+        1469.6666666666667,
+        1956.3333333333333
+      ]
+    },
+    {
+      "measurement": "residual_tumor_antigen_gMFI",
+      "construct": "376.96",
+      "day": 5.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 1474.7777777777778,
+      "label_means": [
+        2696.6666666666665,
+        1018.6666666666666,
+        709.0
+      ]
+    },
+    {
+      "measurement": "residual_tumor_antigen_gMFI",
+      "construct": "MGA.271",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 6003.444444444444,
+      "label_means": [
+        5358.666666666667,
+        5973.0,
+        6678.666666666667
+      ]
+    },
+    {
+      "measurement": "residual_tumor_antigen_gMFI",
+      "construct": "MGA.271",
+      "day": 5.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 4763.111111111111,
+      "label_means": [
+        5323.666666666667,
+        4400.0,
+        4565.666666666667
+      ]
+    },
+    {
+      "measurement": "residual_tumor_antigen_gMFI",
+      "construct": "Non-Transduced",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 13028.444444444445,
+      "label_means": [
+        9068.0,
+        13986.333333333334,
+        16031.0
+      ]
+    },
+    {
+      "measurement": "residual_tumor_antigen_gMFI",
+      "construct": "Non-Transduced",
+      "day": 5.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 9942.0,
+      "label_means": [
+        7835.0,
+        11691.666666666666,
+        10299.333333333334
+      ]
+    },
+    {
+      "measurement": "residual_tumor_antigen_gMFI",
+      "construct": "TE9",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 1815.3333333333333,
+      "label_means": [
+        2101.0,
+        1559.0,
+        1786.0
+      ]
+    },
+    {
+      "measurement": "residual_tumor_antigen_gMFI",
+      "construct": "TE9",
+      "day": 5.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 3033.666666666667,
+      "label_means": [
+        4804.666666666667,
+        948.0,
+        3348.3333333333335
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "376.96",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 63.95288466666667,
+      "label_means": [
+        53.0012458,
+        65.21859586666667,
+        73.63881233333333
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "376.96",
+      "day": 4.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 86.64460083333334,
+      "label_means": [
+        83.17293203333334,
+        85.4491883,
+        91.31168216666667
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "376.96",
+      "day": 7.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 81.52261432222222,
+      "label_means": [
+        76.07809216666666,
+        78.01459919999999,
+        90.4751516
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "MGA.271",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 29.016636933333334,
+      "label_means": [
+        1.6179079999999988,
+        33.337995166666666,
+        52.094007633333334
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "MGA.271",
+      "day": 4.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 13.146710996666666,
+      "label_means": [
+        9.455849756666666,
+        1.9718375333333336,
+        28.0124457
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "MGA.271",
+      "day": 7.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 32.90913793333333,
+      "label_means": [
+        64.19408983333332,
+        12.9808395,
+        21.552484466666666
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "TE9",
+      "day": 1.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 61.04850908888889,
+      "label_means": [
+        55.12538366666667,
+        63.6668826,
+        64.353261
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "TE9",
+      "day": 4.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 83.94212160000001,
+      "label_means": [
+        77.21210333333333,
+        83.3281508,
+        91.28611066666667
+      ]
+    },
+    {
+      "measurement": "specific_cytotoxicity_percent",
+      "construct": "TE9",
+      "day": 7.0,
+      "source_donor_labels": 3,
+      "equal_label_mean": 71.05607765555555,
+      "label_means": [
+        51.000557533333335,
+        71.2157478,
+        90.95192763333333
+      ]
+    }
+  ],
+  "source_hashes": {
+    "6d.txt": "1e17a60b86354b1f213bd3d4963759638a30765f049fab09af84b533c96db27f",
+    "6e.txt": "d4f1f0e868b25415dbbdfee2cd385fc42ccdbcc17a23b415f7b5702d85e4b0bd",
+    "6i.txt": "27e750d937115312466c7dbadd4e8b671eeba83955b7749485bca08bfe6a7e7c"
+  }
+}

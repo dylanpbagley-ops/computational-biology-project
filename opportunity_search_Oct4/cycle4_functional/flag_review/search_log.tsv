@@ -1,0 +1,3 @@
+id	utc	query	total_and_screened	cursor_or_limit	purpose
+Q1	2026-10-05 05:32:34 UTC	(Med16 OR MED16) AND (CRISPR OR knockout OR "gene editing") AND ("T cell" OR "T cells" OR CAR-T OR immunotherapy)	PubMed total=1; offset=0 returned=1; titles screened=1	sort=relevance; max_results=10; offset=0; no next page	MED16-specific screen for CRISPR/immune/T-cell prior art
+Q2	2026-10-05 05:32:45 UTC	(NPRL3 OR Cbfa2t3 OR Etv5) AND ("CAR T" OR "CAR-T" OR "cytotoxic T cell" OR "T cell" OR immunotherapy)	PubMed total=58; offset=0 returned=10; titles screened=10	sort=relevance; max_results=10; offset=0; next_offset=10; only first page screened	Flagged-alternative gene-specific immune/CAR-T prior art; bounded to first ten titles

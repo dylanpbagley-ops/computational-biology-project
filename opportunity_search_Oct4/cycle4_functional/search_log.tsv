@@ -1,0 +1,6 @@
+id	utc	query_or_url	total_returned_and_screened	cursor_or_limit	purpose	source_ids
+Q1	not_captured	site:nature.com/articles/s41586-020-2746-2 supplementary table 7 Lawson GSE149933	17 combined with Q2; per-query total not retained	one returned page; no cursor retained	Locate official Lawson processed data and supplement; resource lookup, not systematic title screen	S1;S2
+Q2	not_captured	site:ncbi.nlm.nih.gov/geo/query/acc.cgi GSE149933 Lawson processed files	17 combined with Q1; per-query total not retained	one returned page; no cursor retained	Locate official GEO record and processed files	S1;S2
+Q3	2026-10-05T04:44:12Z	Exact query text not captured; Nature Supplementary Table 7 lookup	18 results returned; titles not systematically screened	one page; no cursor retained	Check official Lawson Table 7 availability	S1
+Q4	2026-10-05T04:45:10Z	41586_2020_2746_MOESM	0 results	one page	Check exact official supplement filename/link	S1
+Q5	2026-10-05T04:45:21Z	Functional genomic landscape of cancer-intrinsic evasion of killing by T cells Supplementary Table 7	12 results returned; titles not systematically screened	one page; no cursor retained	Check publisher/PMC availability for a small processed Table 7 resource	S1

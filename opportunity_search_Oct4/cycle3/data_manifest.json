@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-05T03:17:14Z",
+  "stage_directory": "opportunity_search_Oct4/cycle3",
+  "download_count": 2,
+  "files": [
+    {
+      "path": "data/P05_SupplementaryData2.xlsx",
+      "bytes": 85288,
+      "sha256": "03738572b99302a11ce7a40c350d45f6de3b019ef27b065c92455b1b2fbc7292",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-55908-9/MediaObjects/41467_2025_55908_MOESM4_ESM.xlsx"
+    },
+    {
+      "path": "data/P05_SupplementaryData7.xlsx",
+      "bytes": 37674,
+      "sha256": "5944584b42f2513a41d31242b9dbc7c986d415cdddf7de419fb9be442ccc4385",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-55908-9/MediaObjects/41467_2025_55908_MOESM9_ESM.xlsx"
+    }
+  ],
+  "total_download_bytes": 122962,
+  "scope": "One selected P05 study resource; two official processed supplementary workbooks inspected, 122,962 bytes total; no raw MS files or additional dataset resource accessed. Data 2 exact sequence overlap with JCI Table 5 was 0/74, which is not evidence of absence. No distinct fixed contrast or pilot passed."
+}

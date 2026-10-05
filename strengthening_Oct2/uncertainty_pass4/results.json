@@ -1,0 +1,377 @@
+{
+  "status": "Hypothetical post-discovery sensitivity; no final amended clinical outcomes",
+  "scenarios": [
+    {
+      "scenario": "original_30",
+      "n": 30,
+      "favorable": 19,
+      "unfavorable": 11,
+      "frozen_rule": 0.9138755980861244,
+      "confinement": 0.8803827751196173,
+      "blood_flag": 0.7105263157894737
+    },
+    {
+      "scenario": "exclude_FAP",
+      "n": 29,
+      "favorable": 19,
+      "unfavorable": 10,
+      "frozen_rule": 0.9105263157894737,
+      "confinement": 0.8789473684210526,
+      "blood_flag": 0.7105263157894737
+    },
+    {
+      "scenario": "exclude_FAP_change_GPRC5D",
+      "n": 29,
+      "favorable": 18,
+      "unfavorable": 11,
+      "frozen_rule": 0.8838383838383839,
+      "confinement": 0.8434343434343434,
+      "blood_flag": 0.7222222222222222
+    },
+    {
+      "scenario": "exclude_FAP_change_NECTIN4",
+      "n": 29,
+      "favorable": 18,
+      "unfavorable": 11,
+      "frozen_rule": 0.9242424242424242,
+      "confinement": 0.8888888888888888,
+      "blood_flag": 0.7222222222222222
+    },
+    {
+      "scenario": "exclude_FAP_change_both",
+      "n": 29,
+      "favorable": 17,
+      "unfavorable": 12,
+      "frozen_rule": 0.9019607843137255,
+      "confinement": 0.8578431372549019,
+      "blood_flag": 0.7352941176470589
+    }
+  ],
+  "uncertainty_genes": [
+    "FOLR1",
+    "EGFR",
+    "EPCAM",
+    "NCAM1",
+    "F3",
+    "ERBB2",
+    "CD47",
+    "GPRC5D",
+    "NECTIN4",
+    "CLDN18"
+  ],
+  "fixed_favorable_genes": [
+    "CD19",
+    "MS4A1",
+    "CD22",
+    "CD79B",
+    "TNFRSF17",
+    "SLAMF7",
+    "CD38",
+    "TNFRSF8",
+    "CD33",
+    "FOLH1",
+    "TACSTD2",
+    "DLL3",
+    "MET",
+    "MSLN",
+    "GPC3",
+    "CD52"
+  ],
+  "fixed_unfavorable_genes": [
+    "CEACAM5",
+    "CA9",
+    "CD44"
+  ],
+  "assignment_count": 1024,
+  "conditional_envelopes": {
+    "frozen_rule": {
+      "min": {
+        "assignment_id": 1018,
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2;CD47;NECTIN4",
+        "favorable": 24,
+        "unfavorable": 5,
+        "frozen_rule": 0.5166666666666667,
+        "confinement": 0.425,
+        "blood_flag": 0.6666666666666666,
+        "rule_minus_confinement": 0.09166666666666673,
+        "rule_minus_blood": -0.1499999999999999
+      },
+      "max": {
+        "assignment_id": 5,
+        "uncertain_assigned_favorable": "GPRC5D;CLDN18",
+        "favorable": 18,
+        "unfavorable": 11,
+        "frozen_rule": 0.9242424242424242,
+        "confinement": 0.8888888888888888,
+        "blood_flag": 0.7222222222222222,
+        "rule_minus_confinement": 0.03535353535353536,
+        "rule_minus_blood": 0.202020202020202
+      }
+    },
+    "confinement": {
+      "min": {
+        "assignment_id": 1018,
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2;CD47;NECTIN4",
+        "favorable": 24,
+        "unfavorable": 5,
+        "frozen_rule": 0.5166666666666667,
+        "confinement": 0.425,
+        "blood_flag": 0.6666666666666666,
+        "rule_minus_confinement": 0.09166666666666673,
+        "rule_minus_blood": -0.1499999999999999
+      },
+      "max": {
+        "assignment_id": 5,
+        "uncertain_assigned_favorable": "GPRC5D;CLDN18",
+        "favorable": 18,
+        "unfavorable": 11,
+        "frozen_rule": 0.9242424242424242,
+        "confinement": 0.8888888888888888,
+        "blood_flag": 0.7222222222222222,
+        "rule_minus_confinement": 0.03535353535353536,
+        "rule_minus_blood": 0.202020202020202
+      }
+    },
+    "blood_flag": {
+      "min": {
+        "assignment_id": 1023,
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2;CD47;GPRC5D;NECTIN4;CLDN18",
+        "favorable": 26,
+        "unfavorable": 3,
+        "frozen_rule": 0.6025641025641025,
+        "confinement": 0.5384615384615384,
+        "blood_flag": 0.6538461538461539,
+        "rule_minus_confinement": 0.0641025641025641,
+        "rule_minus_blood": -0.05128205128205132
+      },
+      "max": {
+        "assignment_id": 0,
+        "uncertain_assigned_favorable": "",
+        "favorable": 16,
+        "unfavorable": 13,
+        "frozen_rule": 0.875,
+        "confinement": 0.8125,
+        "blood_flag": 0.75,
+        "rule_minus_confinement": 0.0625,
+        "rule_minus_blood": 0.125
+      }
+    },
+    "rule_minus_confinement": {
+      "min": {
+        "assignment_id": 519,
+        "uncertain_assigned_favorable": "FOLR1;GPRC5D;NECTIN4;CLDN18",
+        "favorable": 20,
+        "unfavorable": 9,
+        "frozen_rule": 0.9055555555555556,
+        "confinement": 0.8777777777777778,
+        "blood_flag": 0.7,
+        "rule_minus_confinement": 0.02777777777777779,
+        "rule_minus_blood": 0.2055555555555556
+      },
+      "max": {
+        "assignment_id": 1018,
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2;CD47;NECTIN4",
+        "favorable": 24,
+        "unfavorable": 5,
+        "frozen_rule": 0.5166666666666667,
+        "confinement": 0.425,
+        "blood_flag": 0.6666666666666666,
+        "rule_minus_confinement": 0.09166666666666673,
+        "rule_minus_blood": -0.1499999999999999
+      }
+    },
+    "rule_minus_blood": {
+      "min": {
+        "assignment_id": 1018,
+        "uncertain_assigned_favorable": "FOLR1;EGFR;EPCAM;NCAM1;F3;ERBB2;CD47;NECTIN4",
+        "favorable": 24,
+        "unfavorable": 5,
+        "frozen_rule": 0.5166666666666667,
+        "confinement": 0.425,
+        "blood_flag": 0.6666666666666666,
+        "rule_minus_confinement": 0.09166666666666673,
+        "rule_minus_blood": -0.1499999999999999
+      },
+      "max": {
+        "assignment_id": 519,
+        "uncertain_assigned_favorable": "FOLR1;GPRC5D;NECTIN4;CLDN18",
+        "favorable": 20,
+        "unfavorable": 9,
+        "frozen_rule": 0.9055555555555556,
+        "confinement": 0.8777777777777778,
+        "blood_flag": 0.7,
+        "rule_minus_confinement": 0.02777777777777779,
+        "rule_minus_blood": 0.2055555555555556
+      }
+    }
+  },
+  "arbitrary_flip_bounds": [
+    {
+      "model": "frozen_rule",
+      "exact_label_changes": 0,
+      "minimum_auc": 0.9105263157894737,
+      "maximum_auc": 0.9105263157894737,
+      "minimum_witness_flipped_genes": "",
+      "maximum_witness_flipped_genes": ""
+    },
+    {
+      "model": "frozen_rule",
+      "exact_label_changes": 1,
+      "minimum_auc": 0.8232323232323232,
+      "maximum_auc": 0.95,
+      "minimum_witness_flipped_genes": "MS4A1",
+      "maximum_witness_flipped_genes": "CEACAM5"
+    },
+    {
+      "model": "frozen_rule",
+      "exact_label_changes": 2,
+      "minimum_auc": 0.75,
+      "maximum_auc": 0.9821428571428571,
+      "minimum_witness_flipped_genes": "MS4A1;TNFRSF17",
+      "maximum_witness_flipped_genes": "CEACAM5;CA9"
+    },
+    {
+      "model": "frozen_rule",
+      "exact_label_changes": 3,
+      "minimum_auc": 0.6868686868686869,
+      "maximum_auc": 0.9944444444444445,
+      "minimum_witness_flipped_genes": "MS4A1;TNFRSF17;CD47",
+      "maximum_witness_flipped_genes": "MET;CEACAM5;CA9"
+    },
+    {
+      "model": "frozen_rule",
+      "exact_label_changes": 4,
+      "minimum_auc": 0.6225490196078431,
+      "maximum_auc": 1.0,
+      "minimum_witness_flipped_genes": "MS4A1;CD79B;TNFRSF17;CD47",
+      "maximum_witness_flipped_genes": "CEACAM5;CA9;EPCAM;FOLR1"
+    },
+    {
+      "model": "frozen_rule",
+      "exact_label_changes": 5,
+      "minimum_auc": 0.5606060606060606,
+      "maximum_auc": 1.0,
+      "minimum_witness_flipped_genes": "MS4A1;CD79B;TNFRSF17;ERBB2;CD47",
+      "maximum_witness_flipped_genes": "CEACAM5;CA9;EPCAM;FOLR1;F3"
+    },
+    {
+      "model": "confinement",
+      "exact_label_changes": 0,
+      "minimum_auc": 0.8789473684210526,
+      "maximum_auc": 0.8789473684210526,
+      "minimum_witness_flipped_genes": "",
+      "maximum_witness_flipped_genes": ""
+    },
+    {
+      "model": "confinement",
+      "exact_label_changes": 1,
+      "minimum_auc": 0.7929292929292929,
+      "maximum_auc": 0.9333333333333333,
+      "minimum_witness_flipped_genes": "MS4A1",
+      "maximum_witness_flipped_genes": "CEACAM5"
+    },
+    {
+      "model": "confinement",
+      "exact_label_changes": 2,
+      "minimum_auc": 0.7205882352941176,
+      "maximum_auc": 0.9761904761904762,
+      "minimum_witness_flipped_genes": "MS4A1;CD52",
+      "maximum_witness_flipped_genes": "CEACAM5;CA9"
+    },
+    {
+      "model": "confinement",
+      "exact_label_changes": 3,
+      "minimum_auc": 0.6565656565656566,
+      "maximum_auc": 0.9935064935064936,
+      "minimum_witness_flipped_genes": "MS4A1;CD52;CD47",
+      "maximum_witness_flipped_genes": "CEACAM5;CA9;FOLR1"
+    },
+    {
+      "model": "confinement",
+      "exact_label_changes": 4,
+      "minimum_auc": 0.5931372549019608,
+      "maximum_auc": 1.0,
+      "minimum_witness_flipped_genes": "MS4A1;TNFRSF17;CD52;CD47",
+      "maximum_witness_flipped_genes": "CEACAM5;CA9;EPCAM;FOLR1"
+    },
+    {
+      "model": "confinement",
+      "exact_label_changes": 5,
+      "minimum_auc": 0.5303030303030303,
+      "maximum_auc": 1.0,
+      "minimum_witness_flipped_genes": "MS4A1;TNFRSF17;CD52;ERBB2;CD47",
+      "maximum_witness_flipped_genes": "CEACAM5;CA9;EPCAM;FOLR1;F3"
+    },
+    {
+      "model": "blood_flag",
+      "exact_label_changes": 0,
+      "minimum_auc": 0.7105263157894737,
+      "maximum_auc": 0.7105263157894737,
+      "minimum_witness_flipped_genes": "",
+      "maximum_witness_flipped_genes": ""
+    },
+    {
+      "model": "blood_flag",
+      "exact_label_changes": 1,
+      "minimum_auc": 0.648989898989899,
+      "maximum_auc": 0.7222222222222222,
+      "minimum_witness_flipped_genes": "CD33",
+      "maximum_witness_flipped_genes": "TNFRSF8"
+    },
+    {
+      "model": "blood_flag",
+      "exact_label_changes": 2,
+      "minimum_auc": 0.5931372549019608,
+      "maximum_auc": 0.7352941176470589,
+      "minimum_witness_flipped_genes": "CD38;CD33",
+      "maximum_witness_flipped_genes": "TNFRSF8;GPRC5D"
+    },
+    {
+      "model": "blood_flag",
+      "exact_label_changes": 3,
+      "minimum_auc": 0.5408653846153846,
+      "maximum_auc": 0.75,
+      "minimum_witness_flipped_genes": "SLAMF7;CD38;CD33",
+      "maximum_witness_flipped_genes": "TNFRSF8;GPRC5D;FOLH1"
+    },
+    {
+      "model": "blood_flag",
+      "exact_label_changes": 4,
+      "minimum_auc": 0.49047619047619045,
+      "maximum_auc": 0.7666666666666667,
+      "minimum_witness_flipped_genes": "TNFRSF17;SLAMF7;CD38;CD33",
+      "maximum_witness_flipped_genes": "TNFRSF8;GPRC5D;FOLH1;TACSTD2"
+    },
+    {
+      "model": "blood_flag",
+      "exact_label_changes": 5,
+      "minimum_auc": 0.44047619047619047,
+      "maximum_auc": 0.7857142857142857,
+      "minimum_witness_flipped_genes": "CD79B;TNFRSF17;SLAMF7;CD38;CD33",
+      "maximum_witness_flipped_genes": "TNFRSF8;GPRC5D;FOLH1;TACSTD2;NECTIN4"
+    }
+  ],
+  "zero_event_illustrations": [
+    {
+      "n": 4,
+      "one_sided_95_upper": 0.5271291954984121
+    },
+    {
+      "n": 19,
+      "one_sided_95_upper": 0.14586850331224344
+    },
+    {
+      "n": 27,
+      "one_sided_95_upper": 0.1050192301763443
+    },
+    {
+      "n": 40,
+      "one_sided_95_upper": 0.07215752450551456
+    },
+    {
+      "n": 100,
+      "one_sided_95_upper": 0.029513049607039935
+    }
+  ],
+  "limits": "Ranges are conditional, not confidence intervals. Assignments have no probabilities. Fixed labels remain unadjudicated. No fitted model or independent validation."
+}

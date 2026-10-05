@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "root": "C:/Users/dylan.bagley/Desktop/outputs",
+  "started_at_utc": "2026-10-05T04:39:29Z",
+  "protected_inputs": [
+    {
+      "path": "docs/superpowers/plans/2026-10-04-functional-immune-outcomes-data-first.md",
+      "bytes": 16363,
+      "sha256": "7aa603b523b7bc71cff0bf8f326b1ece8059f4647458b25cd0c12b24a6cee23d",
+      "authorization": "protected_input"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle1/output_hashes.json",
+      "bytes": 1691,
+      "sha256": "19e0e7c51e268feef2ef5c847d8a10d8e1442b20cbd5dd0682a5fe134b3f2359",
+      "authorization": "protected_input"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle2/output_hashes.json",
+      "bytes": 2954,
+      "sha256": "0de632c565b117dcfeb8f8a585bfca1509c1d7060977270d58048105da8889be",
+      "authorization": "protected_input"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle3/output_hashes.json",
+      "bytes": 2137,
+      "sha256": "268146b7d27407a8fac38322ddc47089a1e359520d42ad81a112d4d2fd14caef",
+      "authorization": "protected_input"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-04-functional-search-parallel-review.md",
+      "bytes": 6979,
+      "sha256": "739258975afee1a52418aef527be9140578a43e40a53f3f00e7c268c7064e939",
+      "authorization": "protected_input"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-04-functional-transport-discriminating-pilot.md",
+      "bytes": 10327,
+      "sha256": "f091b36cb45b3761e9c93efbddedd7a46e304dfd9a40bd61f49d9f264fc1234f",
+      "authorization": "protected_input_new_pilot_plan"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/data/GSE149933_mTKO_readCounts_4May20.txt.gz",
+      "bytes": 18430780,
+      "sha256": "ff2ab7917c4adf3409ed68a4ee00484c67fd5847e3dad380a1b131810026637a",
+      "authorization": "protected_pilot_data_input"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/data/GSE149933_mTKO_library.txt.gz",
+      "bytes": 2197566,
+      "sha256": "9fe28537b7ec71f8314a289bf55872511f5a23c1777cd2ee1225b48e9943533b",
+      "authorization": "protected_pilot_data_input"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/data/GSE149933_family.soft.gz",
+      "bytes": 15133,
+      "sha256": "1c451899ac1feb252a30d5b911f5ab8d0bbe954a57379cb71e5fd0a7921f855b",
+      "authorization": "protected_pilot_data_input"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/data/Ramos_SupplementaryData1.xlsx",
+      "bytes": 93990,
+      "sha256": "dbc52dd3d71fec9e0f0b854401ca231e04d248e54c238e2759a614088bd8d8f2",
+      "authorization": "protected_pilot_data_input"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/prior_art/STATUS.md",
+      "bytes": 995,
+      "sha256": "0e7e03d3e94a9d76649d7665d5e85d7bce996da157ab3dd43099a0325b573bb3",
+      "authorization": "protected_frozen_prior_art"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/prior_art/search_log.tsv",
+      "bytes": 1354,
+      "sha256": "ec8e5675d59d0f17433845d7bac3111a4c837d8843a7e199dafd8996eafe9a71",
+      "authorization": "protected_frozen_prior_art"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/prior_art/sources.tsv",
+      "bytes": 5202,
+      "sha256": "b4d28ebb06848a2e97b9734cd2c9f84d1ab7b84bc7d5c0127cc185fb877b6ae1",
+      "authorization": "protected_frozen_prior_art"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/prior_art/review.md",
+      "bytes": 7073,
+      "sha256": "52f90a2d79ec5d3b56f006ae4ecaabaa93b04ecfb3833fa9b352a84b27d67830",
+      "authorization": "protected_frozen_prior_art"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/flag_review/review.md",
+      "bytes": 6088,
+      "sha256": "d144c7fc7aaccfe52a1af12ecec0482d3b8f73ac57e1a05096732d1926a40ec8",
+      "authorization": "protected_frozen_flag_review"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/flag_review/search_log.tsv",
+      "bytes": 720,
+      "sha256": "6b0acd161500d092a928058f6e31c67f49c941fc3b9ca100edd60bc50bfa8c44",
+      "authorization": "protected_frozen_flag_review"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/flag_review/sources.tsv",
+      "bytes": 5056,
+      "sha256": "58d0e01173ddfbb82d2da37dc6b328569ed308224bad67ae0a4e353c48d358d3",
+      "authorization": "protected_frozen_flag_review"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle4_functional/flag_review/STATUS.md",
+      "bytes": 767,
+      "sha256": "3d9feebce511e9cd521081027539bb323977b47da81c11bc1e4914464d18762a",
+      "authorization": "protected_frozen_flag_review"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-04-med16-replication-decision-gate.md",
+      "bytes": 6650,
+      "sha256": "f0b7ae18998a0dbace78d9fb42e1c7f8d9d7b49ae32885f0aa61dce2953bfd7b",
+      "authorization": "protected_next_stage_handoff_plan"
+    }
+  ],
+  "authorized_mutable": [
+    {
+      "path": "opportunity_search_Oct4/STATUS.md",
+      "bytes": 1364,
+      "sha256": "6dc9ee9988e91b300089e4bb765793528cbcd0e93749ce2c2799f03f483e81e5",
+      "authorization": "authorized_mutable_live_status"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+gene	source	remaining_work	status
+CA9	https://pubmed.ncbi.nlm.nih.gov/23423337/	Resolve pass 2 limitations and independent endpoint judgment	OPEN
+CD19	https://pubmed.ncbi.nlm.nih.gov/29385370/	Separate CRS and neurologic effects from depletion; extract infection, immunoglobulin replacement and follow-up by cohort	OPEN
+CD22	https://pubmed.ncbi.nlm.nih.gov/27292104/	Resolve mechanism and transplant context; use safety denominators, not remission-analysis denominators; do not duplicate later follow-up	OPEN
+CD33	https://pubmed.ncbi.nlm.nih.gov/22482940/	Extract grades, regeneration/recovery, liver events and causal evidence; do not treat recovery alone as absence of serious harm	OPEN
+CD38	https://www.nejm.org/doi/full/10.1056/NEJMoa1506348	Extract escalation DLT identities and causal attribution; do not infer no DLT from favorable safety summary	OPEN
+CD44	https://aacrjournals.org/clincancerres/article/12/20/6064/191658/A-Phase-I-Dose-Escalation-Study-with-Anti-CD44v6; https://pubmed.ncbi.nlm.nih.gov/17351401/	Resolve pass 2 limitations and independent endpoint judgment	OPEN
+CD47	https://pmc.ncbi.nlm.nih.gov/articles/PMC7186585/	Use subgroup denominators; distinguish severe anemia from DLT; later program termination does not settle this event mechanism	OPEN
+CD52	https://pubmed.ncbi.nlm.nih.gov/17984186/	Extract lymphodepletion, infection severity, monitoring and recovery; manageable is not equivalent to absent	OPEN
+CD79B	https://pubmed.ncbi.nlm.nih.gov/31693429/	Separate agents and cohorts; assess mechanism and observation adequacy	OPEN
+CEACAM5	https://pmc.ncbi.nlm.nih.gov/articles/PMC3048186/	Correct CAR-T to TCR-T; review tissue evidence and grade; do not generalize to all CEA therapies	OPEN
+CLDN18	https://pubmed.ncbi.nlm.nih.gov/37068504/	Resolve isoform mismatch with gene-level CLDN18; distinguish symptoms from documented tissue injury and combination effects	OPEN
+DLL3	https://pubmed.ncbi.nlm.nih.gov/37861218/	Extract event identities, severity and monitoring; target-expression absence claim needs its own evidence	OPEN
+EGFR	https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-17-0432/274703/p/Phase-I-Study-of-Chimeric-Antigen-Receptor	Resolve pass 2 limitations and independent endpoint judgment	OPEN
+EPCAM	https://pubmed.ncbi.nlm.nih.gov/20473913/	Resolve pass 2 limitations and independent endpoint judgment	OPEN
+ERBB2	https://pubmed.ncbi.nlm.nih.gov/20179677/; https://scholars.houstonmethodist.org/en/publications/human-epidermal-growth-factor-receptor-2-her2-specific-chimeric-a/	Resolve pass 2 limitations and independent endpoint judgment	OPEN
+F3	https://www.sciencedirect.com/science/article/pii/S0090825822001202	Review severe events and attribution; eye-care requirements do not themselves establish mechanism or a formal REMS	OPEN
+FAP	https://pubmed.ncbi.nlm.nih.gov/23712432/	Exclude this source from human clinical outcome labels; retain as separately labeled biological evidence	OPEN
+FOLH1	https://pmc.ncbi.nlm.nih.gov/articles/PMC8446332/	Limit no-severe-dry-mouth observation to this study; evaluate other organ effects and later reports separately	OPEN
+FOLR1	https://pubmed.ncbi.nlm.nih.gov/30413525/	Remove unsupported historical corneal on-target rationale; this does not establish global safety or erase events in other cohorts	OPEN
+GPC3	https://pubmed.ncbi.nlm.nih.gov/32371538/	Qualify historical tolerability description; separate constituent trials and assess normal-tissue attribution	OPEN
+GPRC5D	https://pubmed.ncbi.nlm.nih.gov/36507686/	Correct historical no-DLT rationale; verify event-level target attribution before assigning amended outcome	OPEN
+MET	https://pubmed.ncbi.nlm.nih.gov/42368479/	Separate payload and target attribution; retain 2026 publication provenance and overlap with earlier trial reports	OPEN
+MS4A1	https://pubmed.ncbi.nlm.nih.gov/9704735/	Extract B-cell depletion, infection timing and adequacy of observation; do not equate approval with no injury	OPEN
+MSLN	https://pmc.ncbi.nlm.nih.gov/articles/PMC8563385/	Review negative-observation adequacy, regional exposure and cohort differences; other mesothelin agents remain separate	OPEN
+NCAM1	https://pubmed.ncbi.nlm.nih.gov/26961907/	Obtain event-level grade and causal evidence; do not infer on-target solely from neuronal CD56 expression	OPEN
+NECTIN4	https://pmc.ncbi.nlm.nih.gov/articles/PMC7106979/	Review severe skin endpoint; distinguish protocol DLT from treatment interruption and decision not to escalate further	OPEN
+SLAMF7	https://mdanderson.elsevierpure.com/en/publications/elotuzumab-therapy-for-relapsed-or-refractory-multiple-myeloma/	Read full safety tables; distinguish combination effects and intended immune activation from normal-cell destruction	OPEN
+TACSTD2	https://pubmed.ncbi.nlm.nih.gov/33882206/	Review mechanism rather than adopting historical payload-only attribution; extract full safety denominators	OPEN
+TNFRSF17	https://pubmed.ncbi.nlm.nih.gov/33626253/	Extract plasma-cell depletion, immunoglobulins, infections and persistence; cilta-cel is a separate agent and study	OPEN
+TNFRSF8	https://pmc.ncbi.nlm.nih.gov/articles/PMC3646316/	Review severity and mechanistic support before asserting exclusively payload-driven toxicity	OPEN

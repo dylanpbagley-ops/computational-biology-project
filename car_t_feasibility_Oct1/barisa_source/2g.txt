@@ -1,0 +1,5 @@
+	Assoc	Assoc	Assoc	Dissoc	Dissoc	Dissoc
+	D1	D2	D3	D1	D2	D3
+MGA271	181000.00			0.292000		
+376.96	280000.00			0.192000		
+TE9	887000.00			0.389000		

@@ -1,0 +1,947 @@
+[
+  {
+    "patient_id": "C3L-00017",
+    "msln_protein_log2": 23.8464,
+    "vital_status": "Living",
+    "follow_up_days": 426,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-00102",
+    "msln_protein_log2": 23.8302,
+    "vital_status": "Deceased",
+    "follow_up_days": 249,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-00189",
+    "msln_protein_log2": 24.3583,
+    "vital_status": "Deceased",
+    "follow_up_days": 1035,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-00277",
+    "msln_protein_log2": 26.2647,
+    "vital_status": "Deceased",
+    "follow_up_days": 610,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-00401",
+    "msln_protein_log2": 23.966,
+    "vital_status": "Living",
+    "follow_up_days": 1228,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-00589",
+    "msln_protein_log2": 24.6118,
+    "vital_status": "Living",
+    "follow_up_days": 1046,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-00598",
+    "msln_protein_log2": 25.2965,
+    "vital_status": "Deceased",
+    "follow_up_days": 422,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-00599",
+    "msln_protein_log2": 25.2963,
+    "vital_status": "Living",
+    "follow_up_days": 1189,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-00622",
+    "msln_protein_log2": 24.606,
+    "vital_status": "Deceased",
+    "follow_up_days": 311,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-00625",
+    "msln_protein_log2": 25.929,
+    "vital_status": "Living",
+    "follow_up_days": 864,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-00640",
+    "msln_protein_log2": 23.2165,
+    "vital_status": "Living",
+    "follow_up_days": 594,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-00819",
+    "msln_protein_log2": 24.4836,
+    "vital_status": "Deceased",
+    "follow_up_days": 602,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-00881",
+    "msln_protein_log2": 24.7751,
+    "vital_status": "Living",
+    "follow_up_days": 3,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-00928",
+    "msln_protein_log2": 23.8387,
+    "vital_status": "Deceased",
+    "follow_up_days": 761,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01031",
+    "msln_protein_log2": 24.7528,
+    "vital_status": "Living",
+    "follow_up_days": 369,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-01036",
+    "msln_protein_log2": 24.8899,
+    "vital_status": "Living",
+    "follow_up_days": 765,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-01037",
+    "msln_protein_log2": 25.5971,
+    "vital_status": "Deceased",
+    "follow_up_days": 300,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01051",
+    "msln_protein_log2": 24.7479,
+    "vital_status": "Living",
+    "follow_up_days": 0,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-01052",
+    "msln_protein_log2": 23.4255,
+    "vital_status": "Deceased",
+    "follow_up_days": 743,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01053",
+    "msln_protein_log2": 24.4875,
+    "vital_status": "Deceased",
+    "follow_up_days": 191,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01054",
+    "msln_protein_log2": 25.7487,
+    "vital_status": "Living",
+    "follow_up_days": 794,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-01124",
+    "msln_protein_log2": 24.3013,
+    "vital_status": "Living",
+    "follow_up_days": 399,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-01328",
+    "msln_protein_log2": 23.4644,
+    "vital_status": "Living",
+    "follow_up_days": 270,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-01453",
+    "msln_protein_log2": 23.956,
+    "vital_status": "Living",
+    "follow_up_days": 5,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-01598",
+    "msln_protein_log2": 24.225,
+    "vital_status": "Deceased",
+    "follow_up_days": 912,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01637",
+    "msln_protein_log2": 23.7617,
+    "vital_status": "Deceased",
+    "follow_up_days": 715,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01662",
+    "msln_protein_log2": 23.6453,
+    "vital_status": "Deceased",
+    "follow_up_days": 344,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01687",
+    "msln_protein_log2": 24.4302,
+    "vital_status": "Deceased",
+    "follow_up_days": 376,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01689",
+    "msln_protein_log2": 23.7362,
+    "vital_status": "Deceased",
+    "follow_up_days": 594,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01703",
+    "msln_protein_log2": 24.9586,
+    "vital_status": "Deceased",
+    "follow_up_days": 287,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-01971",
+    "msln_protein_log2": 23.0907,
+    "vital_status": "Deceased",
+    "follow_up_days": 276,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02109",
+    "msln_protein_log2": 25.366,
+    "vital_status": "Living",
+    "follow_up_days": 261,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-02112",
+    "msln_protein_log2": 24.2676,
+    "vital_status": "Living",
+    "follow_up_days": 679,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-02115",
+    "msln_protein_log2": 23.7711,
+    "vital_status": "Deceased",
+    "follow_up_days": 723,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02116",
+    "msln_protein_log2": 23.8169,
+    "vital_status": "Living",
+    "follow_up_days": 716,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-02118",
+    "msln_protein_log2": 24.3148,
+    "vital_status": "Deceased",
+    "follow_up_days": 632,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02463",
+    "msln_protein_log2": 25.5046,
+    "vital_status": "Living",
+    "follow_up_days": 740,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-02604",
+    "msln_protein_log2": 24.6313,
+    "vital_status": "Deceased",
+    "follow_up_days": 118,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02606",
+    "msln_protein_log2": 24.0818,
+    "vital_status": "Deceased",
+    "follow_up_days": 403,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02610",
+    "msln_protein_log2": 24.9541,
+    "vital_status": "Deceased",
+    "follow_up_days": 190,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02613",
+    "msln_protein_log2": 22.9598,
+    "vital_status": "Deceased",
+    "follow_up_days": 211,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02701",
+    "msln_protein_log2": 24.2698,
+    "vital_status": "Deceased",
+    "follow_up_days": 243,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02809",
+    "msln_protein_log2": 25.5212,
+    "vital_status": "Deceased",
+    "follow_up_days": 68,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-02890",
+    "msln_protein_log2": 22.8753,
+    "vital_status": "Living",
+    "follow_up_days": 785,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-02897",
+    "msln_protein_log2": 25.8402,
+    "vital_status": "Living",
+    "follow_up_days": 256,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-02899",
+    "msln_protein_log2": 25.7591,
+    "vital_status": "Deceased",
+    "follow_up_days": 90,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-03123",
+    "msln_protein_log2": 23.6041,
+    "vital_status": "Living",
+    "follow_up_days": 817,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-03356",
+    "msln_protein_log2": 24.3707,
+    "vital_status": "Living",
+    "follow_up_days": 549,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-03388",
+    "msln_protein_log2": 24.3653,
+    "vital_status": "Deceased",
+    "follow_up_days": 11,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-03394",
+    "msln_protein_log2": 23.4599,
+    "vital_status": "Living",
+    "follow_up_days": 369,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-03628",
+    "msln_protein_log2": 24.4992,
+    "vital_status": "Living",
+    "follow_up_days": 466,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-03630",
+    "msln_protein_log2": 23.2214,
+    "vital_status": "Living",
+    "follow_up_days": 78,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-03632",
+    "msln_protein_log2": 24.9385,
+    "vital_status": "Living",
+    "follow_up_days": 330,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-03635",
+    "msln_protein_log2": 25.2505,
+    "vital_status": "Living",
+    "follow_up_days": 313,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-03639",
+    "msln_protein_log2": 25.0726,
+    "vital_status": "Deceased",
+    "follow_up_days": 246,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-04027",
+    "msln_protein_log2": 23.5913,
+    "vital_status": "Living",
+    "follow_up_days": 240,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-04072",
+    "msln_protein_log2": 22.6093,
+    "vital_status": "Deceased",
+    "follow_up_days": 225,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-04080",
+    "msln_protein_log2": 25.0271,
+    "vital_status": "Deceased",
+    "follow_up_days": 20,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-04473",
+    "msln_protein_log2": 23.4408,
+    "vital_status": "Deceased",
+    "follow_up_days": 290,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-04475",
+    "msln_protein_log2": 25.9523,
+    "vital_status": "Living",
+    "follow_up_days": 300,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-04479",
+    "msln_protein_log2": 24.7719,
+    "vital_status": "Living",
+    "follow_up_days": 356,
+    "event": 0
+  },
+  {
+    "patient_id": "C3L-04495",
+    "msln_protein_log2": 23.4697,
+    "vital_status": "Deceased",
+    "follow_up_days": 288,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-04848",
+    "msln_protein_log2": 25.178,
+    "vital_status": "Deceased",
+    "follow_up_days": 196,
+    "event": 1
+  },
+  {
+    "patient_id": "C3L-04853",
+    "msln_protein_log2": 24.577,
+    "vital_status": "Deceased",
+    "follow_up_days": 279,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00198",
+    "msln_protein_log2": 23.3119,
+    "vital_status": "Living",
+    "follow_up_days": 1364,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-00249",
+    "msln_protein_log2": 23.2111,
+    "vital_status": "Living",
+    "follow_up_days": 1098,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-00302",
+    "msln_protein_log2": 23.704,
+    "vital_status": "Deceased",
+    "follow_up_days": 323,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00303",
+    "msln_protein_log2": 23.9663,
+    "vital_status": "Deceased",
+    "follow_up_days": 599,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00436",
+    "msln_protein_log2": 24.0675,
+    "vital_status": "Living",
+    "follow_up_days": 652,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-00511",
+    "msln_protein_log2": 25.5636,
+    "vital_status": "Deceased",
+    "follow_up_days": 1001,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00512",
+    "msln_protein_log2": 24.4515,
+    "vital_status": "Deceased",
+    "follow_up_days": 1006,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00513",
+    "msln_protein_log2": 23.5481,
+    "vital_status": "Deceased",
+    "follow_up_days": 425,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00514",
+    "msln_protein_log2": 24.3011,
+    "vital_status": "Deceased",
+    "follow_up_days": 795,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00516",
+    "msln_protein_log2": 25.4549,
+    "vital_status": "Living",
+    "follow_up_days": 688,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-00517",
+    "msln_protein_log2": 23.4609,
+    "vital_status": "Deceased",
+    "follow_up_days": 901,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00518",
+    "msln_protein_log2": 25.0991,
+    "vital_status": "Deceased",
+    "follow_up_days": 469,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-00957",
+    "msln_protein_log2": 23.9198,
+    "vital_status": "Living",
+    "follow_up_days": 880,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01011",
+    "msln_protein_log2": 24.6003,
+    "vital_status": "Living",
+    "follow_up_days": 1068,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01012",
+    "msln_protein_log2": 23.7551,
+    "vital_status": "Living",
+    "follow_up_days": 616,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01165",
+    "msln_protein_log2": 25.1297,
+    "vital_status": "Deceased",
+    "follow_up_days": 240,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01166",
+    "msln_protein_log2": 24.7287,
+    "vital_status": "Living",
+    "follow_up_days": 678,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01167",
+    "msln_protein_log2": 23.9596,
+    "vital_status": "Living",
+    "follow_up_days": 640,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01168",
+    "msln_protein_log2": 23.2602,
+    "vital_status": "Deceased",
+    "follow_up_days": 460,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01375",
+    "msln_protein_log2": 26.1033,
+    "vital_status": "Deceased",
+    "follow_up_days": 142,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01380",
+    "msln_protein_log2": 23.9438,
+    "vital_status": "Deceased",
+    "follow_up_days": 400,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01381",
+    "msln_protein_log2": 24.0178,
+    "vital_status": "Deceased",
+    "follow_up_days": 454,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01382",
+    "msln_protein_log2": 23.5748,
+    "vital_status": "Deceased",
+    "follow_up_days": 734,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01383",
+    "msln_protein_log2": 25.1024,
+    "vital_status": "Living",
+    "follow_up_days": 667,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01388",
+    "msln_protein_log2": 24.2814,
+    "vital_status": "Deceased",
+    "follow_up_days": 810,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01502",
+    "msln_protein_log2": 24.4105,
+    "vital_status": "Living",
+    "follow_up_days": 1049,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01714",
+    "msln_protein_log2": 23.5542,
+    "vital_status": "Deceased",
+    "follow_up_days": 435,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01715",
+    "msln_protein_log2": 22.7093,
+    "vital_status": "Deceased",
+    "follow_up_days": 108,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01716",
+    "msln_protein_log2": 25.0594,
+    "vital_status": "Deceased",
+    "follow_up_days": 335,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-01719",
+    "msln_protein_log2": 22.8938,
+    "vital_status": "Living",
+    "follow_up_days": 454,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01997",
+    "msln_protein_log2": 23.1425,
+    "vital_status": "Living",
+    "follow_up_days": 857,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-01998",
+    "msln_protein_log2": 24.3145,
+    "vital_status": "Deceased",
+    "follow_up_days": 186,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-02010",
+    "msln_protein_log2": 23.427,
+    "vital_status": "Living",
+    "follow_up_days": 359,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-02295",
+    "msln_protein_log2": 24.3068,
+    "vital_status": "Deceased",
+    "follow_up_days": 371,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-02573",
+    "msln_protein_log2": 26.2819,
+    "vital_status": "Living",
+    "follow_up_days": 479,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-02579",
+    "msln_protein_log2": 24.9094,
+    "vital_status": "Deceased",
+    "follow_up_days": 358,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-02585",
+    "msln_protein_log2": 25.5469,
+    "vital_status": "Living",
+    "follow_up_days": 754,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-02589",
+    "msln_protein_log2": 24.5672,
+    "vital_status": "Deceased",
+    "follow_up_days": 458,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-02592",
+    "msln_protein_log2": 25.1043,
+    "vital_status": "Deceased",
+    "follow_up_days": 294,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-02768",
+    "msln_protein_log2": 24.191,
+    "vital_status": "Deceased",
+    "follow_up_days": 430,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-02940",
+    "msln_protein_log2": 23.834,
+    "vital_status": "Living",
+    "follow_up_days": 664,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-02944",
+    "msln_protein_log2": 24.0724,
+    "vital_status": "Living",
+    "follow_up_days": 609,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-02971",
+    "msln_protein_log2": 25.1834,
+    "vital_status": "Deceased",
+    "follow_up_days": 70,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-02998",
+    "msln_protein_log2": 23.9677,
+    "vital_status": "Deceased",
+    "follow_up_days": 122,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03000",
+    "msln_protein_log2": 24.6439,
+    "vital_status": "Deceased",
+    "follow_up_days": 122,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03006",
+    "msln_protein_log2": 23.9718,
+    "vital_status": "Living",
+    "follow_up_days": 708,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03007",
+    "msln_protein_log2": 26.4818,
+    "vital_status": "Deceased",
+    "follow_up_days": 58,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03061",
+    "msln_protein_log2": 24.255,
+    "vital_status": "Deceased",
+    "follow_up_days": 348,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03086",
+    "msln_protein_log2": 24.3802,
+    "vital_status": "Living",
+    "follow_up_days": 733,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03173",
+    "msln_protein_log2": 24.1683,
+    "vital_status": "Living",
+    "follow_up_days": 32,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03190",
+    "msln_protein_log2": 23.7182,
+    "vital_status": "Deceased",
+    "follow_up_days": 398,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03211",
+    "msln_protein_log2": 26.3622,
+    "vital_status": "Deceased",
+    "follow_up_days": 285,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03426",
+    "msln_protein_log2": 23.3662,
+    "vital_status": "Deceased",
+    "follow_up_days": 122,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03428",
+    "msln_protein_log2": 22.9773,
+    "vital_status": "Deceased",
+    "follow_up_days": 285,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03430",
+    "msln_protein_log2": 25.4413,
+    "vital_status": "Deceased",
+    "follow_up_days": 39,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03439",
+    "msln_protein_log2": 24.0273,
+    "vital_status": "Deceased",
+    "follow_up_days": 457,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03440",
+    "msln_protein_log2": 23.3486,
+    "vital_status": "Living",
+    "follow_up_days": 315,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03665",
+    "msln_protein_log2": 24.3117,
+    "vital_status": "Living",
+    "follow_up_days": 728,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03666",
+    "msln_protein_log2": 25.3537,
+    "vital_status": "Deceased",
+    "follow_up_days": 701,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03670",
+    "msln_protein_log2": 23.8588,
+    "vital_status": "Living",
+    "follow_up_days": 377,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03754",
+    "msln_protein_log2": 23.7125,
+    "vital_status": "Living",
+    "follow_up_days": 483,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03780",
+    "msln_protein_log2": 24.878,
+    "vital_status": "Deceased",
+    "follow_up_days": 20,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-03839",
+    "msln_protein_log2": 24.0099,
+    "vital_status": "Living",
+    "follow_up_days": 696,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03840",
+    "msln_protein_log2": 25.2636,
+    "vital_status": "Living",
+    "follow_up_days": 696,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03853",
+    "msln_protein_log2": 24.3267,
+    "vital_status": "Living",
+    "follow_up_days": 259,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-03884",
+    "msln_protein_log2": 25.367,
+    "vital_status": "Living",
+    "follow_up_days": 368,
+    "event": 0
+  },
+  {
+    "patient_id": "C3N-04119",
+    "msln_protein_log2": 25.0716,
+    "vital_status": "Deceased",
+    "follow_up_days": 305,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-04126",
+    "msln_protein_log2": 26.3426,
+    "vital_status": "Deceased",
+    "follow_up_days": 348,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-04282",
+    "msln_protein_log2": 25.5777,
+    "vital_status": "Deceased",
+    "follow_up_days": 303,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-04283",
+    "msln_protein_log2": 25.2617,
+    "vital_status": "Deceased",
+    "follow_up_days": 1,
+    "event": 1
+  },
+  {
+    "patient_id": "C3N-04284",
+    "msln_protein_log2": 23.2177,
+    "vital_status": "Deceased",
+    "follow_up_days": 8,
+    "event": 1
+  }
+]

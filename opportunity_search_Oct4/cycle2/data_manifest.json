@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-05T02:21:08Z",
+  "stage_directory": "opportunity_search_Oct4/cycle2",
+  "download_count": 2,
+  "files": [
+    {
+      "path": "data/JCI166740.sdval.xlsx",
+      "source_url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/166000/166740/JCI166740.sdval.xlsx",
+      "publisher_page": "https://www.jci.org/articles/view/166740/sd/7",
+      "bytes": 25450629,
+      "sha256": "01981332671a163c3d5b64e79241945588aa2fc3fca58297cfbda85d4cb281db",
+      "description": "Supporting Data Values workbook; 24 sheets; downloaded after publisher page listed 24.27 MB; bounded schema and selected-sheet inspection"
+    },
+    {
+      "path": "data/JCI166740.sdt5.xlsx",
+      "source_url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/166000/166740/JCI166740.sdt5.xlsx",
+      "publisher_page": "https://www.jci.org/articles/view/166740/sd/6",
+      "bytes": 15298,
+      "sha256": "c2f39b54f2c4dc46f55526f37615575966ec0b0040eba011cbd41772e7936264",
+      "description": "Supplemental Table 5 workbook; 74 antigen data records; all rows inspected"
+    }
+  ],
+  "total_download_bytes": 25465927,
+  "scope": "Only the two public JCI supplementary workbooks were retained; 25 MiB per-file and 75 MiB aggregate limits verified. Other inspected items are literature or official metadata; inaccessible supplements and the failed GEO request were not retained. Hash inventory excludes Python __pycache__ bytecode."
+}

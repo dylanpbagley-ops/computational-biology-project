@@ -1,0 +1,21 @@
+{
+  "shape": [
+    161764,
+    228
+  ],
+  "feature_order_verified": true,
+  "barcode_order_verified": true,
+  "sampled_raw_nonzero_coordinates_verified": 3358,
+  "raw_coordinates_seen": 33599680,
+  "label_independence": false,
+  "numpy": "2.3.5",
+  "working_copy_repairs": [
+    {
+      "row": 0,
+      "column": 0,
+      "old": 0,
+      "new": 66,
+      "reason": "legacy loader skiprows=3 skipped first entry"
+    }
+  ]
+}

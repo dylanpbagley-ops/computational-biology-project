@@ -1,0 +1,37 @@
+{
+  "checked_utc": "2026-10-04T07:14:49.223336+00:00",
+  "direct_old_files": {
+    "baseline_file": "preservation/before_hashes.json",
+    "baseline_capture_utc": "2026-10-04T07:07:06.845471+00:00",
+    "files_compared": 45,
+    "hash_or_size_differences": [],
+    "pass": true
+  },
+  "longitudinal_preservation_verifier": {
+    "script": "longitudinal_extension_Oct3/preservation/verify_preservation.py",
+    "exit_code": 0,
+    "files_checked_with_duplicates": 301,
+    "status_suffix_reconciliations": 2,
+    "preexisting_snapshot_mismatches": [
+      "PROJECT_STATUS_Oct2.md",
+      "strengthening_execution_Oct2/STATUS.md"
+    ],
+    "failures": [],
+    "preservation_pass": true
+  },
+  "old_delivery_manifests": [
+    {
+      "path": "strengthening_execution_Oct2/next_stage/delivery/output_hashes.json",
+      "listed_and_checked": 155,
+      "mismatches": 0,
+      "pass": true
+    },
+    {
+      "path": "longitudinal_extension_Oct3/delivery/output_hashes.json",
+      "listed_and_checked": 201,
+      "mismatches": 0,
+      "pass": true
+    }
+  ],
+  "scope_note": "All checks are read-only against pre-existing files. The two snapshot mismatches are documented historical differences; the preservation verifier confirms both authorized status suffix reconciliations."
+}

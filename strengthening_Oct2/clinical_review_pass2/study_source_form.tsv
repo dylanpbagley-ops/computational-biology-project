@@ -1,0 +1,13 @@
+study_id	gene	agent	primary_source	verified_trial_and_cohort	event_and_severity	protocol_DLT_status	normal_tissue_attribution	negative_observation_adequacy	antigen_mapping_issue	overlapping_publications	source_location	endpoint_judgment_and_reason	reviewer_name_date
+PMID:20179677	ERBB2	ERBB2 CAR-T	https://pubmed.ncbi.nlm.nih.gov/20179677/										
+PMID:29138340	EGFR	EGFR CAR-T	https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-17-0432/274703/p/Phase-I-Study-of-Chimeric-Antigen-Receptor										
+PMID:29859176	ROR1	Cirmtuzumab	https://pubmed.ncbi.nlm.nih.gov/29859176/										
+PMID:23423337	CA9	CAIX CAR-T	https://pubmed.ncbi.nlm.nih.gov/23423337/										
+PMID:17351401	CD44	Bivatuzumab mertansine; CD44v6 antigen	https://pubmed.ncbi.nlm.nih.gov/17351401/										
+PMID:25800760	ERBB2	HER2 CAR-T	https://scholars.houstonmethodist.org/en/publications/human-epidermal-growth-factor-receptor-2-her2-specific-chimeric-a/										
+PMID:34515215	CDH6	HKT288	https://pubmed.ncbi.nlm.nih.gov/34515215/										
+PMID:39466024	ROR1	ROR1 CAR-T	https://aacrjournals.org/clincancerres/article/31/3/503/751210/Phase-I-Study-of-ROR1-Specific-CAR-T-Cells-in										
+PMID:17062682	CD44	Bivatuzumab mertansine; CD44v6 antigen	https://aacrjournals.org/clincancerres/article/12/20/6064/191658/A-Phase-I-Dose-Escalation-Study-with-Anti-CD44v6										
+PMID:37872225	CLDN6	BNT211 clinical study; CAR-T with or without CARVac	https://pmc.ncbi.nlm.nih.gov/articles/PMC10667102/										
+PMID:34083232	PTK7	Cofetuzumab pelidotin	https://pmc.ncbi.nlm.nih.gov/articles/PMC9401513/										
+PMID:20473913	EPCAM	Catumaxomab	https://pubmed.ncbi.nlm.nih.gov/20473913/										

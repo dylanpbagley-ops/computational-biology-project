@@ -1,0 +1,31 @@
+gene	agent_or_agents	primary_sources	agent_cohort_event_id	human_eligibility	antigen_isoform	endpoint_name	event_count	endpoint_evaluable_n	denominator_definition	grade	injury_related_cessation	death	protocol_DLT	target_attribution	attribution_evidence_location	normal_cell_depletion	clinical_consequences	supportive_care	recovery	exposure_activity_evidence	ascertainment	observation_window	censoring_missingness	combination_confounders	overlapping_cohorts	observational_state	adequacy_limitations	reviewer_name_date
+CA9	CAIX CAR-T	https://pubmed.ncbi.nlm.nih.gov/23423337/																										
+CD19	tisagenlecleucel	https://pubmed.ncbi.nlm.nih.gov/29385370/; https://pmc.ncbi.nlm.nih.gov/articles/PMC8344270/																										
+CD22	inotuzumab ozogamicin	https://pubmed.ncbi.nlm.nih.gov/27292104/																										
+CD33	gemtuzumab ozogamicin plus chemotherapy	https://pubmed.ncbi.nlm.nih.gov/22482940/; https://haematologica.org/article/view/8727																										
+CD38	daratumumab monotherapy	https://www.nejm.org/doi/full/10.1056/NEJMoa1506348																										
+CD44	Bivatuzumab mertansine; CD44v6 antigen	https://aacrjournals.org/clincancerres/article/12/20/6064/191658/A-Phase-I-Dose-Escalation-Study-with-Anti-CD44v6; https://pubmed.ncbi.nlm.nih.gov/17351401/																										
+CD47	Hu5F9-G4 (magrolimab)	https://pmc.ncbi.nlm.nih.gov/articles/PMC7186585/																										
+CD52	alemtuzumab	https://pubmed.ncbi.nlm.nih.gov/17984186/																										
+CD79B	polatuzumab vedotin plus bendamustine/rituximab	https://pubmed.ncbi.nlm.nih.gov/31693429/																										
+CEACAM5	CEA-directed TCR-T	https://pmc.ncbi.nlm.nih.gov/articles/PMC3048186/																										
+CLDN18	zolbetuximab plus mFOLFOX6	https://pubmed.ncbi.nlm.nih.gov/37068504/																										
+DLL3	tarlatamab	https://pubmed.ncbi.nlm.nih.gov/37861218/																										
+EGFR	EGFR CAR-T	https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-17-0432/274703/p/Phase-I-Study-of-Chimeric-Antigen-Receptor																										
+EPCAM	Catumaxomab	https://pubmed.ncbi.nlm.nih.gov/20473913/																										
+ERBB2	ERBB2 CAR-T; HER2 CAR-T	https://pubmed.ncbi.nlm.nih.gov/20179677/; https://scholars.houstonmethodist.org/en/publications/human-epidermal-growth-factor-receptor-2-her2-specific-chimeric-a/																										
+F3	tisotumab vedotin	https://www.sciencedirect.com/science/article/pii/S0090825822001202																										
+FAP	FAP-reactive T cells	https://pubmed.ncbi.nlm.nih.gov/23712432/																										
+FOLH1	lutetium-177-PSMA-617	https://pmc.ncbi.nlm.nih.gov/articles/PMC8446332/																										
+FOLR1	mirvetuximab soravtansine	https://pubmed.ncbi.nlm.nih.gov/30413525/																										
+GPC3	GPC3 CAR-T	https://pubmed.ncbi.nlm.nih.gov/32371538/																										
+GPRC5D	talquetamab	https://pubmed.ncbi.nlm.nih.gov/36507686/																										
+MET	telisotuzumab vedotin	https://pubmed.ncbi.nlm.nih.gov/42368479/																										
+MS4A1	rituximab	https://pubmed.ncbi.nlm.nih.gov/9704735/																										
+MSLN	regional mesothelin CAR-T; some subsequent pembrolizumab	https://pmc.ncbi.nlm.nih.gov/articles/PMC8563385/																										
+NCAM1	lorvotuzumab mertansine	https://pubmed.ncbi.nlm.nih.gov/26961907/																										
+NECTIN4	enfortumab vedotin	https://pmc.ncbi.nlm.nih.gov/articles/PMC7106979/																										
+SLAMF7	elotuzumab with lenalidomide/dexamethasone	https://mdanderson.elsevierpure.com/en/publications/elotuzumab-therapy-for-relapsed-or-refractory-multiple-myeloma/																										
+TACSTD2	sacituzumab govitecan	https://pubmed.ncbi.nlm.nih.gov/33882206/																										
+TNFRSF17	idecabtagene vicleucel	https://pubmed.ncbi.nlm.nih.gov/33626253/; https://pmc.ncbi.nlm.nih.gov/articles/PMC9153033/																										
+TNFRSF8	brentuximab vedotin	https://pmc.ncbi.nlm.nih.gov/articles/PMC3646316/																										

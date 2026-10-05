@@ -1,0 +1,2027 @@
+{
+ "per_marker": {
+  "CD19": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.8948333333333334,
+     "O": 0.011833333333333333,
+     "NB": 0.009833333333333333
+    },
+    "ceiling_all": 0.009833333333333333,
+    "ceiling_nonexpendable": 0.011833333333333333,
+    "cost_of_sparing_normal_B": 0.002,
+    "null_p95_all": 0.01,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.9361666666666667,
+     "O": 0.06783333333333333,
+     "NB": 0.07441666666666667
+    },
+    "ceiling_all": 0.06783333333333333,
+    "ceiling_nonexpendable": 0.06783333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050083333333333334,
+    "above_null_all": true
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.9433333333333334,
+     "O": 0.15416666666666667,
+     "NB": 0.14083333333333334
+    },
+    "ceiling_all": 0.14083333333333334,
+    "ceiling_nonexpendable": 0.15416666666666667,
+    "cost_of_sparing_normal_B": 0.013333333333333336,
+    "null_p95_all": 0.10004583333333333,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.9593333333333334,
+     "O": 0.35038601849495205,
+     "NB": 0.2776666666666667
+    },
+    "ceiling_all": 0.2776666666666667,
+    "ceiling_nonexpendable": 0.35038601849495205,
+    "cost_of_sparing_normal_B": 0.07271935182828537,
+    "null_p95_all": 0.20044880482735217,
+    "above_null_all": true
+   }
+  },
+  "CD20": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.8595833333333334,
+     "O": 0.01325,
+     "NB": 0.006583333333333333
+    },
+    "ceiling_all": 0.006583333333333333,
+    "ceiling_nonexpendable": 0.01325,
+    "cost_of_sparing_normal_B": 0.006666666666666666,
+    "null_p95_all": 0.010096629761601764,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.8895,
+     "O": 0.07566666666666666,
+     "NB": 0.043666666666666666
+    },
+    "ceiling_all": 0.043666666666666666,
+    "ceiling_nonexpendable": 0.07566666666666666,
+    "cost_of_sparing_normal_B": 0.031999999999999994,
+    "null_p95_all": 0.05037916666666667,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.92525,
+     "O": 0.1555,
+     "NB": 0.12241666666666666
+    },
+    "ceiling_all": 0.12241666666666666,
+    "ceiling_nonexpendable": 0.1555,
+    "cost_of_sparing_normal_B": 0.03308333333333334,
+    "null_p95_all": 0.10009166666666668,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.94475,
+     "O": 0.31916666666666665,
+     "NB": 0.29433333333333334
+    },
+    "ceiling_all": 0.29433333333333334,
+    "ceiling_nonexpendable": 0.31916666666666665,
+    "cost_of_sparing_normal_B": 0.02483333333333332,
+    "null_p95_all": 0.20021250000000002,
+    "above_null_all": true
+   }
+  },
+  "CD22": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.50275,
+     "O": 0.01525,
+     "NB": 0.008333333333333333
+    },
+    "ceiling_all": 0.008333333333333333,
+    "ceiling_nonexpendable": 0.01525,
+    "cost_of_sparing_normal_B": 0.0069166666666666664,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.6774166666666667,
+     "O": 0.06991666666666667,
+     "NB": 0.031
+    },
+    "ceiling_all": 0.031,
+    "ceiling_nonexpendable": 0.06991666666666667,
+    "cost_of_sparing_normal_B": 0.03891666666666667,
+    "null_p95_all": 0.05036578539926809,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.7991666666666667,
+     "O": 0.1415,
+     "NB": 0.0555
+    },
+    "ceiling_all": 0.0555,
+    "ceiling_nonexpendable": 0.1415,
+    "cost_of_sparing_normal_B": 0.086,
+    "null_p95_all": 0.10021250000000001,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.86825,
+     "O": 0.292,
+     "NB": 0.1245
+    },
+    "ceiling_all": 0.1245,
+    "ceiling_nonexpendable": 0.292,
+    "cost_of_sparing_normal_B": 0.16749999999999998,
+    "null_p95_all": 0.20021250000000002,
+    "above_null_all": false
+   }
+  },
+  "CD79B": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.22858333333333333,
+     "O": 0.010583333333333333,
+     "NB": 0.02266067591326431
+    },
+    "ceiling_all": 0.010583333333333333,
+    "ceiling_nonexpendable": 0.010583333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": true
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.4633333333333333,
+     "O": 0.058833333333333335,
+     "NB": 0.08175
+    },
+    "ceiling_all": 0.058833333333333335,
+    "ceiling_nonexpendable": 0.058833333333333335,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05012916666666667,
+    "above_null_all": true
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.5565,
+     "O": 0.11975,
+     "NB": 0.13575
+    },
+    "ceiling_all": 0.11975,
+    "ceiling_nonexpendable": 0.11975,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.09992983689658097,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.7006666666666667,
+     "O": 0.24891666666666667,
+     "NB": 0.21458333333333332
+    },
+    "ceiling_all": 0.21458333333333332,
+    "ceiling_nonexpendable": 0.24891666666666667,
+    "cost_of_sparing_normal_B": 0.034333333333333355,
+    "null_p95_all": 0.20012916666666666,
+    "above_null_all": true
+   }
+  },
+  "CD38": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.013,
+     "O": 0.004166666666666667,
+     "NB": 0.007166666666666667
+    },
+    "ceiling_all": 0.004166666666666667,
+    "ceiling_nonexpendable": 0.004166666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010090227581233563,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.043583333333333335,
+     "O": 0.02109787067786677,
+     "NB": 0.08133333333333333
+    },
+    "ceiling_all": 0.02109787067786677,
+    "ceiling_nonexpendable": 0.02109787067786677,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05029583333333334,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.08166666666666667,
+     "O": 0.04825,
+     "NB": 0.23075
+    },
+    "ceiling_all": 0.04825,
+    "ceiling_nonexpendable": 0.04825,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10025,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.17525,
+     "O": 0.1125,
+     "NB": 0.4295833333333333
+    },
+    "ceiling_all": 0.1125,
+    "ceiling_nonexpendable": 0.1125,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20042500000000002,
+    "above_null_all": false
+   }
+  },
+  "CD40": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.43566666666666665,
+     "O": 0.0069166666666666664,
+     "NB": 0.0375
+    },
+    "ceiling_all": 0.0069166666666666664,
+    "ceiling_nonexpendable": 0.0069166666666666664,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010129166666666667,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.7126666666666667,
+     "O": 0.0505,
+     "NB": 0.12575
+    },
+    "ceiling_all": 0.0505,
+    "ceiling_nonexpendable": 0.0505,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05022083333333333,
+    "above_null_all": true
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.8146666666666667,
+     "O": 0.10675,
+     "NB": 0.186
+    },
+    "ceiling_all": 0.10675,
+    "ceiling_nonexpendable": 0.10675,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10025833333333334,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.8940833333333333,
+     "O": 0.27125,
+     "NB": 0.294
+    },
+    "ceiling_all": 0.27125,
+    "ceiling_nonexpendable": 0.27125,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20054583333333334,
+    "above_null_all": true
+   }
+  },
+  "CD24": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.104,
+     "O": 0.011666666666666667,
+     "NB": 0.03133333333333333
+    },
+    "ceiling_all": 0.011666666666666667,
+    "ceiling_nonexpendable": 0.011666666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.01,
+    "above_null_all": true
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.19308333333333333,
+     "O": 0.059666666666666666,
+     "NB": 0.10958333333333334
+    },
+    "ceiling_all": 0.059666666666666666,
+    "ceiling_nonexpendable": 0.059666666666666666,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050508333333333336,
+    "above_null_all": true
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.26258333333333334,
+     "O": 0.1195,
+     "NB": 0.17747606954483297
+    },
+    "ceiling_all": 0.1195,
+    "ceiling_nonexpendable": 0.1195,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10025833333333334,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.34567298300449306,
+     "O": 0.21341666666666667,
+     "NB": 0.28875
+    },
+    "ceiling_all": 0.21341666666666667,
+    "ceiling_nonexpendable": 0.21341666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.19996250000000002,
+    "above_null_all": true
+   }
+  },
+  "CD21": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.403,
+     "O": 0.01025,
+     "NB": 0.00175
+    },
+    "ceiling_all": 0.00175,
+    "ceiling_nonexpendable": 0.01025,
+    "cost_of_sparing_normal_B": 0.0085,
+    "null_p95_all": 0.01,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.5750833333333333,
+     "O": 0.05625,
+     "NB": 0.01025
+    },
+    "ceiling_all": 0.01025,
+    "ceiling_nonexpendable": 0.05625,
+    "cost_of_sparing_normal_B": 0.046,
+    "null_p95_all": 0.050083333333333334,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.693,
+     "O": 0.12308333333333334,
+     "NB": 0.019666666666666666
+    },
+    "ceiling_all": 0.019666666666666666,
+    "ceiling_nonexpendable": 0.12308333333333334,
+    "cost_of_sparing_normal_B": 0.10341666666666667,
+    "null_p95_all": 0.10041666666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.8054166666666667,
+     "O": 0.28025,
+     "NB": 0.03883333333333333
+    },
+    "ceiling_all": 0.03883333333333333,
+    "ceiling_nonexpendable": 0.28025,
+    "cost_of_sparing_normal_B": 0.24141666666666667,
+    "null_p95_all": 0.20034166666666667,
+    "above_null_all": false
+   }
+  },
+  "CD72": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.41675,
+     "O": 0.011333333333333334,
+     "NB": 0.006166666666666667
+    },
+    "ceiling_all": 0.006166666666666667,
+    "ceiling_nonexpendable": 0.011333333333333334,
+    "cost_of_sparing_normal_B": 0.0051666666666666675,
+    "null_p95_all": 0.010045833333333334,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.6728333333333333,
+     "O": 0.06633333333333333,
+     "NB": 0.03266666666666666
+    },
+    "ceiling_all": 0.03266666666666666,
+    "ceiling_nonexpendable": 0.06633333333333333,
+    "cost_of_sparing_normal_B": 0.033666666666666664,
+    "null_p95_all": 0.0502125,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.8315833333333333,
+     "O": 0.12191666666666667,
+     "NB": 0.06116666666666667
+    },
+    "ceiling_all": 0.06116666666666667,
+    "ceiling_nonexpendable": 0.12191666666666667,
+    "cost_of_sparing_normal_B": 0.060750000000000005,
+    "null_p95_all": 0.10037916666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.89025,
+     "O": 0.25316666666666665,
+     "NB": 0.13065241367608382
+    },
+    "ceiling_all": 0.13065241367608382,
+    "ceiling_nonexpendable": 0.25316666666666665,
+    "cost_of_sparing_normal_B": 0.12251425299058283,
+    "null_p95_all": 0.20025833333333334,
+    "above_null_all": false
+   }
+  },
+  "CD48": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.004333333333333333,
+     "O": 0.00225,
+     "NB": 0.022916666666666665
+    },
+    "ceiling_all": 0.00225,
+    "ceiling_nonexpendable": 0.00225,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.01982809142410627,
+     "O": 0.012583333333333334,
+     "NB": 0.10266666666666667
+    },
+    "ceiling_all": 0.012583333333333334,
+    "ceiling_nonexpendable": 0.012583333333333334,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050083333333333334,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.036583333333333336,
+     "O": 0.03025,
+     "NB": 0.17425
+    },
+    "ceiling_all": 0.03025,
+    "ceiling_nonexpendable": 0.03025,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.09984166666666668,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.0685,
+     "O": 0.07216666666666667,
+     "NB": 0.31983333333333336
+    },
+    "ceiling_all": 0.0685,
+    "ceiling_nonexpendable": 0.0685,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20063750000000002,
+    "above_null_all": false
+   }
+  },
+  "CD84": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.006153545614377808,
+     "O": 0.002,
+     "NB": 0.035916666666666666
+    },
+    "ceiling_all": 0.002,
+    "ceiling_nonexpendable": 0.002,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.04375,
+     "O": 0.015,
+     "NB": 0.11291666666666667
+    },
+    "ceiling_all": 0.015,
+    "ceiling_nonexpendable": 0.015,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05012916666666667,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.06716666666666667,
+     "O": 0.038,
+     "NB": 0.16791666666666666
+    },
+    "ceiling_all": 0.038,
+    "ceiling_nonexpendable": 0.038,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.09991666666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.14975,
+     "O": 0.09833333333333333,
+     "NB": 0.2846666666666667
+    },
+    "ceiling_all": 0.09833333333333333,
+    "ceiling_nonexpendable": 0.09833333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20017500000000002,
+    "above_null_all": false
+   }
+  },
+  "CD43": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.0006666666666666666,
+     "O": 0.0005,
+     "NB": 0.020083333333333335
+    },
+    "ceiling_all": 0.0005,
+    "ceiling_nonexpendable": 0.0005,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.0023333333333333335,
+     "O": 0.00425,
+     "NB": 0.12678257472162532
+    },
+    "ceiling_all": 0.0023333333333333335,
+    "ceiling_nonexpendable": 0.0023333333333333335,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050008333333333335,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.006166666666666667,
+     "O": 0.015583333333333333,
+     "NB": 0.21291666666666667
+    },
+    "ceiling_all": 0.006166666666666667,
+    "ceiling_nonexpendable": 0.006166666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10018333333333333,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.02575,
+     "O": 0.037333333333333336,
+     "NB": 0.3511666666666667
+    },
+    "ceiling_all": 0.02575,
+    "ceiling_nonexpendable": 0.02575,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20038740264614807,
+    "above_null_all": false
+   }
+  },
+  "CD44": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.024333333333333332,
+     "O": 0.003416666666666667,
+     "NB": 0.02725
+    },
+    "ceiling_all": 0.003416666666666667,
+    "ceiling_nonexpendable": 0.003416666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.07,
+     "O": 0.02,
+     "NB": 0.11086149638601289
+    },
+    "ceiling_all": 0.02,
+    "ceiling_nonexpendable": 0.02,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.10541666666666667,
+     "O": 0.0395,
+     "NB": 0.1808947059972651
+    },
+    "ceiling_all": 0.0395,
+    "ceiling_nonexpendable": 0.0395,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10037916666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.21525,
+     "O": 0.11133333333333334,
+     "NB": 0.3005
+    },
+    "ceiling_all": 0.11133333333333334,
+    "ceiling_nonexpendable": 0.11133333333333334,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20075,
+    "above_null_all": false
+   }
+  },
+  "CD27": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.00125,
+     "O": 0.0009166666666666666,
+     "NB": 0.027416666666666666
+    },
+    "ceiling_all": 0.0009166666666666666,
+    "ceiling_nonexpendable": 0.0009166666666666666,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.005166666666666667,
+     "O": 0.006348896268802501,
+     "NB": 0.09566666666666666
+    },
+    "ceiling_all": 0.005166666666666667,
+    "ceiling_nonexpendable": 0.005166666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.0115,
+     "O": 0.016166666666666666,
+     "NB": 0.21483333333333332
+    },
+    "ceiling_all": 0.0115,
+    "ceiling_nonexpendable": 0.0115,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10035833333333333,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.027416666666666666,
+     "O": 0.04307028244346439,
+     "NB": 0.4964791719691185
+    },
+    "ceiling_all": 0.027416666666666666,
+    "ceiling_nonexpendable": 0.027416666666666666,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20046250000000002,
+    "above_null_all": false
+   }
+  },
+  "CD25": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.0018333333333333333,
+     "O": 0.0013333333333333333,
+     "NB": 0.03716666666666667
+    },
+    "ceiling_all": 0.0013333333333333333,
+    "ceiling_nonexpendable": 0.0013333333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.011283617544752694,
+     "O": 0.014416666666666666,
+     "NB": 0.1225
+    },
+    "ceiling_all": 0.011283617544752694,
+    "ceiling_nonexpendable": 0.011283617544752694,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050083333333333334,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.03783333333333333,
+     "O": 0.03933333333333333,
+     "NB": 0.23541666666666666
+    },
+    "ceiling_all": 0.03783333333333333,
+    "ceiling_nonexpendable": 0.03783333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10012916666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.11025,
+     "O": 0.09791666666666667,
+     "NB": 0.338
+    },
+    "ceiling_all": 0.09791666666666667,
+    "ceiling_nonexpendable": 0.09791666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20034166666666667,
+    "above_null_all": false
+   }
+  },
+  "CD23": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.1805,
+     "O": 0.010333333333333333,
+     "NB": 0.0003333333333333333
+    },
+    "ceiling_all": 0.0003333333333333333,
+    "ceiling_nonexpendable": 0.010333333333333333,
+    "cost_of_sparing_normal_B": 0.01,
+    "null_p95_all": 0.0102125,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.4126666666666667,
+     "O": 0.05675,
+     "NB": 0.0015
+    },
+    "ceiling_all": 0.0015,
+    "ceiling_nonexpendable": 0.05675,
+    "cost_of_sparing_normal_B": 0.05525,
+    "null_p95_all": 0.050008333333333335,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.5423333333333333,
+     "O": 0.12175,
+     "NB": 0.0045
+    },
+    "ceiling_all": 0.0045,
+    "ceiling_nonexpendable": 0.12175,
+    "cost_of_sparing_normal_B": 0.11725,
+    "null_p95_all": 0.10046250000000001,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.6885,
+     "O": 0.2506999236446933,
+     "NB": 0.012
+    },
+    "ceiling_all": 0.012,
+    "ceiling_nonexpendable": 0.2506999236446933,
+    "cost_of_sparing_normal_B": 0.23869992364469328,
+    "null_p95_all": 0.20059166666666667,
+    "above_null_all": false
+   }
+  },
+  "CD80": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.08923712114103406,
+     "O": 0.006,
+     "NB": 0.0595
+    },
+    "ceiling_all": 0.006,
+    "ceiling_nonexpendable": 0.006,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.29375,
+     "O": 0.03925,
+     "NB": 0.14908333333333335
+    },
+    "ceiling_all": 0.03925,
+    "ceiling_nonexpendable": 0.03925,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05012916666666667,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.4424166666666667,
+     "O": 0.09483333333333334,
+     "NB": 0.22633333333333333
+    },
+    "ceiling_all": 0.09483333333333334,
+    "ceiling_nonexpendable": 0.09483333333333334,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10037916666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.6246666666666667,
+     "O": 0.20841666666666667,
+     "NB": 0.355
+    },
+    "ceiling_all": 0.20841666666666667,
+    "ceiling_nonexpendable": 0.20841666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20025833333333334,
+    "above_null_all": true
+   }
+  },
+  "CD86": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.035083333333333334,
+     "O": 0.004833333333333334,
+     "NB": 0.04633333333333333
+    },
+    "ceiling_all": 0.004833333333333334,
+    "ceiling_nonexpendable": 0.004833333333333334,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010162871980204467,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.19311250821056583,
+     "O": 0.036,
+     "NB": 0.17233333333333334
+    },
+    "ceiling_all": 0.036,
+    "ceiling_nonexpendable": 0.036,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.2823333333333333,
+     "O": 0.0755,
+     "NB": 0.254
+    },
+    "ceiling_all": 0.0755,
+    "ceiling_nonexpendable": 0.0755,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10016666666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.4563333333333333,
+     "O": 0.174,
+     "NB": 0.4116666666666667
+    },
+    "ceiling_all": 0.174,
+    "ceiling_nonexpendable": 0.174,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20028333333333334,
+    "above_null_all": false
+   }
+  },
+  "CD83": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.11483333333333333,
+     "O": 0.011916666666666667,
+     "NB": 0.013583333333333333
+    },
+    "ceiling_all": 0.011916666666666667,
+    "ceiling_nonexpendable": 0.011916666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": true
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.31925,
+     "O": 0.06941666666666667,
+     "NB": 0.07483333333333334
+    },
+    "ceiling_all": 0.06941666666666667,
+    "ceiling_nonexpendable": 0.06941666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.0502125,
+    "above_null_all": true
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.44583333333333336,
+     "O": 0.13875,
+     "NB": 0.15158333333333332
+    },
+    "ceiling_all": 0.13875,
+    "ceiling_nonexpendable": 0.13875,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10016666666666667,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.5708333333333333,
+     "O": 0.2674166666666667,
+     "NB": 0.2675
+    },
+    "ceiling_all": 0.2674166666666667,
+    "ceiling_nonexpendable": 0.2674166666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20042500000000002,
+    "above_null_all": true
+   }
+  },
+  "CXCR4": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.05466666666666667,
+     "O": 0.008986130103535847,
+     "NB": 0.029583333333333333
+    },
+    "ceiling_all": 0.008986130103535847,
+    "ceiling_nonexpendable": 0.008986130103535847,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.13566666666666666,
+     "O": 0.04883333333333333,
+     "NB": 0.08458333333333333
+    },
+    "ceiling_all": 0.04883333333333333,
+    "ceiling_nonexpendable": 0.04883333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050091666666666666,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.21825,
+     "O": 0.10001953506544246,
+     "NB": 0.15266666666666667
+    },
+    "ceiling_all": 0.10001953506544246,
+    "ceiling_nonexpendable": 0.10001953506544246,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10012916666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.33466666666666667,
+     "O": 0.19983333333333334,
+     "NB": 0.2628333333333333
+    },
+    "ceiling_all": 0.19983333333333334,
+    "ceiling_nonexpendable": 0.19983333333333334,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20025,
+    "above_null_all": false
+   }
+  },
+  "CXCR5": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.29975,
+     "O": 0.007583333333333333,
+     "NB": 0.01725
+    },
+    "ceiling_all": 0.007583333333333333,
+    "ceiling_nonexpendable": 0.007583333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.0102125,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.5521666666666667,
+     "O": 0.05425,
+     "NB": 0.07075161865440556
+    },
+    "ceiling_all": 0.05425,
+    "ceiling_nonexpendable": 0.05425,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.0504625,
+    "above_null_all": true
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.7411666666666666,
+     "O": 0.11858333333333333,
+     "NB": 0.11551093178192737
+    },
+    "ceiling_all": 0.11551093178192737,
+    "ceiling_nonexpendable": 0.11858333333333333,
+    "cost_of_sparing_normal_B": 0.003072401551405965,
+    "null_p95_all": 0.10058333333333333,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.8896666666666667,
+     "O": 0.30825,
+     "NB": 0.2090644646711082
+    },
+    "ceiling_all": 0.2090644646711082,
+    "ceiling_nonexpendable": 0.30825,
+    "cost_of_sparing_normal_B": 0.09918553532889182,
+    "null_p95_all": 0.20064583333333333,
+    "above_null_all": true
+   }
+  },
+  "PD-L1": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.06758333333333333,
+     "O": 0.005583333333333333,
+     "NB": 0.0165
+    },
+    "ceiling_all": 0.005583333333333333,
+    "ceiling_nonexpendable": 0.005583333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.19483333333333333,
+     "O": 0.03983333333333333,
+     "NB": 0.08016666666666666
+    },
+    "ceiling_all": 0.03983333333333333,
+    "ceiling_nonexpendable": 0.03983333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.0502125,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.31233333333333335,
+     "O": 0.09125,
+     "NB": 0.16508333333333333
+    },
+    "ceiling_all": 0.09125,
+    "ceiling_nonexpendable": 0.09125,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10025833333333334,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.4648341393060151,
+     "O": 0.20066666666666666,
+     "NB": 0.3209166666666667
+    },
+    "ceiling_all": 0.20066666666666666,
+    "ceiling_nonexpendable": 0.20066666666666666,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20003096556254105,
+    "above_null_all": true
+   }
+  },
+  "FasR": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.006083333333333333,
+     "O": 0.00225,
+     "NB": 0.03075
+    },
+    "ceiling_all": 0.00225,
+    "ceiling_nonexpendable": 0.00225,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010045833333333334,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.020121117405743308,
+     "O": 0.01175,
+     "NB": 0.24933333333333332
+    },
+    "ceiling_all": 0.01175,
+    "ceiling_nonexpendable": 0.01175,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050425000000000005,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.041,
+     "O": 0.0275,
+     "NB": 0.4498333333333333
+    },
+    "ceiling_all": 0.0275,
+    "ceiling_nonexpendable": 0.0275,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10008333333333333,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.072,
+     "O": 0.0655,
+     "NB": 0.5935833333333334
+    },
+    "ceiling_all": 0.0655,
+    "ceiling_nonexpendable": 0.0655,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.19996250000000002,
+    "above_null_all": false
+   }
+  },
+  "TRAIL-R1": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.0006666666666666666,
+     "O": 0.0011666666666666668,
+     "NB": 0.014333333333333333
+    },
+    "ceiling_all": 0.0006666666666666666,
+    "ceiling_nonexpendable": 0.0006666666666666666,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.006083333333333333,
+     "O": 0.00725,
+     "NB": 0.0687634303574917
+    },
+    "ceiling_all": 0.006083333333333333,
+    "ceiling_nonexpendable": 0.006083333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05004583333333334,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.014416666666666666,
+     "O": 0.021666666666666667,
+     "NB": 0.12975
+    },
+    "ceiling_all": 0.014416666666666666,
+    "ceiling_nonexpendable": 0.014416666666666666,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10009166666666668,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.034333333333333334,
+     "O": 0.06383333333333334,
+     "NB": 0.2343999249319696
+    },
+    "ceiling_all": 0.034333333333333334,
+    "ceiling_nonexpendable": 0.034333333333333334,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.19979583333333334,
+    "above_null_all": false
+   }
+  },
+  "IL-4R": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.05,
+     "O": 0.009916666666666667,
+     "NB": 0.005416666666666667
+    },
+    "ceiling_all": 0.005416666666666667,
+    "ceiling_nonexpendable": 0.009916666666666667,
+    "cost_of_sparing_normal_B": 0.0045000000000000005,
+    "null_p95_all": 0.010129166666666667,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.15758333333333333,
+     "O": 0.050916666666666666,
+     "NB": 0.02033333333333333
+    },
+    "ceiling_all": 0.02033333333333333,
+    "ceiling_nonexpendable": 0.050916666666666666,
+    "cost_of_sparing_normal_B": 0.030583333333333334,
+    "null_p95_all": 0.050091666666666666,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.25466666666666665,
+     "O": 0.10158333333333333,
+     "NB": 0.03933333333333333
+    },
+    "ceiling_all": 0.03933333333333333,
+    "ceiling_nonexpendable": 0.10158333333333333,
+    "cost_of_sparing_normal_B": 0.06225,
+    "null_p95_all": 0.10001548278127052,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.4025,
+     "O": 0.21391666666666667,
+     "NB": 0.09275
+    },
+    "ceiling_all": 0.09275,
+    "ceiling_nonexpendable": 0.21391666666666667,
+    "cost_of_sparing_normal_B": 0.12116666666666667,
+    "null_p95_all": 0.20034166666666667,
+    "above_null_all": false
+   }
+  },
+  "CD49D": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.015166666666666667,
+     "O": 0.0035,
+     "NB": 0.024083333333333335
+    },
+    "ceiling_all": 0.0035,
+    "ceiling_nonexpendable": 0.0035,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010027155081422852,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.07033333333333333,
+     "O": 0.021333333333333333,
+     "NB": 0.08825
+    },
+    "ceiling_all": 0.021333333333333333,
+    "ceiling_nonexpendable": 0.021333333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050166666666666665,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.12908333333333333,
+     "O": 0.05458333333333333,
+     "NB": 0.15540144559484273
+    },
+    "ceiling_all": 0.05458333333333333,
+    "ceiling_nonexpendable": 0.05458333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10021250000000001,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.2980074233248681,
+     "O": 0.13075,
+     "NB": 0.26626294198085565
+    },
+    "ceiling_all": 0.13075,
+    "ceiling_nonexpendable": 0.13075,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20035833333333333,
+    "above_null_all": false
+   }
+  },
+  "CD10": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.03983333333333333,
+     "O": 0.00825,
+     "NB": 0.007833333333333333
+    },
+    "ceiling_all": 0.007833333333333333,
+    "ceiling_nonexpendable": 0.00825,
+    "cost_of_sparing_normal_B": 0.0004166666666666676,
+    "null_p95_all": 0.010129166666666667,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.12175,
+     "O": 0.045,
+     "NB": 0.02808333333333333
+    },
+    "ceiling_all": 0.02808333333333333,
+    "ceiling_nonexpendable": 0.045,
+    "cost_of_sparing_normal_B": 0.016916666666666667,
+    "null_p95_all": 0.050258333333333335,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.21683333333333332,
+     "O": 0.09125,
+     "NB": 0.06958333333333333
+    },
+    "ceiling_all": 0.06958333333333333,
+    "ceiling_nonexpendable": 0.09125,
+    "cost_of_sparing_normal_B": 0.021666666666666667,
+    "null_p95_all": 0.10037916666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.3451666666666667,
+     "O": 0.19558333333333333,
+     "NB": 0.20408333333333334
+    },
+    "ceiling_all": 0.19558333333333333,
+    "ceiling_nonexpendable": 0.19558333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20046250000000002,
+    "above_null_all": false
+   }
+  },
+  "HLA-DR": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.276,
+     "O": 0.0055,
+     "NB": 0.010416666666666666
+    },
+    "ceiling_all": 0.0055,
+    "ceiling_nonexpendable": 0.0055,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010045833333333334,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.6643333333333333,
+     "O": 0.04083333333333333,
+     "NB": 0.06408333333333334
+    },
+    "ceiling_all": 0.04083333333333333,
+    "ceiling_nonexpendable": 0.04083333333333333,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050333333333333334,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.7963333333333333,
+     "O": 0.10066666666666667,
+     "NB": 0.14258333333333334
+    },
+    "ceiling_all": 0.10066666666666667,
+    "ceiling_nonexpendable": 0.10066666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10022083333333333,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.8979166666666667,
+     "O": 0.24383333333333335,
+     "NB": 0.23208333333333334
+    },
+    "ceiling_all": 0.23208333333333334,
+    "ceiling_nonexpendable": 0.24383333333333335,
+    "cost_of_sparing_normal_B": 0.01175000000000001,
+    "null_p95_all": 0.20035,
+    "above_null_all": true
+   }
+  },
+  "HLA-ABC": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.04175,
+     "O": 0.005916666666666666,
+     "NB": 0.020083333333333335
+    },
+    "ceiling_all": 0.005916666666666666,
+    "ceiling_nonexpendable": 0.005916666666666666,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.12141666666666667,
+     "O": 0.031051158055484855,
+     "NB": 0.08741666666666667
+    },
+    "ceiling_all": 0.031051158055484855,
+    "ceiling_nonexpendable": 0.031051158055484855,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.05037916666666667,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.18033333333333335,
+     "O": 0.0675,
+     "NB": 0.17775
+    },
+    "ceiling_all": 0.0675,
+    "ceiling_nonexpendable": 0.0675,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10009166666666668,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.3720833333333333,
+     "O": 0.15166666666666667,
+     "NB": 0.2895
+    },
+    "ceiling_all": 0.15166666666666667,
+    "ceiling_nonexpendable": 0.15166666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20034166666666667,
+    "above_null_all": false
+   }
+  },
+  "HLA-E": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.013916666666666667,
+     "O": 0.0045,
+     "NB": 0.02236764993162727
+    },
+    "ceiling_all": 0.0045,
+    "ceiling_nonexpendable": 0.0045,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010162871980204467,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.06066666666666667,
+     "O": 0.02666666666666667,
+     "NB": 0.09033333333333333
+    },
+    "ceiling_all": 0.02666666666666667,
+    "ceiling_nonexpendable": 0.02666666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.0499625,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.12058333333333333,
+     "O": 0.06375,
+     "NB": 0.16975
+    },
+    "ceiling_all": 0.06375,
+    "ceiling_nonexpendable": 0.06375,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10034166666666668,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.208,
+     "O": 0.1455,
+     "NB": 0.2981666666666667
+    },
+    "ceiling_all": 0.1455,
+    "ceiling_nonexpendable": 0.1455,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20033333333333334,
+    "above_null_all": false
+   }
+  },
+  "CCR4": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.0025,
+     "O": 0.0023333333333333335,
+     "NB": 0.011833333333333333
+    },
+    "ceiling_all": 0.0023333333333333335,
+    "ceiling_nonexpendable": 0.0023333333333333335,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010083333333333333,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.016416666666666666,
+     "O": 0.023833333333333335,
+     "NB": 0.07791666666666666
+    },
+    "ceiling_all": 0.016416666666666666,
+    "ceiling_nonexpendable": 0.016416666666666666,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.050083333333333334,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.09275,
+     "O": 0.06625,
+     "NB": 0.1595
+    },
+    "ceiling_all": 0.06625,
+    "ceiling_nonexpendable": 0.06625,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.10029583333333333,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.34891666666666665,
+     "O": 0.18775,
+     "NB": 0.28941666666666666
+    },
+    "ceiling_all": 0.18775,
+    "ceiling_nonexpendable": 0.18775,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.20051509572182066,
+    "above_null_all": false
+   }
+  },
+  "BTLA": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.010416666666666666,
+     "O": 0.0035833333333333333,
+     "NB": 0.00275
+    },
+    "ceiling_all": 0.00275,
+    "ceiling_nonexpendable": 0.0035833333333333333,
+    "cost_of_sparing_normal_B": 0.0008333333333333335,
+    "null_p95_all": 0.010129166666666667,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.06716666666666667,
+     "O": 0.02475,
+     "NB": 0.0175
+    },
+    "ceiling_all": 0.0175,
+    "ceiling_nonexpendable": 0.02475,
+    "cost_of_sparing_normal_B": 0.0072499999999999995,
+    "null_p95_all": 0.05033275786286384,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.139,
+     "O": 0.05575,
+     "NB": 0.03191666666666667
+    },
+    "ceiling_all": 0.03191666666666667,
+    "ceiling_nonexpendable": 0.05575,
+    "cost_of_sparing_normal_B": 0.02383333333333333,
+    "null_p95_all": 0.10033333333333333,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.25525,
+     "O": 0.13675,
+     "NB": 0.07725
+    },
+    "ceiling_all": 0.07725,
+    "ceiling_nonexpendable": 0.13675,
+    "cost_of_sparing_normal_B": 0.05950000000000001,
+    "null_p95_all": 0.2001170021269275,
+    "above_null_all": false
+   }
+  },
+  "CD45RA": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.09675,
+     "O": 0.011166666666666667,
+     "NB": 0.01275
+    },
+    "ceiling_all": 0.011166666666666667,
+    "ceiling_nonexpendable": 0.011166666666666667,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010166666666666666,
+    "above_null_all": true
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.27491666666666664,
+     "O": 0.059416666666666666,
+     "NB": 0.051166666666666666
+    },
+    "ceiling_all": 0.051166666666666666,
+    "ceiling_nonexpendable": 0.059416666666666666,
+    "cost_of_sparing_normal_B": 0.00825,
+    "null_p95_all": 0.050166666666666665,
+    "above_null_all": true
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.4473572579960974,
+     "O": 0.13658333333333333,
+     "NB": 0.09041666666666667
+    },
+    "ceiling_all": 0.09041666666666667,
+    "ceiling_nonexpendable": 0.13658333333333333,
+    "cost_of_sparing_normal_B": 0.04616666666666666,
+    "null_p95_all": 0.10016666666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.5851666666666666,
+     "O": 0.28325,
+     "NB": 0.18108333333333335
+    },
+    "ceiling_all": 0.18108333333333335,
+    "ceiling_nonexpendable": 0.28325,
+    "cost_of_sparing_normal_B": 0.10216666666666666,
+    "null_p95_all": 0.20072916666666668,
+    "above_null_all": false
+   }
+  },
+  "IgM": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.28683333333333333,
+     "O": 0.015333333333333332,
+     "NB": 0.0205
+    },
+    "ceiling_all": 0.015333333333333332,
+    "ceiling_nonexpendable": 0.015333333333333332,
+    "cost_of_sparing_normal_B": 0.0,
+    "null_p95_all": 0.010162871980204467,
+    "above_null_all": true
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.4751666666666667,
+     "O": 0.08033333333333334,
+     "NB": 0.07066666666666667
+    },
+    "ceiling_all": 0.07066666666666667,
+    "ceiling_nonexpendable": 0.08033333333333334,
+    "cost_of_sparing_normal_B": 0.00966666666666667,
+    "null_p95_all": 0.05022980318421567,
+    "above_null_all": true
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.6535833333333333,
+     "O": 0.16058333333333333,
+     "NB": 0.11966666666666667
+    },
+    "ceiling_all": 0.11966666666666667,
+    "ceiling_nonexpendable": 0.16058333333333333,
+    "cost_of_sparing_normal_B": 0.04091666666666666,
+    "null_p95_all": 0.10005416666666667,
+    "above_null_all": true
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.76075,
+     "O": 0.3303639602952405,
+     "NB": 0.21125
+    },
+    "ceiling_all": 0.21125,
+    "ceiling_nonexpendable": 0.3303639602952405,
+    "cost_of_sparing_normal_B": 0.11911396029524052,
+    "null_p95_all": 0.20025,
+    "above_null_all": true
+   }
+  },
+  "IgD": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.13441666666666666,
+     "O": 0.014592347501484686,
+     "NB": 0.001
+    },
+    "ceiling_all": 0.001,
+    "ceiling_nonexpendable": 0.014592347501484686,
+    "cost_of_sparing_normal_B": 0.013592347501484685,
+    "null_p95_all": 0.010022191986487754,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.2945,
+     "O": 0.07683333333333334,
+     "NB": 0.004166666666666667
+    },
+    "ceiling_all": 0.004166666666666667,
+    "ceiling_nonexpendable": 0.07683333333333334,
+    "cost_of_sparing_normal_B": 0.07266666666666667,
+    "null_p95_all": 0.0502125,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.3858333333333333,
+     "O": 0.14358333333333334,
+     "NB": 0.007333333333333333
+    },
+    "ceiling_all": 0.007333333333333333,
+    "ceiling_nonexpendable": 0.14358333333333334,
+    "cost_of_sparing_normal_B": 0.13625,
+    "null_p95_all": 0.10012916666666667,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.5224166666666666,
+     "O": 0.2608333333333333,
+     "NB": 0.012333333333333333
+    },
+    "ceiling_all": 0.012333333333333333,
+    "ceiling_nonexpendable": 0.2608333333333333,
+    "cost_of_sparing_normal_B": 0.24849999999999997,
+    "null_p95_all": 0.20000833333333334,
+    "above_null_all": false
+   }
+  },
+  "IgKap": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.20975,
+     "O": 0.012333333333333333,
+     "NB": 0.010791029370366896
+    },
+    "ceiling_all": 0.010791029370366896,
+    "ceiling_nonexpendable": 0.012333333333333333,
+    "cost_of_sparing_normal_B": 0.0015423039629664376,
+    "null_p95_all": 0.010073084749625578,
+    "above_null_all": true
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.46508333333333335,
+     "O": 0.052,
+     "NB": 0.0345
+    },
+    "ceiling_all": 0.0345,
+    "ceiling_nonexpendable": 0.052,
+    "cost_of_sparing_normal_B": 0.017499999999999995,
+    "null_p95_all": 0.0502125,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.5801666666666667,
+     "O": 0.12055654534656825,
+     "NB": 0.05850752100019535
+    },
+    "ceiling_all": 0.05850752100019535,
+    "ceiling_nonexpendable": 0.12055654534656825,
+    "cost_of_sparing_normal_B": 0.0620490243463729,
+    "null_p95_all": 0.10025833333333334,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.7299166666666667,
+     "O": 0.24358333333333335,
+     "NB": 0.111
+    },
+    "ceiling_all": 0.111,
+    "ceiling_nonexpendable": 0.24358333333333335,
+    "cost_of_sparing_normal_B": 0.13258333333333333,
+    "null_p95_all": 0.20042387429185388,
+    "above_null_all": false
+   }
+  },
+  "IgLam": {
+   "0.01": {
+    "per_compartment": {
+     "T": 0.129,
+     "O": 0.014931704420123865,
+     "NB": 0.006583333333333333
+    },
+    "ceiling_all": 0.006583333333333333,
+    "ceiling_nonexpendable": 0.014931704420123865,
+    "cost_of_sparing_normal_B": 0.008348371086790532,
+    "null_p95_all": 0.010166666666666666,
+    "above_null_all": false
+   },
+   "0.05": {
+    "per_compartment": {
+     "T": 0.21933333333333332,
+     "O": 0.056666666666666664,
+     "NB": 0.016833333333333332
+    },
+    "ceiling_all": 0.016833333333333332,
+    "ceiling_nonexpendable": 0.056666666666666664,
+    "cost_of_sparing_normal_B": 0.03983333333333333,
+    "null_p95_all": 0.05,
+    "above_null_all": false
+   },
+   "0.10": {
+    "per_compartment": {
+     "T": 0.3215,
+     "O": 0.10825,
+     "NB": 0.02875
+    },
+    "ceiling_all": 0.02875,
+    "ceiling_nonexpendable": 0.10825,
+    "cost_of_sparing_normal_B": 0.0795,
+    "null_p95_all": 0.1001375,
+    "above_null_all": false
+   },
+   "0.20": {
+    "per_compartment": {
+     "T": 0.43633333333333335,
+     "O": 0.22941666666666666,
+     "NB": 0.05225
+    },
+    "ceiling_all": 0.05225,
+    "ceiling_nonexpendable": 0.22941666666666666,
+    "cost_of_sparing_normal_B": 0.17716666666666667,
+    "null_p95_all": 0.20020918410434455,
+    "above_null_all": false
+   }
+  }
+ },
+ "summary": {
+  "0.01": {
+   "n_above_null": 6,
+   "n_markers": 37,
+   "approved_nonexp": {
+    "CD19": 0.011833333333333333,
+    "CD20": 0.01325,
+    "CD22": 0.01525,
+    "CD79B": 0.010583333333333333
+   },
+   "failed_nonexp": {
+    "CD40": 0.0069166666666666664,
+    "CD80": 0.006,
+    "HLA-DR": 0.0055
+   },
+   "approved_all": {
+    "CD19": 0.009833333333333333,
+    "CD20": 0.006583333333333333,
+    "CD22": 0.008333333333333333,
+    "CD79B": 0.010583333333333333
+   },
+   "failed_all": {
+    "CD40": 0.0069166666666666664,
+    "CD80": 0.006,
+    "HLA-DR": 0.0055
+   }
+  },
+  "0.05": {
+   "n_above_null": 8,
+   "n_markers": 37,
+   "approved_nonexp": {
+    "CD19": 0.06783333333333333,
+    "CD20": 0.07566666666666666,
+    "CD22": 0.06991666666666667,
+    "CD79B": 0.058833333333333335
+   },
+   "failed_nonexp": {
+    "CD40": 0.0505,
+    "CD80": 0.03925,
+    "HLA-DR": 0.04083333333333333
+   },
+   "approved_all": {
+    "CD19": 0.06783333333333333,
+    "CD20": 0.043666666666666666,
+    "CD22": 0.031,
+    "CD79B": 0.058833333333333335
+   },
+   "failed_all": {
+    "CD40": 0.0505,
+    "CD80": 0.03925,
+    "HLA-DR": 0.04083333333333333
+   }
+  },
+  "0.10": {
+   "n_above_null": 9,
+   "n_markers": 37,
+   "approved_nonexp": {
+    "CD19": 0.15416666666666667,
+    "CD20": 0.1555,
+    "CD22": 0.1415,
+    "CD79B": 0.11975
+   },
+   "failed_nonexp": {
+    "CD40": 0.10675,
+    "CD80": 0.09483333333333334,
+    "HLA-DR": 0.10066666666666667
+   },
+   "approved_all": {
+    "CD19": 0.14083333333333334,
+    "CD20": 0.12241666666666666,
+    "CD22": 0.0555,
+    "CD79B": 0.11975
+   },
+   "failed_all": {
+    "CD40": 0.10675,
+    "CD80": 0.09483333333333334,
+    "HLA-DR": 0.10066666666666667
+   }
+  },
+  "0.20": {
+   "n_above_null": 11,
+   "n_markers": 37,
+   "approved_nonexp": {
+    "CD19": 0.35038601849495205,
+    "CD20": 0.31916666666666665,
+    "CD22": 0.292,
+    "CD79B": 0.24891666666666667
+   },
+   "failed_nonexp": {
+    "CD40": 0.27125,
+    "CD80": 0.20841666666666667,
+    "HLA-DR": 0.24383333333333335
+   },
+   "approved_all": {
+    "CD19": 0.2776666666666667,
+    "CD20": 0.29433333333333334,
+    "CD22": 0.1245,
+    "CD79B": 0.21458333333333332
+   },
+   "failed_all": {
+    "CD40": 0.27125,
+    "CD80": 0.20841666666666667,
+    "HLA-DR": 0.23208333333333334
+   }
+  }
+ },
+ "meta": {
+  "n_patients": 41,
+  "budgets": [
+   0.01,
+   0.05,
+   0.1,
+   0.2
+  ],
+  "n_perm": 30,
+  "sub": 12000,
+  "seed": 31,
+  "note": "fractions of a population; calibration-invariant"
+ },
+ "crosscheck_vs_published": {
+  "CD19": {
+   "mine": {
+    "T": 0.9765462256944445,
+    "O": 0.7382433055774807,
+    "NB": 0.5804227951388888
+   },
+   "published": {
+    "T": 0.9765462256944445,
+    "O": 0.7382433055774807,
+    "NB": 0.5804227951388888
+   },
+   "max_abs_diff": 0.0
+  },
+  "CD20": {
+   "mine": {
+    "T": 0.9701852291666667,
+    "O": 0.6482810138888889,
+    "NB": 0.5513340243055556
+   },
+   "published": {
+    "T": 0.9701852291666667,
+    "O": 0.6482810138888889,
+    "NB": 0.5513340243055556
+   },
+   "max_abs_diff": 0.0
+  },
+  "CD22": {
+   "mine": {
+    "T": 0.9171462222222222,
+    "O": 0.6291468994101705,
+    "NB": 0.3606024305555556
+   },
+   "published": {
+    "T": 0.9171462222222222,
+    "O": 0.6291468994101705,
+    "NB": 0.3606024305555556
+   },
+   "max_abs_diff": 0.0
+  },
+  "CD79B": {
+   "mine": {
+    "T": 0.8231323680555556,
+    "O": 0.5672676701388889,
+    "NB": 0.4841005798611111
+   },
+   "published": {
+    "T": 0.8231323680555556,
+    "O": 0.5672676701388889,
+    "NB": 0.4841005798611111
+   },
+   "max_abs_diff": 0.0
+  }
+ }
+}

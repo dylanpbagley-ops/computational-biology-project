@@ -1,0 +1,135 @@
+{
+ "per_target": {
+  "ERBB2": {
+   "E only": 14.0,
+   "binary": 14.0,
+   "hand": 1.0,
+   "death": 2.5,
+   "severe": 2.5
+  },
+  "EGFR": {
+   "E only": 10.5,
+   "binary": 10.5,
+   "hand": 1.0,
+   "death": 2.0,
+   "severe": 2.0
+  },
+  "CEACAM5": {
+   "E only": 2.0,
+   "binary": 2.0,
+   "hand": 3.0,
+   "death": 3.5,
+   "severe": 3.5
+  },
+  "CA9": {
+   "E only": 6.0,
+   "binary": 6.0,
+   "hand": 4.5,
+   "death": 3.0,
+   "severe": 6.0
+  },
+  "CD47": {
+   "E only": 18.0,
+   "binary": 142.5,
+   "hand": 86.5,
+   "death": 18.0,
+   "severe": 17.0
+  },
+  "CD44": {
+   "E only": 9.5,
+   "binary": 6.0,
+   "hand": 4.5,
+   "death": 4.5,
+   "severe": 4.5
+  },
+  "NCAM1": {
+   "E only": 9.0,
+   "binary": 9.0,
+   "hand": 1.5,
+   "death": 6.0,
+   "severe": 6.0
+  },
+  "EPCAM": {
+   "E only": 48.0,
+   "binary": 47.5,
+   "hand": 37.0,
+   "death": 28.0,
+   "severe": 46.0
+  },
+  "FOLR1": {
+   "E only": 21.0,
+   "binary": 21.0,
+   "hand": 17.5,
+   "death": 26.5,
+   "severe": 26.5
+  },
+  "FAP": {
+   "E only": 3.5,
+   "binary": 3.5,
+   "hand": 5.0,
+   "death": 3.5,
+   "severe": 3.5
+  },
+  "F3": {
+   "E only": 8.0,
+   "binary": 8.0,
+   "hand": 7.0,
+   "death": 49.5,
+   "severe": 41.5
+  },
+  "GUCY2C": {
+   "E only": 2.0,
+   "binary": 2.0,
+   "hand": 3.0,
+   "death": 3.0,
+   "severe": 3.0
+  },
+  "PSCA": {
+   "E only": 6.5,
+   "binary": 6.5,
+   "hand": 4.0,
+   "death": 4.0,
+   "severe": 5.0
+  }
+ },
+ "summary": {
+  "E only": {
+   "median_best_rank": 9.0,
+   "in_top3": 2,
+   "in_top10": 8
+  },
+  "binary": {
+   "median_best_rank": 8.0,
+   "in_top3": 2,
+   "in_top10": 8,
+   "better_than_E_only": 2,
+   "worse": 1,
+   "sign_p": 1.0
+  },
+  "hand": {
+   "median_best_rank": 4.5,
+   "in_top3": 5,
+   "in_top10": 10,
+   "better_than_E_only": 9,
+   "worse": 4,
+   "sign_p": 0.266845703125
+  },
+  "death": {
+   "median_best_rank": 4.0,
+   "in_top3": 4,
+   "in_top10": 9,
+   "better_than_E_only": 7,
+   "worse": 4,
+   "sign_p": 0.548828125
+  },
+  "severe": {
+   "median_best_rank": 5.0,
+   "in_top3": 3,
+   "in_top10": 9,
+   "better_than_E_only": 7,
+   "worse": 4,
+   "sign_p": 0.548828125
+  }
+ },
+ "n": 13
+}

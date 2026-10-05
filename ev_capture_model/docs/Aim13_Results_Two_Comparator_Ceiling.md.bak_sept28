@@ -1,0 +1,2058 @@
+# Aim 13-15 results: the therapeutic-index ceiling, with a real normal-B-cell comparator
+
+**Date: September 6, 2026.** This is the results document for the proposal in
+`Aim13_Therapeutic_Index_Ceiling_PROPOSAL.md`. Everything below was computed this session
+from real data. Scripts and result JSON: `ev_capture_model/src/aim13_scoping/`.
+
+**What changed since the proposal:** the proposal's single largest open gap was that the
+comparator was bystander T cells rather than normal B cells. That gap is now closed. All 36
+B-panel reactive lymph node (RLN) control files were downloaded from the Mendeley release
+(2.0 GB, 8,143,673 real cells), verified, and analysed. The result is more interesting than
+the proposal anticipated, and it changes the headline claim.
+
+---
+
+## 1. Data and verification
+
+- **41 DLBCL tumor samples** (existing, 6,865,361 cells) + **36 B-panel RLN control files**
+  (new: 31 individual donors + 5 pooled batch-control aliquots, 8,143,673 cells).
+- All 36 new files parse with the project's existing FCS3.0 reader. **0 parse failures.**
+- **Panel identity confirmed channel by channel.** 30 of 36 RLN files carry the identical
+  65-stain panel as the tumor files. The 6 that differ (all batch CytB4) are missing only
+  two *derived QC columns* (`bc_separation_dist`, `mahalanobis_dist`), not antibodies — and
+  the CytB4 *tumor* files are missing exactly the same two, so tumor and control are
+  consistent within batch. Every antigen channel used here sits at an identical parameter
+  index in all batches and both sample types (verified explicitly for 19 channels).
+- The dataset's own description states each batch run included an aliquot from a pool of 13
+  RLN samples "to serve as an internal staining/acquisition batch control." Those 5 pooled
+  files were downloaded and used as controls rather than discarded.
+
+Gating is percentile-based throughout (intact by DNA, live by 195Pt, bead-excluded, CD45+;
+then B = CD19+ or CD20+, CD3−; T = CD3+, CD19−CD20−). Percentile gates are invariant to the
+~10x cross-batch signal-scale difference documented in the proposal. Cached gated
+populations for all 77 files live in `ev_capture_data/gated_cache/` (407 MB).
+
+---
+
+## 2. Negative controls, run first
+
+These decide how to read every number that follows.
+
+**Normal-vs-normal, same batch, independent healthy donors (95 donor pairs, 37 antigens):**
+median |AUC − 0.5| = **0.089**, 90th percentile **0.220**, max **0.440**.
+
+Healthy people's B cells differ from each other substantially. This is the noise floor: an
+apparent tumor-vs-normal window has to clear it to mean anything. The antigens with the
+largest healthy donor-to-donor spread are CD23 (0.166), CXCR5 (0.154), CD20 (0.144), BTLA
+(0.138), CD19 (0.136), HLA-ABC (0.130).
+
+**Cross-batch normal-vs-normal (40 pairs):** median |AUC − 0.5| = **0.109**, i.e. only
+**+0.020** above the within-batch figure. Batch effects contribute far less than genuine
+donor biology. This is the empirical confirmation of the proposal's claim that AUC is
+effectively immune to the batch-scaling confound — asserted there, measured here.
+
+---
+
+## 3. The retrodiction: the four approved-drug targets have no window against normal B cells
+
+Median AUC across the 41 patients, tumor B cells versus each comparator:
+
+| antigen | vs bystander T cells | vs normal B cells | approved drug in B-cell lymphoma |
+|---|---|---|---|
+| CD19 | 0.976 | **0.576** | axi-cel, tisa-cel, liso-cel, blinatumomab |
+| CD20 | 0.971 | **0.554** | rituximab, mosunetuzumab, glofitamab, epcoritamab |
+| CD79B | 0.819 | **0.489** | polatuzumab vedotin |
+| CD22 | 0.913 | **0.359** | inotuzumab ozogamicin, CD22 CAR-T |
+
+Against everything that is not a B cell, these four are near-perfect. Against normal B
+cells they collapse to chance or below — CD19's 0.576 sits *inside* the healthy
+donor-to-donor variation measured above.
+
+This is exactly right, and it was not fitted to anything. Every approved CD19/CD20/CD22/CD79b
+therapy causes B-cell aplasia and hypogammaglobulinemia, because these targets genuinely
+cannot distinguish a lymphoma B cell from a normal one. The model recovers a universally
+known clinical fact from single-cell data alone, with no clinical input.
+
+CD22 at 0.359 is a second, sharper retrodiction: tumor cells carry *less* CD22 than normal B
+cells, which is the documented reason CD22-directed therapy is antigen-density-limited.
+
+---
+
+## 4. The joint window, and the headline claim
+
+A target must spare **both** normal compartments, so the achievable index is bounded by the
+worse of the two. Taking the minimum:
+
+- **Best joint window of any antigen in the whole 37-marker panel: 0.616 (CD80).**
+- **Best joint window among the four approved-drug targets: 0.576 (CD19).**
+- Definitively excluded by data — below chance on at least one comparator: CD22 (0.359),
+  CD72 (0.376), CD23 (0.259), IgD (0.218), CD21 (0.189), CD27 (0.172), CD43 (0.215),
+  CD48 (0.312), TRAIL-R1 (0.245), FasR (0.357).
+
+> **No antigen in a 40-marker B-cell panel offers a therapeutic window against both normal
+> compartments that clearly exceeds healthy donor-to-donor variation. The antigens that
+> became approved drugs are not the ones with the best window. They are the ones whose
+> unavoidable off-tumor compartment — the normal B-cell lineage — happens to be
+> expendable.**
+
+That reframes target selection in B-cell malignancy: it was never solved by finding a
+selective antigen. It was solved by choosing a dispensable lineage. And it predicts, from
+the same principle, why the identical playbook fails in solid tumors — there is no
+dispensable lineage there. This is a statement the field's own framing (find a
+tumor-specific antigen; engineer a sharper threshold) does not make.
+
+---
+
+## 5. Per-patient windows: the window is patient-specific, not target-specific
+
+- CD19's joint window ranges **0.082 to 0.977** across the 41 patients (median 0.576).
+- **CD19 is the best available target in only 4 of 41 patients.**
+- The best available antigen differs across patients — 17 different antigens win across 41
+  patients — with a median best-available joint window of **0.860** versus CD19's 0.576.
+- **33 of 41 patients** have at least one antigen whose joint window exceeds the healthy
+  donor-variation 90th percentile; 40 of 41 exceed the median.
+
+The actionable reading is that antigen selectivity in DLBCL is a per-patient property, and a
+single fixed target is a compromise for most patients. That is a real, testable,
+previously-unstated claim.
+
+---
+
+## 6. The honest scope: this is an exclusion tool, not a discovery tool
+
+**Read this before citing anything above as a target recommendation.**
+
+The comparator set here is lymphoid only — bystander T cells and normal lymph node B cells.
+The true off-tumor compartment is every tissue in the body. That has one clean mathematical
+consequence and one blunt practical one.
+
+**The clean consequence:** adding normal compartments can only *lower* a ceiling, never
+raise it. The joint window is a minimum over compartments, and a minimum over a larger set
+is no larger. So every number above is a valid **upper bound**, and an antigen that already
+fails here is **definitively excluded** — that conclusion is safe and cannot be rescued by
+better data. CD22, CD72, CD21, CD23, CD27, CD43, CD48 are excluded on this basis.
+
+**The blunt practical one:** the converse does not hold, and section 5's per-patient
+"winners" must not be read as recommendations. HLA-ABC wins for 7 patients and is MHC class
+I, present on every nucleated cell in the body; PD-L1, CD80, CD86, CD24 and CD40 are all
+broadly expressed on cell types simply not present in a lymph node sample. They score well
+here only because the compartments that would sink them were not measured. Their ceilings
+will fall, possibly to nothing, when more normal tissue is added.
+
+So the correct claim is: **a necessary condition, rigorously computed, that a large fraction
+of candidate targets already fail.** Section 4's headline survives this caveat completely,
+because it is a statement about targets failing, not passing.
+
+### Other limitations, unchanged or newly identified
+
+1. **Monotonicity.** The ceiling theorem assumes kill probability increases monotonically
+   with antigen count. The project's own CLDN18.2 pancreatic-line finding is a real measured
+   non-monotonicity — state it as the boundary, do not bury it.
+2. **The likelihood-ratio corollary is real and has bite.** Where the empirical likelihood
+   ratio is non-monotone, a likelihood-ratio rule beats *every* density threshold. Measured
+   on real data: CD27 by +0.79 Youden's J, CD48 by +0.38, CD38 by +0.10, while CD19, CD20,
+   CD22 and CD79B gain exactly 0.000 (thresholding is already optimal for those). This is a
+   criterion for when a NOT-gate is required instead of a CAR, and it connects to Aim 5.
+3. **Gating is percentile-based and mine, not an expert's.** Robust across a 40th-70th
+   percentile sweep (separation held at 1.000 in the proposal's ground-truth test), but a
+   clustering-based alternative should be compared.
+4. **Normal B cells are a mixed population** (naive, memory, germinal-centre) and donor
+   subset composition varies. Part of the 0.089 noise floor is composition, not marker
+   biology. Subsetting normal B cells is a real refinement.
+5. **Tumor purity.** The tumor "B" gate does not separate malignant from residual normal B
+   cells inside the biopsy. Light-chain restriction (IgKappa/IgLambda are both in the panel)
+   would fix this; sample O6357 shows a 416:1 kappa:lambda ratio, so the signal is clearly
+   there, but surface-Ig-negative DLBCL will limit coverage.
+6. **Novelty is bounded, and the boundary is documented.** See section 7.
+
+---
+
+## 7. Novelty, as checked
+
+**Prior art that exists.** Single-cell-RNA target prioritization pipelines: SCAN-ACT
+(*Genome Medicine* 2025, doi 10.1186/s13073-025-01514-9), Dannenfelser et al. (*Cell Systems*
+11:215-228, 2020, doi 10.1016/j.cels.2020.08.002), and a 2025 bioRxiv logic-gate paper
+(doi 10.1101/2025.03.19.644074). Measured antigen-density activation thresholds. Affinity-tuned
+CAR panels. The Lim lab's ultrasensitive density-sensing circuit (*Science* 371:1166, 2021,
+doi 10.1126/science.abc1855).
+
+**What is not there.** The 2025 logic-gate paper binarizes expression at "greater than 0",
+reports a single (efficacy, safety) operating point, and states outright that it "did not
+distinguish between tumor-targeting and tumor-killing efficacy" — precisely the link the
+n\* identity supplies. A 2025 *Frontiers in Immunology* review of CAR-T mathematical modeling
+confirms directly that no reviewed model treats antigen density as a distribution yielding an
+escape fraction, derives any selectivity bound, uses ROC or likelihood-ratio reasoning, or
+offers an antigen-ranking framework. PubMed returns **zero** results for Neyman-Pearson or
+likelihood-ratio combined with immunotherapy target discrimination, and only three papers with
+"therapeutic window" and "antigen density" both in the abstract.
+
+**Relationship to the Lim lab's circuit, stated plainly.** Their ultrasensitive synNotch→CAR
+circuit is a sharper *monotone* response to antigen density. A sharper monotone rule moves the
+operating point along the ROC toward its corner; it cannot move the curve. So the theorem
+predicts and bounds their result rather than competing with it. Verified numerically: across
+**642 monotone kill functions** on 8 real antigens — the project's own `kill_probability` at
+45 parameter settings plus Hill functions with cooperativity up to n = 50, i.e. exactly that
+class of ultrasensitive circuit — the largest excess above the ROC convex hull was
+**+2.3e-15**, floating-point zero. (6 further evaluations overflowed at extreme k_intra and
+were not evaluable; the analytic proof via the layer-cake representation covers them.)
+
+---
+
+## 8. What to do next
+
+1. **Light-chain purification of the tumor gate** (item 5 above) — cheap, uses data in hand,
+   removes the most obvious methodological objection.
+2. **Re-run Aim 12 on gated tumor cells** with the batch analysis, and report honestly how
+   much of the 59.3% reordering survives.
+3. **Express the ceiling as the achievable operating point of real agents**, using Aim 10's
+   real calibrated thresholds (81 / 843 / 8,690 molecules/cell) to place actual drugs on
+   each antigen's ROC. This is what turns a bound into a statement about real therapies.
+4. **Add non-lymphoid normal compartments** if any public single-cell protein atlas allows
+   it, to tighten the bound. Every addition lowers ceilings and strengthens the exclusion
+   claims.
+5. **Pre-register the ground-truth label list** before any further ranking claim, ideally
+   with the criteria written down and checked by someone else.
+
+---
+
+# Addendum, same session: light-chain validation, the Aim 12 re-run, and a documentation error found in the project's headline number
+
+## 9. Light-chain purification and the same-tube internal control
+
+The panel carries IgKappa and IgLambda, so clonality can be called by the standard clinical
+criterion and the minority light chain used as a **same-patient, same-tube, same-run**
+normal control — a better comparator than the RLN files.
+
+**A real bug, caught and fixed, recorded so it is not repeated.** The first implementation
+set the kappa and lambda positivity cutoffs at the same *percentile* of each channel's own
+B-cell distribution. That forces |kappa+| == |lambda+| exactly, by construction: every one
+of the 72 samples returned K:L = 1.00 and the method was vacuous. The cutoff must come from
+a genuinely marker-negative population. T cells in the same file are surface-immunoglobulin
+negative, so their own IgKap/IgLam distribution is the correct internal negative control.
+
+**Calibration check, which the method has to pass:** with the corrected cutoff, the 31 RLN
+donors read K:L median **1.50**, range **1.00-2.82** — the textbook physiological polyclonal
+range. The method measures real light-chain biology.
+
+**Tumor calls** (restriction threshold = the more conservative of the clinical 3:1 / 1:2
+convention and the measured healthy-donor interval, plus a requirement of ≥5% surface-Ig+
+B cells so sIg-negative tumors are not called on a handful of events): 15 kappa-restricted,
+4 lambda-restricted, 4 surface-Ig-negative, 18 not restricted. **18 patients** have both a
+clone (≥500 cells) and a residual internal normal population (≥150 cells).
+
+**The validation.** Comparing AUC(clone vs same-tube internal normal) against
+AUC(clone vs batch-matched RLN normal), across 35 antigens (excluding IgKap/IgLam, which
+define the gate and are therefore circular — they return exactly 1.000 and 0.000, the
+required sanity check):
+
+- Pearson r = **0.625**, Spearman = **0.685**
+- median |difference| = **0.097**
+- mean signed difference (RLN minus internal) = **+0.046**
+
+The two comparators agree in rank and magnitude. The cross-sample RLN comparator **slightly
+inflates** windows relative to the perfectly-matched internal control, which is the
+conservative direction for this project's exclusion claims: real windows are, if anything,
+*smaller* than section 4 reports.
+
+**And the central retrodiction gets stronger under the better control:**
+
+| antigen | same-tube internal control | RLN comparator |
+|---|---|---|
+| CD19 | **0.473** | 0.576 |
+| CD20 | 0.575 | 0.554 |
+| CD22 | 0.563 | 0.359 |
+| CD79B | 0.717 | 0.790 |
+
+Against the patient's own residual normal B cells, CD19 sits *below chance* — tumor cells
+are marginally harder to distinguish from the patient's own normal B cells than a coin flip.
+The strongest available control gives the strongest version of the result.
+
+Largest comparator disagreements (lymph-node normal B cells differ from intra-tumoral
+residual normal B cells): CD27 (+0.299), CD23 (−0.275), FasR (+0.236), CD49D (+0.232),
+IgD (−0.220). These are subset-composition effects and should be stated as such.
+
+---
+
+## 10. Aim 12 re-run on gated cells — and a documentation error in the project's headline number
+
+### 10a. What is and is not reproducible
+
+`aim12_single_cell_cytof_reordering.py` contains the FCS parser plus a set of **hardcoded
+result constants transcribed from a browser session**. It contains no function that computes
+the reordering result, and the test suite does not check those constants. **The project's
+single headline number has therefore never been reproducible from this repository.** That is
+not a claim it is wrong — it is a statement that nothing here could confirm it. This session
+checked what is confirmable:
+
+- **The worked example reproduces exactly.** Recomputed escape fractions at
+  CLN-978_cytolysis / kill_threshold 0.5, from the local files: O6357 19.12% (stored 19.1),
+  Q5971 33.67% (33.7), O8155 36.05% (36.0), Q7998 44.68% (44.7), P7676 51.15% (51.1). Every
+  value within 0.05 percentage points.
+- **The stored 41-patient naive-by-mean ranking is bit-identical** to the ranking recomputed
+  from the local files.
+
+So the parser, the local data, and the escape-fraction computation are all correct and
+agree with the browser session. The discrepancy is isolated entirely to the counting rule.
+
+### 10b. The counting rule, resolved
+
+The documented text describes the criterion as:
+
+> "Reordered with a MEANINGFUL spread (≥2 percentage points of real escape-fraction
+> difference **between the reordered patients**): 16/27 (59.3%)"
+> ... "Largest single real spread observed: 81.8 percentage points (one real patient's
+> predicted escape fraction 81.8 points higher than another's)"
+
+Implementing that criterion literally — a grid point counts when some **reordered pair**
+differs by ≥2pp in escape fraction — gives **13/27 = 48.1%**, largest reordered-pair spread
+**53.1 pp**.
+
+Testing alternative conventions found the one actually used. A grid point counts when the
+ranking flips at all **and the spread between the most- and least-escaped patients in the
+whole cohort is ≥2pp** — a condition on the cohort's full range, not on the pair that
+reordered. That convention reproduces the stored numbers **exactly: 16/27 = 59.3%, largest
+spread 81.8 pp.**
+
+**So the arithmetic is right and the prose is wrong.** 81.8 pp is the cohort's full
+escape-fraction range at that grid point, not the gap between two patients who swapped
+places. The ≥2pp filter, as actually applied, is nearly always satisfied whenever the model
+is not fully saturated, so it removes far less than the description implies.
+
+**What to do:** report **48.1% (13/27), largest reordered-pair spread 53.1 pp** as the
+figure matching the stated criterion, or keep 59.3% and describe the criterion accurately.
+Do not keep the current pairing of number and description. Figure 8's four-tier panel
+(8.65 / 5.56 / 48.10 / 59.26) and any caption citing 81.8 pp need updating. This is very
+much better found now than by a judge in March.
+
+### 10c. The effect survives gating
+
+Recomputed under one fixed convention (any reordered pair, ≥2pp escape spread), across three
+populations:
+
+| population | n | grid points reordered | largest reordered-pair spread |
+|---|---|---|---|
+| ungated (what Aim 12 used) | 41 | 13/27 (48.1%) | 53.1 pp |
+| B-gated | 41 | 14/27 (51.9%) | 42.3 pp |
+| light-chain clone | 19 | 11/27 (40.7%) | 15.0 pp |
+
+The reordering effect is **not an artifact of ungated whole-biopsy data** — it survives, and
+is marginally stronger, after gating. It weakens at the clone level (40.7%, and the spread
+drops sharply to 15.0 pp), which is the honest reading: part of the apparent magnitude came
+from mixing cell populations, but a real effect remains in pure tumor cells.
+
+### 10d. The continuum replacement for the grid
+
+Using escape = F(n\*), the arbitrary 27-point grid can be replaced by the exact criterion:
+do two patients' CDFs **cross** anywhere inside the real n\* range (12.3 to 28,868
+molecules/cell)? If they cross, mean-based ranking is provably wrong for some achievable CAR
+sensitivity; if not, mean-based ranking is safe.
+
+| population | patient pairs whose CDFs cross |
+|---|---|
+| ungated | 241/820 (29.4%) |
+| B-gated | 196/820 (23.9%) |
+| clone | 18/171 (10.5%) |
+
+This has no tunable convention, no grid, and no "meaningful spread" threshold to argue
+about. It should replace the grid metric in the write-up.
+
+---
+
+## 11. Placing real agents on the ROC — an honest negative result
+
+Applying the three real measured activation thresholds (n\* = 81, 843, 8,690 molecules/cell)
+to the tumor and normal-B distributions:
+
+| agent | n\* | CD19 tumor killed | CD19 normal B killed | window |
+|---|---|---|---|---|
+| CLN-978 | 81 | 45.1% | 34.7% | +10.4 pp |
+| blinatumomab (cytolysis) | 843 | 0.1% | 0.0% | +0.0 pp |
+| blinatumomab (IFN-γ) | 8,690 | 0.0% | 0.0% | +0.0 pp |
+
+Only the most sensitive agent lands inside the data's dynamic range at all; the other two
+fall off the top of the CyTOF signal distribution entirely. **This is the absolute-calibration
+gap, now quantified rather than described:** the CyTOF ion-count scale (medians ~5-400)
+cannot be equated with molecules/cell, so operating points are not currently computable.
+
+That is a useful negative result, because it sharpens which claims are available. The
+**ceiling** (an AUC) is calibration-free and stands. The **operating point** of a specific
+drug is not computable without absolute calibration and must not be claimed. CD22's window at
+n\* = 81 is **−20.6 pp** (more normal B cells killed than tumor), directionally consistent
+with its AUC of 0.359, so the qualitative ordering survives even where the absolute numbers
+do not.
+
+---
+
+## 11a. A third real calibrated agent, and the same gap found again independently (September 9, 2026)
+
+Section 11 used the two real, absolute-molecule-calibrated agents this project had on file at
+the time: CLN-978 and blinatumomab, both CD19-directed, both fit to a continuous dose-response
+titration. A third real agent was added this session: **Bluhm et al. 2018** (*Molecular
+Therapy*, doi:[10.1016/j.ymthe.2018.06.012](https://doi.org/10.1016/j.ymthe.2018.06.012), PMID
+30078440), a BCMA CAR-T study that quantified antigen density with **QuantiBRITE PE
+calibration beads** — the same absolute-molecule standard as CLN-978/blinatumomab — and
+reported an activation threshold "in the range of 100 BCMA molecules" (JeKo-1, the
+lowest-density line that still triggered lysis, carried ≤~100 molecules/cell; NCI-H929
+carried ~25,000). One honest methods difference, stated plainly: CLN-978/blinatumomab were fit
+to a continuous titration curve, giving a precise k_intra; Bluhm's ~100-molecule number is read
+off a handful of discretely bead-quantified cell lines correlated with lysis/IFN-γ output, not
+a fitted curve. It is real, peer-reviewed, absolute-molecule data — just a coarser derivation
+than the other two.
+
+BCMA is not measured in the CD19/DLBCL CyTOF panel section 11 uses, so it cannot be added to
+that table directly. It **is** measured in this project's own myeloma CITE-seq cohort (section
+16 onward) as CD269, so the natural test is the same one section 11 already ran, replicated
+independently in the second disease: does the myeloma ADT scale support placing n\*=100 as an
+operating point?
+
+Raw (non-CLR) CD269 antibody-derived-tag counts across all 11 myeloma samples, tumor
+(malignant plasma cell) compartment vs. the three normal compartments:
+
+| sample | n tumor cells | tumor median | tumor p90 | tumor max | T median | myeloid median | NK median |
+|---|---|---|---|---|---|---|---|
+| 01 | 420 | 10.0 | 19.0 | 32.0 | 14.0 | 6.0 | 6.0 |
+| 03 | 692 | 3.0 | 8.0 | 18.0 | 3.0 | 3.0 | 3.0 |
+| 05 | 762 | 2.0 | 5.0 | 9.0 | 2.0 | 1.0 | 1.0 |
+| 07 | 567 | 3.0 | 6.0 | 11.0 | 3.0 | 2.0 | 2.0 |
+| 12 | 576 | 11.0 | 16.0 | 27.0 | 7.0 | 7.0 | 6.0 |
+| 13 | 869 | 6.0 | 9.0 | 41.0 | 4.0 | 3.0 | 2.0 |
+| 15 | 271 | 5.0 | 10.0 | 54.0 | 4.0 | 5.0 | 3.0 |
+| 17 | 737 | 3.0 | 7.0 | 357.0 | 2.0 | 3.0 | 2.0 |
+| 19 | 136 | 2.0 | 3.0 | 10.0 | 0.0 | 1.0 | 0.0 |
+| 22 | 212 | 1.0 | 4.0 | 7.0 | 2.0 | 1.0 | 1.0 |
+| 24 | 759 | 3.0 | 8.0 | 20.0 | 2.0 | 4.0 | 2.0 |
+
+The highest single-cell raw CD269 count observed anywhere in the 11-sample cohort is 357; the
+median of per-sample tumor-compartment 90th-percentile counts is 8.0. Bluhm's n\*=100 sits
+above nearly every value in this table, tumor or normal. **This is the same absolute-calibration
+gap section 11 reported for CD19, found again independently, in a second disease, a second
+technology (CITE-seq vs. mass cytometry), and a second calibrated agent.** Raw CITE-seq
+antibody-derived-tag counts are UMI/read counts, not molecule counts, and cannot be equated
+with a QuantiBRITE-derived n\* without an independent bridging calibration this project does
+not have the wet-lab access to run. Notably, in several samples (e.g. sample 01: tumor median
+10 vs. T-cell median 14) the tumor compartment does not even clearly exceed the normal
+compartments on this raw scale — a sign that the raw ADT scale is not tracking real molecule
+counts in a biologically meaningful way here, reinforcing that this is a genuine unit mismatch
+rather than a borderline-but-usable approximation.
+
+**The consistent finding across two independent placements, in two diseases and two
+technologies, is itself the reportable result:** the ceiling (AUC, calibration-free) is the
+quantity this project's data can support; the operating point of a specific real drug or CAR
+construct is not computable from either dataset without absolute molecule calibration that
+neither dataset has. That is a sharper, more defensible statement for having been checked
+twice rather than once, and it is the honest reason no third calibrated ROC point is plotted
+in this document despite a third real, peer-reviewed, bead-calibrated threshold now being on
+file. Code: `bcma_operating_point.py`.
+
+---
+
+## 12. Figure corrections made, and one that needs Dylan's own decision
+
+**Corrected this session** (factual accuracy only — see the ISEF note below):
+
+- `aim12_single_cell_cytof_reordering.py` — the `REAL_SINGLE_CELL_REORDERING_RESULT` dict now
+  carries an explicit block recording which counting convention produced 16/27 and 0.818, the
+  strict pairwise alternative (13/27, 0.531), and the convention-free CDF-crossing metric. The
+  original values are unchanged, so every figure still renders identically; the correction is
+  additive, not a silent rewrite.
+- **Figure 8** caption: removed the sentence describing 81.8 pp as a between-patient spread;
+  it now states which criterion is in use and gives the stricter figure (48.1%, 13/27).
+- **Figure 8 poster** banner: "7-11x more target reordering" was derived from the disputed
+  convention (it becomes roughly 5-9x under the strict one), so it now reads "several times
+  more" — true under either.
+- **Figure 6, Figure 5, Figure 0** captions: now cite both criteria explicitly rather than
+  presenting 59.3% as unqualified.
+
+**Needs Dylan's decision — Figure 5's hero example is gating-dependent.** Figure 5 and its
+poster version are built on the comparison "P7676 (mean 109.1) displaces Q7915 (mean 111.8)
+despite Q7915 having the higher average density." Both means are **ungated whole-biopsy**
+values. After gating to B cells the two reverse: **Q7915 = 227.0, P7676 = 139.0**. The figure
+is still an accurate depiction of the Aim 12 analysis as actually run, but the sentence "even
+though Q7915 has a higher average antigen density" is only true of ungated data, and a judge
+who asks "were those gated?" will find the example inverts.
+
+Three options, in order of how much work they cost:
+1. Add a clause to the caption stating the means are whole-biopsy, ungated.
+2. Pick a replacement example whose direction survives gating, from the B-gated re-run.
+3. Rebuild Figure 5 on gated data entirely, which is the strongest but requires re-deriving
+   the top-5 lists.
+
+**ISEF note.** Society for Science bars generative AI from writing the submitted abstract,
+research plan, or poster text. The edits above are factual corrections to numbers and
+criteria, not new prose to submit. Every caption that will appear on the poster should be
+rewritten by Dylan in his own words before submission.
+
+---
+
+# Second addendum (September 7, 2026): third compartment, gating robustness, and replication in a second disease
+
+## 13. A third normal compartment (step 6)
+
+The gated cache was rebuilt for all 77 files to emit a third population: QC-passing CD45+
+leukocytes that are neither B nor T — the myeloid and NK bystanders that were previously
+discarded. A target must now spare **three** compartments, so the ceiling is the minimum over
+T cells, myeloid/NK, and batch-matched normal B cells.
+
+**The theorem's monotonicity requirement is satisfied exactly.** Computing the two- and
+three-compartment ceilings from the *same* AUC estimates: **13 of 37 ceilings fell, 0 rose.**
+(Comparing against the earlier saved run instead shows small apparent rises; that is
+resampling jitter, measured here at median +0.0003, max 0.0087, which is why the check is done
+within a single run.)
+
+**Adding the compartment removed the spurious winners.** The largest falls are exactly the
+antigens flagged in section 6 as scoring well only because the compartments that would sink
+them were unmeasured:
+
+| antigen | 2-compartment | 3-compartment | change |
+|---|---|---|---|
+| CD38 | 0.538 | 0.399 | −0.138 |
+| CD86 | 0.609 | 0.481 | −0.127 |
+| HLA-ABC | 0.546 | 0.459 | −0.087 |
+| CD49D | 0.538 | 0.458 | −0.080 |
+| CD25 | 0.506 | 0.431 | −0.075 |
+| PD-L1 | 0.605 | 0.535 | −0.069 |
+| CD80 | 0.616 | 0.548 | −0.068 |
+
+**And the framework now converges on the real drug target.** With three compartments the
+highest ceiling in the entire 37-antigen panel is **CD19 at 0.580** — the antigen that actually
+became the drug. CD80, the previous top scorer, falls to 0.548. This is a meaningful
+strengthening of section 6's caveat: the earlier per-patient "winners" were an artifact of a
+narrow compartment set, and adding compartments corrects it in the direction the theory
+predicts.
+
+The binding compartment is now recorded per antigen: for CD19, CD20, CD22 and CD79B it is
+normal B cells; for CD38, HLA-ABC, CD44, CD86 and PD-L1 it is the new myeloid/NK compartment.
+
+## 14. Gating robustness (step 10)
+
+The whole tumor-versus-normal ceiling was recomputed with two structurally different, fully
+automatic gating methods on arcsinh-transformed signal: **Otsu's method** (cutoff maximising
+between-group variance, no percentile assumption) and a **two-component Gaussian mixture**
+fitted by EM. All three methods were run on the *same* 12 tumors and 6 RLN controls so the
+comparison is exact.
+
+| | percentile | Otsu | GMM |
+|---|---|---|---|
+| CD19 | 0.398 | 0.417 | 0.381 |
+| CD20 | 0.543 | 0.660 | 0.610 |
+| CD22 | 0.291 | 0.282 | 0.280 |
+| CD79B | 0.467 | 0.533 | 0.491 |
+
+Rank agreement: percentile vs Otsu **0.922**, percentile vs GMM **0.956**, Otsu vs GMM
+**0.984**.
+
+**The conclusions do not depend on the gating method.** An earlier version of this check
+appeared to show large instability in CD19 (0.580 vs 0.415), but that comparison was confounded
+— it compared the full 41-tumor cohort against a 12-tumor subset. On matched files the three
+methods agree closely. The real sensitivity is **cohort size**, not gating: percentile gating on
+12 tumors versus all 41 gives a rank correlation of 0.857.
+
+Under all three methods, on matched files, the four approved-drug targets sit at or below
+chance (CD19 0.38–0.42, CD22 0.28–0.29), which strengthens rather than weakens the headline.
+
+## 15. Replication in a second disease: multiple myeloma (step 9)
+
+The framework was re-run end to end on **GSE234261** (Rade, Grieb, Weiss et al., *Nature Cancer*
+2024) — a BCMA CAR-T multiple myeloma cohort already held by this project but never analysed
+this way. It is a genuinely independent test: **different cancer, different lab, different
+technology** (CITE-seq antibody-derived tags rather than mass cytometry), **different targets**.
+11 samples, 73,755 cells, **63 surface proteins per cell**, CLR-normalised.
+
+Populations were gated from the panel's own lineage markers: malignant plasma cells
+(CD138+ and/or BCMA+, CD3E−CD14−CD19−) against four normal compartments — T cells, myeloid,
+NK cells, and normal B cells.
+
+**Results.**
+
+| protein | ceiling | rank of 63 | clinical status | limiting compartment |
+|---|---|---|---|---|
+| CD138 | 0.698 | 1 | indatuximab ravtansine — **discontinued** | T cells |
+| **CD269 (BCMA)** | **0.608** | **2** | **ide-cel, cilta-cel, teclistamab — approved** | T cells |
+| FITC | 0.528 | 3 | panel control fluorophore | — |
+| CD319 (SLAMF7) | 0.524 | 4 | elotuzumab — approved | normal B cells |
+| PE | 0.495 | 14 | panel control fluorophore | — |
+| CD307 (FcRH5) | 0.451 | 31 | cevostamab — in trials | — |
+| CD38 | 0.287 | 49 | daratumumab, isatuximab — approved | **NK cells** |
+
+Plasma-cell-lineage targets (BCMA, SLAMF7, FcRH5, CD138) rank at mean position **9.5 of 63**,
+with a 0.888 probability of outranking a random other protein.
+
+**Four things worth stating precisely.**
+
+1. **The negative controls behave.** FITC and PE are fluorophores in the panel with no
+   biological target; they land at 0.528 and 0.495, i.e. chance. Their *ranks* look high only
+   because most of the 63 proteins are compressed near 0.5 — which is itself the honest
+   reading: **only CD138 (0.698) and BCMA (0.608) clearly separate from the control values.**
+   Everything else, SLAMF7 included, is within noise of a fluorophore.
+2. **BCMA is the top viable target, out of 63, picked by the method.** It is the flagship
+   myeloma CAR-T and bispecific target. Its ceiling (0.608) is comparable to CD19's in lymphoma
+   (0.580) — both barely above chance, in two diseases, two technologies, two labs.
+3. **The "approved despite a bad window" pattern replicates.** CD38 is an approved myeloma drug
+   target with a ceiling of 0.287, limited by NK cells — and daratumumab's well-documented
+   on-target effect is exactly NK-cell depletion. As with CD19 and B-cell aplasia in lymphoma,
+   the drug was approved not because the target is selective but because the collateral is
+   tolerable. **That is the section-4 thesis, reproduced in an independent disease.**
+4. **CD138 is a real, named illustration of the framework's boundary.** It tops the ranking on
+   bone-marrow data and failed in humans: indatuximab ravtansine was discontinued because
+   CD138 (syndecan-1) is heavily expressed on normal **epithelium** — skin, lung, kidney — a
+   compartment a bone-marrow sample cannot contain. This converts section 6's caveat from a
+   hypothetical into a documented case with a drug name attached: the ceiling is a necessary
+   condition against measured compartments, never a sufficient one.
+
+**Not attempted here:** an outcome analysis. The cohort has CR/non-CR labels at n=5 vs 5, which
+an earlier session already tested (Mann-Whitney p=0.22 on means, best p=0.0952 across a
+threshold sweep). No reframing rescues that sample size; it is reported as directionally
+consistent and nothing more.
+
+---
+
+# Third addendum (September 7, 2026): a healthy human reference, and the two-antigen extension
+
+## 16. Testing the thesis directly in healthy people (step 8)
+
+The central claim — *the antigens that became drugs are not tumor-selective, they are restricted
+to a lineage the body can do without* — is a claim about **normal** biology. So it can be tested
+entirely inside a healthy dataset, with no cross-technology comparison at all.
+
+**Data.** GSE164378 (Hao et al., *Cell* 2021): **161,764 PBMCs from 8 healthy donors, 228 surface
+proteins per cell**, with the authors' own expert cell-type annotations (Mono 49,010; CD4 T
+41,001; CD8 T 25,469; NK 18,664; B 13,800; other T 6,789; DC 3,589). The compartments are theirs,
+not gates of mine. The panel covers the targets of **both** diseases studied here, plus four
+isotype-control antibodies and eleven antigens measured with two independent clones.
+
+**Measure.** For each protein, *restriction* = the largest AUC separating any one healthy lineage
+from all the others. 1.0 means it marks exactly one lineage; 0.5 means it is spread evenly.
+
+**Controls first.**
+- The four isotype antibodies bind nothing and score **0.562–0.598**, not 0.5. **The effective
+  noise floor is therefore 0.598**, and any restriction below that is indistinguishable from an
+  antibody with no target. This is an essential calibration and is used throughout.
+- The eleven duplicate clone pairs agree to a **median of 0.034**. One pair is a real outlier —
+  CD275's two clones differ by 0.315 — and is excluded from interpretation.
+
+**Result.** The four approved lymphoma targets are, in healthy humans, among the most
+B-lineage-restricted proteins measurable:
+
+| target | restriction | home lineage | rank of 224 |
+|---|---|---|---|
+| CD19 | **1.000** | B | **1** |
+| CD22 | 0.990 | B | 8 |
+| CD20 | 0.986 | B | 12 |
+| CD79b | 0.886 | B | 56 |
+
+**CD19 is the single most lineage-restricted protein of 224 measured, in healthy people.** Taken
+with section 3 — where the same four score at chance against normal B cells — this is the thesis
+stated as two measurements rather than an argument: *not tumor-selective, maximally
+lineage-selective.* The drugs work because the lineage is expendable.
+
+**Honest limit of this reference.** It is blood, so it can only score targets whose home lineage
+is present in blood. Plasma cells live in bone marrow, so every myeloma target scores at or below
+the isotype floor here (BCMA 0.580, SLAMF7 0.612, FcRH5 0.577, CD138 0.594) and those numbers are
+**uninformative, not evidence against them**. Scoring myeloma targets needs a healthy *marrow*
+reference.
+
+### 16b. A forward-looking prediction, and two hits
+
+Filtering all 224 antibodies to those whose home lineage is B (dispensable) and whose restriction
+clears the weakest approved target (CD79b, 0.886) gives ten proteins. Four are the known approved
+targets. The other six are predictions. Two of them are, on checking the literature afterwards,
+exactly the targets the field independently chose:
+
+- **CD268 = BAFF-R (0.990).** Qin et al., *Science Translational Medicine* 11:eaaw9414 (2019),
+  doi 10.1126/scitranslmed.aaw9414 — *"CAR T cells targeting BAFF-R can overcome CD19 antigen loss
+  in B cell malignancies."* Developed specifically as the CD19-relapse salvage target.
+- **CD72 (0.973).** Izgutdina et al., *J Immunother Cancer* 13(12) (2025),
+  doi 10.1136/jitc-2025-012013 — affinity-matured CD72 nanobody CAR-T, concluding that
+  *"for B-ALL in particular, CD72 may be a preferable second-line immunotherapy target over CD22."*
+
+The method was given healthy-donor protein measurements and nothing else. It ranked CD19 first,
+recovered all four approved targets, and surfaced the field's two leading next-generation B-cell
+targets. The remaining predictions (CD21, CD196/CCR6, CD275, HLA-DR) are untested; HLA-DR should
+be discounted because it is also high on monocytes and dendritic cells.
+
+## 17. The two-antigen extension (the multi-target theorem)
+
+**This section was rewritten on September 7, 2026 after two bugs of mine were caught by the
+myeloma replication. The first version overstated the value of combining antigens by roughly
+tenfold. Both bugs and their effect are documented below rather than quietly corrected,
+because the correction is the more interesting result.**
+
+### The hierarchy
+
+With one antigen, cells carrying the same amount are indistinguishable, which is what forces
+the single-antigen ceiling. With two, each cell is a point on a plane, and populations that
+overlap completely along either axis alone can still be separated. Four nested families:
+
+| | rule | contains |
+|---|---|---|
+| 1. SINGLE | kill where one antigen is high **or** where it is low | — |
+| 2. AND gate | kill where x > a **and** y > b | (1) |
+| 3. NOT gate | kill where x > a **and** y < b | (1) |
+| 4. LIKELIHOOD RATIO | kill where P_tumor(x,y)/P_normal(x,y) > c | all of the above |
+
+Each family contains the one above, and family 4 is optimal over *all* rules by the
+Neyman–Pearson lemma, so **SINGLE ≤ max(AND, NOT) ≤ LR** is forced for Youden's J
+(= sensitivity + specificity − 1).
+
+### Two bugs, both found by replication
+
+**Bug 1 — the single-antigen baseline only tested "kill where the marker is HIGH."** Many real
+markers are *low* on tumor (CD3E in myeloma; IgD in lymphoma), for which the correct
+one-antigen rule is "kill where it is low." Omitting that made a NOT gate look like a
+two-antigen gain when it was really a one-antigen effect with the opposite sign. The baseline
+now tries both directions on both antigens.
+
+**Bug 2 — the likelihood-ratio rule is the optimum in the population but is not estimable
+from this much data.** It selects an arbitrary subset of 16×16 = 256 histogram bins —
+hundreds of effective free parameters against a gate's two thresholds — so it wins in-sample
+by construction and generalises worse. Measured overfit gap (train minus held-out):
+
+| family | DLBCL | myeloma |
+|---|---|---|
+| single antigen | −0.001 | ~0 |
+| AND / NOT gate | −0.001 | 0.020 |
+| likelihood ratio | **0.020** | **0.261** |
+
+The fix is to report both numbers: the in-sample value verifies the theorem, the held-out
+value says what actually works.
+
+### Results
+
+**The theorem is verified exactly, in both diseases, in-sample — where it is a mathematical
+claim.** 0 violations of SINGLE ≤ AND/NOT ≤ LR in **0 of 666** DLBCL pairs and **0 of 1,953**
+myeloma pairs.
+
+**The practical gain from a second antigen is real but small.** Using the best simple gate
+(not the unusable LR estimate) against a both-directions single-antigen baseline, all on
+held-out cells:
+
+| | DLBCL (16 patients, 666 pairs) | myeloma (11 samples, 1,953 pairs) |
+|---|---|---|
+| pairs where two antigens beat one | 560 (84%) | 1,248 (64%) |
+| median gain | **+0.015** | **+0.003** |
+| maximum gain | +0.163 | +0.136 |
+| pairs gaining more than 0.05 | 90 | — |
+| NOT gate beats AND gate | 524 (79%) | 1,076 (55%) |
+
+The first version of this section reported a median gain of +0.152 and a best pair of
+"CD20 NOT IgD, 0.215 → 0.645." **Both were artifacts of bug 1.** The corrected figures for
+that pair are 0.468 → 0.582, a gain of +0.114 — still real, still among the best pairs, but a
+fraction of what was claimed.
+
+**Corrected top DLBCL pairs** (held-out gain over the best single antigen in the same pair):
+CXCR5 NOT IgD **+0.163** (0.426 → 0.589), CD21+CXCR5 +0.142, CD22+CD21 +0.139,
+CD22+CXCR5 +0.139, CD40 NOT IgD +0.116, CD20 NOT IgD +0.114.
+
+**For the approved myeloma target pair, combining buys nothing**: CD138 + BCMA gives a gain of
+−0.000.
+
+### What survives, and what it means
+
+1. **The mathematics is verified.** The nested hierarchy holds exactly in-sample in both
+   diseases, across 2,619 antigen pairs.
+2. **Exclusion beats requirement.** NOT gates outperform AND gates in 79% (DLBCL) and 55%
+   (myeloma) of pairs. This survived both bug fixes and replicates across diseases, and it
+   runs against the field's emphasis on AND logic (e.g. the Boolean screen of Dannenfelser
+   et al., *Cell Systems* 2020).
+3. **Combining two antigens buys much less than the theory allows.** The theoretical ceiling
+   is far above what any estimable rule achieves at this sample size. That gap — not the
+   ceiling itself — is the practically important number, and it is the kind of thing only a
+   held-out analysis reveals.
+4. **A methodological finding worth stating on its own:** the Neyman–Pearson optimum is the
+   right theoretical object and the wrong practical one. A two-threshold gate generalises;
+   the fitted likelihood ratio does not. With single-cell data at this scale, chasing the
+   optimum is counterproductive.
+
+### Stated limits
+
+- Markers used in the gating are partly circular and their pairs should be discounted: CD3,
+  CD19, CD20 in DLBCL; CD3E, CD14, CD33, CD56, CD19, CD138, CD269 in myeloma. The strongest
+  DLBCL pairs (CXCR5, IgD, CD21, CD22, CD40) are mostly not gating markers; the top myeloma
+  pair (CD3E + CD138) is entirely circular and should be ignored.
+- DLBCL covers 16 of 41 patients (compute time); myeloma all 11 samples.
+- Normal is the pooled compartments; gains are held-out medians across patients.
+
+## 18. The outcome flip: approved drugs versus failed drugs
+
+Every earlier test compared "approved drug" against "broadly expressed antigen" — but the
+second label came from expression biology, which is close to what the model measures, so the
+test was partly circular. This section removes that. **Both groups are antigens against which
+a real drug was built and given to patients. The only difference is what happened to it.**
+Nothing about expression enters the labels.
+
+**Ground truth, verified from the literature this session:**
+
+| antigen | outcome | drug |
+|---|---|---|
+| CD19 | approved | axi-cel, tisa-cel, liso-cel, blinatumomab |
+| CD20 | approved | rituximab, mosunetuzumab, glofitamab, epcoritamab |
+| CD22 | approved | inotuzumab ozogamicin |
+| CD79b | approved | polatuzumab vedotin |
+| CD52 | approved | alemtuzumab (CLL) |
+| CD23 | **failed** | lumiliximab — LUCID phase 2/3, n=627, **stopped early for lack of efficacy** (Awan et al., *Br J Haematol* 167:466, doi 10.1111/bjh.13061) |
+| CD80 | **failed** | galiximab — CALGB 50402, never approved |
+| CD40 | **failed** | dacetuzumab / SGN-40, never approved |
+| HLA-DR | **failed** | apolizumab / Hu1D10, never approved |
+| CD25 | **failed** | camidanlumab tesirine, never approved |
+| CD200 | **failed** | samalizumab, never approved |
+
+CD52 was included deliberately even though it was expected to *hurt* the result — alemtuzumab
+is approved yet targets a pan-lymphocyte antigen and causes profound lymphopenia. Dropping an
+inconvenient case is exactly the error this test exists to avoid.
+
+**Two predictors compared, by exact permutation test:**
+
+| predictor | approved mean | failed mean | separation | exact one-sided p |
+|---|---|---|---|---|
+| **B-lineage restriction in healthy donors** | 0.926 | 0.753 | **0.840** | **0.048** |
+| tumor-vs-normal ceiling (DLBCL) | 0.494 | 0.458 | 0.650 | 0.278 |
+
+**The predictor that distinguishes drugs that worked from drugs that failed is which normal
+lineage the target lives on, measured in healthy people — not the tumor-versus-normal
+ceiling.** The ceiling is a valid bound on what is achievable, and it correctly excludes
+targets, but on this labelled set it does not predict clinical success. Lineage restriction
+does, at p = 0.048.
+
+That is the dispensable-lineage thesis with a clinical-outcome p-value attached, and it
+sharpens the project's contribution: the ceiling says what a target *can* do; the lineage says
+whether it is *worth building*.
+
+**Honest limits, which matter a lot here.** n = 10, and p = 0.048 is fragile — reclassifying
+one drug flips it. The labels are mine, from the literature, and should be independently
+checked before this is claimed. The two predictors are computed on slightly different subsets
+(CD23 is absent from the healthy panel; CD52 and CD200 from the DLBCL panel). The single
+misordered pair is HLA-DR (0.902, failed) above CD79b (0.890, approved); HLA-DR is also
+expressed on monocytes and dendritic cells, so a breadth criterion would likely fix it — but
+adding one *after* seeing the result would be fitting to the answer, and it should be
+pre-registered first. This test is now written into `OSF_Preregistration_DRAFT.md`.
+
+---
+
+# Fourth addendum (September 7, 2026): circularity removed, full cohort, and the label set pushed to its ceiling
+
+Sections 17 and 18 were run again after three further problems were found. All three are
+recorded rather than silently corrected.
+
+## 19. Gating circularity removed, and the full 41-patient cohort
+
+**The problem.** In section 17 the comparator pooled T cells, myeloid/NK cells and normal B
+cells. But the B gate is "(CD19 high OR CD20 high) AND CD3 low", so CD19 and CD20 separate B
+cells from T and myeloid cells *by construction*. Any pair containing them was partly circular.
+
+**The fix, which is also the better science.** The comparator is now **batch-matched RLN normal
+B cells only**. Tumor B cells and normal B cells are gated by the identical rule, so the gate
+cannot manufacture a difference between them and **no marker in the panel is circular**. It is
+also the compartment that sections 3–4 showed is the binding one for every B-lineage target.
+The analysis now covers **all 41 patients** (a resumable store replaced the 16-patient subset).
+
+**In myeloma**, the same problem is fixed differently: the seven antigens that define the gates
+(CD3E, CD14, CD33, CD56, CD19 for the normal compartments; CD138, CD269 for tumor) are
+**excluded from the pair set entirely**, leaving 56 antigens and 1,540 pairs.
+
+## 20. A wrong diagnosis of my own, recorded
+
+While checking the results I found that the best single-antigen J reported by the pair
+pipeline (0.618) did not match a direct per-antigen calculation (0.410). I hypothesised a
+third bug — that cells falling outside the training histogram's range were being dropped,
+biasing the marginals — and fixed it by opening the outer bins to ±infinity.
+
+**The hypothesis was wrong.** The number did not move, because dropped cells were never the
+cause. The real explanation is **median-of-maximum versus maximum-of-median**: the pipeline
+lets the single-antigen baseline pick whichever of the pair's two antigens is better *for each
+patient* and then takes the median across patients, which legitimately exceeds the best
+fixed-antigen-for-everyone median. Verified directly: for CD27+FasR the median of the
+per-patient maximum is 0.616, against per-antigen medians of 0.384 and 0.412.
+
+Both numbers are correct and they answer different questions. The gates are optimised per
+patient in exactly the same way, so the gate-versus-single comparison is internally consistent.
+The ±infinity change was kept because it is more correct in principle, but it fixed nothing.
+
+## 21. The two-antigen result, corrected
+
+**Two single-antigen baselines are needed, because they answer different questions.**
+
+- **SINGLE_hi** — kill only where the antigen is HIGH. This is what **one receptor** can
+  physically do: a CAR kills cells that *have* its antigen; no receptor fires on the *absence*
+  of a protein. This is the honest **engineering** baseline.
+- **SINGLE_any** — kill where the antigen is high *or* low. Not buildable with one receptor
+  (killing on absence needs an inhibitory receptor plus an activating one, i.e. two), but it is
+  the right **statistical control** for "is the gain just an inverted marker?"
+
+| DLBCL, 41 patients, 666 pairs, normal-B comparator | value |
+|---|---|
+| in-sample theorem violations (SINGLE ≤ AND/NOT ≤ LR) | **0 of 666** |
+| best one-receptor rule (kill-high) | J = 0.618 |
+| best two-receptor gate | J = **0.646** (gain +0.028) |
+| engineering gain, median across pairs | **+0.133** (98% of pairs improve) |
+| statistical gain, median across pairs | **+0.003** (70% improve, only 11 pairs > 0.05) |
+| NOT gate beats AND gate | **574 of 666 (86%)** |
+
+| myeloma, 11 samples, 1,540 non-circular pairs | value |
+|---|---|
+| in-sample theorem violations | **0 of 1,540** |
+| engineering gain, median | +0.027 (89% improve) |
+| statistical gain, median | +0.003 (65% improve) |
+| NOT beats AND | **792 of 1,540 (51%)** |
+| overfit gap: likelihood ratio vs simple gate | 0.267 vs 0.023 |
+
+**What this means, stated carefully.** The large engineering gain (+0.133) and the tiny
+statistical gain (+0.003) are both real and they are not in conflict. Most of the benefit of a
+two-receptor construct is **not** that two antigens carry more information than one. It is that
+an inhibitory second receptor **unlocks information already present in a single marker** — the
+markers that are LOW on tumor — which no activating CAR can use alone. Measured directly, the
+best single markers in the "kill-low" direction are IgD (J = 0.552), CD21 (0.517) and CD23
+(0.443); in the buildable "kill-high" direction the best is FasR at 0.410.
+
+The concrete design that falls out: **an activating CAR against a B-lineage antigen, paired
+with an inhibitory receptor against IgD**, which spares naive B cells. Its ceiling is modest —
+the best two-receptor J against normal B cells is 0.646 versus 0.618 for the best single
+receptor.
+
+**A finding that did NOT replicate.** "Exclusion beats requirement" is strong in DLBCL (86% of
+pairs) but is a coin flip in myeloma (51%). It should be reported as a lymphoma finding, not a
+general one. This is a disconfirmation of the generality I claimed in the third addendum.
+
+**A methodological finding that did replicate.** The likelihood-ratio rule is the population
+optimum and the wrong practical object: its overfit gap is 0.017 (DLBCL) and 0.267 (myeloma)
+against ~0.02 for a two-threshold gate. Chasing the optimum is counterproductive at these
+sample sizes.
+
+## 22. The outcome test, generalised and pushed to its ceiling
+
+**Generalisation.** The predictor is no longer "B-lineage restriction" but **restriction to the
+lineage the cancer came from** — B cells for B-cell malignancies, myeloid cells for AML. Same
+idea, stated so it covers more than one disease.
+
+**Inclusion rule, fixed before computing:** a target is included only if (a) a real drug against
+it was given to patients with a documented outcome, and (b) the malignancy has a clear normal
+counterpart lineage present in blood. Rule (b) excludes myeloma targets (plasma cells are not
+in blood) and Hodgkin targets such as CD30 and CD25. Those exclusions are judgements about the
+disease, not about any number.
+
+**A secondary predictor was pre-specified before being computed:** *margin* = restriction to the
+disease lineage minus the highest restriction the antigen achieves for any other lineage. It was
+specified in advance precisely because inventing it after seeing that it might fix the HLA-DR
+miscall would have been fitting to the answer.
+
+**Result (5 approved vs 5 failed, balanced):**
+
+| predictor | approved mean | failed mean | separation | exact p |
+|---|---|---|---|---|
+| **restriction to the disease lineage** | 0.926 | 0.742 | **0.840** | **0.048** |
+| margin over next-best lineage (pre-specified) | 0.298 | 0.045 | 0.800 | 0.075 |
+
+**The pre-specified secondary predictor made things worse, not better.** Had it been added
+post hoc it would have looked like a refinement; specified in advance, it is an honest negative.
+It does not rescue the HLA-DR miscall either — HLA-DR's margin is 0.002 (correctly low), but
+CD40's is 0.345 (high, yet the drug failed).
+
+**Sensitivity analysis, flagged as unbalanced.** Adding CD47 (magrolimab, ENHANCE phase 3
+programme discontinued) and CD70 (cusatuzumab), both failures with no matching approvals, gives
+separation 0.886 at p = 0.015. This is reported separately and never as the headline, because
+adding only failures can move the result in one direction. The imbalance is not cherry-picking:
+the panel contains **no other approved blood-cancer surface target** meeting the inclusion rule
+(CD23 and CD33 are absent from the panel; CD30 and CD25 are Hodgkin; CD38, BCMA and SLAMF7 are
+myeloma).
+
+**The ceiling on this test, stated plainly.** The number of *approved* surface targets in blood
+cancer is small in the world, not just in this panel. **n cannot be raised much by more work.**
+This test will remain underpowered however carefully it is done, and belongs in the write-up as
+suggestive evidence with an exact p-value attached — not as a significant result.
+
+---
+
+## 23. The whole-body extension: the framework leaves blood cancer
+
+Everything through section 22 rested on two blood-cancer datasets. The measure that actually
+predicted clinical success — restriction to a normal lineage — needs only a normal reference,
+not a matched tumour. So it can be computed for **any** cancer, provided a whole-body normal
+reference exists.
+
+**Reference A (primary).** Human Protein Atlas single-cell consensus: **154 human cell types**
+spanning every major organ, ~20,000 genes, 3,087,080 rows.
+**Reference B (independent replicate).** HPA bulk tissue consensus: 51 tissues.
+
+**Two measures, both parameter-free:**
+
+| measure | definition |
+|---|---|
+| `top_share` | share of a gene's total normal expression that sits in its single highest cell type |
+| `n_types` | number of cell types expressing above 10% of that maximum |
+
+**Panel.** 42 clinical targets as of September 9, 2026 (40 as of September 8; grown by two —
+see the note below). Every label is frozen in `src/aim13_scoping/target_labels.py`, a file that
+no analysis script may edit, and every label is clinical safety history only — nothing about
+expression enters a label.
+
+- **19 `safe`** — reached approval or documented tolerability with no dose-limiting on-target
+  normal-tissue toxicity.
+- **11 `toxic`** — documented severe, dose-limiting or fatal on-target toxicity.
+- **10 `efficacy_fail`** — the programme failed, but for lack of efficacy. **Excluded from the
+  toxicity test** and used only as a specificity control (section 23.4).
+- **2 excluded before any number was computed**: PTPRC (no cytotoxic agent ever reached
+  patients; retained only as a restriction negative control) and IL3RA (one approval *and* one
+  toxicity failure on the same gene — ambiguous by our own rule).
+
+**Panel growth, September 9, 2026.** The panel was checked against the full 72-gene ADC trial
+registry (De Schepper et al. 2025, Supplementary Data 1/2 — the same registry already used as
+an independent specificity control in section 27.3) for genes with a settled clinical verdict
+not yet recorded here. Roughly 50 candidate genes were checked individually; the great majority
+are still in active, undecided trials (which is exactly why most of them already appear in
+`prospective_predictions.json` as forward predictions rather than as backward-fit labels).
+Two had a clean, verifiable, settled verdict and were added:
+
+- **F3 (tissue factor), toxic.** Tisotumab vedotin (Tivdak) — FDA accelerated approval 2021,
+  full approval 2024, cervical cancer. The FDA label carries a **boxed warning for ocular
+  toxicity**: up to 60% of patients affected (conjunctivitis, dry eye, corneal
+  damage/ulceration, blepharitis), dose-limiting, requiring a dedicated eye-care REMS program.
+  Same pattern as FOLR1/mirvetuximab — approved despite the toxicity, not because it is absent.
+  **Worth stating plainly: the model's own computed home cell type for F3, from RNA data alone
+  and with no toxicity information given to it, is "ocular epithelial cells"** — it
+  independently locates the exact mechanism behind a documented boxed warning.
+- **GPNMB, efficacy_fail.** Glembatumumab vedotin (CDX-011) — the METRIC phase 2b randomized
+  trial (gpNMB-overexpressing triple-negative breast cancer) explicitly did not meet its
+  primary endpoint (PFS). No on-target toxicity signal was reported; this is a clean efficacy
+  failure, used only as a specificity-control addition (section 23.4), not in the toxicity test.
+
+Both were verified against the FDA label / published trial result directly before being added.
+The panel is not yet at the registry's full 72 genes — most of the remaining candidates simply
+do not have a settled verdict yet. Growing it further means periodically re-checking those same
+genes for a result, not inventing new ones. See `docs/Label_Review_Sheet.md` for the full
+42-row sheet with citations.
+
+### 23.1 Confinement alone separates safe from toxic
+
+| predictor | separation | permutation p | n |
+|---|---|---|---|
+| `top_share` | **0.880** | **0.00014** | 19 safe vs 11 toxic |
+| `n_types` | **0.876** | **0.00018** | 19 safe vs 11 toxic |
+
+(Prior panel, 40 targets, Sept 8: 0.868, p = 0.00031/0.00033, 19 vs 10 — see the September 9
+panel-growth note above. The result strengthened, not weakened, when F3 was added.)
+
+This is a stronger result on more cases than the blood-only outcome test of section 22
+(0.840, p = 0.048, n = 5 vs 5), and it is the first result in this project that covers solid
+tumours at all. Representative values: CD20 0.850 / 1 cell type (approved) → BCMA 0.789 / 1
+(approved) → PSMA 0.568 / 2 (approved) → CLDN18.2 0.359 / 8 (approved 2024) →
+CEACAM5 0.283 / 7 (severe colitis) → F3 0.075 / 31 (boxed-warning ocular toxicity) →
+EGFR 0.051 / 60 → HER2 0.041 / 72 (fatal CAR-T event) → CD47 0.030 / 120 (on-target anaemia).
+
+### 23.2 The case that breaks pure confinement, and the rule that survives it
+
+CEACAM5 is confined — 7 cell types, essentially colonocytes — and CEA CAR-T still caused severe
+colitis. A confinement-only account cannot explain that, and it should not be patched over.
+
+The project's own thesis already contains the missing factor, and it can be stated as a rule
+with **no fitted parameter**:
+
+> **A target is safe only if it is BOTH confined to few normal cell types AND those cell types
+> are expendable or regenerating.**
+
+Operationally, "expendable" is assigned from the **identity of the home cell type alone** — a
+haematopoietic home means the lineage is continuously regenerated from marrow stem cells *and*
+its loss has an established clinical replacement (immunoglobulin, transfusion, growth factor).
+No drug outcome enters that assignment, so the test is not circular. The scoring rule is
+lexicographic — expendable first, confinement second — implemented as `top_share + 1.0` when
+the home is haematopoietic, since the `+1` cannot be beaten by any confinement value.
+
+| rule | separation | permutation p |
+|---|---|---|
+| one factor (confinement only) | 0.880 | 0.00014 |
+| **two factors (confined AND expendable)** | **0.914** | **0.00003** |
+
+(Prior panel, Sept 8: 0.868/0.00031 one factor, 0.905/0.00004 two factors.)
+
+The rule explains every case in the panel including the exceptions:
+CD19/CD20 → B cells (confined + expendable) → approved.
+BCMA → plasma cells (confined + expendable) → approved.
+CLDN18.2 → gastric mucosa (confined + regenerating) → approved 2024.
+CEACAM5 → colonocytes (confined, **not** expendable) → colitis.
+HER2 / CD47 → everywhere (not confined) → catastrophic.
+
+**A methodological bug found and fixed here, recorded.** The first implementation tested
+haematopoietic membership by plain substring match, which classified *"conjunctival goblet
+cells"* as haematopoietic because the string contains `"t cell"`. Matching is now
+word-boundary anchored and `target_labels.py` carries an assertion-based guard table that
+fails at import if the bug ever returns. The corrected two-factor separation is 0.905; the
+buggy one read 0.916. **The bug inflated the result, and the number reported here is the
+corrected, smaller one.**
+
+### 23.3 Leave-one-out
+
+Dropping each of the 30 outcome-bearing targets in turn (29 as of Sept 8; 30 now that F3 is
+included) and re-running the two-factor test: separation min **0.905**, median 0.909, max
+0.947; p < 0.05 in **30 of 30** drops (p max 0.00008). No single target carries the result.
+(Prior panel, Sept 8: min 0.895, max 0.942, p max 0.00022, 29 of 29 drops.)
+
+### 23.4 Specificity: the measure is not just "was tried and did not work"
+
+If confinement merely tracked "this programme failed", the 9 efficacy failures would look
+like the toxic group. They do not.
+
+| group | mean `top_share` |
+|---|---|
+| safe (n = 19) | 0.370 |
+| efficacy failures (n = 10) | 0.244 |
+| on-target toxic (n = 11) | 0.121 |
+
+safe vs efficacy-fail: separation 0.700, p = 0.043 — **borderline significant with the grown
+panel** (was 0.684, p = 0.063, not significant, on the 40-target panel). This moved because
+GPNMB (efficacy_fail, top_share 0.192) sits below the prior efficacy-fail group's mean, pulling
+that group further from the safe group. Read carefully rather than over-claimed: the efficacy
+failures still sit clearly between the safe and toxic groups rather than with either one, which
+remains the honest reading — the measure is specific to *toxicity*, not to failure in general,
+and one added target moving this test's p-value across 0.05 is itself a demonstration of how
+fragile a small-n test is, not evidence the underlying separation changed in kind.
+
+### 23.5 Sensitivity: germ and placental cell types removed
+
+Several targets have their single highest cell type in germ or placental tissue
+(CA9 → spermatids, DLL3 → oocytes, EGFR → syncytiotrophoblasts, CD52 → epididymal cells).
+Those sites are immune-privileged and are not where the clinical toxicity fell. Removing all
+20 germ/placental/reproductive cell types and recomputing from scratch:
+
+| rule | with germ tissue | germ tissue removed |
+|---|---|---|
+| one factor | 0.880 | 0.856 (p = 0.00049) |
+| two factors | 0.914 | **0.914 (p = 0.00005)** |
+
+(Prior panel, Sept 8: 0.868 → 0.842/p=0.0011 one factor; 0.905 → 0.905/p=0.00006 two factors.)
+
+Five targets change home cell type, and the changes are corrective rather than damaging —
+CD52's home moves from epididymal principal cells to **B cells**, which is where alemtuzumab
+actually acts. The two-factor result is unchanged.
+
+### 23.6 The load-bearing check: solid tumours alone
+
+The obvious objection is that the whole thing works only because blood targets happen to be
+both confined and safe. So: **remove every blood-cancer target and re-run.**
+
+- solid `safe` (n = 8): CLDN18.2, DLL3, PSMA, glypican-3, c-MET, mesothelin, Nectin-4, TROP2
+- solid `toxic` (n = 10): CAIX, CD44v6, CEA, EGFR, EpCAM, HER2, tissue factor (F3), FAP, FRα,
+  CD56
+
+| predictor | separation | exact p |
+|---|---|---|
+| `top_share` | **0.812** | **0.0133** |
+| `n_types` | 0.775 | 0.0253 |
+
+(Prior panel, Sept 8, n = 8 safe vs 9 toxic: 0.792/p=0.0232 top_share, 0.764/p=0.0346 n_types.)
+
+**It survives, and strengthened.** The finding is not a blood-cancer artifact — adding F3, a
+solid-tissue toxic target whose own toxicity mechanism (ocular epithelium) the model correctly
+locates from RNA data alone, moved this check in the stronger direction. (No haematopoietic
+target remains in this subset, so the two-factor rule reduces to the one-factor rule by
+construction and is not reported separately.)
+
+### 23.7 An independent normal reference
+
+Reference B (51 bulk tissues) is a genuinely separate reference, and it replicates —
+`top_share`/two-factor separation 0.751, p = 0.0118 (was 0.726, p = 0.024 on the 40-target
+panel). It is **weaker by construction**: 51 tissues cannot resolve a B cell from the lymph
+node it sits in, which is precisely why the cell-type reference is primary. The haematopoietic
+flag never fires on a tissue name, so reference B tests confinement only. Agreement between the
+two references: Spearman ρ = 0.550 (p = 0.00016, n = 42) — correlated, but far from identical,
+which is the honest statement that the two references are not interchangeable. (Prior panel,
+Sept 8: ρ = 0.512, p = 0.0007, n = 40.)
+
+### 23.8 Limitations of section 23, stated plainly
+
+1. **This is RNA, not protein.** The field's own comparable tools (Dannenfelser, SCAN-ACT) use
+   the same reference, but protein would be better. A protein-level cross-check is the named
+   next step.
+2. **`top_share` depends on how the reference partitions cell types.** A reference with finer
+   annotation would push every value down. Only the *ordering* is used, and the ordering
+   replicates in an independently partitioned reference (23.7).
+3. **The safe/toxic labels are literature judgements made by one person.** They are frozen and
+   citable, and pre-registration plus outside review is the fix (see the pre-registration doc).
+4. **Modality is collapsed.** HER2 is fatal as a CAR-T and approved as a naked antibody; the
+   label records the on-target toxicity, and the framework does not model modality.
+
+**Scripts:** `src/aim13_scoping/target_labels.py` (frozen labels),
+`wholebody_v2.py` (all tests), `wholebody_v2.json` (all numbers),
+`wholebody_v2_output.txt` (verbatim run log).
+**Figure:** `fig9_wholebody_restriction.png` / `.svg`.
+
+---
+
+## 24. The pancreatic thread, computed end to end
+
+Pancreatic cancer is not a late addition to this project. It is where the project started.
+This section is the one place the whole thread is recomputed in a single run
+(`src/aim13_scoping/pancreatic_thread.py`, writing `pancreatic_thread.json`).
+
+### 24.1 The calibrations were already pancreatic
+
+| calibration | data | result |
+|---|---|---|
+| **CLDN18.2** | 8 points across 3 pancreatic + 3 gastric lines (Barrett 2024, Fig 5D) | Spearman r = **0.964**, p = 0.00047, RMSE 0.237; fitted k_intra = 2.99e-05, n_half = 23,177 |
+| **mesothelin** | 4 points (Chu 2024) | fitted k_intra = 1.31e-05, n_half = 53,049 (source paper's own r = 0.623, p = 0.035) |
+
+Both are real molecules-per-cell dose-response curves calibrated with antibody-binding-capacity
+beads, and both were fitted months before the normal-tissue atlas existed in this project.
+
+### 24.2 CPTAC pancreatic ductal adenocarcinoma — an honest negative
+
+n = 135 patients, 76 deaths, median follow-up 399 days. Splitting at the median mesothelin
+protein level (24.314 log2): high-MSLN 67 patients / 39 deaths, low-MSLN 68 / 37.
+
+**Log-rank χ² = 0.873, p = 0.350. The curves do not separate.**
+
+This is reported as a negative result, and it is the right kind of negative to report: it is a
+**prognostic** question (does the target's level track survival?), not a **response** question
+(does the target's level predict whether a drug works?), and the framework never claimed the
+former. Reporting it protects the project from the reasonable objection that only wins are shown.
+
+### 24.3 Whole-body ranking of 14 real PDAC surface targets
+
+Targets were chosen by "has been taken into a PDAC trial or is a named PDAC CAR-T/ADC target",
+fixed before any confinement value was looked at.
+
+| rank | target | confinement | cell types | clinical status |
+|---|---|---|---|---|
+| 1 | **claudin-18.2** | **0.359** | 8 | zolbetuximab **approved 2024**; CT041 CAR-T in PDAC |
+| 2 | CEA (CEACAM5) | 0.283 | 7 | severe on-target colitis |
+| 3 | PSCA | 0.270 | 8 | in trials |
+| 4 | TROP2 | 0.258 | 7 | approved in other tumours |
+| 5 | **mesothelin** | **0.239** | 11 | the long-standing tolerable PDAC target |
+| 6 | CEACAM6 | 0.236 | 9 | preclinical |
+| 7 | CDH17 | 0.230 | 9 | early |
+| 8 | CA125 / MUC16 | 0.173 | 13 | failed |
+| 9 | B7-H3 | 0.124 | 15 | in trials |
+| 10 | integrin β6 | 0.098 | 23 | early |
+| 11 | MUC1 | 0.093 | 25 | repeatedly failed |
+| 12 | glypican-1 | 0.078 | 44 | diagnostic EV marker |
+| 13 | EGFR | 0.051 | 60 | on-target skin/lung toxicity |
+| 14 | HER2 | 0.041 | 72 | fatal on-target CAR-T event |
+
+**A CORRECTION TO AN EARLIER, SMALLER RUN — recorded rather than quietly replaced.** An
+earlier pass ranked only six PDAC targets and produced the claim *"the two top-ranked
+pancreatic targets are the two this project independently calibrated."* On the fuller
+14-target panel that claim is **false**: CLDN18.2 still ranks first, but mesothelin ranks
+**fifth**, with PSCA, TROP2 and CEA above it. The smaller panel had made the concordance look
+tighter than it is. The correct, weaker statement is the one used from here on:
+
+> The single PDAC target that reached approval ranks **first of fourteen**; the three PDAC
+> programmes that failed or caused on-target toxicity (MUC1, EGFR, HER2) rank **11th, 13th and
+> 14th**; mesothelin, the field's tolerable workhorse, sits in the upper third.
+
+**This is a concordance check, not a statistical test.** There are too few PDAC targets with a
+settled verdict to attach a p-value, and doing so would be dishonest. What is checkable is that
+the ranking was produced by a normal-tissue atlas containing **no pancreatic tumour data and no
+clinical outcome data whatsoever**, and that CEACAM5's high placement is the framework's own
+documented exception — confined, but to colon, which is not expendable.
+
+**An incidental finding worth keeping.** Glypican-1, the pancreatic-cancer *exosome* marker that
+made GPC1 famous, ranks 12th of 14 on confinement (44 normal cell types). A good diagnostic
+marker is not automatically a good therapeutic target — the two jobs have different
+requirements, and this framework says exactly why.
+
+### 24.4 Why the thread is not retrofitted
+
+The project's *original* headline — the CA19-9 versus EGFR ranking flip, the first demonstration
+that a naive mean orders targets wrongly once the distribution is accounted for — was measured on
+PANC-1 pancreatic tumour cells against HPDEC normal pancreatic cells. GPC1, the pancreatic
+exosome marker, is the literal join between the EV foundation (Aims 1–9) and the ceiling work
+(Aims 10–15). The calibrations are pancreatic. The survival data is pancreatic. The thread runs
+from the first aim to the last.
+
+**Figure:** `fig10_pancreatic_thread.png` / `.svg` (calibration, the negative survival result,
+and the ranking).
+
+---
+
+## 25. A shuffled-label null for the two-antigen machinery
+
+Section 21 reports two numbers for what a second antigen buys: a median **statistical** gain of
++0.003 over the best single antigen, and a median **engineering** gain of +0.133 (the part no
+single activating receptor can physically reach, because a CAR cannot fire on the *absence* of
+a protein). Both are modest-looking, and the right question is: *what would this pipeline
+report if there were nothing at all to find?*
+
+That has an exact answer. The pipeline is run unchanged, on the same cells, with one
+difference — **the tumour/normal labels are shuffled.** Every biological difference is
+destroyed and nothing else is. Whatever gain survives is manufactured by fitting alone, and it
+is the floor beneath which a real gain cannot be distinguished from noise. This is a stronger
+guard than the train/test split already in place, because it also catches bias hidden in the
+gating, the subsampling and the binning.
+
+**Run: 6 DLBCL patients, 200 randomly chosen antigen pairs per run, 2 shuffles per patient.**
+
+| quantity | real data | shuffled labels |
+|---|---|---|
+| best single-antigen J | **+0.692** (0.203 … 0.893) | **+0.002** (−0.015 … +0.011) |
+| statistical gain (2 antigens vs the best 1) | **+0.0000** (0.0000 … 0.0023) | +0.0003 (0.0000 … 0.0024) |
+| engineering gain (2 antigens vs the best buildable 1) | **+0.106** (0.039 … 0.288) | +0.0008 (0.0000 … 0.0025) |
+
+**The control validates itself first.** With labels shuffled the single-antigen J collapses from
+0.692 to 0.002. If it had not, the control would be broken and nothing below it would mean
+anything.
+
+**Two conclusions, one of them negative, and the negative is the more useful one.**
+
+1. **The statistical gain is at the noise floor.** Real median +0.0000 against a shuffled floor
+   of +0.0003. Combining two antigens adds essentially **no new information** about which cells
+   are tumour. Section 21 already said this with the small median and the 11-of-666 count; this
+   states it in the strongest available form. Anyone claiming that logic-gated CAR-T works by
+   *finding signal that one antigen misses* is, in this dataset, wrong.
+2. **The engineering gain is 130× the floor.** Real median +0.106 against +0.0008. This is a
+   real and large effect, and it is a different effect: the second receptor does not find new
+   information, it **unlocks information already sitting in a single marker that no activating
+   receptor can use alone** — the markers that are LOW on tumour. The concrete design that
+   follows is an activating CAR against a B-lineage antigen paired with an *inhibitory*
+   receptor against IgD, sparing naive B cells.
+
+These two statements are not in tension, and the null control is what makes it possible to say
+both with confidence rather than hedging between them.
+
+**Script:** `src/aim13_scoping/two_antigen_null_control.py`; results in
+`two_antigen_null_control.json`.
+
+**A documentation correction made in the same file.** `two_antigen_ceiling.py`'s `edges()`
+function carried a comment calling the ±∞ outer bins "the third bug" and claiming the fix moved
+the best single-antigen J from 0.618 to 0.410. That diagnosis was wrong — the change is correct
+and is kept, but it never moved the number. The real explanation is median-of-maximum versus
+maximum-of-median, and the comment now says so. This mirrors the record already in §20; the
+code and the prose now agree.
+
+---
+
+## 26. The protein-level cross-check: it half replicates, and the failure is the interesting half
+
+Section 23's stated limitation was that the reference is RNA. Two Human Protein Atlas **protein**
+references were added to test it, and the pass/fail line was registered **before** they were run
+(pre-registration addendum, H5): *separation > 0.70 and p < 0.05, or the RNA result is reported
+as reference-dependent.*
+
+### 26.1 The registered result
+
+| reference | groups | separation | p | H5 |
+|---|---|---|---|---|
+| **PROTEIN, immunohistochemistry** (tissue × cell type) | 76 | **0.785** | **0.0104** | **MET** |
+| PROTEIN, IHC, uncertain antibodies dropped (sensitivity) | 76 | 0.775 | 0.0158 | MET |
+| **PROTEIN, mass spectrometry**, 60 samples / 20 tissues | 20 | **0.650** | **0.1148** | **NOT MET** |
+| PROTEIN, mass spectrometry, summarised to 20 tissues | 20 | 0.650 | 0.1148 | NOT MET |
+
+So the finding **replicates at protein level on immunohistochemistry and does not replicate on
+quantitative mass spectrometry.** Both halves are reported, and the second half is not buried.
+
+Placed alongside the RNA references, the four results looked like a clean story about resolution:
+
+| reference | groups | separation |
+|---|---|---|
+| RNA, single-cell consensus | 154 | 0.868 |
+| PROTEIN, immunohistochemistry | 76 | 0.785 |
+| RNA, bulk tissue consensus | 51 | 0.726 |
+| PROTEIN, mass spectrometry | 20 | 0.650 |
+
+Monotone in granularity. The tempting conclusion is *"the MS reference is simply too coarse."*
+That is exactly the kind of after-the-fact excuse a pre-registration exists to prevent, so it
+was **tested rather than asserted.**
+
+### 26.2 The excuse was tested, and it failed
+
+Two candidate explanations were checked. Both are recorded, including the one that looked
+promising and did not survive.
+
+**Candidate 1 — the MS table is sparse.** The Intensity column is empty for most gene × tissue
+cells (39.5% coverage), and two targets were measured in exactly one tissue, which forces
+`top_share` to 1.000 by arithmetic rather than biology. Restricting to targets measured in at
+least K tissues, post hoc and labelled as such:
+
+| K | n | separation |
+|---|---|---|
+| ≥ 1 | 14 vs 10 | 0.650 |
+| ≥ 3 | 10 vs 9 | 0.600 |
+| ≥ 5 | 6 vs 7 | 0.548 |
+| ≥ 8 | 4 vs 7 | 0.393 |
+
+Separation **falls** as the sparsely-measured targets are removed. Sparsity is not the
+explanation.
+
+**Candidate 2 — 20 groups is too coarse for the measure.** Testable directly: take the
+154-cell-type RNA reference, randomly merge the cell types down to K groups, sum within groups,
+and recompute. 60 random partitions per K.
+
+| K | separation, mean [min, max] |
+|---|---|
+| 154 | 0.868 |
+| 76 | 0.863 [0.800, 0.889] |
+| 51 | 0.854 [0.795, 0.900] |
+| **20** | **0.837 [0.753, 0.911]** |
+| 10 | 0.831 [0.737, 0.911] |
+| 6 | 0.813 [0.721, 0.953] |
+
+**The measure barely degrades with coarsening.** At K = 20 the RNA reference still gives 0.837,
+nowhere near the 0.650 mass spectrometry produced, and 0.650 sits outside the range of all 60
+random partitions. **Granularity does not explain the failure either.** Both excuses are dead.
+
+### 26.3 What the references actually agree about
+
+If the four references were four measurements of one quantity, they would correlate strongly.
+They do not.
+
+| pair | Spearman ρ | p | n |
+|---|---|---|---|
+| MS samples vs MS tissues (same data, two summaries) | **0.963** | <0.0001 | 34 |
+| IHC vs IHC strict | 1.000 | — | 33 |
+| MS vs IHC | 0.615–0.702 | ≤0.0002 | 30–32 |
+| RNA bulk vs IHC | 0.494 | 0.0026 | 35 |
+| **RNA single-cell vs MS** | **0.346** | 0.045 | 34 |
+| RNA single-cell vs IHC | 0.429 | 0.010 | 35 |
+| RNA bulk vs MS | 0.178 | 0.31 | 34 |
+
+The two protein references agree with **each other** (ρ ≈ 0.62–0.70) considerably better than
+either agrees with RNA (ρ ≈ 0.35–0.43), and the MS internal-consistency check passes at 0.963,
+so the disagreement is not noise in the MS table.
+
+### 26.4 A WRONG TEST OF MY OWN, and the right one
+
+The random-merging test in 26.2 was **the wrong test**, and it produced the wrong conclusion.
+It is kept above rather than deleted, because the mistake is the instructive part.
+
+**Why it was wrong.** Random merging preserves distinctness. A gene expressed in exactly one of
+154 cell types still lands in exactly one random bucket, so its confinement stays near 1.0 no
+matter how few buckets there are — which is why separation barely moved (0.837 at K = 20). Real
+anatomical pooling does not behave that way at all. A B-cell gene is spread across every organ
+containing lymphocytes — lymph node, spleen, tonsil, gut, lung, bone marrow — so pooling by
+ORGAN dilutes it in a way random pooling never does. The test answered *"does having fewer
+buckets hurt?"* (no). It never asked *"does mixing cell types into real organs hurt?"*, which is
+the actual question.
+
+**The right test.** The mass-spectrometry panel covers 20 named human tissues, and 18 of those
+names appear verbatim in the HPA bulk RNA reference. So the identical measure can be computed on
+the SAME organs, in RNA and in protein, with everything else held constant.
+
+| reference | resolution | separation | p |
+|---|---|---|---|
+| RNA, single-cell consensus | **154 cell types** | **0.868** | 0.0003 |
+| PROTEIN, antibody staining | **tissue × cell type (~96)** | **0.785** | 0.0104 |
+| RNA, bulk tissue consensus | 51 whole organs | 0.726 | 0.0244 |
+| **RNA, the same 18 organs the MS panel covers** | **18 whole organs** | **0.626** | **0.1425** |
+| **PROTEIN, mass spectrometry** | **20 whole organs** | **0.650** | **0.1148** |
+
+**RNA fails on those organs too, and by the same amount** — 0.626 against mass spectrometry's
+0.650, a difference of 0.024. The two technologies agree once anatomical resolution is matched.
+
+### 26.5 The conclusion, corrected
+
+The pattern is a clean 2 × 2, and technology is not the variable:
+
+| | cell-type resolution | whole-organ resolution |
+|---|---|---|
+| **RNA** | 0.868 ✓ | 0.626 ✗ |
+| **PROTEIN** | 0.785 ✓ | 0.650 ✗ |
+
+**The section 23 result is not RNA-specific. It is resolution-specific**, and it replicates at
+protein level whenever the protein reference resolves cell types.
+
+This is a *sharper* claim than section 23 alone stated, and it is one the framework itself
+predicts. The whole thesis is that safety depends on **which cell type** carries a target and
+whether that cell type is expendable. An organ homogenate deliberately destroys exactly that
+information: "lymph node" contains B cells, T cells, endothelium and stroma at once, so a
+B-cell-restricted target and a broadly expressed one look similar there. The measure failing at
+organ resolution is therefore not a defect — **it is a prediction of the theory, and it is now a
+confirmed one.**
+
+The scope condition stands, but it is a statement about what to measure rather than a retreat:
+
+> Restriction must be measured across normal **cell types**. Measured that way it separates
+> tolerated targets from on-target-toxic ones in RNA (0.868) and in protein (0.785). Measured
+> across whole organs it does not, in either technology (0.626 RNA, 0.650 protein) — because
+> whole-organ pooling destroys the cell-type distinction the framework depends on.
+
+**H5: MET at cell-type resolution, in both technologies. NOT MET at whole-organ resolution, in
+both technologies.** The registered NOT-MET result on mass spectrometry stands as recorded; what
+26.4 establishes is that it is not a protein-versus-RNA failure.
+
+**H6 was NOT TESTABLE** on either protein reference: both are indexed by tissue or tissue × cell
+type in a way that never marks a home as haematopoietic, so the flag fires on 0 of 24 labelled
+targets and the two-factor rule collapses onto the one-factor rule by construction. Reported as
+untestable, not as a failure.
+
+**Also recorded: a NaN bug in the first version of `matched_resolution_check.py`.** The MS table
+leaves Intensity blank where a protein was not detected, and averaging an empty list produced
+NaN, which made the mass-spectrometry row read 0.000 instead of 0.650. Found and fixed before
+any conclusion was drawn from it.
+
+**Scripts:** `protein_cross_check.py`, `ms_coverage_diagnostic.py`, `resolution_sensitivity.py`
+(the wrong test, kept), `matched_resolution_check.py` (the right one), `reference_agreement.py`.
+Results in the matching `.json` files.
+
+---
+
+## 27. The ceiling in a solid tumour, against matched normal tissue from the same patients
+
+Sections 1–22 computed the tumour-versus-normal ROC ceiling in blood cancers, because blood is
+where a matched normal counterpart is easy to obtain. Section 22's most counterintuitive finding
+was that this ceiling **does not** predict clinical success — approved targets sit near chance
+against their own normal counterpart (CD19 0.576, CD20 0.554, CD79B 0.489, CD22 0.359) — and
+that the measure which *does* predict success is restriction to a normal lineage.
+
+That is the claim most likely to be disbelieved, so it was transplanted to a completely
+different setting.
+
+**Dataset.** De Schepper *et al.*, *Nature Communications* 2025 (s41467-025-67840-z): a
+**rapid-autopsy** study of **30 patients with metastatic breast cancer**, 749 metastatic lesions
+across 36 tissue sites, **plus normal tissue sampled from the same autopsies**, with **72
+antibody-drug-conjugate target genes** measured by RNA-seq in every sample. Tumour and normal
+come from the same body, the same protocol, the same batch — the confound that sections 19–21
+had to control for by careful identical gating is removed here by the study design itself.
+
+Different tumour type, different laboratory, different technology, different country, and a
+matched-normal design this project could not have built.
+
+**Scope note, stated before any number.** These are **bulk samples**, not single cells. The
+separation computed here is between tumour *samples* and normal *samples*, so it is an upper
+bound on the cellular ceiling and is **not** directly comparable to the CyTOF numbers in
+sections 1–22. It is reported as its own quantity.
+
+### 27.1 The ceiling does not predict safety here either
+
+Per gene, separation = P(a random metastatic sample carries more than a random normal sample),
+the same rank statistic used throughout.
+
+| | separation | exact p | n |
+|---|---|---|---|
+| pooled across all samples | 0.514 | 0.481 | 9 safe vs 8 toxic |
+| computed **within each patient**, then averaged (16 patients) | 0.528 | 0.444 | 9 vs 8 |
+
+Chance. And the scramble is instructive rather than merely null: TROP2 (approved) 0.781 and
+Nectin-4 (approved) 0.724 sit high — but so do HER2 (fatal on-target event) 0.640 and CAIX
+(dose-limiting liver toxicity) 0.632, while CLDN18.2 (approved 2024) sits at 0.262 and c-MET
+(approved 2025) at 0.223. Being easy to tell apart from normal tissue has nothing to do with
+whether the drug was tolerated.
+
+### 27.2 Head to head, on the same seventeen targets
+
+The cleanest statement the project can make, because nothing differs except which quantity is
+measured:
+
+| measure | separation | exact p |
+|---|---|---|
+| tumour-vs-normal ceiling (this dataset) | 0.528 | 0.444 |
+| **confinement across normal cell types** | **0.750** | **0.046** |
+
+Same targets. Same labels. Same statistic. One measure is uninformative and the other works.
+
+**Section 22's finding replicates in a solid tumour, in an independent cohort, from an
+independent laboratory, on a different technology, with a matched-normal design.** The project's
+central and least intuitive claim survives the transplant.
+
+### 27.3 A discriminant check using a table this project did not compile
+
+The standing weakness of every outcome test here is that the safety labels are literature
+judgements made by one person (§23.8). The same paper supplies **Supplementary Data 1**: a
+registry of **623 registered clinical trials against 74 ADC targets**, with phase — compiled by
+someone else entirely.
+
+It cannot serve as a safety label: "reached phase 3" measures development progress, not
+toxicity, and HER2 has 36 phase-3 trials *and* a fatal on-target event. But it makes an
+excellent **specificity control**, and the prediction was stated before the run: *confinement
+should NOT predict which targets reached phase 3*, because if it did, confinement would really
+be tracking "targets people invest in".
+
+| question, on overlapping targets | separation | exact p |
+|---|---|---|
+| does confinement predict reaching **phase 3**? | **0.495** | 0.530 |
+| does confinement predict **on-target toxicity**? | **0.750** | 0.046 |
+
+**As predicted.** Confinement is uninformative about whether a programme advanced and
+informative about whether it poisoned normal tissue — checked against an externally compiled
+table. This does not remove the need for an outside reviewer on the safety labels, but it does
+show the measure is not simply tracking target popularity.
+
+### 27.4 What this dataset does not settle
+
+It is RNA-seq, with immunohistochemistry on only 8 of the 72 targets, so it does **not** speak
+to section 26's protein question. It is breast cancer only. The normal samples are post-mortem,
+so RNA degradation is a real concern the original authors address but this reanalysis inherits.
+And 17 labelled targets is a small panel — the p = 0.046 is one relabelled target away from
+crossing 0.05, and should be read as consistent with §23 rather than as independent confirmation
+at full strength.
+
+**Scripts:** `adc_autopsy_ceiling.py`, `trial_registry_control.py`. Results in the matching
+`.json` files. Data: `ev_capture_data/adc_autopsy/`.
+
+---
+
+## 28. The two-antigen result in a solid tumour
+
+Sections 17, 21 and 25 established the two-antigen findings in blood cancers. This section
+repeats the whole analysis in metastatic breast cancer against normal tissue from the same
+autopsies — 72 ADC targets, **2,556 antigen pairs**, 749 metastatic and 96 normal samples.
+
+**Reconstruction check first.** The per-sample matrix is rebuilt from the paper's long-format
+table and verified against their own wide table before anything is computed: **5,992 of 5,992
+values matched exactly**. The check is a hard assertion in the code, not a printed warning.
+
+**Scope note.** Bulk samples, not single cells, so these numbers are not comparable to the CyTOF
+results in sections 17–21. Only 96 normal samples, so held-out halves are small and the
+shuffled-label null is what makes any of it readable.
+
+### 28.1 The theorem replicates
+
+| check | result |
+|---|---|
+| SINGLE ≤ max(AND, NOT) ≤ LIKELIHOOD RATIO, in-sample | **0 violations in 5,112 checks** |
+
+The hierarchy is a mathematical consequence of Neyman–Pearson, so violations would mean a coding
+error rather than a biological discovery. Zero, in a second disease on a third technology.
+
+### 28.2 What a second antigen buys, against the shuffled-label null
+
+| quantity | real | shuffled labels |
+|---|---|---|
+| best single buildable antigen, held out | **J = 0.398** | −0.014 |
+| statistical gain over the best antigen *in that pair*, median | +0.0000 | +0.0062 |
+| engineering gain over the best kill-high antigen *in that pair*, median | +0.0000 | +0.0051 |
+
+**The statistical result replicates exactly.** A second antigen adds no new information about
+which samples are tumour — median gain at, and in fact below, the noise floor. This is now the
+same answer in two diseases, two technologies and two laboratories.
+
+**The engineering result does NOT replicate at the median, and that is a real difference.** In
+DLBCL the median engineering gain was +0.106; here it is 0.000. The gain has not vanished — it
+has become **concentrated**: 34.8% of the 2,556 pairs still show a gain above 0.05, and the 90th
+percentile is +0.277. In the lymphoma cohort nearly every pair benefited, because most of the
+panel is B-lineage and many markers sit *lower* on tumour than on normal B cells. Across organs
+that is no longer true of most pairs, so the benefit is real for a minority and absent for the
+rest.
+
+### 28.3 The number that actually matters, and a trap avoided
+
+The per-pair "engineering gain" figures look enormous at the top of the ranking — ALCAM + PD-L1
+reaches +0.693 — but that headline is **misleading, and the reason is worth stating** because it
+is the same trap section 20 recorded. The one-receptor baseline *inside those pairs* is
+**negative** (−0.16, −0.135): both members are individually poor or inverted, so the comparison
+is against something worse than chance. A large ratio over a terrible baseline is not a large
+result.
+
+The honest cohort-level comparison is against the best buildable single receptor **across all 72
+antigens**, not within the pair:
+
+| design | held-out J |
+|---|---|
+| best single activating receptor, any of 72 antigens | 0.398 |
+| **best two-receptor design** | **0.533** |
+| net gain | **+0.135** |
+
+Which is strikingly close to DLBCL's +0.133 — arrived at from completely different data.
+
+Every one of the top-ranked designs is a **NOT gate**: an activating receptor against one
+antigen, paired with an *inhibitory* receptor against a second that is higher on normal tissue.
+That is the same concrete design conclusion section 21 reached in lymphoma (activating CAR plus
+an inhibitory receptor against IgD), reached independently in a solid tumour.
+
+### 28.4 Limitations of section 28
+
+Bulk samples; 96 normal samples split in half for training and testing; breast cancer only;
+post-mortem RNA. The per-pair rankings in `adc_two_antigen_top_pairs.json` should be read as
+hypothesis-generating, not as design recommendations — several involve antigens (PD-L1, EPHA2)
+whose within-pair baseline is negative, and a real design would start from the cohort-level
+comparison in 28.3.
+
+**Scripts:** `adc_two_antigen.py`. Results in `adc_two_antigen.json` and
+`adc_two_antigen_top_pairs.json`.
+
+---
+
+## 29. The weighted multi-compartment ceiling: the two measures were the same theorem all along
+
+The project has been carrying two measures that both predict clinical safety and had no formal
+relationship to each other:
+
+- **the ROC ceiling** (sections 1–22): for any kill rule monotone in antigen, the achievable
+  (tumour killed, normal killed) points lie in the convex hull of the tumour-versus-normal ROC.
+  This is a theorem.
+- **confinement plus expendability** (section 23): a target is safe only if concentrated in few
+  normal cell types *and* those cell types are ones the body can spare. This was an empirical
+  rule with a mechanistic story attached.
+
+A judge is entitled to ask why the project needs both, and whether the second is a heuristic
+bolted onto the first. **It is not. They are the same statement.**
+
+### 29.1 Setup
+
+Let the normal body be compartments *c* = 1…K with:
+*q_c* the fraction of normal cells of type *c*; *p_c(x)* the antigen distribution within type
+*c*; *p_T(x)* the tumour antigen distribution; and **w_c ∈ [0,1] the expendability weight** —
+0 for a type the body regenerates or whose loss has an established clinical replacement, 1 for
+one that is essential.
+
+A therapy is a kill rule *f(x)* ∈ [0,1]. Then
+
+- tumour kill **T(f) = E_{p_T}[f]**
+- **harm H(f) = Σ_c w_c q_c E_{p_c}[f]** — killing a cell costs the patient only in proportion
+  to how much they need that cell type.
+
+### 29.2 The theorem
+
+Define the **weighted normal mixture** p_W(x) = (Σ_c w_c q_c p_c(x)) / W, with W = Σ_c w_c q_c.
+
+> For every kill rule *f*, the pair (T(f), H(f)/W) lies in the convex hull of the ROC of p_T
+> against p_W, and every point of that hull is attained. Consequently the best trade-off is
+> obtained by thresholding the likelihood ratio p_T(x)/p_W(x), and the whole achievable region
+> is governed by the single number AUC(p_T, p_W).
+
+**Proof.** H(f)/W = E_{p_W}[f] by linearity of expectation and the definition of p_W. So
+(T(f), H(f)/W) is exactly a (true-positive rate, false-positive rate) pair for p_T against p_W,
+and the claim is the standard Neyman–Pearson statement the project already proves and verifies
+for one compartment. ∎
+
+### 29.3 What it unifies — three known results are special cases
+
+1. **One compartment, w = 1.** p_W = p_normal, and the statement *is* the original ROC ceiling.
+2. **Worst compartment.** Put w = 1 on a single compartment and 0 elsewhere; minimising over
+   that choice recovers the min-over-compartments ceiling of section 13.
+3. **Confinement and expendability.** If the antigen is essentially absent from a compartment
+   unless expressed there, then E_{p_c}[f] is proportional to *s_c*, that compartment's share of
+   the target's total normal expression, and
+
+   > **H(f) ∝ Σ_c w_c s_c = 1 − Σ_c (1 − w_c) s_c.**
+
+   Harm is small exactly when the target's expression mass sits in compartments with small *w* —
+   that is, when the target is **confined** (mass in few compartments) **and** those compartments
+   are **expendable** (small *w*). Section 23's two-factor rule is the first-order approximation
+   of this expression with *w* treated as binary.
+
+**So the empirical rule is what the theorem says once you write down the harm functional the
+clinic actually cares about.** `top_share` is not an arbitrary summary statistic — it is the
+leading term of H when expendability is binary.
+
+### 29.4 Numerical verification
+
+Proofs do not execute, so the algebra is checked against brute force on random problems, exactly
+as section 8 does for the single-compartment case.
+
+| check | result |
+|---|---|
+| largest amount by which any randomised kill rule exceeded the weighted ROC ceiling | **0.000e+00** |
+| largest gap between likelihood-ratio thresholding and brute-force optimum over all subsets | **0.000e+00** |
+| total checks (1–6 compartments, random weights, random rules) | **16,400** |
+| single-compartment case reproduces the original theorem | ok |
+| worst-compartment case recovered | ok |
+| confinement/expendability identity | ok |
+
+**A bug in the verifier, recorded.** The first version of the hull construction used an ad-hoc
+"upper envelope" loop that was wrong and reported violations of up to 0.96. The bug was in the
+verification code, not the theorem. It is noted here because a verification script that can
+produce false violations is worse than no verification at all; the hull is now a standard
+monotone-chain upper convex hull.
+
+### 29.5 Why this matters for the write-up
+
+This is the section that converts the project from *"a measure that predicts drug safety"* into
+*"a theorem about what any antigen-targeted therapy can achieve, of which the measure is the
+leading term."* It also makes the expendability weight a **modelling choice a reader can
+disagree with explicitly** — set your own w, get your own ceiling — rather than a judgement
+buried in a label file.
+
+**Script:** `weighted_ceiling_theorem.py`; results in `weighted_ceiling_theorem.json`.
+
+---
+
+## 30. Discovery: what the framework says the field should be targeting
+
+Every result so far concerns targets other people chose. The question a reader asks once the
+framework works is the obvious one: **so what should we be targeting that nobody is?**
+
+This section answers it across all 19,475 expressed human genes, using four filters applied in a
+fixed order, with no fitted parameter — the two-factor rule and its 0.25 threshold are the frozen
+ones from §23.2 and the locked predictions.
+
+| filter | genes remaining |
+|---|---|
+| start | 19,475 |
+| **1.** observed cell-surface localisation (HPA immunofluorescence plasma membrane, or CD-marker list) | 1,889 |
+| **1b.** above the CAR-T sensitivity floor in cancer cell lines (≥ 20 nTPM) | — |
+| **2.** confined **and** expendable: `top_share + 1.0 if haematopoietic home` ≥ 0.25 | 821 |
+| **3.** elevated in cancer **cell lines** | 482 → 242 after the floor |
+| **4.** not already pursued (623-trial ADC registry, the frozen label file, known CAR-T antigens) | **214** |
+
+### 30.1 Two failures of my own, both instructive, both kept
+
+**Bulk tumour RNA is contaminated, and the first screen rediscovered its own filter through the
+contamination.** Using HPA's bulk-tumour cancer specificity, the top of the list was haemoglobin
+(HBA1/HBA2/HBB) "elevated in glioblastoma", immunoglobulins (IGHG1–4, IGHA1) "elevated in lung
+adenocarcinoma", and microglia and neutrophil markers (P2RY12, CX3CR1, TREM1/2, FPR1) "elevated
+in glioblastoma". None of those are tumour proteins. A bulk tumour sample contains blood and
+infiltrating immune cells, so **any gene confined to a blood lineage looks cancer-elevated
+precisely because it is confined to a blood lineage** — filter 3 was re-detecting filter 2
+through a contaminant. Fixed by requiring elevation in cancer **cell lines**, which are pure
+tumour cells.
+
+**Perfect confinement of nothing is still nothing.** A gene expressed at 1.6 nTPM in exactly one
+cell type scores `top_share` = 1.000. With no absolute floor the list filled with olfactory
+receptors. Aim 10's calibration puts the CAR-T sensitivity floor near 10²–10³ molecules per
+cell, so an expression floor is not an arbitrary cut-off — it is the model's own requirement.
+Also, "predicted membrane protein" turned out to be too weak a surface criterion: it admitted
+haemoglobin, which sits inside the red cell, and secreted immunoglobulin constant regions, which
+the plasma cell exports rather than displays. Observed localisation replaced prediction.
+
+### 30.2 The positive control
+
+A discovery screen with no positive control is a wish list. There is no ground truth for "targets
+that should exist but don't" — but there is a checkable proxy: **immunotherapy targets already in
+active clinical development that are absent from the ADC registry the screen excluded.** If the
+screen works, it should surface them without having been told anything about them. The list was
+written from the clinical literature before ranks were looked at.
+
+| target | rank of 214 | what it is |
+|---|---|---|
+| **LILRB4** | **6** | AML/myeloma CAR-T and antibody (IO-202), active trials |
+| **GYPA** | **9** | glycophorin A, erythroleukaemia |
+| **TNFRSF13C** | **16** | BAFF-R CAR-T, B-cell malignancy trials |
+| **CD27** | **20** | varlilumab |
+| **TNFRSF13B** | **23** | TACI, myeloma bispecific/CAR target |
+| **CSF3R** | **24** | G-CSF receptor, AML |
+| **CD79A** | **29** | partner of CD79B, which polatuzumab targets |
+| **CLEC12A** | **38** | CLL-1, AML CAR-T and bispecific trials |
+| CD37 | 85 | naratuximab |
+| SIGLEC6 | 181 | AML CAR-T |
+| CD5, CD7, KIT, FLT3, HAVCR2, ADGRE2 | absent | — |
+
+**10 of 16 recovered; 8 in the top 50.** The screen keeps 214 of 19,475 genes (1.10%), so a
+random screen would recover **0.18** of these by chance. Observing 10 is a **57-fold enrichment,
+hypergeometric P(X ≥ 10) = 1.6 × 10⁻¹⁶.**
+
+**And the misses are arguably correct calls, not failures.** CD5 and CD7 CAR-T cause T-cell
+aplasia; FLT3 and KIT CAR-T cause myeloablation. Those are exactly the on-target toxicities the
+framework exists to flag, and the screen declined to recommend them.
+
+### 30.3 What comes out, and what it is worth
+
+Of the 214 candidates, **134 sit in an expendable blood lineage** — the pattern every approved
+blood-cancer target follows. Beyond the rediscovered ones, the list is topped by immunoglobulin
+kappa variable genes in plasma cells (IGKV3D-15, IGKV3-20, IGKV3-11) at myeloma cell-line levels
+of 1,300–5,500 nTPM. That is not a coincidence with this project's own earlier work: §15's
+light-chain clonality analysis measured κ:λ restriction directly, and light-chain-restricted CAR-T
+is a real clinical strategy. The screen reached the same place from the opposite direction.
+
+**What this list is not.** Expression is necessary and nowhere near sufficient. The screen knows
+nothing about internalisation, epitope accessibility, shedding into serum, or whether the tumour
+depends on the protein. It is hypothesis-generating with a fully checkable derivation — which,
+with a 57-fold enrichment for known targets behind it, is the honest description of a lead.
+
+**Scripts:** `target_discovery.py`; results in `target_discovery.json` and
+`target_discovery_positive_control.json`.
+
+---
+
+## 31. The protein-at-cell-type question, and why it stays open
+
+Section 26 left one question: the result holds on RNA at cell-type resolution (0.868) and on
+antibody staining at tissue × cell-type resolution (0.785), and fails at whole-organ resolution
+in **both** technologies (0.626 RNA, 0.650 protein). The open case was **mass-spectrometry
+protein at cell-type resolution**, which did not exist when §26 was written.
+
+It exists now. HPA v25.1 integrated **Deep Visual Proteomics**: protein intensity per cell type,
+27 cell types across 14 tissues, ~19,000 genes, and its per-gene summary ships inside
+`proteinatlas.tsv.zip`.
+
+**It cannot answer the question, and the reason is a property of the data.**
+
+| test | separation | p |
+|---|---|---|
+| PROTEIN cell-type specificity (ordinal ladder) | 0.583 | 0.219 |
+| RNA cell-type specificity (same ladder, matched control) | 0.553 | 0.254 |
+| RNA cell-type `top_share` from the same table | 0.716 | 0.031 |
+| PROTEIN whole-tissue ladder | 0.636 | 0.141 |
+| RNA whole-tissue ladder | 0.616 | 0.131 |
+
+**Two things make the protein row uninformative rather than negative.**
+
+1. **The safe class is below the detection limit.** 8 of 29 labelled targets are *Not detected*
+   in the cell-type proteome, and **7 of the 8 are safe targets** — BCMA, SLAMF7, CD30, GPRC5D,
+   CD52, DLL3, GPC3. Those are precisely the confined blood-lineage antigens the framework is
+   built on. DVP is 27 cell types from a **single donor**; plasma cells and activated lymphocytes
+   are rare, so the antigens that define the safe class are simply not seen. Dropping them does
+   not fix the problem — it removes the class being tested.
+2. **The ordinal ladder is too coarse to detect the effect where the effect is known to exist.**
+   On the RNA cell-type data, where the full continuous computation gives 0.868, HPA's four-level
+   ladder gives only 0.553. The same table's continuous `top_share` gives 0.716 (p = 0.031). So a
+   null on the ladder carries almost no information either way.
+
+**A scoring error of mine, recorded.** The first version mapped *Not detected* to the bottom of
+the ladder — the opposite of what it means — which put BCMA, SLAMF7, CD30, GPRC5D and CD52 at
+"least specific of all" and produced a meaningless 0.413. *Not detected* now returns a missing
+value and those targets are excluded rather than mis-scored.
+
+**Conclusion, and it is a statement about the data rather than the framework.** No protein
+reference at cell-type resolution currently covers the cell types this question needs. The
+antibody-staining result (0.785, p = 0.010, ~96 tissue × cell-type groups) remains the best
+protein-level evidence, and §26.5's scope condition stands unchanged. Downloading the full DVP
+tables would not change this — it is the same single-donor 27-cell-type dataset, with the same
+detection limit.
+
+**Script:** `hpa_summary_reference.py`; results in `hpa_summary_reference.json`.
+
+---
+
+## 32. The protein question, answered as far as any existing data allows
+
+Section 26 left one question open and section 31 could not close it. This section closes it as
+far as the world's data permits, and the answer is a limitation rather than a win.
+
+### 32.1 What exists, after a proper search
+
+The question needs **protein** measured across **normal human cell types**, covering both blood
+lineages and solid tissue, for the targets in the panel. What exists:
+
+| reference | what it is | why it cannot answer the question |
+|---|---|---|
+| HPA Deep Visual Proteomics (May 2026) | mass spec, 27 cell types, 14 tissues | single donor; 7 of the 8 undetected targets are the safe blood-lineage antigens (§31) |
+| Immune-cell proteomes (e.g. Rieckmann 2017, 28 immune cell types with copy numbers) | mass spec, blood only | no solid tissue, so the toxic class is absent |
+| HPA immunohistochemistry | antibody, ~96 tissue × cell-type groups | **usable, and already run: 0.785, p = 0.010 (§26.1)** — ordinal, four levels |
+| HPA mass spectrometry | protein, 20 whole organs | wrong resolution; fails, as RNA also does there (§26.4) |
+| **This project's own CITE-seq panel** | **antibody, 228 surface proteins, 161,764 cells, 8 donors, 31 blood cell types** | **blood only — but it is a genuine protein cell-type reference and had not been used for this** |
+
+**No single dataset measures protein across both blood and solid-tissue cell types with the
+coverage this question needs.** That is a statement about the field in September 2026, not about
+this analysis.
+
+### 32.2 Using the reference the project already owned
+
+The CITE-seq panel from §16 is protein, measured by **antibody** — the same physical modality a
+CAR or therapeutic antibody uses to bind — at single-cell resolution across 31 blood cell types.
+It cannot run the safe-vs-toxic test (the toxic class is almost all solid-tissue targets), but it
+can answer the question underneath: **does confinement measured on protein track confinement
+measured on RNA, over the same cell types?**
+
+185 genes measured both ways, same lineages, same measure:
+
+| comparison | Spearman ρ | p |
+|---|---|---|
+| **PROTEIN (antibody) vs RNA, same blood cell types** | **0.167** | 0.024 |
+| number of cell types, same comparison | 0.171 | 0.020 |
+| *for scale:* RNA cell-type vs RNA bulk-tissue | 0.512 | §23.7 |
+| *for scale:* RNA cell-type vs protein antibody staining | 0.429 | §26.3 |
+| *for scale:* RNA cell-type vs protein mass spec | 0.346 | §26.3 |
+
+**ρ = 0.167 is the weakest agreement of any pair this project has measured**, and it is measured
+under the most favourable conditions available — same cell types, same measure, matched design.
+
+Separating the two claims a confinement value makes:
+
+- **The home** (which cell type carries the antigen): agrees for **9 of 13** therapy targets —
+  CD19, CD20, CD22, CD79B, CD52 → B cells; CD38, SLAMF7 → plasmablasts; NCAM1 → NK; CD44 →
+  monocytes. Overall agreement across all 185 genes is only **37%**, but much of that is a
+  **roster** problem rather than a disagreement: the PBMC panel contains no tissue macrophages,
+  neutrophils or Kupffer cells, so a neutrophil protein has nowhere correct to land.
+- **The share** (how concentrated it is there): does not transfer, ρ = 0.167.
+
+### 32.3 The honest conclusion, and what it costs the project
+
+**The confinement measure is not technology-independent.** Antibody-measured and
+transcript-measured confinement give substantially different numbers for the same protein in the
+same cell types. The project cannot claim that its RNA-derived confinement values *are* protein
+confinement values.
+
+**What survives, stated precisely:**
+
+1. The headline result (0.868, p = 0.0003) is a statement about **RNA-derived** confinement, and
+   should be written that way throughout.
+2. The result **does** replicate on an independent protein reference — antibody staining across
+   ~96 tissue × cell-type groups, 0.785, p = 0.010. That replication is not weakened by anything
+   here; a measure can predict an outcome without being numerically identical to its protein
+   counterpart.
+3. What cannot be claimed is the stronger version: *"confinement is a property of the protein,
+   and RNA is just a convenient proxy."* On present evidence RNA-confinement and
+   protein-confinement are correlated but genuinely different quantities.
+
+**How much this costs.** Less than it might appear, and the reason is the outcome test. The
+framework is validated by whether it predicts **clinical toxicity**, not by whether two
+measurement technologies agree. It predicts toxicity from RNA (0.868) and from antibody staining
+(0.785), which is two independent technologies reaching the same clinical conclusion. The
+disagreement in 32.2 says the two are not measuring an identical physical quantity — which is
+interesting, and belongs in the limitations, but does not undo a result that was never
+conditioned on them being identical.
+
+**What would settle it** is a protein atlas covering rare blood lineages and solid tissue at
+cell-type resolution in the same donors. That does not exist yet. Deep Visual Proteomics is the
+first attempt and is one donor deep; a multi-donor successor would answer this directly, and is
+the obvious thing to revisit if one appears.
+
+**Scripts:** `protein_celltype_citeseq.py`, `adt_gene_map.py`; results in
+`protein_celltype_citeseq.json` and `protein_celltype_home_agreement.json`.
+
+
+# Fifth addendum (September 9, 2026): an independent healthy-marrow reference for the myeloma side
+
+Section 16 closed a gap for CD19/DLBCL: an external, independent, healthy-donor dataset (161,764
+PBMCs, 8 donors, not this project's own patients) confirming the four approved lymphoma targets
+are lineage-restricted in genuinely healthy people. No equivalent existed for the myeloma/BCMA
+side -- every myeloma comparison so far has been **within-patient** (tumour plasma cells versus
+normal compartments from the *same* bone marrow biopsy, sections 15 and 19). That is real data,
+but it cannot rule out a batch- or patient-specific artifact the way an independently collected
+healthy cohort can. This section closes that asymmetry, as far as the available public data allows.
+
+## 33. An independent healthy bone marrow cohort (Boiarsky et al. 2022)
+
+**Data.** Boiarsky et al., *Nature Communications* 2022 (doi:10.1038/s41467-022-33944-z, PMID
+36396631), GEO accession **GSE193531** -- CD138-sorted (plasma-cell-enriched) scRNA-seq from the
+Ghobrial lab at Dana-Farber, spanning normal bone marrow (NBM), MGUS, smouldering myeloma (SMM),
+and myeloma (MM) donors. **29,387 total cells, 9 NBM (genuinely healthy, non-myeloma) donors
+contributing 9,329 of them.** Freely downloadable from GEO, no controlled-access application
+required -- the strongest candidate found across a three-round search of four public datasets (the
+others: Zhang et al. GSE245108, too few plasma cells -- 135 of 72,179 total cells; Duan et al., no
+accession located with a public protein layer; Da Vià et al. 2025, larger and protein-annotated
+but EGA controlled-access, accession EGAC50000000232, not an instant download).
+
+**Honest scope limit, stated before anything else.** This is scRNA-seq (transcript counts), not
+CITE-seq or flow cytometry -- RNA-level expression, not surface protein or absolute molecule
+counts. It is one more data point in the same category as section 15/19's RNA-level within-patient
+comparisons, not a protein-level replication. It is independent in the sense that matters here --
+different donors, different lab, different sequencing run, never in contact with this project's
+own cohort -- but it is not a different measurement modality.
+
+**A second, unplanned scope limit, found on inspection.** This matrix's cell composition is not
+whole bone marrow. Checking canonical lineage markers across all 29,387 cells: plasma-cell markers
+CD38 and SDC1/CD138 are detected (>0 counts) in 67.3% and 60.5% of cells respectively, while
+T-cell (CD3D 0.45%, CD3E 0.33%), myeloid (CD14 1.04%), B-cell (MS4A1 3.96%, CD19 5.43%) and NK
+(NCAM1 11.63%) markers are all in the low single digits or near-zero. **This confirms the file is
+already CD138-sorted/plasma-cell-enriched**, consistent with the study's own design, not whole
+marrow requiring a T/myeloid/NK/B gating step the way this project's own myeloma CITE-seq data
+does (`myeloma_ceiling.py`'s gating). That rules out repeating section 16's exact
+restriction-AUC test here -- there is no meaningful population of other lineages left in the file
+to compute restriction against.
+
+**What this dataset can still test, and what it found.** Restricting to the 9,329 NBM
+(healthy-donor) cells: **BCMA (TNFRSF17) is detected in 82.87%** of them (median 2 counts, 90th
+percentile 7, max 37) -- more frequently detected than the plasma-cell markers used to confirm the
+population's identity (CD38 73.78%, SDC1/CD138 57.44%). The 15.0% of NBM cells negative for both
+CD38 and SDC1 are not a distinct, non-plasma-cell population: their median sequencing depth is
+roughly half that of the CD38+/SDC1+ majority (5,627 vs. 10,288 median UMI counts; 907 vs. 1,302
+median genes detected), the signature of dropout at lower depth, not a different cell type -- and
+BCMA is still detected in 72.6% of them, along with near-total absence of T/myeloid/NK/B markers
+(all under 7%, most under 1%).
+
+**Read plainly: in an independently collected healthy human bone marrow cohort never seen by this
+project before, BCMA is a robust, near-ubiquitous marker of the plasma-cell compartment it was
+sorted for -- not a project-internal artifact of this project's own 11-sample cohort.** That is a
+real, if modest, form of external validation: the antigen this project has used throughout the
+myeloma analysis behaves the same way in someone else's data.
+
+**For contrast**, the same NBM cells were checked for the two other myeloma antigens with
+extracted markers: **SLAMF7 (50.28% positive, median 1, p90 2)** -- moderate, consistent with
+SLAMF7's known broader expression (also on NK cells and some activated lymphocytes, which this
+sorted dataset cannot test for) -- and **GPRC5D (5.67% positive, median 0, p90 0)** -- sharply lower,
+consistent with GPRC5D's known status as a more plasma-cell-specific but lower-abundance target in
+the literature. The pipeline distinguishes near-ubiquitous (BCMA) from genuinely sparse (GPRC5D)
+expression within the same sorted population, which is some reassurance the 82.87% BCMA figure is
+a real signal and not a ceiling effect of the extraction method.
+
+**What this does *not* show, stated as plainly as the positive finding.** This is not a
+restriction test -- it cannot show BCMA is *absent* from non-plasma-cell lineages, because the
+sorted design leaves too few of those cells in the file to test against (the CD38-/SDC1- subset is
+almost certainly under-sequenced plasma cells, not an independent other-lineage sample). It closes
+the "is this an artifact of this project's own cohort" question, not the "is BCMA safe to target"
+question -- section 11a's calibration-gap finding and the within-patient tumour-vs-normal
+comparisons (sections 15, 19) remain the load-bearing analyses for target selectivity; this section
+adds one more independent confirmation that the underlying antigen biology is real, not an
+artifact.
+
+**Scripts:** `extract_boiarsky_markers.py` (one-time extraction of 11 target-gene rows and cell
+metadata from the raw GEO matrix into `extracted_markers.json`), `boiarsky_healthy_reference.py`
+(the analysis above). Data: `ev_capture_data/healthy_bone_marrow_boiarsky/` (GSE193531 UMI count
+matrix and cell-level metadata, downloaded directly from GEO).

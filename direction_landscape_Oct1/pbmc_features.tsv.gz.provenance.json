@@ -1,0 +1,9 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5008nnn/GSM5008738/suppl/GSM5008738_ADT_3P-features.tsv.gz",
+  "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5008nnn/GSM5008738/suppl/GSM5008738_ADT_3P-features.tsv.gz",
+  "status": 200,
+  "content_type": "application/x-gzip",
+  "bytes": 1373,
+  "sha256": "9b45aa53f6db161838ff2e3b8fe012fa6d62c87f8b8df44a1035fe1fa281939b",
+  "retrieved_utc": "2026-10-02T07:03:03.746607+00:00"
+}

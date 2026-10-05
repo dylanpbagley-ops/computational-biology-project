@@ -1,0 +1,41 @@
+gene	common	agent	outcome	evidence	expected_normal_site
+CD19	CD19	tisagenlecleucel / axi-cel	safe	Approved CAR-T; on-target B-cell aplasia is managed with immunoglobulin replacement	B cells
+MS4A1	CD20	rituximab	safe	Approved 1997; B-cell depletion clinically managed	B cells
+CD22	CD22	inotuzumab ozogamicin	safe	FDA approved 2017 (ALL); B-cell depletion is on-target and clinically managed	B cells
+CD79B	CD79b	polatuzumab vedotin	safe	FDA approved 2019 (DLBCL); no dose-limiting normal-tissue on-target toxicity	B cells
+TNFRSF17	BCMA	ide-cel / cilta-cel	safe	Approved 2021; plasma-cell aplasia managed	plasma cells
+SLAMF7	CS1	elotuzumab	safe	FDA approved 2015 (myeloma); well tolerated in combination regimens	plasma cells / NK
+CD38	CD38	daratumumab	safe	FDA approved 2015 (myeloma); on-target plasma-cell loss is clinically managed	plasma cells
+TNFRSF8	CD30	brentuximab vedotin	safe	FDA approved 2011 (Hodgkin, ALCL); neuropathy is payload-driven, not on-target	activated lymphocytes
+CD33	CD33	gemtuzumab ozogamicin	safe	Approved 2000/2017; myelosuppression is on-target but marrow regenerates	myeloid
+GPRC5D	GPRC5D	talquetamab	safe	Approved 2023; on-target skin/nail/taste effects are common but not dose-limiting	plasma cells, keratinised tissue
+FOLH1	PSMA	177Lu-PSMA-617	safe	FDA approved 2022 (mCRPC radioligand); salivary uptake is on-target but not dose-limiting	prostate epithelium
+TACSTD2	TROP2	sacituzumab govitecan	safe	FDA approved 2020 (triple-negative breast); toxicity is payload-driven neutropenia	epithelium
+NECTIN4	Nectin-4	enfortumab vedotin	safe	Approved 2019 (skin effects on-target but not dose-limiting)	urothelium/skin
+CLDN18	claudin-18.2	zolbetuximab	safe	Approved 2024; nausea/vomiting on-target on gastric mucosa, manageable	gastric mucosa
+DLL3	DLL3	tarlatamab	safe	FDA approved 2024 (small-cell lung); DLL3 is essentially absent from adult normal tissue	neuroendocrine
+MET	c-MET	telisotuzumab vedotin	safe	FDA approved 2025 (c-MET-overexpressing non-squamous NSCLC); no dose-limiting on-target normal toxicity	epithelium
+MSLN	mesothelin	anti-MSLN CAR-T / anetumab	safe	Repeatedly tolerable in trials; serositis only at high intrapleural dose	mesothelium
+GPC3	glypican-3	GPC3 CAR-T	safe	Tolerable in hepatocellular trials	fetal liver (absent in adult)
+CD52	CD52	alemtuzumab	safe	Approved; profound but managed lymphodepletion	lymphocytes
+ERBB2	HER2	HER2 CAR-T (Morgan 2010)	toxic	Fatal pulmonary event within hours of infusion; trastuzumab also causes on-target cardiotoxicity	lung epithelium, cardiomyocytes
+EGFR	EGFR	anti-EGFR CAR-T / cetuximab	toxic	Dose-limiting on-target skin and pulmonary toxicity	keratinocytes, lung
+CEACAM5	CEA	CEA CAR-T (Parkhurst 2011)	toxic	Severe transient colitis, dose-limiting	colonocytes
+CA9	CAIX	CAIX CAR-T (Lamers 2006)	toxic	Grade 2-4 on-target liver enzyme toxicity, trial halted	bile duct epithelium
+CD47	CD47	magrolimab	toxic	On-target anaemia; programme discontinued 2024	erythrocytes, ubiquitous
+CD44	CD44v6	CD44v6 CAR-T / bivatuzumab	toxic	Fatal on-target skin toxicity with bivatuzumab mertansine	keratinocytes
+NCAM1	CD56	lorvotuzumab mertansine	toxic	Dose-limiting on-target peripheral neuropathy; programme halted	neurons
+EPCAM	EpCAM	catumaxomab / adecatumumab	toxic	On-target hepatotoxicity; catumaxomab withdrawn	hepatocytes/biliary
+FOLR1	FRalpha	mirvetuximab soravtansine	toxic	Dose-limiting on-target ocular keratopathy (boxed warning) despite approval	corneal epithelium
+FAP	FAP	FAP CAR-T	toxic	On-target toxicity to FAP+ bone-marrow stromal cells; cachexia and marrow failure	marrow stroma
+FCER2	CD23	lumiliximab	efficacy_fail	Phase 3 stopped for futility, not toxicity	B cells
+CD40	CD40	dacetuzumab	efficacy_fail	Stopped for lack of efficacy	B cells / APC
+CD80	CD80	galiximab	efficacy_fail	Stopped for lack of efficacy	B cells / APC
+HLA-DRA	HLA-DR	apolizumab	efficacy_fail	Stopped for lack of efficacy	all APC
+SDC1	CD138	indatuximab ravtansine	efficacy_fail	Development discontinued, efficacy	plasma cells / epithelium
+MUC1	MUC1	several	efficacy_fail	No agent has reached approval; failures attributed to efficacy/shedding	glandular epithelium
+MUC16	CA125	oregovomab	efficacy_fail	Phase 3 negative for efficacy; no on-target normal-tissue toxicity signal reported	coelomic epithelium
+SLC34A2	NaPi2b	lifastuzumab vedotin	efficacy_fail	Did not beat comparator	lung/thyroid
+CD74	CD74	milatuzumab	efficacy_fail	Development discontinued	B cells / APC
+PTPRC	CD45	(none)	excluded_control	No cytotoxic agent ever reached patients; retained as a restriction negative control	all leukocytes
+IL3RA	CD123	tagraxofusp vs talacotuzumab	excluded_ambiguous	One approval and one toxicity failure on the same gene	myeloid/pDC

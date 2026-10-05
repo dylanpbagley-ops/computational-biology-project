@@ -1,0 +1,24 @@
+	"Day Post-Treatment"	"NTD (7)"	"TE9 (5)"	"376.96 (9)"	"MGA271 (10)"
+	12	1	0	0	0
+"Event: too complex to do flux, so event = "	16	1	0	0	0
+"death from tumour burden tox (either brain or met site)"	16	1	0	0	0
+	16	0	0	0	1
+	16	0	0	0	1
+	17	0	0	0	1
+	17	0	0	0	1
+	22	1	0	0	0
+	22	1	0	0	0
+	22	0	0	1	0
+	29	1	0	0	0
+	29	0	1	0	0
+"TE9 the smallest group "	34	1	0	0	0
+"size because 376 v MGA271 "	41		0	0	1
+"had N=2 technical replicates"	56		0	0	1
+"but TE9 had only one with full zeta CAR"	60		0	0	0
+"the TE9 zeta-less data for the stress model is excluded from here"	60		0	0	0
+	60		0	0	0
+	60		0	0	0
+	60			0	
+	60			0	
+	60			0	
+	60			0	

@@ -1,0 +1,21 @@
+{
+  "cycle1_validator": {
+    "pass": true,
+    "cycle1_files_hash_verified": 9,
+    "preservation_inputs_unchanged": 9,
+    "functional_extension_manifest_files_verified": 9,
+    "longitudinal_extension_manifest_files_verified": 201,
+    "strengthening_execution_manifest_files_verified": 155
+  },
+  "longitudinal_preservation_verifier": {
+    "preservation_pass": true,
+    "files_checked_with_duplicates": 301,
+    "status_suffix_reconciliations": 2,
+    "preexisting_snapshot_mismatches": [
+      "PROJECT_STATUS_Oct2.md",
+      "strengthening_execution_Oct2/STATUS.md"
+    ],
+    "failures": []
+  },
+  "note": "Both old checks were read-only. The two snapshot mismatches are documented outputs of the verifier and were not repaired or otherwise changed."
+}

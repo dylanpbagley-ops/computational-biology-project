@@ -1,0 +1,22 @@
+{
+  "source_mixed_draft_sha256": "4b2cb04357c0a0e5a499f6e3fcd1e056217af8f452c5e71976a6d297fd570a81",
+  "normalized_observations_sha256": "56e1741244e79800633eefb0034d1c0ced691e3c88af4a2319cc6069680f6519",
+  "source_draft_rows": 7,
+  "normalized_event_grade_rows": 18,
+  "normalization_rule": "one event, cohort/schedule, and grade row; integer patient count or NR; source percentage in a separate field; denominator_unit is patients; no count inferred from a rounded percentage",
+  "observation_state_contract": {
+    "allowed_values": [
+      "event_supported",
+      "explicit_nonobservation",
+      "indeterminate",
+      "ineligible"
+    ],
+    "assigned_value": "indeterminate",
+    "reason": "reported trial adverse-event counts are preserved descriptively, but endpoint qualification and target attribution have not been independently adjudicated; zero or unavailable grade counts do not establish adequate negative observation",
+    "validated": true
+  },
+  "dlt_note": "Indexed primary Results text reports four dose-limiting toxicities in the relevant dose-escalation passage: one lipase increase and three grade 3 rash cases. This target-focused table normalizes the three rash cases in separate 135 µg/kg weekly, 800 µg/kg weekly, and 800 µg/kg every-other-week rows; dose-level denominators are NR. The lipase DLT is outside this normal-tissue event table.",
+  "source_access_note": "Indexed primary NEJM Results and Table 2 text supplied the bounded extracted results; direct article page opens returned HTTP 403. Table 2 exact event counts were retained; supplementary tables were not retrieved. Review remains pending.",
+  "labels_predictions_and_clinical_AUC_changed": false,
+  "review_status": "pending independent clinical review"
+}

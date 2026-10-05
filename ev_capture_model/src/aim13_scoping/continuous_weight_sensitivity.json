@@ -1,0 +1,37 @@
+{
+ "binary": {
+  "sep": 0.9138755980861244,
+  "p": 3.4999825000875e-05,
+  "p_is_exact": false,
+  "n_safe": 19,
+  "n_toxic": 11
+ },
+ "continuous": {
+  "sep": 0.8086124401913876,
+  "p": 0.002334988325058375,
+  "p_is_exact": false,
+  "n_safe": 19,
+  "n_toxic": 11
+ },
+ "regeneration_only": {
+  "sep": 0.8421052631578947,
+  "p": 0.0007049964750176249,
+  "p_is_exact": false,
+  "n_safe": 19,
+  "n_toxic": 11
+ },
+ "shuffled_null": {
+  "n_shuffles": 200,
+  "sep_mean": 0.7010287081339712,
+  "sep_p95": 0.8566985645933014,
+  "sep_max": 0.9282296650717703,
+  "observed_continuous": 0.8086124401913876,
+  "p_vs_null": 0.14925373134328357
+ },
+ "_summary": {
+  "sep_min": 0.8086124401913876,
+  "sep_max": 0.9138755980861244,
+  "p_max": 0.002334988325058375,
+  "continuous_minus_binary": -0.10526315789473684
+ }
+}

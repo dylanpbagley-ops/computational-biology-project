@@ -1,0 +1,369 @@
+{
+ "n_panel": 30,
+ "frozen_sep": 0.9138755980861244,
+ "variants": {
+  "binary_max": {
+   "sep": 0.631578947368421,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.2822966507177034,
+   "diff_ci": [
+    -0.40669856459330145,
+    -0.15071770334928225
+   ],
+   "ci": [
+    0.5526315789473685,
+    0.7368421052631579
+   ],
+   "p_shuffled_weights": 0.003996003996003996,
+   "p_familywise": 1.0,
+   "loo_min": 0.6111111111111112,
+   "nonblood_sep": 0.5,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary": [
+    0.5,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged": [
+    0.5,
+    4,
+    4
+   ]
+  },
+  "binary_sum": {
+   "sep": 0.8947368421052632,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.019138755980861233,
+   "diff_ci": [
+    -0.08624401913875594,
+    0.05263157894736836
+   ],
+   "ci": [
+    0.7655502392344498,
+    0.9808612440191388
+   ],
+   "p_shuffled_weights": 0.011988011988011988,
+   "p_familywise": 0.2087912087912088,
+   "loo_min": 0.8842105263157894,
+   "nonblood_sep": 0.8347107438016529,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary": [
+    0.75,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged": [
+    0.75,
+    4,
+    4
+   ]
+  },
+  "hand_max": {
+   "sep": 0.7272727272727273,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.1866028708133971,
+   "diff_ci": [
+    -0.3444976076555023,
+    -0.05263157894736836
+   ],
+   "ci": [
+    0.5454545454545454,
+    0.8779904306220095
+   ],
+   "p_shuffled_weights": 0.5084915084915085,
+   "p_familywise": 1.0,
+   "loo_min": 0.7,
+   "nonblood_sep": 0.628099173553719,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary": [
+    0.75,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged": [
+    0.25,
+    4,
+    4
+   ]
+  },
+  "hand_sum": {
+   "sep": 0.8755980861244019,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.038277511961722466,
+   "diff_ci": [
+    -0.11961722488038284,
+    0.03349282296650713
+   ],
+   "ci": [
+    0.7320574162679426,
+    0.9760765550239234
+   ],
+   "p_shuffled_weights": 0.24375624375624375,
+   "p_familywise": 0.6593406593406593,
+   "loo_min": 0.8631578947368421,
+   "nonblood_sep": 0.8264462809917356,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary": [
+    0.625,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged": [
+    0.75,
+    4,
+    4
+   ]
+  },
+  "death_max": {
+   "sep": 0.69377990430622,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.22009569377990434,
+   "diff_ci": [
+    -0.3971291866028708,
+    -0.052631578947368474
+   ],
+   "ci": [
+    0.49037081339712923,
+    0.8827751196172249
+   ],
+   "p_shuffled_weights": 0.7172827172827173,
+   "p_familywise": 1.0,
+   "loo_min": 0.6736842105263158,
+   "nonblood_sep": 0.6033057851239669,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary": [
+    0.625,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged": [
+    0.8125,
+    4,
+    4
+   ]
+  },
+  "death_sum": {
+   "sep": 0.8516746411483254,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.062200956937799035,
+   "diff_ci": [
+    -0.19617224880382778,
+    0.04784688995215314
+   ],
+   "ci": [
+    0.6842105263157895,
+    0.9712918660287081
+   ],
+   "p_shuffled_weights": 0.6443556443556444,
+   "p_familywise": 0.994005994005994,
+   "loo_min": 0.8368421052631579,
+   "nonblood_sep": 0.8099173553719008,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary": [
+    0.75,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged": [
+    0.8125,
+    4,
+    4
+   ]
+  },
+  "severe_max": {
+   "sep": 0.6746411483253588,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.23923444976076558,
+   "diff_ci": [
+    -0.41632775119617227,
+    -0.06937799043062198
+   ],
+   "ci": [
+    0.4688995215311005,
+    0.8660287081339713
+   ],
+   "p_shuffled_weights": 0.7292707292707292,
+   "p_familywise": 1.0,
+   "loo_min": 0.6526315789473685,
+   "nonblood_sep": 0.5785123966942148,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary": [
+    0.625,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged": [
+    0.625,
+    4,
+    4
+   ]
+  },
+  "severe_sum": {
+   "sep": 0.861244019138756,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.05263157894736836,
+   "diff_ci": [
+    -0.15311004784688997,
+    0.028708133971291905
+   ],
+   "ci": [
+    0.7033492822966507,
+    0.9760765550239234
+   ],
+   "p_shuffled_weights": 0.5434565434565435,
+   "p_familywise": 0.9500499500499501,
+   "loo_min": 0.8473684210526315,
+   "nonblood_sep": 0.8099173553719008,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary": [
+    0.625,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged": [
+    0.75,
+    4,
+    4
+   ]
+  },
+  "death_ihc_max": {
+   "sep": 0.7416666666666667,
+   "n": 23,
+   "frozen_same_genes": 0.9083333333333333,
+   "diff_vs_frozen": -0.16666666666666663,
+   "diff_ci": [
+    -0.35834558823529405,
+    0.0
+   ],
+   "ci": [
+    0.5,
+    0.9407449494949495
+   ],
+   "p_shuffled_weights": 0.5754245754245755,
+   "p_familywise": 1.0,
+   "loo_min": 0.7095238095238096,
+   "nonblood_sep": 0.609375,
+   "nonblood_frozen": 0.828125,
+   "n_nonblood": 16,
+   "validation_primary": [
+    0.6666666666666666,
+    3,
+    1
+   ],
+   "validation_safe_vs_hedged": [
+    0.7777777777777778,
+    3,
+    3
+   ]
+  }
+ },
+ "null_family_p95": 0.9416666666666667,
+ "n_panel_with_ihc": 23,
+ "robustness_T0": {
+  "T0=3_death_max": 0.69377990430622,
+  "T0=3_death_sum": 0.8516746411483254,
+  "T0=3_binary_max": 0.631578947368421,
+  "T0=3_binary_sum": 0.8947368421052632,
+  "T0=10_death_max": 0.69377990430622,
+  "T0=10_death_sum": 0.8516746411483254,
+  "T0=10_binary_max": 0.631578947368421,
+  "T0=10_binary_sum": 0.8947368421052632,
+  "T0=30_death_max": 0.69377990430622,
+  "T0=30_death_sum": 0.8516746411483254,
+  "T0=30_binary_max": 0.631578947368421,
+  "T0=30_binary_sum": 0.8947368421052632
+ },
+ "diagnostic_system_weight_oracle": {
+  "sum": {
+   "oracle_sep": 0.9784688995215312,
+   "nested_cv_sep": 0.7751196172248804,
+   "null_oracle_mean": 0.6939792663476875,
+   "null_oracle_p95": 0.8351674641148324,
+   "weights": {
+    "liver": 0.5,
+    "biliary": 0.25,
+    "kidney_tubule": 0.0,
+    "kidney_glomerulus": 0.25,
+    "heart_muscle": 0.0,
+    "lung": 0.25,
+    "brain": 0.25,
+    "peripheral_nerve": 0.0,
+    "colon_gut": 1.0,
+    "upper_gi": 0.25,
+    "pancreas_exocrine": 0.0,
+    "skin": 0.0,
+    "melanocyte": 0.0,
+    "neutrophil": 0.0,
+    "red_cell": 1.0,
+    "platelet": 0.0,
+    "marrow_stem": 0.0,
+    "lymphoid": 0.0,
+    "thyroid": 0.75,
+    "adrenal": 0.5,
+    "islet": 1.0,
+    "pituitary": 0.25,
+    "eye_surface": 0.0,
+    "retina_nerve": 0.0,
+    "reproductive": 1.0,
+    "salivary": 0.5,
+    "vascular": 0.0,
+    "skeletal_muscle": 0.0
+   }
+  },
+  "max": {
+   "oracle_sep": 0.9880382775119617,
+   "nested_cv_sep": 0.777511961722488,
+   "null_oracle_mean": 0.7615629984051037,
+   "null_oracle_p95": 0.8758373205741626,
+   "weights": {
+    "liver": 0.25,
+    "biliary": 1.0,
+    "kidney_tubule": 1.0,
+    "kidney_glomerulus": 0.0,
+    "heart_muscle": 0.0,
+    "lung": 0.0,
+    "brain": 0.0,
+    "peripheral_nerve": 1.0,
+    "colon_gut": 1.0,
+    "upper_gi": 0.0,
+    "pancreas_exocrine": 1.0,
+    "skin": 0.0,
+    "melanocyte": 0.25,
+    "neutrophil": 0.0,
+    "red_cell": 0.5,
+    "platelet": 0.0,
+    "marrow_stem": 0.0,
+    "lymphoid": 0.0,
+    "thyroid": 0.5,
+    "adrenal": 0.0,
+    "islet": 1.0,
+    "pituitary": 0.0,
+    "eye_surface": 0.25,
+    "retina_nerve": 0.0,
+    "reproductive": 0.0,
+    "salivary": 0.75,
+    "vascular": 0.0,
+    "skeletal_muscle": 0.0
+   }
+  }
+ },
+ "decision": {
+  "promoted": []
+ }
+}

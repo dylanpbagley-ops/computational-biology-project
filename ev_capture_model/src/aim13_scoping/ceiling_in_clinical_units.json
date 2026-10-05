@@ -1,0 +1,1907 @@
+{
+ "CD3E": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.03429602888086643,
+    "NK": 0.017154389505549948,
+    "NB": 0.017148014440433214
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.1371841155234657,
+    "NK": 0.07917888563049853,
+    "NB": 0.07048008171603677
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD4": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.011235955056179775,
+    "NK": 0.09464508094645081,
+    "NB": 0.014915693904020753
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0010090817356205853,
+    "MY": 0.022598870056497175,
+    "NK": 0.16967509025270758,
+    "NB": 0.061762034514078114
+   },
+   "ceiling": 0.0010090817356205853,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0010090817356205853,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD8A": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.06721162579473206,
+    "NK": 0.014915693904020753,
+    "NB": 0.019550342130987292
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.18181818181818182,
+    "NK": 0.05771725032425422,
+    "NB": 0.05449591280653951
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD11B": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.007220216606498195,
+    "MY": 0.0,
+    "NK": 0.028530670470756064,
+    "NB": 0.010615711252653927
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.06062767475035663,
+    "MY": 0.0009775171065493646,
+    "NK": 0.12553495007132667,
+    "NB": 0.052303860523038606
+   },
+   "ceiling": 0.0009775171065493646,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.0009775171065493646,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD11C": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.05571847507331378,
+    "MY": 0.0042796005706134095,
+    "NK": 0.049029622063329927,
+    "NB": 0.012108980827447022
+   },
+   "ceiling": 0.0042796005706134095,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.0042796005706134095,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.1349862258953168,
+    "MY": 0.014265335235378032,
+    "NK": 0.11626248216833096,
+    "NB": 0.05209397344228805
+   },
+   "ceiling": 0.014265335235378032,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.014265335235378032,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD14": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.0,
+    "NK": 0.0361145703611457,
+    "NB": 0.014265335235378032
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.02075812274368231,
+    "MY": 0.0,
+    "NK": 0.118488253319714,
+    "NB": 0.05848787446504993
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD15": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.011807447774750226,
+    "MY": 0.008264462809917356,
+    "NK": 0.025423728813559324,
+    "NB": 0.00631768953068592
+   },
+   "ceiling": 0.00631768953068592,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.008264462809917356,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.060544904137235116,
+    "MY": 0.05146316851664985,
+    "NK": 0.07164480322906155,
+    "NB": 0.03881511746680286
+   },
+   "ceiling": 0.03881511746680286,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.05146316851664985,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD16": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.047898338220918865,
+    "MY": 0.04187946884576098,
+    "NK": 0.0351985559566787,
+    "NB": 0.012125534950071327
+   },
+   "ceiling": 0.012125534950071327,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.0351985559566787,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.17231638418079095,
+    "MY": 0.10649819494584838,
+    "NK": 0.06614785992217899,
+    "NB": 0.056508577194752774
+   },
+   "ceiling": 0.056508577194752774,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.06614785992217899,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD19": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.029064486830154404,
+    "MY": 0.0388086642599278,
+    "NK": 0.03360581289736603,
+    "NB": 0.0007132667617689016
+   },
+   "ceiling": 0.0007132667617689016,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.029064486830154404,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.06588447653429604,
+    "MY": 0.09082652134423251,
+    "NK": 0.06779661016949153,
+    "NB": 0.006842619745845552
+   },
+   "ceiling": 0.006842619745845552,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.06588447653429604,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD25": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0010214504596527069,
+    "MY": 0.022598870056497175,
+    "NK": 0.012257405515832482,
+    "NB": 0.009990917347865577
+   },
+   "ceiling": 0.0010214504596527069,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0010214504596527069,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.014532243415077202,
+    "MY": 0.06779661016949153,
+    "NK": 0.05767350928641251,
+    "NB": 0.044399596367305755
+   },
+   "ceiling": 0.014532243415077202,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.014532243415077202,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD28": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.021939136588818117,
+    "NK": 0.01857282502443793,
+    "NB": 0.014154281670205236
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.11299435028248588,
+    "NK": 0.0801564027370479,
+    "NB": 0.06031128404669261
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD33": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.0,
+    "NK": 0.030303030303030304,
+    "NB": 0.012453300124533
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05234159779614325,
+    "MY": 0.0,
+    "NK": 0.07988980716253444,
+    "NB": 0.05005107252298264
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD38": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0136986301369863,
+    "MY": 0.022697795071335927,
+    "NK": 0.007150153217568948,
+    "NB": 0.005706134094151213
+   },
+   "ceiling": 0.005706134094151213,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.007150153217568948,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0448318804483188,
+    "MY": 0.08365758754863813,
+    "NK": 0.01652892561983471,
+    "NB": 0.046028880866425995
+   },
+   "ceiling": 0.01652892561983471,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.01652892561983471,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD39": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.025423728813559324,
+    "MY": 0.00324254215304799,
+    "NK": 0.04151624548736462,
+    "NB": 0.0036330608537693005
+   },
+   "ceiling": 0.00324254215304799,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.00324254215304799,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05903723887375113,
+    "MY": 0.013623978201634877,
+    "NK": 0.1195097037793667,
+    "NB": 0.01907356948228883
+   },
+   "ceiling": 0.013623978201634877,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.013623978201634877,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD40": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.014978601997146932,
+    "MY": 0.00847457627118644,
+    "NK": 0.03326256192498231,
+    "NB": 0.0010214504596527069
+   },
+   "ceiling": 0.0010214504596527069,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.00847457627118644,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.08844765342960288,
+    "MY": 0.0480225988700565,
+    "NK": 0.11827956989247312,
+    "NB": 0.015321756894790603
+   },
+   "ceiling": 0.015321756894790603,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.0480225988700565,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD45": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.006369426751592357,
+    "MY": 0.005706134094151213,
+    "NK": 0.05785123966942149,
+    "NB": 0.005706134094151213
+   },
+   "ceiling": 0.005706134094151213,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.005706134094151213,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.016985138004246284,
+    "MY": 0.01895306859205776,
+    "NK": 0.1276747503566334,
+    "NB": 0.024437927663734114
+   },
+   "ceiling": 0.016985138004246284,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.016985138004246284,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD45RA": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.004992867332382311,
+    "MY": 0.13537906137184116,
+    "NK": 0.006419400855920114,
+    "NB": 0.0030643513789581204
+   },
+   "ceiling": 0.0030643513789581204,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.004992867332382311,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.03397027600849257,
+    "MY": 0.2897111913357401,
+    "NK": 0.03677221654749745,
+    "NB": 0.020429009193054137
+   },
+   "ceiling": 0.020429009193054137,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.03397027600849257,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD45RO": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.005509641873278237,
+    "MY": 0.011299435028248588,
+    "NK": 0.01297016861219196,
+    "NB": 0.006054490413723511
+   },
+   "ceiling": 0.005509641873278237,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.005509641873278237,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.03178928247048138,
+    "MY": 0.0622568093385214,
+    "NK": 0.0442225392296719,
+    "NB": 0.03834510595358224
+   },
+   "ceiling": 0.03178928247048138,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.03178928247048138,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD56": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.0,
+    "NK": 0.0,
+    "NB": 0.01297016861219196
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.07062146892655367,
+    "MY": 0.06611570247933884,
+    "NK": 0.0,
+    "NB": 0.06490727532097004
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD57": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0010090817356205853,
+    "MY": 0.04904632152588556,
+    "NK": 0.007471980074719801,
+    "NB": 0.016145307769929364
+   },
+   "ceiling": 0.0010090817356205853,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0010090817356205853,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.012715712988192553,
+    "MY": 0.162534435261708,
+    "NK": 0.0743801652892562,
+    "NB": 0.05367231638418079
+   },
+   "ceiling": 0.012715712988192553,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.012715712988192553,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD62L": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0062266500622665,
+    "MY": 0.01652892561983471,
+    "NK": 0.005509641873278237,
+    "NB": 0.003566333808844508
+   },
+   "ceiling": 0.003566333808844508,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.005509641873278237,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.03856749311294766,
+    "MY": 0.06062767475035663,
+    "NK": 0.02075812274368231,
+    "NB": 0.03733602421796166
+   },
+   "ceiling": 0.02075812274368231,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.02075812274368231,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD69": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.012125534950071327,
+    "MY": 0.006842619745845552,
+    "NK": 0.004992867332382311,
+    "NB": 0.010899182561307902
+   },
+   "ceiling": 0.004992867332382311,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.004992867332382311,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.06060606060606061,
+    "MY": 0.013685239491691105,
+    "NK": 0.03128153380423814,
+    "NB": 0.05188067444876784
+   },
+   "ceiling": 0.013685239491691105,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.013685239491691105,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD80": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.013774104683195593,
+    "MY": 0.02203856749311295,
+    "NK": 0.01652892561983471,
+    "NB": 0.011412268188302425
+   },
+   "ceiling": 0.011412268188302425,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.013774104683195593,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.06227436823104693,
+    "MY": 0.09641873278236915,
+    "NK": 0.07038123167155426,
+    "NB": 0.057285180572851806
+   },
+   "ceiling": 0.057285180572851806,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.06227436823104693,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD81": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0024906600249066002,
+    "MY": 0.017692852087756547,
+    "NK": 0.01928374655647383,
+    "NB": 0.004992867332382311
+   },
+   "ceiling": 0.0024906600249066002,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0024906600249066002,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.025227043390514632,
+    "MY": 0.06227883934890304,
+    "NK": 0.06842619745845552,
+    "NB": 0.03326256192498231
+   },
+   "ceiling": 0.025227043390514632,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.025227043390514632,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD94": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.01977401129943503,
+    "MY": 0.09747292418772563,
+    "NK": 0.0,
+    "NB": 0.01652892561983471
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.1271186440677966,
+    "MY": 0.36462093862815886,
+    "NK": 0.002932551319648094,
+    "NB": 0.06768953068592058
+   },
+   "ceiling": 0.002932551319648094,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.002932551319648094,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD95": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0007132667617689016,
+    "MY": 0.0030272452068617556,
+    "NK": 0.04132231404958678,
+    "NB": 0.0014265335235378032
+   },
+   "ceiling": 0.0007132667617689016,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0007132667617689016,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.008492569002123142,
+    "MY": 0.009193054136874362,
+    "NK": 0.12155260469867211,
+    "NB": 0.031133250311332503
+   },
+   "ceiling": 0.008492569002123142,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.008492569002123142,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD107A": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.020684736091298145,
+    "MY": 0.005865102639296188,
+    "NK": 0.0442225392296719,
+    "NB": 0.013537906137184115
+   },
+   "ceiling": 0.005865102639296188,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.005865102639296188,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0703971119133574,
+    "MY": 0.024217961654894045,
+    "NK": 0.14096016343207354,
+    "NB": 0.05649717514124294
+   },
+   "ceiling": 0.024217961654894045,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.024217961654894045,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD117": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.017692852087756547,
+    "MY": 0.020103761348897537,
+    "NK": 0.0040858018386108275,
+    "NB": 0.014124293785310734
+   },
+   "ceiling": 0.0040858018386108275,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.0040858018386108275,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05512321660181582,
+    "MY": 0.09695682944090588,
+    "NK": 0.017364657814096015,
+    "NB": 0.0609597924773022
+   },
+   "ceiling": 0.017364657814096015,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.017364657814096015,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD123": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.055201698513800426,
+    "MY": 0.022598870056497175,
+    "NK": 0.06336088154269973,
+    "NB": 0.014943960149439602
+   },
+   "ceiling": 0.014943960149439602,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.022598870056497175,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.1487603305785124,
+    "MY": 0.05515832482124617,
+    "NK": 0.1444043321299639,
+    "NB": 0.04519774011299435
+   },
+   "ceiling": 0.04519774011299435,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.05515832482124617,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD127": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.02737047898338221,
+    "NK": 0.009985734664764621,
+    "NB": 0.013118062563067608
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0030643513789581204,
+    "MY": 0.096045197740113,
+    "NK": 0.054136874361593465,
+    "NB": 0.05852674066599395
+   },
+   "ceiling": 0.0030643513789581204,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0030643513789581204,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD134": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.008171603677221655,
+    "MY": 0.03581267217630854,
+    "NK": 0.0112079701120797,
+    "NB": 0.011299435028248588
+   },
+   "ceiling": 0.008171603677221655,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.008171603677221655,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0423728813559322,
+    "MY": 0.12396694214876033,
+    "NK": 0.042796005706134094,
+    "NB": 0.05064194008559201
+   },
+   "ceiling": 0.0423728813559322,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0423728813559322,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD137": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.00847457627118644,
+    "MY": 0.027548209366391185,
+    "NK": 0.016617790811339198,
+    "NB": 0.009775171065493646
+   },
+   "ceiling": 0.00847457627118644,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.00847457627118644,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05188067444876784,
+    "MY": 0.08577194752774975,
+    "NK": 0.0635386119257087,
+    "NB": 0.04963898916967509
+   },
+   "ceiling": 0.04963898916967509,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.05188067444876784,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD138": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.01569506726457399,
+    "MY": 0.04178674351585014,
+    "NK": 0.023668639053254437,
+    "NB": 0.36830357142857145
+   },
+   "ceiling": 0.01569506726457399,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.01569506726457399,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": true
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.07096774193548387,
+    "MY": 0.15483870967741936,
+    "NK": 0.07096774193548387,
+    "NB": 0.3950892857142857
+   },
+   "ceiling": 0.07096774193548387,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.07096774193548387,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": true
+  }
+ },
+ "CD141": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.01634877384196185,
+    "MY": 0.00324254215304799,
+    "NK": 0.04151624548736462,
+    "NB": 0.012257405515832482
+   },
+   "ceiling": 0.00324254215304799,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.00324254215304799,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.08717310087173101,
+    "MY": 0.01694915254237288,
+    "NK": 0.15252707581227437,
+    "NB": 0.039100684261974585
+   },
+   "ceiling": 0.01694915254237288,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.01694915254237288,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD152": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.011732851985559567,
+    "MY": 0.013774104683195593,
+    "NK": 0.0136986301369863,
+    "NB": 0.011099899091826439
+   },
+   "ceiling": 0.011099899091826439,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.011732851985559567,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.046831955922865015,
+    "MY": 0.0881542699724518,
+    "NK": 0.058365758754863814,
+    "NB": 0.050454086781029264
+   },
+   "ceiling": 0.046831955922865015,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.046831955922865015,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD160": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.012031139419674451,
+    "MY": 0.030881017257039057,
+    "NK": 0.008264462809917356,
+    "NB": 0.009985734664764621
+   },
+   "ceiling": 0.008264462809917356,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.008264462809917356,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05206847360912981,
+    "MY": 0.12079927338782924,
+    "NK": 0.0440771349862259,
+    "NB": 0.05977584059775841
+   },
+   "ceiling": 0.0440771349862259,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.0440771349862259,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD161": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.007063572149344097,
+    "MY": 0.1080835603996367,
+    "NK": 0.004246284501061571,
+    "NB": 0.018386108273748723
+   },
+   "ceiling": 0.004246284501061571,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.004246284501061571,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05803255484784147,
+    "MY": 0.2809917355371901,
+    "NK": 0.03255484784147204,
+    "NB": 0.07203994293865906
+   },
+   "ceiling": 0.03255484784147204,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.03255484784147204,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD183": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.009200283085633405,
+    "MY": 0.1099899091826438,
+    "NK": 0.04398826979472141,
+    "NB": 0.019925280199252802
+   },
+   "ceiling": 0.009200283085633405,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.009200283085633405,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.04670912951167728,
+    "MY": 0.30373360242179614,
+    "NK": 0.11010830324909747,
+    "NB": 0.05649717514124294
+   },
+   "ceiling": 0.04670912951167728,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.04670912951167728,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD195": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0027548209366391185,
+    "MY": 0.016861219195849545,
+    "NK": 0.01725703905540418,
+    "NB": 0.0136986301369863
+   },
+   "ceiling": 0.0027548209366391185,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0027548209366391185,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.028642590286425903,
+    "MY": 0.07988980716253444,
+    "NK": 0.06704707560627675,
+    "NB": 0.0615539858728557
+   },
+   "ceiling": 0.028642590286425903,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.028642590286425903,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD197": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.011730205278592375,
+    "MY": 0.03437094682230869,
+    "NK": 0.01783166904422254,
+    "NB": 0.010830324909747292
+   },
+   "ceiling": 0.010830324909747292,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.011730205278592375,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0537862703467799,
+    "MY": 0.10010214504596528,
+    "NK": 0.06939040207522698,
+    "NB": 0.042033235581622676
+   },
+   "ceiling": 0.042033235581622676,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.0537862703467799,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD200": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.017364657814096015,
+    "MY": 0.06060606060606061,
+    "NK": 0.02247191011235955,
+    "NB": 0.007077140835102618
+   },
+   "ceiling": 0.007077140835102618,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.017364657814096015,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.06723283793347487,
+    "MY": 0.1864406779661017,
+    "NK": 0.062146892655367235,
+    "NB": 0.036093418259023353
+   },
+   "ceiling": 0.036093418259023353,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.062146892655367235,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD223": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.011299435028248588,
+    "MY": 0.049586776859504134,
+    "NK": 0.012031139419674451,
+    "NB": 0.011099899091826439
+   },
+   "ceiling": 0.011099899091826439,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.011299435028248588,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.053763440860215055,
+    "MY": 0.1793275217932752,
+    "NK": 0.0609597924773022,
+    "NB": 0.057285180572851806
+   },
+   "ceiling": 0.053763440860215055,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.053763440860215055,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD244": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.014978601997146932,
+    "MY": 0.006842619745845552,
+    "NK": 0.00847457627118644,
+    "NB": 0.014978601997146932
+   },
+   "ceiling": 0.006842619745845552,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.006842619745845552,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.062146892655367235,
+    "MY": 0.023465703971119134,
+    "NK": 0.07652399481193256,
+    "NB": 0.06085376930063579
+   },
+   "ceiling": 0.023465703971119134,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.023465703971119134,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD269": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.009578544061302681,
+    "MY": 0.031062124248496994,
+    "NK": 0.017006802721088437,
+    "NB": 0.009578544061302681
+   },
+   "ceiling": 0.009578544061302681,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.009578544061302681,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": true
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05172413793103448,
+    "MY": 0.11553784860557768,
+    "NK": 0.05276073619631902,
+    "NB": 0.04864864864864865
+   },
+   "ceiling": 0.04864864864864865,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.05172413793103448,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": true
+  }
+ },
+ "CD273": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.012453300124533,
+    "MY": 0.043010752688172046,
+    "NK": 0.01925820256776034,
+    "NB": 0.013278855975485188
+   },
+   "ceiling": 0.012453300124533,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.012453300124533,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05086285195277021,
+    "MY": 0.1195097037793667,
+    "NK": 0.0743801652892562,
+    "NB": 0.04332129963898917
+   },
+   "ceiling": 0.04332129963898917,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.05086285195277021,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD274": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.013774104683195593,
+    "MY": 0.005865102639296188,
+    "NK": 0.0326975476839237,
+    "NB": 0.008797653958944282
+   },
+   "ceiling": 0.005865102639296188,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.005865102639296188,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.06918687589158345,
+    "MY": 0.021798365122615803,
+    "NK": 0.12121212121212122,
+    "NB": 0.03389830508474576
+   },
+   "ceiling": 0.021798365122615803,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.021798365122615803,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD278": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.14895549500454133,
+    "NK": 0.020523708421797595,
+    "NB": 0.02553626149131767
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0021231422505307855,
+    "MY": 0.2994350282485876,
+    "NK": 0.07652399481193256,
+    "NB": 0.0745658835546476
+   },
+   "ceiling": 0.0021231422505307855,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0021231422505307855,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD279": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.10451977401129943,
+    "NK": 0.02594033722438392,
+    "NB": 0.02553626149131767
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.011299435028248588,
+    "MY": 0.24858757062146894,
+    "NK": 0.07233626588465299,
+    "NB": 0.0898876404494382
+   },
+   "ceiling": 0.011299435028248588,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.011299435028248588,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD294": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.013774104683195593,
+    "MY": 0.048567870485678705,
+    "NK": 0.01466275659824047,
+    "NB": 0.01907356948228883
+   },
+   "ceiling": 0.013774104683195593,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.013774104683195593,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0629865534324133,
+    "MY": 0.1644535240040858,
+    "NK": 0.06085376930063579,
+    "NB": 0.04985337243401759
+   },
+   "ceiling": 0.04985337243401759,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.06085376930063579,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD314": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.003566333808844508,
+    "MY": 0.11299435028248588,
+    "NK": 0.005649717514124294,
+    "NB": 0.013278855975485188
+   },
+   "ceiling": 0.003566333808844508,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.003566333808844508,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.02089009990917348,
+    "MY": 0.2401129943502825,
+    "NK": 0.02737047898338221,
+    "NB": 0.06902815622161672
+   },
+   "ceiling": 0.02089009990917348,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.02089009990917348,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD319": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.01895306859205776,
+    "MY": 0.028530670470756064,
+    "NK": 0.014267185473411154,
+    "NB": 0.008264462809917356
+   },
+   "ceiling": 0.008264462809917356,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.014267185473411154,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.061608300907911806,
+    "MY": 0.13449564134495642,
+    "NK": 0.05848787446504993,
+    "NB": 0.06510969568294409
+   },
+   "ceiling": 0.05848787446504993,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.05848787446504993,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD337": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.051771117166212535,
+    "MY": 0.11581569115815692,
+    "NK": 0.004512635379061372,
+    "NB": 0.017434620174346202
+   },
+   "ceiling": 0.004512635379061372,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.004512635379061372,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.11534968210717529,
+    "MY": 0.3333333333333333,
+    "NK": 0.01857282502443793,
+    "NB": 0.0743801652892562
+   },
+   "ceiling": 0.01857282502443793,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.01857282502443793,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "CD357": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.01694915254237288,
+    "MY": 0.07061340941512126,
+    "NK": 0.013774104683195593,
+    "NB": 0.012453300124533
+   },
+   "ceiling": 0.012453300124533,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.013774104683195593,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05367231638418079,
+    "MY": 0.1864406779661017,
+    "NK": 0.06348074179743224,
+    "NB": 0.06744487678339818
+   },
+   "ceiling": 0.05367231638418079,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.05367231638418079,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CD366": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.03225806451612903,
+    "MY": 0.0036101083032490976,
+    "NK": 0.017595307917888565,
+    "NB": 0.014532243415077202
+   },
+   "ceiling": 0.0036101083032490976,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.0036101083032490976,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.08949416342412451,
+    "MY": 0.020527859237536656,
+    "NK": 0.06355382619974059,
+    "NB": 0.052781740370898715
+   },
+   "ceiling": 0.020527859237536656,
+   "binding_compartment": "MY",
+   "binding_compartment_name": "myeloid cells",
+   "ceiling_nonexpendable_only": 0.020527859237536656,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "CD307": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.023661270236612703,
+    "MY": 0.0448318804483188,
+    "NK": 0.022598870056497175,
+    "NB": 0.01917255297679112
+   },
+   "ceiling": 0.01917255297679112,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.022598870056497175,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.07098381070983811,
+    "MY": 0.29519918283963226,
+    "NK": 0.07344632768361582,
+    "NB": 0.056508577194752774
+   },
+   "ceiling": 0.056508577194752774,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.07098381070983811,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "TCRAB": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.08539944903581267,
+    "NK": 0.019981834695731154,
+    "NB": 0.014265335235378032
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0,
+    "MY": 0.2066115702479339,
+    "NK": 0.07266121707538602,
+    "NB": 0.05776173285198556
+   },
+   "ceiling": 0.0,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "TCRV2": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.007063572149344097,
+    "MY": 0.056348074179743225,
+    "NK": 0.015440508628519528,
+    "NB": 0.020429009193054137
+   },
+   "ceiling": 0.007063572149344097,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.007063572149344097,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.049586776859504134,
+    "MY": 0.16984559491371481,
+    "NK": 0.062266500622665005,
+    "NB": 0.0547945205479452
+   },
+   "ceiling": 0.049586776859504134,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.049586776859504134,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "CCR10": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.014124293785310734,
+    "MY": 0.08375893769152196,
+    "NK": 0.015640273704789834,
+    "NB": 0.01270772238514174
+   },
+   "ceiling": 0.01270772238514174,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.014124293785310734,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05474095796676442,
+    "MY": 0.18488253319713993,
+    "NK": 0.06085376930063579,
+    "NB": 0.0681198910081744
+   },
+   "ceiling": 0.05474095796676442,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.05474095796676442,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "HLA-DR": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.03389830508474576,
+    "MY": 0.007220216606498195,
+    "NK": 0.1040339702760085,
+    "NB": 0.0027548209366391185
+   },
+   "ceiling": 0.0027548209366391185,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.007220216606498195,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.10181582360570687,
+    "MY": 0.030685920577617327,
+    "NK": 0.20397111913357402,
+    "NB": 0.029064486830154404
+   },
+   "ceiling": 0.029064486830154404,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.030685920577617327,
+   "binding_compartment_nonexpendable": "MY",
+   "gate_decircularised": false
+  }
+ },
+ "KLRG1": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.013623978201634877,
+    "MY": 0.10460772104607721,
+    "NK": 0.030685920577617327,
+    "NB": 0.024437927663734114
+   },
+   "ceiling": 0.013623978201634877,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.013623978201634877,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05449591280653951,
+    "MY": 0.24293785310734464,
+    "NK": 0.093841642228739,
+    "NB": 0.0615539858728557
+   },
+   "ceiling": 0.05449591280653951,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.05449591280653951,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "TIGIT": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.004512635379061372,
+    "MY": 0.06419400855920114,
+    "NK": 0.019981834695731154,
+    "NB": 0.013685239491691105
+   },
+   "ceiling": 0.004512635379061372,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.004512635379061372,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.0351985559566787,
+    "MY": 0.211864406779661,
+    "NK": 0.06887052341597796,
+    "NB": 0.05901426718547341
+   },
+   "ceiling": 0.0351985559566787,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.0351985559566787,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "FITC": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.012715712988192553,
+    "MY": 0.037359900373599,
+    "NK": 0.014124293785310734,
+    "NB": 0.014943960149439602
+   },
+   "ceiling": 0.012715712988192553,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.012715712988192553,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.06611570247933884,
+    "MY": 0.12482168330955777,
+    "NK": 0.08264462809917356,
+    "NB": 0.0681198910081744
+   },
+   "ceiling": 0.06611570247933884,
+   "binding_compartment": "T",
+   "binding_compartment_name": "T cells",
+   "ceiling_nonexpendable_only": 0.06611570247933884,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  }
+ },
+ "PE": {
+  "0.01": {
+   "per_compartment": {
+    "T": 0.012453300124533,
+    "MY": 0.08059914407988587,
+    "NK": 0.01297016861219196,
+    "NB": 0.011807447774750226
+   },
+   "ceiling": 0.011807447774750226,
+   "binding_compartment": "NB",
+   "binding_compartment_name": "normal B cells",
+   "ceiling_nonexpendable_only": 0.012453300124533,
+   "binding_compartment_nonexpendable": "T",
+   "gate_decircularised": false
+  },
+  "0.05": {
+   "per_compartment": {
+    "T": 0.05920114122681883,
+    "MY": 0.1818830242510699,
+    "NK": 0.05474095796676442,
+    "NB": 0.059322033898305086
+   },
+   "ceiling": 0.05474095796676442,
+   "binding_compartment": "NK",
+   "binding_compartment_name": "NK cells",
+   "ceiling_nonexpendable_only": 0.05474095796676442,
+   "binding_compartment_nonexpendable": "NK",
+   "gate_decircularised": false
+  }
+ },
+ "_meta": {
+  "harm_budgets": [
+   0.01,
+   0.05
+  ],
+  "n_samples_used": 11,
+  "gate_markers_decircularised": [
+   "CD138",
+   "CD269"
+  ],
+  "expendable_compartments": [
+   "NB"
+  ],
+  "units_note": "All values are FRACTIONS OF A POPULATION and are invariant to any monotone rescaling of the antigen axis. They are therefore NOT affected by the absolute-calibration gap in sections 11/11a, and must not be presented as calibrated operating points."
+ }
+}

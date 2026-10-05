@@ -1,0 +1,4 @@
+# Verified latest functional-pilot environment: Python 3.12.14
+# This is not a dependency specification for the full historical project.
+numpy==2.3.5
+openpyxl==3.1.5

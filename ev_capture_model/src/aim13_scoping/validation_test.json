@@ -1,0 +1,212 @@
+{
+ "missing_genes": [
+  "CTAG1B",
+  "MAGEA12"
+ ],
+ "targets": {
+  "MAGEA4": {
+   "top_share": 0.4083501190258195,
+   "blood_share": 0.0009155832265152904,
+   "blood_largest": false,
+   "home_lineage": "germline",
+   "home": "differentiating spermatogonia",
+   "rule": 0.4083501190258195,
+   "outcome": "safe",
+   "tier": "primary"
+  },
+  "SSTR2": {
+   "top_share": 0.25630252100840334,
+   "blood_share": 0.010504201680672268,
+   "blood_largest": false,
+   "home_lineage": "epithelial",
+   "home": "proximal tubule cells",
+   "rule": 0.25630252100840334,
+   "outcome": "safe",
+   "tier": "primary"
+  },
+  "CCR4": {
+   "top_share": 0.43682795698924726,
+   "blood_share": 0.28360215053763443,
+   "blood_largest": false,
+   "home_lineage": "blood_other",
+   "home": "platelets",
+   "rule": 0.43682795698924726,
+   "outcome": "safe",
+   "tier": "primary"
+  },
+  "IL2RA": {
+   "top_share": 0.26661115736885926,
+   "blood_share": 0.568526228143214,
+   "blood_largest": true,
+   "home_lineage": "blood",
+   "home": "innate lymphoid cells",
+   "rule": 1.2666111573688592,
+   "outcome": "safe",
+   "tier": "primary"
+  },
+  "GUCY2C": {
+   "top_share": 0.21501023425062543,
+   "blood_share": 0.014327950875596998,
+   "blood_largest": false,
+   "home_lineage": "epithelial",
+   "home": "cardiomyocytes",
+   "rule": 0.21501023425062543,
+   "outcome": "toxic",
+   "tier": "primary"
+  },
+  "PSCA": {
+   "top_share": 0.2703510443684615,
+   "blood_share": 0.0012968615441060318,
+   "blood_largest": false,
+   "home_lineage": "epithelial",
+   "home": "parietal cells",
+   "rule": 0.2703510443684615,
+   "outcome": "toxic",
+   "tier": "primary"
+  },
+  "TFRC": {
+   "top_share": 0.11740391005557624,
+   "blood_share": 0.3367438599566197,
+   "blood_largest": false,
+   "home_lineage": "epithelial",
+   "home": "erythrocyte progenitors",
+   "rule": 0.11740391005557624,
+   "outcome": "toxic",
+   "tier": "hedged"
+  },
+  "SLC44A4": {
+   "top_share": 0.10513880685174244,
+   "blood_share": 0.004922228785193935,
+   "blood_largest": false,
+   "home_lineage": "epithelial",
+   "home": "papillary tip epithelial cells",
+   "rule": 0.10513880685174244,
+   "outcome": "toxic",
+   "tier": "hedged"
+  },
+  "MLANA": {
+   "top_share": 0.840657984075057,
+   "blood_share": 0.016727362508487126,
+   "blood_largest": false,
+   "home_lineage": "other",
+   "home": "melanocytes",
+   "rule": 0.840657984075057,
+   "outcome": "toxic",
+   "tier": "hedged"
+  },
+  "EPHA2": {
+   "top_share": 0.1415833890032584,
+   "blood_share": 0.010143287570382693,
+   "blood_largest": false,
+   "home_lineage": "epithelial",
+   "home": "esophageal apical cells",
+   "rule": 0.1415833890032584,
+   "outcome": "toxic",
+   "tier": "hedged"
+  },
+  "PMEL": {
+   "top_share": 0.6754609238396669,
+   "blood_share": 0.014187379650738135,
+   "blood_largest": false,
+   "home_lineage": "other",
+   "home": "melanocytes",
+   "rule": 0.6754609238396669,
+   "outcome": "excluded",
+   "tier": "excluded"
+  },
+  "SLC6A2": {
+   "top_share": 0.25439919557566615,
+   "blood_share": 0.005027652086475615,
+   "blood_largest": false,
+   "home_lineage": "epithelial",
+   "home": "epididymal efferent duct absorptive cells",
+   "rule": 0.25439919557566615,
+   "outcome": "excluded",
+   "tier": "excluded"
+  },
+  "CD276": {
+   "top_share": 0.12422576649117371,
+   "blood_share": 0.10154072468256424,
+   "blood_largest": false,
+   "home_lineage": "epithelial",
+   "home": "extravillous trophoblasts",
+   "rule": 0.12422576649117371,
+   "outcome": "excluded",
+   "tier": "excluded"
+  },
+  "PRAME": {
+   "top_share": 0.39787028073572117,
+   "blood_share": 0.0019361084220716359,
+   "blood_largest": false,
+   "home_lineage": "germline",
+   "home": "differentiating spermatogonia",
+   "rule": 0.39787028073572117,
+   "outcome": "excluded",
+   "tier": "excluded"
+  }
+ },
+ "primary": {
+  "n_safe": 4,
+  "n_toxic": 2,
+  "sep_rule": 0.875,
+  "sep_top_share_only": 0.75,
+  "p_exact_permutation": 0.13333333333333333,
+  "min_attainable_p": null,
+  "toxic_below_median_safe": {
+   "GUCY2C": true,
+   "PSCA": true
+  }
+ },
+ "hedged": {
+  "genes": [
+   "TFRC",
+   "SLC44A4",
+   "MLANA",
+   "EPHA2"
+  ],
+  "sep_hedged_toxic_vs_primary_safe": 0.8125,
+  "sep_all_toxic_vs_primary_safe": 0.8333333333333334
+ },
+ "pooled_not_independent": {
+  "n_safe": 23,
+  "n_toxic": 13,
+  "sep": 0.8929765886287625
+ },
+ "flip_sensitivity": {
+  "F0 none": {
+   "n_safe": 19,
+   "n_toxic": 11,
+   "sep": 0.9138755980861244,
+   "one_factor_sep": 0.8803827751196173,
+   "p": 3.4999825000875e-05
+  },
+  "F1 NECTIN4->toxic": {
+   "n_safe": 18,
+   "n_toxic": 12,
+   "sep": 0.9259259259259259,
+   "one_factor_sep": 0.8888888888888888,
+   "p": 9.999950000249999e-06
+  },
+  "F2 F3,FOLR1->safe": {
+   "n_safe": 21,
+   "n_toxic": 9,
+   "sep": 0.8835978835978836,
+   "one_factor_sep": 0.8518518518518519,
+   "p": 0.000284998575007125
+  },
+  "F3 F1+F2": {
+   "n_safe": 20,
+   "n_toxic": 10,
+   "sep": 0.89,
+   "one_factor_sep": 0.855,
+   "p": 0.00018499907500462497
+  },
+  "F4 TNFRSF17->toxic": {
+   "n_safe": 18,
+   "n_toxic": 12,
+   "sep": 0.8379629629629629,
+   "one_factor_sep": 0.8101851851851852,
+   "p": 0.00060999695001525
+  }
+ }
+}

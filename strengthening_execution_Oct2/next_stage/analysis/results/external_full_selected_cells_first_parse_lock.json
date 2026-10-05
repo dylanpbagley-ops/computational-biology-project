@@ -1,0 +1,15 @@
+{
+  "actual_download_manifest_sha256": "9275d41c22cc9359aa2c21b1b1b72e3fb2bad080534f229f4c5b146ae214f15f",
+  "annotation_cell_rows": 65508,
+  "file_join_audit_sha256": "2946b55ee05b7a2ded8aa9098f93f9343c0b8fdcf1590fa8ac771502f6a7a5d4",
+  "first_parse_policy_outputs_state": "provisional_until_sorted_training_regeneration",
+  "full_selection_lock_sha256": "c67c4e8e2fccf1ca0b3a36e61a5064b49cc446b6e0a411b191fe3f845ddb07c0",
+  "full_v3_protocol_sha256": "62eb79d20342c5fa220b75375c3b847108873830486664583ee2ed4fe31a4461",
+  "note": "This lock freezes the first successfully completed parser extract before policy-table deterministic regeneration. It is not a pristine preregistration claim.",
+  "result_summary_sha256_at_seal": "253043b72424a2e7f540ccb39bd5dc98ee772147aece1f6271cd5c24ff68829c",
+  "selected_cell_rows": 62811,
+  "selected_cell_table_sha256": "1043299440b74ddad9ecd49ad50d249a09ce2ad2564791493f9b029d8af9f1c8",
+  "state": "immutable_first_parse_cell_table_lock",
+  "unmatched_annotation_file_sha256": "4ffb4ccd3676cc92396de6ce62ad14c8012bf8992451cab70e7c3d07519b2cb8",
+  "unmatched_annotation_rows": 2697
+}

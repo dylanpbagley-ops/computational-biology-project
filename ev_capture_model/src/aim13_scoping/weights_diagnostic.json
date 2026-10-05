@@ -1,0 +1,102 @@
+{
+ "n_safe": 19,
+ "n_toxic": 11,
+ "frozen_sep": 0.9138755980861244,
+ "n_nonblood_safe": 11,
+ "n_nonblood_toxic": 11,
+ "blood_flag_only_sep": 0.7105263157894737,
+ "frozen_within_nonblood_sep": 0.8512396694214877,
+ "blood_flagged": {
+  "safe": 8,
+  "toxic": 0
+ },
+ "F": {
+  "a": {
+   "blood": 1.5,
+   "blood_other": 1.5,
+   "germline": 1.5,
+   "placental": 1.0,
+   "neural": 0.0,
+   "endocrine": 0.0,
+   "endothelial": 1.5,
+   "stromal_muscle": 0.75,
+   "other": 0.0,
+   "epithelial": 0.75
+  },
+  "oracle_sep": 0.9234449760765551,
+  "oracle_within_nonblood": 0.8677685950413223,
+  "nested_cv_sep": 0.7559808612440191,
+  "null_oracle_mean": 0.6693540669856459,
+  "null_oracle_p95": 0.8038277511961722,
+  "p_oracle_vs_null": 0.004975124378109453
+ },
+ "G": {
+  "a": {
+   "blood": 0.5,
+   "blood_other": 0.0,
+   "germline": 0.0,
+   "placental": 0.5,
+   "neural": 0.0,
+   "endocrine": 0.0,
+   "endothelial": 1.5,
+   "stromal_muscle": 0.0,
+   "other": 0.0,
+   "epithelial": 0.0
+  },
+  "oracle_sep": 0.9282296650717703,
+  "oracle_within_nonblood": 0.8760330578512396,
+  "nested_cv_sep": 0.7990430622009569,
+  "null_oracle_mean": 0.7055502392344498,
+  "null_oracle_p95": 0.8373205741626795,
+  "p_oracle_vs_null": 0.004975124378109453
+ },
+ "oracle_F_misordered_pairs": 16,
+ "oracle_F_misordered_toxic_counts": {
+  "CEACAM5": 7,
+  "CA9": 5,
+  "FAP": 1,
+  "FOLR1": 2,
+  "EPCAM": 1
+ },
+ "oracle_F_misordered_safe_counts": {
+  "MSLN": 2,
+  "MET": 5,
+  "GPRC5D": 1,
+  "TNFRSF8": 2,
+  "NECTIN4": 3,
+  "GPC3": 2,
+  "TACSTD2": 1
+ },
+ "largest_family": {
+  "CD38": "blood",
+  "CD79B": "blood",
+  "CD22": "blood",
+  "SLAMF7": "blood",
+  "TNFRSF17": "blood",
+  "CLDN18": "epithelial",
+  "FOLH1": "epithelial",
+  "DLL3": "germline",
+  "MSLN": "epithelial",
+  "CD33": "blood",
+  "MET": "epithelial",
+  "GPRC5D": "epithelial",
+  "TNFRSF8": "stromal_muscle",
+  "NECTIN4": "epithelial",
+  "GPC3": "epithelial",
+  "MS4A1": "blood",
+  "CD52": "epithelial",
+  "CD19": "blood",
+  "TACSTD2": "epithelial",
+  "CD44": "epithelial",
+  "FAP": "stromal_muscle",
+  "CEACAM5": "epithelial",
+  "CA9": "epithelial",
+  "FOLR1": "epithelial",
+  "F3": "epithelial",
+  "EPCAM": "epithelial",
+  "ERBB2": "epithelial",
+  "EGFR": "epithelial",
+  "NCAM1": "neural",
+  "CD47": "epithelial"
+ }
+}

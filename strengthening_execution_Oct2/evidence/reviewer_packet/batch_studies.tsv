@@ -1,0 +1,5 @@
+study_id	cohort_id	gene	agent_name	combination_context	primary_url	initial_event	initial_grade	initial_attribution	initial_negative_adequacy	initial_judgment	reviewer	review_date	source_location
+ST-CD19-POOL	CO-ELIANA-ENSIGN	CD19	tisagenlecleucel	bridging and protocol lymphodepleting chemotherapy	https://pmc.ncbi.nlm.nih.gov/articles/PMC8344270/								
+ST-CD33-FINAL	CO-ALFA-GO	CD33	gemtuzumab ozogamicin	GO plus induction/consolidation chemotherapy	https://haematologica.org/article/view/8727								
+ST-CA9-UNBLOCKED	CO-CA9-12	CA9	G250-derived CAIX CAR T cells	no parental G250 pretreatment; cohorts 1 and 2	https://pmc.ncbi.nlm.nih.gov/articles/PMC5189272/								
+ST-CA9-BLOCKED	CO-CA9-3	CA9	G250-derived CAIX CAR T cells	5 mg parental G250 mAb 3 days before each infusion series	https://pmc.ncbi.nlm.nih.gov/articles/PMC5189272/								

@@ -1,0 +1,493 @@
+Hospital.Code	analysis_group	workbook_eligible_cells	exact_joined_cells	one_cell_fraction_resolution	meets_50_cell_sensitivity	pilot_marker_exposed_code	prior_single_file_exposed_code	excluded_from_new_code_primary	exclusion_or_limit
+01-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-001	mm_malignant	357	357	0.0028011204481792717	True	False	False	False	none
+01-001	mm_normal_pc_prior_art_reference	41	41	0.024390243902439025	False	False	False	False	below 50-cell screen; retained in primary
+01-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-002	mm_malignant	11	11	0.09090909090909091	False	False	False	False	below 50-cell screen; retained in primary
+01-002	mm_normal_pc_prior_art_reference	507	507	0.0019723865877712033	True	False	False	False	none
+01-004	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+01-004	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+01-004	mm_malignant	829	829	0.0012062726176115801	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+01-004	mm_normal_pc_prior_art_reference	1	1	1.0	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+01-005	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-005	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-005	mm_malignant	548	548	0.0018248175182481751	True	False	False	False	none
+01-005	mm_normal_pc_prior_art_reference	7	7	0.14285714285714285	False	False	False	False	below 50-cell screen; retained in primary
+01-006	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-006	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-006	mm_malignant	766	766	0.0013054830287206266	True	False	False	False	none
+01-006	mm_normal_pc_prior_art_reference	39	39	0.02564102564102564	False	False	False	False	below 50-cell screen; retained in primary
+01-007	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-007	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-007	mm_malignant	668	668	0.0014970059880239522	True	False	False	False	none
+01-007	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-009	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+01-009	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+01-009	mm_malignant	786	786	0.001272264631043257	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+01-009	mm_normal_pc_prior_art_reference	2	2	0.5	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+01-010	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-010	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-010	mm_malignant	12	12	0.08333333333333333	False	False	False	False	below 50-cell screen; retained in primary
+01-010	mm_normal_pc_prior_art_reference	644	644	0.0015527950310559005	True	False	False	False	none
+01-011	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-011	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+01-011	mm_malignant	93	93	0.010752688172043012	True	False	False	False	none
+01-011	mm_normal_pc_prior_art_reference	144	144	0.006944444444444444	True	False	False	False	none
+028-0600-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0600-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0600-001	mm_malignant	58	50	0.02	True	False	False	False	none
+028-0600-001	mm_normal_pc_prior_art_reference	19	8	0.125	False	False	False	False	below 50-cell screen; retained in primary
+028-0600-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0600-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0600-002	mm_malignant	326	326	0.003067484662576687	True	False	False	False	none
+028-0600-002	mm_normal_pc_prior_art_reference	19	19	0.05263157894736842	False	False	False	False	below 50-cell screen; retained in primary
+028-0601-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0601-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0601-001	mm_malignant	186	186	0.005376344086021506	True	False	False	False	none
+028-0601-001	mm_normal_pc_prior_art_reference	22	22	0.045454545454545456	False	False	False	False	below 50-cell screen; retained in primary
+028-0601-005	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0601-005	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0601-005	mm_malignant	449	449	0.0022271714922048997	True	False	False	False	none
+028-0601-005	mm_normal_pc_prior_art_reference	24	24	0.041666666666666664	False	False	False	False	below 50-cell screen; retained in primary
+028-0602-003	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0602-003	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0602-003	mm_malignant	112	112	0.008928571428571428	True	False	False	False	none
+028-0602-003	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0602-004	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0602-004	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0602-004	mm_malignant	60	60	0.016666666666666666	True	False	False	False	none
+028-0602-004	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+028-0602-006	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+028-0602-006	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+028-0602-006	mm_malignant	19	19	0.05263157894736842	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+028-0602-006	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+028-0602-007	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+028-0602-007	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+028-0602-007	mm_malignant	4	4	0.25	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+028-0602-007	mm_normal_pc_prior_art_reference	2	2	0.5	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+028-0603-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0603-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0603-001	mm_malignant	34	34	0.029411764705882353	False	False	False	False	below 50-cell screen; retained in primary
+028-0603-001	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+028-0603-003	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0603-003	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0603-003	mm_malignant	29	29	0.034482758620689655	False	False	False	False	below 50-cell screen; retained in primary
+028-0603-003	mm_normal_pc_prior_art_reference	22	22	0.045454545454545456	False	False	False	False	below 50-cell screen; retained in primary
+028-0603-005	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0603-005	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0603-005	mm_malignant	288	288	0.003472222222222222	True	False	False	False	none
+028-0603-005	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-001	mm_malignant	5	5	0.2	False	False	False	False	below 50-cell screen; retained in primary
+028-0604-001	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-002	mm_malignant	1222	628	0.0015923566878980893	True	False	False	False	none
+028-0604-002	mm_normal_pc_prior_art_reference	2	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-004	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-004	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0604-004	mm_malignant	537	537	0.00186219739292365	True	False	False	False	none
+028-0604-004	mm_normal_pc_prior_art_reference	2	2	0.5	False	False	False	False	below 50-cell screen; retained in primary
+028-0605-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0605-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0605-001	mm_malignant	52	52	0.019230769230769232	True	False	False	False	none
+028-0605-001	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+028-0606-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0606-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0606-001	mm_malignant	50	50	0.02	True	False	False	False	none
+028-0606-001	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+028-0606-003	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0606-003	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0606-003	mm_malignant	56	56	0.017857142857142856	True	False	False	False	none
+028-0606-003	mm_normal_pc_prior_art_reference	3	3	0.3333333333333333	False	False	False	False	below 50-cell screen; retained in primary
+028-0606-004	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0606-004	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0606-004	mm_malignant	350	350	0.002857142857142857	True	False	False	False	none
+028-0606-004	mm_normal_pc_prior_art_reference	4	4	0.25	False	False	False	False	below 50-cell screen; retained in primary
+028-0608-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-001	mm_malignant	279	279	0.0035842293906810036	True	False	False	False	none
+028-0608-001	mm_normal_pc_prior_art_reference	2	2	0.5	False	False	False	False	below 50-cell screen; retained in primary
+028-0608-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-002	mm_malignant	709	709	0.0014104372355430183	True	False	False	False	none
+028-0608-002	mm_normal_pc_prior_art_reference	3	3	0.3333333333333333	False	False	False	False	below 50-cell screen; retained in primary
+028-0608-003	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-003	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-003	mm_malignant	1656	1221	0.000819000819000819	True	False	False	False	none
+028-0608-003	mm_normal_pc_prior_art_reference	34	25	0.04	False	False	False	False	below 50-cell screen; retained in primary
+028-0608-004	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-004	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-004	mm_malignant	4	4	0.25	False	False	False	False	below 50-cell screen; retained in primary
+028-0608-004	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+028-0608-005	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-005	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-005	mm_malignant	1119	1119	0.0008936550491510277	True	False	False	False	none
+028-0608-005	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+028-0608-006	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-006	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-006	mm_malignant	1036	1036	0.0009652509652509653	True	False	False	False	none
+028-0608-006	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-008	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-008	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+028-0608-008	mm_malignant	886	402	0.0024875621890547263	True	False	False	False	none
+028-0608-008	mm_normal_pc_prior_art_reference	6	0	NR	False	False	False	False	no exact-joined cells in this source group
+03-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+03-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+03-001	mm_malignant	253	253	0.003952569169960474	True	False	False	False	none
+03-001	mm_normal_pc_prior_art_reference	101	101	0.009900990099009901	True	False	False	False	none
+04-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+04-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+04-002	mm_malignant	890	890	0.0011235955056179776	True	False	False	False	none
+04-002	mm_normal_pc_prior_art_reference	2	2	0.5	False	False	False	False	below 50-cell screen; retained in primary
+04-003	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+04-003	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+04-003	mm_malignant	452	452	0.0022123893805309734	True	False	False	False	none
+04-003	mm_normal_pc_prior_art_reference	34	34	0.029411764705882353	False	False	False	False	below 50-cell screen; retained in primary
+04-004	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+04-004	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+04-004	mm_malignant	1138	1138	0.0008787346221441124	True	False	False	False	none
+04-004	mm_normal_pc_prior_art_reference	14	14	0.07142857142857142	False	False	False	False	below 50-cell screen; retained in primary
+04-005	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+04-005	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+04-005	mm_malignant	325	325	0.003076923076923077	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+04-005	mm_normal_pc_prior_art_reference	93	93	0.010752688172043012	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+05-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+05-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+05-001	mm_malignant	424	424	0.0023584905660377358	True	False	False	False	none
+05-001	mm_normal_pc_prior_art_reference	167	167	0.005988023952095809	True	False	False	False	none
+05-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+05-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+05-002	mm_malignant	619	619	0.0016155088852988692	True	False	False	False	none
+05-002	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+08-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+08-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+08-001	mm_malignant	886	886	0.001128668171557562	True	False	False	False	none
+08-001	mm_normal_pc_prior_art_reference	3	3	0.3333333333333333	False	False	False	False	below 50-cell screen; retained in primary
+09-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+09-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+09-001	mm_malignant	561	561	0.0017825311942959	True	False	False	False	none
+09-001	mm_normal_pc_prior_art_reference	170	170	0.0058823529411764705	True	False	False	False	none
+09-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+09-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+09-002	mm_malignant	295	295	0.003389830508474576	True	False	False	False	none
+09-002	mm_normal_pc_prior_art_reference	8	8	0.125	False	False	False	False	below 50-cell screen; retained in primary
+09-003	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+09-003	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+09-003	mm_malignant	1025	1025	0.000975609756097561	True	False	False	False	none
+09-003	mm_normal_pc_prior_art_reference	17	17	0.058823529411764705	False	False	False	False	below 50-cell screen; retained in primary
+10-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+10-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+10-002	mm_malignant	697	697	0.0014347202295552368	True	False	False	False	none
+10-002	mm_normal_pc_prior_art_reference	274	274	0.0036496350364963502	True	False	False	False	none
+10-003	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+10-003	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+10-003	mm_malignant	897	897	0.0011148272017837235	True	False	False	False	none
+10-003	mm_normal_pc_prior_art_reference	12	12	0.08333333333333333	False	False	False	False	below 50-cell screen; retained in primary
+10-004	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+10-004	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+10-004	mm_malignant	799	799	0.0012515644555694619	True	False	False	False	none
+10-004	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+10-005	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+10-005	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+10-005	mm_malignant	252	252	0.003968253968253968	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+10-005	mm_normal_pc_prior_art_reference	32	32	0.03125	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+10-006	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+10-006	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+10-006	mm_malignant	1044	1044	0.0009578544061302681	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+10-006	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+10-007	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+10-007	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+10-007	mm_malignant	956	956	0.0010460251046025104	True	False	False	False	none
+10-007	mm_normal_pc_prior_art_reference	8	8	0.125	False	False	False	False	below 50-cell screen; retained in primary
+11-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+11-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+11-001	mm_malignant	78	78	0.01282051282051282	True	False	False	False	none
+11-001	mm_normal_pc_prior_art_reference	20	20	0.05	False	False	False	False	below 50-cell screen; retained in primary
+11-003	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+11-003	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+11-003	mm_malignant	570	570	0.0017543859649122807	True	False	False	False	none
+11-003	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+11-004	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+11-004	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+11-004	mm_malignant	1205	1205	0.0008298755186721991	True	False	False	False	none
+11-004	mm_normal_pc_prior_art_reference	26	26	0.038461538461538464	False	False	False	False	below 50-cell screen; retained in primary
+11-005	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+11-005	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+11-005	mm_malignant	332	332	0.0030120481927710845	True	False	False	False	none
+11-005	mm_normal_pc_prior_art_reference	19	19	0.05263157894736842	False	False	False	False	below 50-cell screen; retained in primary
+12-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+12-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+12-001	mm_malignant	254	254	0.003937007874015748	True	False	False	False	none
+12-001	mm_normal_pc_prior_art_reference	18	18	0.05555555555555555	False	False	False	False	below 50-cell screen; retained in primary
+12-002	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+12-002	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+12-002	mm_malignant	347	347	0.002881844380403458	True	False	False	False	none
+12-002	mm_normal_pc_prior_art_reference	283	283	0.0035335689045936395	True	False	False	False	none
+14-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+14-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+14-001	mm_malignant	878	878	0.0011389521640091116	True	False	False	False	none
+14-001	mm_normal_pc_prior_art_reference	58	58	0.017241379310344827	True	False	False	False	none
+18-001	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+18-001	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+18-001	mm_malignant	859	859	0.0011641443538998836	True	False	False	False	none
+18-001	mm_normal_pc_prior_art_reference	40	40	0.025	False	False	False	False	below 50-cell screen; retained in primary
+asf1	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+asf1	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+asf1	mm_malignant	330	330	0.0030303030303030303	True	False	False	False	none
+asf1	mm_normal_pc_prior_art_reference	30	30	0.03333333333333333	False	False	False	False	below 50-cell screen; retained in primary
+bel03	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+bel03	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+bel03	mm_malignant	354	354	0.002824858757062147	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+bel03	mm_normal_pc_prior_art_reference	74	74	0.013513513513513514	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+bel04	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+bel04	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+bel04	mm_malignant	397	397	0.0025188916876574307	True	False	False	False	none
+bel04	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+cart_p10	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p10	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p10	mm_malignant	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+cart_p10	mm_normal_pc_prior_art_reference	5	5	0.2	False	False	False	False	below 50-cell screen; retained in primary
+cart_p17	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p17	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p17	mm_malignant	14	14	0.07142857142857142	False	False	False	False	below 50-cell screen; retained in primary
+cart_p17	mm_normal_pc_prior_art_reference	82	82	0.012195121951219513	True	False	False	False	none
+cart_p20	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p20	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p20	mm_malignant	769	40	0.025	False	False	False	False	below 50-cell screen; retained in primary
+cart_p20	mm_normal_pc_prior_art_reference	14	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p21	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+cart_p21	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+cart_p21	mm_malignant	415	415	0.0024096385542168677	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+cart_p21	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+cart_p22	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+cart_p22	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+cart_p22	mm_malignant	98	98	0.01020408163265306	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+cart_p22	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+cart_p23	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p23	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p23	mm_malignant	1081	1081	0.0009250693802035153	True	False	False	False	none
+cart_p23	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p25	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p25	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p25	mm_malignant	7	7	0.14285714285714285	False	False	False	False	below 50-cell screen; retained in primary
+cart_p25	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p32	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p32	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p32	mm_malignant	651	651	0.0015360983102918587	True	False	False	False	none
+cart_p32	mm_normal_pc_prior_art_reference	11	11	0.09090909090909091	False	False	False	False	below 50-cell screen; retained in primary
+cart_p36	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p36	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+cart_p36	mm_malignant	891	891	0.001122334455667789	True	False	False	False	none
+cart_p36	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+csa-01-02	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+csa-01-02	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+csa-01-02	mm_malignant	1246	1246	0.0008025682182985554	True	False	False	False	none
+csa-01-02	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+csa-01-03	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+csa-01-03	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+csa-01-03	mm_malignant	1035	1035	0.000966183574879227	True	False	False	False	none
+csa-01-03	mm_normal_pc_prior_art_reference	21	21	0.047619047619047616	False	False	False	False	below 50-cell screen; retained in primary
+csa-01-04	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+csa-01-04	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+csa-01-04	mm_malignant	523	523	0.0019120458891013384	True	False	False	False	none
+csa-01-04	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+hip10	healthy_normal_pc	272	272	0.003676470588235294	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip10	healthy_ambiguous_malignant_label	37	37	0.02702702702702703	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip10	mm_malignant	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip10	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip11	healthy_normal_pc	332	332	0.0030120481927710845	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip11	healthy_ambiguous_malignant_label	61	61	0.01639344262295082	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip11	mm_malignant	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip11	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip12	healthy_normal_pc	300	300	0.0033333333333333335	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip12	healthy_ambiguous_malignant_label	27	27	0.037037037037037035	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip12	mm_malignant	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip12	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip13	healthy_normal_pc	177	177	0.005649717514124294	True	False	False	False	none
+hip13	healthy_ambiguous_malignant_label	25	25	0.04	False	False	False	False	below 50-cell screen; retained in primary
+hip13	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip13	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip15	healthy_normal_pc	639	639	0.001564945226917058	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip15	healthy_ambiguous_malignant_label	110	110	0.00909090909090909	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip15	mm_malignant	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip15	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip16	healthy_normal_pc	120	120	0.008333333333333333	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip16	healthy_ambiguous_malignant_label	83	83	0.012048192771084338	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip16	mm_malignant	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip16	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip17	healthy_normal_pc	227	227	0.004405286343612335	True	False	False	False	none
+hip17	healthy_ambiguous_malignant_label	119	119	0.008403361344537815	True	False	False	False	none
+hip17	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip17	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip5	healthy_normal_pc	844	844	0.001184834123222749	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip5	healthy_ambiguous_malignant_label	37	37	0.02702702702702703	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip5	mm_malignant	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip5	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip6	healthy_normal_pc	376	376	0.0026595744680851063	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip6	healthy_ambiguous_malignant_label	20	20	0.05	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip6	mm_malignant	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip6	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hip7	healthy_normal_pc	751	751	0.0013315579227696406	True	False	False	False	none
+hip7	healthy_ambiguous_malignant_label	40	40	0.025	False	False	False	False	below 50-cell screen; retained in primary
+hip7	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip7	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip8	healthy_normal_pc	384	384	0.0026041666666666665	True	False	False	False	none
+hip8	healthy_ambiguous_malignant_label	22	22	0.045454545454545456	False	False	False	False	below 50-cell screen; retained in primary
+hip8	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip8	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip9	healthy_normal_pc	681	681	0.0014684287812041115	True	False	False	False	none
+hip9	healthy_ambiguous_malignant_label	10	10	0.1	False	False	False	False	below 50-cell screen; retained in primary
+hip9	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hip9	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb12	healthy_normal_pc	7	5	0.2	False	False	False	False	below 50-cell screen; retained in primary
+hipb12	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb12	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb12	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb13	healthy_normal_pc	6	6	0.16666666666666666	False	False	False	False	below 50-cell screen; retained in primary
+hipb13	healthy_ambiguous_malignant_label	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+hipb13	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb13	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb14	healthy_normal_pc	62	62	0.016129032258064516	True	False	False	False	none
+hipb14	healthy_ambiguous_malignant_label	3	3	0.3333333333333333	False	False	False	False	below 50-cell screen; retained in primary
+hipb14	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb14	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb15	healthy_normal_pc	11	11	0.09090909090909091	False	False	False	False	below 50-cell screen; retained in primary
+hipb15	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb15	mm_malignant	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb15	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hipb18	healthy_normal_pc	425	425	0.002352941176470588	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hipb18	healthy_ambiguous_malignant_label	64	64	0.015625	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hipb18	mm_malignant	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hipb18	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hmc05	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc05	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc05	mm_malignant	722	722	0.0013850415512465374	True	False	False	False	none
+hmc05	mm_normal_pc_prior_art_reference	18	18	0.05555555555555555	False	False	False	False	below 50-cell screen; retained in primary
+hmc06	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc06	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc06	mm_malignant	345	345	0.002898550724637681	True	False	False	False	none
+hmc06	mm_normal_pc_prior_art_reference	9	9	0.1111111111111111	False	False	False	False	below 50-cell screen; retained in primary
+hmc07	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc07	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc07	mm_malignant	272	272	0.003676470588235294	True	False	False	False	none
+hmc07	mm_normal_pc_prior_art_reference	19	19	0.05263157894736842	False	False	False	False	below 50-cell screen; retained in primary
+hmc10	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc10	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc10	mm_malignant	433	433	0.0023094688221709007	True	False	False	False	none
+hmc10	mm_normal_pc_prior_art_reference	44	44	0.022727272727272728	False	False	False	False	below 50-cell screen; retained in primary
+hmc12	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc12	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc12	mm_malignant	2	2	0.5	False	False	False	False	below 50-cell screen; retained in primary
+hmc12	mm_normal_pc_prior_art_reference	15	15	0.06666666666666667	False	False	False	False	below 50-cell screen; retained in primary
+hmc17	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hmc17	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hmc17	mm_malignant	240	240	0.004166666666666667	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hmc17	mm_normal_pc_prior_art_reference	197	197	0.005076142131979695	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hmc20	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc20	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+hmc20	mm_malignant	1093	1093	0.0009149130832570906	True	False	False	False	none
+hmc20	mm_normal_pc_prior_art_reference	5	5	0.2	False	False	False	False	below 50-cell screen; retained in primary
+hmc21	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hmc21	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hmc21	mm_malignant	825	825	0.0012121212121212121	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+hmc21	mm_normal_pc_prior_art_reference	163	163	0.006134969325153374	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+kydarndmm01	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+kydarndmm01	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+kydarndmm01	mm_malignant	1466	1466	0.0006821282401091405	True	False	False	False	none
+kydarndmm01	mm_normal_pc_prior_art_reference	4	4	0.25	False	False	False	False	below 50-cell screen; retained in primary
+kydarndmm02	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+kydarndmm02	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+kydarndmm02	mm_malignant	1303	1303	0.0007674597083653108	True	False	False	False	none
+kydarndmm02	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+kydarndmm03	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+kydarndmm03	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+kydarndmm03	mm_malignant	1018	1018	0.0009823182711198428	True	False	False	False	none
+kydarndmm03	mm_normal_pc_prior_art_reference	54	54	0.018518518518518517	True	False	False	False	none
+kydarndmm04	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+kydarndmm04	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+kydarndmm04	mm_malignant	1456	1456	0.0006868131868131869	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+kydarndmm04	mm_normal_pc_prior_art_reference	1	1	1.0	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+tlv15	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv15	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv15	mm_malignant	113	113	0.008849557522123894	True	False	False	False	none
+tlv15	mm_normal_pc_prior_art_reference	13	13	0.07692307692307693	False	False	False	False	below 50-cell screen; retained in primary
+tlv22	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv22	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv22	mm_malignant	64	64	0.015625	True	False	False	False	none
+tlv22	mm_normal_pc_prior_art_reference	5	5	0.2	False	False	False	False	below 50-cell screen; retained in primary
+tlv27	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv27	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv27	mm_malignant	618	618	0.0016181229773462784	True	False	False	False	none
+tlv27	mm_normal_pc_prior_art_reference	9	9	0.1111111111111111	False	False	False	False	below 50-cell screen; retained in primary
+tlv33	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv33	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv33	mm_malignant	625	625	0.0016	True	False	False	False	none
+tlv33	mm_normal_pc_prior_art_reference	137	137	0.0072992700729927005	True	False	False	False	none
+tlv41	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv41	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv41	mm_malignant	433	433	0.0023094688221709007	True	False	False	False	none
+tlv41	mm_normal_pc_prior_art_reference	4	4	0.25	False	False	False	False	below 50-cell screen; retained in primary
+tlv42	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv42	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv42	mm_malignant	1022	1022	0.0009784735812133072	True	False	False	False	none
+tlv42	mm_normal_pc_prior_art_reference	2	2	0.5	False	False	False	False	below 50-cell screen; retained in primary
+tlv43	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv43	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv43	mm_malignant	316	316	0.0031645569620253164	True	False	False	False	none
+tlv43	mm_normal_pc_prior_art_reference	8	8	0.125	False	False	False	False	below 50-cell screen; retained in primary
+tlv44	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv44	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv44	mm_malignant	26	26	0.038461538461538464	False	False	False	False	below 50-cell screen; retained in primary
+tlv44	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+tlv45	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv45	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv45	mm_malignant	596	596	0.0016778523489932886	True	False	False	False	none
+tlv45	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+tlv47	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv47	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv47	mm_malignant	839	839	0.0011918951132300357	True	False	False	False	none
+tlv47	mm_normal_pc_prior_art_reference	6	6	0.16666666666666666	False	False	False	False	below 50-cell screen; retained in primary
+tlv48	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+tlv48	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+tlv48	mm_malignant	104	104	0.009615384615384616	True	True	False	True	pilot marker exposure; excluded from new-code evaluation
+tlv48	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+tlv50	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv50	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv50	mm_malignant	696	293	0.0034129692832764505	True	False	False	False	none
+tlv50	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv50-dn	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv50-dn	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv50-dn	mm_malignant	674	674	0.001483679525222552	True	False	False	False	none
+tlv50-dn	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+tlv51	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv51	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv51	mm_malignant	618	618	0.0016181229773462784	True	False	False	False	none
+tlv51	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv52	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv52	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv52	mm_malignant	17	17	0.058823529411764705	False	False	False	False	below 50-cell screen; retained in primary
+tlv52	mm_normal_pc_prior_art_reference	2	2	0.5	False	False	False	False	below 50-cell screen; retained in primary
+tlv53	healthy_normal_pc	0	0	NR	False	True	True	True	prior single-file marker exposure; excluded from all policy analysis
+tlv53	healthy_ambiguous_malignant_label	0	0	NR	False	True	True	True	prior single-file marker exposure; excluded from all policy analysis
+tlv53	mm_malignant	898	898	0.0011135857461024498	True	True	True	True	prior single-file marker exposure; excluded from all policy analysis
+tlv53	mm_normal_pc_prior_art_reference	96	96	0.010416666666666666	True	True	True	True	prior single-file marker exposure; excluded from all policy analysis
+tlv54	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv54	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv54	mm_malignant	932	932	0.001072961373390558	True	False	False	False	none
+tlv54	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv55	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv55	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv55	mm_malignant	3	3	0.3333333333333333	False	False	False	False	below 50-cell screen; retained in primary
+tlv55	mm_normal_pc_prior_art_reference	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv68	healthy_normal_pc	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv68	healthy_ambiguous_malignant_label	0	0	NR	False	False	False	False	no exact-joined cells in this source group
+tlv68	mm_malignant	5	5	0.2	False	False	False	False	below 50-cell screen; retained in primary
+tlv68	mm_normal_pc_prior_art_reference	1	1	1.0	False	False	False	False	below 50-cell screen; retained in primary
+tlv69	healthy_normal_pc	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+tlv69	healthy_ambiguous_malignant_label	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+tlv69	mm_malignant	6	6	0.16666666666666666	False	True	False	True	pilot marker exposure; excluded from new-code evaluation
+tlv69	mm_normal_pc_prior_art_reference	0	0	NR	False	True	False	True	pilot marker exposure; excluded from new-code evaluation

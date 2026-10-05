@@ -1,0 +1,2629 @@
+{
+ "reference_A_cell_type": {
+  "CD38": {
+   "top_share": 0.13127920969412027,
+   "n_types": 19,
+   "home": "plasma cells",
+   "top3": [
+    [
+     "plasma cells",
+     0.13127920969412027
+    ],
+    [
+     "megakaryocyte-erythroid progenitors",
+     0.07805110122295916
+    ],
+    [
+     "astrocytes",
+     0.056138583382307664
+    ]
+   ]
+  },
+  "CD79B": {
+   "top_share": 0.5723076923076924,
+   "n_types": 2,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.5723076923076924
+    ],
+    [
+     "plasma cells",
+     0.07384615384615384
+    ],
+    [
+     "hematopoietic stem cells",
+     0.046153846153846156
+    ]
+   ]
+  },
+  "CD22": {
+   "top_share": 0.22175504165693372,
+   "n_types": 8,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.22175504165693372
+    ],
+    [
+     "oligodendrocytes",
+     0.18648290897765318
+    ],
+    [
+     "mast cells",
+     0.1005995483921202
+    ]
+   ]
+  },
+  "CD74": {
+   "top_share": 0.21131285774035324,
+   "n_types": 10,
+   "home": "cdc",
+   "top3": [
+    [
+     "cdc",
+     0.21131285774035324
+    ],
+    [
+     "macrophages",
+     0.0867585250787504
+    ],
+    [
+     "kupffer cells",
+     0.0756164760180519
+    ]
+   ]
+  },
+  "CD44": {
+   "top_share": 0.06094902295369431,
+   "n_types": 45,
+   "home": "pancreatic acinar cells",
+   "top3": [
+    [
+     "pancreatic acinar cells",
+     0.06094902295369431
+    ],
+    [
+     "monocytes",
+     0.06083117874844741
+    ],
+    [
+     "mast cells",
+     0.04698212774783227
+    ]
+   ]
+  },
+  "SLAMF7": {
+   "top_share": 0.37317096195600863,
+   "n_types": 5,
+   "home": "plasma cells",
+   "top3": [
+    [
+     "plasma cells",
+     0.37317096195600863
+    ],
+    [
+     "pdcs",
+     0.1501935240252997
+    ],
+    [
+     "nk-cells",
+     0.09534598319645048
+    ]
+   ]
+  },
+  "TNFRSF17": {
+   "top_share": 0.7894370122630991,
+   "n_types": 1,
+   "home": "plasma cells",
+   "top3": [
+    [
+     "plasma cells",
+     0.7894370122630991
+    ],
+    [
+     "foveolar cells",
+     0.03901895206243032
+    ],
+    [
+     "gastric chief cells",
+     0.02745261984392419
+    ]
+   ]
+  },
+  "ERBB3": {
+   "top_share": 0.08315732466829136,
+   "n_types": 50,
+   "home": "oligodendrocytes",
+   "top3": [
+    [
+     "oligodendrocytes",
+     0.08315732466829136
+    ],
+    [
+     "esophageal apical cells",
+     0.07462767397779582
+    ],
+    [
+     "enterocytes",
+     0.03021933387489845
+    ]
+   ]
+  },
+  "CLDN18": {
+   "top_share": 0.3593466972587852,
+   "n_types": 8,
+   "home": "foveolar cells",
+   "top3": [
+    [
+     "foveolar cells",
+     0.3593466972587852
+    ],
+    [
+     "alveolar cells type 1",
+     0.1314756671899529
+    ],
+    [
+     "parietal cells",
+     0.11367890351406837
+    ]
+   ]
+  },
+  "FAP": {
+   "top_share": 0.16742987979393248,
+   "n_types": 11,
+   "home": "fibro-adipogenic progenitors",
+   "top3": [
+    [
+     "fibro-adipogenic progenitors",
+     0.16742987979393248
+    ],
+    [
+     "pancreatic islet cells",
+     0.1524756725815684
+    ],
+    [
+     "m\u00fcller glia",
+     0.14510589582140815
+    ]
+   ]
+  },
+  "PTPRC": {
+   "top_share": 0.30941548113130773,
+   "n_types": 8,
+   "home": "neutrophils",
+   "top3": [
+    [
+     "neutrophils",
+     0.30941548113130773
+    ],
+    [
+     "nk-cells",
+     0.07117650975431121
+    ],
+    [
+     "monocytes",
+     0.06935659276028142
+    ]
+   ]
+  },
+  "FOLH1": {
+   "top_share": 0.5678362573099415,
+   "n_types": 2,
+   "home": "prostatic glandular cells",
+   "top3": [
+    [
+     "prostatic glandular cells",
+     0.5678362573099415
+    ],
+    [
+     "oligodendrocytes",
+     0.19438596491228072
+    ],
+    [
+     "lacrimal acinar cells",
+     0.05649122807017544
+    ]
+   ]
+  },
+  "DLL3": {
+   "top_share": 0.2568393094289509,
+   "n_types": 7,
+   "home": "oocytes",
+   "top3": [
+    [
+     "oocytes",
+     0.2568393094289509
+    ],
+    [
+     "oligodendrocyte progenitor cells",
+     0.13094289508632137
+    ],
+    [
+     "differentiating spermatogonia",
+     0.12324037184594953
+    ]
+   ]
+  },
+  "CD40": {
+   "top_share": 0.0668981583227111,
+   "n_types": 56,
+   "home": "epididymal basal cells",
+   "top3": [
+    [
+     "epididymal basal cells",
+     0.0668981583227111
+    ],
+    [
+     "cdc",
+     0.04518482704056965
+    ],
+    [
+     "b-cells",
+     0.04417388246670476
+    ]
+   ]
+  },
+  "MSLN": {
+   "top_share": 0.2389617852696102,
+   "n_types": 11,
+   "home": "conjunctival goblet cells",
+   "top3": [
+    [
+     "conjunctival goblet cells",
+     0.2389617852696102
+    ],
+    [
+     "fallopian secretory cells",
+     0.16411263288956998
+    ],
+    [
+     "alveolar cells type 1",
+     0.0899818025093382
+    ]
+   ]
+  },
+  "FCER2": {
+   "top_share": 0.6880570409982174,
+   "n_types": 1,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.6880570409982174
+    ],
+    [
+     "plasma cells",
+     0.0368389780154486
+    ],
+    [
+     "macrophages",
+     0.0314913844325609
+    ]
+   ]
+  },
+  "CD33": {
+   "top_share": 0.2667938411227688,
+   "n_types": 8,
+   "home": "kupffer cells",
+   "top3": [
+    [
+     "kupffer cells",
+     0.2667938411227688
+    ],
+    [
+     "hofbauer cells",
+     0.16419130671753648
+    ],
+    [
+     "monocytes",
+     0.10709905981741383
+    ]
+   ]
+  },
+  "CEACAM5": {
+   "top_share": 0.28260202516109234,
+   "n_types": 7,
+   "home": "colonocytes",
+   "top3": [
+    [
+     "colonocytes",
+     0.28260202516109234
+    ],
+    [
+     "esophageal apical cells",
+     0.22015955814667076
+    ],
+    [
+     "goblet cells",
+     0.13194231359312675
+    ]
+   ]
+  },
+  "MET": {
+   "top_share": 0.08701859371660611,
+   "n_types": 40,
+   "home": "endometrial glandular cells",
+   "top3": [
+    [
+     "endometrial glandular cells",
+     0.08701859371660611
+    ],
+    [
+     "endometrial luminal cells",
+     0.04483864073519983
+    ],
+    [
+     "salivary basal cells",
+     0.044522333832015384
+    ]
+   ]
+  },
+  "CA9": {
+   "top_share": 0.25748134471882456,
+   "n_types": 8,
+   "home": "early spermatids",
+   "top3": [
+    [
+     "early spermatids",
+     0.25748134471882456
+    ],
+    [
+     "gastric chief cells",
+     0.22094007231325488
+    ],
+    [
+     "parietal cells",
+     0.08292945611200862
+    ]
+   ]
+  },
+  "FOLR1": {
+   "top_share": 0.20448707175953712,
+   "n_types": 14,
+   "home": "breast lactating cells",
+   "top3": [
+    [
+     "breast lactating cells",
+     0.20448707175953712
+    ],
+    [
+     "fallopian tube ciliated cells",
+     0.09474707704126953
+    ],
+    [
+     "migrating cytotrophoblasts",
+     0.06570955273329651
+    ]
+   ]
+  },
+  "GPRC5D": {
+   "top_share": 0.26067708333333334,
+   "n_types": 7,
+   "home": "epicardial cells",
+   "top3": [
+    [
+     "epicardial cells",
+     0.26067708333333334
+    ],
+    [
+     "plasma cells",
+     0.0984375
+    ],
+    [
+     "late spermatids",
+     0.06744791666666666
+    ]
+   ]
+  },
+  "SDC1": {
+   "top_share": 0.1737814950703368,
+   "n_types": 12,
+   "home": "esophageal apical cells",
+   "top3": [
+    [
+     "esophageal apical cells",
+     0.1737814950703368
+    ],
+    [
+     "esophageal suprabasal cells",
+     0.09968005007911804
+    ],
+    [
+     "ocular epithelial cells",
+     0.07560555739101706
+    ]
+   ]
+  },
+  "F3": {
+   "top_share": 0.07482275227535169,
+   "n_types": 31,
+   "home": "ocular epithelial cells",
+   "top3": [
+    [
+     "ocular epithelial cells",
+     0.07482275227535169
+    ],
+    [
+     "pancreatic acinar cells",
+     0.059910351763785584
+    ],
+    [
+     "respiratory secretory cells",
+     0.058991519425853955
+    ]
+   ]
+  },
+  "EPCAM": {
+   "top_share": 0.09244232570017878,
+   "n_types": 35,
+   "home": "colonocytes",
+   "top3": [
+    [
+     "colonocytes",
+     0.09244232570017878
+    ],
+    [
+     "enterocytes",
+     0.09174768025878949
+    ],
+    [
+     "enteric transient amplifying cells",
+     0.06330807865838087
+    ]
+   ]
+  },
+  "TNFRSF8": {
+   "top_share": 0.25739264592440214,
+   "n_types": 7,
+   "home": "epicardial cells",
+   "top3": [
+    [
+     "epicardial cells",
+     0.25739264592440214
+    ],
+    [
+     "mesothelial cells",
+     0.0933401902802777
+    ],
+    [
+     "neutrophils",
+     0.05194137310362561
+    ]
+   ]
+  },
+  "CD80": {
+   "top_share": 0.16167979002624672,
+   "n_types": 12,
+   "home": "cdc",
+   "top3": [
+    [
+     "cdc",
+     0.16167979002624672
+    ],
+    [
+     "macrophages",
+     0.12178477690288714
+    ],
+    [
+     "b-cells",
+     0.11758530183727034
+    ]
+   ]
+  },
+  "GPNMB": {
+   "top_share": 0.19227215168212466,
+   "n_types": 14,
+   "home": "melanocytes",
+   "top3": [
+    [
+     "melanocytes",
+     0.19227215168212466
+    ],
+    [
+     "hofbauer cells",
+     0.09368903795475549
+    ],
+    [
+     "kupffer cells",
+     0.06401656456415347
+    ]
+   ]
+  },
+  "ERBB2": {
+   "top_share": 0.04133123222911171,
+   "n_types": 72,
+   "home": "esophageal apical cells",
+   "top3": [
+    [
+     "esophageal apical cells",
+     0.04133123222911171
+    ],
+    [
+     "prostatic club cells",
+     0.030643006406084063
+    ],
+    [
+     "renal collecting duct principal cells",
+     0.0240485081018122
+    ]
+   ]
+  },
+  "NECTIN4": {
+   "top_share": 0.17237382050865926,
+   "n_types": 12,
+   "home": "esophageal apical cells",
+   "top3": [
+    [
+     "esophageal apical cells",
+     0.17237382050865926
+    ],
+    [
+     "syncytiotrophoblasts",
+     0.13249715994714023
+    ],
+    [
+     "esophageal suprabasal cells",
+     0.07238077574015254
+    ]
+   ]
+  },
+  "EGFR": {
+   "top_share": 0.051078234012629946,
+   "n_types": 60,
+   "home": "syncytiotrophoblasts",
+   "top3": [
+    [
+     "syncytiotrophoblasts",
+     0.051078234012629946
+    ],
+    [
+     "cytotrophoblasts",
+     0.04103011333866475
+    ],
+    [
+     "fibro-adipogenic progenitors",
+     0.037838154592835675
+    ]
+   ]
+  },
+  "GPC3": {
+   "top_share": 0.21108967412849858,
+   "n_types": 12,
+   "home": "pituitary stem cells",
+   "top3": [
+    [
+     "pituitary stem cells",
+     0.21108967412849858
+    ],
+    [
+     "fibroblasts",
+     0.08637048391785819
+    ],
+    [
+     "syncytiotrophoblasts",
+     0.060707772814969474
+    ]
+   ]
+  },
+  "NCAM1": {
+   "top_share": 0.0727594041908609,
+   "n_types": 31,
+   "home": "oligodendrocytes",
+   "top3": [
+    [
+     "oligodendrocytes",
+     0.0727594041908609
+    ],
+    [
+     "oligodendrocyte progenitor cells",
+     0.07091138601363292
+    ],
+    [
+     "bergmann glia",
+     0.058939661701590505
+    ]
+   ]
+  },
+  "MS4A1": {
+   "top_share": 0.8497070968981081,
+   "n_types": 1,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.8497070968981081
+    ],
+    [
+     "foveolar cells",
+     0.01622971285892634
+    ],
+    [
+     "conjunctival goblet cells",
+     0.013060597330260252
+    ]
+   ]
+  },
+  "SLC34A2": {
+   "top_share": 0.2703548469315511,
+   "n_types": 7,
+   "home": "alveolar cells type 2",
+   "top3": [
+    [
+     "alveolar cells type 2",
+     0.2703548469315511
+    ],
+    [
+     "transitional alveolar cells",
+     0.15868992665175158
+    ],
+    [
+     "alveolar cells type 1",
+     0.1227945965846337
+    ]
+   ]
+  },
+  "AXL": {
+   "top_share": 0.10151221270533307,
+   "n_types": 25,
+   "home": "kupffer cells",
+   "top3": [
+    [
+     "kupffer cells",
+     0.10151221270533307
+    ],
+    [
+     "vascular smooth muscle cells",
+     0.06719991760929642
+    ],
+    [
+     "pericytes",
+     0.05556223072829948
+    ]
+   ]
+  },
+  "CD52": {
+   "top_share": 0.8215201176745975,
+   "n_types": 1,
+   "home": "epididymal principal cells",
+   "top3": [
+    [
+     "epididymal principal cells",
+     0.8215201176745975
+    ],
+    [
+     "b-cells",
+     0.028941824476431854
+    ],
+    [
+     "t-cells",
+     0.02179812102104098
+    ]
+   ]
+  },
+  "CD19": {
+   "top_share": 0.32709551656920083,
+   "n_types": 6,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.32709551656920083
+    ],
+    [
+     "late primary spermatocytes",
+     0.15204678362573099
+    ],
+    [
+     "early spermatids",
+     0.0834307992202729
+    ]
+   ]
+  },
+  "MUC16": {
+   "top_share": 0.17262555844018926,
+   "n_types": 13,
+   "home": "epicardial cells",
+   "top3": [
+    [
+     "epicardial cells",
+     0.17262555844018926
+    ],
+    [
+     "conjunctival goblet cells",
+     0.12564410063125156
+    ],
+    [
+     "salivary ionocytes",
+     0.09833818742504712
+    ]
+   ]
+  },
+  "TACSTD2": {
+   "top_share": 0.2581519495074618,
+   "n_types": 7,
+   "home": "esophageal apical cells",
+   "top3": [
+    [
+     "esophageal apical cells",
+     0.2581519495074618
+    ],
+    [
+     "epididymal basal cells",
+     0.11034035273992802
+    ],
+    [
+     "esophageal suprabasal cells",
+     0.0788547749660827
+    ]
+   ]
+  },
+  "IL3RA": {
+   "top_share": 0.20521192833081897,
+   "n_types": 6,
+   "home": "pdcs",
+   "top3": [
+    [
+     "pdcs",
+     0.20521192833081897
+    ],
+    [
+     "epicardial cells",
+     0.10434189588542848
+    ],
+    [
+     "oocytes",
+     0.037115873442311265
+    ]
+   ]
+  },
+  "MUC1": {
+   "top_share": 0.09335942864991073,
+   "n_types": 25,
+   "home": "foveolar cells",
+   "top3": [
+    [
+     "foveolar cells",
+     0.09335942864991073
+    ],
+    [
+     "alveolar cells type 2",
+     0.08103282516137894
+    ],
+    [
+     "breast lactating cells",
+     0.07474934761708557
+    ]
+   ]
+  },
+  "CD47": {
+   "top_share": 0.029819202987710434,
+   "n_types": 120,
+   "home": "alveolar cells type 1",
+   "top3": [
+    [
+     "alveolar cells type 1",
+     0.029819202987710434
+    ],
+    [
+     "gastric progenitor cells",
+     0.021211200054041274
+    ],
+    [
+     "thymocytes",
+     0.02096511925268638
+    ]
+   ]
+  },
+  "HLA-DRA": {
+   "top_share": 0.4107863444572305,
+   "n_types": 7,
+   "home": "cdc",
+   "top3": [
+    [
+     "cdc",
+     0.4107863444572305
+    ],
+    [
+     "macrophages",
+     0.07702339854238588
+    ],
+    [
+     "microglia",
+     0.06728039892596854
+    ]
+   ]
+  }
+ },
+ "reference_A_germ_removed": {
+  "CD38": {
+   "top_share": 0.13418192219679634,
+   "n_types": 19,
+   "home": "plasma cells",
+   "top3": [
+    [
+     "plasma cells",
+     0.13418192219679634
+    ],
+    [
+     "megakaryocyte-erythroid progenitors",
+     0.07977688787185354
+    ],
+    [
+     "astrocytes",
+     0.05737986270022883
+    ]
+   ]
+  },
+  "CD79B": {
+   "top_share": 0.5723076923076924,
+   "n_types": 2,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.5723076923076924
+    ],
+    [
+     "plasma cells",
+     0.07384615384615384
+    ],
+    [
+     "hematopoietic stem cells",
+     0.046153846153846156
+    ]
+   ]
+  },
+  "CD22": {
+   "top_share": 0.26931442080378254,
+   "n_types": 6,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.26931442080378254
+    ],
+    [
+     "oligodendrocytes",
+     0.2264775413711584
+    ],
+    [
+     "mast cells",
+     0.12217494089834514
+    ]
+   ]
+  },
+  "CD74": {
+   "top_share": 0.21643275466950257,
+   "n_types": 10,
+   "home": "cdc",
+   "top3": [
+    [
+     "cdc",
+     0.21643275466950257
+    ],
+    [
+     "macrophages",
+     0.08886059643814688
+    ],
+    [
+     "kupffer cells",
+     0.07744858679208544
+    ]
+   ]
+  },
+  "CD44": {
+   "top_share": 0.06526825353157786,
+   "n_types": 42,
+   "home": "pancreatic acinar cells",
+   "top3": [
+    [
+     "pancreatic acinar cells",
+     0.06526825353157786
+    ],
+    [
+     "monocytes",
+     0.06514205814578594
+    ],
+    [
+     "mast cells",
+     0.05031157640752023
+    ]
+   ]
+  },
+  "SLAMF7": {
+   "top_share": 0.37352357554568644,
+   "n_types": 5,
+   "home": "plasma cells",
+   "top3": [
+    [
+     "plasma cells",
+     0.37352357554568644
+    ],
+    [
+     "pdcs",
+     0.15033544363602
+    ],
+    [
+     "nk-cells",
+     0.09543607672682602
+    ]
+   ]
+  },
+  "TNFRSF17": {
+   "top_share": 0.8228031953522149,
+   "n_types": 1,
+   "home": "plasma cells",
+   "top3": [
+    [
+     "plasma cells",
+     0.8228031953522149
+    ],
+    [
+     "foveolar cells",
+     0.04066811909949165
+    ],
+    [
+     "gastric chief cells",
+     0.028612926652142337
+    ]
+   ]
+  },
+  "ERBB3": {
+   "top_share": 0.09212539373031349,
+   "n_types": 44,
+   "home": "oligodendrocytes",
+   "top3": [
+    [
+     "oligodendrocytes",
+     0.09212539373031349
+    ],
+    [
+     "esophageal apical cells",
+     0.08267586620668967
+    ],
+    [
+     "enterocytes",
+     0.03347832608369582
+    ]
+   ]
+  },
+  "CLDN18": {
+   "top_share": 0.36227781835889944,
+   "n_types": 8,
+   "home": "foveolar cells",
+   "top3": [
+    [
+     "foveolar cells",
+     0.36227781835889944
+    ],
+    [
+     "alveolar cells type 1",
+     0.13254808862916972
+    ],
+    [
+     "parietal cells",
+     0.11460616021426832
+    ]
+   ]
+  },
+  "FAP": {
+   "top_share": 0.19822109275730623,
+   "n_types": 9,
+   "home": "fibro-adipogenic progenitors",
+   "top3": [
+    [
+     "fibro-adipogenic progenitors",
+     0.19822109275730623
+    ],
+    [
+     "pancreatic islet cells",
+     0.1805167301990682
+    ],
+    [
+     "m\u00fcller glia",
+     0.17179161372299873
+    ]
+   ]
+  },
+  "PTPRC": {
+   "top_share": 0.3104121362357779,
+   "n_types": 8,
+   "home": "neutrophils",
+   "top3": [
+    [
+     "neutrophils",
+     0.3104121362357779
+    ],
+    [
+     "nk-cells",
+     0.07140577569635663
+    ],
+    [
+     "monocytes",
+     0.06957999658594152
+    ]
+   ]
+  },
+  "FOLH1": {
+   "top_share": 0.5719615158060084,
+   "n_types": 2,
+   "home": "prostatic glandular cells",
+   "top3": [
+    [
+     "prostatic glandular cells",
+     0.5719615158060084
+    ],
+    [
+     "oligodendrocytes",
+     0.1957981543294719
+    ],
+    [
+     "lacrimal acinar cells",
+     0.056901629687806814
+    ]
+   ]
+  },
+  "DLL3": {
+   "top_share": 0.3035714285714286,
+   "n_types": 6,
+   "home": "oligodendrocyte progenitor cells",
+   "top3": [
+    [
+     "oligodendrocyte progenitor cells",
+     0.3035714285714286
+    ],
+    [
+     "other brain neurons",
+     0.07512315270935961
+    ],
+    [
+     "breast myoepithelial cells",
+     0.04741379310344828
+    ]
+   ]
+  },
+  "CD40": {
+   "top_share": 0.05321737329813118,
+   "n_types": 57,
+   "home": "cdc",
+   "top3": [
+    [
+     "cdc",
+     0.05321737329813118
+    ],
+    [
+     "b-cells",
+     0.05202671222239478
+    ],
+    [
+     "vascular endothelial cells",
+     0.03194077755345033
+    ]
+   ]
+  },
+  "MSLN": {
+   "top_share": 0.24704804812238534,
+   "n_types": 11,
+   "home": "conjunctival goblet cells",
+   "top3": [
+    [
+     "conjunctival goblet cells",
+     0.24704804812238534
+    ],
+    [
+     "fallopian secretory cells",
+     0.1696660643117063
+    ],
+    [
+     "alveolar cells type 1",
+     0.09302670990420081
+    ]
+   ]
+  },
+  "FCER2": {
+   "top_share": 0.6959134615384616,
+   "n_types": 1,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.6959134615384616
+    ],
+    [
+     "plasma cells",
+     0.03725961538461539
+    ],
+    [
+     "macrophages",
+     0.03185096153846154
+    ]
+   ]
+  },
+  "CD33": {
+   "top_share": 0.2689929935430691,
+   "n_types": 8,
+   "home": "kupffer cells",
+   "top3": [
+    [
+     "kupffer cells",
+     0.2689929935430691
+    ],
+    [
+     "hofbauer cells",
+     0.16554471768100015
+    ],
+    [
+     "monocytes",
+     0.10798186564088473
+    ]
+   ]
+  },
+  "CEACAM5": {
+   "top_share": 0.28277556033159346,
+   "n_types": 7,
+   "home": "colonocytes",
+   "top3": [
+    [
+     "colonocytes",
+     0.28277556033159346
+    ],
+    [
+     "esophageal apical cells",
+     0.2202947497697267
+    ],
+    [
+     "goblet cells",
+     0.13202333435677002
+    ]
+   ]
+  },
+  "MET": {
+   "top_share": 0.09714454772766314,
+   "n_types": 34,
+   "home": "endometrial glandular cells",
+   "top3": [
+    [
+     "endometrial glandular cells",
+     0.09714454772766314
+    ],
+    [
+     "endometrial luminal cells",
+     0.05005630738103872
+    ],
+    [
+     "salivary basal cells",
+     0.04970319329655856
+    ]
+   ]
+  },
+  "CA9": {
+   "top_share": 0.3377234242709314,
+   "n_types": 6,
+   "home": "gastric chief cells",
+   "top3": [
+    [
+     "gastric chief cells",
+     0.3377234242709314
+    ],
+    [
+     "parietal cells",
+     0.12676387582314208
+    ],
+    [
+     "foveolar cells",
+     0.09736594543744122
+    ]
+   ]
+  },
+  "FOLR1": {
+   "top_share": 0.26814525649703286,
+   "n_types": 10,
+   "home": "breast lactating cells",
+   "top3": [
+    [
+     "breast lactating cells",
+     0.26814525649703286
+    ],
+    [
+     "fallopian tube ciliated cells",
+     0.12424247194194778
+    ],
+    [
+     "transitional alveolar cells",
+     0.07077082907018843
+    ]
+   ]
+  },
+  "GPRC5D": {
+   "top_share": 0.2981829014000596,
+   "n_types": 6,
+   "home": "epicardial cells",
+   "top3": [
+    [
+     "epicardial cells",
+     0.2981829014000596
+    ],
+    [
+     "plasma cells",
+     0.11260053619302948
+    ],
+    [
+     "endometrial luminal cells",
+     0.07089663389931487
+    ]
+   ]
+  },
+  "SDC1": {
+   "top_share": 0.18790482547262932,
+   "n_types": 11,
+   "home": "esophageal apical cells",
+   "top3": [
+    [
+     "esophageal apical cells",
+     0.18790482547262932
+    ],
+    [
+     "esophageal suprabasal cells",
+     0.10778110986810562
+    ],
+    [
+     "ocular epithelial cells",
+     0.08175006815639306
+    ]
+   ]
+  },
+  "F3": {
+   "top_share": 0.08223926631547343,
+   "n_types": 27,
+   "home": "ocular epithelial cells",
+   "top3": [
+    [
+     "ocular epithelial cells",
+     0.08223926631547343
+    ],
+    [
+     "pancreatic acinar cells",
+     0.06584873215601715
+    ],
+    [
+     "respiratory secretory cells",
+     0.06483882413953108
+    ]
+   ]
+  },
+  "EPCAM": {
+   "top_share": 0.1032891357695893,
+   "n_types": 30,
+   "home": "colonocytes",
+   "top3": [
+    [
+     "colonocytes",
+     0.1032891357695893
+    ],
+    [
+     "enterocytes",
+     0.10251298343066943
+    ],
+    [
+     "enteric transient amplifying cells",
+     0.07073639355489185
+    ]
+   ]
+  },
+  "TNFRSF8": {
+   "top_share": 0.2993421052631579,
+   "n_types": 6,
+   "home": "epicardial cells",
+   "top3": [
+    [
+     "epicardial cells",
+     0.2993421052631579
+    ],
+    [
+     "mesothelial cells",
+     0.10855263157894737
+    ],
+    [
+     "neutrophils",
+     0.060406698564593304
+    ]
+   ]
+  },
+  "CD80": {
+   "top_share": 0.16711882799782962,
+   "n_types": 12,
+   "home": "cdc",
+   "top3": [
+    [
+     "cdc",
+     0.16711882799782962
+    ],
+    [
+     "macrophages",
+     0.12588171459576775
+    ],
+    [
+     "b-cells",
+     0.12154096581660336
+    ]
+   ]
+  },
+  "GPNMB": {
+   "top_share": 0.20649856649268541,
+   "n_types": 12,
+   "home": "melanocytes",
+   "top3": [
+    [
+     "melanocytes",
+     0.20649856649268541
+    ],
+    [
+     "hofbauer cells",
+     0.10062118650297729
+    ],
+    [
+     "kupffer cells",
+     0.06875321620230831
+    ]
+   ]
+  },
+  "ERBB2": {
+   "top_share": 0.04489302325581395,
+   "n_types": 66,
+   "home": "esophageal apical cells",
+   "top3": [
+    [
+     "esophageal apical cells",
+     0.04489302325581395
+    ],
+    [
+     "prostatic club cells",
+     0.03328372093023255
+    ],
+    [
+     "renal collecting duct principal cells",
+     0.026120930232558136
+    ]
+   ]
+  },
+  "NECTIN4": {
+   "top_share": 0.21556348032820152,
+   "n_types": 9,
+   "home": "esophageal apical cells",
+   "top3": [
+    [
+     "esophageal apical cells",
+     0.21556348032820152
+    ],
+    [
+     "esophageal suprabasal cells",
+     0.09051636658838537
+    ],
+    [
+     "ocular epithelial cells",
+     0.07164187759125568
+    ]
+   ]
+  },
+  "EGFR": {
+   "top_share": 0.04558781999102945,
+   "n_types": 61,
+   "home": "fibro-adipogenic progenitors",
+   "top3": [
+    [
+     "fibro-adipogenic progenitors",
+     0.04558781999102945
+    ],
+    [
+     "respiratory basal cells",
+     0.038851603900526596
+    ],
+    [
+     "myosatellite cells",
+     0.03277571972025184
+    ]
+   ]
+  },
+  "GPC3": {
+   "top_share": 0.2640505157365776,
+   "n_types": 8,
+   "home": "pituitary stem cells",
+   "top3": [
+    [
+     "pituitary stem cells",
+     0.2640505157365776
+    ],
+    [
+     "fibroblasts",
+     0.10804020100502512
+    ],
+    [
+     "pituicytes/fscs",
+     0.07435202327426607
+    ]
+   ]
+  },
+  "NCAM1": {
+   "top_share": 0.07439569630448026,
+   "n_types": 31,
+   "home": "oligodendrocytes",
+   "top3": [
+    [
+     "oligodendrocytes",
+     0.07439569630448026
+    ],
+    [
+     "oligodendrocyte progenitor cells",
+     0.07250611789730194
+    ],
+    [
+     "bergmann glia",
+     0.06026516051090895
+    ]
+   ]
+  },
+  "MS4A1": {
+   "top_share": 0.85819592628516,
+   "n_types": 1,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.85819592628516
+    ],
+    [
+     "foveolar cells",
+     0.016391852570320078
+    ],
+    [
+     "conjunctival goblet cells",
+     0.013191076624636274
+    ]
+   ]
+  },
+  "SLC34A2": {
+   "top_share": 0.27486179891742485,
+   "n_types": 7,
+   "home": "alveolar cells type 2",
+   "top3": [
+    [
+     "alveolar cells type 2",
+     0.27486179891742485
+    ],
+    [
+     "transitional alveolar cells",
+     0.16133536796038236
+    ],
+    [
+     "alveolar cells type 1",
+     0.12484164459288266
+    ]
+   ]
+  },
+  "AXL": {
+   "top_share": 0.12638912634638402,
+   "n_types": 20,
+   "home": "kupffer cells",
+   "top3": [
+    [
+     "kupffer cells",
+     0.12638912634638402
+    ],
+    [
+     "vascular smooth muscle cells",
+     0.08366814840143616
+    ],
+    [
+     "pericytes",
+     0.06917849204992307
+    ]
+   ]
+  },
+  "CD52": {
+   "top_share": 0.19422088626006012,
+   "n_types": 11,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.19422088626006012
+    ],
+    [
+     "t-cells",
+     0.14628139241733734
+    ],
+    [
+     "innate lymphoid cells",
+     0.1014835644332396
+    ]
+   ]
+  },
+  "CD19": {
+   "top_share": 0.5191831683168316,
+   "n_types": 2,
+   "home": "b-cells",
+   "top3": [
+    [
+     "b-cells",
+     0.5191831683168316
+    ],
+    [
+     "plasma cells",
+     0.12066831683168315
+    ],
+    [
+     "epicardial cells",
+     0.042079207920792075
+    ]
+   ]
+  },
+  "MUC16": {
+   "top_share": 0.17533128095301834,
+   "n_types": 13,
+   "home": "epicardial cells",
+   "top3": [
+    [
+     "epicardial cells",
+     0.17533128095301834
+    ],
+    [
+     "conjunctival goblet cells",
+     0.1276134386293669
+    ],
+    [
+     "salivary ionocytes",
+     0.09987953419890243
+    ]
+   ]
+  },
+  "TACSTD2": {
+   "top_share": 0.29864103640166356,
+   "n_types": 6,
+   "home": "esophageal apical cells",
+   "top3": [
+    [
+     "esophageal apical cells",
+     0.29864103640166356
+    ],
+    [
+     "esophageal suprabasal cells",
+     0.09122252133296484
+    ],
+    [
+     "ocular epithelial cells",
+     0.05609691188061045
+    ]
+   ]
+  },
+  "IL3RA": {
+   "top_share": 0.2257947155395879,
+   "n_types": 5,
+   "home": "pdcs",
+   "top3": [
+    [
+     "pdcs",
+     0.2257947155395879
+    ],
+    [
+     "epicardial cells",
+     0.11480740370185089
+    ],
+    [
+     "vascular endothelial cells",
+     0.03440356541907317
+    ]
+   ]
+  },
+  "MUC1": {
+   "top_share": 0.09582716571509127,
+   "n_types": 24,
+   "home": "foveolar cells",
+   "top3": [
+    [
+     "foveolar cells",
+     0.09582716571509127
+    ],
+    [
+     "alveolar cells type 2",
+     0.08317473743568055
+    ],
+    [
+     "breast lactating cells",
+     0.07672517093113414
+    ]
+   ]
+  },
+  "CD47": {
+   "top_share": 0.03256282042500277,
+   "n_types": 110,
+   "home": "alveolar cells type 1",
+   "top3": [
+    [
+     "alveolar cells type 1",
+     0.03256282042500277
+    ],
+    [
+     "gastric progenitor cells",
+     0.02316280883306022
+    ],
+    [
+     "thymocytes",
+     0.02289408652858204
+    ]
+   ]
+  },
+  "HLA-DRA": {
+   "top_share": 0.4119493468326384,
+   "n_types": 7,
+   "home": "cdc",
+   "top3": [
+    [
+     "cdc",
+     0.4119493468326384
+    ],
+    [
+     "macrophages",
+     0.07724146420273575
+    ],
+    [
+     "microglia",
+     0.0674708805834654
+    ]
+   ]
+  }
+ },
+ "solid_only": {
+  "sep": 0.8125,
+  "p": 0.013323278029160382,
+  "n_safe": 8,
+  "n_toxic": 10
+ },
+ "germ_removed": {
+  "one_factor": 0.8564593301435407,
+  "two_factor": 0.9138755980861244,
+  "p_two": 5.4999725001374995e-05
+ },
+ "reference_B_tissue": {
+  "CD38": {
+   "top_share": 0.1985170205594877,
+   "n_types": 13,
+   "home": "thymus",
+   "top3": [
+    [
+     "thymus",
+     0.1985170205594877
+    ],
+    [
+     "lymph node",
+     0.07347489046174588
+    ],
+    [
+     "skeletal muscle",
+     0.06740815638692282
+    ]
+   ]
+  },
+  "CD79B": {
+   "top_share": 0.2628225549538069,
+   "n_types": 7,
+   "home": "lymph node",
+   "top3": [
+    [
+     "lymph node",
+     0.2628225549538069
+    ],
+    [
+     "tonsil",
+     0.20314325156631624
+    ],
+    [
+     "spleen",
+     0.15153445895720505
+    ]
+   ]
+  },
+  "CD22": {
+   "top_share": 0.18332196452933153,
+   "n_types": 11,
+   "home": "tonsil",
+   "top3": [
+    [
+     "tonsil",
+     0.18332196452933153
+    ],
+    [
+     "lymph node",
+     0.17445429740791268
+    ],
+    [
+     "spleen",
+     0.1315654843110505
+    ]
+   ]
+  },
+  "CD74": {
+   "top_share": 0.08253443193795798,
+   "n_types": 34,
+   "home": "tonsil",
+   "top3": [
+    [
+     "tonsil",
+     0.08253443193795798
+    ],
+    [
+     "lymph node",
+     0.07867356394646395
+    ],
+    [
+     "spleen",
+     0.07785413493264426
+    ]
+   ]
+  },
+  "CD44": {
+   "top_share": 0.09698333711878757,
+   "n_types": 31,
+   "home": "salivary gland",
+   "top3": [
+    [
+     "salivary gland",
+     0.09698333711878757
+    ],
+    [
+     "skin",
+     0.07245359377258367
+    ],
+    [
+     "bone marrow",
+     0.06000289071049535
+    ]
+   ]
+  },
+  "SLAMF7": {
+   "top_share": 0.12521588946459414,
+   "n_types": 17,
+   "home": "tonsil",
+   "top3": [
+    [
+     "tonsil",
+     0.12521588946459414
+    ],
+    [
+     "lymph node",
+     0.10276338514680484
+    ],
+    [
+     "spleen",
+     0.08592400690846286
+    ]
+   ]
+  },
+  "TNFRSF17": {
+   "top_share": 0.15212224108658742,
+   "n_types": 13,
+   "home": "tonsil",
+   "top3": [
+    [
+     "tonsil",
+     0.15212224108658742
+    ],
+    [
+     "lymph node",
+     0.10152801358234295
+    ],
+    [
+     "duodenum",
+     0.09269949066213923
+    ]
+   ]
+  },
+  "ERBB3": {
+   "top_share": 0.06975965162046728,
+   "n_types": 31,
+   "home": "liver",
+   "top3": [
+    [
+     "liver",
+     0.06975965162046728
+    ],
+    [
+     "esophagus",
+     0.05753286994389079
+    ],
+    [
+     "salivary gland",
+     0.054853027384641144
+    ]
+   ]
+  },
+  "CLDN18": {
+   "top_share": 0.7217299578059071,
+   "n_types": 2,
+   "home": "stomach",
+   "top3": [
+    [
+     "stomach",
+     0.7217299578059071
+    ],
+    [
+     "lung",
+     0.25084388185654005
+    ],
+    [
+     "heart muscle",
+     0.009493670886075948
+    ]
+   ]
+  },
+  "FAP": {
+   "top_share": 0.12049180327868853,
+   "n_types": 22,
+   "home": "endometrium",
+   "top3": [
+    [
+     "endometrium",
+     0.12049180327868853
+    ],
+    [
+     "smooth muscle",
+     0.1012295081967213
+    ],
+    [
+     "placenta",
+     0.08893442622950819
+    ]
+   ]
+  },
+  "PTPRC": {
+   "top_share": 0.1584490740740741,
+   "n_types": 11,
+   "home": "lymph node",
+   "top3": [
+    [
+     "lymph node",
+     0.1584490740740741
+    ],
+    [
+     "appendix",
+     0.13252314814814817
+    ],
+    [
+     "thymus",
+     0.1234953703703704
+    ]
+   ]
+  },
+  "FOLH1": {
+   "top_share": 0.35991966719265533,
+   "n_types": 7,
+   "home": "duodenum",
+   "top3": [
+    [
+     "duodenum",
+     0.35991966719265533
+    ],
+    [
+     "small intestine",
+     0.11232247884091236
+    ],
+    [
+     "prostate",
+     0.10242432936451014
+    ]
+   ]
+  },
+  "DLL3": {
+   "top_share": 0.3325153374233129,
+   "n_types": 8,
+   "home": "cerebral cortex",
+   "top3": [
+    [
+     "cerebral cortex",
+     0.3325153374233129
+    ],
+    [
+     "basal ganglia",
+     0.13742331288343557
+    ],
+    [
+     "amygdala",
+     0.1312883435582822
+    ]
+   ]
+  },
+  "CD40": {
+   "top_share": 0.08445083014048531,
+   "n_types": 38,
+   "home": "tonsil",
+   "top3": [
+    [
+     "tonsil",
+     0.08445083014048531
+    ],
+    [
+     "lymph node",
+     0.07104086845466157
+    ],
+    [
+     "parathyroid gland",
+     0.06465517241379311
+    ]
+   ]
+  },
+  "MSLN": {
+   "top_share": 0.40348711618577376,
+   "n_types": 4,
+   "home": "fallopian tube",
+   "top3": [
+    [
+     "fallopian tube",
+     0.40348711618577376
+    ],
+    [
+     "adipose tissue",
+     0.13763308131461194
+    ],
+    [
+     "lung",
+     0.10430489122049065
+    ]
+   ]
+  },
+  "FCER2": {
+   "top_share": 0.2230378317334839,
+   "n_types": 8,
+   "home": "tonsil",
+   "top3": [
+    [
+     "tonsil",
+     0.2230378317334839
+    ],
+    [
+     "lymph node",
+     0.20835686053077357
+    ],
+    [
+     "spleen",
+     0.20440429136081312
+    ]
+   ]
+  },
+  "CD33": {
+   "top_share": 0.15239043824701196,
+   "n_types": 19,
+   "home": "bone marrow",
+   "top3": [
+    [
+     "bone marrow",
+     0.15239043824701196
+    ],
+    [
+     "spleen",
+     0.11254980079681275
+    ],
+    [
+     "lung",
+     0.05926294820717131
+    ]
+   ]
+  },
+  "CEACAM5": {
+   "top_share": 0.3469557021677663,
+   "n_types": 5,
+   "home": "colon",
+   "top3": [
+    [
+     "colon",
+     0.3469557021677663
+    ],
+    [
+     "rectum",
+     0.33368520263901985
+    ],
+    [
+     "esophagus",
+     0.07449575871819039
+    ]
+   ]
+  },
+  "MET": {
+   "top_share": 0.10724792725327628,
+   "n_types": 32,
+   "home": "liver",
+   "top3": [
+    [
+     "liver",
+     0.10724792725327628
+    ],
+    [
+     "placenta",
+     0.06632789515913347
+    ],
+    [
+     "lung",
+     0.05108317732013908
+    ]
+   ]
+  },
+  "CA9": {
+   "top_share": 0.7316405277570326,
+   "n_types": 1,
+   "home": "stomach",
+   "top3": [
+    [
+     "stomach",
+     0.7316405277570326
+    ],
+    [
+     "gallbladder",
+     0.057007717201891954
+    ],
+    [
+     "cerebellum",
+     0.041822255414488425
+    ]
+   ]
+  },
+  "FOLR1": {
+   "top_share": 0.7311270125223615,
+   "n_types": 1,
+   "home": "choroid plexus",
+   "top3": [
+    [
+     "choroid plexus",
+     0.7311270125223615
+    ],
+    [
+     "salivary gland",
+     0.052823920265780734
+    ],
+    [
+     "lung",
+     0.046613851265014064
+    ]
+   ]
+  },
+  "GPRC5D": {
+   "top_share": 0.4623467600700525,
+   "n_types": 3,
+   "home": "skin",
+   "top3": [
+    [
+     "skin",
+     0.4623467600700525
+    ],
+    [
+     "lung",
+     0.08231173380035027
+    ],
+    [
+     "salivary gland",
+     0.05779334500875656
+    ]
+   ]
+  },
+  "SDC1": {
+   "top_share": 0.16909234298824208,
+   "n_types": 15,
+   "home": "liver",
+   "top3": [
+    [
+     "liver",
+     0.16909234298824208
+    ],
+    [
+     "esophagus",
+     0.16751505592199603
+    ],
+    [
+     "skin",
+     0.1515271006595928
+    ]
+   ]
+  },
+  "F3": {
+   "top_share": 0.0528429507503699,
+   "n_types": 42,
+   "home": "placenta",
+   "top3": [
+    [
+     "placenta",
+     0.0528429507503699
+    ],
+    [
+     "adipose tissue",
+     0.04751638131473262
+    ],
+    [
+     "basal ganglia",
+     0.04569858380891989
+    ]
+   ]
+  },
+  "EPCAM": {
+   "top_share": 0.147261007575315,
+   "n_types": 15,
+   "home": "colon",
+   "top3": [
+    [
+     "colon",
+     0.147261007575315
+    ],
+    [
+     "small intestine",
+     0.14120465034760762
+    ],
+    [
+     "rectum",
+     0.13744620357928763
+    ]
+   ]
+  },
+  "TNFRSF8": {
+   "top_share": 0.1416666666666667,
+   "n_types": 22,
+   "home": "adipose tissue",
+   "top3": [
+    [
+     "adipose tissue",
+     0.1416666666666667
+    ],
+    [
+     "breast",
+     0.09166666666666667
+    ],
+    [
+     "appendix",
+     0.08055555555555557
+    ]
+   ]
+  },
+  "CD80": {
+   "top_share": 0.156479217603912,
+   "n_types": 14,
+   "home": "tonsil",
+   "top3": [
+    [
+     "tonsil",
+     0.156479217603912
+    ],
+    [
+     "lymph node",
+     0.1271393643031785
+    ],
+    [
+     "appendix",
+     0.12224938875305624
+    ]
+   ]
+  },
+  "GPNMB": {
+   "top_share": 0.12059936630874848,
+   "n_types": 24,
+   "home": "skin",
+   "top3": [
+    [
+     "skin",
+     0.12059936630874848
+    ],
+    [
+     "heart muscle",
+     0.06653758141172329
+    ],
+    [
+     "cervix",
+     0.06281904594261575
+    ]
+   ]
+  },
+  "ERBB2": {
+   "top_share": 0.05820701089531028,
+   "n_types": 41,
+   "home": "esophagus",
+   "top3": [
+    [
+     "esophagus",
+     0.05820701089531028
+    ],
+    [
+     "skin",
+     0.05163429654192326
+    ],
+    [
+     "kidney",
+     0.049680246328754146
+    ]
+   ]
+  },
+  "NECTIN4": {
+   "top_share": 0.24814231029047515,
+   "n_types": 9,
+   "home": "skin",
+   "top3": [
+    [
+     "skin",
+     0.24814231029047515
+    ],
+    [
+     "esophagus",
+     0.21616752983562262
+    ],
+    [
+     "vagina",
+     0.1269984237784283
+    ]
+   ]
+  },
+  "EGFR": {
+   "top_share": 0.09626168224299066,
+   "n_types": 36,
+   "home": "placenta",
+   "top3": [
+    [
+     "placenta",
+     0.09626168224299066
+    ],
+    [
+     "skin",
+     0.07538940809968847
+    ],
+    [
+     "liver",
+     0.050155763239875396
+    ]
+   ]
+  },
+  "GPC3": {
+   "top_share": 0.39451054305571914,
+   "n_types": 6,
+   "home": "placenta",
+   "top3": [
+    [
+     "placenta",
+     0.39451054305571914
+    ],
+    [
+     "lung",
+     0.08310755094828602
+    ],
+    [
+     "adipose tissue",
+     0.06561432441983744
+    ]
+   ]
+  },
+  "NCAM1": {
+   "top_share": 0.10049873974365849,
+   "n_types": 24,
+   "home": "cerebral cortex",
+   "top3": [
+    [
+     "cerebral cortex",
+     0.10049873974365849
+    ],
+    [
+     "spinal cord",
+     0.07765324180833377
+    ],
+    [
+     "heart muscle",
+     0.0731484957365796
+    ]
+   ]
+  },
+  "MS4A1": {
+   "top_share": 0.34923621872924515,
+   "n_types": 5,
+   "home": "tonsil",
+   "top3": [
+    [
+     "tonsil",
+     0.34923621872924515
+    ],
+    [
+     "lymph node",
+     0.2586340491476644
+    ],
+    [
+     "spleen",
+     0.13692716404693384
+    ]
+   ]
+  },
+  "SLC34A2": {
+   "top_share": 0.6343076785554662,
+   "n_types": 2,
+   "home": "lung",
+   "top3": [
+    [
+     "lung",
+     0.6343076785554662
+    ],
+    [
+     "salivary gland",
+     0.07544471261285421
+    ],
+    [
+     "fallopian tube",
+     0.058728881737731296
+    ]
+   ]
+  },
+  "AXL": {
+   "top_share": 0.07884992376388587,
+   "n_types": 43,
+   "home": "blood vessel",
+   "top3": [
+    [
+     "blood vessel",
+     0.07884992376388587
+    ],
+    [
+     "adipose tissue",
+     0.04552385101285123
+    ],
+    [
+     "colon",
+     0.04367240252668265
+    ]
+   ]
+  },
+  "CD52": {
+   "top_share": 0.8454435283009046,
+   "n_types": 1,
+   "home": "epididymis",
+   "top3": [
+    [
+     "epididymis",
+     0.8454435283009046
+    ],
+    [
+     "tonsil",
+     0.029058024351739632
+    ],
+    [
+     "lymph node",
+     0.025010966461215898
+    ]
+   ]
+  },
+  "CD19": {
+   "top_share": 0.23443708609271519,
+   "n_types": 5,
+   "home": "spleen",
+   "top3": [
+    [
+     "spleen",
+     0.23443708609271519
+    ],
+    [
+     "tonsil",
+     0.23311258278145694
+    ],
+    [
+     "lymph node",
+     0.2225165562913907
+    ]
+   ]
+  },
+  "MUC16": {
+   "top_share": 0.3731343283582089,
+   "n_types": 5,
+   "home": "cervix",
+   "top3": [
+    [
+     "cervix",
+     0.3731343283582089
+    ],
+    [
+     "adipose tissue",
+     0.1616915422885572
+    ],
+    [
+     "salivary gland",
+     0.1417910447761194
+    ]
+   ]
+  },
+  "TACSTD2": {
+   "top_share": 0.2729584009117608,
+   "n_types": 9,
+   "home": "esophagus",
+   "top3": [
+    [
+     "esophagus",
+     0.2729584009117608
+    ],
+    [
+     "salivary gland",
+     0.1282821198439486
+    ],
+    [
+     "skin",
+     0.1216192521807741
+    ]
+   ]
+  },
+  "IL3RA": {
+   "top_share": 0.05778352738249245,
+   "n_types": 49,
+   "home": "adipose tissue",
+   "top3": [
+    [
+     "adipose tissue",
+     0.05778352738249245
+    ],
+    [
+     "lung",
+     0.05778352738249245
+    ],
+    [
+     "bone marrow",
+     0.05088400172488141
+    ]
+   ]
+  },
+  "MUC1": {
+   "top_share": 0.2613089005235602,
+   "n_types": 10,
+   "home": "stomach",
+   "top3": [
+    [
+     "stomach",
+     0.2613089005235602
+    ],
+    [
+     "kidney",
+     0.10913612565445024
+    ],
+    [
+     "pancreas",
+     0.08958115183246072
+    ]
+   ]
+  },
+  "CD47": {
+   "top_share": 0.06883708816252117,
+   "n_types": 49,
+   "home": "retina",
+   "top3": [
+    [
+     "retina",
+     0.06883708816252117
+    ],
+    [
+     "bone marrow",
+     0.05703867691105614
+    ],
+    [
+     "tonsil",
+     0.03938012762078396
+    ]
+   ]
+  },
+  "HLA-DRA": {
+   "top_share": 0.10567030793277934,
+   "n_types": 30,
+   "home": "lymph node",
+   "top3": [
+    [
+     "lymph node",
+     0.10567030793277934
+    ],
+    [
+     "spleen",
+     0.09510857566739375
+    ],
+    [
+     "lung",
+     0.08222432200920178
+    ]
+   ]
+  }
+ },
+ "labels": {
+  "CD19": "safe",
+  "MS4A1": "safe",
+  "CD22": "safe",
+  "CD79B": "safe",
+  "TNFRSF17": "safe",
+  "SLAMF7": "safe",
+  "CD38": "safe",
+  "TNFRSF8": "safe",
+  "CD33": "safe",
+  "GPRC5D": "safe",
+  "FOLH1": "safe",
+  "TACSTD2": "safe",
+  "NECTIN4": "safe",
+  "CLDN18": "safe",
+  "DLL3": "safe",
+  "MET": "safe",
+  "MSLN": "safe",
+  "GPC3": "safe",
+  "CD52": "safe",
+  "ERBB2": "toxic",
+  "EGFR": "toxic",
+  "CEACAM5": "toxic",
+  "CA9": "toxic",
+  "CD47": "toxic",
+  "CD44": "toxic",
+  "NCAM1": "toxic",
+  "EPCAM": "toxic",
+  "FOLR1": "toxic",
+  "FAP": "toxic",
+  "F3": "toxic",
+  "FCER2": "efficacy_fail",
+  "GPNMB": "efficacy_fail",
+  "CD40": "efficacy_fail",
+  "CD80": "efficacy_fail",
+  "HLA-DRA": "efficacy_fail",
+  "SDC1": "efficacy_fail",
+  "MUC1": "efficacy_fail",
+  "MUC16": "efficacy_fail",
+  "SLC34A2": "efficacy_fail",
+  "CD74": "efficacy_fail",
+  "ERBB3": "efficacy_fail",
+  "AXL": "efficacy_fail",
+  "PTPRC": "excluded_control",
+  "IL3RA": "excluded_ambiguous"
+ },
+ "haem_home_A": {
+  "CD38": true,
+  "CD79B": true,
+  "CD22": true,
+  "CD74": true,
+  "CD44": false,
+  "SLAMF7": true,
+  "TNFRSF17": true,
+  "ERBB3": false,
+  "CLDN18": false,
+  "FAP": false,
+  "PTPRC": true,
+  "FOLH1": false,
+  "DLL3": false,
+  "CD40": false,
+  "MSLN": false,
+  "FCER2": true,
+  "CD33": true,
+  "CEACAM5": false,
+  "MET": false,
+  "CA9": false,
+  "FOLR1": false,
+  "GPRC5D": false,
+  "SDC1": false,
+  "F3": false,
+  "EPCAM": false,
+  "TNFRSF8": false,
+  "CD80": true,
+  "GPNMB": false,
+  "ERBB2": false,
+  "NECTIN4": false,
+  "EGFR": false,
+  "GPC3": false,
+  "NCAM1": false,
+  "MS4A1": true,
+  "SLC34A2": false,
+  "AXL": true,
+  "CD52": false,
+  "CD19": true,
+  "MUC16": false,
+  "TACSTD2": false,
+  "IL3RA": true,
+  "MUC1": false,
+  "CD47": false,
+  "HLA-DRA": true
+ },
+ "tests": {
+  "A_one_factor_top_share": 0.8803827751196173,
+  "A_two_factor": 0.9138755980861244,
+  "A_two_factor_p": 3.4999825000875e-05,
+  "B_two_factor": 0.7511961722488039,
+  "B_two_factor_p": 0.011834940825295874,
+  "loo_sep_min": 0.9052631578947369,
+  "loo_p_max": 7.999960000199999e-05,
+  "spearman_A_vs_B": 0.592107117688513
+ }
+}

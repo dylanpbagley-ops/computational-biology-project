@@ -1,0 +1,5 @@
+record_a	record_b	relationship	evidence	overlap_group	uncertainty
+S-CD19-POOL	ELIANA original 29385370	pooled extension includes original trial	Methods; Table 1; references	ELIANA_ENSIGN	patient mapping not extracted; do not add denominators
+S-CD33-FINAL	ALFA-0701 original 22482940	final update of same trial	Discussion cites initial cutoff	ALFA0701	as-treated sets differ; no silent substitution
+E003	E004	final trial includes first three patients	CAIX Introduction explicitly describes earlier first three patients	CAIX12	not a second agent or independent cohort
+CO-CA9-12	CO-CA9-3	different cohorts/regimens within same target/trial	CAIX abstract; regimen paragraph	CAIX12	separate patients but related development and same target

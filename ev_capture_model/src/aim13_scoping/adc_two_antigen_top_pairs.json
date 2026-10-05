@@ -1,0 +1,322 @@
+[
+ {
+  "A": "ALCAM",
+  "B": "PDL1",
+  "gate": "NOT",
+  "gain": 0.6931666666666666,
+  "two_receptor": 0.5328333333333333,
+  "one_receptor": -0.16033333333333333
+ },
+ {
+  "A": "FGFR2",
+  "B": "PDL1",
+  "gate": "NOT",
+  "gain": 0.6883333333333334,
+  "two_receptor": 0.528,
+  "one_receptor": -0.16033333333333333
+ },
+ {
+  "A": "ALCAM",
+  "B": "EPHA2",
+  "gate": "NOT",
+  "gain": 0.6675,
+  "two_receptor": 0.5328333333333334,
+  "one_receptor": -0.13466666666666666
+ },
+ {
+  "A": "EPHA2",
+  "B": "FGFR2",
+  "gate": "NOT",
+  "gain": 0.6626666666666667,
+  "two_receptor": 0.528,
+  "one_receptor": -0.13466666666666666
+ },
+ {
+  "A": "FGFR2",
+  "B": "SLC34A2",
+  "gate": "NOT",
+  "gain": 0.632,
+  "two_receptor": 0.528,
+  "one_receptor": -0.10399999999999998
+ },
+ {
+  "A": "CLDN18",
+  "B": "PDL1",
+  "gate": "NOT",
+  "gain": 0.6235,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.16033333333333333
+ },
+ {
+  "A": "ALCAM",
+  "B": "ROR2",
+  "gate": "NOT",
+  "gain": 0.6124999999999998,
+  "two_receptor": 0.5328333333333333,
+  "one_receptor": -0.07966666666666661
+ },
+ {
+  "A": "FGFR2",
+  "B": "ROR2",
+  "gate": "NOT",
+  "gain": 0.6076666666666666,
+  "two_receptor": 0.5279999999999999,
+  "one_receptor": -0.07966666666666661
+ },
+ {
+  "A": "CLDN18",
+  "B": "FGFR2",
+  "gate": "NOT",
+  "gain": 0.605,
+  "two_receptor": 0.528,
+  "one_receptor": -0.077
+ },
+ {
+  "A": "ALCAM",
+  "B": "CD38",
+  "gate": "NOT",
+  "gain": 0.5986666666666666,
+  "two_receptor": 0.5328333333333333,
+  "one_receptor": -0.06583333333333333
+ },
+ {
+  "A": "CLDN18",
+  "B": "EPHA2",
+  "gate": "NOT",
+  "gain": 0.5978333333333334,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.13466666666666666
+ },
+ {
+  "A": "CD38",
+  "B": "FGFR2",
+  "gate": "NOT",
+  "gain": 0.5938333333333333,
+  "two_receptor": 0.528,
+  "one_receptor": -0.06583333333333331
+ },
+ {
+  "A": "EPHA5",
+  "B": "FGFR2",
+  "gate": "NOT",
+  "gain": 0.589,
+  "two_receptor": 0.528,
+  "one_receptor": -0.06099999999999994
+ },
+ {
+  "A": "EDNRB",
+  "B": "PDL1",
+  "gate": "NOT",
+  "gain": 0.5881666666666667,
+  "two_receptor": 0.42783333333333334,
+  "one_receptor": -0.16033333333333333
+ },
+ {
+  "A": "FGFR2",
+  "B": "ROR1",
+  "gate": "NOT",
+  "gain": 0.5868333333333333,
+  "two_receptor": 0.528,
+  "one_receptor": -0.05883333333333333
+ },
+ {
+  "A": "FGFR2",
+  "B": "FGFR3",
+  "gate": "NOT",
+  "gain": 0.5770000000000002,
+  "two_receptor": 0.5388333333333334,
+  "one_receptor": -0.03816666666666674
+ },
+ {
+  "A": "CLDN18",
+  "B": "SLC34A2",
+  "gate": "NOT",
+  "gain": 0.5671666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.10399999999999998
+ },
+ {
+  "A": "F3",
+  "B": "FGFR2",
+  "gate": "NOT",
+  "gain": 0.5650000000000001,
+  "two_receptor": 0.528,
+  "one_receptor": -0.03699999999999999
+ },
+ {
+  "A": "EDNRB",
+  "B": "EPHA2",
+  "gate": "NOT",
+  "gain": 0.5624999999999999,
+  "two_receptor": 0.42783333333333334,
+  "one_receptor": -0.13466666666666655
+ },
+ {
+  "A": "ALCAM",
+  "B": "FGFR3",
+  "gate": "NOT",
+  "gain": 0.5556666666666668,
+  "two_receptor": 0.5175000000000001,
+  "one_receptor": -0.03816666666666663
+ },
+ {
+  "A": "CLDN18",
+  "B": "ROR2",
+  "gate": "NOT",
+  "gain": 0.5428333333333333,
+  "two_receptor": 0.4631666666666666,
+  "one_receptor": -0.07966666666666666
+ },
+ {
+  "A": "CLDN18",
+  "B": "MSLN",
+  "gate": "NOT",
+  "gain": 0.5401666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.07699999999999999
+ },
+ {
+  "A": "CLDN18",
+  "B": "EPHA5",
+  "gate": "NOT",
+  "gain": 0.5401666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.07699999999999999
+ },
+ {
+  "A": "AXL",
+  "B": "CLDN18",
+  "gate": "NOT",
+  "gain": 0.5401666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.07699999999999999
+ },
+ {
+  "A": "CLDN18",
+  "B": "ROR1",
+  "gate": "NOT",
+  "gain": 0.5401666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.077
+ },
+ {
+  "A": "CLDN18",
+  "B": "DPEP3",
+  "gate": "NOT",
+  "gain": 0.5401666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.077
+ },
+ {
+  "A": "CLDN18",
+  "B": "CLDN6",
+  "gate": "NOT",
+  "gain": 0.5401666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.077
+ },
+ {
+  "A": "CD73",
+  "B": "CLDN18",
+  "gate": "NOT",
+  "gain": 0.5401666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.077
+ },
+ {
+  "A": "CLDN18",
+  "B": "TNFRSF8",
+  "gate": "NOT",
+  "gain": 0.5401666666666667,
+  "two_receptor": 0.4631666666666667,
+  "one_receptor": -0.07700000000000001
+ },
+ {
+  "A": "CLDN18",
+  "B": "MET",
+  "gate": "NOT",
+  "gain": 0.5401666666666666,
+  "two_receptor": 0.4631666666666666,
+  "one_receptor": -0.077
+ },
+ {
+  "A": "CLDN18",
+  "B": "F3",
+  "gate": "NOT",
+  "gain": 0.5401666666666665,
+  "two_receptor": 0.4631666666666665,
+  "one_receptor": -0.07699999999999999
+ },
+ {
+  "A": "ENPP3",
+  "B": "PDL1",
+  "gate": "NOT",
+  "gain": 0.5385,
+  "two_receptor": 0.37816666666666665,
+  "one_receptor": -0.16033333333333333
+ },
+ {
+  "A": "ALCAM",
+  "B": "ITGB6",
+  "gate": "NOT",
+  "gain": 0.5381666666666668,
+  "two_receptor": 0.5238333333333334,
+  "one_receptor": -0.01433333333333342
+ },
+ {
+  "A": "ALCAM",
+  "B": "DLK1",
+  "gate": "NOT",
+  "gain": 0.5358333333333334,
+  "two_receptor": 0.5328333333333335,
+  "one_receptor": -0.0029999999999998916
+ },
+ {
+  "A": "ALCAM",
+  "B": "MSLN",
+  "gate": "NOT",
+  "gain": 0.5358333333333333,
+  "two_receptor": 0.5328333333333335,
+  "one_receptor": -0.0029999999999997806
+ },
+ {
+  "A": "ALCAM",
+  "B": "CD70",
+  "gate": "NOT",
+  "gain": 0.5358333333333333,
+  "two_receptor": 0.5328333333333335,
+  "one_receptor": -0.0029999999999997806
+ },
+ {
+  "A": "ALCAM",
+  "B": "CD73",
+  "gate": "NOT",
+  "gain": 0.5358333333333333,
+  "two_receptor": 0.5328333333333335,
+  "one_receptor": -0.0029999999999997806
+ },
+ {
+  "A": "ALCAM",
+  "B": "ROR1",
+  "gate": "NOT",
+  "gain": 0.5358333333333333,
+  "two_receptor": 0.5328333333333334,
+  "one_receptor": -0.0029999999999998916
+ },
+ {
+  "A": "ALCAM",
+  "B": "CLDN6",
+  "gate": "NOT",
+  "gain": 0.5358333333333333,
+  "two_receptor": 0.5328333333333334,
+  "one_receptor": -0.0029999999999998916
+ },
+ {
+  "A": "ALCAM",
+  "B": "DPEP3",
+  "gate": "NOT",
+  "gain": 0.5358333333333332,
+  "two_receptor": 0.5328333333333334,
+  "one_receptor": -0.0029999999999997806
+ }
+]

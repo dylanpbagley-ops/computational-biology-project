@@ -1,0 +1,51 @@
+{
+  "captured_utc": "2026-10-05T00:00:55Z",
+  "source_root": "C:/Users/dylan.bagley/Desktop/outputs",
+  "files": [
+    {
+      "path": "docs\\superpowers\\plans\\2026-10-04-literature-data-opportunity-search.md",
+      "bytes": 19008,
+      "sha256": "c1de7553b9fa80c7b6a593c535ad05330b1ae144ac68d57ff72ffcccdefbbeb8"
+    },
+    {
+      "path": "functional_extension_Oct3\\STATUS.md",
+      "bytes": 3701,
+      "sha256": "245cc3a0b3ab763c505bafd947ef20ebf8ba0f303f13427ed13321c540f29824"
+    },
+    {
+      "path": "functional_extension_Oct3\\decision.md",
+      "bytes": 5316,
+      "sha256": "dccca6e7ae0f46db6b7aa3f058d2024812472aaf11194c158153d33bb5e817ee"
+    },
+    {
+      "path": "longitudinal_extension_Oct3\\delivery\\path_decision.md",
+      "bytes": 6630,
+      "sha256": "71f8ed28fb9bbd5313ce4d797654a016d43866ac46841cebf577666f5d420c4e"
+    },
+    {
+      "path": "PROJECT_STATUS_Oct2.md",
+      "bytes": 6696,
+      "sha256": "99b67f8bb7b15ac6e78a5016234cb5e7c9a6edad8fe74a2a2fade99c12ef7679"
+    },
+    {
+      "path": "EV-Capture-CURRENT.md",
+      "bytes": 36921,
+      "sha256": "0ea493e812e4d6c52d2d0f5f5b5c3ea66df45c8be9917823b57d631244dc58e1"
+    },
+    {
+      "path": "functional_extension_Oct3\\output_hashes.json",
+      "bytes": 2004,
+      "sha256": "560d1332dbdd5f0a74bdff7e15c37f474995dc0d8ff5ffd8adb2c5c441e75082"
+    },
+    {
+      "path": "longitudinal_extension_Oct3\\delivery\\output_hashes.json",
+      "bytes": 36844,
+      "sha256": "0a5a069983a6f32d6f3ab09e50c94a20738f310ea3c6a2a5fbcabe4723a6dcb7"
+    },
+    {
+      "path": "strengthening_execution_Oct2\\next_stage\\delivery\\output_hashes.json",
+      "bytes": 29926,
+      "sha256": "b63865ce9249efbaf19e3f275b5e5d773f2ffdb9c51730c8f376b51b7d8c4305"
+    }
+  ]
+}

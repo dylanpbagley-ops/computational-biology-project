@@ -1,0 +1,48 @@
+"""ADT (antibody-derived tag) marker name -> HGNC symbol.
+
+Only unambiguous CD-number and named-antigen mappings are included. Isotype controls, TCR
+chains and duplicated antibody clones are deliberately excluded; where a marker has two clones
+(CD38-1/CD38-2) only the first is mapped, so no gene is counted twice.
+"""
+MAP = {
+ 'CD19': 'CD19', 'CD20': 'MS4A1', 'CD22': 'CD22', 'CD79a': 'CD79A', 'CD79b': 'CD79B',
+ 'CD269': 'TNFRSF17', 'CD319': 'SLAMF7', 'CD38-1': 'CD38', 'CD30': 'TNFRSF8',
+ 'CD33': 'CD33', 'CD52': 'CD52', 'CD47': 'CD47', 'CD44-1': 'CD44', 'CD56-1': 'NCAM1',
+ 'CD324': 'CDH1', 'CD340': 'ERBB2', 'CD274': 'CD274', 'CD40': 'CD40', 'HLA-DR': 'HLA-DRA',
+ 'CD80': 'CD80', 'CD138-1': 'SDC1', 'CD123': 'IL3RA', 'CD45-1': 'PTPRC',
+ 'CD3-1': 'CD3E', 'CD4-1': 'CD4', 'CD8a': 'CD8A', 'CD14': 'CD14', 'CD16': 'FCGR3A',
+ 'CD11c': 'ITGAX', 'CD11b-1': 'ITGAM', 'CD27': 'CD27', 'CD28': 'CD28', 'CD25': 'IL2RA',
+ 'CD127': 'IL7R', 'CD34': 'CD34', 'CD117': 'KIT', 'CD135': 'FLT3', 'CD31': 'PECAM1',
+ 'CD36': 'CD36', 'CD39': 'ENTPD1', 'CD73': 'NT5E', 'CD146': 'MCAM', 'CD105': 'ENG',
+ 'CD90': 'THY1', 'CD9': 'CD9', 'CD81': 'CD81', 'CD63': 'CD63', 'CD71': 'TFRC',
+ 'CD98': 'SLC3A2', 'CD99': 'CD99', 'CD95': 'FAS', 'CD70': 'CD70', 'CD72': 'CD72',
+ 'CD21': 'CR2', 'CD35': 'CR1', 'CD46': 'CD46', 'CD48': 'CD48', 'CD55': 'CD55',
+ 'CD59': 'CD59', 'CD24': 'CD24', 'CD26-1': 'DPP4', 'CD29': 'ITGB1', 'CD43': 'SPN',
+ 'CD49d': 'ITGA4', 'CD54': 'ICAM1', 'CD62P': 'SELP', 'CD64': 'FCGR1A',
+ 'CD68': 'CD68', 'CD69': 'CD69', 'CD83': 'CD83', 'CD86': 'CD86', 'CD93': 'CD93',
+ 'CD96': 'CD96', 'CD103': 'ITGAE', 'CD107a': 'LAMP1', 'CD112': 'NECTIN2', 'CD155': 'PVR',
+ 'CD161': 'KLRB1', 'CD163': 'CD163', 'CD169': 'SIGLEC1', 'CD171': 'L1CAM', 'CD177': 'CD177',
+ 'CD184': 'CXCR4', 'CD185': 'CXCR5', 'CD192': 'CCR2', 'CD194': 'CCR4', 'CD195': 'CCR5',
+ 'CD196': 'CCR6', 'CD1c': 'CD1C', 'CD1a': 'CD1A', 'CD1d': 'CD1D', 'CD2': 'CD2',
+ 'CD200': 'CD200', 'CD226': 'CD226', 'CD235a': 'GYPA', 'CD244': 'CD244', 'CD267': 'TNFRSF13B',
+ 'CD268': 'TNFRSF13C', 'CD272': 'BTLA', 'CD273': 'PDCD1LG2', 'CD278': 'ICOS', 'CD279': 'PDCD1',
+ 'CD303': 'CLEC4C', 'CD304': 'NRP1', 'CD305': 'LAIR1', 'CD314': 'KLRK1', 'CD335': 'NCR1',
+ 'CD337': 'NCR3', 'CD357': 'TNFRSF18', 'CD366': 'HAVCR2', 'CD370': 'CLEC9A',
+ 'CD41': 'ITGA2B', 'CD42b': 'GP1BA', 'CD61': 'ITGB3', 'CD15': 'FUT4', 'CD13': 'ANPEP',
+ 'CD141': 'THBD', 'CD142': 'F3', 'CD144': 'CDH5', 'CD152': 'CTLA4', 'CD154': 'CD40LG',
+ 'CLEC12A': 'CLEC12A', 'CX3CR1': 'CX3CR1', 'MERTK': 'MERTK', 'TIGIT': 'TIGIT',
+ 'XCR1': 'XCR1', 'IgD': 'IGHD', 'IgM': 'IGHM', 'CD307e': 'FCRL5', 'CD85g': 'LILRB4',
+ 'CD204': 'MSR1', 'CD206': 'MRC1', 'CD207': 'CD207', 'CD209': 'CD209', 'CD205': 'LY75',
+ 'CD115': 'CSF1R', 'CD124': 'IL4R', 'CD126': 'IL6R', 'CD122': 'IL2RB', 'CD119': 'IFNGR1',
+ 'CD253': 'TNFSF10', 'CD270': 'TNFRSF14', 'CD271': 'NGFR', 'CD294': 'PTGDR2',
+ 'CD309': 'KDR', 'CD338': 'ABCG2', 'CD140a': 'PDGFRA', 'CD140b': 'PDGFRB',
+ 'CD201': 'PROCR', 'CD202b': 'TEK', 'CD203c': 'ENPP3', 'CD106': 'VCAM1', 'CD102': 'ICAM2',
+ 'CD109': 'CD109', 'CD110': 'MPL', 'CD133-1': 'PROM1', 'CD134': 'TNFRSF4', 'CD137': 'TNFRSF9',
+ 'CD164': 'CD164', 'CD172a': 'SIRPA', 'CD178': 'FASLG', 'CD18': 'ITGB2',
+ 'CD223': 'LAG3', 'CD243': 'ABCB1', 'CD252': 'TNFSF4', 'CD275-1': 'ICOSLG', 'CD284': 'TLR4',
+ 'CD301': 'CLEC10A', 'CD354': 'TREM1', 'CD49a': 'ITGA1', 'CD49b': 'ITGA2', 'CD57': 'B3GAT1',
+ 'CD62E': 'SELE', 'CD66b': 'CEACAM8', 'GP130': 'IL6ST',
+ 'Galectin-9': 'LGALS9', 'Podoplanin': 'PDPN', 'Notch-1': 'NOTCH1', 'Notch-2': 'NOTCH2',
+ 'Siglec-8': 'SIGLEC8', 'TSLPR': 'CRLF2', 'VEGFR-3': 'FLT4', 'LOX-1': 'OLR1',
+ 'B7-H4': 'VTCN1', 'CCR10': 'CCR10', 'Integrin-7': 'ITGB7',
+}

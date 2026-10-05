@@ -1,0 +1,28 @@
+{
+  "protocol_file": "analysis/pilot_protocol.md",
+  "protocol_sha256": "f32b335d2bc88a1571f4045452033d422049304b501738c032c966bb8c45a9ac",
+  "locked_at_local": "2026-10-03T22:18:08-07:00",
+  "local_timezone": "America/Phoenix",
+  "locked_at_utc": "2026-10-04T05:18:08Z",
+  "expression_matrix_downloaded_or_parsed_before_lock": false,
+  "scope": "descriptive paired pre/post-venetoclax CD138-selected specimen-level RNA; three fixed participants; no per-cell malignant annotation",
+  "participants": [
+    "PM01",
+    "PM07",
+    "PM10"
+  ],
+  "gsm_accessions": [
+    "GSM5971019",
+    "GSM5971023",
+    "GSM5971021",
+    "GSM5971025",
+    "GSM5971020",
+    "GSM5971024"
+  ],
+  "markers": [
+    "TNFRSF17",
+    "GPRC5D",
+    "SLAMF7"
+  ],
+  "depth_rule": "D=floor(minimum of six Gene Expression total-UMI medians); joint multivariate hypergeometric sensitivity with 100 seeds 20261003-20261102 if reliable primitive is available"
+}

@@ -1,0 +1,12 @@
+{
+  "new_unit_tests": "10 passed",
+  "legacy_theorem_checks": 16400,
+  "legacy_numerical_output_unchanged": true,
+  "legacy_document_number_checks": 221,
+  "preserved_historical_files": 19,
+  "protocol_hash_matches": true,
+  "score_free_review_rows": 30,
+  "indexed_evidence_rows": 166,
+  "amended_evidence_rows": 44,
+  "scope": "No full 341-test legacy rerun: numerical legacy implementation unchanged; affected standalone theorem run in isolated directory and document verifier run directly."
+}

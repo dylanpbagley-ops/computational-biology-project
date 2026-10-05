@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-04T07:19:57Z",
+  "stage_directory": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\functional_extension_Oct3",
+  "self_excluded": true,
+  "manifest_scope": "Scientifically relevant selection artifacts, compact preservation record and read-only validator; no downloads or dependencies.",
+  "excluded_parts": [
+    ".cache",
+    "__pycache__",
+    "cache",
+    "data",
+    "dependencies"
+  ],
+  "downloaded_data_integrity_source": "No new data or dependencies were downloaded.",
+  "file_count": 9,
+  "files": [
+    {
+      "path": "data_manifest.json",
+      "bytes": 8067,
+      "sha256": "1044a8931a7738cbcf10368376703c540d0e87e55cc21cf6c47a4217cd8a7a40"
+    },
+    {
+      "path": "decision.md",
+      "bytes": 5316,
+      "sha256": "dccca6e7ae0f46db6b7aa3f058d2024812472aaf11194c158153d33bb5e817ee"
+    },
+    {
+      "path": "preservation/before_hashes.json",
+      "bytes": 9020,
+      "sha256": "46db9552f4ac9c38e93fd7ba389b08f9c7af2b071a4748f0f3cb1bd452c94cc1"
+    },
+    {
+      "path": "preservation/verification.json",
+      "bytes": 1317,
+      "sha256": "bc4f5bc1094307d7405198b6513dc74bd7ccad9720c97a40cbbee2c31a36329b"
+    },
+    {
+      "path": "reproduction.md",
+      "bytes": 1654,
+      "sha256": "87c08df8d018e2325216435580cbd7e2a519fee4216303e5aebec4572ad55667"
+    },
+    {
+      "path": "selection.tsv",
+      "bytes": 3733,
+      "sha256": "f7313b8f8d667ad102425770e2b1c1de9f339b3c7815014322403fb01a1cf2ab"
+    },
+    {
+      "path": "sources.tsv",
+      "bytes": 4952,
+      "sha256": "2f4bb730c42fe4a11f12b496fc7c428c7cc2c12230c7267721f2c24cbd7b219e"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 3701,
+      "sha256": "245cc3a0b3ab763c505bafd947ef20ebf8ba0f303f13427ed13321c540f29824"
+    },
+    {
+      "path": "validate_artifacts.py",
+      "bytes": 3491,
+      "sha256": "15b68616e8e3f4b9f086ba18b7a5549d87c12e64f71e87f60eb8565d0ff493f7"
+    }
+  ]
+}

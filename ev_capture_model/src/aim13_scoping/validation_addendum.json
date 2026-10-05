@@ -1,0 +1,7 @@
+{
+ "n_safe": 5,
+ "n_toxic": 2,
+ "sep_with_absent_gene_as_safest": 0.9,
+ "p_exact": 0.09523809523809523,
+ "note": "post-hoc convention; CTAG1B has no measured expression in the reference"
+}

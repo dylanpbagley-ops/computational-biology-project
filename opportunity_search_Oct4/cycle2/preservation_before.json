@@ -1,0 +1,46 @@
+{
+  "captured_utc": "2026-10-05T01:20:19Z",
+  "root": "C:/Users/dylan.bagley/Desktop/outputs",
+  "files": [
+    {
+      "path": "docs/superpowers/plans/2026-10-04-focused-functional-data-feasibility.md",
+      "bytes": 17957,
+      "sha256": "1ffbde5cd49f12c21712e3cc3ecacd75f9d6247599666eb64fa6b2a0719e7572"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle1/output_hashes.json",
+      "bytes": 1691,
+      "sha256": "19e0e7c51e268feef2ef5c847d8a10d8e1442b20cbd5dd0682a5fe134b3f2359"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle1/STATUS.md",
+      "bytes": 3859,
+      "sha256": "dfacced3709ed4e70bcb1b2570263e0a6efc944d89b16c5acf3886a93c697b9f"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle1/opportunity_map.md",
+      "bytes": 10226,
+      "sha256": "f0a6d73d5181203775c4e4eec9ce388ca05ebff34d8b482ef11f9e8cef0e7741"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle1/candidates.tsv",
+      "bytes": 18961,
+      "sha256": "c6faf9dcdeca3a8bcdae84e1d3321ea3903bc615bde430e2a47d6e05a5de2370"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle1/papers.tsv",
+      "bytes": 25487,
+      "sha256": "3579935e507f25d026719e6e96d330f89cc441a5859ac8ea09e89a5b6e94469a"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle1/data_cards.tsv",
+      "bytes": 15920,
+      "sha256": "5cd600c9674a39629417fbc2e20df6012fce2d72f1bff2c05da3fbecfdcd75cb"
+    },
+    {
+      "path": "opportunity_search_Oct4/cycle1/search_log.tsv",
+      "bytes": 4510,
+      "sha256": "b9c52f89b72b7d8f5bce5be89f6433405cc1691ffaa66d4686ebedda0182251a"
+    }
+  ]
+}

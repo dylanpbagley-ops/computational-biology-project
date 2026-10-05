@@ -1,0 +1,31 @@
+gene	agent_or_agents	primary_sources	verified_study_cohorts	human_or_preclinical	event_grade_and_denominator	DLT_and_protocol_definition	normal_tissue_attribution_and_evidence	intentional_depletion_and_consequences	negative_observation_adequacy	antigen_gene_mapping	overlap_with_other_reports	proposed_endpoint_and_reason	reviewer_name_date
+GPRC5D	talquetamab	https://pubmed.ncbi.nlm.nih.gov/36507686/											
+FOLH1	lutetium-177-PSMA-617	https://pmc.ncbi.nlm.nih.gov/articles/PMC8446332/											
+EPCAM	Catumaxomab	https://pubmed.ncbi.nlm.nih.gov/20473913/											
+MET	telisotuzumab vedotin	https://pubmed.ncbi.nlm.nih.gov/42368479/											
+NECTIN4	enfortumab vedotin	https://pmc.ncbi.nlm.nih.gov/articles/PMC7106979/											
+DLL3	tarlatamab	https://pubmed.ncbi.nlm.nih.gov/37861218/											
+CD44	Bivatuzumab mertansine; CD44v6 antigen	https://aacrjournals.org/clincancerres/article/12/20/6064/191658/A-Phase-I-Dose-Escalation-Study-with-Anti-CD44v6; https://pubmed.ncbi.nlm.nih.gov/17351401/											
+NCAM1	lorvotuzumab mertansine	https://pubmed.ncbi.nlm.nih.gov/26961907/											
+CD79B	polatuzumab vedotin plus bendamustine/rituximab	https://pubmed.ncbi.nlm.nih.gov/31693429/											
+CD22	inotuzumab ozogamicin	https://pubmed.ncbi.nlm.nih.gov/27292104/											
+ERBB2	ERBB2 CAR-T; HER2 CAR-T	https://pubmed.ncbi.nlm.nih.gov/20179677/; https://scholars.houstonmethodist.org/en/publications/human-epidermal-growth-factor-receptor-2-her2-specific-chimeric-a/											
+FOLR1	mirvetuximab soravtansine	https://pubmed.ncbi.nlm.nih.gov/30413525/											
+CD47	Hu5F9-G4 (magrolimab)	https://pmc.ncbi.nlm.nih.gov/articles/PMC7186585/											
+CD52	alemtuzumab	https://pubmed.ncbi.nlm.nih.gov/17984186/											
+SLAMF7	elotuzumab with lenalidomide/dexamethasone	https://mdanderson.elsevierpure.com/en/publications/elotuzumab-therapy-for-relapsed-or-refractory-multiple-myeloma/											
+TACSTD2	sacituzumab govitecan	https://pubmed.ncbi.nlm.nih.gov/33882206/											
+CD19	tisagenlecleucel	https://pubmed.ncbi.nlm.nih.gov/29385370/											
+MSLN	regional mesothelin CAR-T; some subsequent pembrolizumab	https://pmc.ncbi.nlm.nih.gov/articles/PMC8563385/											
+MS4A1	rituximab	https://pubmed.ncbi.nlm.nih.gov/9704735/											
+EGFR	EGFR CAR-T	https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-17-0432/274703/p/Phase-I-Study-of-Chimeric-Antigen-Receptor											
+TNFRSF17	idecabtagene vicleucel	https://pubmed.ncbi.nlm.nih.gov/33626253/											
+CD33	gemtuzumab ozogamicin plus chemotherapy	https://pubmed.ncbi.nlm.nih.gov/22482940/											
+FAP	FAP-reactive T cells	https://pubmed.ncbi.nlm.nih.gov/23712432/											
+CEACAM5	CEA-directed TCR-T	https://pmc.ncbi.nlm.nih.gov/articles/PMC3048186/											
+F3	tisotumab vedotin	https://www.sciencedirect.com/science/article/pii/S0090825822001202											
+CD38	daratumumab monotherapy	https://www.nejm.org/doi/full/10.1056/NEJMoa1506348											
+CLDN18	zolbetuximab plus mFOLFOX6	https://pubmed.ncbi.nlm.nih.gov/37068504/											
+TNFRSF8	brentuximab vedotin	https://pmc.ncbi.nlm.nih.gov/articles/PMC3646316/											
+GPC3	GPC3 CAR-T	https://pubmed.ncbi.nlm.nih.gov/32371538/											
+CA9	CAIX CAR-T	https://pubmed.ncbi.nlm.nih.gov/23423337/											

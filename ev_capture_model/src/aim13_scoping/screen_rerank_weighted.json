@@ -1,0 +1,1577 @@
+{
+ "gate": 0.25,
+ "n_candidates": 214,
+ "n_flagged_by_widened_exclusion": 6,
+ "flagged_genes": [
+  "CD27",
+  "CD79A",
+  "CLEC12A",
+  "LILRB4",
+  "TNFRSF13B",
+  "TNFRSF13C"
+ ],
+ "n_genuinely_new": 208,
+ "top_25_weighted": [
+  {
+   "gene": "IGKV3D-15",
+   "weighted_score": 1.9083,
+   "confinement": 0.9583,
+   "n_cell_types": 1,
+   "home": "plasma cells",
+   "rank_binary": 1,
+   "rank_weighted": 1,
+   "cancer_elevated_in": "Myeloma: 3660.7",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "ERVFRD-1",
+   "weighted_score": 1.9011,
+   "confinement": 0.9011,
+   "n_cell_types": 1,
+   "home": "syncytiotrophoblasts",
+   "rank_binary": 136,
+   "rank_weighted": 2,
+   "cancer_elevated_in": "testis cancer: 35.7",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "PSG1",
+   "weighted_score": 1.8448,
+   "confinement": 0.8448,
+   "n_cell_types": 1,
+   "home": "syncytiotrophoblasts",
+   "rank_binary": 138,
+   "rank_weighted": 3,
+   "cancer_elevated_in": "thyroid cancer: 173.3",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "DCT",
+   "weighted_score": 1.7974999999999999,
+   "confinement": 0.9475,
+   "n_cell_types": 1,
+   "home": "melanocytes",
+   "rank_binary": 135,
+   "rank_weighted": 4,
+   "cancer_elevated_in": "skin cancer: 361.4",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "IGKV3OR2-268",
+   "weighted_score": 1.75,
+   "confinement": 0.8,
+   "n_cell_types": 2,
+   "home": "plasma cells",
+   "rank_binary": 5,
+   "rank_weighted": 5,
+   "cancer_elevated_in": "lymphoma: 35.4;Myeloma: 40.1",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "IGKV3D-11",
+   "weighted_score": 1.6166999999999998,
+   "confinement": 0.6667,
+   "n_cell_types": 2,
+   "home": "plasma cells",
+   "rank_binary": 8,
+   "rank_weighted": 6,
+   "cancer_elevated_in": "Myeloma: 396.6",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "IGKV3-20",
+   "weighted_score": 1.5640999999999998,
+   "confinement": 0.6141,
+   "n_cell_types": 3,
+   "home": "plasma cells",
+   "rank_binary": 11,
+   "rank_weighted": 7,
+   "cancer_elevated_in": "lymphoma: 353.5;Myeloma: 1322.2",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "LIPI",
+   "weighted_score": 1.5493000000000001,
+   "confinement": 0.6493,
+   "n_cell_types": 2,
+   "home": "epididymal principal cells",
+   "rank_binary": 145,
+   "rank_weighted": 8,
+   "cancer_elevated_in": "Bone cancer: 22.4",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "GAGE12J",
+   "weighted_score": 1.5471,
+   "confinement": 0.6471,
+   "n_cell_types": 2,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 146,
+   "rank_weighted": 9,
+   "cancer_elevated_in": "liver cancer: 59.7;Myeloma: 87.5",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "TNFRSF13C",
+   "weighted_score": 1.544,
+   "confinement": 0.544,
+   "n_cell_types": 3,
+   "home": "b-cells",
+   "rank_binary": 16,
+   "rank_weighted": 10,
+   "cancer_elevated_in": "Leukemia: 10.0;lymphoma: 25.8",
+   "already_pursued_widened": true
+  },
+  {
+   "gene": "HAPLN3",
+   "weighted_score": 1.5335999999999999,
+   "confinement": 0.5336,
+   "n_cell_types": 2,
+   "home": "extravillous trophoblasts",
+   "rank_binary": 160,
+   "rank_weighted": 11,
+   "cancer_elevated_in": "Uterine cancer: 52.1",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "IGKV3D-20",
+   "weighted_score": 1.516,
+   "confinement": 0.566,
+   "n_cell_types": 4,
+   "home": "plasma cells",
+   "rank_binary": 13,
+   "rank_weighted": 12,
+   "cancer_elevated_in": "Myeloma: 2737.4",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "CD1B",
+   "weighted_score": 1.496,
+   "confinement": 0.896,
+   "n_cell_types": 1,
+   "home": "cdc",
+   "rank_binary": 3,
+   "rank_weighted": 13,
+   "cancer_elevated_in": "Leukemia: 48.7",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "TEX13C",
+   "weighted_score": 1.4931999999999999,
+   "confinement": 0.5932,
+   "n_cell_types": 3,
+   "home": "early primary spermatocytes",
+   "rank_binary": 150,
+   "rank_weighted": 14,
+   "cancer_elevated_in": "Gallbladder cancer: 20.5",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "SPINK13",
+   "weighted_score": 1.4865,
+   "confinement": 0.5865,
+   "n_cell_types": 3,
+   "home": "epididymal principal cells",
+   "rank_binary": 151,
+   "rank_weighted": 15,
+   "cancer_elevated_in": "cervical cancer: 97.7",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "GAGE2A",
+   "weighted_score": 1.4726,
+   "confinement": 0.5726,
+   "n_cell_types": 3,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 153,
+   "rank_weighted": 16,
+   "cancer_elevated_in": "Gallbladder cancer: 786.9;liver cancer: 216.0",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "GPR50",
+   "weighted_score": 1.46,
+   "confinement": 0.86,
+   "n_cell_types": 1,
+   "home": "lactotrophs",
+   "rank_binary": 137,
+   "rank_weighted": 17,
+   "cancer_elevated_in": "Neuroblastoma: 23.7",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "CD1E",
+   "weighted_score": 1.4592,
+   "confinement": 0.8592,
+   "n_cell_types": 2,
+   "home": "cdc",
+   "rank_binary": 4,
+   "rank_weighted": 18,
+   "cancer_elevated_in": "Leukemia: 66.8",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "CD27",
+   "weighted_score": 1.4529,
+   "confinement": 0.5029,
+   "n_cell_types": 5,
+   "home": "plasma cells",
+   "rank_binary": 20,
+   "rank_weighted": 19,
+   "cancer_elevated_in": "lymphoma: 88.8",
+   "already_pursued_widened": true
+  },
+  {
+   "gene": "GAGE2E",
+   "weighted_score": 1.4500000000000002,
+   "confinement": 0.55,
+   "n_cell_types": 3,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 156,
+   "rank_weighted": 20,
+   "cancer_elevated_in": "Bone cancer: 135.1;skin cancer: 179.6",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "GAGE12H",
+   "weighted_score": 1.4278,
+   "confinement": 0.5278,
+   "n_cell_types": 3,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 161,
+   "rank_weighted": 21,
+   "cancer_elevated_in": "Bone cancer: 31.0;liver cancer: 72.7;Myeloma: 98.7",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "IGKV3-11",
+   "weighted_score": 1.4223999999999999,
+   "confinement": 0.4724,
+   "n_cell_types": 5,
+   "home": "plasma cells",
+   "rank_binary": 22,
+   "rank_weighted": 22,
+   "cancer_elevated_in": "Myeloma: 5519.7",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "TNFRSF13B",
+   "weighted_score": 1.4194,
+   "confinement": 0.4694,
+   "n_cell_types": 2,
+   "home": "plasma cells",
+   "rank_binary": 23,
+   "rank_weighted": 23,
+   "cancer_elevated_in": "lymphoma: 69.1;Myeloma: 110.9",
+   "already_pursued_widened": true
+  },
+  {
+   "gene": "LY9",
+   "weighted_score": 1.4116,
+   "confinement": 0.4116,
+   "n_cell_types": 6,
+   "home": "b-cells",
+   "rank_binary": 28,
+   "rank_weighted": 24,
+   "cancer_elevated_in": "lymphoma: 15.9;Myeloma: 38.0",
+   "already_pursued_widened": false
+  },
+  {
+   "gene": "CCDC136",
+   "weighted_score": 1.3869,
+   "confinement": 0.4869,
+   "n_cell_types": 3,
+   "home": "late spermatids",
+   "rank_binary": 162,
+   "rank_weighted": 25,
+   "cancer_elevated_in": "Neuroblastoma: 25.2",
+   "already_pursued_widened": false
+  }
+ ],
+ "by_gene": {
+  "IGKV3D-15": {
+   "confinement": 0.9583,
+   "home": "plasma cells",
+   "rank_binary": 1,
+   "rank_weighted": 1
+  },
+  "VPREB1": {
+   "confinement": 0.9242,
+   "home": "thymocytes",
+   "rank_binary": 2,
+   "rank_weighted": 37
+  },
+  "CD1B": {
+   "confinement": 0.896,
+   "home": "cdc",
+   "rank_binary": 3,
+   "rank_weighted": 13
+  },
+  "CD1E": {
+   "confinement": 0.8592,
+   "home": "cdc",
+   "rank_binary": 4,
+   "rank_weighted": 18
+  },
+  "IGKV3OR2-268": {
+   "confinement": 0.8,
+   "home": "plasma cells",
+   "rank_binary": 5,
+   "rank_weighted": 5
+  },
+  "LILRB4": {
+   "confinement": 0.7241,
+   "home": "microglia",
+   "rank_binary": 6,
+   "rank_weighted": 91
+  },
+  "CD3D": {
+   "confinement": 0.6673,
+   "home": "t-cells",
+   "rank_binary": 7,
+   "rank_weighted": 74
+  },
+  "IGKV3D-11": {
+   "confinement": 0.6667,
+   "home": "plasma cells",
+   "rank_binary": 8,
+   "rank_weighted": 6
+  },
+  "GYPA": {
+   "confinement": 0.6432,
+   "home": "erythrocyte progenitors",
+   "rank_binary": 9,
+   "rank_weighted": 47
+  },
+  "IL1R2": {
+   "confinement": 0.639,
+   "home": "neutrophils",
+   "rank_binary": 10,
+   "rank_weighted": 66
+  },
+  "IGKV3-20": {
+   "confinement": 0.6141,
+   "home": "plasma cells",
+   "rank_binary": 11,
+   "rank_weighted": 7
+  },
+  "CD247": {
+   "confinement": 0.5902,
+   "home": "nk-cells",
+   "rank_binary": 12,
+   "rank_weighted": 52
+  },
+  "IGKV3D-20": {
+   "confinement": 0.566,
+   "home": "plasma cells",
+   "rank_binary": 13,
+   "rank_weighted": 12
+  },
+  "RHAG": {
+   "confinement": 0.5518,
+   "home": "erythrocyte progenitors",
+   "rank_binary": 14,
+   "rank_weighted": 58
+  },
+  "IL1RL1": {
+   "confinement": 0.5487,
+   "home": "mast cells",
+   "rank_binary": 15,
+   "rank_weighted": 46
+  },
+  "TNFRSF13C": {
+   "confinement": 0.544,
+   "home": "b-cells",
+   "rank_binary": 16,
+   "rank_weighted": 10
+  },
+  "VCAM1": {
+   "confinement": 0.5158,
+   "home": "kupffer cells",
+   "rank_binary": 17,
+   "rank_weighted": 60
+  },
+  "CD3E": {
+   "confinement": 0.5118,
+   "home": "t-cells",
+   "rank_binary": 18,
+   "rank_weighted": 94
+  },
+  "SAMSN1": {
+   "confinement": 0.5095,
+   "home": "neutrophils",
+   "rank_binary": 19,
+   "rank_weighted": 79
+  },
+  "CD27": {
+   "confinement": 0.5029,
+   "home": "plasma cells",
+   "rank_binary": 20,
+   "rank_weighted": 19
+  },
+  "SIRPB1": {
+   "confinement": 0.487,
+   "home": "neutrophils",
+   "rank_binary": 21,
+   "rank_weighted": 80
+  },
+  "IGKV3-11": {
+   "confinement": 0.4724,
+   "home": "plasma cells",
+   "rank_binary": 22,
+   "rank_weighted": 22
+  },
+  "TNFRSF13B": {
+   "confinement": 0.4694,
+   "home": "plasma cells",
+   "rank_binary": 23,
+   "rank_weighted": 23
+  },
+  "CSF3R": {
+   "confinement": 0.4632,
+   "home": "neutrophils",
+   "rank_binary": 24,
+   "rank_weighted": 82
+  },
+  "CD8B": {
+   "confinement": 0.4622,
+   "home": "t-cells",
+   "rank_binary": 25,
+   "rank_weighted": 104
+  },
+  "SELL": {
+   "confinement": 0.4388,
+   "home": "neutrophils",
+   "rank_binary": 26,
+   "rank_weighted": 89
+  },
+  "FCGR2A": {
+   "confinement": 0.4297,
+   "home": "neutrophils",
+   "rank_binary": 27,
+   "rank_weighted": 90
+  },
+  "LY9": {
+   "confinement": 0.4116,
+   "home": "b-cells",
+   "rank_binary": 28,
+   "rank_weighted": 24
+  },
+  "CD79A": {
+   "confinement": 0.4081,
+   "home": "plasma cells",
+   "rank_binary": 29,
+   "rank_weighted": 30
+  },
+  "PLXNC1": {
+   "confinement": 0.4001,
+   "home": "neutrophils",
+   "rank_binary": 30,
+   "rank_weighted": 96
+  },
+  "IL2RB": {
+   "confinement": 0.384,
+   "home": "nk-cells",
+   "rank_binary": 31,
+   "rank_weighted": 71
+  },
+  "FCGR1A": {
+   "confinement": 0.3823,
+   "home": "hofbauer cells",
+   "rank_binary": 32,
+   "rank_weighted": 27
+  },
+  "KCNJ15": {
+   "confinement": 0.3679,
+   "home": "neutrophils",
+   "rank_binary": 33,
+   "rank_weighted": 100
+  },
+  "EVI2B": {
+   "confinement": 0.3628,
+   "home": "neutrophils",
+   "rank_binary": 34,
+   "rank_weighted": 103
+  },
+  "CSF2RB": {
+   "confinement": 0.3601,
+   "home": "neutrophils",
+   "rank_binary": 35,
+   "rank_weighted": 105
+  },
+  "CD28": {
+   "confinement": 0.3562,
+   "home": "t-cells",
+   "rank_binary": 36,
+   "rank_weighted": 116
+  },
+  "FGR": {
+   "confinement": 0.355,
+   "home": "neutrophils",
+   "rank_binary": 37,
+   "rank_weighted": 107
+  },
+  "CLEC12A": {
+   "confinement": 0.3539,
+   "home": "neutrophil progenitors",
+   "rank_binary": 38,
+   "rank_weighted": 109
+  },
+  "FCGR2B": {
+   "confinement": 0.3524,
+   "home": "cdc",
+   "rank_binary": 39,
+   "rank_weighted": 76
+  },
+  "LCP1": {
+   "confinement": 0.3499,
+   "home": "neutrophils",
+   "rank_binary": 40,
+   "rank_weighted": 110
+  },
+  "DOK3": {
+   "confinement": 0.3453,
+   "home": "neutrophils",
+   "rank_binary": 41,
+   "rank_weighted": 111
+  },
+  "LAX1": {
+   "confinement": 0.3316,
+   "home": "mast cells",
+   "rank_binary": 42,
+   "rank_weighted": 68
+  },
+  "ARHGAP15": {
+   "confinement": 0.2971,
+   "home": "neutrophils",
+   "rank_binary": 43,
+   "rank_weighted": 112
+  },
+  "CXCR5": {
+   "confinement": 0.2925,
+   "home": "b-cells",
+   "rank_binary": 44,
+   "rank_weighted": 41
+  },
+  "BASP1": {
+   "confinement": 0.2839,
+   "home": "neutrophils",
+   "rank_binary": 45,
+   "rank_weighted": 113
+  },
+  "CCR2": {
+   "confinement": 0.274,
+   "home": "monocyte progenitors",
+   "rank_binary": 46,
+   "rank_weighted": 99
+  },
+  "SLAMF6": {
+   "confinement": 0.2672,
+   "home": "t-cells",
+   "rank_binary": 47,
+   "rank_weighted": 122
+  },
+  "TLR10": {
+   "confinement": 0.2659,
+   "home": "microglia",
+   "rank_binary": 48,
+   "rank_weighted": 131
+  },
+  "ADAM8": {
+   "confinement": 0.2652,
+   "home": "neutrophils",
+   "rank_binary": 49,
+   "rank_weighted": 115
+  },
+  "LST1": {
+   "confinement": 0.2596,
+   "home": "kupffer cells",
+   "rank_binary": 50,
+   "rank_weighted": 84
+  },
+  "APOBR": {
+   "confinement": 0.2536,
+   "home": "neutrophils",
+   "rank_binary": 51,
+   "rank_weighted": 117
+  },
+  "CCR1": {
+   "confinement": 0.2535,
+   "home": "kupffer cells",
+   "rank_binary": 52,
+   "rank_weighted": 86
+  },
+  "SLAMF1": {
+   "confinement": 0.253,
+   "home": "plasma cells",
+   "rank_binary": 53,
+   "rank_weighted": 50
+  },
+  "CD53": {
+   "confinement": 0.2499,
+   "home": "neutrophils",
+   "rank_binary": 54,
+   "rank_weighted": 134
+  },
+  "SELPLG": {
+   "confinement": 0.2497,
+   "home": "neutrophils",
+   "rank_binary": 55,
+   "rank_weighted": 135
+  },
+  "FCMR": {
+   "confinement": 0.247,
+   "home": "b-cells",
+   "rank_binary": 56,
+   "rank_weighted": 136
+  },
+  "APBB1IP": {
+   "confinement": 0.2449,
+   "home": "neutrophils",
+   "rank_binary": 57,
+   "rank_weighted": 137
+  },
+  "CD4": {
+   "confinement": 0.2393,
+   "home": "kupffer cells",
+   "rank_binary": 58,
+   "rank_weighted": 138
+  },
+  "TNFRSF1B": {
+   "confinement": 0.237,
+   "home": "neutrophils",
+   "rank_binary": 59,
+   "rank_weighted": 139
+  },
+  "CD69": {
+   "confinement": 0.2334,
+   "home": "mast cells",
+   "rank_binary": 60,
+   "rank_weighted": 140
+  },
+  "PTAFR": {
+   "confinement": 0.2218,
+   "home": "neutrophils",
+   "rank_binary": 61,
+   "rank_weighted": 141
+  },
+  "CYTH4": {
+   "confinement": 0.2194,
+   "home": "neutrophils",
+   "rank_binary": 62,
+   "rank_weighted": 142
+  },
+  "P2RX5": {
+   "confinement": 0.2179,
+   "home": "b-cells",
+   "rank_binary": 63,
+   "rank_weighted": 143
+  },
+  "GPR183": {
+   "confinement": 0.2155,
+   "home": "cdc",
+   "rank_binary": 64,
+   "rank_weighted": 144
+  },
+  "SPN": {
+   "confinement": 0.214,
+   "home": "megakaryocyte progenitors",
+   "rank_binary": 65,
+   "rank_weighted": 145
+  },
+  "PTPRCAP": {
+   "confinement": 0.2138,
+   "home": "nk-cells",
+   "rank_binary": 66,
+   "rank_weighted": 146
+  },
+  "ARHGAP9": {
+   "confinement": 0.2126,
+   "home": "neutrophils",
+   "rank_binary": 67,
+   "rank_weighted": 147
+  },
+  "SLC40A1": {
+   "confinement": 0.2049,
+   "home": "kupffer cells",
+   "rank_binary": 68,
+   "rank_weighted": 148
+  },
+  "HCLS1": {
+   "confinement": 0.2029,
+   "home": "neutrophils",
+   "rank_binary": 69,
+   "rank_weighted": 149
+  },
+  "CD86": {
+   "confinement": 0.2025,
+   "home": "cdc",
+   "rank_binary": 70,
+   "rank_weighted": 150
+  },
+  "FYB1": {
+   "confinement": 0.2017,
+   "home": "neutrophils",
+   "rank_binary": 71,
+   "rank_weighted": 151
+  },
+  "CLEC7A": {
+   "confinement": 0.2005,
+   "home": "neutrophils",
+   "rank_binary": 72,
+   "rank_weighted": 152
+  },
+  "WAS": {
+   "confinement": 0.2003,
+   "home": "neutrophils",
+   "rank_binary": 73,
+   "rank_weighted": 153
+  },
+  "TYROBP": {
+   "confinement": 0.1995,
+   "home": "hofbauer cells",
+   "rank_binary": 74,
+   "rank_weighted": 154
+  },
+  "TNFSF8": {
+   "confinement": 0.1962,
+   "home": "t-cells",
+   "rank_binary": 75,
+   "rank_weighted": 155
+  },
+  "SIRPA": {
+   "confinement": 0.1893,
+   "home": "neutrophils",
+   "rank_binary": 76,
+   "rank_weighted": 156
+  },
+  "SASH3": {
+   "confinement": 0.185,
+   "home": "neutrophils",
+   "rank_binary": 77,
+   "rank_weighted": 157
+  },
+  "SLC2A3": {
+   "confinement": 0.1836,
+   "home": "neutrophils",
+   "rank_binary": 78,
+   "rank_weighted": 158
+  },
+  "CD96": {
+   "confinement": 0.1789,
+   "home": "t-cells",
+   "rank_binary": 79,
+   "rank_weighted": 159
+  },
+  "IL21R": {
+   "confinement": 0.1751,
+   "home": "nk-cells",
+   "rank_binary": 80,
+   "rank_weighted": 160
+  },
+  "PAG1": {
+   "confinement": 0.1743,
+   "home": "neutrophils",
+   "rank_binary": 81,
+   "rank_weighted": 161
+  },
+  "MYO1G": {
+   "confinement": 0.1741,
+   "home": "monocytes",
+   "rank_binary": 82,
+   "rank_weighted": 162
+  },
+  "CD36": {
+   "confinement": 0.1724,
+   "home": "hofbauer cells",
+   "rank_binary": 83,
+   "rank_weighted": 163
+  },
+  "OLR1": {
+   "confinement": 0.1717,
+   "home": "monocytes",
+   "rank_binary": 84,
+   "rank_weighted": 164
+  },
+  "CD37": {
+   "confinement": 0.1703,
+   "home": "b-cells",
+   "rank_binary": 85,
+   "rank_weighted": 165
+  },
+  "ICAM3": {
+   "confinement": 0.1701,
+   "home": "neutrophils",
+   "rank_binary": 86,
+   "rank_weighted": 166
+  },
+  "PTX3": {
+   "confinement": 0.1672,
+   "home": "neutrophil progenitors",
+   "rank_binary": 87,
+   "rank_weighted": 167
+  },
+  "ITGB2": {
+   "confinement": 0.1602,
+   "home": "neutrophils",
+   "rank_binary": 88,
+   "rank_weighted": 168
+  },
+  "IL10RA": {
+   "confinement": 0.1554,
+   "home": "kupffer cells",
+   "rank_binary": 89,
+   "rank_weighted": 169
+  },
+  "BTK": {
+   "confinement": 0.1544,
+   "home": "megakaryocytes",
+   "rank_binary": 90,
+   "rank_weighted": 170
+  },
+  "IL2RG": {
+   "confinement": 0.1542,
+   "home": "nk-cells",
+   "rank_binary": 91,
+   "rank_weighted": 171
+  },
+  "HCST": {
+   "confinement": 0.154,
+   "home": "hofbauer cells",
+   "rank_binary": 92,
+   "rank_weighted": 172
+  },
+  "ITGAL": {
+   "confinement": 0.1536,
+   "home": "neutrophils",
+   "rank_binary": 93,
+   "rank_weighted": 173
+  },
+  "GNG2": {
+   "confinement": 0.1529,
+   "home": "neutrophils",
+   "rank_binary": 94,
+   "rank_weighted": 174
+  },
+  "CD83": {
+   "confinement": 0.1526,
+   "home": "cdc",
+   "rank_binary": 95,
+   "rank_weighted": 175
+  },
+  "CSF2RA": {
+   "confinement": 0.1524,
+   "home": "cdc",
+   "rank_binary": 96,
+   "rank_weighted": 176
+  },
+  "RASSF3": {
+   "confinement": 0.1391,
+   "home": "neutrophils",
+   "rank_binary": 97,
+   "rank_weighted": 177
+  },
+  "ITGB7": {
+   "confinement": 0.139,
+   "home": "plasma cells",
+   "rank_binary": 98,
+   "rank_weighted": 178
+  },
+  "TNFSF13B": {
+   "confinement": 0.129,
+   "home": "neutrophils",
+   "rank_binary": 99,
+   "rank_weighted": 179
+  },
+  "CD300A": {
+   "confinement": 0.1286,
+   "home": "hofbauer cells",
+   "rank_binary": 100,
+   "rank_weighted": 180
+  },
+  "PTK2B": {
+   "confinement": 0.128,
+   "home": "neutrophils",
+   "rank_binary": 101,
+   "rank_weighted": 181
+  },
+  "KLHL6": {
+   "confinement": 0.1255,
+   "home": "plasma cells",
+   "rank_binary": 102,
+   "rank_weighted": 182
+  },
+  "LAT2": {
+   "confinement": 0.124,
+   "home": "neutrophils",
+   "rank_binary": 103,
+   "rank_weighted": 183
+  },
+  "DOCK8": {
+   "confinement": 0.1224,
+   "home": "microglia",
+   "rank_binary": 104,
+   "rank_weighted": 184
+  },
+  "ITGA4": {
+   "confinement": 0.1177,
+   "home": "megakaryocyte-erythroid progenitors",
+   "rank_binary": 105,
+   "rank_weighted": 185
+  },
+  "RASAL3": {
+   "confinement": 0.115,
+   "home": "nk-cells",
+   "rank_binary": 106,
+   "rank_weighted": 186
+  },
+  "IL4R": {
+   "confinement": 0.1144,
+   "home": "neutrophils",
+   "rank_binary": 107,
+   "rank_weighted": 187
+  },
+  "CD48": {
+   "confinement": 0.1143,
+   "home": "monocytes",
+   "rank_binary": 108,
+   "rank_weighted": 188
+  },
+  "THBD": {
+   "confinement": 0.1128,
+   "home": "monocytes",
+   "rank_binary": 109,
+   "rank_weighted": 189
+  },
+  "SKAP1": {
+   "confinement": 0.1124,
+   "home": "nk-cells",
+   "rank_binary": 110,
+   "rank_weighted": 190
+  },
+  "CLIC2": {
+   "confinement": 0.1112,
+   "home": "kupffer cells",
+   "rank_binary": 111,
+   "rank_weighted": 191
+  },
+  "GYPC": {
+   "confinement": 0.1111,
+   "home": "hofbauer cells",
+   "rank_binary": 112,
+   "rank_weighted": 192
+  },
+  "SYK": {
+   "confinement": 0.1094,
+   "home": "neutrophil progenitors",
+   "rank_binary": 113,
+   "rank_weighted": 193
+  },
+  "PPP1R16B": {
+   "confinement": 0.1074,
+   "home": "t-cells",
+   "rank_binary": 114,
+   "rank_weighted": 194
+  },
+  "C1orf54": {
+   "confinement": 0.1056,
+   "home": "kupffer cells",
+   "rank_binary": 115,
+   "rank_weighted": 195
+  },
+  "BLNK": {
+   "confinement": 0.1023,
+   "home": "microglia",
+   "rank_binary": 116,
+   "rank_weighted": 196
+  },
+  "IL6R": {
+   "confinement": 0.1015,
+   "home": "neutrophils",
+   "rank_binary": 117,
+   "rank_weighted": 197
+  },
+  "HSH2D": {
+   "confinement": 0.0925,
+   "home": "plasma cells",
+   "rank_binary": 118,
+   "rank_weighted": 198
+  },
+  "SEMA4D": {
+   "confinement": 0.0899,
+   "home": "neutrophils",
+   "rank_binary": 119,
+   "rank_weighted": 199
+  },
+  "CCDC69": {
+   "confinement": 0.0853,
+   "home": "neutrophils",
+   "rank_binary": 120,
+   "rank_weighted": 200
+  },
+  "CD72": {
+   "confinement": 0.0848,
+   "home": "b-cells",
+   "rank_binary": 121,
+   "rank_weighted": 201
+  },
+  "HERPUD1": {
+   "confinement": 0.083,
+   "home": "plasma cells",
+   "rank_binary": 122,
+   "rank_weighted": 202
+  },
+  "KCNE3": {
+   "confinement": 0.0813,
+   "home": "kupffer cells",
+   "rank_binary": 123,
+   "rank_weighted": 203
+  },
+  "TRIB1": {
+   "confinement": 0.0804,
+   "home": "neutrophils",
+   "rank_binary": 124,
+   "rank_weighted": 204
+  },
+  "IL12RB1": {
+   "confinement": 0.0778,
+   "home": "nk-cells",
+   "rank_binary": 125,
+   "rank_weighted": 205
+  },
+  "GAS7": {
+   "confinement": 0.0701,
+   "home": "neutrophils",
+   "rank_binary": 126,
+   "rank_weighted": 206
+  },
+  "ARL4C": {
+   "confinement": 0.064,
+   "home": "nk-cells",
+   "rank_binary": 127,
+   "rank_weighted": 207
+  },
+  "SLC7A5": {
+   "confinement": 0.0634,
+   "home": "pdcs",
+   "rank_binary": 128,
+   "rank_weighted": 208
+  },
+  "TXNDC11": {
+   "confinement": 0.0608,
+   "home": "plasma cells",
+   "rank_binary": 129,
+   "rank_weighted": 209
+  },
+  "ARHGEF6": {
+   "confinement": 0.0583,
+   "home": "microglia",
+   "rank_binary": 130,
+   "rank_weighted": 210
+  },
+  "TGFBR1": {
+   "confinement": 0.0549,
+   "home": "microglia",
+   "rank_binary": 131,
+   "rank_weighted": 211
+  },
+  "SWAP70": {
+   "confinement": 0.0416,
+   "home": "b-cells",
+   "rank_binary": 132,
+   "rank_weighted": 212
+  },
+  "DAGLB": {
+   "confinement": 0.0376,
+   "home": "microglia",
+   "rank_binary": 133,
+   "rank_weighted": 213
+  },
+  "AKAP10": {
+   "confinement": 0.0263,
+   "home": "neutrophils",
+   "rank_binary": 134,
+   "rank_weighted": 214
+  },
+  "DCT": {
+   "confinement": 0.9475,
+   "home": "melanocytes",
+   "rank_binary": 135,
+   "rank_weighted": 4
+  },
+  "ERVFRD-1": {
+   "confinement": 0.9011,
+   "home": "syncytiotrophoblasts",
+   "rank_binary": 136,
+   "rank_weighted": 2
+  },
+  "GPR50": {
+   "confinement": 0.86,
+   "home": "lactotrophs",
+   "rank_binary": 137,
+   "rank_weighted": 17
+  },
+  "PSG1": {
+   "confinement": 0.8448,
+   "home": "syncytiotrophoblasts",
+   "rank_binary": 138,
+   "rank_weighted": 3
+  },
+  "ITGB3": {
+   "confinement": 0.7975,
+   "home": "platelets",
+   "rank_binary": 139,
+   "rank_weighted": 34
+  },
+  "SLCO1B3": {
+   "confinement": 0.7326,
+   "home": "hepatocytes",
+   "rank_binary": 140,
+   "rank_weighted": 48
+  },
+  "ASGR2": {
+   "confinement": 0.7021,
+   "home": "hepatocytes",
+   "rank_binary": 141,
+   "rank_weighted": 51
+  },
+  "SCEL": {
+   "confinement": 0.6999,
+   "home": "esophageal apical cells",
+   "rank_binary": 142,
+   "rank_weighted": 33
+  },
+  "PI3": {
+   "confinement": 0.6816,
+   "home": "esophageal apical cells",
+   "rank_binary": 143,
+   "rank_weighted": 36
+  },
+  "RAET1L": {
+   "confinement": 0.66,
+   "home": "esophageal apical cells",
+   "rank_binary": 144,
+   "rank_weighted": 39
+  },
+  "LIPI": {
+   "confinement": 0.6493,
+   "home": "epididymal principal cells",
+   "rank_binary": 145,
+   "rank_weighted": 8
+  },
+  "GAGE12J": {
+   "confinement": 0.6471,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 146,
+   "rank_weighted": 9
+  },
+  "S100A9": {
+   "confinement": 0.6405,
+   "home": "esophageal apical cells",
+   "rank_binary": 147,
+   "rank_weighted": 43
+  },
+  "GABRA5": {
+   "confinement": 0.6207,
+   "home": "retinal bipolar cells",
+   "rank_binary": 148,
+   "rank_weighted": 114
+  },
+  "ITGA2B": {
+   "confinement": 0.6076,
+   "home": "platelets",
+   "rank_binary": 149,
+   "rank_weighted": 57
+  },
+  "TEX13C": {
+   "confinement": 0.5932,
+   "home": "early primary spermatocytes",
+   "rank_binary": 150,
+   "rank_weighted": 14
+  },
+  "SPINK13": {
+   "confinement": 0.5865,
+   "home": "epididymal principal cells",
+   "rank_binary": 151,
+   "rank_weighted": 15
+  },
+  "S100A14": {
+   "confinement": 0.58,
+   "home": "esophageal apical cells",
+   "rank_binary": 152,
+   "rank_weighted": 49
+  },
+  "GAGE2A": {
+   "confinement": 0.5726,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 153,
+   "rank_weighted": 16
+  },
+  "ASB5": {
+   "confinement": 0.5704,
+   "home": "myonuclei",
+   "rank_binary": 154,
+   "rank_weighted": 73
+  },
+  "ISLR": {
+   "confinement": 0.5635,
+   "home": "fibroblasts",
+   "rank_binary": 155,
+   "rank_weighted": 64
+  },
+  "GAGE2E": {
+   "confinement": 0.55,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 156,
+   "rank_weighted": 20
+  },
+  "CHRNA3": {
+   "confinement": 0.55,
+   "home": "retinal pigment epithelial cells",
+   "rank_binary": 157,
+   "rank_weighted": 120
+  },
+  "KLK7": {
+   "confinement": 0.5395,
+   "home": "esophageal apical cells",
+   "rank_binary": 158,
+   "rank_weighted": 53
+  },
+  "ANPEP": {
+   "confinement": 0.5386,
+   "home": "enterocytes",
+   "rank_binary": 159,
+   "rank_weighted": 67
+  },
+  "HAPLN3": {
+   "confinement": 0.5336,
+   "home": "extravillous trophoblasts",
+   "rank_binary": 160,
+   "rank_weighted": 11
+  },
+  "GAGE12H": {
+   "confinement": 0.5278,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 161,
+   "rank_weighted": 21
+  },
+  "CCDC136": {
+   "confinement": 0.4869,
+   "home": "late spermatids",
+   "rank_binary": 162,
+   "rank_weighted": 25
+  },
+  "TM4SF4": {
+   "confinement": 0.4836,
+   "home": "cholangiocytes",
+   "rank_binary": 163,
+   "rank_weighted": 98
+  },
+  "CAVIN2": {
+   "confinement": 0.4759,
+   "home": "platelets",
+   "rank_binary": 164,
+   "rank_weighted": 69
+  },
+  "ITGA7": {
+   "confinement": 0.4637,
+   "home": "cardiomyocytes",
+   "rank_binary": 165,
+   "rank_weighted": 126
+  },
+  "CST6": {
+   "confinement": 0.4556,
+   "home": "esophageal apical cells",
+   "rank_binary": 166,
+   "rank_weighted": 61
+  },
+  "TEKTIP1": {
+   "confinement": 0.4533,
+   "home": "early spermatids",
+   "rank_binary": 167,
+   "rank_weighted": 31
+  },
+  "ADORA2A": {
+   "confinement": 0.4529,
+   "home": "brain inhibitory neurons",
+   "rank_binary": 168,
+   "rank_weighted": 127
+  },
+  "LOXHD1": {
+   "confinement": 0.4506,
+   "home": "late spermatids",
+   "rank_binary": 169,
+   "rank_weighted": 32
+  },
+  "PPL": {
+   "confinement": 0.4444,
+   "home": "esophageal apical cells",
+   "rank_binary": 170,
+   "rank_weighted": 63
+  },
+  "IGLL1": {
+   "confinement": 0.4411,
+   "home": "late spermatids",
+   "rank_binary": 171,
+   "rank_weighted": 35
+  },
+  "PODXL": {
+   "confinement": 0.43,
+   "home": "podocytes",
+   "rank_binary": 172,
+   "rank_weighted": 123
+  },
+  "CD248": {
+   "confinement": 0.4253,
+   "home": "decidual stromal cells",
+   "rank_binary": 173,
+   "rank_weighted": 29
+  },
+  "CHRNA1": {
+   "confinement": 0.4145,
+   "home": "myosatellite cells",
+   "rank_binary": 174,
+   "rank_weighted": 93
+  },
+  "CLDN2": {
+   "confinement": 0.4125,
+   "home": "epididymal efferent duct absorptive cells",
+   "rank_binary": 175,
+   "rank_weighted": 38
+  },
+  "OCA2": {
+   "confinement": 0.4122,
+   "home": "choroid plexus epithelial cells",
+   "rank_binary": 176,
+   "rank_weighted": 119
+  },
+  "AQP5": {
+   "confinement": 0.4076,
+   "home": "late spermatids",
+   "rank_binary": 177,
+   "rank_weighted": 40
+  },
+  "TMEM40": {
+   "confinement": 0.4035,
+   "home": "esophageal apical cells",
+   "rank_binary": 178,
+   "rank_weighted": 65
+  },
+  "IRAG2": {
+   "confinement": 0.3987,
+   "home": "tuft cells",
+   "rank_binary": 179,
+   "rank_weighted": 62
+  },
+  "ALPP": {
+   "confinement": 0.3873,
+   "home": "endometrial secretory cells",
+   "rank_binary": 180,
+   "rank_weighted": 54
+  },
+  "SIGLEC6": {
+   "confinement": 0.3868,
+   "home": "syncytiotrophoblasts",
+   "rank_binary": 181,
+   "rank_weighted": 26
+  },
+  "CCR7": {
+   "confinement": 0.3787,
+   "home": "syncytiotrophoblasts",
+   "rank_binary": 182,
+   "rank_weighted": 28
+  },
+  "TGM1": {
+   "confinement": 0.3691,
+   "home": "esophageal apical cells",
+   "rank_binary": 183,
+   "rank_weighted": 70
+  },
+  "GAGE13": {
+   "confinement": 0.3571,
+   "home": "early primary spermatocytes",
+   "rank_binary": 184,
+   "rank_weighted": 45
+  },
+  "CA14": {
+   "confinement": 0.3501,
+   "home": "retinal pigment epithelial cells",
+   "rank_binary": 185,
+   "rank_weighted": 129
+  },
+  "KLRK1": {
+   "confinement": 0.342,
+   "home": "oligodendrocyte progenitor cells",
+   "rank_binary": 186,
+   "rank_weighted": 125
+  },
+  "GGT1": {
+   "confinement": 0.3381,
+   "home": "proximal tubule cells",
+   "rank_binary": 187,
+   "rank_weighted": 118
+  },
+  "SCHIP1": {
+   "confinement": 0.3303,
+   "home": "oligodendrocytes",
+   "rank_binary": 188,
+   "rank_weighted": 128
+  },
+  "CPA4": {
+   "confinement": 0.325,
+   "home": "salivary duct cells",
+   "rank_binary": 189,
+   "rank_weighted": 77
+  },
+  "MCAM": {
+   "confinement": 0.3244,
+   "home": "vascular smooth muscle cells",
+   "rank_binary": 190,
+   "rank_weighted": 124
+  },
+  "CALML5": {
+   "confinement": 0.3214,
+   "home": "esophageal apical cells",
+   "rank_binary": 191,
+   "rank_weighted": 72
+  },
+  "TM4SF5": {
+   "confinement": 0.3162,
+   "home": "enterocytes",
+   "rank_binary": 192,
+   "rank_weighted": 92
+  },
+  "RASGRP2": {
+   "confinement": 0.312,
+   "home": "platelets",
+   "rank_binary": 193,
+   "rank_weighted": 83
+  },
+  "APOD": {
+   "confinement": 0.3117,
+   "home": "decidual stromal cells",
+   "rank_binary": 194,
+   "rank_weighted": 44
+  },
+  "GFI1B": {
+   "confinement": 0.3046,
+   "home": "platelets",
+   "rank_binary": 195,
+   "rank_weighted": 85
+  },
+  "DOK2": {
+   "confinement": 0.2931,
+   "home": "platelets",
+   "rank_binary": 196,
+   "rank_weighted": 87
+  },
+  "ADAM12": {
+   "confinement": 0.2916,
+   "home": "extravillous trophoblasts",
+   "rank_binary": 197,
+   "rank_weighted": 42
+  },
+  "ICAM2": {
+   "confinement": 0.289,
+   "home": "platelets",
+   "rank_binary": 198,
+   "rank_weighted": 88
+  },
+  "MISP": {
+   "confinement": 0.2869,
+   "home": "enterocytes",
+   "rank_binary": 199,
+   "rank_weighted": 97
+  },
+  "SSTR3": {
+   "confinement": 0.2865,
+   "home": "pancreatic islet cells",
+   "rank_binary": 200,
+   "rank_weighted": 130
+  },
+  "TM4SF18": {
+   "confinement": 0.2846,
+   "home": "lymphatic endothelial cells",
+   "rank_binary": 201,
+   "rank_weighted": 121
+  },
+  "RHOXF2B": {
+   "confinement": 0.28,
+   "home": "differentiating spermatogonia",
+   "rank_binary": 202,
+   "rank_weighted": 55
+  },
+  "GPR143": {
+   "confinement": 0.2775,
+   "home": "melanocytes",
+   "rank_binary": 203,
+   "rank_weighted": 59
+  },
+  "COL17A1": {
+   "confinement": 0.2696,
+   "home": "basal keratinocytes",
+   "rank_binary": 204,
+   "rank_weighted": 78
+  },
+  "IL2RA": {
+   "confinement": 0.2666,
+   "home": "innate lymphoid cells",
+   "rank_binary": 205,
+   "rank_weighted": 81
+  },
+  "CHRNA2": {
+   "confinement": 0.2661,
+   "home": "retinal amacrine cells",
+   "rank_binary": 206,
+   "rank_weighted": 132
+  },
+  "TMPRSS15": {
+   "confinement": 0.2643,
+   "home": "enterocytes",
+   "rank_binary": 207,
+   "rank_weighted": 101
+  },
+  "CHRND": {
+   "confinement": 0.2636,
+   "home": "thymic myoid cells",
+   "rank_binary": 208,
+   "rank_weighted": 102
+  },
+  "PLPP1": {
+   "confinement": 0.2595,
+   "home": "prostatic glandular cells",
+   "rank_binary": 209,
+   "rank_weighted": 56
+  },
+  "PPP1R27": {
+   "confinement": 0.2589,
+   "home": "thymic myoid cells",
+   "rank_binary": 210,
+   "rank_weighted": 106
+  },
+  "MYL4": {
+   "confinement": 0.2578,
+   "home": "cone photoreceptor cells",
+   "rank_binary": 211,
+   "rank_weighted": 133
+  },
+  "MPP1": {
+   "confinement": 0.2572,
+   "home": "platelets",
+   "rank_binary": 212,
+   "rank_weighted": 95
+  },
+  "LGALS4": {
+   "confinement": 0.2548,
+   "home": "colonocytes",
+   "rank_binary": 213,
+   "rank_weighted": 108
+  },
+  "ANXA13": {
+   "confinement": 0.2526,
+   "home": "tuft cells",
+   "rank_binary": 214,
+   "rank_weighted": 75
+  }
+ }
+}

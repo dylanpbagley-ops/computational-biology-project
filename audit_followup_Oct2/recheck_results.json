@@ -1,0 +1,108 @@
+{
+  "status": "Post hoc reproduction of supplied sensitivity scenarios; not clinical label adjudication",
+  "source_sha256": {
+    "target_labels.py": "639b481ae01d44f2bbd44de532b9ff7bb2586ad02ff3295b857e4080c811bd2d",
+    "wholebody_v2.json": "25488d4817e7012e8716fe457891aa829559721a029607e77dc92f9d908713ad",
+    "flag_cleanup.json": "85f1164c780c0efcb34f488f948e8a0a3560860a635ab818ac9354b2482b8c4c"
+  },
+  "scenarios": [
+    {
+      "scenario": "original",
+      "safe": 19,
+      "toxic": 11,
+      "concordant": 191,
+      "discordant": 18,
+      "ties": 0,
+      "auc": 0.9138755980861244,
+      "exact_one_sided_p": 2.7861527111901924e-05,
+      "exact_p_fraction": "761/27313650"
+    },
+    {
+      "scenario": "exclude_FAP",
+      "safe": 19,
+      "toxic": 10,
+      "concordant": 173,
+      "discordant": 17,
+      "ties": 0,
+      "auc": 0.9105263157894737,
+      "exact_one_sided_p": 5.6764824381016285e-05,
+      "exact_p_fraction": "379/6676670"
+    },
+    {
+      "scenario": "exclude_FOLR1",
+      "safe": 19,
+      "toxic": 10,
+      "concordant": 174,
+      "discordant": 16,
+      "ties": 0,
+      "auc": 0.9157894736842105,
+      "exact_one_sided_p": 4.3434826043521695e-05,
+      "exact_p_fraction": "1/23023"
+    },
+    {
+      "scenario": "exclude_both",
+      "safe": 19,
+      "toxic": 9,
+      "concordant": 156,
+      "discordant": 15,
+      "ties": 0,
+      "auc": 0.9122807017543859,
+      "exact_one_sided_p": 9.25161794727012e-05,
+      "exact_p_fraction": "213/2302300"
+    },
+    {
+      "scenario": "exclude_FAP_relabel_FOLR1",
+      "safe": 20,
+      "toxic": 9,
+      "concordant": 163,
+      "discordant": 17,
+      "ties": 0,
+      "auc": 0.9055555555555556,
+      "exact_one_sided_p": 0.00010903639089546136,
+      "exact_p_fraction": "4/36685"
+    },
+    {
+      "scenario": "plus_NECTIN4_toxic",
+      "safe": 19,
+      "toxic": 10,
+      "concordant": 174,
+      "discordant": 16,
+      "ties": 0,
+      "auc": 0.9157894736842105,
+      "exact_one_sided_p": 4.3434826043521695e-05,
+      "exact_p_fraction": "1/23023"
+    },
+    {
+      "scenario": "plus_F3_excluded",
+      "safe": 20,
+      "toxic": 8,
+      "concordant": 143,
+      "discordant": 17,
+      "ties": 0,
+      "auc": 0.89375,
+      "exact_one_sided_p": 0.00032978293847859066,
+      "exact_p_fraction": "205/621621"
+    }
+  ],
+  "equal_LR_AUC_example": {
+    "normal": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "case1": [
+      "3/5",
+      "3/10",
+      "1/10"
+    ],
+    "case2": [
+      "11/20",
+      "2/5",
+      "1/20"
+    ],
+    "LR_AUC_both": "2/3",
+    "FPR": "1/3",
+    "optimal_TPR_case1": "3/5",
+    "optimal_TPR_case2": "11/20"
+  }
+}

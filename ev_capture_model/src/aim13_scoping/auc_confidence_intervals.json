@@ -1,0 +1,42 @@
+{
+ "A_one_factor_top_share": {
+  "point": 0.8803827751196173,
+  "ci_lo": 0.7320574162679426,
+  "ci_hi": 0.9856459330143541,
+  "n_safe": 19,
+  "n_toxic": 11,
+  "n_degenerate_resamples": 0
+ },
+ "A_two_factor": {
+  "point": 0.9138755980861244,
+  "ci_lo": 0.7894736842105263,
+  "ci_hi": 0.9952153110047847,
+  "n_safe": 19,
+  "n_toxic": 11,
+  "n_degenerate_resamples": 0
+ },
+ "B_two_factor": {
+  "point": 0.7511961722488039,
+  "ci_lo": 0.507177033492823,
+  "ci_hi": 0.9521531100478469,
+  "n_safe": 19,
+  "n_toxic": 11,
+  "n_degenerate_resamples": 0
+ },
+ "solid_only_one_factor": {
+  "point": 0.8125,
+  "ci_lo": 0.575,
+  "ci_hi": 0.9875,
+  "n_safe": 8,
+  "n_toxic": 10,
+  "n_degenerate_resamples": 0,
+  "documented_point": 0.8125
+ },
+ "_meta": {
+  "n_boot": 10000,
+  "seed": 0,
+  "level": 95.0,
+  "method": "stratified percentile bootstrap over targets",
+  "note": "Intervals are wide by construction at this sample size. Degenerate resamples are retained, not discarded."
+ }
+}

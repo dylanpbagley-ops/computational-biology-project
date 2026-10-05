@@ -1,0 +1,37 @@
+[
+  {
+    "file": "ev_capture_model/src/aim13_scoping/weighted_ceiling_theorem.py",
+    "before": "cbbb3f02e343a1bf1d87821eba5f6611a3567a35fca387326595bc21d3468d72",
+    "after": "708fc8ddf8f81b0f1bc081e95ecb6a311809b310661dd849a32dcdeda18d6cc4"
+  },
+  {
+    "file": "ev_capture_model/docs/Aim13_Results_Two_Comparator_Ceiling.md",
+    "before": "a951945e1247c78f8f8ea9c062075b8beec0ebfdb6a400d4a70ab9e1d8bfc4d4",
+    "after": "f397376e8210f5bfa083e16fcb2f4f4f75d4a0dec7eaa99371a9c57931b8fbc0"
+  },
+  {
+    "file": "HANDOFF_START_HERE_Oct1.md",
+    "before": "7416c990f74d7043e6c083c2f40c7b428d261f78e5fd96baaba2bd87799cbba0",
+    "after": "8ba28ab8eb8d1ae17426467840dd284fc6c5434bbba4ae706d81ac4a31a856d8"
+  },
+  {
+    "file": "ev_capture_model/docs/Label_Review_Sheet.md",
+    "before": "057b35579ecda397d8448c7e87b6837c9b76724941345120596f4a63c04bb758",
+    "after": "6f39ea1fcb4a127ea5cfa435b3b14dd71c4209c55ad162972cc3fa373cc1a9c1"
+  },
+  {
+    "file": "Research_Direction_Reset_Oct2.md",
+    "before": "2810e0cc981e5ba9e55118297c0bf1c968744c8baa7b1b2a575be7f65854b18c",
+    "after": "1cdf07dc8d19c5905de3003c3a75b67fdcca2f5ba770ec575036fb58e13ff190"
+  },
+  {
+    "file": "ev_capture_model/docs/ISEF_Paper_Skeleton.md",
+    "before": "3238f4e032cb3a5730aed1fd6dde00f92e856ae0676f23e746514f5e2a3da8dc",
+    "after": "d9dd4088b4edf704c8f6ec538db230cba5681ab073193dceac493976d8dde402"
+  },
+  {
+    "file": "Poster, Paper, and Write Up/ISEF_Paper_Skeleton.md",
+    "before": "28c7302137d913ccbc6c5cb6daa590568ecf8d3aa7cc47bde47e263e07eb70bb",
+    "after": "6f4b27a7899bf3ec0179b2888f8f13c0de29406624773e42a70e12881ec58a60"
+  }
+]

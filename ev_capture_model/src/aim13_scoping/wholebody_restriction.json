@@ -1,0 +1,206 @@
+{
+ "MS4A1": {
+  "top_share": 0.8497070968981081,
+  "n_types": 1,
+  "home": "b-cells",
+  "note": "B approved (CD20)"
+ },
+ "TNFRSF17": {
+  "top_share": 0.7894370122630991,
+  "n_types": 1,
+  "home": "plasma cells",
+  "note": "myeloma approved (BCMA)"
+ },
+ "FCER2": {
+  "top_share": 0.6880570409982174,
+  "n_types": 1,
+  "home": "b-cells",
+  "note": "B FAILED (CD23/lumiliximab)"
+ },
+ "CD79B": {
+  "top_share": 0.5723076923076924,
+  "n_types": 2,
+  "home": "b-cells",
+  "note": "B approved"
+ },
+ "FOLH1": {
+  "top_share": 0.5678362573099415,
+  "n_types": 2,
+  "home": "prostatic glandular cells",
+  "note": "PSMA - approved radioligand"
+ },
+ "TNFRSF13C": {
+  "top_share": 0.5440497692153322,
+  "n_types": 3,
+  "home": "b-cells",
+  "note": "B, BAFF-R, trials"
+ },
+ "HLA-DRA": {
+  "top_share": 0.4107863444572305,
+  "n_types": 7,
+  "home": "cdc",
+  "note": "B FAILED (apolizumab)"
+ },
+ "IL13RA2": {
+  "top_share": 0.39232385798031194,
+  "n_types": 5,
+  "home": "early spermatids",
+  "note": "IL13Ra2 - glioma trials"
+ },
+ "SLAMF7": {
+  "top_share": 0.37317096195600863,
+  "n_types": 5,
+  "home": "plasma cells",
+  "note": "myeloma approved (elotuzumab)"
+ },
+ "CLDN18": {
+  "top_share": 0.3593466972587852,
+  "n_types": 8,
+  "home": "foveolar cells",
+  "note": "claudin-18.2 - zolbetuximab APPROVED 2024; CAR-T in gastric/PANCREATIC"
+ },
+ "CD19": {
+  "top_share": 0.32709551656920083,
+  "n_types": 6,
+  "home": "b-cells",
+  "note": "B approved"
+ },
+ "PTPRC": {
+  "top_share": 0.30941548113130773,
+  "n_types": 8,
+  "home": "neutrophils",
+  "note": "pan-leukocyte, not targetable"
+ },
+ "CEACAM5": {
+  "top_share": 0.28260202516109234,
+  "n_types": 7,
+  "home": "colonocytes",
+  "note": "CEA - CAR-T severe colitis"
+ },
+ "CD33": {
+  "top_share": 0.2667938411227688,
+  "n_types": 8,
+  "home": "kupffer cells",
+  "note": "AML approved (gemtuzumab)"
+ },
+ "TACSTD2": {
+  "top_share": 0.2581519495074618,
+  "n_types": 7,
+  "home": "esophageal apical cells",
+  "note": "TROP2 - sacituzumab APPROVED"
+ },
+ "CA9": {
+  "top_share": 0.25748134471882456,
+  "n_types": 8,
+  "home": "early spermatids",
+  "note": "CAIX - CAR-T liver toxicity"
+ },
+ "DLL3": {
+  "top_share": 0.2568393094289509,
+  "n_types": 7,
+  "home": "oocytes",
+  "note": "DLL3 - tarlatamab APPROVED (small cell lung)"
+ },
+ "MSLN": {
+  "top_share": 0.2389617852696102,
+  "n_types": 11,
+  "home": "conjunctival goblet cells",
+  "note": "mesothelin - CAR-T tolerable; a PANCREATIC target"
+ },
+ "CD22": {
+  "top_share": 0.22175504165693372,
+  "n_types": 8,
+  "home": "b-cells",
+  "note": "B approved"
+ },
+ "GPC3": {
+  "top_share": 0.21108967412849858,
+  "n_types": 12,
+  "home": "pituitary stem cells",
+  "note": "glypican-3 - liver cancer, tolerable"
+ },
+ "IL3RA": {
+  "top_share": 0.20521192833081897,
+  "n_types": 6,
+  "home": "pdcs",
+  "note": "AML FAILED (talacotuzumab)"
+ },
+ "SDC1": {
+  "top_share": 0.1737814950703368,
+  "n_types": 12,
+  "home": "esophageal apical cells",
+  "note": "myeloma FAILED (CD138/indatuximab)"
+ },
+ "NECTIN4": {
+  "top_share": 0.17237382050865926,
+  "n_types": 12,
+  "home": "esophageal apical cells",
+  "note": "Nectin-4 - enfortumab APPROVED"
+ },
+ "CD80": {
+  "top_share": 0.16167979002624672,
+  "n_types": 12,
+  "home": "cdc",
+  "note": "B FAILED (galiximab)"
+ },
+ "CD38": {
+  "top_share": 0.13127920969412027,
+  "n_types": 19,
+  "home": "plasma cells",
+  "note": "myeloma approved (daratumumab)"
+ },
+ "CD276": {
+  "top_share": 0.12422576649117371,
+  "n_types": 15,
+  "home": "extravillous trophoblasts",
+  "note": "B7-H3 - trials"
+ },
+ "MUC1": {
+  "top_share": 0.09335942864991073,
+  "n_types": 25,
+  "home": "foveolar cells",
+  "note": "MUC1 - PANCREATIC target, no approval"
+ },
+ "ROR1": {
+  "top_share": 0.09315934620299994,
+  "n_types": 28,
+  "home": "alveolar cells type 1",
+  "note": "ROR1 - trials"
+ },
+ "CD72": {
+  "top_share": 0.08484270734032412,
+  "n_types": 29,
+  "home": "b-cells",
+  "note": "B, trials"
+ },
+ "CD40": {
+  "top_share": 0.0668981583227111,
+  "n_types": 56,
+  "home": "epididymal basal cells",
+  "note": "B FAILED (dacetuzumab)"
+ },
+ "CD44": {
+  "top_share": 0.06094902295369431,
+  "n_types": 45,
+  "home": "pancreatic acinar cells",
+  "note": "broad, never worked"
+ },
+ "EGFR": {
+  "top_share": 0.051078234012629946,
+  "n_types": 60,
+  "home": "syncytiotrophoblasts",
+  "note": "EGFR - CAR-T skin/lung toxicity"
+ },
+ "ERBB2": {
+  "top_share": 0.04133123222911171,
+  "n_types": 72,
+  "home": "esophageal apical cells",
+  "note": "HER2 - CAR-T caused a FATAL on-target event (Morgan 2010)"
+ },
+ "CD47": {
+  "top_share": 0.029819202987710434,
+  "n_types": 120,
+  "home": "alveolar cells type 1",
+  "note": "AML FAILED (magrolimab)"
+ }
+}

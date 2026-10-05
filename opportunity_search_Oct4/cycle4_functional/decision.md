@@ -1,0 +1,19 @@
+# Cycle 4 decision
+
+## Decision
+
+**Advance MED16 only to one conditional independent functional-replication/data-access gate. C01 is not adopted, and a substantial extension remains unachieved.** The fixed exploratory pilot found a direction contrast across two published mouse studies, and the bounded flag review judged MED16 the strongest of five leads. These are previously published data, not independent validation. The contrast does not isolate effector modality or explain a mechanism. Proceed only if a later bounded audit verifies an independent, qualifying tumor-side functional dataset; otherwise stop.
+
+## Evidence and boundary
+
+The pilot fixed rule returned five genes (Med16, Nprl3, Cbfa2t3, Etv5, Irf1) and zero symmetric flags in a selected 1,021-gene Ramos CAR-T validation panel. MED16 is sign-stable sensitizing in three Lawson CTL models at both early and late sampling, and has positive Ramos resistance-direction enrichment at both in-vitro E:T ratios. Lawson already reports MED16 as an in-vivo EMT6 sensitizer; the pilot reconstructs a broader three-model pattern from the deposited count matrix. Ramos already publishes the two selected-panel CAR-T outcomes. The cross-study contrast is descriptive and joins different tumor backgrounds, antigens, timing, protocols, and immune effectors; it is not evidence that changing CTL to CAR-T alone reverses MED16's effect.
+
+The targeted review recorded two PubMed queries, 11 screened titles, four primary abstracts, and one truncated primary full-text excerpt (20,000 of 80,551 characters). It found no exact Lawson-to-Ramos reanalysis in this bounded search; that negative search does not prove none exists. MED16's published macrophage IFN-gamma-CIITA-MHC-II/CD4 role is relevant prior art, but does not explain tumor-cell MHC-I/CD8 recognition, CD19 abundance, or CAR-T killing. Those remain untested hypotheses. Nprl3 and Cbfa2t3 have weaker earlier/late stability (2/3 and 0/3 contexts); Etv5 was stable in 2/3; Irf1 is a known IFN context effect. Do not advance those genes. The detailed review is in flag_review/review.md.
+
+The flag review met its two-query/11-title allowance. The earlier prior-art reviewer screened 30 titles, exceeding that lane's 20-title bound; preserve that deviation in the audit record and do not treat those extra screens as authorization for further search. Parent reports 365 older-stage artifact hashes checked with zero failures.
+
+## Conditional next gate
+
+The only permitted next question is whether an independent tumor-side MED16 perturbation dataset can test a functional effect under antigen-directed CAR-T or a directly relevant paired cytotoxic assay, with a defined non-targeting/no-treatment/nonrecognizing control. Inspect measured target-antigen expression and baseline fitness separately. Their absence does not make an observed functional result zero or preclude assessing replication, but restricts distinguishing recognition from ordinary growth or antigen loss and limits mechanism/project-selection claims. A matched CTL/CAR-T system would best separate effector recognition from study differences. The current inspected Lawson/Ramos files do not provide these required functional antigen/fitness readouts; availability in an independent computational resource is unverified.
+
+The next-stage handoff plan is docs/superpowers/plans/2026-10-04-med16-replication-decision-gate.md. It has not been dispatched or executed. It defines one bounded access/replication gate requiring actual independent tumor-side functional outcomes and fair controls. If no qualifying resource can be established within that plan's limits, stop. Even replication alone may be too modest; a proceed decision would still require a distinct, useful biological question. No project adoption, novelty certification, causal or clinical inference follows from this cycle.

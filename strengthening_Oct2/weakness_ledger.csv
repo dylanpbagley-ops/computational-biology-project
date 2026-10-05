@@ -1,0 +1,24 @@
+id,issue,status,action_or_evidence,remaining_requirement
+W01,Historical table provenance,repaired,44-row dated export reconciles four omissions while preserving frozen TSV,Use amendment history in future reporting
+W02,Monotone versus arbitrary responses,repaired,Separate implementations proofs counterexamples and tests,Independent mathematical review desirable
+W03,AUC claimed to define frontier,repaired,Removed active claim and documented equal-AUC counterexample,Student understanding
+W04,Separate tissue bounds claimed jointly attainable,repaired,Counterexample shows 0.75 individual versus 0.50 joint,Review any later application using simultaneous constraints
+W05,Empirical score claimed derived from theorem,repaired,Corrected theory source and current outline,No clinical harm calibration established
+W06,Clinical endpoint definitions overlap,open,Score-free review form and structured endpoint instructions prepared,Qualified independent endpoint review
+W07,Species modality and mechanism errors,partly_resolved,Verified factual corrections logged without rewriting frozen outcomes,Complete source adjudication and amended label version
+W08,Excluded targets overlooked,partly_resolved,CD45 exclusion reason contradicted by primary clinical trial,Review exclusions with same endpoint rules
+W09,Blood-lineage confounding,partly_resolved,Fixed rule exceeds blood-only baseline on original panel,Repeat after endpoint review and independent evaluation
+W10,Modality and regimen confounding,partly_resolved,Within-modality concordance computed descriptively,Agent-study outcome table and target-clustered validation
+W11,Independent validation overclaim,repaired_interpretation,Autopsy comparison marked reused labels and uncertain paired difference,New independent eligible outcomes remain absent
+W12,Prospective validation and versioning,open,Locked list preserved and overlap tracked,Verify registration timestamp rule version and future outcome dates
+W13,Novelty overclaim,repaired_interpretation,Tau rank equivalence and nearby methods made explicit,Direct fair comparison on adjudicated outcomes
+W14,Discovery selection and multiple analyses,open,Retrospective status and conditional p-values explicit,Independent evaluation cannot be manufactured retrospectively
+W15,RNA protein isoform and reference resolution,open,Scope limited to RNA reference not universal protein property,Matched measurements or justified sensitivity analysis
+W16,Cell abundance exposure and harm weights,open,Model assumptions separated from clinical severity,Independent measurements needed for mechanistic clinical interpretation
+W17,Cell-level versus subject-level independence,repaired_interpretation,Target-level paired bootstrap and explicit small strata,Cluster by target in future agent-level analysis
+W18,Negative and inconclusive controls,repaired_interpretation,Current outline retains efficacy-failure and prospective limitations,Report all prespecified outcomes
+W19,Documentation drift,partly_resolved,Canonical status and outline replace conflicting entry points,Historical archive still contains superseded claims
+W20,Software verification scope,partly_resolved,New numerical regression tests and source hashes added,Passing tests cannot adjudicate scientific claims
+W21,Dataset expansion feasibility,partly_resolved,166 source rows and 79 target strings inventoried with overlaps,Eligibility review required before counting new independent targets
+W22,Student ownership and fair documentation,open,Understanding prompts and assistance record prepared,Student authored disclosure writing and sponsor paperwork
+W23,Award and publication forecasts,repaired_interpretation,Unsupported numerical odds withdrawn,No outcome guarantee or calibrated probability available

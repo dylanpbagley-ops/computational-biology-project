@@ -1,0 +1,38 @@
+{
+ "protein_cell_type_ladder": {
+  "sep": 0.5833333333333334,
+  "p": 0.21939390303048484,
+  "n_safe": 12,
+  "n_toxic": 9
+ },
+ "protein_cell_type_topshare": {
+  "sep": 0.37037037037037035,
+  "p": 0.8550107249463753,
+  "n_safe": 12,
+  "n_toxic": 9
+ },
+ "rna_cell_type_ladder": {
+  "sep": 0.5526315789473685,
+  "p": 0.25435872820635896,
+  "n_safe": 19,
+  "n_toxic": 10
+ },
+ "rna_cell_type_topshare": {
+  "sep": 0.7157894736842105,
+  "p": 0.031399843000784994,
+  "n_safe": 19,
+  "n_toxic": 10
+ },
+ "protein_tissue_ladder": {
+  "sep": 0.6357142857142857,
+  "p": 0.14087929560352197,
+  "n_safe": 14,
+  "n_toxic": 10
+ },
+ "rna_tissue_ladder": {
+  "sep": 0.6157894736842106,
+  "p": 0.1307243463782681,
+  "n_safe": 19,
+  "n_toxic": 10
+ }
+}

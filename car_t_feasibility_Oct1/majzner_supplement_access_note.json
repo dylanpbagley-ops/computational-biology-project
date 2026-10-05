@@ -1,0 +1,5 @@
+{
+  "status": "Supplement not obtained",
+  "reason": "HTTP 200 returned 1817 bytes of HTML, not the advertised 27.9MB DOCX. Do not treat response as supplementary data.",
+  "provenance": "majzner_supplement.docx.provenance.json"
+}

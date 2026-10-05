@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "file_count": 13,
+  "files": [
+    {
+      "path": "data/P05_SupplementaryData2.xlsx",
+      "bytes": 85288,
+      "sha256": "03738572b99302a11ce7a40c350d45f6de3b019ef27b065c92455b1b2fbc7292"
+    },
+    {
+      "path": "data/P05_SupplementaryData7.xlsx",
+      "bytes": 37674,
+      "sha256": "5944584b42f2513a41d31242b9dbc7c986d415cdddf7de419fb9be442ccc4385"
+    },
+    {
+      "path": "data_cards.tsv",
+      "bytes": 4112,
+      "sha256": "1b73500b99d63b86f00771cab84bda12c5a755912789f6cab9cbffdd17a41b5e"
+    },
+    {
+      "path": "data_manifest.json",
+      "bytes": 1194,
+      "sha256": "f9cd3e7b14a4703442326fb847e4aa4aebf1fde640226b5c830fac4da21ec93f"
+    },
+    {
+      "path": "decision.md",
+      "bytes": 6262,
+      "sha256": "63c6cd7dbbf4dd49870a8802b196ec13380d17f5b6d2611d3ec0cf3876c12150"
+    },
+    {
+      "path": "P05_data_inspection.md",
+      "bytes": 2867,
+      "sha256": "26c4a61493813ea0233aeef36ca7185c2c693fabcb9b935615c5373c785f04a3"
+    },
+    {
+      "path": "preservation_before.json",
+      "bytes": 1255,
+      "sha256": "a7dc9ce6a7d4fc11e9fc250f758c4ef534a509b590a11023492c540c1192badd"
+    },
+    {
+      "path": "search_log.tsv",
+      "bytes": 3775,
+      "sha256": "c3e4188b071ba677c4150563aeea96ddd86debc4c9ebb06a30d539a4bf1694fb"
+    },
+    {
+      "path": "sources.tsv",
+      "bytes": 8307,
+      "sha256": "42d33fe80861eceb54b7a955923e48be9c41a5741243180a4d2056db7aa67b26"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 2409,
+      "sha256": "933026136372a31ab5c7270d0bf03137f94416cbe4547c7583b284a73058f20a"
+    },
+    {
+      "path": "title_screen.tsv",
+      "bytes": 7372,
+      "sha256": "fce60837e189fd3eadddf6388d120a3e9b8bdcc9c56b3fe1eb5374d03c09fdb2"
+    },
+    {
+      "path": "validate_artifacts.py",
+      "bytes": 7870,
+      "sha256": "13b258c10557b169201bf2047d71849c377249a1988e36e69674274e9eb0a5c3"
+    },
+    {
+      "path": "write_output_hashes.py",
+      "bytes": 1178,
+      "sha256": "7ffa8287bc5c17a301053d3351452ecbc6aa7148a89f1de55490a582d7b71de1"
+    }
+  ]
+}

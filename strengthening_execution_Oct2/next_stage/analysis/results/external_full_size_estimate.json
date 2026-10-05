@@ -1,0 +1,16 @@
+{
+  "metadata_manifest_sha256": "e3e21adee57ab689b6a69086b4e288d0e7176c7e733d3c01d55e718db29dcbe1",
+  "metadata_rows": 717,
+  "unique_processed_table_files": 456,
+  "files_already_present": 86,
+  "missing_files_head_requested": 370,
+  "head_successes": 370,
+  "head_errors": 0,
+  "all_selected_file_bytes_estimated_including_present": 306858728,
+  "existing_next_stage_data_bytes": 87041094,
+  "estimated_next_stage_data_bytes_after_missing_tables": 337290408,
+  "budget_bytes": 524288000,
+  "budget_pass": true,
+  "errors": [],
+  "output_tsv": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\strengthening_execution_Oct2\\next_stage\\analysis\\results\\external_full_size_estimate.tsv"
+}

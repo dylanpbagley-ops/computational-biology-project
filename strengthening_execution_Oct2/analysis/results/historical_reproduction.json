@@ -1,0 +1,15 @@
+{
+  "status": "Historical selected panel, unchanged labels; no clinical adjudication or independent validation",
+  "favorable": 19,
+  "unfavorable": 11,
+  "metrics": {
+    "frozen_rule": 0.9138755980861244,
+    "top_share": 0.8803827751196172,
+    "blood_flag": 0.7105263157894737,
+    "tau": 0.8803827751196172
+  },
+  "score_direction": "larger is historically favorable",
+  "tau_equivalence": "known algebraic ranking identity, not independent success",
+  "amended_evaluation": "not performed; outcome/negative adequacy and independent review gate remains closed",
+  "locked_predictions": "preserved; registration timestamp/independent post-lock clinical outcomes not verified in this execution"
+}

@@ -1,0 +1,188 @@
+{
+  "analysis": "fixed three-marker paired descriptive transcript-detection pilot",
+  "started_at_local": "2026-10-03T22:46:52-07:00",
+  "started_at_utc": "2026-10-04T05:46:52Z",
+  "protocol_sha256": "f32b335d2bc88a1571f4045452033d422049304b501738c032c966bb8c45a9ac",
+  "input_download_manifest_sha256": "222029a6dd9bc6f4e84ee997b89085622750fa6058131968a32b16bc4bc72291",
+  "n_participants": 3,
+  "n_specimens": 6,
+  "participant_specimen_pairs": {
+    "PM01": {
+      "pre": {
+        "gsm": "GSM5971019",
+        "specimen": "P1393"
+      },
+      "post": {
+        "gsm": "GSM5971023",
+        "specimen": "P1555"
+      }
+    },
+    "PM07": {
+      "pre": {
+        "gsm": "GSM5971021",
+        "specimen": "P1389"
+      },
+      "post": {
+        "gsm": "GSM5971025",
+        "specimen": "P1479"
+      }
+    },
+    "PM10": {
+      "pre": {
+        "gsm": "GSM5971020",
+        "specimen": "P1217"
+      },
+      "post": {
+        "gsm": "GSM5971024",
+        "specimen": "P1438"
+      }
+    }
+  },
+  "cell_scope": "CD138-selected filtered-matrix barcodes; no per-cell malignant labels; specimens are not lineage-matched",
+  "markers": [
+    "TNFRSF17",
+    "GPRC5D",
+    "SLAMF7"
+  ],
+  "marker_pairs": [
+    [
+      "TNFRSF17",
+      "GPRC5D"
+    ],
+    [
+      "TNFRSF17",
+      "SLAMF7"
+    ],
+    [
+      "GPRC5D",
+      "SLAMF7"
+    ]
+  ],
+  "primary_rule": "deposited nonnegative integer RNA UMI count > 0",
+  "depth_sensitivity": {
+    "status": "PASS: joint multivariate hypergeometric sensitivity",
+    "D": 1318,
+    "D_rule": "floor(minimum of six specimen medians over Gene Expression UMIs)",
+    "seeds": [
+      20261003,
+      20261004,
+      20261005,
+      20261006,
+      20261007,
+      20261008,
+      20261009,
+      20261010,
+      20261011,
+      20261012,
+      20261013,
+      20261014,
+      20261015,
+      20261016,
+      20261017,
+      20261018,
+      20261019,
+      20261020,
+      20261021,
+      20261022,
+      20261023,
+      20261024,
+      20261025,
+      20261026,
+      20261027,
+      20261028,
+      20261029,
+      20261030,
+      20261031,
+      20261032,
+      20261033,
+      20261034,
+      20261035,
+      20261036,
+      20261037,
+      20261038,
+      20261039,
+      20261040,
+      20261041,
+      20261042,
+      20261043,
+      20261044,
+      20261045,
+      20261046,
+      20261047,
+      20261048,
+      20261049,
+      20261050,
+      20261051,
+      20261052,
+      20261053,
+      20261054,
+      20261055,
+      20261056,
+      20261057,
+      20261058,
+      20261059,
+      20261060,
+      20261061,
+      20261062,
+      20261063,
+      20261064,
+      20261065,
+      20261066,
+      20261067,
+      20261068,
+      20261069,
+      20261070,
+      20261071,
+      20261072,
+      20261073,
+      20261074,
+      20261075,
+      20261076,
+      20261077,
+      20261078,
+      20261079,
+      20261080,
+      20261081,
+      20261082,
+      20261083,
+      20261084,
+      20261085,
+      20261086,
+      20261087,
+      20261088,
+      20261089,
+      20261090,
+      20261091,
+      20261092,
+      20261093,
+      20261094,
+      20261095,
+      20261096,
+      20261097,
+      20261098,
+      20261099,
+      20261100,
+      20261101,
+      20261102
+    ],
+    "replicates_per_specimen": 100,
+    "sampling": "multivariate hypergeometric over three target counts and all other Gene Expression counts combined"
+  },
+  "limitations": [
+    "Only three participants; descriptive feasibility, no population-level inference or validation.",
+    "No per-barcode malignant/clone annotation; do not describe barcodes as confirmed tumor cells.",
+    "No protein measurement; RNA detection is not surface-antigen availability or functional escape.",
+    "Separate biopsies are not lineage tracked; no barcodes are joined across specimens.",
+    "Pre/post labels are relative to venetoclax; no causal treatment effect is identified.",
+    "Chemistry remains unresolved: six sample records say CG00052 v2 while series overview says v3.",
+    "Depth sensitivity is a sampling check, not a causal correction; cells remain subsamples."
+  ],
+  "outcomes": {
+    "samples": 6,
+    "sample_pair_rows": 18,
+    "barcode_rows": 44981,
+    "depth_replicate_rows": 1800
+  },
+  "ended_at_local": "2026-10-03T22:48:26-07:00",
+  "ended_at_utc": "2026-10-04T05:48:26Z"
+}

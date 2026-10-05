@@ -1,0 +1,753 @@
+{
+ "n_panel": 30,
+ "panel_genes": [
+  "CD38",
+  "CD79B",
+  "CD22",
+  "CD44",
+  "SLAMF7",
+  "TNFRSF17",
+  "CLDN18",
+  "FAP",
+  "FOLH1",
+  "DLL3",
+  "MSLN",
+  "CD33",
+  "CEACAM5",
+  "MET",
+  "CA9",
+  "FOLR1",
+  "GPRC5D",
+  "F3",
+  "EPCAM",
+  "TNFRSF8",
+  "ERBB2",
+  "NECTIN4",
+  "EGFR",
+  "GPC3",
+  "NCAM1",
+  "MS4A1",
+  "CD52",
+  "CD19",
+  "TACSTD2",
+  "CD47"
+ ],
+ "variants": {
+  "A1_death": {
+   "sep": 0.7272727272727273,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.1866028708133971,
+   "diff_ci": [
+    -0.3827751196172249,
+    -0.009569377990430668
+   ],
+   "ci": [
+    0.5311004784688995,
+    0.8947368421052632
+   ],
+   "p_shuffled_weights": 0.6583416583416584,
+   "p_familywise": 1.0,
+   "loo_min": 0.7,
+   "nonblood_sep": 0.6859504132231405,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    0.625,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    0.625,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.6875,
+    4,
+    4
+   ]
+  },
+  "A1_severe": {
+   "sep": 0.7751196172248804,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.13875598086124397,
+   "diff_ci": [
+    -0.3063397129186603,
+    -0.004784688995215336
+   ],
+   "ci": [
+    0.5933014354066986,
+    0.9234449760765551
+   ],
+   "p_shuffled_weights": 0.4975024975024975,
+   "p_familywise": 0.996003996003996,
+   "loo_min": 0.7526315789473684,
+   "nonblood_sep": 0.7024793388429752,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    0.625,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    0.625,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.625,
+    4,
+    4
+   ]
+  },
+  "A2_death": {
+   "sep": 0.8229665071770335,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.09090909090909094,
+   "diff_ci": [
+    -0.2535885167464115,
+    0.04784688995215314
+   ],
+   "ci": [
+    0.6507177033492823,
+    0.9617224880382775
+   ],
+   "p_shuffled_weights": 0.6743256743256744,
+   "p_familywise": 0.8201798201798202,
+   "loo_min": 0.8105263157894737,
+   "nonblood_sep": 0.8181818181818182,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    0.75,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    0.75,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.75,
+    4,
+    4
+   ]
+  },
+  "A2_severe": {
+   "sep": 0.8421052631578947,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.0717703349282297,
+   "diff_ci": [
+    -0.18660287081339721,
+    0.014354066985645897
+   ],
+   "ci": [
+    0.6746411483253588,
+    0.9665071770334929
+   ],
+   "p_shuffled_weights": 0.5894105894105894,
+   "p_familywise": 0.6963036963036963,
+   "loo_min": 0.8263157894736842,
+   "nonblood_sep": 0.8016528925619835,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    0.75,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    0.75,
+    4,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.75,
+    4,
+    4
+   ]
+  },
+  "A3_death": {
+   "sep": 0.7081339712918661,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.20574162679425834,
+   "diff_ci": [
+    -0.3517344497607655,
+    -0.07416267942583732
+   ],
+   "ci": [
+    0.526255980861244,
+    0.868421052631579
+   ],
+   "p_shuffled_weights": 0.7772227772227772,
+   "p_familywise": 1.0,
+   "loo_min": 0.6919191919191919,
+   "nonblood_sep": 0.5702479338842975,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    1.0,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    1.0,
+    5,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.82,
+    5,
+    5
+   ]
+  },
+  "A3_severe": {
+   "sep": 0.6985645933014354,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.215311004784689,
+   "diff_ci": [
+    -0.36363636363636365,
+    -0.08133971291866027
+   ],
+   "ci": [
+    0.5119617224880383,
+    0.8636363636363636
+   ],
+   "p_shuffled_weights": 0.8171828171828172,
+   "p_familywise": 1.0,
+   "loo_min": 0.6818181818181818,
+   "nonblood_sep": 0.5619834710743802,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    1.0,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    1.0,
+    5,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.82,
+    5,
+    5
+   ]
+  },
+  "A4_death": {
+   "sep": 0.7894736842105263,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.12440191387559807,
+   "diff_ci": [
+    -0.2632775119617225,
+    -0.023803827751197822
+   ],
+   "ci": [
+    0.5933014354066986,
+    0.9425837320574163
+   ],
+   "p_shuffled_weights": 0.8391608391608392,
+   "p_familywise": 0.971028971028971,
+   "loo_min": 0.7684210526315789,
+   "nonblood_sep": 0.6942148760330579,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    1.0,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    1.0,
+    5,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.82,
+    5,
+    5
+   ]
+  },
+  "A4_severe": {
+   "sep": 0.7990430622009569,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.11483253588516751,
+   "diff_ci": [
+    -0.2440191387559809,
+    -0.023923444976076458
+   ],
+   "ci": [
+    0.6124401913875598,
+    0.9473684210526315
+   ],
+   "p_shuffled_weights": 0.8111888111888111,
+   "p_familywise": 0.942057942057942,
+   "loo_min": 0.7789473684210526,
+   "nonblood_sep": 0.7107438016528925,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    1.0,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    1.0,
+    5,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.82,
+    5,
+    5
+   ]
+  },
+  "A6_death": {
+   "sep": 0.7083333333333334,
+   "n": 23,
+   "frozen_same_genes": 0.9083333333333333,
+   "diff_vs_frozen": -0.19999999999999996,
+   "diff_ci": [
+    -0.3988095238095238,
+    -0.03786931818181829
+   ],
+   "ci": [
+    0.46782738095238097,
+    0.9034164562289562
+   ],
+   "p_shuffled_weights": 0.33666333666333664,
+   "p_familywise": 1.0,
+   "loo_min": 0.6714285714285714,
+   "nonblood_sep": 0.5390625,
+   "nonblood_frozen": 0.828125,
+   "n_nonblood": 16,
+   "validation_primary_S_only": [
+    0.3333333333333333,
+    3,
+    1
+   ],
+   "validation_primary_all_scorable": [
+    0.5,
+    4,
+    1
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.8333333333333334,
+    4,
+    3
+   ]
+  },
+  "A6_severe": {
+   "sep": 0.6875,
+   "n": 23,
+   "frozen_same_genes": 0.9083333333333333,
+   "diff_vs_frozen": -0.22083333333333333,
+   "diff_ci": [
+    -0.43828420256991685,
+    -0.04296595982142861
+   ],
+   "ci": [
+    0.43332589285714285,
+    0.90625
+   ],
+   "p_shuffled_weights": 0.34765234765234765,
+   "p_familywise": 1.0,
+   "loo_min": 0.6476190476190476,
+   "nonblood_sep": 0.53125,
+   "nonblood_frozen": 0.828125,
+   "n_nonblood": 16,
+   "validation_primary_S_only": [
+    0.0,
+    3,
+    1
+   ],
+   "validation_primary_all_scorable": [
+    0.0,
+    4,
+    1
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.6666666666666666,
+    4,
+    3
+   ]
+  },
+  "A7_death": {
+   "sep": 0.7208333333333333,
+   "n": 23,
+   "frozen_same_genes": 0.9083333333333333,
+   "diff_vs_frozen": -0.1875,
+   "diff_ci": [
+    -0.3846153846153846,
+    -0.021978021978022007
+   ],
+   "ci": [
+    0.48568877551020406,
+    0.9166666666666666
+   ],
+   "p_shuffled_weights": 0.6333666333666333,
+   "p_familywise": 1.0,
+   "loo_min": 0.6857142857142857,
+   "nonblood_sep": 0.5390625,
+   "nonblood_frozen": 0.828125,
+   "n_nonblood": 16,
+   "validation_primary_S_only": [
+    1.0,
+    3,
+    1
+   ],
+   "validation_primary_all_scorable": [
+    1.0,
+    4,
+    1
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    1.0,
+    4,
+    3
+   ]
+  },
+  "A7_severe": {
+   "sep": 0.7041666666666667,
+   "n": 23,
+   "frozen_same_genes": 0.9083333333333333,
+   "diff_vs_frozen": -0.2041666666666666,
+   "diff_ci": [
+    -0.39561011904761906,
+    -0.05332211538461556
+   ],
+   "ci": [
+    0.4670238095238095,
+    0.9038541666666665
+   ],
+   "p_shuffled_weights": 0.6583416583416584,
+   "p_familywise": 1.0,
+   "loo_min": 0.6666666666666666,
+   "nonblood_sep": 0.5078125,
+   "nonblood_frozen": 0.828125,
+   "n_nonblood": 16,
+   "validation_primary_S_only": [
+    1.0,
+    3,
+    1
+   ],
+   "validation_primary_all_scorable": [
+    1.0,
+    4,
+    1
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    1.0,
+    4,
+    3
+   ]
+  },
+  "A5_hand": {
+   "sep": 0.7990430622009569,
+   "n": 30,
+   "frozen_same_genes": 0.9138755980861244,
+   "diff_vs_frozen": -0.11483253588516751,
+   "diff_ci": [
+    -0.2296650717703349,
+    -0.02631578947368418
+   ],
+   "ci": [
+    0.6220095693779905,
+    0.937799043062201
+   ],
+   "p_shuffled_weights": 0.27472527472527475,
+   "p_familywise": 0.942057942057942,
+   "loo_min": 0.7789473684210526,
+   "nonblood_sep": 0.71900826446281,
+   "nonblood_frozen": 0.8512396694214877,
+   "n_nonblood": 22,
+   "validation_primary_S_only": [
+    0.9375,
+    4,
+    2
+   ],
+   "validation_primary_all_scorable": [
+    0.95,
+    5,
+    2
+   ],
+   "validation_safe_vs_hedged_toxic": [
+    0.76,
+    5,
+    5
+   ]
+  }
+ },
+ "n_panel_with_ihc": 23,
+ "robustness_A3": {
+  "A3_death_rank": 0.6698564593301436,
+  "A3_death_unmapped_min": 0.7081339712918661,
+  "A3_death_unmapped_max": 0.7344497607655502,
+  "A3_severe_rank": 0.6698564593301436,
+  "A3_severe_unmapped_min": 0.6985645933014354,
+  "A3_severe_unmapped_max": 0.7344497607655502
+ },
+ "frozen_sep": 0.9138755980861244,
+ "null_family_p95": 0.95,
+ "weights": {
+  "death": {
+   "liver": 0.7371444883358396,
+   "biliary": 0.27922344656855597,
+   "kidney_tubule": 0.45736460055899414,
+   "kidney_glomerulus": 0.19199906049938575,
+   "heart_muscle": 0.7561143504852178,
+   "lung": 1.0,
+   "brain": 0.4205192116763065,
+   "peripheral_nerve": 0.12615307638488013,
+   "colon_gut": 0.38407080901452006,
+   "upper_gi": 0.23341897826974844,
+   "pancreas_exocrine": 0.1959178362677686,
+   "skin": 0.35718440477093616,
+   "melanocyte": 0.06333544925702149,
+   "neutrophil": 0.34400855162030575,
+   "red_cell": 0.3262367454683618,
+   "platelet": 0.46285345104026915,
+   "marrow_stem": 0.43868225733545574,
+   "lymphoid": 0.27416514300770595,
+   "thyroid": 0.18431691457698218,
+   "adrenal": 0.20100253594424336,
+   "islet": 0.15346553040732125,
+   "pituitary": 0.21819455785569697,
+   "eye_surface": 0.02749112296554637,
+   "retina_nerve": 0.06039527979419765,
+   "reproductive": 0.04502754595616372,
+   "salivary": 0.12950032573756942,
+   "vascular": 0.3662651060143984,
+   "skeletal_muscle": 0.2695896281793907,
+   "unmapped": 0.27187738559354835
+  },
+  "severe": {
+   "liver": 0.7357086522250583,
+   "biliary": 0.3116955099874995,
+   "kidney_tubule": 0.5363858044370967,
+   "kidney_glomerulus": 0.24775272470491422,
+   "heart_muscle": 0.7586609139698774,
+   "lung": 1.0,
+   "brain": 0.5656355517327403,
+   "peripheral_nerve": 0.2719155435110743,
+   "colon_gut": 0.4292982443351073,
+   "upper_gi": 0.32246709889309605,
+   "pancreas_exocrine": 0.27218905646461466,
+   "skin": 0.5814421417466398,
+   "melanocyte": 0.16023423758043395,
+   "neutrophil": 0.4514513567700398,
+   "red_cell": 0.39026291842195604,
+   "platelet": 0.5391960467395597,
+   "marrow_stem": 0.5338447228660743,
+   "lymphoid": 0.339381026992163,
+   "thyroid": 0.30691776923246167,
+   "adrenal": 0.3696857115495223,
+   "islet": 0.39039317473947094,
+   "pituitary": 0.3658468860175472,
+   "eye_surface": 0.11866919586124279,
+   "retina_nerve": 0.23672836938923458,
+   "reproductive": 0.2647789576234113,
+   "salivary": 0.2027399666760944,
+   "vascular": 0.4913722547097497,
+   "skeletal_muscle": 0.5496322165396105,
+   "unmapped": 0.3799743149857392
+  }
+ },
+ "per_target": {
+  "CD38": {
+   "label": "safe",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.5
+  },
+  "CD79B": {
+   "label": "safe",
+   "A3_death_H": 0.16449908580462355,
+   "A3_worst_system": "lymphoid",
+   "A7_death_H": -0.21933211440616476
+  },
+  "CD22": {
+   "label": "safe",
+   "A3_death_H": 0.4205192116763065,
+   "A3_worst_system": "brain",
+   "A7_death_H": -0.27416514300770595
+  },
+  "CD44": {
+   "label": "toxic",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -1.0
+  },
+  "SLAMF7": {
+   "label": "safe",
+   "A3_death_H": 0.4,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.2284709525064216
+  },
+  "TNFRSF17": {
+   "label": "safe",
+   "A3_death_H": 0.27416514300770595,
+   "A3_worst_system": "lymphoid",
+   "A7_death_H": null
+  },
+  "CLDN18": {
+   "label": "safe",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.8333333333333333
+  },
+  "FAP": {
+   "label": "toxic",
+   "A3_death_H": 0.5897155906686716,
+   "A3_worst_system": "liver",
+   "A7_death_H": null
+  },
+  "FOLH1": {
+   "label": "safe",
+   "A3_death_H": 0.6,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.4116281405030947
+  },
+  "DLL3": {
+   "label": "safe",
+   "A3_death_H": 0.3364153693410452,
+   "A3_worst_system": "brain",
+   "A7_death_H": null
+  },
+  "MSLN": {
+   "label": "safe",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -1.0
+  },
+  "CD33": {
+   "label": "safe",
+   "A3_death_H": 0.3509458058683646,
+   "A3_worst_system": "marrow_stem",
+   "A7_death_H": -0.2485866124900916
+  },
+  "CEACAM5": {
+   "label": "toxic",
+   "A3_death_H": 0.6,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.4666666666666667
+  },
+  "MET": {
+   "label": "safe",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.8333333333333333
+  },
+  "CA9": {
+   "label": "toxic",
+   "A3_death_H": 0.4,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.25130110191170035
+  },
+  "FOLR1": {
+   "label": "toxic",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": null
+  },
+  "GPRC5D": {
+   "label": "safe",
+   "A3_death_H": 0.7561143504852178,
+   "A3_worst_system": "heart_muscle",
+   "A7_death_H": -0.6333333333333333
+  },
+  "F3": {
+   "label": "toxic",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": null
+  },
+  "EPCAM": {
+   "label": "toxic",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.6666666666666666
+  },
+  "TNFRSF8": {
+   "label": "safe",
+   "A3_death_H": 0.7561143504852178,
+   "A3_worst_system": "heart_muscle",
+   "A7_death_H": -0.3780571752426089
+  },
+  "ERBB2": {
+   "label": "toxic",
+   "A3_death_H": 0.8,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.7333333333333334
+  },
+  "NECTIN4": {
+   "label": "safe",
+   "A3_death_H": 0.8,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.4
+  },
+  "EGFR": {
+   "label": "toxic",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -1.0
+  },
+  "GPC3": {
+   "label": "safe",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": null
+  },
+  "NCAM1": {
+   "label": "toxic",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.6300952920710148
+  },
+  "MS4A1": {
+   "label": "safe",
+   "A3_death_H": 0.27416514300770595,
+   "A3_worst_system": "lymphoid",
+   "A7_death_H": -0.27416514300770595
+  },
+  "CD52": {
+   "label": "safe",
+   "A3_death_H": 0.6,
+   "A3_worst_system": "lung",
+   "A7_death_H": null
+  },
+  "CD19": {
+   "label": "safe",
+   "A3_death_H": 0.30244574019408715,
+   "A3_worst_system": "heart_muscle",
+   "A7_death_H": -0.24674862870693537
+  },
+  "TACSTD2": {
+   "label": "safe",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.8333333333333333
+  },
+  "CD47": {
+   "label": "toxic",
+   "A3_death_H": 1.0,
+   "A3_worst_system": "lung",
+   "A7_death_H": -0.8333333333333333
+  }
+ },
+ "decision": {
+  "promoted": [],
+  "rule": "sep >= 0.944 and family-wise p < 0.05 over all 13 variants"
+ }
+}

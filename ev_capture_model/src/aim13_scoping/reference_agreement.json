@@ -1,0 +1,77 @@
+{
+ "RNA single-cell (154) vs RNA bulk tissue (51)": {
+  "rho": 0.5116322701688556,
+  "p": 0.0007400111242093126,
+  "n": 40
+ },
+ "RNA single-cell (154) vs PROTEIN MS samples (20)": {
+  "rho": 0.34586582694801654,
+  "p": 0.045112031838094716,
+  "n": 34
+ },
+ "RNA single-cell (154) vs PROTEIN MS tissues (20)": {
+  "rho": 0.35778696459801446,
+  "p": 0.03775191947193438,
+  "n": 34
+ },
+ "RNA single-cell (154) vs PROTEIN IHC (76)": {
+  "rho": 0.42911181286537814,
+  "p": 0.010103587902040042,
+  "n": 35
+ },
+ "RNA single-cell (154) vs PROTEIN IHC strict": {
+  "rho": 0.4184219558498279,
+  "p": 0.015379047479304093,
+  "n": 33
+ },
+ "RNA bulk tissue (51) vs PROTEIN MS samples (20)": {
+  "rho": 0.17835855945573814,
+  "p": 0.3128684715654169,
+  "n": 34
+ },
+ "RNA bulk tissue (51) vs PROTEIN MS tissues (20)": {
+  "rho": 0.22115238691726913,
+  "p": 0.20877981436245135,
+  "n": 34
+ },
+ "RNA bulk tissue (51) vs PROTEIN IHC (76)": {
+  "rho": 0.49355563719383827,
+  "p": 0.0025874461316053626,
+  "n": 35
+ },
+ "RNA bulk tissue (51) vs PROTEIN IHC strict": {
+  "rho": 0.42928788758384256,
+  "p": 0.01266559535109452,
+  "n": 33
+ },
+ "PROTEIN MS samples (20) vs PROTEIN MS tissues (20)": {
+  "rho": 0.9633083626356825,
+  "p": 7.622733860633912e-20,
+  "n": 34
+ },
+ "PROTEIN MS samples (20) vs PROTEIN IHC (76)": {
+  "rho": 0.6152012701768751,
+  "p": 0.0001788794572319987,
+  "n": 32
+ },
+ "PROTEIN MS samples (20) vs PROTEIN IHC strict": {
+  "rho": 0.668002263167361,
+  "p": 5.4935944089120616e-05,
+  "n": 30
+ },
+ "PROTEIN MS tissues (20) vs PROTEIN IHC (76)": {
+  "rho": 0.6408728582021396,
+  "p": 7.763886821331667e-05,
+  "n": 32
+ },
+ "PROTEIN MS tissues (20) vs PROTEIN IHC strict": {
+  "rho": 0.7018364331111927,
+  "p": 1.5473443447350118e-05,
+  "n": 30
+ },
+ "PROTEIN IHC (76) vs PROTEIN IHC strict": {
+  "rho": 1.0,
+  "p": 0.0,
+  "n": 33
+ }
+}

@@ -1,0 +1,130 @@
+==============================================================================
+REFERENCE A: HPA single-cell consensus (cell-type level)
+==============================================================================
+genes resolved: 40 / 40  
+
+GENE      common        top_share  n_types home cell type                 haem?  outcome
+MS4A1     CD20              0.850        1 b-cells                        YES    safe
+CD52      CD52              0.822        1 epididymal principal cells     no     safe
+TNFRSF17  BCMA              0.789        1 plasma cells                   YES    safe
+FCER2     CD23              0.688        1 b-cells                        YES    efficacy_fail
+CD79B     CD79b             0.572        2 b-cells                        YES    safe
+FOLH1     PSMA              0.568        2 prostatic glandular cells      no     safe
+HLA-DRA   HLA-DR            0.411        7 cdc                            YES    efficacy_fail
+SLAMF7    CS1               0.373        5 plasma cells                   YES    safe
+CLDN18    claudin-18.2      0.359        8 foveolar cells                 no     safe
+CD19      CD19              0.327        6 b-cells                        YES    safe
+PTPRC     CD45              0.309        8 neutrophils                    YES    excluded_control
+CEACAM5   CEA               0.283        7 colonocytes                    no     toxic
+SLC34A2   NaPi2b            0.270        7 alveolar cells type 2          no     efficacy_fail
+CD33      CD33              0.267        8 kupffer cells                  YES    safe
+GPRC5D    GPRC5D            0.261        7 epicardial cells               no     safe
+TACSTD2   TROP2             0.258        7 esophageal apical cells        no     safe
+CA9       CAIX              0.257        8 early spermatids               no     toxic
+TNFRSF8   CD30              0.257        7 epicardial cells               no     safe
+DLL3      DLL3              0.257        7 oocytes                        no     safe
+MSLN      mesothelin        0.239       11 conjunctival goblet cells      no     safe
+CD22      CD22              0.222        8 b-cells                        YES    safe
+CD74      CD74              0.211       10 cdc                            YES    efficacy_fail
+GPC3      glypican-3        0.211       12 pituitary stem cells           no     safe
+IL3RA     CD123             0.205        6 pdcs                           YES    excluded_ambiguous
+FOLR1     FRalpha           0.204       14 breast lactating cells         no     toxic
+SDC1      CD138             0.174       12 esophageal apical cells        no     efficacy_fail
+MUC16     CA125             0.173       13 epicardial cells               no     efficacy_fail
+NECTIN4   Nectin-4          0.172       12 esophageal apical cells        no     safe
+FAP       FAP               0.167       11 fibro-adipogenic progenitors   no     toxic
+CD80      CD80              0.162       12 cdc                            YES    efficacy_fail
+CD38      CD38              0.131       19 plasma cells                   YES    safe
+MUC1      MUC1              0.093       25 foveolar cells                 no     efficacy_fail
+EPCAM     EpCAM             0.092       35 colonocytes                    no     toxic
+MET       c-MET             0.087       40 endometrial glandular cells    no     safe
+NCAM1     CD56              0.073       31 oligodendrocytes               no     toxic
+CD40      CD40              0.067       56 epididymal basal cells         no     efficacy_fail
+CD44      CD44v6            0.061       45 pancreatic acinar cells        no     toxic
+EGFR      EGFR              0.051       60 syncytiotrophoblasts           no     toxic
+ERBB2     HER2              0.041       72 esophageal apical cells        no     toxic
+CD47      CD47              0.030      120 alveolar cells type 1          no     toxic
+
+------------------------------------------------------------------------------
+TEST 1 (one factor): does CONFINEMENT alone separate safe from toxic?
+------------------------------------------------------------------------------
+  top_share  (higher = more confined)    separation 0.868  approx p = 0.00031   (safe n=19 vs toxic n=10)
+  n_types    (fewer  = more confined)    separation 0.868  approx p = 0.00033   (safe n=19 vs toxic n=10)
+
+------------------------------------------------------------------------------
+TEST 2 (two factors): confinement AND an expendable (haematopoietic) home
+------------------------------------------------------------------------------
+  Rule, fixed in advance: score = top_share, PLUS 1.0 if the home cell type is
+  haematopoietic. The +1 cannot be beaten by any confinement value, so this is
+  strictly "expendable first, confinement second" -- a lexicographic rule with
+  no fitted parameter.
+  two-factor score                       separation 0.905  approx p = 0.00004
+
+  one factor  0.868   ->   two factors  0.905     (change +0.037)
+
+  mis-ordered (toxic ranked safer than a safe target):
+    one factor : 25 pairs, involving toxic targets ['CAIX', 'CEA', 'EpCAM', 'FAP', 'FRalpha']
+    two factors: 18 pairs, involving toxic targets ['CAIX', 'CEA', 'EpCAM', 'FAP', 'FRalpha']
+
+------------------------------------------------------------------------------
+TEST 3: leave-one-out. Drop each target in turn and re-run the two-factor test.
+------------------------------------------------------------------------------
+  separation  min 0.895  median 0.900  max 0.942
+  p-value     min 0.00000  median 0.00011  max 0.00022  |  p<0.05 in 29/29 drops
+
+------------------------------------------------------------------------------
+TEST 4 (specificity): targets that failed for EFFICACY, not toxicity, should NOT
+        look toxic. If the measure flagged them too, it would be measuring
+        "was ever tried and did not work", not on-target toxicity.
+------------------------------------------------------------------------------
+  mean top_share   safe 0.370 | efficacy-fail 0.250 | toxic 0.126
+  safe vs efficacy-fail: separation 0.684  approx p = 0.06326  (n=19 vs 9)
+  (this one SHOULD be near 0.5 and non-significant.)
+
+------------------------------------------------------------------------------
+TEST 5 (sensitivity): several targets have their single highest cell type in germ
+        or placental tissue (CA9 -> spermatids, DLL3 -> oocytes, EGFR ->
+        syncytiotrophoblasts). Those sites are immune-privileged and are NOT where
+        the clinical toxicity fell. Drop every germ/placental/reproductive cell
+        type from the reference and recompute from scratch.
+------------------------------------------------------------------------------
+  removed 20 of 154 cell types
+  one factor  separation 0.842  p = 0.00106   (was 0.868)
+  two factors separation 0.905  p = 0.00006   (was 0.905)
+  targets whose home cell type changed: 5
+     CA9       early spermatids               -> gastric chief cells
+     CD40      epididymal basal cells         -> cdc
+     CD52      epididymal principal cells     -> b-cells
+     DLL3      oocytes                        -> oligodendrocyte progenitor cells
+     EGFR      syncytiotrophoblasts           -> fibro-adipogenic progenitors
+
+------------------------------------------------------------------------------
+TEST 6 (the load-bearing one): the obvious objection is that this measure only
+        works because blood targets are confined and blood targets are the safe
+        ones. Remove EVERY blood-cancer target and re-run on solid-tumour
+        targets only. If it survives, the finding is not a blood artifact.
+------------------------------------------------------------------------------
+  solid safe  (n=8): claudin-18.2, DLL3, PSMA, glypican-3, c-MET, mesothelin, Nectin-4, TROP2
+  solid toxic (n=9): CAIX, CD44v6, CEA, EGFR, EpCAM, HER2, FAP, FRalpha, CD56
+  top_share separation 0.792  exact p = 0.02320
+  n_types   separation 0.764  p = 0.03455
+  (no haematopoietic target remains, so the two-factor rule reduces to the one-
+   factor rule here by construction, and is not reported separately.)
+
+==============================================================================
+REFERENCE B: HPA bulk tissue consensus -- an INDEPENDENT normal reference
+==============================================================================
+columns: ['Gene', 'Gene name', 'Tissue', 'nTPM']
+genes resolved: 40 / 40 ; tissues: 51
+  one factor top_share  separation 0.726  approx p = 0.02444  (n=19 vs 10)
+  one factor n_types    separation 0.692  approx p = 0.04730  (n=19 vs 10)
+  two factors           separation 0.726  approx p = 0.02444
+  NOTE: reference B is indexed by TISSUE (bone marrow, lymph node), not by cell
+  type, so the haematopoietic flag fires on 0 of 29 targets and the two-factor
+  rule collapses onto the one-factor rule. Reference B tests CONFINEMENT ONLY.
+  It is also weaker by construction: 51 tissues cannot resolve a B cell from the
+  lymph node it sits in, which is exactly why the cell-type reference is primary.
+
+  agreement between the two independent references: Spearman rho = 0.512 (p = 0.00074, n = 40)
+
+wrote wholebody_v2.json

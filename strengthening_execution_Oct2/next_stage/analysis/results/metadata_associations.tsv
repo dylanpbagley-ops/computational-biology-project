@@ -1,0 +1,19 @@
+stage	gene	depth_summary	marker_summary	donor_n	spearman_rho	sample_ids	interpretation
+NBM	TNFRSF17	donor_median_n_counts	normalized_tail_fraction	9	-0.5499999999999999	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+NBM	TNFRSF17	donor_median_n_counts	normalized_detection_fraction	9	-0.21666666666666667	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+NBM	TNFRSF17	donor_median_n_counts	raw_tail_fraction	9	0.06666666666666667	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+NBM	GPRC5D	donor_median_n_counts	normalized_tail_fraction	9	0.7833333333333333	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+NBM	GPRC5D	donor_median_n_counts	normalized_detection_fraction	9	0.7833333333333333	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+NBM	GPRC5D	donor_median_n_counts	raw_tail_fraction	9	0.7833333333333333	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+NBM	SLAMF7	donor_median_n_counts	normalized_tail_fraction	9	-0.26666666666666666	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+NBM	SLAMF7	donor_median_n_counts	normalized_detection_fraction	9	0.6333333333333333	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+NBM	SLAMF7	donor_median_n_counts	raw_tail_fraction	9	0.7333333333333334	NBM-1,NBM-10,NBM-11,NBM-2,NBM-3,NBM-4,NBM-6,NBM-7,NBM-8	descriptive within-stratum association; not causal
+MM	TNFRSF17	donor_median_n_counts	normalized_tail_fraction	8	-0.523809523809524	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal
+MM	TNFRSF17	donor_median_n_counts	normalized_detection_fraction	8	0.5952380952380953	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal
+MM	TNFRSF17	donor_median_n_counts	raw_tail_fraction	8	0.6666666666666669	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal
+MM	GPRC5D	donor_median_n_counts	normalized_tail_fraction	8	0.4285714285714286	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal
+MM	GPRC5D	donor_median_n_counts	normalized_detection_fraction	8	0.4285714285714286	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal
+MM	GPRC5D	donor_median_n_counts	raw_tail_fraction	8	0.4285714285714286	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal
+MM	SLAMF7	donor_median_n_counts	normalized_tail_fraction	8	-0.5476190476190477	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal
+MM	SLAMF7	donor_median_n_counts	normalized_detection_fraction	8	0.7857142857142858	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal
+MM	SLAMF7	donor_median_n_counts	raw_tail_fraction	8	0.7142857142857144	MM-1,MM-2,MM-3,MM-4,MM-5,MM-6,MM-7,MM-8	descriptive within-stratum association; not causal

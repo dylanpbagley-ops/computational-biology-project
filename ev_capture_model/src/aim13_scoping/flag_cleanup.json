@@ -1,0 +1,365 @@
+{
+ "baselines": {
+  "one_factor": 0.8803827751196173,
+  "binary_home_rule": 0.9138755980861244
+ },
+ "targets": {
+  "CD38": {
+   "label": "safe",
+   "home": "plasma cells",
+   "home_flag": true,
+   "top_share": 0.131,
+   "blood_share": 0.514,
+   "M1_flag": true,
+   "M2_flag": true,
+   "home_lineage": "blood"
+  },
+  "CD79B": {
+   "label": "safe",
+   "home": "b-cells",
+   "home_flag": true,
+   "top_share": 0.572,
+   "blood_share": 0.785,
+   "M1_flag": true,
+   "M2_flag": true,
+   "home_lineage": "blood"
+  },
+  "CD22": {
+   "label": "safe",
+   "home": "b-cells",
+   "home_flag": true,
+   "top_share": 0.222,
+   "blood_share": 0.402,
+   "M1_flag": false,
+   "M2_flag": true,
+   "home_lineage": "blood"
+  },
+  "SLAMF7": {
+   "label": "safe",
+   "home": "plasma cells",
+   "home_flag": true,
+   "top_share": 0.373,
+   "blood_share": 0.876,
+   "M1_flag": true,
+   "M2_flag": true,
+   "home_lineage": "blood"
+  },
+  "TNFRSF17": {
+   "label": "safe",
+   "home": "plasma cells",
+   "home_flag": true,
+   "top_share": 0.789,
+   "blood_share": 0.847,
+   "M1_flag": true,
+   "M2_flag": true,
+   "home_lineage": "blood"
+  },
+  "CLDN18": {
+   "label": "safe",
+   "home": "foveolar cells",
+   "home_flag": false,
+   "top_share": 0.359,
+   "blood_share": 0.003,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "FOLH1": {
+   "label": "safe",
+   "home": "prostatic glandular cells",
+   "home_flag": false,
+   "top_share": 0.568,
+   "blood_share": 0.004,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "DLL3": {
+   "label": "safe",
+   "home": "oocytes",
+   "home_flag": false,
+   "top_share": 0.257,
+   "blood_share": 0.037,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "germline"
+  },
+  "MSLN": {
+   "label": "safe",
+   "home": "conjunctival goblet cells",
+   "home_flag": false,
+   "top_share": 0.239,
+   "blood_share": 0.005,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "CD33": {
+   "label": "safe",
+   "home": "kupffer cells",
+   "home_flag": true,
+   "top_share": 0.267,
+   "blood_share": 0.933,
+   "M1_flag": true,
+   "M2_flag": true,
+   "home_lineage": "blood"
+  },
+  "MET": {
+   "label": "safe",
+   "home": "endometrial glandular cells",
+   "home_flag": false,
+   "top_share": 0.087,
+   "blood_share": 0.005,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "GPRC5D": {
+   "label": "safe",
+   "home": "epicardial cells",
+   "home_flag": false,
+   "top_share": 0.261,
+   "blood_share": 0.124,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "TNFRSF8": {
+   "label": "safe",
+   "home": "epicardial cells",
+   "home_flag": false,
+   "top_share": 0.257,
+   "blood_share": 0.232,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "stromal_muscle"
+  },
+  "NECTIN4": {
+   "label": "safe",
+   "home": "esophageal apical cells",
+   "home_flag": false,
+   "top_share": 0.172,
+   "blood_share": 0.003,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "GPC3": {
+   "label": "safe",
+   "home": "pituitary stem cells",
+   "home_flag": false,
+   "top_share": 0.211,
+   "blood_share": 0.015,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "MS4A1": {
+   "label": "safe",
+   "home": "b-cells",
+   "home_flag": true,
+   "top_share": 0.85,
+   "blood_share": 0.89,
+   "M1_flag": true,
+   "M2_flag": true,
+   "home_lineage": "blood"
+  },
+  "CD52": {
+   "label": "safe",
+   "home": "epididymal principal cells",
+   "home_flag": false,
+   "top_share": 0.822,
+   "blood_share": 0.117,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "CD19": {
+   "label": "safe",
+   "home": "b-cells",
+   "home_flag": true,
+   "top_share": 0.327,
+   "blood_share": 0.471,
+   "M1_flag": false,
+   "M2_flag": true,
+   "home_lineage": "blood"
+  },
+  "TACSTD2": {
+   "label": "safe",
+   "home": "esophageal apical cells",
+   "home_flag": false,
+   "top_share": 0.258,
+   "blood_share": 0.003,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "CD44": {
+   "label": "toxic",
+   "home": "pancreatic acinar cells",
+   "home_flag": false,
+   "top_share": 0.061,
+   "blood_share": 0.309,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "FAP": {
+   "label": "toxic",
+   "home": "fibro-adipogenic progenitors",
+   "home_flag": false,
+   "top_share": 0.167,
+   "blood_share": 0.014,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "stromal_muscle"
+  },
+  "CEACAM5": {
+   "label": "toxic",
+   "home": "colonocytes",
+   "home_flag": false,
+   "top_share": 0.283,
+   "blood_share": 0.001,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "CA9": {
+   "label": "toxic",
+   "home": "early spermatids",
+   "home_flag": false,
+   "top_share": 0.257,
+   "blood_share": 0.006,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "FOLR1": {
+   "label": "toxic",
+   "home": "breast lactating cells",
+   "home_flag": false,
+   "top_share": 0.204,
+   "blood_share": 0.003,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "F3": {
+   "label": "toxic",
+   "home": "ocular epithelial cells",
+   "home_flag": false,
+   "top_share": 0.075,
+   "blood_share": 0.009,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "EPCAM": {
+   "label": "toxic",
+   "home": "colonocytes",
+   "home_flag": false,
+   "top_share": 0.092,
+   "blood_share": 0.008,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "ERBB2": {
+   "label": "toxic",
+   "home": "esophageal apical cells",
+   "home_flag": false,
+   "top_share": 0.041,
+   "blood_share": 0.011,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "EGFR": {
+   "label": "toxic",
+   "home": "syncytiotrophoblasts",
+   "home_flag": false,
+   "top_share": 0.051,
+   "blood_share": 0.005,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  },
+  "NCAM1": {
+   "label": "toxic",
+   "home": "oligodendrocytes",
+   "home_flag": false,
+   "top_share": 0.073,
+   "blood_share": 0.031,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "neural"
+  },
+  "CD47": {
+   "label": "toxic",
+   "home": "alveolar cells type 1",
+   "home_flag": false,
+   "top_share": 0.03,
+   "blood_share": 0.164,
+   "M1_flag": false,
+   "M2_flag": false,
+   "home_lineage": "epithelial"
+  }
+ },
+ "schemes": {
+  "M1": {
+   "sep": 0.9043062200956937,
+   "p_label_permutation": 5.4999725001374995e-05,
+   "ci": [
+    0.7750000000000001,
+    0.9952153110047847
+   ],
+   "diff_vs_home_rule": -0.009569377990430672,
+   "diff_ci": [
+    -0.0430622009569378,
+    0.0
+   ],
+   "p_vs_shuffled_flags": 0.000999000999000999,
+   "loo_min": 0.8947368421052632
+  },
+  "M2": {
+   "sep": 0.9138755980861244,
+   "p_label_permutation": 3.4999825000875e-05,
+   "ci": [
+    0.789354066985646,
+    0.9952153110047847
+   ],
+   "diff_vs_home_rule": 0.0,
+   "diff_ci": [
+    0.0,
+    0.0
+   ],
+   "p_vs_shuffled_flags": 0.007992007992007992,
+   "loo_min": 0.9052631578947369
+  }
+ },
+ "flag_counts": {
+  "home_rule": {
+   "safe_flagged": 8,
+   "toxic_flagged": 0,
+   "fisher_p": 0.014012993503248375
+  },
+  "M1": {
+   "safe_flagged": 6,
+   "toxic_flagged": 0,
+   "fisher_p": 0.061255526083112286
+  },
+  "M2": {
+   "safe_flagged": 8,
+   "toxic_flagged": 0,
+   "fisher_p": 0.014012993503248375
+  }
+ },
+ "decision": {
+  "rule": "cleaned flag replaces home rule if sep >= 0.900 and paired CI includes 0",
+  "schemes_meeting_rule": [
+   "M1",
+   "M2"
+  ],
+  "cleanup_adopted": true
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "as_frozen": {
+  "changes": {},
+  "one_factor": {
+   "sep": 0.8803827751196173,
+   "p": 0.00014499927500362497,
+   "p_is_exact": false,
+   "n_safe": 19,
+   "n_toxic": 11
+  },
+  "two_factor": {
+   "sep": 0.9138755980861244,
+   "p": 3.4999825000875e-05,
+   "p_is_exact": false,
+   "n_safe": 19,
+   "n_toxic": 11
+  }
+ },
+ "NECTIN4_toxic": {
+  "changes": {
+   "NECTIN4": "toxic"
+  },
+  "one_factor": {
+   "sep": 0.8888888888888888,
+   "p": 7.999960000199999e-05,
+   "p_is_exact": false,
+   "n_safe": 18,
+   "n_toxic": 12
+  },
+  "two_factor": {
+   "sep": 0.9259259259259259,
+   "p": 9.999950000249999e-06,
+   "p_is_exact": false,
+   "n_safe": 18,
+   "n_toxic": 12
+  }
+ },
+ "NECTIN4_CD33_toxic": {
+  "changes": {
+   "NECTIN4": "toxic",
+   "CD33": "toxic"
+  },
+  "one_factor": {
+   "sep": 0.8552036199095022,
+   "p": 0.000264998675006625,
+   "p_is_exact": false,
+   "n_safe": 17,
+   "n_toxic": 13
+  },
+  "two_factor": {
+   "sep": 0.8733031674208145,
+   "p": 0.00014999925000374999,
+   "p_is_exact": false,
+   "n_safe": 17,
+   "n_toxic": 13
+  }
+ },
+ "EGFR_safe": {
+  "changes": {
+   "EGFR": "safe"
+  },
+  "one_factor": {
+   "sep": 0.835,
+   "p": 0.0011599942000289998,
+   "p_is_exact": false,
+   "n_safe": 20,
+   "n_toxic": 10
+  },
+  "two_factor": {
+   "sep": 0.87,
+   "p": 0.00030999845000774994,
+   "p_is_exact": false,
+   "n_safe": 20,
+   "n_toxic": 10
+  }
+ },
+ "NECTIN4_CD33_TACSTD2_toxic": {
+  "changes": {
+   "NECTIN4": "toxic",
+   "CD33": "toxic",
+   "TACSTD2": "toxic"
+  },
+  "one_factor": {
+   "sep": 0.8348214285714286,
+   "p": 0.00060999695001525,
+   "p_is_exact": false,
+   "n_safe": 16,
+   "n_toxic": 14
+  },
+  "two_factor": {
+   "sep": 0.8616071428571429,
+   "p": 0.00021999890000549998,
+   "p_is_exact": false,
+   "n_safe": 16,
+   "n_toxic": 14
+  }
+ },
+ "_summary": {
+  "sep_min": 0.8348214285714286,
+  "sep_max": 0.9259259259259259,
+  "p_max": 0.0011599942000289998,
+  "n_scenarios": 5,
+  "caveat": "Perturbs labels WITHIN the existing taxonomy. Does not test the taxonomy itself (whether dose-limiting on-target toxicity is the right classification axis) -- that remains an open limitation."
+ }
+}
