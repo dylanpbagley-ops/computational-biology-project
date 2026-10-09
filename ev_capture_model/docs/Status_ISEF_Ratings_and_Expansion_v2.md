@@ -146,7 +146,7 @@ and the $10,000 Barrett, Horvitz, Scripps and Coleman awards.
 
 | Level | Base rate | **Rating** | Why |
 |---|---|---|---|
-| **Qualify to ISEF from Arizona** | ~7% of senior AzSEF projects | **85** | A proved theorem with 195 tests, multi-dataset validation and external clinical outcomes is far above the median state-fair project. Not higher because you must first win your school/regional fair, and because purely computational work with no device and no visual hook can underperform with generalist state judges. |
+| **Qualify to ISEF from Arizona** | ~7% of senior AzSEF projects | **85** | A proved theorem with 341 tests, multi-dataset validation and external clinical outcomes is far above the median state-fair project. Not higher because you must first win your school/regional fair, and because purely computational work with no device and no visual hook can underperform with generalist state judges. |
 | **Any Grand Award in CBIO (4th or better)** | ~27% | **72** | Comfortably top-quartile for the category on rigour. The risk is not quality, it is being read as another CAR-T data-analysis project in the 15 minutes a judge gives you. |
 | **Second Award or better in CBIO** | ~8% | **42** | This is where the theorem, the independent replication and the locked predictions start to separate you from the field. |
 | **First Award in CBIO (top 2 of ~85)** | ~2.4% | **22** | Genuinely reachable and genuinely uncertain. The 2026 First Award went to a Markov-chain model of tomato immunity — not fancier than yours, just more pointed. You have what those winners have (mechanistic model + independent validation + one specific new claim). Two slots is two slots. |

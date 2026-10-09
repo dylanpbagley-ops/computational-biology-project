@@ -68,7 +68,7 @@ Snapshots, not current (numbers differ): `Status_ISEF_Ratings_and_Expansion_v2.m
 Ask Dylan to run, in a terminal from `ev_capture_model\src\aim13_scoping`:
 `python verify_documented_numbers.py` (expect 221 checks, all passing), then from `ev_capture_model`:
 `python -m pytest -q tests\test_fragility_and_bound.py tests\test_locked_check.py` (expect 10 passing).
-The full suite (about 195 tests) takes about 2.5 minutes and only needs running after code changes. After editing any script, run its own entry point as well as its tests.
+The full suite (341 tests) takes about 2.5 minutes and only needs running after code changes. After editing any script, run its own entry point as well as its tests.
 
 ## 9. Known traps
 - Labels are agent-specific, not gene-level facts (e.g. NECTIN4 is "safe" although enfortumab vedotin has a fatal-skin boxed warning). Never describe them as gene facts.

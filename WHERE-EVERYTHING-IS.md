@@ -55,7 +55,7 @@ ev_capture_model/
   src/figures_writeup/  every figure script + figure_style.py (shared visual identity)
   src/pancreatic_calibration/   CLDN18.2 and mesothelin dose-response fits
   src/cptac_msln_outcomes/      CPTAC PDAC survival data (n = 135)
-  tests/                195 tests. Run: python -m pytest -q  (~2.5 min)
+  tests/                341 tests. Run: python -m pytest -q  (~2.5 min)
   docs/                 all write-ups and archives
 ```
 
@@ -166,7 +166,7 @@ sync going forward.)
 ## How to check nothing is broken
 
 ```bash
-cd ev_capture_model && python -m pytest -q                       # 195 tests, ~2.5 min
+cd ev_capture_model && python -m pytest -q                       # 341 tests, ~2.5 min
 cd src/aim13_scoping && python verify_documented_numbers.py      # 22 headline numbers vs the JSONs
 ```
 
