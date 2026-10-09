@@ -143,8 +143,8 @@ outside reader most needs.
 ## A1. What is frozen
 
 **The label file.** `ev_capture_model/src/aim13_scoping/target_labels.py`, exported verbatim to
-`target_labels_frozen.tsv` and to `docs/Label_Review_Sheet.md`. 40 targets:
-19 `safe`, 10 `toxic`, 9 `efficacy_fail`, 2 stated exclusions. Every label is clinical safety
+`target_labels_frozen.tsv` and to `docs/Label_Review_Sheet.md`. 44 targets:
+19 `safe`, 11 `toxic`, 12 `efficacy_fail`, 2 stated exclusions. Every label is clinical safety
 history, carries a one-line citation, and no analysis script may write to that file.
 
 **The two measures**, both parameter-free:
