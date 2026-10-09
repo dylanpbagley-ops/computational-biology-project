@@ -2448,6 +2448,15 @@ Family offsets (10 free numbers, one per lineage family of `lineage_map.py`) wer
 | G: offset weighted by lineage composition (10 numbers) | 0.928 | 0.706 / 0.837 | 0.799 |
 | system-level weights (28 numbers) inside the relative-exposure sum of §39.5 | 0.978 | 0.694 / 0.835 | 0.775 |
 
+> **Correction, October 6, 2026.** This section states "the same 16 pairs stay
+> misordered" with a per-target breakdown (CEACAM5 7, CA9 5, …). The frozen rule's
+> misordered-pair count is **18**, not 16 (209 total safe×toxic pairs; 191 concordant).
+> Corrected breakdown: CEACAM5 8 and CA9 6 on the toxic side; MET 5 and NECTIN4 3 on the
+> safe side; all 18 pairs lie among the 22 non-blood-flagged targets. The section's
+> qualitative conclusion is unchanged: the misorderings are between epithelial targets
+> on both sides, and no lineage reweighting separates them (hindsight-optimal family
+> weights add only +0.009).
+
 **With hindsight the best possible family-level weights add 0.009** (0.914 to 0.923), and the same 16 pairs stay misordered (CEACAM5 7, CA9 5, FOLR1 2, FAP 1, EPCAM 1 on the toxic side; MET 5, NECTIN4 3, MSLN 2, GPC3 2, TNFRSF8 2,
 GPRC5D 1, TACSTD2 1 on the safe side). Finer weights fit these 30 targets better (0.978) but do not carry over (0.775 cross-validated, below the frozen rule): they memorise noise. So the answer to "are the weights the bottleneck"
 for the safe/toxic question is **no**: the misorderings are between epithelial targets on both sides, and no weighting of lineages can pull them apart.
