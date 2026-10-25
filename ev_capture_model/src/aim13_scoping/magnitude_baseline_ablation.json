@@ -1,0 +1,710 @@
+{
+ "_meta": {
+  "date": "2026-10-25",
+  "n_boot": 10000,
+  "seed": 0,
+  "level": 95.0,
+  "data_dir": "C:\\Users\\dylan.bagley\\Desktop\\outputs\\ev_capture_data\\normal_tissue_atlas",
+  "synthetic_data_mode": false,
+  "method": "head-to-head feature ablation on the frozen outcome test; sep and bootstrap imported from the published pipeline (wholebody_v2.sep, auc_confidence_intervals.bootstrap_ci); paired deltas share resampled targets",
+  "note": "Exploratory feature sets are diagnostics, not scoring-rule proposals. The published two-factor rule stays frozen.",
+  "posthoc_rows": "flipped-orientation rows added 2026-10-25 after the first run, to test magnitude in its best direction; the pre-stated comparisons are unchanged and remain primary"
+ },
+ "anchors": {
+  "toxicity_one_factor_top_share": {
+   "published": 0.8804,
+   "reproduced": 0.8803827751196173,
+   "abs_dev": 1.722488038269354e-05
+  },
+  "toxicity_two_factor_top_share": {
+   "published": 0.9139,
+   "reproduced": 0.9138755980861244,
+   "abs_dev": 2.440191387564905e-05
+  },
+  "specificity_one_factor_top_share": {
+   "published": 0.7456,
+   "reproduced": 0.7456140350877193,
+   "abs_dev": 1.403508771924411e-05
+  }
+ },
+ "toxicity_contrast": {
+  "top_share": {
+   "point": 0.8803827751196173,
+   "ci_lo": 0.7320574162679426,
+   "ci_hi": 0.9904306220095693,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.36961864771204095,
+   "mean_neg": 0.12138204507117491
+  },
+  "mean": {
+   "point": 0.23923444976076555,
+   "ci_lo": 0.07177033492822966,
+   "ci_hi": 0.430622009569378,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 49.700854408749144,
+   "mean_neg": 103.28347107438016
+  },
+  "max": {
+   "point": 0.37799043062200954,
+   "ci_lo": 0.18181818181818182,
+   "ci_hi": 0.583732057416268,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 2974.973684210526,
+   "mean_neg": 1158.590909090909
+  },
+  "top_share+haem": {
+   "point": 0.9138755980861244,
+   "ci_lo": 0.7894736842105263,
+   "ci_hi": 0.9952153110047847,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.7906712792909882,
+   "mean_neg": 0.12138204507117491
+  },
+  "rank_mean+haem": {
+   "point": 0.6220095693779905,
+   "ci_lo": 0.41626794258373206,
+   "ci_hi": 0.8133971291866029,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.822141560798548,
+   "mean_neg": 0.6708463949843261
+  },
+  "rank_max+haem": {
+   "point": 0.6985645933014354,
+   "ci_lo": 0.507177033492823,
+   "ci_hi": 0.8708133971291866,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.8747731397459163,
+   "mean_neg": 0.5799373040752351
+  },
+  "rank_mean+top_share+haem": {
+   "point": 0.6985645933014354,
+   "ci_lo": 0.5023923444976076,
+   "ci_hi": 0.8755980861244019,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 1.1917602085105887,
+   "mean_neg": 0.792228440055501
+  },
+  "flipped_mean": {
+   "point": 0.7607655502392344,
+   "ci_lo": 0.569377990430622,
+   "ci_hi": 0.9282296650717703,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": -49.700854408749144,
+   "mean_neg": -103.28347107438016
+  },
+  "flipped_max": {
+   "point": 0.6220095693779905,
+   "ci_lo": 0.41626794258373206,
+   "ci_hi": 0.8181818181818182,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": -2974.973684210526,
+   "mean_neg": -1158.590909090909
+  },
+  "flipped_rank_mean+haem": {
+   "point": 0.7990430622009569,
+   "ci_lo": 0.6220095693779905,
+   "ci_hi": 0.9425837320574163,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 1.0199637023593464,
+   "mean_neg": 0.329153605015674
+  },
+  "flipped_rank_max+haem": {
+   "point": 0.722488038277512,
+   "ci_lo": 0.5311004784688995,
+   "ci_hi": 0.8899521531100478,
+   "n_pos": 19,
+   "n_neg": 11,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.9673321234119783,
+   "mean_neg": 0.4200626959247648
+  }
+ },
+ "specificity_contrast": {
+  "top_share": {
+   "point": 0.7456140350877193,
+   "ci_lo": 0.543859649122807,
+   "ci_hi": 0.9166666666666666,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.36961864771204095,
+   "mean_neg": 0.21881643414104132
+  },
+  "mean": {
+   "point": 0.35526315789473684,
+   "ci_lo": 0.15350877192982457,
+   "ci_hi": 0.5701754385964912,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 49.700854408749144,
+   "mean_neg": 65.9952380952381
+  },
+  "max": {
+   "point": 0.4298245614035088,
+   "ci_lo": 0.21929824561403508,
+   "ci_hi": 0.6491228070175439,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 2974.973684210526,
+   "mean_neg": 2078.15
+  },
+  "top_share+haem": {
+   "point": 0.6359649122807017,
+   "ci_lo": 0.4166666666666667,
+   "ci_hi": 0.8377192982456141,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.7906712792909882,
+   "mean_neg": 0.635483100807708
+  },
+  "rank_mean+haem": {
+   "point": 0.4605263157894737,
+   "ci_lo": 0.2543859649122807,
+   "ci_hi": 0.6842105263157895,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.863157894736842,
+   "mean_neg": 1.0083333333333335
+  },
+  "rank_max+haem": {
+   "point": 0.47368421052631576,
+   "ci_lo": 0.2631578947368421,
+   "ci_hi": 0.6929824561403509,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.8929824561403508,
+   "mean_neg": 0.9611111111111112
+  },
+  "rank_mean+top_share+haem": {
+   "point": 0.4780701754385965,
+   "ci_lo": 0.2675438596491228,
+   "ci_hi": 0.6973684210526315,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 1.2327765424488828,
+   "mean_neg": 1.2271497674743748
+  },
+  "flipped_mean": {
+   "point": 0.6447368421052632,
+   "ci_lo": 0.4298245614035088,
+   "ci_hi": 0.8464912280701754,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": -49.700854408749144,
+   "mean_neg": -65.9952380952381
+  },
+  "flipped_max": {
+   "point": 0.5701754385964912,
+   "ci_lo": 0.3508771929824561,
+   "ci_hi": 0.7807017543859649,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": -2974.973684210526,
+   "mean_neg": -2078.15
+  },
+  "flipped_rank_mean+haem": {
+   "point": 0.543859649122807,
+   "ci_lo": 0.33771929824561403,
+   "ci_hi": 0.7543859649122807,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.9789473684210526,
+   "mean_neg": 0.8249999999999998
+  },
+  "flipped_rank_max+haem": {
+   "point": 0.5307017543859649,
+   "ci_lo": 0.32456140350877194,
+   "ci_hi": 0.7368421052631579,
+   "n_pos": 19,
+   "n_neg": 12,
+   "n_degenerate_resamples": 0,
+   "mean_pos": 0.9491228070175439,
+   "mean_neg": 0.8722222222222221
+  }
+ },
+ "paired_deltas": {
+  "toxicity_contrast": {
+   "top_share_minus_mean_one_factor": {
+    "point": 0.6411483253588517,
+    "ci_lo": 0.34449760765550236,
+    "ci_hi": 0.8851674641148326,
+    "p_delta_le_0": 0.0
+   },
+   "top_share_minus_max_one_factor": {
+    "point": 0.5023923444976077,
+    "ci_lo": 0.215311004784689,
+    "ci_hi": 0.7655502392344498,
+    "p_delta_le_0": 0.0002
+   },
+   "top_share+haem_minus_rank_mean+haem": {
+    "point": 0.29186602870813394,
+    "ci_lo": 0.08133971291866027,
+    "ci_hi": 0.5167464114832536,
+    "p_delta_le_0": 0.0037
+   },
+   "top_share+haem_minus_rank_max+haem": {
+    "point": 0.215311004784689,
+    "ci_lo": 0.028708133971291905,
+    "ci_hi": 0.42105263157894746,
+    "p_delta_le_0": 0.0118
+   },
+   "top_share_minus_flipped_mean_one_factor": {
+    "point": 0.11961722488038284,
+    "ci_lo": -0.019138755980861233,
+    "ci_hi": 0.27751196172248804,
+    "p_delta_le_0": 0.052
+   },
+   "top_share_minus_flipped_max_one_factor": {
+    "point": 0.2583732057416268,
+    "ci_lo": 0.062081339712918765,
+    "ci_hi": 0.46411483253588526,
+    "p_delta_le_0": 0.004
+   },
+   "top_share+haem_minus_flipped_rank_mean+haem": {
+    "point": 0.11483253588516751,
+    "ci_lo": -0.019138755980861233,
+    "ci_hi": 0.27751196172248804,
+    "p_delta_le_0": 0.0558
+   },
+   "top_share+haem_minus_flipped_rank_max+haem": {
+    "point": 0.19138755980861244,
+    "ci_lo": 0.019138755980861233,
+    "ci_hi": 0.3827751196172249,
+    "p_delta_le_0": 0.0159
+   }
+  },
+  "specificity_contrast": {
+   "top_share_minus_mean_one_factor": {
+    "point": 0.39035087719298245,
+    "ci_lo": 0.07006578947368425,
+    "ci_hi": 0.6842105263157895,
+    "p_delta_le_0": 0.0103
+   },
+   "top_share_minus_max_one_factor": {
+    "point": 0.3157894736842105,
+    "ci_lo": 0.05263157894736836,
+    "ci_hi": 0.5614035087719298,
+    "p_delta_le_0": 0.0113
+   },
+   "top_share+haem_minus_rank_mean+haem": {
+    "point": 0.17543859649122806,
+    "ci_lo": 0.01754385964912286,
+    "ci_hi": 0.3289473684210526,
+    "p_delta_le_0": 0.0161
+   },
+   "top_share+haem_minus_rank_max+haem": {
+    "point": 0.16228070175438597,
+    "ci_lo": 0.030701754385964897,
+    "ci_hi": 0.29385964912280704,
+    "p_delta_le_0": 0.0104
+   },
+   "top_share_minus_flipped_mean_one_factor": {
+    "point": 0.10087719298245612,
+    "ci_lo": -0.1535087719298246,
+    "ci_hi": 0.35526315789473684,
+    "p_delta_le_0": 0.2184
+   },
+   "top_share_minus_flipped_max_one_factor": {
+    "point": 0.17543859649122806,
+    "ci_lo": -0.14035087719298245,
+    "ci_hi": 0.4824561403508772,
+    "p_delta_le_0": 0.1418
+   },
+   "top_share+haem_minus_flipped_rank_mean+haem": {
+    "point": 0.09210526315789469,
+    "ci_lo": -0.06578947368421051,
+    "ci_hi": 0.2543859649122807,
+    "p_delta_le_0": 0.1303
+   },
+   "top_share+haem_minus_flipped_rank_max+haem": {
+    "point": 0.10526315789473684,
+    "ci_lo": -0.07017543859649122,
+    "ci_hi": 0.28070175438596495,
+    "p_delta_le_0": 0.1266
+   }
+  }
+ },
+ "feature_values": {
+  "AXL": {
+   "top_share": 0.10151221270533307,
+   "mean": 37.830519480519484,
+   "max": 591.4,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "efficacy_fail"
+  },
+  "CA9": {
+   "top_share": 0.25748134471882456,
+   "mean": 8.44090909090909,
+   "max": 334.7,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "CD19": {
+   "top_share": 0.32709551656920083,
+   "mean": 1.6655844155844155,
+   "max": 83.9,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "safe"
+  },
+  "CD22": {
+   "top_share": 0.22175504165693372,
+   "mean": 8.33961038961039,
+   "max": 284.8,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "safe"
+  },
+  "CD33": {
+   "top_share": 0.2667938411227688,
+   "mean": 4.7655844155844145,
+   "max": 195.8,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "safe"
+  },
+  "CD38": {
+   "top_share": 0.13127920969412027,
+   "mean": 23.203246753246756,
+   "max": 469.1,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "safe"
+  },
+  "CD40": {
+   "top_share": 0.0668981583227111,
+   "mean": 14.773376623376622,
+   "max": 152.2,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "efficacy_fail"
+  },
+  "CD44": {
+   "top_share": 0.06094902295369431,
+   "mean": 275.51233766233764,
+   "max": 2586.0,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "CD47": {
+   "top_share": 0.029819202987710434,
+   "mean": 134.57727272727274,
+   "max": 618.0,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "CD52": {
+   "top_share": 0.8215201176745975,
+   "mean": 224.70064935064931,
+   "max": 28427.8,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "CD74": {
+   "top_share": 0.21131285774035324,
+   "mean": 444.0298701298702,
+   "max": 14449.7,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "efficacy_fail"
+  },
+  "CD79B": {
+   "top_share": 0.5723076923076924,
+   "mean": 0.21103896103896103,
+   "max": 18.6,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "safe"
+  },
+  "CD80": {
+   "top_share": 0.16167979002624672,
+   "mean": 1.2370129870129871,
+   "max": 30.8,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "efficacy_fail"
+  },
+  "CEACAM5": {
+   "top_share": 0.28260202516109234,
+   "mean": 4.232467532467532,
+   "max": 184.2,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "CLDN18": {
+   "top_share": 0.3593466972587852,
+   "mean": 43.018181818181816,
+   "max": 2380.6,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "DLL3": {
+   "top_share": 0.2568393094289509,
+   "mean": 2.4448051948051948,
+   "max": 96.7,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "EGFR": {
+   "top_share": 0.051078234012629946,
+   "mean": 188.3792207792208,
+   "max": 1481.8,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "EPCAM": {
+   "top_share": 0.09244232570017878,
+   "mean": 190.69805194805195,
+   "max": 2714.8,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "ERBB2": {
+   "top_share": 0.04133123222911171,
+   "mean": 37.910389610389615,
+   "max": 241.3,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "ERBB3": {
+   "top_share": 0.08315732466829136,
+   "mean": 23.980519480519483,
+   "max": 307.1,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "efficacy_fail"
+  },
+  "F3": {
+   "top_share": 0.07482275227535169,
+   "mean": 104.59350649350651,
+   "max": 1205.2,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "FAP": {
+   "top_share": 0.16742987979393248,
+   "mean": 9.075324675324675,
+   "max": 234.0,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "FCER2": {
+   "top_share": 0.6880570409982174,
+   "mean": 1.092857142857143,
+   "max": 115.8,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "efficacy_fail"
+  },
+  "FOLH1": {
+   "top_share": 0.5678362573099415,
+   "mean": 16.655844155844157,
+   "max": 1456.5,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "FOLR1": {
+   "top_share": 0.20448707175953712,
+   "mean": 54.0948051948052,
+   "max": 1703.5,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "GPC3": {
+   "top_share": 0.21108967412849858,
+   "mean": 24.569480519480518,
+   "max": 798.7,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "GPNMB": {
+   "top_share": 0.19227215168212466,
+   "mean": 37.94675324675324,
+   "max": 1123.6,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "efficacy_fail"
+  },
+  "GPRC5D": {
+   "top_share": 0.26067708333333334,
+   "mean": 2.4935064935064934,
+   "max": 100.1,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "HLA-DRA": {
+   "top_share": 0.4107863444572305,
+   "mean": 42.32142857142858,
+   "max": 2677.3,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "efficacy_fail"
+  },
+  "IL3RA": {
+   "top_share": 0.20521192833081897,
+   "mean": 31.421428571428574,
+   "max": 993.0,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "excluded_ambiguous"
+  },
+  "MET": {
+   "top_share": 0.08701859371660611,
+   "mean": 75.95779220779221,
+   "max": 1017.9,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "MS4A1": {
+   "top_share": 0.8497070968981081,
+   "mean": 6.761688311688311,
+   "max": 884.8,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "safe"
+  },
+  "MSLN": {
+   "top_share": 0.2389617852696102,
+   "mean": 27.11948051948052,
+   "max": 998.0,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "MUC1": {
+   "top_share": 0.09335942864991073,
+   "mean": 18.91168831168831,
+   "max": 271.9,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "efficacy_fail"
+  },
+  "MUC16": {
+   "top_share": 0.17262555844018926,
+   "mean": 49.27337662337663,
+   "max": 1309.9,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "efficacy_fail"
+  },
+  "NCAM1": {
+   "top_share": 0.0727594041908609,
+   "mean": 128.6038961038961,
+   "max": 1441.0,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "toxic"
+  },
+  "NECTIN4": {
+   "top_share": 0.17237382050865926,
+   "mean": 28.00844155844156,
+   "max": 743.5,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "PTPRC": {
+   "top_share": 0.30941548113130773,
+   "mean": 87.77337662337662,
+   "max": 4182.4,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "excluded_control"
+  },
+  "SDC1": {
+   "top_share": 0.1737814950703368,
+   "mean": 74.68701298701299,
+   "max": 1998.8,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "efficacy_fail"
+  },
+  "SLAMF7": {
+   "top_share": 0.37317096195600863,
+   "mean": 6.87857142857143,
+   "max": 395.3,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "safe"
+  },
+  "SLC34A2": {
+   "top_share": 0.2703548469315511,
+   "mean": 45.858441558441555,
+   "max": 1909.3,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "efficacy_fail"
+  },
+  "TACSTD2": {
+   "top_share": 0.2581519495074618,
+   "mean": 440.3376623376623,
+   "max": 17505.8,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  },
+  "TNFRSF17": {
+   "top_share": 0.7894370122630991,
+   "mean": 4.65974025974026,
+   "max": 566.5,
+   "n_cell_types": 154,
+   "haem_home": true,
+   "label": "safe"
+  },
+  "TNFRSF8": {
+   "top_share": 0.25739264592440214,
+   "mean": 2.5253246753246756,
+   "max": 100.1,
+   "n_cell_types": 154,
+   "haem_home": false,
+   "label": "safe"
+  }
+ }
+}
