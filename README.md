@@ -37,3 +37,5 @@ These requirements describe the verified pilot environment only, not dependencie
 Use the current status, decision records, source tables, and actual data before proposing work. Keep validity repair separate from substantive contribution. Do not infer novelty from a missing search hit, count guides as independent tumors, reinterpret absent data as zero effects, or rewrite negative findings as successes. The student writes submitted paper, abstract, poster, and research-plan prose; assistance provides evidence, analyses, figures, outlines, and feedback.
 
 Keep this repository private. No collaborator or third-party application access has been granted by creating it. Third-party data and materials retain their original provenance and terms; this repository does not grant a new license over them.
+
+Preregistration: https://doi.org/10.17605/OSF.IO/4QS9K (registered 2026-10-27)
