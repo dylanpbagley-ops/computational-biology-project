@@ -60,7 +60,7 @@ Grade 2–4 on-target liver enzyme toxicity; trial halted. Framework: 8 cell typ
 non-expendable home — the two-factor rule rejects it on the expendability axis, not confinement.
 
 ### A5. EpCAM / catumaxomab
-On-target hepatotoxicity; catumaxomab withdrawn. Framework: 35 cell types, non-expendable home.
+On-target hepatotoxicity documented; 2017 withdrawal was for commercial reasons, not safety. Framework: 35 cell types, non-expendable home.
 
 ### A6. NCAM1 (CD56) / lorvotuzumab mertansine
 Dose-limiting peripheral neuropathy; program halted. Framework: 31 cell types, neural home.
