@@ -1,15 +1,15 @@
 {
  "PROTEIN, mass spectrometry, 60 samples across 20 tissues (PRIMARY)": {
   "solid": {
-   "sep": 0.4444444444444444,
-   "p": 0.6555444555444555,
+   "sep": 0.4666666666666667,
+   "p": 0.6037712287712288,
    "n_safe": 6,
-   "n_toxic": 9
+   "n_toxic": 10
   },
-  "one_factor": 0.6428571428571429,
-  "p_one": 0.12745436272818636,
-  "two_factor": 0.6428571428571429,
-  "p_two": 0.12745436272818636,
+  "one_factor": 0.6558441558441559,
+  "p_one": 0.09957950210248949,
+  "two_factor": 0.6558441558441559,
+  "p_two": 0.09957950210248949,
   "n_groups": 14,
   "n_haem_homes": 0,
   "columns": {
@@ -132,6 +132,21 @@
      [
       "jejunum",
       1.0
+     ]
+    ]
+   },
+   "ERBB3": {
+    "top_share": 0.6787682778596849,
+    "n_types": 2,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
+      0.6787682778596849
+     ],
+     [
+      "cerebral cortex",
+      0.3212317221403151
      ]
     ]
    },
@@ -362,6 +377,25 @@
      ]
     ]
    },
+   "F3": {
+    "top_share": 0.3456865104168735,
+    "n_types": 6,
+    "home": "ileum",
+    "top3": [
+     [
+      "ileum",
+      0.3456865104168735
+     ],
+     [
+      "cerebral cortex",
+      0.19524326384211774
+     ],
+     [
+      "jejunum",
+      0.1474157569349827
+     ]
+    ]
+   },
    "EPCAM": {
     "top_share": 0.36122289762711307,
     "n_types": 8,
@@ -378,6 +412,25 @@
      [
       "ileum",
       0.12139581316044763
+     ]
+    ]
+   },
+   "GPNMB": {
+    "top_share": 0.12969563485526764,
+    "n_types": 15,
+    "home": "skin",
+    "top3": [
+     [
+      "skin",
+      0.12969563485526764
+     ],
+     [
+      "ovary",
+      0.12494064221555791
+     ],
+     [
+      "heart muscle",
+      0.09109421533390506
      ]
     ]
    },
@@ -492,6 +545,25 @@
      [
       "salivary gland",
       0.0046728711381918845
+     ]
+    ]
+   },
+   "AXL": {
+    "top_share": 0.13281055215007684,
+    "n_types": 18,
+    "home": "spleen",
+    "top3": [
+     [
+      "spleen",
+      0.13281055215007684
+     ],
+     [
+      "bone marrow",
+      0.1179887218358444
+     ],
+     [
+      "ileum",
+      0.09807803069517593
      ]
     ]
    },
@@ -624,15 +696,15 @@
  },
  "PROTEIN, mass spectrometry, summarised to 20 tissues": {
   "solid": {
-   "sep": 0.5,
-   "p": 0.5226773226773227,
+   "sep": 0.5166666666666667,
+   "p": 0.4788961038961039,
    "n_safe": 6,
-   "n_toxic": 9
+   "n_toxic": 10
   },
-  "one_factor": 0.65,
-  "p_one": 0.1148044259778701,
-  "two_factor": 0.65,
-  "p_two": 0.1148044259778701,
+  "one_factor": 0.6623376623376623,
+  "p_one": 0.08977955110224449,
+  "two_factor": 0.6623376623376623,
+  "p_two": 0.08977955110224449,
   "n_groups": 13,
   "n_haem_homes": 0,
   "columns": {
@@ -754,6 +826,17 @@
     "top3": [
      [
       "jejunum",
+      1.0
+     ]
+    ]
+   },
+   "ERBB3": {
+    "top_share": 1.0,
+    "n_types": 1,
+    "home": "lung",
+    "top3": [
+     [
+      "lung",
       1.0
      ]
     ]
@@ -985,6 +1068,25 @@
      ]
     ]
    },
+   "F3": {
+    "top_share": 0.36231867690456093,
+    "n_types": 6,
+    "home": "ileum",
+    "top3": [
+     [
+      "ileum",
+      0.36231867690456093
+     ],
+     [
+      "cerebral cortex",
+      0.1941155190858661
+     ],
+     [
+      "jejunum",
+      0.15146120283761585
+     ]
+    ]
+   },
    "EPCAM": {
     "top_share": 0.35889050089256247,
     "n_types": 8,
@@ -1001,6 +1103,25 @@
      [
       "ileum",
       0.11532292742197846
+     ]
+    ]
+   },
+   "GPNMB": {
+    "top_share": 0.14376011457694227,
+    "n_types": 15,
+    "home": "skin",
+    "top3": [
+     [
+      "skin",
+      0.14376011457694227
+     ],
+     [
+      "ovary",
+      0.1154467123572243
+     ],
+     [
+      "colon",
+      0.08803084258938375
      ]
     ]
    },
@@ -1115,6 +1236,25 @@
      [
       "salivary gland",
       0.0053402298165720055
+     ]
+    ]
+   },
+   "AXL": {
+    "top_share": 0.13287274940659166,
+    "n_types": 18,
+    "home": "spleen",
+    "top3": [
+     [
+      "spleen",
+      0.13287274940659166
+     ],
+     [
+      "bone marrow",
+      0.12177563886938422
+     ],
+     [
+      "ileum",
+      0.09876962999325489
      ]
     ]
    },
@@ -1371,6 +1511,25 @@
      [
       "Bone marrow | hematopoietic cells",
       0.07407407407407407
+     ]
+    ]
+   },
+   "ERBB3": {
+    "top_share": 0.017391304347826087,
+    "n_types": 76,
+    "home": "Adrenal gland | glandular cells",
+    "top3": [
+     [
+      "Adrenal gland | glandular cells",
+      0.017391304347826087
+     ],
+     [
+      "Appendix | glandular cells",
+      0.017391304347826087
+     ],
+     [
+      "Caudate | neuronal cells",
+      0.017391304347826087
      ]
     ]
    },
@@ -1792,6 +1951,25 @@
      ]
     ]
    },
+   "AXL": {
+    "top_share": 0.06521739130434782,
+    "n_types": 30,
+    "home": "Skeletal muscle | myocytes",
+    "top3": [
+     [
+      "Skeletal muscle | myocytes",
+      0.06521739130434782
+     ],
+     [
+      "Testis | cells in seminiferous ducts",
+      0.06521739130434782
+     ],
+     [
+      "Colon | glandular cells",
+      0.043478260869565216
+     ]
+    ]
+   },
    "CD19": {
     "top_share": 0.1,
     "n_types": 12,
@@ -2057,6 +2235,25 @@
      [
       "Bone marrow | hematopoietic cells",
       0.07407407407407407
+     ]
+    ]
+   },
+   "ERBB3": {
+    "top_share": 0.017391304347826087,
+    "n_types": 76,
+    "home": "Adrenal gland | glandular cells",
+    "top3": [
+     [
+      "Adrenal gland | glandular cells",
+      0.017391304347826087
+     ],
+     [
+      "Appendix | glandular cells",
+      0.017391304347826087
+     ],
+     [
+      "Caudate | neuronal cells",
+      0.017391304347826087
      ]
     ]
    },
