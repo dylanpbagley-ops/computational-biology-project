@@ -62,7 +62,9 @@ def main():
     fig.subplots_adjust(top=0.94, left=0.16, right=0.97)
     ys = list(range(len(rows)))
     vals = [r[2] * 100 for r in rows]
-    cols = [BLUE if r[1] == 'toxic' else GRAY for r in rows]
+    # Color system across all poster figures: BLUE = tolerated / the project's side,
+    # GRAY = toxic / the risk side (matches the methods schematic's mini bars).
+    cols = [GRAY if r[1] == 'toxic' else BLUE for r in rows]
     ax.barh(ys, vals, color=cols, height=0.68)
     for y, r, v in zip(ys, rows, vals):
         if r[0] in ('CD47', 'MS4A1'):   # anchor examples of the confinement story
@@ -79,8 +81,8 @@ def main():
     ax.set_title('Target confinement: 30 frozen antibody-target candidates',
                  fontsize=12.5, pad=12)
     ax.spines[['top', 'right']].set_visible(False)
-    ax.legend(handles=[Patch(color=BLUE, label='toxic (%d)' % n_toxic),
-                       Patch(color=GRAY, label='tolerated (%d)' % (len(rows) - n_toxic))],
+    ax.legend(handles=[Patch(color=GRAY, label='toxic (%d)' % n_toxic),
+                       Patch(color=BLUE, label='tolerated (%d)' % (len(rows) - n_toxic))],
               loc='lower right', fontsize=9, frameon=False)
 
     out_dir = os.path.normpath(OUT_DIR)
